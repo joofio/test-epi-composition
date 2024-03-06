@@ -4,7 +4,7 @@ Instance: composition-en-639cce8c495cbcbb29789688f0c06663
 InstanceOf: CompositionUvEpi
 Title: "Composition for pombiliti Package Leaflet"
 Description:  "Composition for pombiliti Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Pombiliti is and what it is used for 
 2. What you need to know before you are given Pombiliti 
 3. How Pombiliti is given 
 4. Possible side effects 
 5. How to store Pombiliti 
-6. Contents of the pack and other information  
-         </div>"""   
+6. Contents of the pack and other information  </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -140,8 +139,8 @@ Female patients of childbearing potential must use reliable birth control method
 4 weeks after stopping both medicines. </p>
 <p>Driving and using machines 
 You may feel dizzy, sleepy, or have low blood pressure (hypotensive) after having Pombiliti or 
-pre-treatment medicines. If this happens, do not drive or use any tools or machines. </p>
-<p>Pombiliti contains sodium 
+pre-treatment medicines. If this happens, do not drive or use any tools or machines. 
+Pombiliti contains sodium 
 This medicinal product contains 10.5 mg sodium (main component of cooking/table salt) in each vial. 
 This is equivalent to 0.52% of the recommended maximum daily dietary intake of sodium for an adult. </p>         </div>"""   
                     
@@ -366,8 +365,7 @@ Amicus Therapeutics Europe Limited<br />
 Tel: (+43) 0800 909 E-Mail: MedInfo@amicusrx.com 
 Espa a 
 Amicus Therapeutics S.L.U. 
-Tel: (+34) 900 941 616<br />
-e-mail: MedInfo@amicusrx.com </p>
+Tel: (+34) 900 941 e-mail: MedInfo@amicusrx.com </p>
 <p>Polska 
 Amicus Therapeutics Europe Limited<br />
 Tel.: (+48) 0080 012 15e-mail: MedInfo@amicusrx.com 

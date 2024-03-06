@@ -4,7 +4,7 @@ Instance: composition-en-f40a84cb5d324bdca9e9009c23b60458
 InstanceOf: CompositionUvEpi
 Title: "Composition for tigecycline Package Leaflet"
 Description:  "Composition for tigecycline Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
-1. What Tigecycline Accord is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
+1. What Tigecycline Accord is and what it is used for<br />
 2. What you need to know before you receive  Tigecycline Accord 
 3. How Tigecycline Accord is given 
 4. Possible side effects 
 5. How to store Tigecycline Accord 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -244,8 +244,8 @@ The active substance is tigecycline. Each vial contains 50 mg of tigecycline. </
 <p>What Tigecycline Accord looks like and contents of the pack<br />
 Tigecycline Accord is supplied as a powder for solution for infusion in a vial and looks like an orange 
 powder or cake before it is diluted. These vials are distributed to the hospital in a one vial pack or ten 
-vial pack. Not all pack sizes may be marketed.  </p>
-<p>The powder should be mixed in the vial with a small amount of solution. The vial should be gently 
+vial pack. Not all pack sizes may be marketed.<br />
+The powder should be mixed in the vial with a small amount of solution. The vial should be gently 
 swirled until the medicine is dissolved. Thereafter, the solution should be immediately withdrawn 
 from the vial and added to a 100 ml intravenous bag or other suitable infusion container in the 
 hospital.   </p>

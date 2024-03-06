@@ -4,7 +4,7 @@ Instance: composition-en-33fea74e578b9f917fc6255f1897937f
 InstanceOf: CompositionUvEpi
 Title: "Composition for briumvi Package Leaflet"
 Description:  "Composition for briumvi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Briumvi is and what it is used for 
-2. What you need to know before you are given Briumvi 
-3. How Briumvi is given 
-4. Possible side effects 
-5. How to store Briumvi 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Briumvi is and what it is used for </li>
+<li>What you need to know before you are given Briumvi </li>
+<li>How Briumvi is given </li>
+<li>Possible side effects </li>
+<li>How to store Briumvi </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -385,97 +385,75 @@ Block 7, City North Business Campus
 Stamullen 
 Co. Meath<br />
 Ireland 
-K32 YD 
-Neuraxpharm Pharmaceuticals, S.L. 
+K32 YDNeuraxpharm Pharmaceuticals, S.L. 
 Avda. Barcelona 08970 Sant Joan Desp <br />
 Barcelona - Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Neuraxpharm Belgium 
-T l/Tel: +32 (0)2 732 56<br />
-Lietuva 
+T l/Tel: +32 (0)2 732 56 Lietuva 
 Neuraxpharm Pharmaceuticals, S.L. 
-Tel:+34 93 475 96  </p>
-<p>Neuraxpharm Pharmaceuticals, S.L. 
-Te .: +34 93 475 96<br />
-Luxembourg/Luxemburg 
+Tel:+34 93 475 96 <br />
+Neuraxpharm Pharmaceuticals, S.L. 
+Te .: +34 93 475 96 Luxembourg/Luxemburg 
 Neuraxpharm France 
-T l/Tel: +32 474 62 24<br />
- esk  republika 
+T l/Tel: +32 474 62 24  esk  republika 
 Neuraxpharm Bohemia s.r.o. 
 Tel: +420 739 232 Magyarorsz g 
 Neuraxpharm Hungary Kft. 
-Tel.: +3630 464 6 </p>
-<p>Danmark 
+Tel.: +3630 464 6Danmark 
 Neuraxpharm Sweden AB 
 Tlf: +46 (0)8 30 91 (Sverige) </p>
 <p>Malta 
 Neuraxpharm Pharmaceuticals, S.L. 
-Tel.:+34 93 475 96<br />
-Deutschland 
+Tel.:+34 93 475 96 Deutschland 
 neuraxpharm Arzneimittel GmbH 
 Tel: +49 2173 1060 0 </p>
 <p>Nederland 
 Neuraxpharm Netherlands B.V. 
-Tel.: +31 70 208 5 </p>
-<p>Eesti 
+Tel.: +31 70 208 5Eesti 
 Neuraxpharm Pharmaceuticals, S.L. 
-Tel: +34 93 475 96<br />
-Norge 
+Tel: +34 93 475 96 Norge 
 Neuraxpharm Sweden AB 
 Tlf:+46 (0)8 30 91 (Sverige) </p>
 <p>Brain Therapeutics PC 
- : +302109931 
- sterreich 
+ : +302109931 sterreich 
 Neuraxpharm Austria GmbH 
-Tel.:+ 43 (0) 2236 320 
-Espa a 
+Tel.:+ 43 (0) 2236 320Espa a 
 Neuraxpharm Spain, S.L.U. 
-Tel: +34 93 475 96<br />
-Polska 
+Tel: +34 93 475 96 Polska 
 Neuraxpharm Polska Sp. z.o.o. 
-Tel.: +48 783 423<br />
-France 
+Tel.: +48 783 423 France 
 Neuraxpharm France 
-T l: +33 1.53.62.42. Portugal 
+T l: +33 1.53.62.42.Portugal 
 Neuraxpharm Portugal, Unipessoal Lda 
-Tel: +351 910 259<br />
-Hrvatska 
+Tel: +351 910 259 Hrvatska 
 Neuraxpharm Pharmaceuticals, S.L. 
-Tel: +34 93 475 96  </p>
-<p>Ireland 
+Tel: +34 93 475 96 Ireland 
 Neuraxpharm Ireland Ltd 
-Tel: +353 (0)1 428 7777 <br />
-Rom nia 
+Tel: +353 (0)1 428 7Rom nia 
 Neuraxpharm Pharmaceuticals, S.L. 
-Tel: +34 93 475 96  </p>
-<p>Slovenija 
+Tel: +34 93 475 96 Slovenija 
 Neuraxpharm Pharmaceuticals, S.L. 
-Tel: +34 93 475 96  </p>
-<p>sland 
+Tel: +34 93 475 96  sland 
 Neuraxpharm Sweden AB 
 S mi: +46 (0)8 30 91 (Sv j ) </p>
 <p>Slovensk  republika 
 Neuraxpharm Slovakia a.s. 
 Tel: +421 255 425 Italia 
 Neuraxpharm Italy S.p.A. 
-Tel: +39 0736 980 
-Suomi/Finland 
+Tel: +39 0736 980Suomi/Finland 
 Neuraxpharm Sweden AB 
 Puh/Tel: +46 (0)8 30 91 (Ruotsi/Sverige) </p>
 <p>Brain Therapeutics PC 
- : +302109931 
-Sverige 
+ : +302109931Sverige 
 Neuraxpharm Sweden AB 
-Tel: +46 (0)8 30 91<br />
-Latvija 
+Tel: +46 (0)8 30 91 Latvija 
 Neuraxpharm Pharmaceuticals, S.L. 
-Tel: +34 93 475 96<br />
-United Kingdom (Northern Ireland) 
+Tel: +34 93 475 96 United Kingdom (Northern Ireland) 
 Neuraxpharm Ireland Ltd 
-Tel: +353 (0)1 428 7777   </p>
-<p>This leaflet was last revised </p>
+Tel: +353 (0)1 428 7This leaflet was last revised </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

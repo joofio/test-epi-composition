@@ -4,7 +4,7 @@ Instance: composition-en-987766e2219c5177d278b3430b3652be
 InstanceOf: CompositionUvEpi
 Title: "Composition for orgovyx Package Leaflet"
 Description:  "Composition for orgovyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Orgovyx is and what it is used for  
-2. What you need to know before you take Orgovyx  
-3. How to take Orgovyx 
-4. Possible side effects  
-5. How to store Orgovyx  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Orgovyx is and what it is used for  </li>
+<li>What you need to know before you take Orgovyx  </li>
+<li>How to take Orgovyx </li>
+<li>Possible side effects  </li>
+<li>How to store Orgovyx  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -292,11 +292,9 @@ Authorisation Holder: </p>
 <p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IS / IT / LT / LV / LX / MT / NL / NO 
 / PT / PL / RO / SE / SI / SK / UK(NI) / ES 
 Accord Healthcare S.L.U. 
-Tel: +34 93 301 00<br />
-EL 
+Tel: +34 93 301 00 EL 
 Win Medica Pharmaceutical S.A.<br />
-Tel: +30 210 7488  </p>
-<p>This leaflet was last revised in </p>
+Tel: +30 210 7488 This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

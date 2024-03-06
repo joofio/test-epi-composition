@@ -4,7 +4,7 @@ Instance: composition-en-96431077feaab94e628cf99788cf8afd
 InstanceOf: CompositionUvEpi
 Title: "Composition for vazkepa Package Leaflet"
 Description:  "Composition for vazkepa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Vazkepa is and what it is used for 
-2. What you need to know before you take Vazkepa 
-3. How to take Vazkepa 
-4. Possible side effects 
-5. How to store Vazkepa 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Vazkepa is and what it is used for </li>
+<li>What you need to know before you take Vazkepa </li>
+<li>How to take Vazkepa </li>
+<li>Possible side effects </li>
+<li>How to store Vazkepa </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -186,8 +186,8 @@ an uncommon side effect (may affect up to 1 in 100 people)
 * rash and an itchy skin 
 * stomach pain or cramps 
 * diarrhoea 
-* nausea and vomiting </p>
-<p>Other side effects that may occur </p>
+* nausea and vomiting 
+Other side effects that may occur </p>
 <p>Common side effects (may affect up to 1 in 10 people): 
 * swelling of your hands, arms, legs and feet<br />
 * pain in muscles, bones or joints 

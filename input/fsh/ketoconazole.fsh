@@ -4,7 +4,7 @@ Instance: composition-en-a28a8b9246548829f22c8b8c14ca6138
 InstanceOf: CompositionUvEpi
 Title: "Composition for ketoconazole Package Leaflet"
 Description:  "Composition for ketoconazole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ketoconazole HRA is and what it is used for  
-2. What you need to know before you take Ketoconazole HRA  
-3. How to take Ketoconazole HRA  
-4. Possible side effects  
-5. How to store Ketoconazole HRA  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ketoconazole HRA is and what it is used for  </li>
+<li>What you need to know before you take Ketoconazole HRA  </li>
+<li>How to take Ketoconazole HRA  </li>
+<li>Possible side effects  </li>
+<li>How to store Ketoconazole HRA  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -248,11 +248,13 @@ should contact your doctor immediately if you have symptoms such as weakness, fa
 nausea, vomiting, low blood pressure. </p>
 <p>Very common side effects (may affect more than 1 in 10 people): </p>
 <ul>
-<li>An elevated levels of liver enzymes in your blood  </li>
-</ul>
-<p>Common side effects (may affect up to 1 in 10 people): </p>
-<ul>
-<li>Nausea </li>
+<li>
+<p>An elevated levels of liver enzymes in your blood<br />
+Common side effects (may affect up to 1 in 10 people): </p>
+</li>
+<li>
+<p>Nausea </p>
+</li>
 <li>Abdominal pain </li>
 <li>Vomiting </li>
 <li>Diarrhoea </li>
@@ -344,8 +346,7 @@ HRA Pharma Rare Diseases<br />
 200 avenue de Paris 
 92320 CHATILLON 
 France 
-Tel : + 33 1 40 33 93<br />
-Manufacturer 
+Tel : + 33 1 40 33 93 Manufacturer 
 Centre Sp cialit s Pharmaceutiques 
 76-78 avenue du Midi 
 63800 Courron d Auvergne 

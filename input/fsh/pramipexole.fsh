@@ -4,7 +4,7 @@ Instance: composition-en-261a55b4cd341177b15693bfb98631a1
 InstanceOf: CompositionUvEpi
 Title: "Composition for pramipexole Package Leaflet"
 Description:  "Composition for pramipexole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Pramipexole Accord is and what it is used for 
-2. What you need to know before you take Pramipexole Accord  
-3. How to take Pramipexole Accord  
+2. What you need to know before you take Pramipexole Accord<br />
+3. How to take Pramipexole Accord<br />
 4. Possible side effects 
-5. How to store Pramipexole Accord  
-6. Contents of the pack and other information          </div>"""   
+5. How to store Pramipexole Accord<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -141,8 +141,8 @@ If you are taking levodopa, the dose of levodopa is recommended to be reduced wh
 treatment with Pramipexole Accord. </p>
 <p>Take care if you are using any medicines that calm you down (have a sedative effect) or if you are 
 drinking alcohol. In these cases Pramipexole Accord may affect your ability to drive and operate 
-machinery. </p>
-<p>Pramipexole Accord with food, drink and alcohol 
+machinery. 
+Pramipexole Accord with food, drink and alcohol 
 You should be cautious while drinking alcohol during treatment with Pramipexole Accord. 
 Pramipexole Accord can be taken with or without food. </p>
 <p>Pregnancy and breast-feeding 
@@ -178,7 +178,7 @@ The daily dose is to be taken divided into 3 equal doses. </p>
 Number of tablets 
 1 Pramipexole Accord tablet 0.088 mg three times a day 
 Total daily dose (mg) 
-0. This will be increased every 5-7 days as directed by your doctor until your symptoms are controlled 
+0.This will be increased every 5-7 days as directed by your doctor until your symptoms are controlled 
 (maintenance dose). </p>
 <p>2nd week 
 3rd week 
@@ -214,8 +214,7 @@ usual starting dose is just 1 Pramipexole Accord tablet 0.088 mg a day. </p>
 <p>If you take more Pramipexole Accord than you should 
 If you accidentally take too many tablets, 
 * Contact your doctor or nearest hospital casualty department immediately for advice. 
-* You may experience vomiting, restlessness, or any of the side effects as described in chapter 4 
- Possible side effects . </p>
+* You may experience vomiting, restlessness, or any of the side effects as described in chapter 4. Possible side effects . </p>
 <p>If you forget to take Pramipexole Accord 
 Do not worry. Simply leave out that dose completely and then take your next dose at the right time. 
 Do not try to make up for the missed dose. </p>
@@ -254,8 +253,8 @@ may affect up to 1 in 1,000 people
 Very rare 
 may affect up to 1 in 10,000 people 
 Not known 
-Frequency cannot be estimated from the available data </p>
-<p>If you suffer from Parkinson s disease, you may experience the following side effects: </p>
+Frequency cannot be estimated from the available data 
+If you suffer from Parkinson s disease, you may experience the following side effects: </p>
 <p>Very common: 
 * Dyskinesia (e.g. abnormal, uncontrolled movements of the limbs) 
 * Sleepiness 
@@ -306,13 +305,13 @@ others, for example, an increased sexual drive. </li>
 <p>Not known:</p>
 <ul>
 <li>After stopping or reducing your Pramipexole Accord treatment: Depression, apathy, anxiety, 
-fatigue, sweating or pain may occur (called dopamine agonist withdrawal syndrome or DAWS).  </li>
-</ul>
-<p>Tell your doctor if you experience any of these behaviours; he will discuss ways of managing or 
+fatigue, sweating or pain may occur (called dopamine agonist withdrawal syndrome or DAWS).<br />
+Tell your doctor if you experience any of these behaviours; he will discuss ways of managing or 
 reducing the symptoms. 
 For the side effects marked with * a precise frequency estimation is not possible, since these side 
 effects were not observed in clinical studies among 2,762 patients treated with pramipexole. The 
-frequency category is probably not greater than  uncommon . </p>
+frequency category is probably not greater than  uncommon . </li>
+</ul>
 <p>If you suffer from other indication, you may experience the following side effects: </p>
 <p>Very common: 
   Nausea (sickness) </p>

@@ -4,7 +4,7 @@ Instance: composition-en-5d6f677fa9eaa34be2202ffe566f8e54
 InstanceOf: CompositionUvEpi
 Title: "Composition for hizentra Package Leaflet"
 Description:  "Composition for hizentra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Hizentra is and what it is used for 
 2. What you need to know before you use Hizentra 
 3. How to use Hizentra 
 4. Possible side effects 
 5. How to store Hizentra 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -154,8 +153,8 @@ section 3  How to use Hizentra  must be closely followed. </p>
 * there has been a long interval (more than eight weeks) since the previous infusion. 
 In these cases, it is recommended that you are monitored during the first infusion and for an 
 hour afterwards. If the points above do not apply for you it is recommended that you are 
-observed for at least 20 minutes after administration. </p>
-<p>Other medicines and Hizentra </p>
+observed for at least 20 minutes after administration. 
+Other medicines and Hizentra </p>
 <p>Tell your doctor or healthcare professional if you are using, have recently used or might use any 
 other medicines. </p>
 <p>You must not mix other medicines with Hizentra. </p>
@@ -198,25 +197,18 @@ plasma are administered, the possibility of passing on infection cannot be total
 applies to any unknown or emerging viruses or other types of infections. </p>
 <p>The measures taken are considered effective for enveloped viruses such as human immunodeficiency 
 virus (HIV, the AIDS virus), hepatitis B virus and hepatitis C virus (liver inflammation), and for the 
-non-enveloped hepatitis A virus and parvovirus B1</p>         </div>"""   
+non-enveloped hepatitis A virus and parvovirus B19. <br />
+It is strongly recommended that every time you receive a dose of Hizentra the name and batch 
+number of the product are recorded in order to maintain a record of the batches used  (see 
+section 3  How to use Hizentra ). </p>
+<p>Hizentra contains sodium 
+This medicine contains less than 1 mmol sodium (23 mg) per vial/syringe, that is to say essentially 
+ sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take hizentra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take hizentra"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>It is strongly recommended that every time you receive a dose of Hizentra the name and batch 
-number of the product are recorded in order to maintain a record of the batches used  (see 
-section 3  How to use Hizentra ). </p>
-<p>Hizentra contains sodium 
-This medicine contains less than 1 mmol sodium (23 mg) per vial/syringe, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. </p>
@@ -336,12 +328,13 @@ professional. </p>
 <p>If you use more Hizentra than you should 
 If you think you have had too much Hizentra, speak to your doctor as soon as possible. </p>
 <p>If you forget to use Hizentra 
-If you think you have missed a dose, speak to your doctor as soon as possible. </p>         </div>"""      
+If you think you have missed a dose, speak to your doctor as soon as possible. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store hizentra"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store hizentra"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>In isolated cases, you may be allergic (hypersensitive) to immunoglobulins and allergic 
@@ -405,11 +398,10 @@ side effects not listed in this leaflet. You can also report side effects direct
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store hizentra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store hizentra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Keep this medicine out of the sight and reach of children. </li>
@@ -424,4 +416,100 @@ opening the vial. </li>
 professional how to throw away medicines you no longer use. These measures will help protect 
 the environment. </li>
 </ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Hizentra contains 
+* The active substance is human normal immunoglobulin. One ml contains 200 mg of human 
+normal immunoglobulin, of which at least 98% is immunoglobulin type G (IgG). 
+The approximate percentage of IgG subclasses is as follows: 
+IgG1 .............. 69% 
+IgG2 .............. 26% 
+IgG3 .............. 3% 
+IgG4 .............. 2% 
+This medicine contains trace amounts of IgA (not more than 50 micrograms /ml). </p>
+<ul>
+<li>The other ingredients (excipients) are L-proline, polysorbate 80 and water for injections. </li>
+</ul>
+<p>What Hizentra looks like and contents of the pack 
+Hizentra is a solution for subcutaneous injection (200 mg/ml). The colour can vary from pale-yellow 
+to light-brown. 
+Hizentra is available in vials of 5, 10, 20 or 50 ml. 
+Hizentra is also available in pre-filled syringes of 5, 10 and 20 ml.  </p>
+<p>Pack sizes 
+Packs of 1, 10 or 20 vials </p>
+<p>Hizentra is also available in packs of 1 or 10 pre-filled syringes. 
+Please note that alcohol swabs, needles and other supplies or equipment are not contained in the pack. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+CSL Behring GmbH 
+Emil-von-Behring-Strasse D-35041 Marburg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+CSL Behring NV 
+T l/Tel: +32 15 28 89 Luxembourg/Luxemburg 
+CSL Behring NV 
+T l/Tel: +32 15 28 89   </p>
+<p>: +359 2 810 3Magyarorsz g 
+CSL Behring Kft. 
+Tel: +36 1 213 4 esk  republika 
+CSL Behring s.r.o. 
+Tel: + 420 702 137 Malta 
+AM Mangion Ltd. 
+Tel: +356 2397 6Danmark 
+CSL Behring AB 
+Tel: +46 8 544 966 Nederland 
+CSL Behring BV 
+Tel: + 31 85 111 96 Deutschland 
+CSL Behring GmbH 
+Tel: +49 69 30584Norge 
+CSL Behring AB 
+Tlf: +46 8 544 966 Eesti 
+CentralPharma Communications O<br />
+Tel: +3726015 sterreich 
+CSL Behring GmbH 
+Tel: +43 1 80101 2<br />
+CSL Behring <br />
+ : +30 210 7255 Polska 
+CSL Behring Sp. z o.o. 
+Tel: +48 22 213 22 Espa a 
+CSL Behring S.A. 
+Tel: +34 933 67 1Portugal 
+CSL Behring Lda 
+Tel: +351 21 782 62 France 
+CSL Behring SA 
+T l: + 33 1 53 58 54 Hrvatska 
+Marti Farm d.o.o<br />
+Tel: +385 1 5588Rom nia 
+Prisum International Trading srl 
+Tel: +40 21 322 01 Slovenija 
+NEOX s.r.o. - podru nica v Sloveniji 
+Tel: +386 41 42 0Ireland 
+CSL Behring GmbH 
+Tel: +49 69 305 17Slovensk  republika 
+CSL Behring s.r.o.<br />
+Tel: +421 911 653  sland 
+CSL Behring AB 
+S mi: +46 8 544 966 Suomi/Finland 
+CSL Behring AB 
+Puh/Tel: +46 8 544 966 Italia 
+CSL Behring S.p.A. 
+Tel: +39 02 34964 Sverige 
+CSL Behring AB 
+Tel: +46 8 544 966 <br />
+CSL Behring <br />
+ : +30 210 7255 United Kingdom (Northern Ireland) 
+CSL Behring GmbH 
+Tel: +49 69 30517Latvija 
+CentralPharma Communications SIA 
+Tel: +371 6 7450Lietuva 
+CentralPharma Communications UAB 
+Tel: +370 5 243 0This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

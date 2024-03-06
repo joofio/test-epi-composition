@@ -4,7 +4,7 @@ Instance: composition-en-53644ac8be35bb2e5f6359de25449b5d
 InstanceOf: CompositionUvEpi
 Title: "Composition for aranesp Package Leaflet"
 Description:  "Composition for aranesp Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,15 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Aranesp is and what it is used for 
-2. What you need to know before you use Aranesp 
-3. How to use Aranesp 
-4. Possible side effects 
-5. How to store Aranesp 
-6. Contents of the pack and other information  
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Aranesp is and what it is used for </li>
+<li>What you need to know before you use Aranesp </li>
+<li>How to use Aranesp </li>
+<li>Possible side effects </li>
+<li>How to store Aranesp </li>
+<li>Contents of the pack and other information  </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -349,8 +349,7 @@ chloride, polysorbate 80 and water for injections. </li>
 (1- and 4-pack) or without (1-pack) a blister-wrapping. Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Amgen Europe B.V.<br />
-Minervum 7061<br />
-4817 ZK Breda<br />
+Minervum 74817 ZK Breda<br />
 The Netherlands </p>
 <p>Marketing Authorisation Holder<br />
 Amgen Europe B.V. 
@@ -371,87 +370,67 @@ Belgium </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-Tel/T l: +32 (0)2 7752 
-Lietuva 
+Tel/T l: +32 (0)2 7752Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
 Tel: +370 5 219 7  </p>
 <p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
 s.a. Amgen<br />
 Belgique/Belgien 
-Tel/T l: +32 (0)2 7752 
- esk  republika 
+Tel/T l: +32 (0)2 7752 esk  republika 
 Amgen s.r.o. 
 Tel: +420 221 773 Magyarorsz g 
 Amgen Kft. 
 Tel.: +36 1 35 44 Danmark 
 Amgen, filial af Amgen AB, Sverige 
-Tlf: +45 39617 
-Malta 
+Tlf: +45 39617Malta 
 Amgen B.V. 
 The Netherlands 
-Tel: +31 (0)76 5732 
-Deutschland 
+Tel: +31 (0)76 5732Deutschland 
 AMGEN GmbH </p>
-<p>Tel.: +49 89 1490 </p>
-<p>Nederland 
+<p>Tel.: +49 89 1490Nederland 
 Amgen B.V. 
-Tel: +31 (0)76 5732 
-Eesti 
+Tel: +31 (0)76 5732Eesti 
 Amgen Switzerland AG Vilniaus filialas 
 Tel: +372 586 09Norge 
 Amgen AB 
-Tel: +47 23308 </p>
-<p>Amgen      . . .<br />
- .: +30 210 3447 
- sterreich 
+Tel: +47 23308<br />
+Amgen      . . .<br />
+ .: +30 210 3447 sterreich 
 Amgen GmbH<br />
-Tel: +43 (0)1 50  </p>
-<p>Espa a 
+Tel: +43 (0)1 50 Espa a 
 Amgen S.A.<br />
-Tel: +34 93 600 18 60  </p>
-<p>Polska 
+Tel: +34 93 600 18 Polska 
 Amgen Biotechnologia Sp. z o.o. 
 Tel.: +48 22 581 3France 
 Amgen S.A.S. </p>
-<p>T l: +33 (0)9 69 363 363<br />
-Portugal 
+<p>T l: +33 (0)9 69 363 Portugal 
 Amgen Biofarmac utica, Lda. 
-Tel: +351 21 4220 
-Hrvatska 
+Tel: +351 21 4220Hrvatska 
 Amgen d.o.o. 
 Tel: +385 (0)1 562 57 Rom nia 
 Amgen Rom nia SRL 
-Tel: +4021 527 3 
-Ireland 
+Tel: +4021 527 3Ireland 
 Amgen Ireland Limited 
-Tel: +353 1 8527 
-Slovenija 
+Tel: +353 1 8527Slovenija 
 AMGEN zdravila d.o.o. 
-Tel: +386 (0)1 585 1 
- sland 
+Tel: +386 (0)1 585 1 sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Amgen Slovakia s.r.o. 
-Tel: +421 2 321 114  </p>
-<p>Italia 
+Tel: +421 2 321 114 Italia 
 Amgen S.r.l 
 Tel: +39 02 6241Suomi/Finland 
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
-Puh/Tel: +358 (0)9 54900 
-K<br />
+Puh/Tel: +358 (0)9 54900K<br />
 C.A. Papaellinas Ltd 
  .: +357 22741 Sverige 
 Amgen AB<br />
-Tel: +46 (0)8 6951 
-Latvija 
+Tel: +46 (0)8 6951Latvija 
 Amgen Switzerland AG R gas fili le 
-Tel: +371 257 25 
-United Kingdom (Northern Ireland) 
+Tel: +371 257 25United Kingdom (Northern Ireland) 
 Amgen Limited 
-Tel: +44 (0)1223 420 
-This leaflet was last revised in </p>
+Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
@@ -509,6 +488,75 @@ cloudy or there are particles in it, you must not use it. </p>
 <p>Before you inject Aranesp you must do the following: </p>
 <ol>
 <li>To avoid bending the needle, gently pull the cap from the needle 
-without twisting as shown in pictures 1 and </li>
-</ol>         </div>"""      
+without twisting as shown in pictures 1 and 2. 2. Do not touch the needle or push the plunger. </li>
+<li>You may notice a small air bubble in the pre-filled syringe. You do not 
+have to remove the air bubble before injecting. Injecting the solution 
+with the air bubble is harmless. </li>
+<li>You can now use the pre-filled syringe. </li>
+</ol>
+<p>Where should I give my injection? </p>
+<p>The best places to inject yourself are the top of your thighs and the 
+abdomen. If someone else is injecting for you, they can also use the back 
+of your arms. </p>
+<p>You may change the injection site if you notice the area is red or sore. </p>
+<p>How do I give my injection? </p>
+<ol>
+<li>
+<p>Disinfect your skin by using an alcohol wipe and pinch (without squeezing) the skin between 
+your thumb and forefinger. </p>
+</li>
+<li>
+<p>Insert the needle fully into the skin as shown by your doctor, nurse or pharmacist. </p>
+</li>
+<li>
+<p>Inject the prescribed dose subcutaneously as directed by your doctor, nurse or pharmacist. </p>
+</li>
+<li>
+<p>Push the plunger with a slow constant pressure, always keeping your skin pinched, until the 
+syringe is empty. </p>
+</li>
+<li>
+<p>Remove the needle and let go of your skin. </p>
+</li>
+<li>
+<p>If you notice a spot of blood you may gently dab it away with a cotton ball or tissue. Do not rub 
+the injection site. If needed, you may cover the injection site with a plaster. </p>
+</li>
+<li>
+<p>Only use each syringe for one injection. Do not use any Aranesp that is left in the syringe. </p>
+</li>
+</ol>
+<p>Remember: If you have any problems, please do not be afraid to ask your doctor or nurse for help and 
+advice. </p>
+<p>Disposing of used syringes </p>
+<ul>
+<li>Do not put the cap back on used needles, as you may accidentally prick yourself. </li>
+<li>Keep used syringes out of the reach and sight of children. </li>
+<li>The used pre-filled syringe should be disposed of in accordance with local requirements. Ask 
+your pharmacist how to dispose of medicines no longer required. These measures will help to 
+protect the environment.  </li>
+</ul>
+<p>Package leaflet: Information for the user </p>
+<p>Aranesp 10 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 15 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 20 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 30 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 40 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 50 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 60 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 80 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 100 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 130 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 150 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 300 micrograms solution for injection in pre-filled pen (SureClick) 
+Aranesp 500 micrograms solution for injection in pre-filled pen (SureClick) 
+darbepoetin alfa </p>
+<p>Read all of this leaflet carefully before you start using this medicine because it contains 
+important information for you. 
+- Keep this leaflet. You may need to read it again. 
+- If you have any further questions, ask your doctor, pharmacist or nurse. 
+- This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. 
+- If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
+side effects not listed in this leaflet (see section 4). </p>         </div>"""      
 

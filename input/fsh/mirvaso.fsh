@@ -4,7 +4,7 @@ Instance: composition-en-7f09c8319207b8e58a7db33f5a93be62
 InstanceOf: CompositionUvEpi
 Title: "Composition for mirvaso Package Leaflet"
 Description:  "Composition for mirvaso Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Mirvaso is and what it is used for
 2. What you need to know before you use Mirvaso
 3. How to use Mirvaso
 4. Possible side effects
 5. How to store Mirvaso
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]

@@ -4,7 +4,7 @@ Instance: composition-en-0decee85458f6211fcf0121c6b6f6c83
 InstanceOf: CompositionUvEpi
 Title: "Composition for celdoxome Package Leaflet"
 Description:  "Composition for celdoxome Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Celdoxome pegylated liposomal is and what it is used for 
-2. What you need to know before you use Celdoxome pegylated liposomal 
-3. How to use Celdoxome pegylated liposomal 
-4. Possible side effects 
-5. How to store Celdoxome pegylated liposomal 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Celdoxome pegylated liposomal is and what it is used for </li>
+<li>What you need to know before you use Celdoxome pegylated liposomal </li>
+<li>How to use Celdoxome pegylated liposomal </li>
+<li>Possible side effects </li>
+<li>How to store Celdoxome pegylated liposomal </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -97,13 +97,9 @@ of this medicine (listed in section 6).  </p>
 Talk to your doctor before receiving Celdoxome pegylated liposomal:</p>
 <ul>
 <li>if you are receiving any treatment for heart disease or liver disease </li>
-<li>
-<p>if you are diabetic, because Celdoxome pegylated liposomal  contains sugar which may require 
-an adjustment to the treatment of your diabetes </p>
-</li>
-<li>
-<p>if you have Kaposi s sarcoma and have had your spleen removed </p>
-</li>
+<li>if you are diabetic, because Celdoxome pegylated liposomal  contains sugar which may require 
+an adjustment to the treatment of your diabetes </li>
+<li>if you have Kaposi s sarcoma and have had your spleen removed </li>
 <li>if you notice sores, discolouration or any discomfort in your mouth. </li>
 </ul>
 <p>The cases of Interstitial lung diseases have been observed in patients receiving pegylated liposomal 
@@ -204,37 +200,27 @@ immediately. </p>
 <li>you develop fever, feel tired, or if you have signs of bruising or bleeding (very common) </li>
 <li>redness, swelling, peeling or tenderness, mainly on the hands or feet ( hand-foot  syndrome). 
 These effects have been seen very commonly and are sometimes severe. In severe cases, these 
-effects may interfere with certain daily activities, and may last for 4 weeks or longer before </li>
-</ul>
-<p>resolving completely. The doctor may wish to delay the start and/or reduce the dose of the next 
-treatment (see Strategies to prevent and treat hand foot syndrome, below) 
--<br />
-sores in mouth, severe diarrhoea or vomiting or nausea (very common) 
--<br />
-infections (common), including lung infections (pneumonia) or infections that may affect your 
-vision 
--<br />
-being short of breath (common) 
--<br />
-severe stomach pain (common) 
--<br />
-severe weakness (common) 
--<br />
-severe allergic reaction that may include a swollen face, lips, mouth, tongue or throat; difficulty 
-swallowing or breathing; itchy rash (hives) (uncommon) 
--<br />
-cardiac arrest (heart stops beating); heart failure, in which the heart does not pump enough blood 
+effects may interfere with certain daily activities, and may last for 4 weeks or longer before 
+resolving completely. The doctor may wish to delay the start and/or reduce the dose of the next 
+treatment (see Strategies to prevent and treat hand foot syndrome, below) </li>
+<li>sores in mouth, severe diarrhoea or vomiting or nausea (very common) </li>
+<li>infections (common), including lung infections (pneumonia) or infections that may affect your 
+vision </li>
+<li>being short of breath (common) </li>
+<li>severe stomach pain (common) </li>
+<li>severe weakness (common) </li>
+<li>severe allergic reaction that may include a swollen face, lips, mouth, tongue or throat; difficulty 
+swallowing or breathing; itchy rash (hives) (uncommon) </li>
+<li>cardiac arrest (heart stops beating); heart failure, in which the heart does not pump enough blood 
 to the rest of the body, which makes you short of breath and may lead to swollen legs 
-(uncommon) 
--<br />
-blood clot that moves to the lungs, causes chest pain and makes you short of breath (uncommon) 
--<br />
-swelling, warmth, or tenderness in the soft tissues of your leg, sometimes with pain which gets 
-worse when you stand or walk (rare) 
--<br />
-severe or life-threatening rash with blisters and peeling skin, particularly around the mouth, 
+(uncommon) </li>
+<li>blood clot that moves to the lungs, causes chest pain and makes you short of breath (uncommon) </li>
+<li>swelling, warmth, or tenderness in the soft tissues of your leg, sometimes with pain which gets 
+worse when you stand or walk (rare) </li>
+<li>severe or life-threatening rash with blisters and peeling skin, particularly around the mouth, 
 nose, eyes and genitals (Stevens-Johnson syndrome) or over most of the body (toxic epidermal 
-necrolysis) (rare) </p>
+necrolysis) (rare) </li>
+</ul>
 <p>Other side effects 
 Between infusions, the following may occur: </p>
 <h2>Very common side effects (may affect more than 1 in 10 people)</h2>
@@ -284,19 +270,24 @@ high or low blood pressure, flushing
 shortness of breath that may be brought on by physical activity, nose bleeds, cough 
 -<br />
 inflamed stomach lining or foodpipe, ulcers (sores) in the mouth, indigestion, difficulty 
-swallowing, mouth pain, dry mouth </p>
-<ul>
-<li>skin problems, including flaky or dry skin, redness of the skin, blister or ulcer (sore) on the skin, 
-itching, dark skin patches </li>
-<li>excessive sweating </li>
-<li>muscle spasms or aches </li>
-<li>pain including in the muscles, bone, or back </li>
-<li>pain when passing urine </li>
-<li>allergic reaction to infusion of the medicine, flu-like illness, chills, inflamed lining of the 
+swallowing, mouth pain, dry mouth 
+-<br />
+skin problems, including flaky or dry skin, redness of the skin, blister or ulcer (sore) on the skin, 
+itching, dark skin patches 
+-<br />
+excessive sweating 
+-<br />
+muscle spasms or aches 
+-<br />
+pain including in the muscles, bone, or back 
+-<br />
+pain when passing urine 
+-<br />
+allergic reaction to infusion of the medicine, flu-like illness, chills, inflamed lining of the 
 cavities and passages in the body, such as the nose, mouth or windpipe, feeling weak, generally 
-feeling unwell, swelling caused by fluid build up in the body, swollen hands, ankles or feet </li>
-<li>weight loss </li>
-</ul>
+feeling unwell, swelling caused by fluid build up in the body, swollen hands, ankles or feet 
+-<br />
+weight loss </p>
 <p>When Celdoxome pegylated liposomal  is used alone, some of these effects are less likely to occur, and 
 some have not occurred at all. </p>
 <h2>Uncommon side effects (may affect up to 1 in 100 people)</h2>
@@ -362,14 +353,12 @@ problems with the lining of the cavities and passages in the body, such as the n
 windpipe 
 -<br />
 abnormal liver blood test results, increased level of  creatinine  in the blood </p>
-<p>Not known (frequency cannot be estimated from the available data) </p>
-<ul>
-<li>cancer of the blood that develops quickly and affects the blood cells (acute myeloid leukaemia), 
+<h2>Not known (frequency cannot be estimated from the available data)</h2>
+<p>cancer of the blood that develops quickly and affects the blood cells (acute myeloid leukaemia), 
 bone marrow disease that affects the blood cells (myelodysplastic syndrome), cancer of the 
-mouth or lip </li>
-<li>Coughing and shortness of breath, possibly accompanied by fever, that is not brought on by 
-physical activity (Interstitial lung disease) </li>
-</ul>
+mouth or lip 
+- Coughing and shortness of breath, possibly accompanied by fever, that is not brought on by 
+physical activity (Interstitial lung disease) </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
@@ -417,16 +406,14 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Celdoxome pegylated liposomal contains  </p>
-<ul>
-<li>The active substance is doxorubicin hydrochloride. Each mL Celdoxome pegylated liposomal 
-contains 2 mg doxorubicin hydrochloride in a pegylated liposomal formulation. </li>
-<li>The other ingredients are N-(carbonyl-methoxypolyethylene glycol 2000)-1,2-distearoyl-sn-
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Celdoxome pegylated liposomal contains<br />
+- The active substance is doxorubicin hydrochloride. Each mL Celdoxome pegylated liposomal 
+contains 2 mg doxorubicin hydrochloride in a pegylated liposomal formulation. 
+- The other ingredients are N-(carbonyl-methoxypolyethylene glycol 2000)-1,2-distearoyl-sn-
 glycero-3 phosphoethanolamine sodium salt (MPEG-DSPE), phosphatidylcholine, 
 hydrogenated (soya bean) (HSPC), cholest-5-en-3 -ol, ammonium sulphate, sucrose, histidine, 
 water for injections, hydrochloric acid (for pH-adjustment) and sodium hydroxide (for pH-
-adjustment). See section 2  Celdoxome pegylated liposomal contains soya oil and sodium .  </li>
-</ul>
+adjustment). See section 2  Celdoxome pegylated liposomal contains soya oil and sodium .  </p>
 <p>What Celdoxome pegylated liposomal looks like and contents of the pack 
 The concentrate for dispersion for infusion is sterile, translucent and red with a pH of 6.5. Celdoxome 
 pegylated liposomal is available in glass vials with 10 mL (20 mg) or 25 mL (50 mg). </p>

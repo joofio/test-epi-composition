@@ -4,7 +4,7 @@ Instance: composition-en-49a6edf85307fce92cb7f88732583618
 InstanceOf: CompositionUvEpi
 Title: "Composition for azomyr Package Leaflet"
 Description:  "Composition for azomyr Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Azomyr is and what it is used for 
-2. What you need to know before you take Azomyr 
-3. How to take Azomyr 
-4. Possible side effects 
-5. How to store Azomyr 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Azomyr is and what it is used for </li>
+<li>What you need to know before you take Azomyr </li>
+<li>How to take Azomyr </li>
+<li>Possible side effects </li>
+<li>How to store Azomyr </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -297,8 +297,7 @@ Tel: +372 66 61 dpoc.estonia@organon.com </p>
 Organon Norway AS 
 Tlf: +47 24 14 56 info.norway@organon.com </p>
 <p>N.V. Organon 
- : +30-216 6008 
- sterreich 
+ : +30-216 6008 sterreich 
 Organon Austria GmbH 
 Tel: +43 (0) 1 263 28 dpoc.austria@organon.com </p>
 <p>Espa a 
@@ -309,8 +308,7 @@ Organon Polska Sp. z o.o.
 Tel.: +48 22 105 50 organonpolska@organon.com </p>
 <p>France 
 Organon France 
-T l: +33 (0) 1 57 77 32<br />
-Portugal 
+T l: +33 (0) 1 57 77 32 Portugal 
 Organon Portugal, Sociedade Unipessoal Lda. 
 Tel: +351 218705geral_pt@organon.com </p>
 <p>Hrvatska 
@@ -328,8 +326,7 @@ Ljubljana
 Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
 <p>sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com  </p>
 <p>Italia 
@@ -350,7 +347,7 @@ Tel: +371 66968dpoc.latvia@organon.com </p>
 <p>United Kingdom (Northern Ireland) 
 Organon Pharma (UK) Limited 
 Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>  </p>
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website 
 http://www.ema.europa.eu. </p>
 <p>Package leaflet: Information for the patient  </p>
@@ -363,5 +360,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-5535a1058c02154998e04426c8620587
 InstanceOf: CompositionUvEpi
 Title: "Composition for ozurdex Package Leaflet"
 Description:  "Composition for ozurdex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What OZURDEX is and what it is used for
 2. What you need to know before you are given OZURDEX
 3. How OZURDEX is used
 4. Possible side effects
 5. How to store OZURDEX
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -301,8 +300,7 @@ Tel: + 385 (0)1 5625 Rom nia
 AbbVie S.R.L.
 Tel: +40 21 529 30 Ireland
 AbbVie Limited
-Tel: +353 (0)1 4287900<br />
-Slovenija
+Tel: +353 (0)1 4287Slovenija
 AbbVie Biofarmacevtska dru ba d.o.o.
 Tel: +386 (1)32 08  sland
 Vistor hf.

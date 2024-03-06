@@ -4,7 +4,7 @@ Instance: composition-en-c423173deb9255bac28552e97801a6f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for onivyde Package Leaflet"
 Description:  "Composition for onivyde Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ONIVYDE pegylated liposomal is and what it is used for 
-2. What you need to know before you use ONIVYDE pegylated liposomal 
-3. How ONIVYDE pegylated liposomal is used 
-4. Possible side effects 
-5. How to store ONIVYDE pegylated liposomal 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ONIVYDE pegylated liposomal is and what it is used for </li>
+<li>What you need to know before you use ONIVYDE pegylated liposomal </li>
+<li>How ONIVYDE pegylated liposomal is used </li>
+<li>Possible side effects </li>
+<li>How to store ONIVYDE pegylated liposomal </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -340,6 +340,82 @@ N-(carbonyl-methoxypolyethylene glycol-2000)-1,2-distearoly-sn-glycero-3-phospho
 ine (MPEG-2000-DSPE); sucrose 
 octasulphate; 2- [4- (2-Hydroxyethyl)piperazin-1-yl]ethanesulfonic acid (HEPES buffer); 
 sodium chloride and water for injections. ONIVYDE pegylated liposomal contains sodium, if 
-you are on a controlled sodium diet, see section </li>
-</ul>         </div>"""      
+you are on a controlled sodium diet, see section 2. What ONIVYDE pegylated liposomal looks like and contents of the pack </li>
+</ul>
+<p>ONIVYDE pegylated liposomal is supplied as a white to slightly yellow opaque isotonic liposomal 
+dispersion in a glass vial. </p>
+<p>Each pack contains one vial with 10 ml of concentrate. 
+Marketing Authorisation Holder 
+Les Laboratoires Servier 
+50, rue Carnot 
+92284 Suresnes cedex 
+France </p>
+<p>Manufacturer 
+Les Laboratoires Servier Industrie 
+905 Route de Saran 
+45520 Gidy<br />
+France  </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+S.A. Servier Benelux N.V. 
+T l/Tel: +32 (0)2 529 43 Lietuva 
+UAB  SERVIER PHARMA<br />
+Tel: +370 (5) 2 63 86   </p>
+<p>.: +359 2 921 57 Luxembourg/Luxemburg 
+S.A. Servier Benelux N.V. 
+Tel: +32 (0)2 529 43  esk  republika 
+Servier s.r.o. 
+Tel: +420 222 118 Magyarorsz g 
+Servier Hungaria Kft. 
+Tel: +36 1 238 7Danmark 
+Servier Danmark A/S 
+Tlf: +45 36 44 22 Malta 
+V.J. Salomone Pharma Ltd<br />
+Tel: + 356 21 22 01 Deutschland 
+Servier Deutschland GmbH 
+Tel: +49 (0)89 57095 Nederland 
+Servier Nederland Farma B.V. 
+Tel: + 31 (0)71 5246Eesti 
+Servier Laboratories O <br />
+Tel:+ 372 664 5Norge 
+Servier Danmark A/S 
+Tlf: +45 36 44 22 E  </p>
+<p>: + 30 210 939 1 sterreich 
+Servier Austria GmbH 
+Tel: +43 (1) 524 39 Espa a 
+Laboratorios Servier S.L. 
+Tel: + 34 91 748 96 Polska 
+Servier Polska Sp. z o.o. 
+Tel: + 48 (0) 22 594 90 France 
+Les Laboratoires Servier 
+T l: + 33 (0)1 55 72 60 Portugal 
+Servier Portugal, Lda 
+Tel: + 351 21 312 20 Hrvatska 
+Servier Pharma, d. o. o. 
+Tel: + 385 (0)1 3016 Rom nia 
+Servier Pharma SRL 
+Tel: + 4 021 528 52 Ireland 
+Servier Laboratories (Ireland) Ltd. 
+Tel: + 353 (0)1 663 8Slovenija 
+Servier Pharma d. o. o.<br />
+Tel: + 386 (0)1 563 48  sland 
+Servier Laboratories 
+c/o Icepharma hf 
+S mi: + 354 540 8Slovensk  republika 
+Servier Slovensko spol. s r.o. 
+Tel: + 421 2 5920 41 Italia 
+Servier Italia S.p.A. 
+Tel: + 39 (06) 669Suomi/Finland 
+Servier Finland Oy 
+P. /Tel: +358 (0)9 279 80 <br />
+CA Papaellinas Ltd. 
+ : + 357 22 741 Sverige 
+Servier Sverige AB 
+Tel : +46 (0)8 522 508 Latvija 
+SIA Servier Latvia 
+Tel: + 371 67502United Kingdom (Northern Ireland) 
+Servier Laboratories (Ireland) Ltd 
+Tel: +44 (0)1753 666This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-f5d1cf53e3b7ba5026efaf532ce60eaa
 InstanceOf: CompositionUvEpi
 Title: "Composition for neofordex Package Leaflet"
 Description:  "Composition for neofordex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Neofordex is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Neofordex is and what it is used for<br />
 2. What you need to know before you take Neofordex 
 3. How to take Neofordex 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Neofordex 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -417,8 +416,7 @@ THERAVIA
 T l/Tel: +32 (0)2 40 11 question@theravia.com  </p>
 <p>Lietuva 
 Immedica Pharma AB<br />
-Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com  </p>
+Tel/Puh: +46 (0)8 533 39 info@immedica.com  </p>
 <p>THERAVIA 
 Te .: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Luxembourg/Luxemburg 
@@ -432,8 +430,7 @@ THERAVIA
 Tel.: +33 (0)1 72 69 01 question@theravia.com<br />
 Danmark 
 Immedica Pharma AB<br />
-Tlf: +46 (0)8 533 39 500<br />
-info@immedica.com<br />
+Tlf: +46 (0)8 533 39 info@immedica.com<br />
 Malta 
 THERAVIA 
 Tel: +356 2776 1question@theravia.com  </p>
@@ -445,15 +442,12 @@ THERAVIA
 Tel: +31 (0)2 070 38 question@theravia.com  </p>
 <p>Eesti 
 Immedica Pharma AB<br />
-Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com<br />
+Tel/Puh: +46 (0)8 533 39 info@immedica.com<br />
 Norge 
 Immedica Pharma AB<br />
-Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com  </p>
+Tel/Puh: +46 (0)8 533 39 info@immedica.com  </p>
 <p>RAFARM AEBE 
- : + 302 106776<br />
- sterreich 
+ : + 302 106776 sterreich 
 THERAVIA 
 Tel: +43 (0) 800 909 question@theravia.com  </p>
 <p>Espa a 
@@ -473,8 +467,7 @@ THERAVIA
 Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Ireland 
 THERAVIA 
-Tel : 016950063<br />
-question@theravia.com </p>
+Tel : 016950question@theravia.com </p>
 <p>Rom nia 
 THERAVIA 
 Tel: +33 (0)1 72 69 01 question@theravia.com  </p>
@@ -492,18 +485,14 @@ THERAVIA
 Tel:  +39 (0) 800 959 question@theravia.com  </p>
 <p>Suomi/Finland 
 Immedica Pharma AB<br />
-Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com  </p>
+Tel/Puh: +46 (0)8 533 39 info@immedica.com  </p>
 <p>RAFARM AEBE 
- : + 302 106776 
-Sverige 
+ : + 302 106776Sverige 
 Immedica Pharma AB<br />
-Tel: +46 (0)8 533 39 500<br />
-info@immedica.com  </p>
+Tel: +46 (0)8 533 39 info@immedica.com  </p>
 <p>Latvija 
 Immedica Pharma AB<br />
-Tel: +46 (0)8 533 39 500<br />
-info@immedica.com </p>
+Tel: +46 (0)8 533 39 info@immedica.com </p>
 <p>This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

@@ -4,7 +4,7 @@ Instance: composition-en-1e954682407ee7d7521ef7ec82e30f79
 InstanceOf: CompositionUvEpi
 Title: "Composition for kimmtrak Package Leaflet"
 Description:  "Composition for kimmtrak Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What KIMMTRAK is and what it is used for  
-2. What you need to know before you are given KIMMTRAK 
-3. How KIMMTRAK is given  
-4. Possible side effects  
-5. How to store KIMMTRAK  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What KIMMTRAK is and what it is used for  </li>
+<li>What you need to know before you are given KIMMTRAK </li>
+<li>How KIMMTRAK is given  </li>
+<li>Possible side effects  </li>
+<li>How to store KIMMTRAK  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,8 +98,8 @@ prolongation) </p>
 KIMMTRAK is suitable for you. </p>
 <p>Tell your doctor before being given KIMMTRAK if you are taking corticosteroid medication to treat 
 adrenal insufficiency (also known as  Addison s disease ). Your doctor may need to adjust your 
-corticosteroid dose while you are being treated with KIMMTRAK. </p>
-<p>Tell your doctor or nurse immediately or seek urgent medical attention if you have any of the 
+corticosteroid dose while you are being treated with KIMMTRAK. 
+Tell your doctor or nurse immediately or seek urgent medical attention if you have any of the 
 following side effects during or after your treatment: </p>
 <p>fever, dizziness, light headedness. These may be symptoms of a serious condition called 
 cytokine release syndrome. Other symptoms of cytokine release syndrome are difficulty 
@@ -297,11 +297,9 @@ SK, FI, SE, UK-NI:
 Immunocore Ireland Limited 
 EL: </p>
 <p>Medison Pharma Greece   </p>
-<p>: +30 210 0100<br />
- /Irsko/Irland/ /Iirimaa/Irlanti/Irl
+<p>: +30 210 0100  /Irsko/Irland/ /Iirimaa/Irlanti/Irl
 ande/Irska/ rorsz g/ rland/Irlanda/Airija/ rija/L-
 Irlanda/Ierland/Irlandia/ rsko/Irska 
-T l/Tel/Tel./Te ./Tlf/ /S mi/Puh: +3531 5 </p>
-<p>This leaflet was last revised in </p>
+T l/Tel/Tel./Te ./Tlf/ /S mi/Puh: +3531 5This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

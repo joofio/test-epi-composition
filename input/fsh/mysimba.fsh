@@ -4,7 +4,7 @@ Instance: composition-en-884e29a6cd7c9a1e73fd7a991d441624
 InstanceOf: CompositionUvEpi
 Title: "Composition for mysimba Package Leaflet"
 Description:  "Composition for mysimba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Mysimba is and what it is used for 
-2. What you need to know before you take Mysimba 
-3. How to take Mysimba 
-4. Possible side effects 
-5. How to store Mysimba 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Mysimba is and what it is used for </li>
+<li>What you need to know before you take Mysimba </li>
+<li>How to take Mysimba </li>
+<li>Possible side effects </li>
+<li>How to store Mysimba </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -95,13 +95,9 @@ about increased blood pressure, or other concerns with the safety or tolerabilit
 <ul>
 <li>if you are allergic to naltrexone, to bupropion or to any of the other ingredients of this medicine 
 (listed in section 6); </li>
-<li>
-<p>if you have an abnormally high blood pressure (hypertension) that is not controlled using a 
-medicinal product; </p>
-</li>
-<li>
-<p>if you have a condition that causes fits (seizures) or if you have a history of fits; </p>
-</li>
+<li>if you have an abnormally high blood pressure (hypertension) that is not controlled using a 
+medicinal product; </li>
+<li>if you have a condition that causes fits (seizures) or if you have a history of fits; </li>
 <li>if you have a brain tumour; </li>
 <li>if you are usually a heavy drinker and you have just stopped drinking alcohol, or are going to 
 stop while you are taking Mysimba; </li>
@@ -145,31 +141,22 @@ after taking this medicine (see also section 4). </p>
 <p>Serious skin reactions, including Stevens-Johnson syndrome and acute generalised exanthematous 
 pustulosis (AGEP), have been reported in association with Mysimba treatment. Stop using Mysimba and 
 seek medical attention immediately if you notice any of the symptoms related to these serious skin 
-reactions described in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take mysimba"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take mysimba"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should talk to your doctor, especially if: 
+reactions described in section 4. You should talk to your doctor, especially if: 
 * you have high blood pressure before taking Mysimba, because it can become worse. You will 
 have your blood pressure and heart rate measured before you start taking Mysimba and while 
 you are taking it. If your blood pressure or heart rate increases significantly, you may need to 
 stop taking Mysimba. 
 * you have uncontrolled coronary artery disease (a heart disease caused by poor blood flow in 
 the blood vessels of the heart) with symptoms such as angina (characterised by chest pain) or a 
-recent heart attack. </p>
-<ul>
-<li>you already have or have had a condition affecting the circulation of blood in the brain 
-(cerebrovascular disease). </li>
-<li>you have any liver problems before you start Mysimba. </li>
-<li>you have any kidney problems before you start Mysimba. </li>
-<li>if you have a history of mania (feeling elated or over-excited, which causes unusual 
+recent heart attack. 
+* you already have or have had a condition affecting the circulation of blood in the brain 
+(cerebrovascular disease). 
+* you have any liver problems before you start Mysimba. 
+* you have any kidney problems before you start Mysimba. 
+* if you have a history of mania (feeling elated or over-excited, which causes unusual 
 behaviour). you are taking medicines for depression, the use of these medicines together 
 with Mysimba can lead to serotonin syndrome, a potentially life-threatening condition (see 
- Other medicines and Mysimba  in this section and section 4.) </li>
-</ul>
+ Other medicines and Mysimba  in this section and section 4.) </p>
 <p>Brugada syndrome<br />
 - if you have a condition called Brugada syndrome (a rare hereditary syndrome that affects the heart 
 rhythm) or if cardiac arrest or sudden death occurred in your family. </p>
@@ -203,8 +190,8 @@ disorders such as asthma); * medicines used to prevent malaria; * quinolones (an
 sleepiness (such as chlorphenamine); * medicines to lower sugar levels in your blood (such as insulin, sulphonylureas such as 
 glyburide or glibenclamide, and meglitinides such as nateglinide or repaglinide); * medicines to help you to sleep (sedatives such as diazepam). 
 * Medicines to treat depression (such as amitriptyline, desipramine, imipramine, venlafaxine, 
-paroxetine, fluoxetine, citalopram, escitalopram) or other mental health problems (such as </p>
-<p>risperidone, haloperidol, thioridazine). Mysimba may interact with some medicines used for 
+paroxetine, fluoxetine, citalopram, escitalopram) or other mental health problems (such as 
+risperidone, haloperidol, thioridazine). Mysimba may interact with some medicines used for 
 treatment of depression and you may experience a so-called serotonin syndrome. Symptoms are 
 mental status changes (e.g. agitation, hallucinations, coma), and other effects, such as body 
 temperature above 38 C, increase in heart rate, unstable blood pressure, and exaggeration of 
@@ -243,27 +230,24 @@ medicine affects you. </p>
 your situation. </p>
 <p>Mysimba contains lactose (a type of sugar) 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking this medicinal product. </p>         </div>"""         
-
-        
+before taking this medicinal product. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take mysimba"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take mysimba"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. </p>
 <p>The initial dose is usually one tablet (8 mg naltrexone hydrochloride / 90 mg bupropion 
-hydrochloride) once a day in the morning. The dose will be gradually adapted as follows: </p>
-<ul>
-<li>Week 1: One tablet once a day in the morning </li>
-<li>Week 2: Two tablets every day, one in the morning and one in the evening </li>
-<li>Week 3: Three tablets every day, two in the morning and one in the evening </li>
-<li>Week 4 and onward: Four tablets every day, two in the morning and two in the evening 
+hydrochloride) once a day in the morning. The dose will be gradually adapted as follows: 
+* Week 1: One tablet once a day in the morning 
+* Week 2: Two tablets every day, one in the morning and one in the evening 
+* Week 3: Three tablets every day, two in the morning and one in the evening 
+* Week 4 and onward: Four tablets every day, two in the morning and two in the evening 
 The maximum recommended daily dose of Mysimba is two tablets taken twice a day. 
 After 16 weeks and each year after your treatment initiation, your doctor will evaluate whether you 
-should continue to take Mysimba. </li>
-</ul>
+should continue to take Mysimba. </p>
 <p>If you have problems with your liver or kidney, or if you are older than 65, and depending on the 
 severity of your problems, your doctor may carefully consider whether this medicine is suitable for 
 you or recommend that you take a different dose, and monitor you more closely for potential side 
@@ -282,12 +266,13 @@ make up for a forgotten dose. </p>
 <p>If you stop taking Mysimba 
 You may need to take Mysimba for at least 16 weeks to have its full effect. Do not stop taking 
 Mysimba without talking to your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store mysimba"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store mysimba"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
@@ -310,29 +295,29 @@ usual risk of fits (see section 2). </li>
 <li>Erythema multiforme and Stevens Johnson Syndrome 
 Not known - frequency cannot be estimated from the available data in people taking Mysimba. 
 Erythema multiforme is a severe condition of the skin that may affect the mouth and other parts 
-of the body, with red, often itchy spots starting on the limbs. Stevens Johnson Syndrome is a </li>
-</ul>
-<p>rare skin condition with severe blisters and bleeding in the lips, eyes, mouth, nose and genitals. 
-- Acute generalised exanthematous pustulosis 
+of the body, with red, often itchy spots starting on the limbs. Stevens Johnson Syndrome is a 
+rare skin condition with severe blisters and bleeding in the lips, eyes, mouth, nose and genitals. </li>
+<li>Acute generalised exanthematous pustulosis 
 Not known - frequency cannot be estimated from the available data in people taking Mysimba. 
 A red, scaly widespread rash with bumps under the skin and blisters accompanied by fever. The 
-symptoms usually appear at the initiation of treatment 
-- Rhabdomyolysis 
+symptoms usually appear at the initiation of treatment </li>
+<li>Rhabdomyolysis 
 Not known - frequency cannot be estimated from the available data in people taking Mysimba. 
 Rhabdomyolysis is an abnormal breakdown of muscle tissue which can lead to kidney 
-problems. Symptoms include severe muscle cramps, muscle pain or muscle weakness. 
-- Lupus skin rash or worsening of lupus symptoms 
+problems. Symptoms include severe muscle cramps, muscle pain or muscle weakness. </li>
+<li>Lupus skin rash or worsening of lupus symptoms 
 Not known - frequency cannot be estimated from the available data in people taking Mysimba. 
 Lupus is an immune system disorder affecting the skin and other organs. If you experience 
 lupus flares, skin rash or lesions (particularly on sun-exposed areas) while taking Mysimba, 
-contact your doctor straight away, as it might be necessary to stop the treatment. 
-- Serotonin syndrome, that can manifest as mental status changes (e.g. agitation, hallucinations, 
+contact your doctor straight away, as it might be necessary to stop the treatment. </li>
+<li>Serotonin syndrome, that can manifest as mental status changes (e.g. agitation, hallucinations, 
 coma), and other effects, such as body temperature above 38 C, increase in heart rate, unstable 
 blood pressure, and exaggeration of reflexes, muscular rigidity, lack of coordination and/or 
 gastrointestinal symptoms (e.g. nausea, vomiting, diarrhoea), while taking Mysimba together 
 with medicines used for treatment of depression (such as paroxetine, citalopram, escitalopram, 
 fluoxetine and venlafaxine (see section 2.) 
-Not known - frequency cannot be estimated from the available data in people taking Mysimba) </p>
+Not known - frequency cannot be estimated from the available data in people taking Mysimba) </li>
+</ul>
 <p>Other side effects include: </p>
 <p>Very common side effects (may affect more than 1 in 10 people):</p>
 <ul>
@@ -370,12 +355,8 @@ Not known - frequency cannot be estimated from the available data in people taki
 which increases when trying to perform a particular function (intention tremor) </li>
 <li>Balance disorder </li>
 <li>Loss of memory (amnesia), Tingling or numbness of the hands or feet </li>
-<li>
-<p>Motion sickness </p>
-</li>
-<li>
-<p>Burping </p>
-</li>
+<li>Motion sickness </li>
+<li>Burping </li>
 <li>Abdominal discomfort </li>
 <li>Indigestion </li>
 <li>Inflammation of the gallbladder (cholecystitis) </li>
@@ -434,12 +415,8 @@ normally contains it (hernia) </li>
 <li>Sore throat, disorder of the voice, cough, yawning Haemorrhoids, </li>
 <li>ulcer </li>
 <li>Diarrhoea </li>
-<li>
-<p>Passing wind (flatulence) </p>
-</li>
-<li>
-<p>Hepatitis </p>
-</li>
+<li>Passing wind (flatulence) </li>
+<li>Hepatitis </li>
 <li>Acne </li>
 <li>Groin pain </li>
 <li>Muscle pain </li>
@@ -453,11 +430,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
 of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store mysimba"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store mysimba"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
@@ -465,4 +441,104 @@ The expiry date refers to the last day of that month. </p>
 <p>Do not store above 30 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Mysimba contains 
+- The active substances are naltrexone hydrochloride and bupropion hydrochloride. Each tablet 
+contains 8 milligrams of naltrexone hydrochloride, equivalent to 7.2 milligrams of naltrexone, 
+and 90 milligrams of bupropion hydrochloride, equivalent to 78 milligrams of bupropion. 
+- The other ingredients (excipients) are:</p>
+<ul>
+<li>Tablet core: microcrystalline cellulose, hydroxypropyl cellulose, lactose anhydrous, lactose 
+monohydrate (see section 2  Mysimba contains lactose ), cysteine hydrochloride, 
+crospovidone type A, magnesium stearate, hypromellose, edetate disodium, colloidal silicon 
+dioxide, and indigo carmine aluminium lake (E132). Film-coating: poly(vinyl alcohol), 
+titanium dioxide (E171), macrogol (3350), talc and indigo carmine aluminium lake (E132). </li>
+</ul>
+<p>What Mysimba looks like and contents of the pack 
+Mysimba prolonged-release tablets are blue, biconvex, round tablets debossed with  NB-890  on one 
+side. Mysimba is available in packs containing 28 or 112 tablets. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Orexigen Therapeutics Ireland Limited 
+2nd Floor 
+Palmerston House, Fenian Street 
+Dublin 2 
+Ireland </p>
+<p>Manufacturer </p>
+<p>MIAS Pharma Ltd 
+Suite 1 Stafford House, Strand Road, Portmarnock, Co. Dublin, 
+Ireland 
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgique/Belgi /Belgien 
+GOODLIFE Pharma SA/NV 
+Tel. +3280079Lietuva<br />
+B-LINK PHARMA UAB<br />
+Tel: 0880033<br />
+PharmaSwiss EOOD 
+Te .: 008001100Luxembourg/Luxemburg 
+GOODLIFE Pharma SA/NV 
+Tel. +352 800 23 esk  republika 
+PharmaSwiss  esk  republika s.r.o. 
+Tel: +42800202Magyarorsz g 
+Bausch Health Magyarorsz g Kft. 
+Tel: +36 680014Danmark 
+Navamedic AB 
+Tel. 
++4580253Malta 
+Orexigen Therapeutics Ireland Limited 
+Tel. +44 1223771Deutschland 
+Orexigen Therapeutics Ireland Limited 
+Tel. +44 1223771Nederland 
+Goodlife Endocrinologie BV 
+Tel. 8000200Eesti 
+B-LINK PHARMA UAB<br />
+Tel: 8000112Norge 
+Navamedic AB 
+Tel. 800 315 <br />
+WIN MEDICA S.A. 
+ : +30 8003252 sterreich 
+Kwizda Pharma GmbH Tel. 
++43800232Espa a 
+Orexigen Therapeutics Ireland Limited 
+Tel. +34 900 808 Polska 
+Bausch Health Poland sp. z o.o. 
+Tel.: +48 800999France 
+Orexigen Therapeutics Ireland Limited 
+Tel. +33 805543Portugal 
+Laborat rio Medinfar - Produtos Farmac uticos, S.A. 
+Tel. +351800509Hrvatska 
+Orexigen Therapeutics Ireland Limited 
+Tel. 0800200Rom nia 
+Orexigen Therapeutics Ireland Limited 
+Tel. 0040800896Ireland 
+Consilient Health Limited 
+Tel. +3531800849Slovenija 
+Orexigen Therapeutics Ireland Limited 
+Tel. +38680083 sland 
+Navamedic AB 
+Tel. 8004Slovensk  republika 
+Bausch Health Slovakia s.r.o. 
+Tel: +42800601Italia 
+Bruno Farmaceutici S.p.A. 
+Tel. +39800187Suomi/Finland 
+Navamedic AB 
+Puh. 0800416<br />
+C.G.Papaloisou Ltd 
+Tel: +35780091Sverige<br />
+Navamedic AB 
+Tel.+46200336Latvija 
+B-LINK PHARMA UAB<br />
+Tel: 80005Liechtenstein 
+Orexigen Therapeutics Ireland Limited 
+Tel. +49 89121409United Kingdom (Northern Ireland) 
+Orexigen Therapeutics Ireland Limited 
+Tel. +44 20 3966 0This leaflet was last revised in . 
+Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

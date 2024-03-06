@@ -4,7 +4,7 @@ Instance: composition-en-9290357e39a2371931091ec451b2e152
 InstanceOf: CompositionUvEpi
 Title: "Composition for soliris Package Leaflet"
 Description:  "Composition for soliris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What Soliris is and what it is used for 
 2. What you need to know before you use Soliris 
 3. How to use Soliris 
 4. Possible side effects 
 5. How to store Soliris 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -288,8 +288,8 @@ closely. </p>
 <p>If you stop using Soliris for refractory gMG<br />
 Interrupting or stopping treatment with Soliris may cause your gMG symptoms to come back. Please 
 speak to your doctor before stopping Soliris. Your doctor will discuss the possible side effects and risks 
-with you. Your doctor will also want to monitor you closely. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p>
+with you. Your doctor will also want to monitor you closely. 
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p>
 <p>If you stop using Soliris for NMOSD 
 Interrupting or stopping treatment with Soliris may cause your NMOSD to worsen and relapse to happen. 
 Please speak to your doctor before stopping Soliris. Your doctor will discuss the possible side effects and 
@@ -427,91 +427,64 @@ Dublin D15 RIreland </p>
 Authorisation Holder: 
 Belgi /Belgique/Belgien<br />
 Alexion Pharma Belgium<br />
-T l/Tel: +32 0 800 200 31  </p>
-<p>Lietuva<br />
+T l/Tel: +32 0 800 200 Lietuva<br />
 UAB AstraZeneca Lietuva<br />
-Tel: +370 5 2660550  </p>
-<p>Te .: +359 24455000  </p>
-<p>Luxembourg/Luxemburg<br />
+Tel: +370 5 2660   </p>
+<p>Te .: +359 24455Luxembourg/Luxemburg<br />
 Alexion Pharma Belgium<br />
-T l/Tel: +32 0 800 200 31  </p>
-<p>esk  republika<br />
+T l/Tel: +32 0 800 200  esk  republika<br />
 AstraZeneca Czech Republic s.r.o.<br />
-Tel: +420 222 807 111<br />
-Magyarorsz g<br />
+Tel: +420 222 807 Magyarorsz g<br />
 AstraZeneca Kft.<br />
-Tel.: +36 1 883 6500  </p>
-<p>Danmark<br />
+Tel.: +36 1 883 6Danmark<br />
 Alexion Pharma Nordics AB<br />
-Tlf: +46 0 8 557 727 50  </p>
-<p>Malta<br />
+Tlf: +46 0 8 557 727 Malta<br />
 Alexion Europe SAS<br />
-Tel: +353 1 800 882 840<br />
-Deutschland<br />
+Tel: +353 1 800 882 Deutschland<br />
 Alexion Pharma Germany GmbH<br />
-Tel: +49 (0) 89 45 70 91 300<br />
-Nederland<br />
+Tel: +49 (0) 89 45 70 91 Nederland<br />
 Alexion Pharma Netherlands B.V.<br />
-Tel: +32 (0)2 548 36 67<br />
-Eesti<br />
+Tel: +32 (0)2 548 36 Eesti<br />
 AstraZeneca<br />
-Tel: +372 6549 600  </p>
-<p>Norge<br />
+Tel: +372 6549 Norge<br />
 Alexion Pharma Nordics AB<br />
-Tlf: +46 (0)8 557 727 50   </p>
-<p>AstraZeneca A.E.<br />
- : +30 210 6871500  </p>
-<p>sterreich<br />
+Tlf: +46 (0)8 557 727  <br />
+AstraZeneca A.E.<br />
+ : +30 210 6871 sterreich<br />
 Alexion Pharma Austria GmbH<br />
-Tel: +41 44 457 40 00  </p>
-<p>Espa a<br />
+Tel: +41 44 457 40 Espa a<br />
 Alexion Pharma Spain, S.L.<br />
-Tel: +34 93 272 30 05  </p>
-<p>Polska<br />
+Tel: +34 93 272 30 Polska<br />
 AstraZeneca Pharma Poland Sp. z o.o.<br />
-Tel.: +48 22 245 73 00  </p>
-<p>France<br />
+Tel.: +48 22 245 73 France<br />
 Alexion Pharma France SAS<br />
-T l: +33 1 47 32 36 21  </p>
-<p>Portugal<br />
+T l: +33 1 47 32 36 Portugal<br />
 Alexion Pharma Spain, S.L. - Sucursal em Portugal <br />
-Tel: +34 93 272 30 05  </p>
-<p>Hrvatska<br />
+Tel: +34 93 272 30 Hrvatska<br />
 AstraZeneca d.o.o.<br />
-Tel: +385 1 4628 000  </p>
-<p>Rom nia<br />
+Tel: +385 1 4628 Rom nia<br />
 AstraZeneca Pharma SRL<br />
-Tel: +40 21 317 60 41 <br />
-Ireland<br />
+Tel: +40 21 317 60 Ireland<br />
 Alexion Europe SAS<br />
-Tel: +353 1 800 882 840  </p>
-<p>Slovenija<br />
+Tel: +353 1 800 882 Slovenija<br />
 AstraZeneca UK Limited<br />
-Tel: +386 1 51 35 600  </p>
-<p>sland<br />
+Tel: +386 1 51 35  sland<br />
 Alexion Pharma Nordics AB<br />
-S mi: +46 0 8 557 727 50<br />
-Slovensk  republika<br />
+S mi: +46 0 8 557 727 Slovensk  republika<br />
 AstraZeneca AB, o.z.<br />
-Tel: +421 2 5737 7777  </p>
-<p>Italia<br />
+Tel: +421 2 5737 7Italia<br />
 Alexion Pharma Italy srl<br />
-Tel: +39 02 7767 9211   </p>
-<p>Suomi/Finland<br />
+Tel: +39 02 7767 9Suomi/Finland<br />
 Alexion Pharma Nordics AB<br />
-Puh/Tel: +46 0 8 557 727 50   </p>
-<p>Alexion Europe SAS<br />
- : +357 22490305  </p>
-<p>Sverige<br />
-Alexion Pharma Nordics AB<br />
-Tel: +46 0 8 557 727 50  </p>
-<p>Latvija<br />
-SIA AstraZeneca Latvija<br />
-Tel: +371 67377100  </p>
-<p>United Kingdom (Northern Ireland)<br />
+Puh/Tel: +46 0 8 557 727  <br />
 Alexion Europe SAS<br />
-Tel: +44 (0) 800 028 4394  </p>
-<p>This leaflet was last revised in. </p>
+ : +357 22490Sverige<br />
+Alexion Pharma Nordics AB<br />
+Tel: +46 0 8 557 727 Latvija<br />
+SIA AstraZeneca Latvija<br />
+Tel: +371 67377United Kingdom (Northern Ireland)<br />
+Alexion Europe SAS<br />
+Tel: +44 (0) 800 028 4This leaflet was last revised in. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

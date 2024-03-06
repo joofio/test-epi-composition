@@ -4,7 +4,7 @@ Instance: composition-en-d81ab7604a6a988f432c98de75044e82
 InstanceOf: CompositionUvEpi
 Title: "Composition for zercepac Package Leaflet"
 Description:  "Composition for zercepac Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Zercepac is and what it is used for  
-2. What you need to know before you are given Zercepac  
-3. How Zercepac is given 
-4. Possible side effects  
-5. How to store Zercepac  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Zercepac is and what it is used for  </li>
+<li>What you need to know before you are given Zercepac  </li>
+<li>How Zercepac is given </li>
+<li>Possible side effects  </li>
+<li>How to store Zercepac  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -76,18 +76,7 @@ the surface of some cancer cells where it stimulates their growth. When Zercepac
 stops the growth of such cells and causes them to die.  </p>
 <p>Your doctor may prescribe Zercepac for the treatment of breast and gastric cancer when:  </p>
 <ul>
-<li>You have early breast cancer, with high levels of a protein called HER</li>
-</ul>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take zercepac"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take zercepac"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
-<li>You have metastatic breast cancer (breast cancer that has spread beyond the original tumour) 
+<li>You have early breast cancer, with high levels of a protein called HER2. * You have metastatic breast cancer (breast cancer that has spread beyond the original tumour) 
 with high levels of HER2. Zercepac may be prescribed in combination with the chemotherapy 
 medicine paclitaxel or docetaxel as first treatment for metastatic breast cancer or it may be 
 prescribed alone if other treatments have proved unsuccessful. It is also used in combination 
@@ -97,11 +86,13 @@ hormones).  </li>
 <li>You have metastatic gastric cancer with high levels of HER2, when it is in combination with the 
 other cancer medicines capecitabine or 5-flououracil and cisplatin. </li>
 </ul>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take zercepac"
+  * title = "2. What you need to know before you take zercepac"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take zercepac"
+  * code.text = "2. What you need to know before you take zercepac"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Zercepac if 
 * you are allergic to trastuzumab, to murine (mouse) proteins, or to any of the other ingredients of 
@@ -152,9 +143,9 @@ after treatment has ended.  </li>
 rare cases, a reduction in the amount of (amniotic) fluid that surrounds the developing baby 
 within the womb has been observed in pregnant women receiving Zercepac. This condition may 
 be harmful to your baby in the womb and has been associated with the lungs not developing 
-fully resulting in foetal death.  </li>
+fully resulting in foetal death.<br />
+Breast-feeding  </li>
 </ul>
-<p>Breast-feeding  </p>
 <p>Do not breast-feed your baby during Zercepac therapy and for 7 months after the last dose of Zercepac 
 as Zercepac may pass to your baby through your breast milk.  </p>
 <p>Ask your doctor or pharmacist for advice before taking any medicine. </p>
@@ -163,13 +154,12 @@ as Zercepac may pass to your baby through your breast milk.  </p>
 symptoms, such as dizziness, sleepiness, chills or fever, you should not drive or use machines until 
 these symptoms disappear. </p>
 <p>Sodium<br />
-Zercepac contains less than 1 mmol of sodium per dose, i.e. it is essentially sodium-free. </p>         </div>"""         
-
-        
+Zercepac contains less than 1 mmol of sodium per dose, i.e. it is essentially sodium-free. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take zercepac"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take zercepac"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Before starting the treatment your doctor will determine the amount of HER2 in your tumour. Only 
 patients with a large amount of HER2 will be treated with Zercepac. Zercepac should only be given by 
@@ -192,12 +182,13 @@ right time every week or every three weeks (depending on your dosing schedule). 
 medicine work as well as it can.  </p>
 <p>It may take up to 7 months for Zercepac to be removed from your body. Therefore your doctor may 
 decide to continue to check your heart functions, even after you finish treatment.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store zercepac"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store zercepac"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Zercepac can cause side effects, although not everybody gets them. Some of these 
 side effects may be serious and may lead to hospitalisation.  </p>
@@ -249,13 +240,9 @@ should see your doctor and tell them that you have previously been treated with 
 <li>chest pain  </li>
 <li>abdominal pain  </li>
 <li>joint pain  </li>
-<li>
-<p>low counts of red blood cells and white blood cells (which help fight infection) sometimes with 
-fever  </p>
-</li>
-<li>
-<p>muscle pain  </p>
-</li>
+<li>low counts of red blood cells and white blood cells (which help fight infection) sometimes with 
+fever  </li>
+<li>muscle pain  </li>
 <li>conjunctivitis  </li>
 <li>watery eyes  </li>
 <li>nose bleeds  </li>
@@ -307,12 +294,8 @@ limb </li>
 <li>back pain </li>
 <li>neck pain </li>
 <li>bone pain </li>
-<li>
-<p>acne </p>
-</li>
-<li>
-<p>leg cramps </p>
-</li>
+<li>acne </li>
+<li>leg cramps </li>
 </ul>
 <p>Uncommon side effects: may affect up to 1 in 100 people:  </p>
 <ul>
@@ -355,22 +338,17 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store zercepac"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store zercepac"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Zercepac will be stored by the health professionals at the hospital or clinic. </p>
 <ul>
 <li>Keep this medicine out of the sight and reach of children. </li>
-<li>
-<p>Do not use this medicine after the expiry date which is stated on the outer carton and on 
-the vial label after EXP. The expiry date refers to the last day of that month. </p>
-</li>
-<li>
-<p>The unopened vial should be stored in a refrigerator (2 C-8 C). </p>
-</li>
+<li>Do not use this medicine after the expiry date which is stated on the outer carton and on 
+the vial label after EXP. The expiry date refers to the last day of that month. </li>
+<li>The unopened vial should be stored in a refrigerator (2 C-8 C). </li>
 <li>Do not freeze the reconstituted solution. </li>
 <li>Infusion solutions should be used immediately after dilution. If not used immediately, in-
 use storage times and conditions prior to use are the responsibility of the user. </li>
@@ -380,4 +358,40 @@ administration. </li>
 pharmacist how to dispose of medicines no longer required. These measures will help to 
 protect the environment. </li>
 </ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zercepac contains  </p>
+<ul>
+<li>The active substance is trastuzumab. Each vial contains either: </li>
+<li>60 mg trastuzumab that has to be dissolved in 3.0 mL of sterile water for injections, or  </li>
+<li>150 mg trastuzumab that has to be dissolved in 7.2 mL of sterile water for injections, or  </li>
+<li>420 mg trastuzumab that has to be dissolved in 20.0 mL of sterile water for injections. 
+           The resulting solution contains approximately 21 mg/mL trastuzumab. </li>
+<li>The other ingredient(s) are L-histidine hydrochloride monohydrate, L-histidine,  , -trehalose 
+dihydrate, polysorbate 20. What Zercepac looks like and contents of the pack  </li>
+</ul>
+<p>Zercepac is a powder for concentrate for solution for intravenous infusion, which is supplied in a glass 
+vial with a rubber stopper containing 60 mg or ,150  or 420 mg of trastuzumab. The powder is a white 
+to pale yellow pellet. Each carton contains 1 vial of powder. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Accord Healthcare S.L.U.<br />
+World Trade Center,<br />
+Moll de Barcelona, s/n,<br />
+Edifici Est 6  planta,<br />
+08039 Barcelona, Spain </p>
+<p>Manufacturer </p>
+<p>Accord Healthcare Polska Sp. z.o.o 
+ul Lutomierska 50, 95-200 Pabianice 
+Poland </p>
+<p>Accord Healthcare B.V.,<br />
+Winthontlaan 200,<br />
+3526 KV Utrecht,<br />
+The Netherlands </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

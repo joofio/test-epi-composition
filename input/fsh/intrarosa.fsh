@@ -4,7 +4,7 @@ Instance: composition-en-d6b5caeb3aecc6a916b0a10e40227ee2
 InstanceOf: CompositionUvEpi
 Title: "Composition for intrarosa Package Leaflet"
 Description:  "Composition for intrarosa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Intrarosa is and what it is used for  
-2. What you need to know before you use Intrarosa 
-3. How to use Intrarosa  
-4. Possible side effects  
-5. How to store Intrarosa 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Intrarosa is and what it is used for  </li>
+<li>What you need to know before you use Intrarosa </li>
+<li>How to use Intrarosa  </li>
+<li>Possible side effects  </li>
+<li>How to store Intrarosa </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -305,14 +305,7 @@ treatments:
 * ovarian cancer; 
 * blood clots in the veins of the legs or lungs (venous thromboembolism);<br />
 * stroke; 
-* probable memory loss if HRT is started over the age of 65. For more information about these side effects, see section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store intrarosa"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store intrarosa"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The side effect the most frequently reported in the clinical studies was vaginal discharge. This is likely 
+* probable memory loss if HRT is started over the age of 65. For more information about these side effects, see section 2. The side effect the most frequently reported in the clinical studies was vaginal discharge. This is likely 
 due to melting of the hard fat added to an expected increase in vaginal secretions due to treatment. 
 Vaginal discharge does not require to stop Intrarosa. </p>
 <p>The following side effects were also reported: </p>
@@ -336,11 +329,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store intrarosa"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store intrarosa"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blisters after EXP. The 
@@ -349,4 +341,163 @@ expiry date refers to the last day of that month. </p>
 <p>Do not freeze. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Intrarosa contains  </p>
+<ul>
+<li>The active substance is prasterone. Each pessary contains 6.5 mg of prasterone. </li>
+<li>The only other ingredient is the hard fat (adeps solidus).  </li>
+</ul>
+<p>What Intrarosa looks like and contents of the pack </p>
+<p>Intrarosa is a white to off-white, bullet-shaped pessary approximately 28 mm long and 9 mm in 
+diameter at its widest end. </p>
+<p>The applicator is made of LDPE and 1% colorant (titanium dioxide). </p>
+<p>It is available in blister packs of 28 pessaries with 6 applicators. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Endoceutics S.A. 
+Rue Belliard 1040 Brussels 
+Belgium </p>
+<p>Manufacturer </p>
+<p>Basic Pharma Manufacturing B.V. 
+Burgemeester Lemmensstraat 6163 JT Geleen 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien, Luxembourg/Luxemburg, Nederland 
+Theramex Belgium BVBA 
+T l/Tel: + 32 (0) 28088INTRAROSA.Enquiries@theramex.com </p>
+<p>Deutschland,  sterreich 
+Theramex Germany GmbH 
+Tel: + 49 (0) 32 2122 490 INTRAROSA.Enquiries@theramex.com </p>
+<p>Espa a 
+Theramex Ireland Limited 
+Tel: + 34 911 143 France 
+Theramex France S.A.S. 
+T l: + 33 (0) 800 100 INTRAROSA.Enquiries@theramex.com </p>
+<p>Italia 
+Theramex Italy S.r.l. 
+Tel: + 39 02 81480INTRAROSA.Enquiries@theramex.com </p>
+<p>Polska 
+Theramex Poland sp. z o.o. 
+Tel.: + 48 (0) 22 30 77 INTRAROSA.Enquiries@theramex.com </p>
+<p>Portugal 
+Tecnimede - Sociedade T cnico-Medicinal, S.A. 
+Tel: + 351 210 414 dmed.fv@tecnimede.pt  </p>
+<p>United Kingdom (Northern Ireland), Ireland, Malta 
+Theramex UK Limited 
+Tel: + 44 (0) 3330096INTRAROSA.Enquiries@theramex.com </p>
+<p>Danmark,  sland, Norge, Suomi/Finland, Sverige<br />
+Avia Pharma AB 
+Sverige/Sv j /Ruosti 
+Tlf/S mi/Tlf/Puh/Tel: + 46 (0) 8 544 900  ,  esk  republika, Eesti,  , Hrvatska,  , Latvija, Lietuva, 
+Magyarorsz g, Rom nia, Slovenija, Slovensk  republika 
+Theramex Ireland Limited 
+Tel/Te ./ : + 353 (0) 15138INTRAROSA.Enquiries@theramex.com </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. </p>
+<p>Instructions on how to use Intrarosa 
+How should I use Intrarosa 
+* Insert one prasterone pessary in your vagina once a day at bedtime with an applicator or your finger. 
+Before you start<br />
+<em> Empty your bladder and wash your hands before handling the pessary and applicator.<br />
+</em> Tear off one wrapped pessary from the 7-pessary strip. 
+A. Using the applicator </p>
+<p>STEP 1 
+  1A. Remove 1 applicator 
+from the package. 
+  1B. Pull back on the plunger 
+until it stops to activate the 
+applicator. The applicator 
+must be activated before 
+use. Place the applicator on 
+a clean surface. </p>
+<p>STEP 5 
+  Select the position for 
+insertion of the pessary that is 
+most comfortable for you. 
+5a. Lying position </p>
+<p>STEP 2 
+  Slowly pull the plastic tabs 
+on the pessary away from 
+each other while keeping the 
+pessary still between your 
+fingers. 
+  Carefully remove the 
+pessary from the plastic 
+wrap.<br />
+  If a pessary falls on an 
+unsanitary surface, replace it 
+with a new one. </p>
+<p>5b. Standing position </p>
+<p>STEP 3 
+  Place the flat end of the 
+pessary into the open end 
+of the activated applicator 
+as shown. You are now 
+ready to insert the pessary 
+into your vagina. </p>
+<p>STEP 6 
+  Gently slide the pessary end 
+of the applicator into your 
+vagina as far as it will 
+comfortably go. </p>
+<p>Do not use force. </p>
+<p>STEP 4 
+  Hold the applicator 
+between your thumb and 
+middle finger.<br />
+  Leave your index (pointer) 
+finger free to press the 
+applicator plunger after the 
+applicator is inserted into 
+your vagina. </p>
+<p>STEP 7 
+  Press the applicator plunger 
+with your index (pointer) 
+finger to release the pessary. 
+  Remove the applicator. Wash 
+it or throw it away after using 
+for one week (two extra 
+applicators are provided). 
+  To wash the applicator: 
+  Take it to pieces; 
+  Rinse the 2 pieces for 
+30 seconds under running 
+water; 
+  Wipe with a paper towel 
+and reassemble. 
+Keep it in a clean place. 
+B. Using the finger 
+Follow the above instructions of Step 2, and then insert the pessary into the vagina with your finger as far as it can 
+comfortably go. Do not use force. </p>
+<p>ANNEX IV 
+SCIENTIFIC CONCLUSIONS AND GROUNDS FOR THE VARIATION TO THE TERMS 
+OF THE MARKETING AUTHORISATION(S) 
+Scientific conclusions 
+Taking into account the PRAC Assessment Report for the non-interventional imposed PASS final study 
+report for the medicinal product(s) mentioned above, the scientific conclusions of the CHMP are as 
+follows: 
+Intrarosa (prasterone) is removed from the additional monitoring list as the condition to the marketing 
+authorisation has been fulfilled. This relates to the non-interventional PASS - Drug Utilisation Study 
+(DUS) to describe the baseline characteristics, utilisation patterns of EU postmenopausal women 
+initiating treatment with Intrarosa and to assess whether EU prescribers abide by the contraindications 
+stated in the EU SmPC. 
+Therefore, the statement that this medicinal product is subject to additional monitoring and that this will 
+allow quick identification of new safety information, preceded by an inverted equilateral black triangle, 
+is removed from the summary of product characteristics and the package leaflet. 
+In addition, the MAH took the opportunity to introduce a change to the list of local representatives. 
+The CHMP agrees with the scientific conclusions made by the PRAC. 
+Grounds for the variation to the terms of the marketing authorisation(s) 
+On the basis of the scientific conclusions for the results of the study for the medicinal product(s) 
+mentioned above, the CHMP is of the opinion that the benefit-risk balance of these medicinal product(s) is 
+unchanged, subject to the proposed changes to the product information. 
+The CHMP is of the opinion that the terms of the marketing authorisation of the medicinal product 
+mentioned above should be varied. </p>         </div>"""      
 

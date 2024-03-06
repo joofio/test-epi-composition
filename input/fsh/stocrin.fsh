@@ -4,7 +4,7 @@ Instance: composition-en-a192389a9068e61de77d4f090e108cd6
 InstanceOf: CompositionUvEpi
 Title: "Composition for stocrin Package Leaflet"
 Description:  "Composition for stocrin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Stocrin is and what it is used for
 2. What you need to know before you take Stocrin
 3. How to take Stocrin
 4. Possible side effects
 5. How to store Stocrin
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -596,5 +595,5 @@ important information for you. </p>
 <p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them,
 even if their signs of illness are the same as yours.</p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

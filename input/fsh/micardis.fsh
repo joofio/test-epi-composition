@@ -4,7 +4,7 @@ Instance: composition-en-60d48d8f2f4b967869796928520b2e49
 InstanceOf: CompositionUvEpi
 Title: "Composition for micardis Package Leaflet"
 Description:  "Composition for micardis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Micardis is and what it is used for
 2. What you need to know before you take Micardis
 3. How to take Micardis
 4. Possible side effects
 5. How to store Micardis
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -334,8 +333,7 @@ Boehringer Ingelheim Zagreb d.o.o.
 Tel: +385 1 2444 Rom nia
 Boehringer Ingelheim RCVGmbH &amp; Co KG
 Viena - Sucursala Bucuresti
-Tel: +40 21 302 28 00<br />
-Ireland
+Tel: +40 21 302 28 Ireland
 Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9Slovenija
 Boehringer Ingelheim RCV GmbH &amp; Co KG

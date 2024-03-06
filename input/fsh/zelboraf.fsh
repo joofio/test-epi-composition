@@ -4,7 +4,7 @@ Instance: composition-en-263a36592376e0a94e4d1b826acb9f8c
 InstanceOf: CompositionUvEpi
 Title: "Composition for zelboraf Package Leaflet"
 Description:  "Composition for zelboraf Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Zelboraf is and what it is used for 
-2. What you need to know before you take Zelboraf 
-3. How to take Zelboraf 
-4. Possible side effects 
-5. How to store Zelboraf 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Zelboraf is and what it is used for </li>
+<li>What you need to know before you take Zelboraf </li>
+<li>How to take Zelboraf </li>
+<li>Possible side effects </li>
+<li>How to store Zelboraf </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -96,8 +96,8 @@ Zelboraf and get medical help immediately if you have any symptoms of an allergi
 such as swelling of the face, lips or tongue, difficulty breathing, rash, or fainting sensation. </p>
 <p>Severe skin reactions </p>
 <p>Severe skin reactions can happen while taking Zelboraf. Stop taking Zelboraf and talk to 
-your doctor immediately if you get a skin rash with any of the following symptoms: blisters on </p>
-<p>your skin, blisters or sores in your mouth, peeling of your skin, fever, redness or swelling of 
+your doctor immediately if you get a skin rash with any of the following symptoms: blisters on 
+your skin, blisters or sores in your mouth, peeling of your skin, fever, redness or swelling of 
 your face, hands, or soles of your feet. </p>
 <p>Previous history of cancer </p>
 <p>Tell your doctor if you have had a different type of cancer than melanoma, as Zelboraf may 
@@ -142,8 +142,8 @@ before you start taking Zelboraf and during treatment. </p>
 <p>If you are taking Zelboraf, you may become more sensitive to sunlight and get sunburns that can 
 be severe. During treatment, avoid exposing your skin to direct sunlight. </p>
 <p>If you do plan to go into the sun: 
-  wear clothing which protects your skin, including your head and face, arms and legs; </p>
-<p>use a lip balm and a broad spectrum sunscreen (minimum of Sun Protection Factor (SPF) 30, 
+  wear clothing which protects your skin, including your head and face, arms and legs; 
+  use a lip balm and a broad spectrum sunscreen (minimum of Sun Protection Factor (SPF) 30, 
 re-applied every 2 to 3 hours). </p>
 <p>This will help to protect you against sunburn.  </p>
 <p>Children and adolescents 
@@ -161,14 +161,8 @@ or weaken the effect of medicines.  </p>
   medicines for bacterial infections (e.g. azithromycin, clarithromycin) 
   medicines for nausea and vomiting (e.g. ondansetron, domperidone). </p>
 <p>Medicines that are mainly eliminated by metabolising proteins called CYP1A2 (e.g caffeine, 
-olanzapine, theophylline), CYP3A4 (e.g. some oral contraceptives) or called CYP2C</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take zelboraf"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take zelboraf"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Medicines that influence a protein called P-gp or BCRP (e.g. verapamil, cyclosporine, ritonavir, 
+olanzapine, theophylline), CYP3A4 (e.g. some oral contraceptives) or called CYP2C8. <br />
+Medicines that influence a protein called P-gp or BCRP (e.g. verapamil, cyclosporine, ritonavir, 
 quinidine, itraconazole, gefitinib). </p>
 <p>Medicines that could be influenced by a protein called P-gp (e.g. aliskiren, colchicine, digoxin, 
 everolimus, fexofenadine) or a protein called BCRP (e.g. methotrexate, mitoxantrone, 
@@ -196,18 +190,17 @@ pregnant.  </p>
 recommended during treatment with Zelboraf. </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before taking this medicine. </p>
-<p>Driving and using machines </p>
-<p>Zelboraf has side effects that can affect your ability to drive or to operate machines. Beware of fatigue 
+<p>Driving and using machines 
+Zelboraf has side effects that can affect your ability to drive or to operate machines. Beware of fatigue 
 or eye problems that could be a reason for not driving. </p>
 <p>Important information about some of the ingredients of Zelboraf 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .   </p>         </div>"""         
-
-        
+free .   </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take zelboraf"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take zelboraf"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. </p>
@@ -232,12 +225,13 @@ the usual time. </p>
 <p>Do not take a double dose to make up for a forgotten dose.  </p>
 <p>If you stop taking Zelboraf 
 It is important to keep taking Zelboraf for as long as your doctor prescribes it for you. If you have any 
-further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
+further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store zelboraf"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store zelboraf"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Zelboraf can cause side effects, although not everybody gets them. </p>
 <p>Serious allergic reactions 
@@ -318,11 +312,10 @@ If you get any side effects, talk to your doctor. This includes any possible sid
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store zelboraf"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store zelboraf"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use Zelboraf after the expiry date which is stated on the carton and the blister after EXP. The 
@@ -330,4 +323,96 @@ expiry date refers to the last day of that month.  </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zelboraf contains </p>
+<p>The active substance is vemurafenib. Each film-coated tablet contains 240 milligrams (mg) of 
+vemurafenib (as a co-precipitate of vemurafenib and hypromellose acetate succinate). </p>
+<p>The other ingredients are: 
+  Tablet core: colloidal anhydrous silica, croscarmellose sodium, hydroxypropyl cellulose and 
+magnesium stearate 
+  Film-coating: iron oxide red, macrogol 3350, polyvinyl alcohol, talc and titanium dioxide. </p>
+<p>What Zelboraf looks like and contents of the pack 
+Zelboraf 240 mg film-coated tablets are pinkish white to orange white. They are oval with  VEM<br />
+engraved on one side. 
+They are available in aluminium perforated unit dose blisters in packs of 56 x 1 tablets. </p>
+<p>Marketing Authorisation Holder<br />
+Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Manufacturer 
+Roche Pharma AG<br />
+Emil-Barell-Strasse 1 
+D-79Grenzach-Wyhlen<br />
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36 - 1 279 4Danmark 
+Roche Pharmaceuticals A/S<br />
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland)  </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O<br />
+Tel: + 372 - 6 177 Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 France 
+Roche 
+T l: +33 (0) 1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o. 
+Tel:  +385 1 4722 Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland<br />
+Roche Pharmaceuticals A/S<br />
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in &lt;{MM/YYYY}&gt;   </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

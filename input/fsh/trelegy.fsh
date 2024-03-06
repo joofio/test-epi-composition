@@ -4,7 +4,7 @@ Instance: composition-en-1f770da67a0e503197d74d61bd645018
 InstanceOf: CompositionUvEpi
 Title: "Composition for trelegy Package Leaflet"
 Description:  "Composition for trelegy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Trelegy Ellipta is and what it is used for  
-2. What you need to know before you use Trelegy Ellipta  
-3. How to use Trelegy Ellipta  
-4. Possible side effects  
-5. How to store Trelegy Ellipta  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Trelegy Ellipta is and what it is used for  </li>
+<li>What you need to know before you use Trelegy Ellipta  </li>
+<li>How to use Trelegy Ellipta  </li>
+<li>Possible side effects  </li>
+<li>How to store Trelegy Ellipta  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -289,8 +289,8 @@ away medicines you no longer use. These measures will help protect the environme
 The active substances are fluticasone furoate, umeclidinium bromide and vilanterol. </p>
 <p>Each single inhalation provides a delivered dose (the dose leaving the mouthpiece) of 92 micrograms of 
 fluticasone furoate, 65 micrograms umeclidinium bromide equivalent to 55 micrograms umeclidinium and 
-22 micrograms of vilanterol (as trifenatate).   </p>
-<p>The other ingredients are lactose monohydrate (see section 2 under  Trelegy Ellipta contains lactose ) and 
+22 micrograms of vilanterol (as trifenatate). <br />
+The other ingredients are lactose monohydrate (see section 2 under  Trelegy Ellipta contains lactose ) and 
 magnesium stearate. </p>
 <p>What Trelegy Ellipta looks like and contents of the pack 
 Trelegy Ellipta is an inhalation powder, pre-dispensed. 
@@ -315,8 +315,7 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-T l/Tel: + 32 (0) 10 85 52<br />
-Lietuva 
+T l/Tel: + 32 (0) 10 85 52 Lietuva 
 UAB  BERLIN-CHEMIE MENARINI BALTIC<br />
 Tel: + 370 52 691 lt@berlin-chemie.com </p>
 <ul>
@@ -326,8 +325,7 @@ Te .: + 359 2 454 0bcsofia@berlin-chemie.com </li>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 52<br />
- esk  republika 
+T l/Tel: + 32 (0) 10 85 52  esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
 <p>Magyarorsz g 
@@ -338,21 +336,19 @@ GlaxoSmithKline Pharma A/S
 Tlf: + 45 36 35 91 dk-info@gsk.com </p>
 <p>Malta 
 GlaxoSmithKline Trading Services Limited 
-Tel: + 356 80065 
-Deutschland 
+Tel: + 356 80065Deutschland 
 GlaxoSmithKline GmbH &amp; Co. KG 
 Tel.: + 49 (0)89 36044 8produkt.info@gsk.com </p>
 <p>Nederland 
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 
-Eesti 
+Tel: + 31 (0)33 2081Eesti 
 O  Berlin-Chemie Menarini Eesti 
 Tel: + 372 667 5ee@berlin-chemie.com  </p>
 <p>Norge 
 GlaxoSmithKline AS 
 Tlf: + 47 22 70 20 <br />
 Menarini Hellas A.E. 
- : + 30 210 83161 11-  sterreich 
+ : + 30 210 83161 11- sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
@@ -361,8 +357,7 @@ GlaxoSmithKline, S.A.
 Tel: + 34 900 202 es-ci@gsk.com </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 
-France 
+Tel.: + 48 (0)22 576 9France 
 Laboratoire GlaxoSmithKline 
 T l: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
@@ -373,30 +368,25 @@ Berlin-Chemie Menarini Hrvatska d.o.o.
 Tel: + 385 1 4821 office-croatia@berlin-chemie.com </p>
 <p>Rom nia 
 GlaxoSmithKline Trading Services Limited<br />
-Tel: + 40 800672 
-Ireland 
+Tel: + 40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija 
+Tel: + 353 (0)1 4955Slovenija 
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
 Tel: + 386 (0)1 300 2slovenia@berlin-chemie.com </p>
 <p>sland 
 Vistor hf. 
-S mi:  +354 535 7 
-Slovensk  republika 
+S mi:  +354 535 7Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
 Tel: + 421 2 544 30 slovakia@berlin-chemie.com </p>
 <p>Italia 
 GlaxoSmithKline S.p.A. 
-Tel: + 39 (0)45 7741<br />
-Suomi/Finland 
+Tel: + 39 (0)45 7741 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline Trading Services Limited 
- : + 357 80070 </p>
-<p>Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline Trading Services Limited 
+ : + 357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 

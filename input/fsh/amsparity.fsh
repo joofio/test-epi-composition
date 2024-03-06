@@ -4,7 +4,7 @@ Instance: composition-en-cb456248863851baf93dc89f0a0fc5bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for amsparity Package Leaflet"
 Description:  "Composition for amsparity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Amsparity is and what it is used for 
 2. What you need to know before your child uses Amsparity 
 3. How to use Amsparity 
 4. Possible side effects 
 5. How to store Amsparity 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -640,11 +639,13 @@ through blood tests. These include: </p>
 <li>low blood measurements for white blood cells; </li>
 <li>low blood measurements for red blood cells; </li>
 <li>increased lipids in the blood; </li>
-<li>raised liver enzymes. </li>
-</ul>
-<p>Common (may affect up to 1 in 10 people) </p>
-<ul>
-<li>high blood measurements for white blood cells; </li>
+<li>
+<p>raised liver enzymes. 
+Common (may affect up to 1 in 10 people) </p>
+</li>
+<li>
+<p>high blood measurements for white blood cells; </p>
+</li>
 <li>low blood measurements for platelets; </li>
 <li>increased uric acid in the blood; </li>
 <li>abnormal blood measurements for sodium; </li>
@@ -718,91 +719,65 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-T l/Tel: +32 (0)2 554 62<br />
-K<br />
+T l/Tel: +32 (0)2 554 62 K<br />
 PFIZER E A  A.E. (CYPRUS BRANCH) 
- : +357 22 817 
- esk  Republika 
+ : +357 22 817 esk  Republika 
 Pfizer, spol.  s r.o. 
-Tel: +420-283-004- Magyarorsz g 
+Tel: +420-283-004-Magyarorsz g 
 Pfizer Kft. 
-Tel: +36 1 488 3 
-Danmark 
+Tel: +36 1 488 3Danmark 
 Pfizer ApS 
-Tlf: +45 44 201<br />
-Malta 
+Tlf: +45 44 201 Malta 
 Vivian Corporation Ltd. <br />
-Tel: +356 21344 
-Deutchland 
+Tel: +356 21344Deutchland 
 PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055-51 
-Nederland 
+Tel: +49 (0)30 550055-51Nederland 
 Pfizer bv 
-Tel: +31 (0)10 406 43  </p>
-<pre><code> ,
-</code></pre>
-<p>Te : +359 2 970 4 
-Norge 
+Tel: +31 (0)10 406 43 <br />
+     , </p>
+<p>Te : +359 2 970 4Norge 
 Pfizer AS 
-Tlf: +47 67 52 61<br />
-Eesti 
+Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
- sterreich 
+Tel: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>PFIZER E A  A.E. 
- .: +30 210 67 85<br />
-Polska 
+ .: +30 210 67 85 Polska 
 Pfizer Polska Sp. z o.o. 
-Tel.: +48 22 335 61<br />
-Espa a 
+Tel.: +48 22 335 61 Espa a 
 Pfizer S.L. 
-Tel: +34 91 490 99  </p>
-<p>Portugal 
+Tel: +34 91 490 99 Portugal 
 Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5France 
 Pfizer<br />
-T l: +33 (0)1 58 07 34<br />
-Rom nia 
+T l: +33 (0)1 58 07 34 Rom nia 
 Pfizer Rom nia S.R.L 
-Tel: +40 (0) 21 207 28<br />
-Hrvatska 
+Tel: +40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
-Tel: +385 1 3908<br />
-Slovenija 
+Tel: +385 1 3908 Slovenija 
 Pfizer Luxembourg SARL, Pfizer, podru nica 
 za svetovanje s podro ja farmacevtske 
 dejavnosti, Ljubljana 
-Tel: +386 (0)1 52 11<br />
-Ireland 
+Tel: +386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: +1800 633 363 (toll free) 
-Tel: +44 (0)1304 616 
-Slovensk  Republika 
+Tel: +44 (0)1304 616Slovensk  Republika 
 Pfizer Luxembourg SARL, organiza n  zlo ka 
-Tel: +421 2 3355 5 
- sland 
+Tel: +421 2 3355 5 sland 
 Icepharma hf. 
-Tel: +354 540 8 
-Suomi/Finland 
+Tel: +354 540 8Suomi/Finland 
 Pfizer Oy 
-Puh/Tel: +358 (0)9 430  </p>
-<p>Italia 
+Puh/Tel: +358 (0)9 430 Italia 
 Pfizer S.r.l.<br />
-Tel: +39 06 33 18<br />
-Sverige 
+Tel: +39 06 33 18 Sverige 
 Pfizer AB 
-Tel: +46 (0)8 550 520<br />
-Latvija 
+Tel: +46 (0)8 550 520 Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel. +371 67035 
-United Kingdom (Northern Ireland) 
+Tel. +371 67035United Kingdom (Northern Ireland) 
 Pfizer Limited 
-Tel: +44 (0)1304 616 
-Lietuva 
+Tel: +44 (0)1304 616Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. +3705 2514 </p>
-<p>This leaflet was last revised in </p>
+Tel. +3705 2514This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

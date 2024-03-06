@@ -4,7 +4,7 @@ Instance: composition-en-1dfe892dc67968025b224d593ef39db2
 InstanceOf: CompositionUvEpi
 Title: "Composition for rhokiinsa Package Leaflet"
 Description:  "Composition for rhokiinsa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Rhokiinsa is and what it is used for  
-2. What you need to know before you use Rhokiinsa  
-3. How to use Rhokiinsa  
-4. Possible side effects  
-5. How to store Rhokiinsa 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Rhokiinsa is and what it is used for  </li>
+<li>What you need to know before you use Rhokiinsa  </li>
+<li>How to use Rhokiinsa  </li>
+<li>Possible side effects  </li>
+<li>How to store Rhokiinsa </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -229,83 +229,63 @@ Authorisation Holder: </p>
 Santen Oy 
 T l/Tel: +32 (0) 24019Lietuva 
 Santen Oy 
-Tel: +370 37 366 </p>
-<p>Santen Oy 
-Te .: +359 (0) 888 755 393<br />
-Luxembourg/Luxemburg 
+Tel: +370 37 366<br />
 Santen Oy 
-T l/Tel: +352 (0) 27862 
- esk  republika 
+Te .: +359 (0) 888 755 Luxembourg/Luxemburg 
+Santen Oy 
+T l/Tel: +352 (0) 27862 esk  republika 
 Santen Oy 
 Tel: +358 (0) 3 284 8Magyarorsz g 
 Santen Oy 
-Tel: +358 (0) 3 284 8 
-Danmark 
+Tel: +358 (0) 3 284 8Danmark 
 Malta 
 Santen Oy<br />
 Tlf: +45 898 713 Santen Oy<br />
-Tel: +358 (0) 3 284 8 
-Deutschland 
+Tel: +358 (0) 3 284 8Deutschland 
 Santen GmbH                                                                    <br />
-Tel: +49 (0) 3030809610                                      <br />
-Nederland 
+Tel: +49 (0) 3030809Nederland 
 Santen Oy<br />
-Tel: +31 (0) 207139 
-Eesti 
+Tel: +31 (0) 207139Eesti 
 Santen Oy<br />
 Tel: +372 5067Norge 
 Santen Oy 
-Tlf: +47 21939 </p>
-<p>Santen Oy<br />
- : +358 (0) 3 284 8111  </p>
-<p>sterreich 
+Tlf: +47 21939<br />
+Santen Oy<br />
+ : +358 (0) 3 284 8 sterreich 
 Santen Oy 
 Tel: +43 (0) 720116Espa a 
 Santen Pharmaceutical Spain S.L. 
-Tel: +34 914 142 485                                                   </p>
-<p>Polska 
+Tel: +34 914 142 Polska 
 Santen Oy<br />
-Tel.: +48(0) 221042 
-France<br />
+Tel.: +48(0) 221042France<br />
 Santen S.A.S. 
-T l: +33 (0) 1 70 75 26 84       </p>
-<p>Portugal 
+T l: +33 (0) 1 70 75 26 Portugal 
 Santen Oy 
-Tel: +351 308 805<br />
-Hrvatska 
+Tel: +351 308 805 Hrvatska 
 Santen Oy 
-Tel: +358 (0) 3 284 8 
-Ireland 
+Tel: +358 (0) 3 284 8Ireland 
 Santen Oy </p>
-<p>Tel: +353 (0) 16950 
-Rom nia 
+<p>Tel: +353 (0) 16950Rom nia 
 Santen Oy<br />
-Tel: +358 (0) 3 284 8 
-Slovenija 
+Tel: +358 (0) 3 284 8Slovenija 
 Santen Oy 
-Tel: +358 (0) 3 284 8 
- sland 
+Tel: +358 (0) 3 284 8 sland 
 Santen Oy 
-S mi: +358 (0) 3 284 8 
-Slovensk  republika 
+S mi: +358 (0) 3 284 8Slovensk  republika 
 Santen Oy<br />
 Tel: +358 (0) 3 284 8Italia 
 Santen Italy S.r.l. 
-Tel: +39 0236009 </p>
-<p>Suomi/Finland 
+Tel: +39 0236009Suomi/Finland 
 Santen Oy 
 Puh/Tel: +358 (0) 974790<br />
 Santen Oy<br />
- : +358 (0) 3 284 8 
-Sverige 
+ : +358 (0) 3 284 8Sverige 
 Santen Oy<br />
-Tel: +46 (0) 850598833<br />
-Latvija 
+Tel: +46 (0) 850598Latvija 
 Santen Oy<br />
 Tel: +371 677 917 United Kingdom (Northern Ireland) 
 Santen Oy </p>
-<p>Tel: +353 (0) 169 500<br />
-(UK Tel: + 44 (0) 345 075 4863) </p>
+<p>Tel: +353 (0) 169 500 (UK Tel: + 44 (0) 345 075 4863) </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

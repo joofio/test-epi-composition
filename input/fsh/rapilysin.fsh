@@ -4,7 +4,7 @@ Instance: composition-en-4ddd1ab0c737d818a0282b987d49df2b
 InstanceOf: CompositionUvEpi
 Title: "Composition for rapilysin Package Leaflet"
 Description:  "Composition for rapilysin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Rapilysin is and what it is used for 
 2. What you need to know before Rapilysin is given to you 
 3. How to use Rapilysin 
 4. Possible side effects 
 5. How to store Rapilysin 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -72,11 +71,16 @@ Usage: #example
 thrombolytic medicine used to dissolve blood clots that have formed in certain blood vessels and to 
 restore the blood flow in these blocked vessels (=thrombolysis). </p>
 <p>Rapilysin is used after an acute myocardial infarction (heart attack) in order to dissolve the blood clot 
-causing the heart attack. It is given within 12 hours after the onset of symptoms. </p>
-<ol>
-<li>What you need to know before Rapilysin is given to you </li>
-</ol>
-<p>The doctor will ask you questions before giving you Rapilysin, to find out if you have an increased 
+causing the heart attack. It is given within 12 hours after the onset of symptoms. </p>         </div>"""   
+          
+
+             
+* section[=].section[+]
+  * title = "2. What you need to know before you take rapilysin"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "2. What you need to know before you take rapilysin"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The doctor will ask you questions before giving you Rapilysin, to find out if you have an increased 
 risk of bleeding. </p>
 <p>Do not use Rapilysin 
 * if you are allergic to reteplase or any of the other ingredients of this medicine (listed in section 
@@ -97,8 +101,8 @@ disease).
 or an infection of the heart muscle (bacterial endocarditis). 
 * if you have in the past 3 months had severe bleeding, a major injury or major surgery (e.g. 
 coronary artery bypass graft, or surgery or injury to the head or spine), given birth, or had an 
-organ biopsy or other medical / surgical procedure. </p>
-<p>Warnings and precautions </p>
+organ biopsy or other medical / surgical procedure. 
+Warnings and precautions </p>
 <p>Bleeding 
 The most common side effect of Rapilysin is bleeding. Therefore Rapilysin must be given only in the 
 presence and under the instructions of an emergency doctor. </p>
@@ -135,16 +139,7 @@ medicines. </p>
 <p>Heparin and other medicines that thin the blood (anticoagulants) and acetylsalicylic acid (a substance 
 used in many medicines used to relieve pain and lower fever) may increase the risk of bleeding. </p>
 <p>For information on medicines that should not be physically mixed with Rapilysin solution for 
-injection, see section </p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take rapilysin"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take rapilysin"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pregnancy and breast-feeding 
+injection, see section 3. Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before taking this medicine. </p>
 <p>Pregnancy 
@@ -261,8 +256,7 @@ Tranexamic acid
 di-potassium-hydrogen phosphate 
 phosphoric acid 
 sucrose 
-polysorbate<br />
-Solvent: 
+polysorbate Solvent: 
 10 ml Water for injection (prefilled syringe)  </p>
 <p>What Rapilysin looks like and contents of the pack 
 Rapilysin is presented as a powder and a solvent for injection (0.56 g powder in a vial and 10 ml 
@@ -286,93 +280,66 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-T l/Tel: +32 38207 
-Lietuva 
+T l/Tel: +32 38207Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 </p>
-<p>Te : +359 24899 
-Luxembourg/Luxemburg 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-T l/Tel: +32 38207 
- esk  republika 
+T l/Tel: +32 38207 esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarorsz g 
+Tel: +420 251007Magyarorsz g 
 Teva Gy gyszergy r Zrt 
 Tel: +36 12886Danmark 
 Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
+Tlf: +45 44985Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
+Tel: +44 2075407Deutschland 
 ratiopharm GmbH 
-Tel: +49 73140 
-Nederland 
+Tel: +49 73140Nederland 
 Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
+Tel: +31 8000228Eesti 
 UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
+Tel: +372 6610Norge 
 Teva Norway AS 
-Tlf: +47 66775 </p>
-<p>Specifar A.B.E.E. 
- : +30 2118805 
- sterreich 
+Tlf: +47 66775<br />
+Specifar A.B.E.E. 
+ : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-Espa a 
+Tel: +43 1970Espa a 
 Teva Pharma, S.L.U. 
-Tel: +34 913873 
-Polska 
+Tel: +34 913873Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
+Tel: +48 223459France 
 Teva Sant<br />
-T l: +33 155917 
-Portugal 
+T l: +33 155917Portugal 
 Teva Pharma - Produtos Farmac uticos, Lda. 
-Tel: +351 214767 </p>
-<p>Hrvatska 
+Tel: +351 214767Hrvatska 
 Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-Rom nia 
+Tel: +385 13720Rom nia 
 Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
+Tel: +40 212306Ireland 
 Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
+Tel: +44 2075407Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
- sland 
+Tel: +386 15890 sland 
 Teva Pharma Iceland ehf. 
-S mi: +354 5503 
-Slovensk  republika 
+S mi: +354 5503Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
+Tel: +421 257267Italia 
 Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
+Tel: +39 028917Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 
-K<br />
+Puh/Tel: +358 201805K<br />
 Specifar A.B.E.E. </p>
-<p>: +30 2118805 
-Sverige 
+<p>: +30 2118805Sverige 
 Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
+Tel: +46 42121Latvija 
 UAB Teva Baltics fili le Latvij <br />
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
+Tel: +371 67323United Kingdom (Northern Ireland) 
 Accord Healthcare Ireland Ltd. 
 Ireland 
-Tel: +353 214619 </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}</em> </p>
+Tel: +353 214619This leaflet was last revised in &lt;{MM/YYYY}&gt; </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

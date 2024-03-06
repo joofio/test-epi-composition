@@ -4,7 +4,7 @@ Instance: composition-en-17d853b2dfc7ae029cc7841c683817ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for brimica Package Leaflet"
 Description:  "Composition for brimica Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Brimica Genuair is and what it is used for 
 2. What you need to know before you use Brimica Genuair 
 3. How to use Brimica Genuair 
 4. Possible side effects 
 5. How to store Brimica Genuair 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -108,16 +107,9 @@ eye. </li>
 following:</p>
 <ul>
 <li>If you get sudden tightness of the chest, coughing, wheezing or breathlessness immediately after 
-using the medicine. See section </li>
-</ul>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take brimica"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take brimica"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Brimica Genuair is used as a maintenance (long-term) treatment for COPD. You should not use this 
-medicine to treat a sudden attack of breathlessness or wheezing. </p>
+using the medicine. See section 4. Brimica Genuair is used as a maintenance (long-term) treatment for COPD. You should not use this 
+medicine to treat a sudden attack of breathlessness or wheezing. </li>
+</ul>
 <p>If your usual COPD symptoms (breathlessness, wheezing, cough) do not improve or get worse while 
 you are using Brimica Genuair you should continue to use it, but go to see your doctor as soon as 
 possible because you may need another medicine. </p>
@@ -149,13 +141,12 @@ medicine may cause blurred vision or dizziness. If you are affected by either of
 not drive or use machines until the dizziness has cleared or your vision has returned to normal. </p>
 <p>Brimica Genuair contains lactose 
 This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
-some sugars, contact your doctor before taking this medicine. </p>         </div>"""         
-
-        
+some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take brimica"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take brimica"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -188,12 +179,13 @@ usual time. Do not take a double dose to make up for a forgotten dose. </p>
 <p>If you stop using Brimica Genuair 
 This medicine is for long-term use. If you want to stop treatment, first talk to your doctor, as your 
 symptoms may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store brimica"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store brimica"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Stop using the medicine and contact your doctor immediately if you:</p>
@@ -207,10 +199,10 @@ reaction. Frequency of this reactin cannot be estimated from the available data.
 <p>develop tightness of the chest, coughing, wheezing or breathlessness immediately after using the 
 medicine. These may be signs of a condition called  paradoxical bronchospasm , which is an 
 excessive and prolonged contraction of the airway muscles immediately following treatment with a 
-bronchodilator. This reaction may rarely occur (may affect up to 1 in 1,000 people).  </p>
+bronchodilator. This reaction may rarely occur (may affect up to 1 in 1,000 people).<br />
+Some side effects may be serious: if you get any of these side effects, tell your doctor immediately. </p>
 </li>
 </ul>
-<p>Some side effects may be serious: if you get any of these side effects, tell your doctor immediately. </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 - Muscle weakness, twitching and/or abnormal heart rhythm, as these may be signs of a decrease in 
 the amount of potassium in your blood 
@@ -261,11 +253,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store brimica"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store brimica"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the inhaler label, carton and inhaler 
@@ -277,4 +268,105 @@ bag after  EXP . The expiry date refers to the last day of that month. </p>
 <p>After you have taken the last dose, the inhaler has to be disposed of.  Do not throw away any 
 medicines via household waste. Ask your pharmacist how to throw away medicines you no longer use. 
 These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Brimica Genuair contains 
+- The active substances are aclidinium and formoterol fumarate dihydrate. Each delivered dose 
+(the dose leaving the mouthpiece) contains 396 micrograms aclidinium bromide equivalent to 
+340 micrograms of aclidinium and 11.8 micrograms of formoterol fumarate dihydrate. 
+- The other ingredient is lactose monohydrate (see end of section 2 under  Brimica Genuair 
+contains lactose  for more information). </p>
+<p>What Brimica Genuair looks like and contents of the pack 
+Brimica Genuair is a white or almost white inhalation powder. 
+The Genuair inhaler is a white device fitted with an integral dose indicator and an orange dosage 
+button. The mouthpiece is covered with a removable orange protective cap. It is supplied in a sealed 
+protective aluminium bag containing a desiccant sachet. After removing the inhaler from the bag, the 
+bag and desiccant sachet should be thrown away. </p>
+<p>Pack sizes supplied: </p>
+<p>Carton containing 1 inhaler with 30 doses. 
+Carton containing 1 inhaler with 60 doses. 
+Carton containing 3 inhalers each with 60 doses. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder<br />
+Covis Pharma Europe B.V.<br />
+Gustav Mahlerplein 2 
+1082MA Amsterdam 
+The Netherlands 
+Manufacturer: 
+Industrias Farmac uticas Almirall, S.A. 
+Ctra. de Martorell 41-08740 Sant Andreu de la Barca, Barcelona 
+Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien<br />
+Covis Pharma Europe B.V. 
+T l/Tel:  80013Lietuva<br />
+UAB  BERLIN CHEMIE MENARINI BALTIC <br />
+Tel: +370 52 691  <br />
+ - / .     E<br />
+ .: +359 2 454 09 Luxembourg/Luxemburg<br />
+Covis Pharma Europe B.V. 
+T l/Tel: 80024 esk  republika<br />
+Berlin-Chemie/A.Menarini Ceska republika s.r.o.<br />
+Tel: +420 267 199 Magyarorsz g<br />
+Berlin-Chemie/A. Menarini Kft.<br />
+Tel.: +36 1799 7Danmark<br />
+Covis Pharma Europe B.V. 
+Tlf:  80711Malta<br />
+Covis Pharma Europe B.V. 
+Tel:  80065Deutschland<br />
+Berlin-Chemie AG<br />
+Tel: +49 (0) 30 67Covis Pharma Europe B.V. 
+Tel:  +49 (0) 3031196Nederland<br />
+Covis Pharma Europe B.V.<br />
+Tel:  08000270Eesti<br />
+O  Berlin-Chemie Menarini Eesti<br />
+Tel: +372 667 5Norge<br />
+Covis Pharma Europe B.V.<br />
+Tlf:  80031 <br />
+MENARINI HELLAS AE<br />
+ : +30 210 8316111- sterreich<br />
+A. Menarini Pharma GmbH 
+Tel: +43 1 879 95 85-0  </p>
+<p>Espa a<br />
+Laboratorios Menarini S.A.<br />
+Tel: +34-93 462 88 Polska<br />
+Covis Pharma Europe B.V.<br />
+Tel.: 0800919France<br />
+MENARINI France<br />
+T l: +33 (0)1 45 60 77 Portugal<br />
+A. Menarini Portugal   Farmac utica, S.A.<br />
+Tel: +351 210 935 Hrvatska<br />
+Berlin-Chemie Menarini Hrvatska d.o.o.<br />
+Tel: + 385 1 4821 Rom nia<br />
+Berlin-Chemie A.Menarini S.R.L.<br />
+Tel: +40 21 232 34 Ireland<br />
+A. Menarini Pharmaceuticals Ireland Ltd<br />
+Tel: +353 1 284 6Slovenija<br />
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o. 
+Tel: +386 01 300 2 sland<br />
+Covis Pharma Europe B.V.<br />
+S mi:   8007Slovensk  republika<br />
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. 
+Tel: +421 2 544 30 Italia<br />
+Laboratori Guidotti S.p.A.<br />
+Tel: +39- 050 971Suomi/Finland<br />
+Covis Pharma Europe B.V. 
+Puh/Tel:  0800413 <br />
+Covis Pharma Europe B.V. 
+ :  80091Sverige<br />
+Covis Pharma Europe B.V. 
+Tel:  0200898Latvija<br />
+SIA Berlin-Chemie/Menarini Baltic<br />
+Tel: +371 67103United Kingdom (Northern Ireland) 
+Covis Pharma Europe B.V. 
+Tel: 08004334This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-bef5164082ea0e74f1594414cc1788ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for tandemact Package Leaflet"
 Description:  "Composition for tandemact Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tandemact is and what it is used for 
-2. What you need to know before you take Tandemact 
-3. How to take Tandemact 
-4. Possible side effects 
-5. How to store Tandemact 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tandemact is and what it is used for </li>
+<li>What you need to know before you take Tandemact </li>
+<li>How to take Tandemact </li>
+<li>Possible side effects </li>
+<li>How to store Tandemact </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -207,8 +207,8 @@ may affect your ability to drive or use machines.<br />
 Take care if you experience abnormal vision. </p>
 <p>Tandemact contains lactose monohydrate 
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
-before taking Tandemact.  </p>
-<p>Tandemact contains sodium 
+before taking Tandemact.<br />
+Tandemact contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
 free . </p>         </div>"""   
                     
@@ -350,5 +350,21 @@ Each Tandemact 30 mg/4 mg tablet contains 30 mg pioglitazone (as hydrochloride) 
 glimepiride. 
 - The other ingredients are cellulose microcrystalline, croscarmellose sodium, 
 hydroxypropylcellulose, lactose monohydrate (see section 2  Tandemact contains lactose 
-monohydrate ), magnesium stearate and polysorbate 8</p>         </div>"""      
+monohydrate ), magnesium stearate and polysorbate 80. What Tandemact looks like and contents of the pack 
+- Tandemact 30 mg/2 mg tablets are white to off-white, round, convex and debossed  4833 G  on 
+one face and  30/2  on the other.<br />
+- Tandemact 30 mg/4 mg tablets are white to off-white, round, convex and debossed  4833 G  on 
+one face and  30/4  on the other. 
+The tablets are supplied in aluminium/aluminium blister packs containing 28 tablets. </p>
+<p>Marketing authorisation holder 
+CHEPLAPHARM Arzneimittel GmbH 
+Ziegelhof 17489 Greifswald 
+Germany  </p>
+<p>Manufacturer 
+Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Ireland 
+Delpharm Novara S.r.l., Via Crosa, 86, 28065 Cerano (NO), Italy 
+Takeda GmbH, Production Site Oranienburg, Lehnitzstrasse 70   98, 16515 Oranienburg, Germany </p>
+<p>This leaflet was last revised in 08/2023. Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu </p>         </div>"""      
 

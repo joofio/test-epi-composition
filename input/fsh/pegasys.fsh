@@ -4,7 +4,7 @@ Instance: composition-en-0b227cd2a54454e66a70766913e35ba2
 InstanceOf: CompositionUvEpi
 Title: "Composition for pegasys Package Leaflet"
 Description:  "Composition for pegasys Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Pegasys is and what it is used for 
 2. What you need to know before you use Pegasys 
 3. How to use Pegasys 
 4. Possible side effects 
 5. How to store Pegasys 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -197,8 +196,8 @@ Pegasys contains 10 mg benzyl alcohol in each vial which is equivalent to 10 mg/
 <p>Benzyl alcohol may cause toxic reactions and allergic reactions. </p>
 <p>Benzyl alcohol has been linked with the risk of severe side effects including breathing problems 
 (called  gasping syndrome ) in young children. Pegasys must not be given to premature babies, 
-neonates or children up to 3 years old.  </p>
-<p>Ask your doctor or pharmacist for advice if you are pregnant or breast feeding, or if you have a liver 
+neonates or children up to 3 years old.<br />
+Ask your doctor or pharmacist for advice if you are pregnant or breast feeding, or if you have a liver 
 or kidney disease. This is because large amounts of benzyl alcohol can build-up in your body and may 
 cause side effects (called  metabolic acidosis ). </p>
 <p>Sodium 
@@ -340,8 +339,8 @@ Ear disorders: Hearing loss
 Heart and blood vessel disorders: High blood pressure 
 Breathing disorders: Wheezing 
 Digestive system disorders: Gastrointestinal bleeding 
-Liver disorders: Poor functioning of the liver </p>
-<p>Rare side effects with the combination of Pegasys and ribavirin (may affect up to 1 in 1000 people) 
+Liver disorders: Poor functioning of the liver 
+Rare side effects with the combination of Pegasys and ribavirin (may affect up to 1 in 1000 people) 
 are: </p>
 <p>Infections: Infection of the heart, infection of the external ear 
 Blood disorders: Severe reduction in red blood cells, white blood cells and platelets 
@@ -390,8 +389,8 @@ Pulmonary arterial hypertension - a disease of severe narrowing of the blood ves
 resulting in high blood pressure in the blood vessels that carry blood from the heart to the lungs. This 
 may occur in particular in patients with risk factors such as HIV infection or severe liver problems 
 (cirrhosis). The side effect may develop at various time points during treatment, typically several 
-months after starting treatment with Pegasys. </p>
-<p>When Pegasys is used alone in hepatitis B or C patients, some of these effects are less likely to occur. </p>
+months after starting treatment with Pegasys. 
+When Pegasys is used alone in hepatitis B or C patients, some of these effects are less likely to occur. </p>
 <p>Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
@@ -512,5 +511,5 @@ important information for you. </p>
 <p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

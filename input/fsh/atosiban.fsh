@@ -4,7 +4,7 @@ Instance: composition-en-b7ea2b843cac38255840aa11da0bbc43
 InstanceOf: CompositionUvEpi
 Title: "Composition for atosiban Package Leaflet"
 Description:  "Composition for atosiban Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Atosiban SUN is and what it is used for 
-2. What you need to know before you are given Atosiban SUN 
-3. How Atosiban SUN will be given 
-4. Possible side effects 
-5. How to store Atosiban SUN 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Atosiban SUN is and what it is used for </li>
+<li>What you need to know before you are given Atosiban SUN </li>
+<li>How Atosiban SUN will be given </li>
+<li>Possible side effects </li>
+<li>How to store Atosiban SUN </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -100,12 +100,10 @@ would also have fits (convulsions). This will mean your unborn baby needs to be 
 straight away. 
 - If your unborn baby has died. 
 - If you have or could have an infection of your womb (uterus). 
-- If your placenta is covering the birth canal. </p>
-<ul>
-<li>If your placenta is detaching from the wall of your womb. </li>
-<li>If you or your unborn baby have any other conditions where it would be dangerous to continue 
-with your pregnancy. </li>
-</ul>
+- If your placenta is covering the birth canal. 
+- If your placenta is detaching from the wall of your womb. 
+- If you or your unborn baby have any other conditions where it would be dangerous to continue 
+with your pregnancy. </p>
 <p>Do not use Atosiban SUN if any of the above apply to you. If you are not sure, talk to your doctor, 
 midwife or pharmacist before you are given Atosiban SUN. </p>
 <p>Warnings and precautions 
@@ -202,8 +200,8 @@ safety of this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the label after EXP {MM/YYYY}. 
 The expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2 C - 8 C). Once the vial has been opened, the medicinal product must be used 
-straight away. </p>
-<p>Store in the original package in order to protect from light. </p>
+straight away. 
+Store in the original package in order to protect from light. </p>
 <p>Do not use Atosiban SUN if you notice particulate matter and discoloration prior to administration. </p>
 <p>Do not throw away any medicines in wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
@@ -241,49 +239,40 @@ Nederlandene/ /Nizozemska/The Netherlands/Holland/
 Hollandia/L-Olanda/Nederland/Niederlande/Pa ses Baixos/ 
 Nizozemska/Holandsko/Alankomaat/Nederl nderna 
 Tel./ ./tlf./ ./S mi/ ./Tlf./Puh./ 
-+31 (0)23 568 5 
-Deutschland 
++31 (0)23 568 5Deutschland 
 Sun Pharmaceuticals Germany GmbH 
 Hemmelrather Weg 51377 Leverkusen 
 Deutschland 
-tel. +49 214 403<br />
+tel. +49 214 403 Espa a 
+Sun Pharma Laboratorios, S.L.<br />
+Rambla de Catalunya 53-08007 Barcelona 
 Espa a 
-Sun Pharma Laboratorios, S.L.  </p>
-<p>Rambla de Catalunya 53-08007 Barcelona 
-Espa a 
-tel. +34 93 342 78<br />
-France 
+tel. +34 93 342 78 France 
 Sun Pharma France 
 11-15, Quai de Dion Bouton 
 92800 Puteaux 
 France 
-tel. +33 1 41 44 44<br />
-Italia 
+tel. +33 1 41 44 44 Italia 
 Sun Pharma Italia Srl 
 Viale Giulio Richard, 1 
 20143 Milano 
 Italia 
-tel. +39 02 33 49 07<br />
-Polska 
+tel. +39 02 33 49 07 Polska 
 Ranbaxy (Poland) Sp. Z. o. o. 
-ul. Kubickiego 11<br />
-02-954 Warszawa<br />
+ul. Kubickiego 02-954 Warszawa<br />
 Polska 
-tel. +48 22 642 07<br />
-Rom nia 
+tel. +48 22 642 07 Rom nia 
 Terapia S.A. 
 Str. Fabricii nr Cluj-Napoca, Jude ul Cluj 
 Rom nia 
-tel. +40 (264) 501<br />
-United Kingdom (Northern Ireland) 
+tel. +40 (264) 501 United Kingdom (Northern Ireland) 
 Ranbaxy UK Ltd 
 a Sun Pharma Company 
 Millington Road Hyde Park, Hayes 3 
 5th Floor 
 UB3 4AZ HAYES 
 United Kingdom 
-tel. +44 (0) 208 848 8 
-This leaflet was last revised in  </p>
+tel. +44 (0) 208 848 8This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
@@ -312,5 +301,5 @@ information for you.
 - Keep this leaflet. You may need to read it again. 
 - If you have any further questions, ask your doctor, midwife or pharmacist. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section </p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

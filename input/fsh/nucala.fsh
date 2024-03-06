@@ -4,7 +4,7 @@ Instance: composition-en-701e93600aa20be1f78aef0a64b1f790
 InstanceOf: CompositionUvEpi
 Title: "Composition for nucala Package Leaflet"
 Description:  "Composition for nucala Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,15 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Nucala is and what it is used for  
-2. What you need to know before you use Nucala  
-3. How to use Nucala 
-4. Possible side effects  
-5. How to store Nucala 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Nucala is and what it is used for  </li>
+<li>What you need to know before you use Nucala  </li>
+<li>How to use Nucala </li>
+<li>Possible side effects  </li>
+<li>How to store Nucala </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -137,8 +137,8 @@ the body (see section 4,  Possible side effects ).  </p>
 Nucala may weaken your resistance to infections caused by parasites. If you already have a parasitic 
 infection; it should be treated before you start treatment with Nucala. If you live in a region where 
 these infections are common or if you are travelling to such a region: </p>
-<p>Check with your doctor if you think any of these may apply to you. </p>
-<p>Children and adolescents </p>
+<p>Check with your doctor if you think any of these may apply to you. 
+Children and adolescents </p>
 <p>Severe eosinophilic asthma </p>
 <p>The pre-filled pen is not intended for use in children below 12 years of age for the treatment of 
 severe eosinophilic asthma. 
@@ -177,8 +177,8 @@ essentially  sodium-free . </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Nucala is given by injection just under the skin (subcutaneous injection).   </p>
 <p>Your doctor or nurse will decide if you or your caregiver can inject Nucala. If appropriate, they will 
-then provide training to show you or your caregiver the correct way to use Nucala. </p>
-<p>Nucala must be given to children aged 6 to 11 years by a doctor, nurse or trained caregiver.  </p>
+then provide training to show you or your caregiver the correct way to use Nucala. 
+Nucala must be given to children aged 6 to 11 years by a doctor, nurse or trained caregiver.  </p>
 <p>Severe eosinophilic asthma </p>
 <p>The recommended dose for adults and adolescents aged 12 years and older is 100 mg. You will have 
 1 injection every four weeks. </p>
@@ -304,8 +304,7 @@ Authorisation Holder: </p>
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 T l/Tel: + 32 (0) 10 85 52 Lietuva 
 UAB  BERLIN-CHEMIE MENARINI BALTIC<br />
-Tel: + 370 52 691  </p>
-<p>lt@berlin-chemie.com </p>
+Tel: + 370 52 691 lt@berlin-chemie.com </p>
 <ul>
 <li>/ . <br />
   E <br />
@@ -314,8 +313,7 @@ Te .: + 359 2 454 0bcsofia@berlin-chemie.com </li>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 52<br />
- esk  republika 
+T l/Tel: + 32 (0) 10 85 52  esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
 Magyarorsz g 
@@ -331,16 +329,14 @@ GlaxoSmithKline GmbH &amp; Co. KG
 Tel.: + 49 (0)89 36044 8produkt.info@gsk.com </p>
 <p>Nederland 
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 
-Eesti 
+Tel: + 31 (0)33 2081Eesti 
 O  Berlin-Chemie Menarini Eesti 
 Tel: + 372 667 5ee@berlin-chemie.com </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>GlaxoSmithKline   A.E.B.E. 
- : + 30 210 68 82<br />
- sterreich 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
@@ -362,15 +358,13 @@ Tel: +385 1 4821 office-croatia@berlin-chemie.com </p>
 GlaxoSmithKline Trading Services Ltd.<br />
 Tel: + 40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija 
+Tel: + 353 (0)1 4955Slovenija 
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
 Tel: + 386 (0)1 300 2slovenia@berlin-chemie.com </p>
 <p>sland 
 Vistor hf. 
-S mi: + 354 535 7 
-Slovensk  republika 
+S mi: + 354 535 7Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
 Tel: + 421 2 544 30 slovakia@berlin-chemie.com </p>
@@ -378,10 +372,9 @@ Tel: + 421 2 544 30 slovakia@berlin-chemie.com </p>
 GlaxoSmithKline S.p.A. 
 Tel: + 39 (0)45 7741Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline Trading Services Ltd. 
- : + 357 80070<br />
-Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline Trading Services Ltd. 
+ : + 357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 

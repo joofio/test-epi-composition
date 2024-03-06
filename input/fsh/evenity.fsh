@@ -4,7 +4,7 @@ Instance: composition-en-57cff102c4a138734d137a31aea3135d
 InstanceOf: CompositionUvEpi
 Title: "Composition for evenity Package Leaflet"
 Description:  "Composition for evenity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What EVENITY is and what it is used for  
-2. What you need to know before you use EVENITY  
-3. How to use EVENITY  
-4. Possible side effects  
-5. How to store EVENITY  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What EVENITY is and what it is used for  </li>
+<li>What you need to know before you use EVENITY  </li>
+<li>How to use EVENITY  </li>
+<li>Possible side effects  </li>
+<li>How to store EVENITY  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -314,92 +314,66 @@ Minervum 7061,<br />
 Authorisation Holder.  </p>
 <p>Belgi /Belgique/Belgien 
 UCB Pharma SA/NV<br />
-T l/Tel: + 32 / (0)2 559 92 <br />
-Lietuva 
+T l/Tel: + 32 / (0)2 559 92 Lietuva 
 UCB Pharma Oy Finland<br />
-Tel: + 358 9 2514 4221  </p>
-<p>Te .: + 359 (0) 2 962 30<br />
-Luxembourg/Luxemburg 
+Tel: + 358 9 2514 4  </p>
+<p>Te .: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
 UCB Pharma SA/NV<br />
-T l/Tel: + 32 / (0)2 559 92<br />
- esk  republika 
+T l/Tel: + 32 / (0)2 559 92  esk  republika 
 UCB s.r.o.<br />
-Tel: + 420 221 773<br />
-Magyarorsz g 
+Tel: + 420 221 773 Magyarorsz g 
 UCB Magyarorsz g Kft.<br />
-Tel.: + 36-(1) 391 0 
-Danmark 
+Tel.: + 36-(1) 391 0Danmark 
 UCB Nordic A/S<br />
-Tlf: + 45 / 32 46 24<br />
-Malta 
+Tlf: + 45 / 32 46 24 Malta 
 Pharmasud Ltd.<br />
-Tel: + 356 / 21 37 64  </p>
-<p>Draft </p>
+Tel: + 356 / 21 37 64 Draft </p>
 <p>Deutschland 
 UCB Pharma GmbH<br />
-Tel: + 49 /(0) 2173 48 4 
-Nederland 
+Tel: + 49 /(0) 2173 48 4Nederland 
 UCB Pharma B.V.<br />
-Tel.: + 31 / (0)76-573 11<br />
-Eesti 
+Tel.: + 31 / (0)76-573 11 Eesti 
 UCB Pharma Oy Finland <br />
-Tel: + 358 9 2514 4221  </p>
-<p>Norge 
+Tel: + 358 9 2514 4Norge 
 UCB Nordic A/S<br />
-Tlf: + 47 / 67 16 5 </p>
-<p>UCB  . . <br />
- : + 30 / 2109974 
- sterreich 
+Tlf: + 47 / 67 16 5<br />
+UCB  . . <br />
+ : + 30 / 2109974 sterreich 
 UCB Pharma GmbH<br />
-Tel: + 43-(0)1 291 80<br />
-Espa a 
+Tel: + 43-(0)1 291 80 Espa a 
 UCB Pharma, S.A.<br />
-Tel: + 34 / 91 570 34<br />
-Polska 
+Tel: + 34 / 91 570 34 Polska 
 UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
-Tel: + 48 22 696 99<br />
-France 
+Tel: + 48 22 696 99 France 
 UCB Pharma S.A.<br />
-T l: + 33 / (0)1 47 29 44<br />
-Portugal 
+T l: + 33 / (0)1 47 29 44 Portugal 
 UCB Pharma (Produtos Farmac uticos), Lda<br />
-Tel: + 351 / 21 302 5 
-Hrvatska 
+Tel: + 351 / 21 302 5Hrvatska 
 Medis Adria d.o.o.<br />
-Tel: +385 (0) 1 230 34<br />
-Rom nia 
+Tel: +385 (0) 1 230 34 Rom nia 
 UCB Pharma Romania S.R.L.<br />
-Tel: + 40 21 300 29<br />
-Ireland 
+Tel: + 40 21 300 29 Ireland 
 UCB (Pharma) Ireland Ltd.<br />
-Tel: + 353 / (0)1-46 37<br />
-Slovenija 
+Tel: + 353 / (0)1-46 37 Slovenija 
 Medis, d.o.o.<br />
-Tel: + 386 1 589 69<br />
- sland 
+Tel: + 386 1 589 69  sland 
 Vistor hf.<br />
-Simi: + 354 535 7 
-Slovensk  republika 
+Simi: + 354 535 7Slovensk  republika 
 UCB s.r.o., organiza n  zlo ka<br />
-Tel: + 421 (0) 2 5920 2 
-Italia 
+Tel: + 421 (0) 2 5920 2Italia 
 UCB Pharma S.p.A.<br />
-Tel: + 39 / 02 300<br />
-Suomi/Finland 
+Tel: + 39 / 02 300 Suomi/Finland 
 UCB Pharma Oy Finland<br />
-Puh/Tel: + 358 9 2514 4 </p>
-<p>Lifepharma (Z.A.M.) Ltd<br />
- : + 357 22 056 
-Sverige 
+Puh/Tel: + 358 9 2514 4<br />
+Lifepharma (Z.A.M.) Ltd<br />
+ : + 357 22 056Sverige 
 UCB Nordic A/S<br />
-Tel: + 46 / (0) 40 29 49<br />
-Latvija 
+Tel: + 46 / (0) 40 29 49 Latvija 
 UCB Pharma Oy Finland<br />
 Tel: + 358 9 2514 4221 (Somija) </p>
 <p>United Kingdom (Northern Ireland) 
 UCB (Pharma) Ireland Ltd.<br />
-Tel : + 353 / (0)1-46 37<br />
-This leaflet was last revised in MM/YYYY. </p>
+Tel : + 353 / (0)1-46 37 This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

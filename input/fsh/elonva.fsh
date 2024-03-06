@@ -4,7 +4,7 @@ Instance: composition-en-893c628829d99b9262496b31c3e0ec71
 InstanceOf: CompositionUvEpi
 Title: "Composition for elonva Package Leaflet"
 Description:  "Composition for elonva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Elonva is and what it is used for 
 2. What you need to know before you use Elonva 
 3. How to use Elonva 
 4. Possible side effects 
 5. How to store Elonva 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -108,8 +107,7 @@ have had ovarian hyperstimulation syndrome (OHSS)  *
 have previously had a treatment cycle of controlled stimulation of the ovaries that 
 resulted in the growth of more than 30 follicles with a size of 11 mm or larger * 
 have a basal antral follicle count (the number of small follicles present in your ovaries at 
-the beginning of a menstrual cycle) higher than<br />
-Warnings and precautions </li>
+the beginning of a menstrual cycle) higher than Warnings and precautions </li>
 </ul>
 <p>Talk to your doctor before using Elonva. </p>
 <p>Ovarian hyperstimulation syndrome (OHSS) 
@@ -476,8 +474,7 @@ Ljubljana
 Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
 <p>sland 
 Vistor hf. 
-S mi: + 354 535 7 
-Slovensk  republika 
+S mi: + 354 535 7Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
 <p>Italia 

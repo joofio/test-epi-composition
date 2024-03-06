@@ -4,7 +4,7 @@ Instance: composition-en-3897ae464fed2d09fdccd118642cb036
 InstanceOf: CompositionUvEpi
 Title: "Composition for jardiance Package Leaflet"
 Description:  "Composition for jardiance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Jardiance is and what it is used for
 2. What you need to know before you take Jardiance
 3. How to take Jardiance
 4. Possible side effects
 5. How to store Jardiance
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -168,14 +167,8 @@ medicines.
 It is important to tell your doctor:</p>
 <p>if you are taking medicines that increase urine production (diuretics). Your doctor may ask you 
 to stop taking Jardiance. Possible signs of losing too much fluid from your body are listed in 
-section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take jardiance"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take jardiance"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>if you are taking other medicines that lower the amount of sugar in your blood such as insulin or 
+section 4.<br />
+if you are taking other medicines that lower the amount of sugar in your blood such as insulin or 
 a  sulphonylurea  medicine. Your doctor may want to lower the dose of these other medicines, 
 to prevent your blood sugar levels from getting too low (hypoglycaemia).</p>
 <p>if you are taking lithium because Jardiance can lower the amount of lithium in your blood.
@@ -195,13 +188,12 @@ Jardiance contains lactose (milk sugar). If you have been told by your doctor th
 intolerance to some sugars, contact your doctor before taking this medicine.
 Jardiance contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free .</p>         </div>"""         
-
-        
+free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take jardiance"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take jardiance"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure.
@@ -235,12 +227,13 @@ the usual time.</p>
 If you stop taking Jardiance
 Do not stop taking Jardiance without first consulting your doctor. If you have type 2 diabetes mellitus, 
 your blood sugar levels may increase when you stop taking Jardiance.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store jardiance"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store jardiance"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Contact a doctor or the nearest hospital straight away if you have any of the following side 
@@ -310,11 +303,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store jardiance"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store jardiance"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the blister and the carton after  EXP . 
@@ -323,4 +315,129 @@ This medicine does not require any special storage conditions.
 Do not use this medicine if you notice that the packaging is damaged or shows signs of tampering. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Jardiance contains</h2>
+<h2>The active substance is empagliflozin.</h2>
+<h2>Each tablet contains 10 mg or 25 mg empagliflozin.</h2>
+<h2>The other ingredients are:</h2>
+<p>tablet core: lactose monohydrate (see end of section 2 under  Jardiance contains 
+lactose ), microcrystalline cellulose, hydroxypropylcellulose, croscarmellose sodium
+(see end of section 2 under  Jardiance contains sodium ), colloidal anhydrous silica, 
+magnesium stearate
+-
+film-coating: hypromellose, titanium dioxide (E171), talc, macrogol (400), iron oxide 
+yellow (E172)
+What Jardiance looks like and contents of the pack
+Jardiance 10 mg film-coated tablets are round, pale yellow, biconvex and bevel-edged. They have 
+ S10  on one side and the Boehringer Ingelheim logo on the other side. The tablets are 9.1 mm in 
+diameter.
+Jardiance 25 mg film-coated tablets are oval, pale yellow and biconvex. They have  S25  on one side 
+and the Boehringer Ingelheim logo on the other side. The tablet is 11.1 mm long and has a width of 
+5.6 mm.
+Jardiance tablets are available in PVC/aluminium perforated unit dose blisters. The pack sizes are 
+7 x 1, 10 x 1, 14 x 1, 28 x 1, 30 x 1, 60 x 1, 70 x 1, 90 x 1, and 100 x 1 film-coated tablets.
+Not all pack sizes may be marketed in your country.
+Marketing Authorisation Holder
+Boehringer Ingelheim International GmbH
+Binger Strasse 55216 Ingelheim am Rhein
+Germany
+Manufacturer
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Binger Strasse 55216 Ingelheim am Rhein
+Germany
+Boehringer Ingelheim Hellas Single Member S.A.
+5th km Paiania   Markopoulo
+Koropi Attiki, 19Greece
+Rottendorf Pharma GmbH
+Ostenfelder Strasse 51   59320 Ennigerloh
+Germany
+Boehringer Ingelheim France
+100-104 Avenue de France
+75013 Paris
+France
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Boehringer Ingelheim SComm
+T l/Tel: +32 2 773 33 Lietuva
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Lietuvos filialas
+Tel: +370 5 2595 
+           .   -</p>
+<p>: +359 2 958 79 Luxembourg/Luxemburg
+Boehringer Ingelheim SComm
+T l/Tel: +32 2 773 33  esk  republika
+Boehringer Ingelheim spol. s r.o.
+Tel: +420 234 655 Magyarorsz g
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Magyarorsz gi Fi ktelepe
+Tel: +36 1 299 89 Danmark
+Boehringer Ingelheim Danmark A/S
+Tlf: +45 39 15 88 Malta
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9Deutschland
+Boehringer Ingelheim Pharma GmbH &amp; Co. KG
+Tel: +49 (0) 800 77 90 Nederland
+Boehringer Ingelheim B.V.
+Tel: +31 (0) 800 22 55 Lilly Deutschland GmbH
+Tel. +49 (0) 6172 273 2Eesti
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Eesti filiaal
+Tel: +372 612 8Norge
+Boehringer Ingelheim Norway KS
+Tlf: +47 66 76 13<br />
+Boehringer Ingelheim     A.E.
+T : +30 2 10 89 06  sterreich
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Tel: +43 1 80 105-7Espa a
+Boehringer Ingelheim Espa a, S.A.
+Tel: +34 93 404 51 Polska
+Boehringer Ingelheim Sp. z o.o.
+Tel: +48 22 699 0 Lilly S.A.
+Tel: +34 91 663 50 France
+Boehringer Ingelheim France S.A.S.
+T l: +33 3 26 50 45 Portugal
+Boehringer Ingelheim Portugal, Lda.
+Tel: +351 21 313 53 Lilly France SAS
+T l: +33 1 55 49 34 Lilly Portugal Produtos Farmac uticos, Lda
+Tel: +351 21 412 66 Hrvatska
+Boehringer Ingelheim Zagreb d.o.o.
+Tel: +385 1 2444 Rom nia
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Viena - Sucursala Bucure ti
+Tel: +40 21 302 28 Ireland
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9Slovenija
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+Podru nica Ljubljana
+Tel: +386 1 586 40 Eli Lilly and Company (Ireland) Limited
+Tel: +353 1 661 4 sland
+Vistor hf.
+S mi: +354 535 7Slovensk  republika
+Boehringer Ingelheim RCV GmbH &amp; Co KG 
+organiza n  zlo ka
+Tel: +421 2 5810 1Italia
+Boehringer Ingelheim Italia S.p.A.
+Tel: +39 02 5355 1
+Suomi/Finland
+Boehringer Ingelheim Finland Ky
+Puh/Tel: +358 10 3102 Eli Lilly Italia S.p.A.
+Tel: +39 05 5425<br />
+Boehringer Ingelheim     A.E.
+T : +30 2 10 89 06 Sverige
+Boehringer Ingelheim AB
+Tel: +46 8 721 21 Latvija
+Boehringer Ingelheim RCV GmbH &amp; Co KG
+Latvijas fili le
+Tel: +371 67 240 United Kingdom (Northern Ireland)
+Boehringer Ingelheim Ireland Ltd.
+Tel: +353 1 295 9Eli Lilly and Company (Ireland) Limited
+Tel: +353 1 661 4This leaflet was last revised in {MM/YYYY}.
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

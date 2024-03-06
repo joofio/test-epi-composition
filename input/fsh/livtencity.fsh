@@ -4,7 +4,7 @@ Instance: composition-en-2c250051417033f9ca5609b812b532b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for livtencity Package Leaflet"
 Description:  "Composition for livtencity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What LIVTENCITY is and what it is used for
 2. What you need to know before you take LIVTENCITY
 3. How to take LIVTENCITY
 4. Possible side effects
 5. How to store LIVTENCITY
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]

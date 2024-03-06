@@ -4,7 +4,7 @@ Instance: composition-en-d4e8178d3a905eabdd581f1645891fb4
 InstanceOf: CompositionUvEpi
 Title: "Composition for prevymis Package Leaflet"
 Description:  "Composition for prevymis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What PREVYMIS is and what it is used for
 2. What you need to know before you take PREVYMIS
 3. How to take PREVYMIS
 4. Possible side effects
 5. How to store PREVYMIS
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -148,8 +147,7 @@ If you are breast-feeding or are planning to breast-feed, tell your doctor befor
 Breast-feeding is not recommended while taking PREVYMIS. This is because it is not known if
 PREVYMIS gets in your breast milk and will be passed to your baby.
 Driving and using machines
-PREVYMIS may have minor influence on your ability to drive and use machines (see section 4
- Possible side effects  below). Some patients have reported fatigue (feeling very tired) or vertigo
+PREVYMIS may have minor influence on your ability to drive and use machines (see section 4. Possible side effects  below). Some patients have reported fatigue (feeling very tired) or vertigo
 (feeling like you are spinning) during treatment with PREVYMIS. If you experience any of these
 effects, do not drive or use machines until the effect wears off. 
 PREVYMIS contains lactose
@@ -370,5 +368,5 @@ information for you.
 * Keep this leaflet. You may need to read it again.
 * If you have any further questions, ask your doctor, pharmacist, or nurse.
 * If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

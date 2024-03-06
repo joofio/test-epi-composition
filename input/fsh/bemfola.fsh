@@ -4,7 +4,7 @@ Instance: composition-en-63388d6288bf341989180dcca08d726e
 InstanceOf: CompositionUvEpi
 Title: "Composition for bemfola Package Leaflet"
 Description:  "Composition for bemfola Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Bemfola is and what it is used for 
-2. What you need to know before you use Bemfola 
-3. How to use Bemfola 
-4. Possible side effects 
-5. How to store Bemfola 
-6. Contents of the pack and other information  
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Bemfola is and what it is used for </li>
+<li>What you need to know before you use Bemfola </li>
+<li>How to use Bemfola </li>
+<li>Possible side effects </li>
+<li>How to store Bemfola </li>
+<li>Contents of the pack and other information  </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -247,8 +247,8 @@ eggs ready for collection. </p>
 hormone (GnRH) agonist or antagonist. Then Bemfola is started approximately two weeks after start 
 of agonist treatment. The Bemfola and GnRH agonist are then both given until your follicles develop 
 as desired. For example, after two weeks of GnRH agonist treatment, 150 to 225 IU Bemfola is 
-administered for 7 days. The dose is then adjusted according to your ovarian response.  </p>
-<p>Men 
+administered for 7 days. The dose is then adjusted according to your ovarian response.<br />
+Men 
 * The usual dose of Bemfola is 150 IU (0.25 mL) together with hCG. 
 * You will use these two medicines three times a week for at least 4 months. 
 * If you have not responded to treatment after 4 months, your doctor may suggest that you 

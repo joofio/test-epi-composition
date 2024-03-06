@@ -4,7 +4,7 @@ Instance: composition-en-63de51a4556de5e7a2f7d84ffc03fbf9
 InstanceOf: CompositionUvEpi
 Title: "Composition for fampridine Package Leaflet"
 Description:  "Composition for fampridine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Fampridine Accord is and what it is used for  
-2. What you need to know before you take Fampridine Accord  
-3. How to take Fampridine Accord 
-4. Possible side effects 
-5. How to store Fampridine Accord 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Fampridine Accord is and what it is used for  </li>
+<li>What you need to know before you take Fampridine Accord  </li>
+<li>How to take Fampridine Accord </li>
+<li>Possible side effects </li>
+<li>How to store Fampridine Accord </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

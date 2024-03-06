@@ -4,7 +4,7 @@ Instance: composition-en-2a989ee2499ed7653de4b30c1670b7a3
 InstanceOf: CompositionUvEpi
 Title: "Composition for cetrotide Package Leaflet"
 Description:  "Composition for cetrotide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Cetrotide is and what it is used for 
-2. What you need to know before you use Cetrotide 
-3. How to use Cetrotide 
-4. Possible side effects 
-5. How to store Cetrotide 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Cetrotide is and what it is used for </li>
+<li>What you need to know before you use Cetrotide </li>
+<li>How to use Cetrotide </li>
+<li>Possible side effects </li>
+<li>How to store Cetrotide </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -197,8 +197,8 @@ Common (may affect up to 1 in 10 women):
 swelling. </p>
 <p>Uncommon (may affect up to 1 in 100 women): 
 * Feeling sick (nausea) 
-* Headache. </p>
-<p>Reporting of side effects 
+* Headache. 
+Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 

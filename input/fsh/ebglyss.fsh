@@ -4,7 +4,7 @@ Instance: composition-en-3c57f0122132d30c2d609098965d1921
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebglyss Package Leaflet"
 Description:  "Composition for ebglyss Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ebglyss is and what it is used for 
-2. What you need to know before you use Ebglyss 
-3. How to use Ebglyss 
-4. Possible side effects 
-5. How to store Ebglyss 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ebglyss is and what it is used for </li>
+<li>What you need to know before you use Ebglyss </li>
+<li>How to use Ebglyss </li>
+<li>Possible side effects </li>
+<li>How to store Ebglyss </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -143,15 +143,7 @@ or pharmacist if you are not sure. </p>
 <p>How much Ebglyss is given and for how long 
 Your doctor will decide how much Ebglyss you need and how long you will use it for. </p>
 <p>The recommended dose is: 
-* Two initial injections of 250 mg lebrikizumab each (500 mg in total) at week 0 and week 2. * One injection with 250 mg once every two weeks from week 4 up to week 1</p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Based on how you respond to the medicine, your doctor may decide to stop giving the medicine or 
+* Two initial injections of 250 mg lebrikizumab each (500 mg in total) at week 0 and week 2. * One injection with 250 mg once every two weeks from week 4 up to week 16. Based on how you respond to the medicine, your doctor may decide to stop giving the medicine or 
 to keep giving you one 250 mg injection every other week up to week 24. * One injection with 250 mg every four weeks from week 16 onwards (maintenance dosing). </p>
 <p>Ebglyss is given as an injection under your skin (subcutaneous injection) into the thigh or abdomen, 
 except for 5 cm around the navel. If somebody else gives the injection, it can also be given into the 
@@ -174,12 +166,13 @@ If you forgot to inject Ebglyss when you usually have planned to do it, take it 
 remember. The next dose should be injected on the regular scheduled day. </p>
 <p>If you stop using Ebglyss 
 Do not stop using Ebglyss without speaking to your doctor first. 
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store ebglyss"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ebglyss"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Common (may affect up to 1 in 10 people) 
@@ -198,11 +191,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store ebglyss"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store ebglyss"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label after EXP. The expiry date 
@@ -218,4 +210,61 @@ recorded on the carton. </p>
 <p>This medicine is for single use only. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ebglyss contains<br />
+- The active substance is lebrikizumab. Each pre-filled syringe contains 250 mg of lebrikizumab 
+in a 2 mL solution (125 mg/mL). 
+- The other ingredients are histidine, glacial acetic acid (E260), sucrose, polysorbate 20 (E432) 
+and water for injections. </p>
+<p>What Ebglyss looks like and contents of the pack 
+Ebglyss is a clear to opalescent, colourless to slightly yellow to slightly brown sterile solution for 
+injection, free of visible particles. It is supplied as carton packs containing one single-dose, glass, pre-
+filled syringe or 2 single-dose pre-filled syringes, and as multipacks containing 3 single-dose pre-filled 
+syringes (3 packs of 1), 4 single-dose pre-filled syringes (2 packs of 2), 5 single-dose pre-filled 
+syringes (5 packs of 1) or 6 single-dose pre-filled syringes (3 packs of 2).<br />
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Almirall, S.A. 
+Ronda General Mitre, 08022 Barcelona 
+Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Luxembourg/Luxemburg 
+Almirall N.V 
+T l/Tel: +32 (0)2 771 86  sland 
+Vistor hf. 
+S mi: +354 535 70  / Eesti/  / Espa a/ Hrvatska/ 
+ / Latvija/ Lietuva/ Magyarorsz g/ 
+Malta/ Rom nia/ Slovenija 
+Almirall, S.A.<br />
+Te ./ Tel/  : +34 93 291 30 Italia 
+Almirall SpA 
+Tel.: +39 02 346 esk  republika/Slovensk  republika 
+Almirall s.r.o 
+Tel: +420 739 686 Nederland 
+Almirall B.V. 
+Tel: +31 (0) 30 799 11 Danmark/ Norge/ Suomi/Finland/ Sverige 
+Almirall ApS 
+Tlf/ Puh/Tel: +45 70 25 75   sterreich 
+Almirall GmbH 
+Tel.: +43 (0)1/595 39 Deutschland 
+Almirall Hermal GmbH 
+Tel.: +49 (0)40 72704-0 
+ Polska 
+Almirall Sp.z o. o. 
+Tel.: +48 22 330 02 France 
+Almirall SAS, 1 
+T l.: +33(0)1 46 46 19  Portugal 
+Almirall - Produtos Farmac uticos, Lda. 
+Tel.: +351 21 415 57 Ireland/ United Kingdom (Northern Ireland) 
+Almirall, S.A. 
+Tel: +353 (0) 1431 9This leaflet was last revised in . </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

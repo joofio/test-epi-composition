@@ -4,7 +4,7 @@ Instance: composition-en-c29ba23bb04c16ab758f150fe41d6513
 InstanceOf: CompositionUvEpi
 Title: "Composition for remsima Package Leaflet"
 Description:  "Composition for remsima Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Remsima is and what it is used for 
-2. What you need to know before you use Remsima 
-3. How Remsima will be given 
-4. Possible side effects 
-5. How to store Remsima 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Remsima is and what it is used for </li>
+<li>What you need to know before you use Remsima </li>
+<li>How Remsima will be given </li>
+<li>Possible side effects </li>
+<li>How to store Remsima </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -140,13 +140,15 @@ Talk to your doctor before or during treatment with Remsima if you have: </p>
 <ul>
 <li>Tell your doctor if you have had treatment with medicines containing infliximab in the past and 
 are now starting Remsima treatment again. </li>
-<li>If you have had a break in your treatment with infliximab of more than 16 weeks, there is a 
-higher risk for allergic reactions when you start the treatment again. </li>
-</ul>
-<p>Infections </p>
-<ul>
-<li>Tell your doctor before you are given Remsima if you have an infection even if it is a very 
-minor one. </li>
+<li>
+<p>If you have had a break in your treatment with infliximab of more than 16 weeks, there is a 
+higher risk for allergic reactions when you start the treatment again. 
+Infections </p>
+</li>
+<li>
+<p>Tell your doctor before you are given Remsima if you have an infection even if it is a very 
+minor one. </p>
+</li>
 <li>Tell your doctor before you are given Remsima if you have ever lived in or travelled to an area 
 where infections called histoplasmosis, coccidioidomycosis, or blastomycosis are common. 
 These infections are caused by specific types of fungi that can affect the lungs or other parts of 
@@ -609,19 +611,15 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Celltrion Healthcare Belgium BVBA 
-T l/Tel: + 32 1528 7 
-Lietuva 
+T l/Tel: + 32 1528 7Lietuva 
 Celltrion Healthcare Hungary Kft. 
-Tel: + 36 1 231 0 </p>
-<p>Celltrion Healthcare Hungary Kft. 
-Te .: + 36 1 231 0 
-Luxembourg/Luxemburg 
+Tel: + 36 1 231 0<br />
+Celltrion Healthcare Hungary Kft. 
+Te .: + 36 1 231 0Luxembourg/Luxemburg 
 Celltrion Healthcare Belgium BVBA 
-T l/Tel: + 32 1528 7 
- esk  republika 
+T l/Tel: + 32 1528 7 esk  republika 
 Celltrion Healthcare Hungary Kft. 
-Tel: + 36 1 231 0 
-Magyarorsz g 
+Tel: + 36 1 231 0Magyarorsz g 
 Celltrion Healthcare Hungary Kft.<br />
 Tel: +36 1 231 0Danmark 
 Orion Pharma A/S 
@@ -633,63 +631,52 @@ Celltrion Healthcare Deutschland GmbH
 Tel: + 49 (0)30 346494infoDE@celltrionhc.com </p>
 <p>Nederland 
 Celltrion Healthcare Netherlands B.V. 
-Tel: +31 20 888 7 
-Eesti 
+Tel: +31 20 888 7Eesti 
 Orion Pharma Eesti O<br />
-Tel: + 372 6 644 550<br />
-Norge 
+Tel: + 372 6 644 Norge 
 Orion Pharma AS 
-Tlf: + 47 40 00 42  </p>
-<p>. .<br />
+Tlf: + 47 40 00 42 <br />
+   . .<br />
  : +30 210 8009111    sterreich 
 Astro-Pharma GmbH 
 Tel.: +43 1 97 99 office@astropharma.at </p>
 <p>Espa a 
 Kern Pharma, S.L. 
-Tel: + 34 93 700 25<br />
-Polska 
+Tel: + 34 93 700 25 Polska 
 CELLTRION Healthcare Hungary Kft. 
-Tel.: + 36 1 231 0 </p>
-<p>France 
+Tel.: + 36 1 231 0France 
 Celltrion Healthcare France SAS 
 Tel: +33 (0)1 71 25 27 Portugal 
 PharmaKERN Portugal   Produtos Farmac uticos, 
 Sociedade Unipessoal, Lda.<br />
-Tel: + 351 214 200 290  </p>
-<p>Hrvatska 
+Tel: + 351 214 200 Hrvatska 
 OKTAL PHARMA d.o.o.<br />
 Tel: + 385 1 6595 oktal-pharma@oktal-pharma.hr </p>
 <p>Ireland 
 Celltrion Healthcare Ireland Limited 
 Tel: +353 1 223 4Rom nia 
 Celltrion Healthcare Hungary Kft. 
-Tel: + 36 1 231 0  </p>
-<p>Slovenija 
+Tel: + 36 1 231 0Slovenija 
 OPH Oktal Pharma d.o.o. 
 Tel: + 386 1 519 29 info@oktal-pharma.si </p>
 <p>sland 
 Vistor hf. 
 S mi: +354 535 7Slovensk  republika 
 Celltrion Healthcare Hungary Kft. 
-Tel: + 36 1 231 0 </p>
-<p>Italia 
+Tel: + 36 1 231 0Italia 
 Celltrion Healthcare Italy S.r.l. 
 Via Luigi Galvani, 24 - 20124 Milano (MI) 
-Tel: +39 0247 927 
-Suomi/Finland 
+Tel: +39 0247 927Suomi/Finland 
 Orion Pharma 
-Puh/Tel: + 358 10 4261  </p>
-<p>C.A. Papaellinas Ltd 
- : + 357 22741 
-Sverige 
+Puh/Tel: + 358 10 4<br />
+C.A. Papaellinas Ltd 
+ : + 357 22741Sverige 
 Orion Pharma AB 
 Tel: + 46 8 623 64 Latvija 
 Celltrion Healthcare Hungary Kft. 
-Tel: + 36 1 231 0 
-United Kingdom (Northern Ireland) 
+Tel: + 36 1 231 0United Kingdom (Northern Ireland) 
 Celltrion Healthcare Ireland Limited 
-Tel: +353 1 223 4 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +353 1 223 4This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

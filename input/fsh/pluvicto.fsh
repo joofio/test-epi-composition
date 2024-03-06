@@ -4,7 +4,7 @@ Instance: composition-en-b22e4f6e000233f7a0ddfe37c0cbf809
 InstanceOf: CompositionUvEpi
 Title: "Composition for pluvicto Package Leaflet"
 Description:  "Composition for pluvicto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Pluvicto is and what it is used for 
-2. What you need to know before Pluvicto is used 
-3. How Pluvicto is used 
-4. Possible side effects 
-5. How Pluvicto is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Pluvicto is and what it is used for </li>
+<li>What you need to know before Pluvicto is used </li>
+<li>How Pluvicto is used </li>
+<li>Possible side effects </li>
+<li>How Pluvicto is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -350,25 +350,20 @@ Novartis Pharma N.V.
 T l/Tel: +32 2 246 16 Lietuva 
 SAM Nordic 
  vedija 
-Tel: +46 8 720 58  </p>
-<p>Novartis Bulgaria EOOD 
- : +359 2 489 98<br />
-Luxembourg/Luxemburg 
+Tel: +46 8 720 58 <br />
+Novartis Bulgaria EOOD 
+ : +359 2 489 98 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
 T l/Tel: +32 2 246 16  esk  republika 
 M.G.P. spol. s r.o. 
-Tel: +420 602 303<br />
-Magyarorsz g 
+Tel: +420 602 303 Magyarorsz g 
 Novartis Hung ria Kft. 
-Tel.: +36 1 457 65<br />
-Danmark 
+Tel.: +36 1 457 65 Danmark 
 SAM Nordic 
 Sverige 
-Tel: +46 8 720 58<br />
-Malta 
+Tel: +46 8 720 58 Malta 
 Novartis Pharma Services Inc. 
-Tel: +356 2122 2 
-Deutschland 
+Tel: +356 2122 2Deutschland 
 Novartis Radiopharmaceuticals GmbH 
 Tel: +49 911 273 0 </p>
 <p>Nederland 
@@ -376,70 +371,53 @@ Novartis Pharma B.V.
 Tel: +31 88 04 52 Eesti 
 SAM Nordic 
 Rootsi 
-Tel: +46 8 720 58<br />
-Norge 
+Tel: +46 8 720 58 Norge 
 SAM Nordic 
 Sverige 
-Tlf: +46 8 720 58  </p>
+Tlf: +46 8 720 58   </p>
 <p>: +30 22920 63<br />
 Novartis (Hellas) A.E.B.E. 
- : +30 210 281 17<br />
- sterreich 
+ : +30 210 281 17  sterreich 
 Novartis Pharma GmbH 
 Tel: +43 1 86 6Espa a 
 Advanced Accelerator Applications Ib rica, 
 S.L.U. 
-Tel: +34 97 6600<br />
-Polska 
+Tel: +34 97 6600 Polska 
 Advanced Accelerator Applications Polska Sp. z 
 o.o. 
-Tel.: +48 22 275 56<br />
-France 
+Tel.: +48 22 275 56 France 
 Advanced Accelerator Applications 
-T l: +33 1 55 47 63<br />
-Portugal 
+T l: +33 1 55 47 63 Portugal 
 Novartis Farma - Produtos Farmac uticos, S.A. 
-Tel: +351 21 000 8 
-Hrvatska 
+Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274<br />
-Rom nia 
+Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
-Tel: +40 21 31299<br />
-Ireland 
+Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
-Tel: +353 1 260 12<br />
-Slovenija 
+Tel: +353 1 260 12 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75<br />
- sland 
+Tel: +386 1 300 75  sland 
 SAM Nordic 
 Sv j<br />
-S mi: +46 8 720 58<br />
-Slovensk  republika 
+S mi: +46 8 720 58 Slovensk  republika 
 Novartis Slovakia s.r.o. 
-Tel: +421 2 5542 5 
-Italia 
+Tel: +421 2 5542 5Italia 
 Advanced Accelerator Applications (Italy) S.r.l 
-Tel: +39 0125 561 
-Suomi/Finland 
+Tel: +39 0125 561Suomi/Finland 
 SAM Nordic 
 Ruotsi/Sverige 
-Puh/Tel: +46 8 720 58  </p>
+Puh/Tel: +46 8 720 58   </p>
 <p>: +30 22920 63<br />
 Novartis Pharma Services Inc. 
- : +357 22 690<br />
-Sverige 
+ : +357 22 690 Sverige 
 SAM Nordic 
-Tel: +46 8 720 58<br />
-Latvija 
+Tel: +46 8 720 58 Latvija 
 SAM Nordic 
 Zviedrija 
-Tel: +46 8 720 58<br />
-United Kingdom (Northern Ireland) 
+Tel: +46 8 720 58 United Kingdom (Northern Ireland) 
 Novartis Ireland Limited 
-Tel: +44 1276 698 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

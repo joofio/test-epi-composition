@@ -4,7 +4,7 @@ Instance: composition-en-6f8fb6a1c6179a9554b85e75fc6f0388
 InstanceOf: CompositionUvEpi
 Title: "Composition for binocrit Package Leaflet"
 Description:  "Composition for binocrit Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Binocrit is and what it is used for
 2. What you need to know before you use Binocrit
 3. How to use Binocrit
 4. Possible side effects
 5. How to store Binocrit
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -102,14 +101,8 @@ for a blood transfusion.</p>         </div>"""
 section 6).</p>
 <p>if you have been diagnosed with Pure Red Cell Aplasia (the bone marrow cannot produce 
 enough red blood cells) after previous treatment with any product that stimulates red blood cell 
-production (including Binocrit). See section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take binocrit"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take binocrit"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>if you have high blood pressure not properly controlled with medicines.</p>
+production (including Binocrit). See section 4.<br />
+if you have high blood pressure not properly controlled with medicines.</p>
 <p>to stimulate the production of your red blood cells (so that doctors can take more blood from 
 you) if you cannot have transfusions with your own blood during or after surgery.</p>
 <p>if you are due to have major elective orthopaedic surgery (such as hip or knee surgery), and 
@@ -181,13 +174,12 @@ Binocrit, but discuss it with your doctor first:</p>
 <p>if you are pregnant, or think you may be pregnant.</p>
 <p>if you are breast-feeding.
 Binocrit contains sodium
-Binocrit contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium free .</p>         </div>"""         
-
-        
+Binocrit contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take binocrit"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take binocrit"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you are 
 not sure. 
@@ -296,12 +288,13 @@ If you forget to use Binocrit
 Make the next injection as soon as you remember. If you are within a day of your next injection, forget 
 the missed one and carry on with your normal schedule. Do not double up the injections to make up 
 for a forgotten dose.
-If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store binocrit"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store binocrit"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Tell your doctor or nurse immediately if you notice any of the effects in this list.
@@ -379,11 +372,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store binocrit"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store binocrit"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP.</p>
@@ -400,4 +392,121 @@ Do not use this medicine if you notice that</p>
 <p>the seal is broken.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
 to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Binocrit contains</h2>
+<h2>The active substance is: epoetin alfa (for quantity see the table below).</h2>
+<p>The other ingredients are: sodium dihydrogen phosphate dihydrate, disodium phosphate 
+dihydrate, sodium chloride, glycine, polysorbate 80, hydrochloric acid (for 
+pH-adjustment), sodium hydroxide (for pH-adjustment), and water for injections.
+What Binocrit looks like and contents of the pack
+Binocrit is presented as a clear, colourless solution for injection in a pre-filled syringe. The syringes 
+are sealed in a blister. 
+Presentation
+Corresponding Presentations in 
+Quantity/Volume for each Strength
+Amount of 
+epoetin alfa
+Pre-filled syringes<em> 2,000 IU/mL:
+1,000 IU/0.5 mL
+2,000 IU/1 mL
+10,000 IU/mL:
+3,000 IU/0.3 mL
+4,000 IU/0.4 mL
+5,000 IU/0.5 mL
+6,000 IU/0.6 mL
+7,000 IU/0.7 mL
+8,000 IU/0.8 mL
+9,000 IU/0.9 mL
+10,000 IU/1 mL
+40,000 IU/mL:
+20,000 IU/0.5 mL
+30,000 IU/0.75 mL
+40,000 IU/1 mL
+8.4 micrograms
+16.8 micrograms
+25.2 micrograms
+33.6 micrograms
+42.0 micrograms
+50.4 micrograms
+58.8 micrograms
+67.2 micrograms
+75.6 micrograms
+84.0 micrograms
+168.0 micrograms
+252.0 micrograms
+336.0 micrograms
+</em>Pack size of 1, 4 or 6 pre-filled syringe(s) with or without a needle safety guard.
+Not all pack sizes may be marketed. 
+Marketing Authorisation Holder
+Sandoz GmbH
+Biochemiestr. A-6250 Kundl
+Austria
+Manufacturer
+Sandoz GmbH
+Biochemiestr. A-6336 Langkampfen
+Austria
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Sandoz nv/sa
+T l/Tel: +32 2 722 97 Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636  </p>
+<p>.: +359 2 970 47 Luxembourg/Luxemburg
+Sandoz nv/sa
+T l/Tel.: +32 2 722 97  esk  republika
+Sandoz s.r.o.
+Tel: +420 225 775 Magyarorsz g
+Sandoz Hung ria Kft.
+Tel.: +36 1 430 2Danmark/Norge/ sland/Sverige
+Sandoz A/S
+Tlf: +45 63 95 10 Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2 sterreich
+Sandoz GmbH
+Tel: +43 5338 2 
+SANDOZ HELLAS    . .
+ : +30 216 600 5Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 Espa a
+Sandoz Farmac utica, S.A.
+Tel: +34 900 456 Portugal
+Sandoz Farmac utica Lda.
+Tel: +351 21 000 86 France
+Sandoz SAS
+T l: +33 1 49 64 48 Rom nia
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska dru ba d.d.
+Tel: +386 1 580 29 Ireland
+Rowex Ltd.
+Tel: + 353 27 50Slovensk  republika
+Sandoz d.d. - organiza n  zlo ka
+Tel: +421 2 50 70 6Italia
+Sandoz S.p.A.
+Tel: +39 02 96Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133<br />
+Sandoz Pharmaceuticals d.d.
+ : +357 22 69 0United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2Latvija
+Sandoz d.d. Latvia fili le
+Tel: +371 67 892 This leaflet was last revised in {MM/YYYY}.
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

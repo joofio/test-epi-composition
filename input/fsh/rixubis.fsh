@@ -4,7 +4,7 @@ Instance: composition-en-efe0db2f668263967f135ff38dffab9d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rixubis Package Leaflet"
 Description:  "Composition for rixubis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What RIXUBIS is and what it is used for
 2. What you need to know before you use RIXUBIS
 3. How to use RIXUBIS
 4. Possible side effects
 5. How to store RIXUBIS
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -161,24 +160,11 @@ the refrigerator and let them reach room temperature (between 15 C and 30 C).
 inside (Fig. a). Do not remove the device from the package.
 6. Turn the package over and insert the clear plastic spike through the solvent stopper. Grip the 
 package at its edge and pull the package off BAXJECT II (Fig. b). Do not remove the blue cap 
-from the BAXJECT II device.</p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>With BAXJECT II attached to the solvent vial, invert the system so that the solvent vial is on 
+from the BAXJECT II device.
+7. With BAXJECT II attached to the solvent vial, invert the system so that the solvent vial is on 
 top of the device. Insert the white plastic spike through the RIXUBIS stopper. The vacuum will 
-draw the solvent into the RIXUBIS vial (Fig. c).</p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store rixubis"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store rixubis"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Swirl gently until all material is dissolved. The product dissolves rapidly (within 2 minutes). 
+draw the solvent into the RIXUBIS vial (Fig. c).
+8. Swirl gently until all material is dissolved. The product dissolves rapidly (within 2 minutes). 
 Be sure that RIXUBIS is completely dissolved, otherwise not all reconstituted solution will pass 
 through the device filter. Reconstituted medicinal products should be inspected visually for
 particulate matter and discoloration prior to administration. The solution should be clear or 
@@ -211,13 +197,13 @@ Do not inject a double dose to make up for a forgotten dose. Proceed with the ne
 scheduled and continue as advised by your doctor.
 If you stop using RIXUBIS
 Do not stop using RIXUBIS without consulting your doctor.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
-        
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Allergic-type hypersensitivity reactions are possible with RIXUBIS. Such reactions may include 
@@ -243,4 +229,138 @@ If you get any side effects, talk to your doctor or, pharmacist. This includes a
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store rixubis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store rixubis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
+Do not use this medicine after the expiry date which is stated on the outer box and vial label after 
+EXP. The expiry date refers to the last day of that month.
+Store below 30 C.
+Do not freeze.
+Use the reconstituted solution immediately.
+Do not use RIXUBIS if the solution is not clear and colourless.
+Do not throw away any medicines via waste water or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What RIXUBIS contains</h2>
+<p>The active substance is nonacog gamma (recombinant human coagulation Factor IX). Each 
+powder vials contains nominally 250, 500, 1000, 2000 or 3000 IU, corresponding to a 
+concentration of 50, 100, 200, 400 or 600 IU/ml after reconstitution with 5 ml solvent.
+-
+The other ingredients in the powder are sucrose, mannitol, sodium chloride, calcium chloride, 
+L-histidine, polysorbate 80. Solvent vial: 5 ml sterilised water for injections.
+What RIXUBIS looks like and contents of the pack
+RIXUBIS is provided as a powder and solvent for solution for injection.
+The contents of the pack are:</p>
+<p>one vial of RIXUBIS 250, 500, 1000, 2000 or 3000 IU powder in a glass vial with a rubber 
+stopper</p>
+<p>one vial of 5 ml sterilised water for injections in a glass vial with a rubber stopper</p>
+<p>one BAXJECT II (needle-less reconstitution device)
+Marketing Authorisation Holder
+Baxalta Innovations GmbH
+Industriestrasse A-1221 Vienna
+Austria
+Manufacturer
+Baxalta Belgium Manufacturing SA
+Boulevard Ren  Branquart B-7860 Lessines
+Belgium
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Takeda Belgium NV
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com
+Lietuva
+Takeda, UAB
+Tel: +370 521 09 medinfoEMEA@takeda.com</p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com 
+Luxembourg/Luxemburg
+Takeda Belgium NV
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com
+ esk  republika
+Takeda Pharmaceuticals Czech Republic s.r.o.
+Tel: +420 234 722 medinfoEMEA@takeda.com
+Magyarorsz g
+Takeda Pharma Kft.
+Tel: +36 1 270 7medinfoEMEA@takeda.com
+Danmark
+Takeda Pharma A/S
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com
+Malta
+Drugsales Ltd 
+Tel: +356 21419safety@drugsalesltd.com
+Deutschland
+Takeda GmbH
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com
+Nederland
+Takeda Nederland B.V.
+Tel: +31 20 203 5medinfoEMEA@takeda.com
+Eesti
+Takeda Pharma AS
+Tel: +372 6177 medinfoEMEA@takeda.com
+Norge
+Takeda AS
+Tlf: +47 800 800 medinfoEMEA@takeda.com</p>
+<p>akeda    . .
+T : +30 210 6387medinfoEMEA@takeda.com
+ sterreich
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com
+Espa a
+Takeda Farmac utica Espa a S.A
+Tel: +34 917 90 42 medinfoEMEA@takeda.com
+Polska
+Takeda Pharma Sp. z o.o.
+Tel: +48223062medinfoEMEA@takeda.com
+France
+Takeda France SAS
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com
+Portugal
+Takeda Farmac uticos Portugal, Lda.
+Tel: + 351 21 120 1medinfoEMEA@takeda.com
+Hrvatska
+Takeda Pharmaceuticals Croatia d.o.o.
+Tel: +385 1 377 88 medinfoEMEA@takeda.com
+Rom nia
+Takeda Pharmaceuticals SRL
+Tel: +40 21 335 03 medinfoEMEA@takeda.com
+Ireland
+Takeda Products Ireland Ltd
+Tel: 1800 937 medinfoEMEA@takeda.com
+Slovenija
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o.
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com
+ sland
+Vistor hf.
+S mi: +354 535 7medinfoEMEA@takeda.com
+Slovensk  republika
+Takeda Pharmaceuticals Slovakia s.r.o.
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com
+Italia
+Takeda Italia S.p.A.
+Tel: +39 06 502medinfoEMEA@takeda.com
+Suomi/Finland
+Takeda Oy
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com</p>
+<p>akeda    . .
+ : +30 210 6387medinfoEMEA@takeda.com
+Sverige
+Takeda Pharma AB
+Tel: 020 795 medinfoEMEA@takeda.com
+Latvija
+Takeda Latvia SIA
+Tel: +371 67840medinfoEMEA@takeda.com
+United Kingdom (Northern Ireland)
+Takeda UK Ltd
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
+This leaflet was last revised in .
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

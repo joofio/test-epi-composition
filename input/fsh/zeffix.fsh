@@ -4,7 +4,7 @@ Instance: composition-en-30a17ceddf8c54eac9abf3a410be28f9
 InstanceOf: CompositionUvEpi
 Title: "Composition for zeffix Package Leaflet"
 Description:  "Composition for zeffix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What Zeffix is and what it is used for 
 2. What you need to know before you take Zeffix 
 3. How to take Zeffix 
 4. Possible side effects 
 5. How to store Zeffix 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -255,14 +255,12 @@ Marketing Authorisation Holder: </p>
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 T l/Tel: + 32 (0)10 85 52 Lietuva 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 370 80000 </p>
-<p>GlaxoSmithKline (Ireland) Limited 
-Te .: + 359 80018 
-Luxembourg/Luxemburg 
+Tel: + 370 80000<br />
+GlaxoSmithKline (Ireland) Limited 
+Te .: + 359 80018Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0)10 85 52<br />
- esk  republika 
+T l/Tel: + 32 (0)10 85 52  esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
 <p>Magyarorsz g 
@@ -277,14 +275,12 @@ GlaxoSmithKline GmbH &amp; Co. KG
 Tel.: + 49 (0)89 36044 8produkt.info@gsk.com </p>
 <p>Nederland 
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 
-Eesti 
+Tel: + 31 (0)33 2081Eesti 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 372 8002 
-Norge 
+Tel: + 372 8002Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>GlaxoSmithKline   A.E.B.E. 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
  : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
@@ -302,33 +298,28 @@ Glaxo Wellcome Farmac utica, Lda.<br />
 Tel: + 351 21 412 95 FI.PT@gsk.com </p>
 <p>Hrvatska 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 385 800787 
-Rom nia 
+Tel: + 385 800787Rom nia 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 353 (0)1 4955Slovenija 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 386 80688 
- sland 
+Tel: + 386 80688 sland 
 Vistor hf. 
 S mi: + 354 535 7Slovensk  republika 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 421 800500 
-Italia 
+Tel: + 421 800500Italia 
 GlaxoSmithKline S.p.A. 
 Tel: + 39 (0)45 7741 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline (Ireland) Limited 
- : + 357 80070 
-Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline (Ireland) Limited 
+ : + 357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 371 80205 
-United Kingdom (Northern Ireland) 
+Tel: + 371 80205United Kingdom (Northern Ireland) 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in  </p>

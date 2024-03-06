@@ -4,7 +4,7 @@ Instance: composition-en-6326621176bd18eaa128ab504c98c814
 InstanceOf: CompositionUvEpi
 Title: "Composition for myclausen Package Leaflet"
 Description:  "Composition for myclausen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Myclausen is and what it is used for  
-2. What you need to know before you take Myclausen  
-3. How to take Myclausen  
-4. Possible side effects  
-5. How to store Myclausen  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Myclausen is and what it is used for  </li>
+<li>What you need to know before you take Myclausen  </li>
+<li>How to take Myclausen  </li>
+<li>Possible side effects  </li>
+<li>How to store Myclausen  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -196,8 +196,8 @@ with the stomach), kidneys and nervous system (for example spina bifida (where t
 spine are not properly developed).Your baby may be affected by one or more of these. </p>
 <p>If you are a woman who could become pregnant, you must provide a negative pregnancy test before 
 starting treatment and must follow the contraception advice given to you by your doctor. Your doctor 
-may request more than one test to ensure you are not pregnant before starting treatment. </p>
-<p>Breast-feeding 
+may request more than one test to ensure you are not pregnant before starting treatment. 
+Breast-feeding 
 Do not take Myclausen if you are breast-feeding. This is because small amounts of the medicine can 
 pass into the mother s milk. </p>
 <p>Driving and using machines 
@@ -446,8 +446,7 @@ ISANGEN PHARMA CYPRUS LTD
 Guricon House,     48, 2  &amp; 
 3  <br />
 6042,  , <br />
- .: +357-24-638 
-Sverige 
+ .: +357-24-638Sverige 
 Passauer Pharma GmbH, 
 Tyskland 
 Tel: +49(0)3074460-Latvija 
@@ -456,6 +455,6 @@ V cija
 Tel: +49(0)3074460-United Kingdom (Northern Ireland) 
 Passauer Pharma GmbH, 
 Germany 
-Tel: +49(0)3074460- This leaflet was last revised in {MM/YYYY} </p>
+Tel: +49(0)3074460-This leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

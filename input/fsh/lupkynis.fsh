@@ -4,7 +4,7 @@ Instance: composition-en-41b3735a6e59fac8a0512a47fdc116bd
 InstanceOf: CompositionUvEpi
 Title: "Composition for lupkynis Package Leaflet"
 Description:  "Composition for lupkynis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Lupkynis is and what it is used for 
 2. What you need to know before you take Lupkynis 
 3. How to take Lupkynis 
 4. Possible side effects 
 5. How to store Lupkynis 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -288,90 +287,65 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Otsuka Pharmaceutical Netherlands B.V. 
-T l/Tel: +31 (0) 20 85 46<br />
-Lietuva 
+T l/Tel: +31 (0) 20 85 46 Lietuva 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>Otsuka Pharmaceutical Netherlands B.V. 
-Te : +31 (0) 20 85 46<br />
-Luxembourg/Luxemburg 
+Tel: +31 (0) 20 85 46 <br />
 Otsuka Pharmaceutical Netherlands B.V. 
-T l/Tel: +31 (0) 20 85 46<br />
- esk  republika 
+Te : +31 (0) 20 85 46 Luxembourg/Luxemburg 
+Otsuka Pharmaceutical Netherlands B.V. 
+T l/Tel: +31 (0) 20 85 46  esk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Magyarorsz g 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Danmark 
 Otsuka Pharma Scandinavia AB 
-Tlf: +46 (0) 8 545 286<br />
-Malta 
+Tlf: +46 (0) 8 545 286 Malta 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Deutschland 
+Tel: +31 (0) 20 85 46 Deutschland 
 Otsuka Pharma GmbH 
-Tel: +49 (0) 69 1700<br />
-Nederland 
+Tel: +49 (0) 69 1700 Nederland 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Eesti 
+Tel: +31 (0) 20 85 46 Eesti 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Norge 
+Tel: +31 (0) 20 85 46 Norge 
 Otsuka Pharma Scandinavia AB 
-Tlf: +46 (0) 8 545 286  </p>
-<p>Otsuka Pharmaceutical Netherlands B.V. 
-Th : +31 (0) 20 85 46<br />
- sterreich 
+Tlf: +46 (0) 8 545 286 <br />
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Espa a 
+Th : +31 (0) 20 85 46  sterreich 
+Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 Espa a 
 Otsuka Pharmaceutical S.A 
-Tel: +34 (0) 93 208 1 
-Polska 
+Tel: +34 (0) 93 208 1Polska 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-France 
+Tel: +31 (0) 20 85 46 France 
 Otsuka Pharmaceutical France SAS 
-T l: +33 (0) 1 47 08 00<br />
-Portugal 
+T l: +33 (0) 1 47 08 00 Portugal 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Hrvatska 
+Tel: +31 (0) 20 85 46 Hrvatska 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Rom nia 
+Tel: +31 (0) 20 85 46 Rom nia 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Ireland 
+Tel: +31 (0) 20 85 46 Ireland 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Slovenija 
+Tel: +31 (0) 20 85 46 Slovenija 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
- sland 
+Tel: +31 (0) 20 85 46  sland 
 Otsuka Pharma Scandinavia AB 
-S mi: +46 (0) 8 545 286<br />
-Slovensk  republika 
+S mi: +46 (0) 8 545 286 Slovensk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Italia 
+Tel: +31 (0) 20 85 46 Italia 
 Otsuka Pharmaceutical Italy S.r.l. 
-Tel: +39 (0) 2 0063 2 
-Suomi/Finland 
+Tel: +39 (0) 2 0063 2Suomi/Finland 
 Otsuka Pharma Scandinavia AB 
-Puh/Tel: +46 (0) 8 545 286  </p>
-<p>Otsuka Pharmaceutical Netherlands B.V. 
-Th : +31 (0) 20 85 46<br />
-Sverige 
+Puh/Tel: +46 (0) 8 545 286 <br />
+Otsuka Pharmaceutical Netherlands B.V. 
+Th : +31 (0) 20 85 46 Sverige 
 Otsuka Pharma Scandinavia AB 
-Tel: +46 (0) 8 545 286<br />
-Latvija 
+Tel: +46 (0) 8 545 286 Latvija 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-United Kingdom (Northern Ireland) 
+Tel: +31 (0) 20 85 46 United Kingdom (Northern Ireland) 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>This leaflet was last revised in . </p>
+Tel: +31 (0) 20 85 46 This leaflet was last revised in . </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

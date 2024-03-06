@@ -4,7 +4,7 @@ Instance: composition-en-b87e63b723344c11032a4961d71446b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for zebinix Package Leaflet"
 Description:  "Composition for zebinix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Zebinix is and what it is used for 
 2. What you need to know before you take Zebinix 
 3. How to take Zebinix 
 4. Possible side effects 
 5. How to store Zebinix 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -375,9 +374,7 @@ BIAL - Portela &amp; C  , S.A.,<br />
   Av. da Siderurgia Nacional 
 4745-457 S. Mamede do Coronado 
 Portugal<br />
-tel: +351 22 986 61 00<br />
-fax: +351 22 986 61 99<br />
-e-mail: info@bial.com  </p>
+tel: +351 22 986 61 fax: +351 22 986 61 e-mail: info@bial.com  </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
@@ -399,8 +396,7 @@ BIAL-Portela &amp; C ., S.A.
 Tel: + 351 22 986 61 (Il-Portugall) </p>
 <p>Danmark 
 Nordicinfu Care AB 
-Tlf: +45 (0) 70 28 10<br />
-Nederland 
+Tlf: +45 (0) 70 28 10 Nederland 
 BIAL-Portela &amp; C ., S.A. 
 T l/Tel: + 351 22 986 61 (Portugal) </p>
 <p>Deutschland 
@@ -408,8 +404,7 @@ BIAL-Portela &amp; C ., S.A.
 Tel: + 351 22 986 61 (Portugal) </p>
 <p>Norge 
 Nordicinfu Care AB 
-Tlf: +47 (0) 22 20 60<br />
-Eesti 
+Tlf: +47 (0) 22 20 60 Eesti 
 BIAL-Portela &amp; C , S.A. 
 Tel: +351 22 986 61 (Portugal) </p>
 <p>sterreich 
@@ -417,17 +412,14 @@ BIAL-Portela &amp; C ., S.A.
 Tel: + 351 22 986 61 (Portugal) </p>
 <pre><code> . .
 </code></pre>
-<p>: + 30 210 668 3 
-Polska 
+<p>: + 30 210 668 3Polska 
 BIAL-Portela &amp; C , S.A. 
 Tel.: + 351 22 986 61 (Portug lia) </p>
 <p>Espa a 
 Laboratorios BIAL, S.A. 
-Tel: + 34 91 562 41 96<br />
-Portugal 
+Tel: + 34 91 562 41 Portugal 
 BIAL-Portela &amp; C ., S.A. 
-Tel.: + 351 22 986 61<br />
-France 
+Tel.: + 351 22 986 61 France 
 BIAL-Portela &amp; C ., S.A. 
 T l: + 351 22 986 61 (Portugal) </p>
 <p>Rom nia 
@@ -444,15 +436,12 @@ BIAL-Portela &amp; C ., S.A.
 Tel: + 351 22 986 61 (Portugal) </p>
 <p>Slovensk  republika 
 BIAL-Portela &amp; C ., S.A. 
-Tel: + 351 22 986 61 00<br />
-(Portugalsko) </p>
+Tel: + 351 22 986 61 (Portugalsko) </p>
 <p>sland 
 Nordicinfu Care AB 
-S mi: +46 (0) 8 601 24<br />
-Suomi/Finland 
+S mi: +46 (0) 8 601 24 Suomi/Finland 
 Nordicinfu Care AB 
-Puh/Tel: +358 (0) 207 348<br />
-Italia 
+Puh/Tel: +358 (0) 207 348 Italia 
 BIAL-Portela &amp; C ., S.A. 
 Tel: + 351 22 986 61 (Portogallo) </p>
 <p>Sverige 

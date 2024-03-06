@@ -4,7 +4,7 @@ Instance: composition-en-9150fcc2bde4114d1671dc57e6fd4ca7
 InstanceOf: CompositionUvEpi
 Title: "Composition for suliqua Package Leaflet"
 Description:  "Composition for suliqua Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Suliqua is and what it is used for 
-2. What you need to know before you use Suliqua  
-3. How to use Suliqua  
+2. What you need to know before you use Suliqua<br />
+3. How to use Suliqua<br />
 4. Possible side effects 
-5. How to store Suliqua  
-6. Contents of the pack and other information 
-         </div>"""   
+5. How to store Suliqua<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -100,8 +99,8 @@ stomach side effects (see section 4), the medicine has not been studied in patie
 stomach or gut problems. Please see the information regarding medicines that should not stay 
 too long in your stomach in the section  Other medicines and Suliqua .   <br />
 </em> you have severe kidney disease or you are on dialysis as the use of this medicine will not be 
-recommended.  </p>
-<p>Follow closely your doctor s instructions for dose, monitoring (blood and urine tests), diet and 
+recommended.<br />
+Follow closely your doctor s instructions for dose, monitoring (blood and urine tests), diet and 
 physical activity (physical work and exercise) and injection technique. </p>
 <p>Be especially aware of the following: 
 * Too low blood sugar (hypoglycaemia). If your blood sugar is too low, follow the guidance for 
@@ -110,14 +109,7 @@ hypoglycaemia (see information in the box at the end of this leaflet).
 hyperglycaemia (see information in the box at the end of this leaflet). 
 * Ensure that you use the right medicine. You must always check the label before each injection 
 to avoid mix-ups between Suliqua and other insulins. 
-* If you have poor eyesight, please see section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take suliqua"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take suliqua"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>While using this medicine be aware of the following and talk to your doctor, pharmacist or nurse 
+* If you have poor eyesight, please see section 3. While using this medicine be aware of the following and talk to your doctor, pharmacist or nurse 
 before using Suliqua: 
 * severe pain in your stomach area (abdomen) that will not go away. This could be a sign of 
 inflamed pancreas (acute pancreatitis). 
@@ -153,8 +145,8 @@ what action, if any, you need to take. You also need to be careful when you stop
 antibiotics, oral contraceptives, statins (medicines like atorvastatin to lower cholesterol), 
 gastro-resistant tablets or capsules or granules or oral powder or suspensions that should not stay too 
 long in your stomach may need to be taken at least one hour before or four hours after your Suliqua 
-injection.  </p>
-<p>Your blood sugar level may fall (hypoglycaemia) if you take: 
+injection.<br />
+Your blood sugar level may fall (hypoglycaemia) if you take: 
 * Any other medicine to treat diabetes. 
 * Disopyramide, for some heart problems. 
 * Fluoxetine, for depression. 
@@ -213,13 +205,12 @@ dangerous to yourself and others.  </p>
 This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
  sodium-free . </p>
 <p>Suliqua contains metacresol<br />
-This medicine contains metacresol which may cause allergic reactions. </p>         </div>"""         
-
-        
+This medicine contains metacresol which may cause allergic reactions. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take suliqua"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take suliqua"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Your doctor may tell you to use a 
 different dose of Suliqua compared to your previous insulin dose or glucose lowering medicine if any. 
@@ -293,12 +284,13 @@ When needed, Suliqua can be injected before the next meal.
 <p>If you stop using Suliqua<br />
 Do not stop using this medicine without talking to your doctor. If you do, it could lead to very high 
 blood sugar (hyperglycaemia) and a build-up of acid in the blood (ketoacidosis).  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store suliqua"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store suliqua"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you notice signs of your blood sugar being too low (hypoglycaemia), take action to increase your 
@@ -343,11 +335,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store suliqua"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store suliqua"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the pen 
@@ -364,4 +355,105 @@ Do not leave the pen in a car on an exceptionally warm or cold day.<br />
 Do not store the pen with the needle attached. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer used. These measures will help protect the environment.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Suliqua contains<br />
+<em> The active substances are insulin glargine and lixisenatide.<br />
+Each pen contains 300 units insulin glargine and 150 micrograms lixisenatide in 3 ml of 
+solution. 
+Each ml contains 100 units insulin glargine and 50 micrograms lixisenatide. 
+Each dose step of Suliqua contains 1 unit of insulin glargine and 0.5 micrograms of lixisenatide.<br />
+</em> The other ingredients are: glycerol 85%, methionine, metacresol, zinc chloride, concentrated 
+hydrochloric acid and sodium hydroxide (for pH adjustment) and water for injections. See also 
+section 2  What you need to know before you use Suliqua  for information on sodium and 
+metacresol. </p>
+<p>What Suliqua looks like and contents of the pack<br />
+Suliqua is a clear and colourless solution for injection (injection) filled in a glass cartridge inserted in a 
+pre-filled pen (SoloStar).  </p>
+<p>Pack sizes of 3, 5 and 10 pre-filled pens.<br />
+Not all pack sizes may be marketed. </p>
+<p>Needles are not included in the pack.  </p>
+<p>Marketing Authorisation Holder <br />
+Sanofi Winthrop Industrie 
+82 avenue Raspail 
+94250 Gentilly 
+France </p>
+<p>Manufacturer<br />
+Sanofi-Aventis Deutschland GmbH<br />
+Industriepark H chst - 65926 Frankfurt am Main<br />
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Sanofi Belgium 
+T l/Tel: +32 (0)2 710 54 Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91 <br />
+Swixx Biopharma EOOD 
+ .: +359 (0)2 4942 Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086 Magyarorsz g 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70 Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21 Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Eesti 
+Swixx Biopharma O <br />
+Tel: +372 640 10 Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71 <br />
+Sanofi-Aventis   <br />
+ : +30 210 900 16  sterreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94 Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00 France 
+Sanofi Winthrop Industrie 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23 Portugal 
+Sanofi - Produtos Farmac uticos, Lda 
+Tel: +351 21 35 89 Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 Rom nia 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31 Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56 Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 235 51  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 Italia 
+Sanofi S.r.l. 
+Tel: 800 131212 (domande di tipo tecnico)<br />
+        800 536389 (altre domande) </p>
+<p>Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200 <br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50 Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

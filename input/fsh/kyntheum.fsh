@@ -4,7 +4,7 @@ Instance: composition-en-32bfd365b84c64d962132c327f20aa6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for kyntheum Package Leaflet"
 Description:  "Composition for kyntheum Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Kyntheum is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Kyntheum is and what it is used for<br />
 2. What you need to know before you use Kyntheum 
-3. How to use Kyntheum  
-4. Possible side effects  
-5. How to store Kyntheum  
-6. Contents of the pack and other information 
-         </div>"""   
+3. How to use Kyntheum<br />
+4. Possible side effects<br />
+5. How to store Kyntheum<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]

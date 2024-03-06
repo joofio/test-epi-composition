@@ -4,7 +4,7 @@ Instance: composition-en-1ab1f974f728f0d2d09ca9306f1ffe2d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rimmyrah Package Leaflet"
 Description:  "Composition for rimmyrah Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Rimmyrah is and what it is used for 
 2. What you need to know before you are given Rimmyrah 
 3. How Rimmyrah is given 
 4. Possible side effects 
 5. How to store Rimmyrah 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -149,8 +148,8 @@ not drive or use machines until this resolves. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rimmyrah is administered as a single injection into your eye by your eye doctor under a local 
 anaesthetic. The usual dose of an injection is 0.05 ml (which contains 0.5 mg of ranibizumab). The 
-interval between two doses injected into the same eye should be at least four weeks. All injections will </p>
-<p>be administered by your eye doctor. </p>
+interval between two doses injected into the same eye should be at least four weeks. All injections will 
+be administered by your eye doctor. </p>
 <p>Before the injection, your doctor will wash your eye carefully to prevent infection. Your doctor will 
 also give you a local anaesthetic to reduce or prevent any pain you might have with the injection. </p>
 <p>The treatment is started with one injection of Rimmyrah per month. Your doctor will monitor the 
@@ -200,12 +199,8 @@ Visual side effects include:</p>
 <li>Small particles or spots in your vision (floaters), </li>
 <li>Bloodshot eye, eye irritation, </li>
 <li>A feeling of having something in the eye, </li>
-<li>
-<p>Increased tear production, </p>
-</li>
-<li>
-<p>Inflammation or infection of the eyelid margins, </p>
-</li>
+<li>Increased tear production, </li>
+<li>Inflammation or infection of the eyelid margins, </li>
 <li>Dry eye, </li>
 <li>Redness or itching of the eye, </li>
 <li>Increased eye pressure. </li>
@@ -317,84 +312,64 @@ Authorisation Holder: </p>
 Qilu Pharma Spain S.L. 
 T l/Tel: + 34 911 841 Lietuva 
 Qilu Pharma Spain S.L. 
-Tel: + 34 911 841  </p>
-<p>Qilu Pharma Spain S.L. 
-Te .: + 34 911 841<br />
-Luxembourg/Luxemburg 
+Tel: + 34 911 841 <br />
 Qilu Pharma Spain S.L. 
-T l/Tel: + 34 911 841<br />
- esk  republika 
+Te .: + 34 911 841 Luxembourg/Luxemburg 
+Qilu Pharma Spain S.L. 
+T l/Tel: + 34 911 841  esk  republika 
 Qilu Pharma Spain S.L. 
 Tel: +34 911 841 Magyarorsz g 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Danmark 
+Tel: +34 911 841 Danmark 
 Qilu Pharma Spain S.L. 
-Tlf: + 34 911 841<br />
-Malta 
+Tlf: + 34 911 841 Malta 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Deutschland 
+Tel: +34 911 841 Deutschland 
 Orion Pharma GmbH 
 Tel: +49 40 899 689-0 </p>
 <p>Nederland 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Eesti 
+Tel: +34 911 841 Eesti 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Norge 
+Tel: +34 911 841 Norge 
 Qilu Pharma Spain S.L. 
-Tlf: + 34 911 841  </p>
-<p>Orion Pharma Hellas  . . . <br />
- : + 30 210 980 3 
- sterreich 
+Tlf: + 34 911 841 <br />
+Orion Pharma Hellas  . . . <br />
+ : + 30 210 980 3 sterreich 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Espa a 
+Tel: +34 911 841 Espa a 
 Orion Pharma SL 
 Tel: +349 159 9 86 Polska 
 Orion Pharma Poland Sp. z o. o. 
-Tel.: + 48 22 833 31<br />
-France 
+Tel.: + 48 22 833 31 France 
 Orion Pharma 
 T l: +33 (0) 1 85 18 00 Portugal 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Hrvatska 
+Tel: +34 911 841 Hrvatska 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Ireland 
+Tel: +34 911 841 Ireland 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Rom nia 
+Tel: +34 911 841 Rom nia 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Slovenija 
+Tel: +34 911 841 Slovenija 
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
- sland 
+Tel: +34 911 841  sland 
 Qilu Pharma Spain S.L. 
-S mi: + 34 911 841<br />
-Slovensk  republika 
+S mi: + 34 911 841 Slovensk  republika 
 Qilu Pharma Spain S.L. 
-Tel: + 34 911 841<br />
-Italia 
+Tel: + 34 911 841 Italia 
 Orion Pharma S.r.l. 
 Tel: + 39 02 67876Suomi/Finland 
 Qilu Pharma Spain S.L. 
-Puh/Tel: + 34 911 841  </p>
-<p>Qilu Pharma Spain S.L. 
- : + 34 911 841<br />
-Sverige 
+Puh/Tel: + 34 911 841 <br />
 Qilu Pharma Spain S.L. 
-Tel: +34 911 841<br />
-Latvija 
+ : + 34 911 841 Sverige 
+Qilu Pharma Spain S.L. 
+Tel: +34 911 841 Latvija 
 Qilu Pharma Spain S.L. 
 Tel: +34 911 841 United Kingdom (Northern Ireland) 
 Orion Pharma (Ireland) Limited<br />
-Tel: +353 1 428 7777  </p>
-<p>This leaflet was last revised in </p>
+Tel: +353 1 428 7This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu </p>

@@ -4,7 +4,7 @@ Instance: composition-en-0d50af8d664b571d625f5732b765b8b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for ronapreve Package Leaflet"
 Description:  "Composition for ronapreve Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ronapreve is and what it is used for  
-2. What you need to know before you are given Ronapreve 
-3. How Ronapreve is given to you 
-4. Possible side effects  
-5. How to store Ronapreve 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ronapreve is and what it is used for  </li>
+<li>What you need to know before you are given Ronapreve </li>
+<li>How Ronapreve is given to you </li>
+<li>Possible side effects  </li>
+<li>How to store Ronapreve </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -78,7 +78,11 @@ COVID-19 who do not require oxygen to treat COVID-19, and are at increased risk 
 becoming severe based on the evaluation of your doctor. </p>
 <p>Ronapreve is used to treat COVID-19 in adults and adolescents aged from 12 years weighing at least 
 40 kg who require oxygen to treat COVID-19, and who test negative for antibodies (proteins in the 
-body s defence system) against COVID-1</p>         </div>"""   
+body s defence system) against COVID-19. Ronapreve is used to prevent COVID-19 in adults and adolescents aged from 12 years weighing at 
+least 40 kg. </p>
+<p>How Ronapreve works </p>
+<p>Ronapreve attaches to a protein on the surface of the coronavirus called the  spike protein . This stops 
+the virus from getting into your cells and from spreading between cells.   </p>         </div>"""   
           
 
              
@@ -86,17 +90,6 @@ body s defence system) against COVID-1</p>         </div>"""
   * title = "2. What you need to know before you take ronapreve"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take ronapreve"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ronapreve is used to prevent COVID-19 in adults and adolescents aged from 12 years weighing at 
-least 40 kg. </p>
-<p>How Ronapreve works </p>
-<p>Ronapreve attaches to a protein on the surface of the coronavirus called the  spike protein . This stops 
-the virus from getting into your cells and from spreading between cells.   </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take ronapreve"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ronapreve"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Ronapreve </p>
 <p>if you are allergic to casirivimab, imdevimab, or any of the other ingredients of this medicine 
@@ -126,13 +119,12 @@ what the effects might be on the baby or milk production.  </p>
 <p>Your doctor will help you decide whether to keep breast-feeding or to start treatment with this 
 medicine.  </p>
 <p>Driving and using machines </p>
-<p>This medicine is not expected to have any effect on your ability to drive.  </p>         </div>"""         
-
-        
+<p>This medicine is not expected to have any effect on your ability to drive.  </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take ronapreve"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take ronapreve"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How much is given? </p>
 <p>The recommended dose for treatment of COVID-19 will depend on the severity of your illness. </p>
@@ -154,12 +146,13 @@ four weeks.  </p>
 injections, given immediately one after the other, under the skin made at separate body sites if an 
 infusion would delay treatment. Your doctor or nurse will decide how long you will be monitored after 
 you are given the medicine. This is in case you have any side effects. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store ronapreve"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ronapreve"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effects have been reported with Ronapreve. </p>
@@ -199,11 +192,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store ronapreve"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store ronapreve"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
@@ -221,4 +213,95 @@ to 8  C for no more than 72 hours and at room temperature up to 25  C for no mor
 24 hours. If refrigerated, allow the syringes to equilibrate to room temperature for 
 approximately 10-15 minutes prior to administration.  </p>
 <p>Do not use this medicine if you notice particulate matter or discolouration. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ronapreve contains  </p>
+<p>The active substances are casirivimab and imdevimab. Each 6 mL single-use vial contains 
+300 mg of casirivimab or 300 mg of imdevimab. </p>
+<p>The other ingredients are L-histidine, L-histidine monohydrochloride monohydrate, 
+polysorbate 80, sucrose, and water for injections. </p>
+<p>What Ronapreve looks like and contents of the pack </p>
+<p>Ronapreve is a solution for injection/infusion.  It is a clear to slightly opalescent and colourless to pale 
+yellow solution and is available in cartons that contain 2 vials per package, one vial for each active 
+substance.  </p>
+<p>Marketing Authorisation Holder </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Manufacturer </p>
+<p>Roche Pharma AG<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36 1 279 4Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O<br />
+Tel: + 372 - 6 177 Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 88.  France 
+Roche 
+T l: +33  (0)1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland 
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika 
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-73960cef65d43cea9c4f68f4818ce9c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for zutectra Package Leaflet"
 Description:  "Composition for zutectra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,14 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Zutectra is and what it is used for 
-2. What you need to know before you use Zutectra 
-3. How to use Zutectra 
-4. Possible side effects 
-5. How to store Zutectra 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Zutectra is and what it is used for </li>
+<li>What you need to know before you use Zutectra </li>
+<li>How to use Zutectra </li>
+<li>Possible side effects </li>
+<li>How to store Zutectra </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -138,8 +139,8 @@ package of Zutectra, note down the date and the batch number (which is on the pa
 <p>Other medicines and Zutectra 
 Tell your doctor or healthcare professional if you are taking, have recently taken or might take any 
 other medicines. </p>
-<p>Vaccinations </p>
-<p>Zutectra can reduce the effectiveness of some vaccines (measles, rubella, mumps, chicken pox) for a 
+<p>Vaccinations 
+Zutectra can reduce the effectiveness of some vaccines (measles, rubella, mumps, chicken pox) for a 
 period of up to 3 months. </p>
 <p>You may have to wait at least 3 months after the last injection of Zutectra before you can have live 
 attenuated vaccines. </p>
@@ -295,28 +296,23 @@ Ireland
 Twinpharma BV 
 Trasmolenlaan 5 
 NL-3447 GZ Woerden 
-T l/Tel +31 348 71 24<br />
-Aquilant Pharmaceuticals 
+T l/Tel +31 348 71 24 Aquilant Pharmaceuticals 
 21 Fonthill Business Park 
 Fonthill Road 
 Clondalkin 
-IRL-Dublin Tel: + 353 1 404 8 </p>
+IRL-Dublin Tel: + 353 1 404 8  </p>
 <p>1700 <br />
  .  .     31,   6 
-T: +359 2 427 49<br />
-Italia 
+T: +359 2 427 49 Italia 
 Grifols Italia S.p.A. 
 Via Torino, I-56010 Vicopisano - Pisa 
-Tel: +39 050 8755 
- esk  republika, Slovensk  republika 
+Tel: +39 050 8755 esk  republika, Slovensk  republika 
 Reg-Pharm spol.s.r.o. 
-Fialkov  CZ-10600 Praha Tel: + 420 2 7265 4 </p>
-<pre><code>&amp;
-</code></pre>
-<p>. <br />
+Fialkov  CZ-10600 Praha Tel: + 420 2 7265 4<br />
+    &amp;   <br />
+ . <br />
  .  . 22578 1522   </p>
-<p>: + 357 22 611<br />
-Danmark,  sland, Norge, Suomi/Finland, 
+<p>: + 357 22 611 Danmark,  sland, Norge, Suomi/Finland, 
 Sverige<br />
 Grifols Nordic AB 
 Tel: + 46 8 441 89 Email: infonordic@grifols.com </p>
@@ -324,8 +320,7 @@ Tel: + 46 8 441 89 Email: infonordic@grifols.com </p>
 Biotest Hungaria Kft. 
 Torb gy u. 15/A 
 H-2045 T r kb lint 
-Tel.: + 36 23 511<br />
-Deutschland, Eesti,  , Latvija, Lietuva, 
+Tel.: + 36 23 511 Deutschland, Eesti,  , Latvija, Lietuva, 
 Luxembourg/Luxemburg, Polska, Rom nia, 
 United Kingdom (Northern Ireland)<br />
 Biotest AG 
@@ -336,11 +331,9 @@ Tel: + 49 6103 801-0 </p>
 Rodel Ltd 
 55, Ravina 
 Triq ir-Russett 
-MT-Kappara SGN 4Tel: + 356 27 386 
-Espa a 
+MT-Kappara SGN 4Tel: + 356 27 386Espa a 
 Grifols Movaco, S.A. 
-Tel.: +34 93 571 02<br />
- sterreich 
+Tel.: +34 93 571 02  sterreich 
 Biotest Austria GmbH 
 Einsiedlergasse A-1050 Wien 
 Tel: + 43 1 545 15 61-0 </p>
@@ -348,19 +341,15 @@ Tel: + 43 1 545 15 61-0 </p>
 Grifols France 
 24 Rue de Prony 
 F-75017 Paris<br />
-T l: +33 (0) 1 53530870   </p>
-<p>Portugal 
+T l: +33 (0) 1 53530Portugal 
 Grifols Portugal, Lda. 
-Tel: +351 219 255<br />
-Hrvatska 
+Tel: +351 219 255 Hrvatska 
 Medis Adria d.o.o. 
 Buzinska cesta 10010 Zagreb - Buzin 
-T: +385 1 2303<br />
-Slovenija 
+T: +385 1 2303 Slovenija 
 MEDIS, d.o.o.<br />
 Brn i eva 1,<br />
 SI-1231 Ljubljana- rnu e,<br />
-Tel: +386 1 589 69  </p>
-<p>This leaflet was last revised in  </p>
+Tel: +386 1 589 69 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

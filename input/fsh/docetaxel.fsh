@@ -4,7 +4,7 @@ Instance: composition-en-211825d32829aaffbdc41442ec401539
 InstanceOf: CompositionUvEpi
 Title: "Composition for docetaxel Package Leaflet"
 Description:  "Composition for docetaxel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What DOCETAXEL KABI is and what it is used for 
-2.  What you need to know before you use DOCETAXEL KABI 
-3.  How to use DOCETAXEL KABI 
-4.  Possible side effects 
-5.  How to store DOCETAXEL KABI 
-6.  Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What DOCETAXEL KABI is and what it is used for </li>
+<li>What you need to know before you use DOCETAXEL KABI </li>
+<li>How to use DOCETAXEL KABI </li>
+<li>Possible side effects </li>
+<li>How to store DOCETAXEL KABI </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -343,8 +344,8 @@ contains 20 mg docetaxel.
 acid (for pH adjustment). </p>
 <p>What DOCETAXEL KABI looks like and contents of the pack 
 DOCETAXEL KABI concentrate for solution for infusion is a clear, colourless to pale yellow 
-solution. </p>
-<p>6 ml clear, colourless Type-I glass vial, closed with flurotec rubber stopper and a green flip-off 
+solution. 
+6 ml clear, colourless Type-I glass vial, closed with flurotec rubber stopper and a green flip-off 
 aluminium over seal containing 1 ml of concentrate. </p>
 <p>Each box contains one vial of 1 ml concentrate (20 mg docetaxel). </p>
 <p>Marketing Authorisation Holder  </p>
@@ -411,5 +412,5 @@ important information for you.
 - Keep this leaflet. You may need to read it again. 
 - If you have any further questions, ask your doctor, hospital pharmacist or nurse. 
 - If you get any side effects, talk to your doctor, hospital pharmacist or nurse. This includes any </p>
-<p>possible side effects not listed in this leaflet. See section </p>         </div>"""      
+<p>possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

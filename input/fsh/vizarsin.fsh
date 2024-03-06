@@ -4,7 +4,7 @@ Instance: composition-en-4f21ade1d3a44922f890a931e55ca9a9
 InstanceOf: CompositionUvEpi
 Title: "Composition for vizarsin Package Leaflet"
 Description:  "Composition for vizarsin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Vizarsin is and what it is used for
 2. What you need to know before you take Vizarsin
 3. How to take Vizarsin
 4. Possible side effects
 5. How to store Vizarsin
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -132,14 +131,7 @@ Special considerations for patients with kidney or liver problems
 You should tell your doctor if you have kidney or liver problems. Your doctor may decide on a lower 
 dose for you.
 Children and adolescents
-Vizarsin should not be given to individuals under the age of 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take vizarsin"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take vizarsin"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Vizarsin
+Vizarsin should not be given to individuals under the age of 18. Other medicines and Vizarsin
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.
 Vizarsin tablets may interfere with some medicines, especially those used to treat chest pain. In the 
@@ -179,13 +171,12 @@ Vizarsin contains lactose and sodium
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicinal product.
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free .</p>         </div>"""         
-
-        
+free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take vizarsin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take vizarsin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.
@@ -204,12 +195,13 @@ You may experience an increase in side effects and their severity. Doses above 1
 the efficacy.
 You should not take more tablets than your doctor tells you to.
 Contact your doctor if you take more tablets than you should.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store vizarsin"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store vizarsin"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The side 
 effects reported in association with the use of Vizarsin are usually mild to moderate and of a short 
@@ -268,11 +260,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store vizarsin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store vizarsin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the box and blister after EXP. The 
@@ -280,4 +271,98 @@ expiry date refers to the last day of that month.
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Vizarsin contains</h2>
+<p>The active substance is sildenafil. Each film-coated tablet contains sildenafil citrate equivalent 
+to 25 mg sildenafil.
+-
+The other ingredients are:
+Tablet core: 
+microcrystalline cellulose (E460), calcium hydrogen phosphate, 
+croscarmellose sodium, hypromellose (E464), magnesium stearate (E470b).
+Film coating:
+lactose monohydrate, hypromellose (E464), titanium dioxide (E171), triacetin
+(E1518).
+See section 2  Vizarsin contains lactose and sodium .
+What Vizarsin looks like and contents of the pack
+Vizarsin 25 mg film-coated tablets are white, oblong and marked  25  on one side.
+Vizarsin 25 mg film-coated tablets are available in boxes of 1 film-coated tablet in blisters and also in 
+boxes of 4 x 1, 8 x 1 or 12 x 1 film-coated tablet in a perforated unit dose blisters.
+Not all pack sizes may be marketed.
+Marketing Authorisation Holder and Manufacturer
+KRKA, d.d., Novo mesto,  marje ka cesta 6, 8501 Novo mesto, Slovenia
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+KRKA Belgium, SA.
+T l/Tel: + 32 (0) 487 50 73 Lietuva
+UAB KRKA Lietuva
+Tel: + 370 5 236 27  </p>
+<p>Te .: + 359 (02) 962 34 Luxembourg/Luxemburg
+KRKA Belgium, SA.
+T l/Tel: + 32 (0) 487 50 73 62 (BE)
+ esk  republika
+KRKA  R, s.r.o.
+Tel: + 420 (0) 221 115 Magyarorsz g
+KRKA Magyarorsz g Kereskedelmi Kft.
+Tel.: + 36 (1) 355 8Danmark
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)
+Malta
+E. J. Busuttil Ltd.
+Tel: + 356 21 445 Deutschland
+TAD Pharma GmbH
+Tel: + 49 (0) 4721 606-0
+Nederland
+KRKA Belgium, SA.
+Tel: + 32 (0) 487 50 73 62 (BE)
+Eesti
+KRKA, d.d., Novo mesto Eesti filiaal
+Tel: + 372 (0) 6 671 Norge
+KRKA Sverige AB
+Tlf: + 46 (0)8 643 67 66 (SE)</p>
+<p>KRKA  <br />
+ : + 30 2100101 sterreich
+KRKA Pharma GmbH, Wien
+Tel: + 43 (0)1 66 24 Espa a
+KERN PHARMA, S.L.
+Tel: + 34 93 700 25 Polska
+KRKA-POLSKA Sp. z o.o.
+Tel.: + 48 (0)22 573 7France
+KRKA France Eurl
+T l: + 33 (0)1 57 40 82 Portugal
+KRKA Farmac utica, Sociedade Unipessoal Lda.
+Tel: + 351 (0)21 46 43 Hrvatska
+KRKA - FARMA d.o.o.
+Tel: + 385 1 6312 Rom nia
+KRKA Romania S.R.L., Bucharest
+Tel: + 4 021 310 66 Ireland
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3Slovenija
+KRKA, d.d., Novo mesto
+Tel: + 386 (0) 1 47 51  sland
+LYFIS ehf.
+S mi: + 354 534 3Slovensk  republika
+KRKA Slovensko, s.r.o.
+Tel: + 421 (0) 2 571 04 Italia
+KRKA Farmaceutici Milano S.r.l.
+Tel: + 39 02 3300 8Suomi/Finland
+KRKA Finland Oy
+Puh/Tel: + 358 20 754 5 
+KI.PA. (PHARMACAL) LIMITED
+ : + 357 24 651 Sverige
+KRKA Sverige AB
+Tel: + 46 (0)8 643 67 66 (SE)
+Latvija
+KRKA Latvija SIA
+Tel: + 371 6 733 86 United Kingdom (Northern Ireland)
+KRKA Pharma Dublin, Ltd.
+Tel: + 353 1 413 3This leaflet was last revised in
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

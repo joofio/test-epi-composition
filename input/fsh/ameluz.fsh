@@ -4,7 +4,7 @@ Instance: composition-en-27a52606a6d06c382d79e38520d58ce1
 InstanceOf: CompositionUvEpi
 Title: "Composition for ameluz Package Leaflet"
 Description:  "Composition for ameluz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Ameluz is and what it is used for 
 2. What you need to know before you use Ameluz 
 3. How to use Ameluz 
 4. Possible side effects 
 5. How to store Ameluz 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -296,5 +295,129 @@ throw away medicines you no longer use. These measures will help protect the env
 * The other ingredients are: 
 disodium phosphate dihydrate, isopropyl alcohol, polysorbate 80, propylene glycol, purified 
 water, sodium benzoate (E211), sodium dihydrogen phosphate dihydrate, soybean 
-phosphatidylcholine, triglycerides medium-chain, xanthan gum. See section </p>         </div>"""      
+phosphatidylcholine, triglycerides medium-chain, xanthan gum. See section 2. What Ameluz looks like and contents of the pack 
+Ameluz is a white to yellowish gel. 
+Each carton contains one aluminium tube with 2 g gel closed with a polyethylene screw cap. </p>
+<p>Marketing Authorisation Holder<br />
+Biofrontera Bioscience GmbH<br />
+Hemmelrather Weg 51377 Leverkusen, Germany 
+Tel: +49 214 87632 66, Fax: +49 214 87632 Email: ameluz@biofrontera.com </p>
+<p>Manufacturer 
+Biofrontera Pharma GmbH 
+Hemmelrather Weg 51377 Leverkusen, Germany 
+Tel: +49 214 87632 66, Fax: +49 214 87632 Email: ameluz@biofrontera.com </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Biofrontera Pharma GmbH<br />
+Duitsland / Allemagne / Deutschland<br />
+T l/Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Biofrontera Pharma GmbH  </p>
+<p>Te .: +49 214 87632 ameluz@biofrontera.com </p>
+<p>esk  republika 
+Biofrontera Pharma GmbH<br />
+N mecko<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Danmark 
+Galenica AB 
+Sverige 
+Tlf: +46 40 32 10 info@galenica.se </p>
+<p>Deutschland 
+Biofrontera Pharma GmbH<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Eesti 
+Biofrontera Pharma GmbH<br />
+Saksamaa<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Biofrontera Pharma GmbH  </p>
+<p>: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Espa a 
+Biofrontera Pharma GmbH sucursal en Espa a 
+Tel: 900 974ameluz-es@biofrontera.com </p>
+<p>France 
+Biofrontera Pharma GmbH 
+Allemagne 
+T l: 0800 904ameluz-fr@biofrontera.com </p>
+<p>Hrvatska 
+Biofrontera Pharma GmbH<br />
+Njema ka<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Ireland 
+Biofrontera Pharma GmbH<br />
+Germany<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>sland 
+Galenica AB 
+Sv j<br />
+S mi: +46 40 32 10 info@galenica.se </p>
+<p>Italia 
+Biofrontera Pharma GmbH<br />
+Germania 
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Biofrontera Pharma GmbH  </p>
+<p>: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Latvija 
+Biofrontera Pharma GmbH<br />
+V cija<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Lietuva 
+Biofrontera Pharma GmbH<br />
+Vokietija 
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Luxembourg/Luxemburg 
+Biofrontera Pharma GmbH<br />
+Allemagne / Deutschland<br />
+T l/Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Magyarorsz g 
+Biofrontera Pharma GmbH<br />
+N metorsz g 
+Tel.: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Malta 
+Biofrontera Pharma GmbH<br />
+Il- ermanja<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Nederland 
+Biofrontera Pharma GmbH<br />
+Duitsland<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Norge 
+Galenica AB 
+Sverige 
+Tlf: +46 40 32 10 info@galenica.se </p>
+<p>sterreich 
+Pelpharma Handels GmbH 
+Tel: +43 2273 70 ameluz@pelpharma.at </p>
+<p>Polska 
+medac GmbH Sp. z o.o. 
+Oddzia  w Polsce 
+Tel.: +48 (0)22 430 00 kontakt@medac.pl </p>
+<p>Portugal 
+Biofrontera Pharma GmbH<br />
+Alemanha<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Rom nia 
+Biofrontera Pharma GmbH<br />
+Germania 
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Slovenija 
+Biofrontera Pharma GmbH<br />
+Nem ija<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Slovensk  republika 
+Biofrontera Pharma GmbH<br />
+Nemecko 
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>Suomi/Finland 
+Galenica AB 
+Ruotsi 
+Puh/Tel: +46 40 32 10 info@galenica.se </p>
+<p>Sverige 
+Galenica AB 
+Tfn: +46 40 32 10 info@galenica.se </p>
+<p>United Kingdom (Northern Ireland) 
+Biofrontera Pharma GmbH<br />
+Germany<br />
+Tel: +49 214 87632 ameluz@biofrontera.com </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

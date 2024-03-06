@@ -4,7 +4,7 @@ Instance: composition-en-664d393693f4983d6c9e5af3f5904561
 InstanceOf: CompositionUvEpi
 Title: "Composition for uplizna Package Leaflet"
 Description:  "Composition for uplizna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Uplizna is and what it is used for  
-2. What you need to know before you are given Uplizna  
-3. How Uplizna is given  
-4. Possible side effects  
-5. How to store Uplizna  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Uplizna is and what it is used for  </li>
+<li>What you need to know before you are given Uplizna  </li>
+<li>How Uplizna is given  </li>
+<li>Possible side effects  </li>
+<li>How to store Uplizna  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

@@ -4,7 +4,7 @@ Instance: composition-en-6ff79951b10cf21bd6fd953fc17e7cc0
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumigan Package Leaflet"
 Description:  "Composition for lumigan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What LUMIGAN 0.1 mg/ml is and what it is used for
 2. What you need to know before you use LUMIGAN 0.1 mg/ml
 3. How to use LUMIGAN 0.1 mg/ml
 4. Possible side effects
 5. How to store LUMIGAN 0.1 mg/ml
-6. Contents of the pack and other information         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -349,8 +349,7 @@ Tel: + 385 (0)1 5625 Rom nia
 AbbVie S.R.L.
 Tel: +40 21 529 30 Ireland
 AbbVie Limited
-Tel: +353 (0)1 4287900<br />
-Slovenija
+Tel: +353 (0)1 4287Slovenija
 AbbVie Biofarmacevtska dru ba d.o.o.
 Tel: +386 (1)32 08  sland
 Vistor hf.
@@ -385,5 +384,5 @@ This medicine has been prescribed for you only. Do not pass it on to others. It 
 even if their signs of illness are the same as yours.
 -
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4. </p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-d3d5b5fa628989f11aa0aee0a47e189c
 InstanceOf: CompositionUvEpi
 Title: "Composition for flixabi Package Leaflet"
 Description:  "Composition for flixabi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Flixabi is and what it is used for 
-2. What you need to know before Flixabi is given 
-3. How Flixabi will be given 
-4. Possible side effects 
-5. How to store Flixabi 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Flixabi is and what it is used for </li>
+<li>What you need to know before Flixabi is given </li>
+<li>How Flixabi will be given </li>
+<li>Possible side effects </li>
+<li>How to store Flixabi </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -89,8 +89,8 @@ you will take in combination with another medicine called methotrexate to:
 * Reduce the signs and symptoms of your disease, 
 * Slow down the damage in your joints, 
 * Improve your physical function. </p>
-<p>Psoriatic arthritis </p>
-<p>Psoriatic arthritis is an inflammatory disease of the joints, usually accompanied by psoriasis. If you have 
+<p>Psoriatic arthritis 
+Psoriatic arthritis is an inflammatory disease of the joints, usually accompanied by psoriasis. If you have 
 active psoriatic arthritis you will first be given other medicines. If these medicines do not work well enough, 
 you will be given Flixabi to: 
 * Reduce the signs and symptoms of your disease, 
@@ -138,19 +138,17 @@ now starting Flixabi treatment again.
 * If you have had a break in your treatment with infliximab of more than 16 weeks, there is a higher 
 risk for allergic reactions when you start the treatment again. </p>
 <p>Infections 
-* Tell your doctor before you are given Flixabi if you have an infection even if it is a very minor one. </p>
-<ul>
-<li>Tell your doctor before you are given Flixabi if you have ever lived in or travelled to an area where 
+* Tell your doctor before you are given Flixabi if you have an infection even if it is a very minor one. 
+* Tell your doctor before you are given Flixabi if you have ever lived in or travelled to an area where 
 infections called histoplasmosis, coccidioidomycosis, or blastomycosis are common. These 
-infections are caused by specific types of fungi that can affect the lungs or other parts of your body. </li>
-<li>You may get infections more easily when you are being treated with Flixabi. If you are 65 or older, 
-you have a greater risk. </li>
-<li>These infections may be serious and include tuberculosis, infections caused by viruses, fungi, 
+infections are caused by specific types of fungi that can affect the lungs or other parts of your body. 
+* You may get infections more easily when you are being treated with Flixabi. If you are 65 or older, 
+you have a greater risk. 
+* These infections may be serious and include tuberculosis, infections caused by viruses, fungi, 
 bacteria, or other organisms in the environment and sepsis that may be life-threatening. 
 Tell your doctor straight away if you get signs of infection during treatment with Flixabi. Signs include 
 fever, cough, flu-like signs, feeling unwell, red or hot skin, wounds or dental problems. Your doctor 
-may recommend temporarily stopping Flixabi. </li>
-</ul>
+may recommend temporarily stopping Flixabi. </p>
 <p>Tuberculosis (TB) 
 * It is very important that you tell your doctor if you have ever had TB or if you have been in close 
 contact with someone who has had or has TB. 
@@ -189,13 +187,11 @@ changes in your skin or growths on the skin during or after therapy, tell your d
 * Some women being treated for rheumatoid arthritis with infliximab have developed cervical cancer. 
 For women taking infliximab including those over 60 years of age, your doctor may recommend 
 regular screening for cervical cancer. </p>
-<p>Lung disease or heavy smoking </p>
-<ul>
-<li>Tell your doctor before you are given Flixabi if you have a lung disease called Chronic Obstructive 
-Pulmonary Disease (COPD) or if you are a heavy smoker. </li>
-<li>Patients with COPD and patients who are heavy smokers may have a higher risk of developing 
-cancer with Flixabi treatment. </li>
-</ul>
+<p>Lung disease or heavy smoking 
+* Tell your doctor before you are given Flixabi if you have a lung disease called Chronic Obstructive 
+Pulmonary Disease (COPD) or if you are a heavy smoker. 
+* Patients with COPD and patients who are heavy smokers may have a higher risk of developing 
+cancer with Flixabi treatment. </p>
 <p>Nervous system disease 
 * Tell your doctor if you have or have ever had a problem that affects your nervous system before 
 you are given Flixabi. This includes multiple sclerosis, Guillain-Barre syndrome, if you have fits or 
@@ -237,13 +233,11 @@ fight infections or help stop bleeding.
 Tell your doctor straight away if you get symptoms of low blood counts during treatment with Flixabi. 
 Signs include persistent fever, bleeding or bruising more easily, small red or purple spots caused by 
 bleeding under the skin, or looking pale. </p>
-<p>Immune system disorder </p>
-<ul>
-<li>Some patients receiving infliximab have developed symptoms of an immune system disorder called 
+<p>Immune system disorder 
+* Some patients receiving infliximab have developed symptoms of an immune system disorder called 
 lupus. 
 Tell your doctor straight away if you develop symptoms of lupus during treatment with Flixabi. Signs 
-include joint pain or a rash on cheeks or arms that is sensitive to the sun. </li>
-</ul>
+include joint pain or a rash on cheeks or arms that is sensitive to the sun. </p>
 <p>Children and adolescents 
 The information above also applies to children and adolescents. In addition: 
 * Some children and teenage patients who have received TNF-blockers such as Flixabi have developed 
@@ -338,39 +332,37 @@ If you forget or miss an appointment to receive Flixabi, make another appointmen
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most side effects 
 are mild to moderate. However some patients may experience serious side effects and may require treatment. 
 Side effects may also occur after your treatment with Flixabi has stopped. </p>
-<p>Tell your doctor straight away if you notice any of the following: </p>
-<ul>
-<li>Signs of an allergic reaction such as swelling of your face, lips, mouth or throat which may cause 
+<p>Tell your doctor straight away if you notice any of the following: 
+* Signs of an allergic reaction such as swelling of your face, lips, mouth or throat which may cause 
 difficulty in swallowing or breathing, skin rash, hives, swelling of the hands, feet or ankles. Some of 
 these reactions may be serious or life-threatening. An allergic reaction could happen within 2 hours of 
 your injection or later. More signs of allergic side effects that may happen up to 12 days after your 
-injection include pain in the muscles, fever, joint or jaw pain, sore throat or headache. </li>
-<li>Signs of a heart problem such as chest discomfort or pain, arm pain, stomach pain, shortness of 
+injection include pain in the muscles, fever, joint or jaw pain, sore throat or headache. 
+* Signs of a heart problem such as chest discomfort or pain, arm pain, stomach pain, shortness of 
 breath, anxiety, lightheadedness, dizziness, fainting, sweating, nausea (feeling sick), vomiting, 
-fluttering or pounding in your chest, a fast or a slow heartbeat, and swelling of your feet. </li>
-<li>Signs of infection (including TB) such as fever, feeling tired, cough which may be persistent, 
+fluttering or pounding in your chest, a fast or a slow heartbeat, and swelling of your feet. 
+* Signs of infection (including TB) such as fever, feeling tired, cough which may be persistent, 
 shortness of breath, flu-like symptoms, weight loss, night sweats, diarrhoea, wounds, collection of pus 
-in the gut or around the anus (abscess), dental problems or burning sensation when urinating. </li>
-<li>Possible signs of cancer including but not limited to swelling of lymph nodes, weight loss, fever, 
-unusual skin nodules, changes in moles or skin colouring, or unusual vaginal bleeding. </li>
-<li>Signs of a lung problem such as coughing, breathing difficulties or tightness in the chest. </li>
-<li>Signs of a nervous system problem (including eye problems) such as signs of a stroke (sudden 
+in the gut or around the anus (abscess), dental problems or burning sensation when urinating. 
+* Possible signs of cancer including but not limited to swelling of lymph nodes, weight loss, fever, 
+unusual skin nodules, changes in moles or skin colouring, or unusual vaginal bleeding. 
+* Signs of a lung problem such as coughing, breathing difficulties or tightness in the chest. 
+* Signs of a nervous system problem (including eye problems) such as signs of a stroke (sudden 
 numbness or weakness of your face, arm or leg, especially on one side of your body; sudden confusion, 
 trouble speaking or understanding; trouble seeing in one or both eyes, trouble walking, dizziness, loss 
 of balance or coordination or a severe headache), fits, tingling/numbness in any part of your body, or 
-weakness in arms or legs, changes in eyesight such as double vision or other eye problems. </li>
-<li>Signs of a liver problem (including hepatitis B infection when you have had hepatitis B in the past) 
+weakness in arms or legs, changes in eyesight such as double vision or other eye problems. 
+* Signs of a liver problem (including hepatitis B infection when you have had hepatitis B in the past) 
 such as yellowing of the skin or eyes, dark-brown coloured urine, pain or swelling in the upper right 
-side of the stomach area, joint pain, skin rashes, or fever. </li>
-<li>Signs of an immune system disorder such as joint pain or a rash on cheeks or arms that is sensitive 
-to the sun (lupus) or cough, shortness of breath, fever or skin rash (sarcoidosis). </li>
-<li>Signs of low blood counts such as persistent fever, bleeding or bruising more easily, small red or 
-purple spots caused by bleeding under the skin, or looking pale. </li>
-<li>Signs of serious skin problems such as reddish-target-like spots or circular patches often with central 
+side of the stomach area, joint pain, skin rashes, or fever. 
+* Signs of an immune system disorder such as joint pain or a rash on cheeks or arms that is sensitive 
+to the sun (lupus) or cough, shortness of breath, fever or skin rash (sarcoidosis). 
+* Signs of low blood counts such as persistent fever, bleeding or bruising more easily, small red or 
+purple spots caused by bleeding under the skin, or looking pale. 
+* Signs of serious skin problems such as reddish-target-like spots or circular patches often with central 
 blisters on the trunk, large areas of peeling and shedding (exfoliating) skin, ulcers of mouth, throat, 
 nose, genitals and eyes or small pus-filled bumps that can spread over the body. These skin reactions 
-can be accompanied by fever. </li>
-</ul>
+can be accompanied by fever. </p>
 <p>Tell your doctor straight away if you notice any of the above. </p>
 <p>The following side effects have been observed with infliximab: </p>
 <p>Very common (may affect more than 1 in 10 people) 
@@ -391,8 +383,8 @@ can be accompanied by fever. </li>
   Circulation problems such as low or high blood pressure 
   Bruising, hot flush or nosebleed, warm, red skin (flushing) 
   Feeling tired or weak 
-  Bacterial infections such as blood poisoning, abscess or infection of the skin (cellulitis) </p>
-<p>Infection of the skin due to a fungus 
+  Bacterial infections such as blood poisoning, abscess or infection of the skin (cellulitis) 
+  Infection of the skin due to a fungus 
   Blood problems such as anaemia or low white blood cell count 
   Swollen lymph nodes 
   Depression, problems sleeping 
@@ -444,8 +436,8 @@ blood vessel
   Severe allergic reaction that may cause loss of consciousness and could be life-threatening 
 (anaphylactic shock) 
   Swelling of small blood vessels (vasculitis) 
-  Immune disorders that could affect the lungs, skin and lymph nodes (such as sarcoidosis) </p>
-<p>Collections of immune cells resulting from an inflammatory response (granulomatous lesions) 
+  Immune disorders that could affect the lungs, skin and lymph nodes (such as sarcoidosis) 
+  Collections of immune cells resulting from an inflammatory response (granulomatous lesions) 
   Lack of interest or emotion 
   Serious skin problems such as toxic epidermal necrolysis, Stevens-Johnson Syndrome and acute 
 generalised exanthematous pustulosis 
@@ -497,8 +489,8 @@ them are as follows:
   Keep this medicine out of the sight and reach of children. 
   Do not use this medicine after the expiry date which is stated on the label and the carton after  EXP . 
 The expiry date refers to the last day of that month. 
-  Store in a refrigerator (2  C   8  C). </p>
-<p>This medicine can also be stored in the original carton outside of refrigerated storage up to a 
+  Store in a refrigerator (2  C   8  C). 
+  This medicine can also be stored in the original carton outside of refrigerated storage up to a 
 maximum of 25  C for a single period of up to six months, but not beyond the original expiry date. 
 In this situation, do not return to refrigerated storage again. Write the new expiry date on the carton 
 including day/month/year. 
@@ -543,89 +535,66 @@ Authorisation Holder: </p>
 Biogen Belgium NV/S.A<br />
 T l/Tel: + 32 (0)2 808 5Lietuva<br />
 Biogen Lithuania UAB 
-Tel: +370 52 07 91  </p>
-<p>Ewopharma AG Representative Office<br />
-Te .: + 359 249 176<br />
-Luxembourg/Luxemburg<br />
+Tel: +370 52 07 91  <br />
+Ewopharma AG Representative Office<br />
+Te .: + 359 249 176 Luxembourg/Luxemburg<br />
 Biogen Belgium NV/SA<br />
-T l/Tel: +35 227 772  </p>
-<p>esk  republika<br />
+T l/Tel: +35 227 772  esk  republika<br />
 Biogen (Czech Republic) s.r.o.<br />
-Tel: + 420 228 884<br />
-Magyarorsz g<br />
+Tel: + 420 228 884 Magyarorsz g<br />
 Biogen Hungary Kft.<br />
-Tel.: + 36 1 848 04<br />
-Danmark<br />
+Tel.: + 36 1 848 04 Danmark<br />
 Biogen (Denmark) A/S<br />
-Tlf: + 45 78 79 37<br />
-Malta<br />
+Tlf: + 45 78 79 37 Malta<br />
 Pharma.MT Ltd 
-Tel: + 356 27 78 15<br />
-Deutschland<br />
+Tel: + 356 27 78 15 Deutschland<br />
 Biogen GmbH<br />
 Tel: + 49 (0)89 996 177 Nederland<br />
 Biogen Netherlands B.V.<br />
-Tel: + 31 (0)20 808 02<br />
-Eesti<br />
+Tel: + 31 (0)20 808 02 Eesti<br />
 Biogen Estonia O<br />
-Tel: + 372 6 68 30<br />
-Norge<br />
+Tel: + 372 6 68 30 Norge<br />
 Biogen Norway AS<br />
-Tlf: + 47 21 93 95  </p>
-<p>Genesis Pharma S.A. 
+Tlf: + 47 21 93 95  <br />
+Genesis Pharma S.A. 
  : + 30 211 176 8 sterreich<br />
 Biogen Austria GmbH<br />
-Tel: + 43 (0)1 267 51<br />
-Espa a<br />
+Tel: + 43 (0)1 267 51 Espa a<br />
 Biogen Spain, S.L.<br />
-Tel: + 34 931 790<br />
-Polska<br />
+Tel: + 34 931 790 Polska<br />
 Biogen Poland Sp. z o.o.<br />
-Tel.: + 48 22 116 86<br />
-France<br />
+Tel.: + 48 22 116 86 France<br />
 Biogen France SAS<br />
-T l: + 33 (0)1 776 968<br />
-Portugal<br />
+T l: + 33 (0)1 776 968 Portugal<br />
 Biogen Portugal Sociedade Farmac utica,<br />
 Unipessoal, Lda<br />
-Tel: + 351 308 800<br />
-Hrvatska<br />
+Tel: + 351 308 800 Hrvatska<br />
 Ewopharma d.o.o<br />
-Tel: + 385 (0)1 777 64<br />
-Rom nia<br />
+Tel: + 385 (0)1 777 64 Rom nia<br />
 Ewopharma AG Representative Office<br />
-Tel: + 40 377 881<br />
-Ireland<br />
+Tel: + 40 377 881 Ireland<br />
 Biogen Idec (Ireland) Ltd.<br />
-Tel: +353 (0)1 513 33<br />
-Slovenija<br />
+Tel: +353 (0)1 513 33 Slovenija<br />
 Biogen Pharma d.o.o.<br />
-Tel: + 386 (0)1 888 81<br />
- sland<br />
+Tel: + 386 (0)1 888 81  sland<br />
 Icepharma hf. 
-S mi: + 354 800 9 
-Slovensk  republika<br />
+S mi: + 354 800 9Slovensk  republika<br />
 Biogen Slovakia s.r.o.<br />
-Tel: + 421 (0)2 333 257<br />
-Italia<br />
+Tel: + 421 (0)2 333 257 Italia<br />
 Biogen Italia s.r.l.<br />
-Tel: + 39 (0)6 899 701<br />
-Suomi/Finland<br />
+Tel: + 39 (0)6 899 701 Suomi/Finland<br />
 Biogen Finland Oy<br />
-Puh/Tel: + 358 (0)9 427 041  </p>
-<p>Genesis Pharma (Cyprus) Ltd 
- : + 357 22 00 04<br />
-Sverige<br />
+Puh/Tel: + 358 (0)9 427 041  <br />
+Genesis Pharma (Cyprus) Ltd 
+ : + 357 22 00 04 Sverige<br />
 Biogen Sweden AB<br />
 Tel: +46 (0)8 525 038 Latvija 
 Biogen Latvia SIA 
-Tel: + 371 66 16 40<br />
-United Kingdom (Northern Ireland) 
+Tel: + 371 66 16 40 United Kingdom (Northern Ireland) 
 Biogen Idec (Ireland) Ltd. 
-Tel: +44 (0)20 360 886<br />
-This leaflet was last revised in . </p>
-<p>Other sources of information </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+Tel: +44 (0)20 360 886 This leaflet was last revised in . </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
 <hr />
 <p>The following information is intended for healthcare professionals only: </p>

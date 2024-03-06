@@ -4,7 +4,7 @@ Instance: composition-en-c6f251ac470345e2bc0f62b0b3ff2ff0
 InstanceOf: CompositionUvEpi
 Title: "Composition for mavenclad Package Leaflet"
 Description:  "Composition for mavenclad Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What MAVENCLAD is and what it is used for 
-2. What you need to know before you take MAVENCLAD 
-3. How to take MAVENCLAD 
-4. Possible side effects 
-5. How to store MAVENCLAD 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What MAVENCLAD is and what it is used for </li>
+<li>What you need to know before you take MAVENCLAD </li>
+<li>How to take MAVENCLAD </li>
+<li>Possible side effects </li>
+<li>How to store MAVENCLAD </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -324,8 +324,8 @@ Your doctor will tell you the number of tablets to take
 100 to less than 110 kg 
 9 
 9 
-110 kg and above </p>
-<p>How to take your medicine </p>
+110 kg and above 
+How to take your medicine </p>
 <p>Take the tablet(s) at about the same time each day. Swallow them with water and without chewing. 
 You do not have to take the tablets at meal times. You can take them with meals or between meals. </p>
 <p>Read the 'Step-by-Step Guide' at the end of this package leaflet on how to handle the child-
@@ -347,15 +347,7 @@ thoroughly washed. </li>
 Table 3 shows how many tablets (1 or 2 tablets) you have to take on each day. If your daily dose is 
 2 tablets, take them at the same time. </p>
 <p>Example: if you have to take 8 tablets, you would take 2 tablets on Day 1, Day 2, Day 3, then 1 tablet 
-on Day 4 and Day </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Table 3 
+on Day 4 and Day 5. Table 3 
 Total number of tablets<br />
 per treatment week 
 Day 1 
@@ -423,12 +415,13 @@ number of days in that treatment week. </p>
 on Day 4, and extend the total number of days in the treatment week by 1 day. If you miss 
 2 consecutive doses (for example both Day 3 and Day 4 doses), take the missed doses for the next 
 2 days, and then extend the treatment week by 2 days. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store mavenclad"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store mavenclad"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be or could become serious </p>
@@ -461,11 +454,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store mavenclad"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store mavenclad"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the cardboard wallet and the carton 
@@ -473,4 +465,38 @@ after EXP. The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What MAVENCLAD contains </p>
+<ul>
+<li>The active substance is cladribine. Each tablet contains 10 mg cladribine. </li>
+<li>The other ingredients are hydroxypropylbetadex, sorbitol and magnesium stearate. </li>
+</ul>
+<p>What MAVENCLAD looks like and contents of the pack </p>
+<p>MAVENCLAD tablets are white, round, biconvex tablets engraved with 'C' on one side and '10' on the 
+other side. Each pack contains 1, 4, 5, 6, 7 or 8 tablets in a blister, sealed in a cardboard wallet and 
+fixed in a child-resistant carton. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Merck Europe B.V. 
+Gustav Mahlerplein 1082 MA Amsterdam 
+The Netherlands </p>
+<p>Manufacturer </p>
+<p>NerPharMa S.R.L. 
+Viale Pasteur, 20014 Nerviano (MI) 
+Italy </p>
+<p>R-Pharm Germany GmbH 
+Heinrich-Mack-Strasse 89257 Illertissen 
+Germany </p>
+<p>Merck S.L. 
+Pol gono Merck 
+08100 Mollet del Vall s (Barcelona) 
+Spain </p>
+<p>This leaflet was last revised in . </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

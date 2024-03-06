@@ -4,7 +4,7 @@ Instance: composition-en-5f1d2d45d01481d24ca0912f037c6116
 InstanceOf: CompositionUvEpi
 Title: "Composition for nepexto Package Leaflet"
 Description:  "Composition for nepexto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,15 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Nepexto is and what it is used for 
-2. What you need to know before you use Nepexto 
-3. How to use Nepexto 
-4. Possible side effects 
-5. How to store Nepexto 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Nepexto is and what it is used for </li>
+<li>What you need to know before you use Nepexto </li>
+<li>How to use Nepexto </li>
+<li>Possible side effects </li>
+<li>How to store Nepexto </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -88,8 +88,8 @@ or are not suitable for you. </p>
 <p>For rheumatoid arthritis, this medicine is usually used in combination with methotrexate, although it 
 may also be used alone if treatment with methotrexate is unsuitable for you. Whether used alone or in 
 combination with methotrexate, Nepexto can slow down the damage to your joints caused by the 
-rheumatoid arthritis and improve your ability to do normal daily activities. </p>
-<p>For psoriatic arthritis patients with multiple joint involvement, this medicine can improve your 
+rheumatoid arthritis and improve your ability to do normal daily activities. 
+For psoriatic arthritis patients with multiple joint involvement, this medicine can improve your 
 ability to do normal daily activities. </p>
 <p>For patients with multiple symmetrical painful or swollen joints (e.g., hands, wrists and feet), this 
 medicine can slow down the structural damage to those joints caused by the disease. </p>
@@ -150,23 +150,22 @@ weight loss, listlessness, mild fever), or any other infection appear during or 
 your doctor immediately. </li>
 <li>Hepatitis B: Tell your doctor if you or the child have or have ever had hepatitis B. Your doctor 
 should test for the presence of hepatitis B infection before you or the child begin treatment with 
-this medicine. Treatment with Nepexto may result in reactivation of hepatitis B in patients who </li>
-</ul>
-<p>have previously been infected with the hepatitis B virus. If this occurs, you should stop using 
-this medicine. 
-* Hepatitis C: Tell your doctor if you or the child have hepatitis C. Your doctor may wish to 
-monitor the treatment with this medicine in case the infection worsens. 
-* Blood disorders: Tell your doctor immediately if you or the child have any signs or symptoms 
+this medicine. Treatment with Nepexto may result in reactivation of hepatitis B in patients who 
+have previously been infected with the hepatitis B virus. If this occurs, you should stop using 
+this medicine. </li>
+<li>Hepatitis C: Tell your doctor if you or the child have hepatitis C. Your doctor may wish to 
+monitor the treatment with this medicine in case the infection worsens. </li>
+<li>Blood disorders: Tell your doctor immediately if you or the child have any signs or symptoms 
 such as persistent fever, sore throat, bruising, bleeding or paleness. Such symptoms may point to 
 the existence of potentially life-threatening blood disorders, which may require discontinuation 
-of Nepexto. 
-* Nervous system and eye disorders: Tell your doctor if you or the child have multiple sclerosis, 
+of Nepexto. </li>
+<li>Nervous system and eye disorders: Tell your doctor if you or the child have multiple sclerosis, 
 optic neuritis (inflammation of the nerves of the eyes) or transverse myelitis (inflammation of 
-the spinal cord). Your doctor will determine if using this medicine is an appropriate treatment. 
-* Congestive heart failure: Tell your doctor if you or the child have a history of congestive heart 
+the spinal cord). Your doctor will determine if using this medicine is an appropriate treatment. </li>
+<li>Congestive heart failure: Tell your doctor if you or the child have a history of congestive heart 
 failure (when your heart muscle doesn t pump blood as well as it should), because this medicine 
-needs to be used with caution under these circumstances. 
-* Cancer: Tell your doctor if you have or have ever had lymphoma (a type of blood cancer) or 
+needs to be used with caution under these circumstances. </li>
+<li>Cancer: Tell your doctor if you have or have ever had lymphoma (a type of blood cancer) or 
 any other cancer before you use this medicine. Patients with severe rheumatoid arthritis, who 
 have had the disease for a long time, may be at higher than average risk of developing 
 lymphoma. Children and adults using this medicine may have an increased risk of developing 
@@ -174,17 +173,18 @@ lymphoma or another cancer. Some children and teenage patients who have received
 or other medicines that work the same way as etanercept have developed cancers, including 
 unusual types, which sometimes resulted in death. Some patients receiving Nepexto have 
 developed skin cancer. Tell your doctor if you or the child develop any change in the 
-appearance of the skin or growths on the skin. 
-* Chickenpox: Tell your doctor if you or the child are exposed to chickenpox when using this 
-medicine. Your doctor will determine if preventive treatment for chickenpox is appropriate. 
-* Alcohol abuse: Do not use this medicine for the treatment of hepatitis related to alcohol abuse. 
-Tell your doctor if you or the child in your care have a history of alcohol abuse. 
-* Wegener s granulomatosis: this medicine is not recommended for the treatment of Wegener s 
+appearance of the skin or growths on the skin. </li>
+<li>Chickenpox: Tell your doctor if you or the child are exposed to chickenpox when using this 
+medicine. Your doctor will determine if preventive treatment for chickenpox is appropriate. </li>
+<li>Alcohol abuse: Do not use this medicine for the treatment of hepatitis related to alcohol abuse. 
+Tell your doctor if you or the child in your care have a history of alcohol abuse. </li>
+<li>Wegener s granulomatosis: this medicine is not recommended for the treatment of Wegener s 
 granulomatosis (a rare inflammatory disease). Tell your doctor if you or the child in your care 
-have Wegener s granulomatosis. 
-* Anti-diabetic medicines: Tell your doctor if you or the child have diabetes or are taking 
+have Wegener s granulomatosis. </li>
+<li>Anti-diabetic medicines: Tell your doctor if you or the child have diabetes or are taking 
 medicines to treat diabetes. Your doctor may decide if you or the child need less anti-diabetic 
-medicine while using this medicine. </p>
+medicine while using this medicine. </li>
+</ul>
 <p>Children and adolescents </p>
 <ul>
 <li>Vaccinations: If possible, children should be up to date with all vaccinations before using 
@@ -199,8 +199,8 @@ in children with psoriasis below the age of 6 years. </p>
 <p>Tell your doctor or pharmacist if you or the child are taking or have recently taken or might take any 
 other medicines (including sulfasalazine), including those not prescribed by your doctor. </p>
 <p>You or the child should not use Nepexto with medicines that contain the active substance anakinra or 
-abatacept. </p>
-<p>Pregnancy and breast-feeding </p>
+abatacept. 
+Pregnancy and breast-feeding </p>
 <p>Nepexto should only be used during pregnancy if clearly needed. You should consult your doctor if 
 you become pregnant, think you may be pregnant, or are planning to have a baby. </p>
 <p>If you received Nepexto during pregnancy, your baby may have a higher risk of getting an infection. 
@@ -239,8 +239,8 @@ stop using this medicine. </p>
 <p>Dose and frequency of dosing for the child or adolescent will depend on body weight and disease. 
 Your doctor will determine the correct dose for the child and will prescribe an appropriate strength of 
 etanercept. </p>
-<p>Nepexto should not be used in children and adolescents who weigh less than 62.5 kg. </p>
-<p>Other etanercept medicines with appropriate pharmaceutical forms for children are available. </p>
+<p>Nepexto should not be used in children and adolescents who weigh less than 62.5 kg. 
+Other etanercept medicines with appropriate pharmaceutical forms for children are available. </p>
 <p>For polyarthritis or extended oligoarthritis in patients from the age of 2 years, or enthesitis-related 
 arthritis or psoriatic arthritis in patients from the age of 12 years, the usual dose is 0.4 mg of etanercept 
 per kg bodyweight (up to a maximum of 25 mg) given twice a week or 0.8 mg of etanecept per kg of 
@@ -280,13 +280,9 @@ same day) to make up for a forgotten dose. </p>
 the casualty department at your nearest hospital. </p>
 <ul>
 <li>Trouble swallowing or breathing </li>
-<li>
-<p>Swelling of the face, throat, hands, or feet </p>
-</li>
-<li>
-<p>Feeling nervous or anxious, throbbing sensations, sudden reddening of the skin and/or a warm 
-feeling </p>
-</li>
+<li>Swelling of the face, throat, hands, or feet </li>
+<li>Feeling nervous or anxious, throbbing sensations, sudden reddening of the skin and/or a warm 
+feeling </li>
 <li>Severe rash, itching, or hives (elevated patches of red or pale skin that often itch) </li>
 </ul>
 <p>Serious allergic reactions are rare. However, any of the above symptoms may indicate an allergic 
@@ -398,8 +394,8 @@ EXP. The expiry date refers to the last day of that month. </p>
 single period of up to four weeks; after which, it should not be refrigerated again. Nepexto should be 
 discarded if not used within four weeks after removal from the refrigerator. It is recommended that 
 you record the date that Nepexto is removed from the refrigerator and the date after which Nepexto 
-should be discarded (no more than 4 weeks following the removal from the refrigerator). </p>
-<p>Inspect the solution in the syringe. It should be clear to opalescent, colourless to yellow, and may 
+should be discarded (no more than 4 weeks following the removal from the refrigerator). 
+Inspect the solution in the syringe. It should be clear to opalescent, colourless to yellow, and may 
 contain small white or almost transparent particles of protein. This appearance is normal. Do not use 
 the solution if it is discoloured, cloudy, or if particles other than those described above are present. If 
 you are concerned with the appearance of the solution, then contact your pharmacist for assistance. </p>
@@ -441,82 +437,62 @@ Ireland </p>
 Marketing Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Biocon Biologics Belgium BV 
-T l/Tel: 0080008250 
-Lietuva 
+T l/Tel: 0080008250Lietuva 
 Biosimilar Collaborations Ireland Limited 
-Tel: 0080008250 </p>
-<p>Biosimilar Collaborations Ireland Limited 
- : 0080008250 
-Luxembourg/Luxemburg 
+Tel: 0080008250<br />
+Biosimilar Collaborations Ireland Limited 
+ : 0080008250Luxembourg/Luxemburg 
 Biocon Biologics France S.A.S 
-T l/Tel: 0080008250 
- esk  republika 
+T l/Tel: 0080008250 esk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Magyarorsz g 
 Biosimilar Collaborations Ireland Limited<br />
-Tel.: 0080008250 
-Danmark 
+Tel.: 0080008250Danmark 
 Biocon Biologics Finland OY<br />
 Tlf: 0080008250Malta 
 Biosimilar Collaborations Ireland Limited<br />
-Tel.: 0080008250 
-Deutschland 
+Tel.: 0080008250Deutschland 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250 
-Nederland 
+Tel: 0080008250Nederland 
 Biocon Biologics France S.A.S 
 Tel: 0080008250Eesti 
 Biosimilar Collaborations Ireland Limited 
 Tel: 0080008250Norge 
 Biocon Biologics Finland OY<br />
-Tlf: +47 800 62  </p>
-<p>Biocon Biologics Greece    . .<br />
- .: 0080008250 
- sterreich 
+Tlf: +47 800 62  <br />
+Biocon Biologics Greece    . .<br />
+ .: 0080008250 sterreich 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250 
-Espa a 
+Tel: 0080008250Espa a 
 Biocon Biologics Spain S.L. 
-Tel: 0080008250 
-Polska 
+Tel: 0080008250Polska 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 
-France 
+Tel: 0080008250France 
 Biocon Biologics France S.A.S<br />
 Tel: 0080008250Portugal 
 Biocon Biologics Spain S.L. 
-Tel: 0080008250 
-Hrvatska 
+Tel: 0080008250Hrvatska 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250 
-Rom nia 
+Tel: 0080008250Rom nia 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 
-Ireland 
+Tel: 0080008250Ireland 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 1800 777<br />
-Slovenija 
+Tel: 1800 777 Slovenija 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 
- sland 
+Tel: 0080008250 sland 
 Biocon Biologics Finland OY<br />
-S mi: +345 800 4 
-Slovensk  republika 
+S mi: +345 800 4Slovensk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Italia 
 Biocon Biologics Spain S.L. 
-Tel: 0080008250 
-Suomi/Finland 
+Tel: 0080008250Suomi/Finland 
 Biocon Biologics Finland OY<br />
-Puh/Tel: 99980008250 </p>
-<p>Biosimilar Collaborations Ireland Limited<br />
- : 0080008250 
-Sverige 
-Biocon Biologics Finland OY<br />
-Tel: 0080008250 
-Latvija 
+Puh/Tel: 99980008250<br />
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 </p>
-<p>This leaflet was last revised in </p>
+ : 0080008250Sverige 
+Biocon Biologics Finland OY<br />
+Tel: 0080008250Latvija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

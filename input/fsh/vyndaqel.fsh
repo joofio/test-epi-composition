@@ -4,7 +4,7 @@ Instance: composition-en-895d12c7e06fa00ecf48ed16e513c5f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyndaqel Package Leaflet"
 Description:  "Composition for vyndaqel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Vyndaqel is and what it is used for
 2. What you need to know before you take Vyndaqel
 3. How to take Vyndaqel
 4. Possible side effects
 5. How to store Vyndaqel
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -282,7 +281,7 @@ Pfizer    . . (Cyprus Branch)
 Pfizer Limited
 Tel: +44 (0)1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
-Tel: +371 670 35 This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>.
+Tel: +371 670 35 This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;.
 This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine.
 The European Medicines Agency will review any new information on this medicine every year and 

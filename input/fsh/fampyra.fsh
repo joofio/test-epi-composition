@@ -4,7 +4,7 @@ Instance: composition-en-40c8dbb155810b203735f0693961138c
 InstanceOf: CompositionUvEpi
 Title: "Composition for fampyra Package Leaflet"
 Description:  "Composition for fampyra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Fampyra is and what it is used for 
-2. What you need to know before you take Fampyra 
-3. How to take Fampyra 
-4. Possible side effects 
-5. How to store Fampyra 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Fampyra is and what it is used for </li>
+<li>What you need to know before you take Fampyra </li>
+<li>How to take Fampyra </li>
+<li>Possible side effects </li>
+<li>How to store Fampyra </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -234,8 +234,7 @@ throw away medicines you no longer use. These measures will help to protect the 
 Each prolonged-release tablet contains 10 mg of fampridine </p>
 <p>The other ingredients are: 
 Tablet core: hypromellose, microcrystalline cellulose, silica colloidal anhydrous, magnesium 
-stearate; film coat: hypromellose, titanium dioxide (E-171), polyethylene glycol<br />
-What Fampyra looks like and contents of the pack </p>
+stearate; film coat: hypromellose, titanium dioxide (E-171), polyethylene glycol What Fampyra looks like and contents of the pack </p>
 <p>Fampyra is an off-white, film coated, oval biconvex 13 x 8 mm prolonged-release tablet with A10 on 
 one side. </p>
 <p>Fampyra is supplied in either blister packs or bottles. </p>
@@ -257,88 +256,66 @@ The Netherlands </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Biogen Belgium N.V./S.A. 
-T l/Tel: +32 2 219 12<br />
-Lietuva 
+T l/Tel: +32 2 219 12 Lietuva 
 Biogen Lithuania UAB 
-Tel: +37 0 5 259 6 </p>
-<p>Te .: +359 2 962 12<br />
-Luxembourg/Luxemburg 
+Tel: +37 0 5 259 6  </p>
+<p>Te .: +359 2 962 12 Luxembourg/Luxemburg 
 Biogen Belgium N.V./S.A. 
-T l/Tel: +32 2 219 12<br />
- esk  republika 
+T l/Tel: +32 2 219 12  esk  republika 
 Biogen (Czech Republic) s.r.o. 
-Tel: +420 255 706<br />
-Magyarorsz g 
+Tel: +420 255 706 Magyarorsz g 
 Biogen Hungary Kft. 
 Tel.: +36 (1) 899 9Danmark 
 Biogen (Denmark) A/S 
-Tlf: +45 77 41 57<br />
-Malta 
+Tlf: +45 77 41 57 Malta 
 Pharma MT limited 
 Tel: +356 213 37008/9 </p>
 <p>Deutschland 
 Biogen GmbH 
-Tel: +49 (0) 89 99 6 
-Nederland 
+Tel: +49 (0) 89 99 6Nederland 
 Biogen Netherlands B.V. 
 Tel: +31 20 542 2Eesti 
 Biogen Estonia O<br />
-Tel: +372 618 9 
-Norge 
+Tel: +372 618 9Norge 
 Biogen Norway AS 
-Tlf: +47 23 40 01 00  </p>
-<p>Genesis Pharma SA 
- : +30 210 8771 
- sterreich 
+Tlf: +47 23 40 01 <br />
+Genesis Pharma SA 
+ : +30 210 8771 sterreich 
 Biogen Austria GmbH 
 Tel: +43 1 484 46 Espa a 
 Biogen Spain SL 
-Tel: +34 91 310 7 
-Polska 
+Tel: +34 91 310 7Polska 
 Biogen Poland Sp. z o.o. 
-Tel.: +48 22 351 51<br />
-France 
+Tel.: +48 22 351 51 France 
 Biogen France SAS 
-T l: +33 (0)1 41 37 95<br />
-Portugal 
+T l: +33 (0)1 41 37 95 Portugal 
 Biogen Portugal Sociedade Farmac utica 
 Unipessoal, Lda 
-Tel: +351 21 318 8 
-Hrvatska 
+Tel: +351 21 318 8Hrvatska 
 Biogen Pharma d.o.o. 
-Tel: +385 (0) 1 775 73<br />
-Rom nia 
+Tel: +385 (0) 1 775 73 Rom nia 
 Johnson &amp; Johnson Romania S.R.L. 
-Tel: +40 21 207 18<br />
-Ireland 
+Tel: +40 21 207 18 Ireland 
 Biogen Idec (Ireland) Ltd. 
-Tel: +353 (0)1 463 7 
-Slovenija 
+Tel: +353 (0)1 463 7Slovenija 
 Biogen Pharma d.o.o. 
-Tel: +386 1 511 02<br />
- sland 
+Tel: +386 1 511 02  sland 
 Icepharma hf 
-S mi: +354 540 8 
-Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Biogen Slovakia s.r.o. 
 Tel: +421 2 323 340 Italia 
 Biogen Italia s.r.l. 
-Tel: +39 02 584 9 
-Suomi/Finland 
+Tel: +39 02 584 9Suomi/Finland 
 Biogen Finland Oy 
-Puh/Tel: +358 207 401  </p>
-<p>Genesis Pharma (Cyprus) Ltd 
- : +357 22765 
-Sverige 
+Puh/Tel: +358 207 401 <br />
+Genesis Pharma (Cyprus) Ltd 
+ : +357 22765Sverige 
 Biogen Sweden AB 
-Tel: +46 8 594 113<br />
-Latvija 
+Tel: +46 8 594 113 Latvija 
 Biogen Latvia SIA 
-Tel: +371 68 688<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 68 688 United Kingdom (Northern Ireland) 
 Biogen Idec (Ireland) Limited 
-Tel: +44 (0) 1628 50 1 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 (0) 1628 50 1This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>You can get a larger print version of this leaflet by calling the local representatives (see list above). </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

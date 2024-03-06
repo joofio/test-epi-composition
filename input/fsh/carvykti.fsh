@@ -4,7 +4,7 @@ Instance: composition-en-155f96d6fa2a1acb6bbe985e5b890f92
 InstanceOf: CompositionUvEpi
 Title: "Composition for carvykti Package Leaflet"
 Description:  "Composition for carvykti Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What CARVYKTI is and what it is used for
 2. What you need to know before you are given CARVYKTI
 3. How CARVYKTI is given
 4. Possible side effects
 5. How to store CARVYKTI
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]

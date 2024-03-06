@@ -4,7 +4,7 @@ Instance: composition-en-5b44b92baabcf0684d3d21b26b5583ec
 InstanceOf: CompositionUvEpi
 Title: "Composition for yescarta Package Leaflet"
 Description:  "Composition for yescarta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Yescarta is and what it is used for  
-2. What you need to know before you are given Yescarta  
-3. How Yescarta is given  
-4. Possible side effects  
-5. How to store Yescarta  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Yescarta is and what it is used for  </li>
+<li>What you need to know before you are given Yescarta  </li>
+<li>How Yescarta is given  </li>
+<li>Possible side effects  </li>
+<li>How to store Yescarta  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -379,20 +379,17 @@ Authorisation Holder: </p>
 Gilead Sciences Belgium SRL-BV 
 T l/Tel: + 32 (0) 24 01 35 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 </p>
-<p>Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1<br />
+Gilead Sciences Ireland UC 
  .: + 353 (0) 1 686 1Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-T l/Tel: + 32 (0) 24 01 35<br />
- esk  republika 
+T l/Tel: + 32 (0) 24 01 35  esk  republika 
 Gilead Sciences s.r.o. 
-Tel: + 420 910 871<br />
-Magyarorsz g 
+Tel: + 420 910 871 Magyarorsz g 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1Danmark 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Malta 
+Tlf: + 46 (0) 8 5057 1Malta 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1Deutschland 
 Gilead Sciences GmbH 
@@ -401,56 +398,45 @@ Tel: + 49 (0) 89 899890-0 </p>
 Gilead Sciences Netherlands B.V. 
 Tel: + 31 (0) 20 718 36 Eesti 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Norge 
+Tel: + 353 (0) 1 686 1Norge 
 Gilead Sciences Sweden AB 
 Tlf: + 46 (0) 8 5057 1<br />
 Gilead Sciences    . . 
- : + 30 210 8930<br />
- sterreich 
+ : + 30 210 8930  sterreich 
 Gilead Sciences GesmbH 
 Tel: + 43 1 260 Espa a 
 Gilead Sciences, S.L. 
-Tel: + 34 91 378 98<br />
-Polska 
+Tel: + 34 91 378 98 Polska 
 Gilead Sciences Poland Sp. z o.o. 
 Tel: + 48 22 262 8France 
 Gilead Sciences 
 T l: + 33 (0) 1 46 09 41 Portugal 
 Gilead Sciences, Lda. 
-Tel: + 351 21 7928 
-Hrvatska 
+Tel: + 351 21 7928Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1Rom nia 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Ireland 
+Tel: + 353 (0) 1 686 1Ireland 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 214 825<br />
-Slovenija 
+Tel: + 353 (0) 214 825 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 sland 
 Gilead Sciences Sweden AB 
-S mi: + 46 (0) 8 5057 1 
-Slovensk  republika 
+S mi: + 46 (0) 8 5057 1Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
-Tel: + 421 232 121<br />
-Italia 
+Tel: + 421 232 121 Italia 
 Gilead Sciences S.r.l. 
 Tel: + 39 02 439Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 </p>
-<p>Gilead Sciences    . . 
+Puh/Tel: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
  : + 30 210 8930 Sverige 
 Gilead Sciences Sweden AB 
-Tel: + 46 (0) 8 5057 1 
-Latvija 
+Tel: + 46 (0) 8 5057 1Latvija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-United Kingdom (Northern Ireland) 
+Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
-Tel: + 44 (0) 8000 113 </p>
-<p>This leaflet was last revised in  </p>
+Tel: + 44 (0) 8000 113This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

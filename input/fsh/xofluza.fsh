@@ -4,7 +4,7 @@ Instance: composition-en-49f2652f369e152b2094223d335e67b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for xofluza Package Leaflet"
 Description:  "Composition for xofluza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Xofluza is and what it is used for  
-2. What you need to know before you take Xofluza 
-3. How to take Xofluza 
-4. Possible side effects  
-5. How to store Xofluza 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Xofluza is and what it is used for  </li>
+<li>What you need to know before you take Xofluza </li>
+<li>How to take Xofluza </li>
+<li>Possible side effects  </li>
+<li>How to store Xofluza </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -95,8 +95,8 @@ close contact with someone who is known or suspected to have influenza. </li>
 section 6). </li>
 </ul>
 <p>Warnings and precautions  </p>
-<p>Talk to your doctor or pharmacist before taking Xofluza. </p>
-<p>Infants and Children  </p>
+<p>Talk to your doctor or pharmacist before taking Xofluza. 
+Infants and Children  </p>
 <p>Do not give this medicine to children below 1 year of age. This is because the effects of Xofluza in 
 this age group are not known.  </p>
 <p>Other medicines and Xofluza </p>
@@ -211,5 +211,81 @@ hypromellose (E464), talc (E553b) and titanium dioxide (E171) in the film-coatin
 <p>Xofluza 20 mg tablets are white to light yellow, oblong shaped film-coated tablets with<br />
  772<br />
 marked on one side and  20  on the other side. </p>
-<p>Xofluza 20 mg film-coated tablets are available in blister packs of </p>         </div>"""      
+<p>Xofluza 20 mg film-coated tablets are available in blister packs of 2. Xofluza 40 mg tablets are white to light yellow, oblong shaped film-coated tablets with  BXM40<br />
+marked on one side.  </p>
+<p>Xofluza 40 mg film-coated tablets are available in blister packs of 2. Marketing Authorisation Holder </p>
+<p>Roche Registration GmbH 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Manufacturer </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36   1 279 4Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O<br />
+Tel: + 372 - 6 177 Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 France 
+Roche 
+T l: +33  (0)1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22 Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-2384da974bf6e0cf52f25e84d6631d57
 InstanceOf: CompositionUvEpi
 Title: "Composition for cialis Package Leaflet"
 Description:  "Composition for cialis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What CIALIS is and what it is used for 
 2. What you need to know before you take CIALIS 
 3. How to take CIALIS 
 4. Possible side effects 
 5. How to store CIALIS 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -143,14 +143,7 @@ known if the event is directly related to tadalafil, if you experience decreased
 stop taking CIALIS and contact your doctor immediately. </p>
 <p>CIALIS is not intended for use by women.   </p>
 <p>Children and adolescents 
-CIALIS is not intended for use by children and adolescents under the age of 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take cialis"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take cialis"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and CIALIS 
+CIALIS is not intended for use by children and adolescents under the age of 18. Other medicines and CIALIS 
 Tell your doctor if you are taking, have recently taken or might take any other medicines </p>
 <p>Do not take CIALIS if you are already taking nitrates.  </p>
 <p>Some medicines may be affected by CIALIS or they may affect how well CIALIS will work. Tell your 
@@ -185,13 +178,12 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicinal product. </p>
 <p>CIALIS contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take cialis"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take cialis"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure.  </p>
@@ -212,23 +204,16 @@ dysfunction. </p>
 pressure. If you have taken or are planning to take CIALIS, avoid excessive drinking (blood alcohol 
 level of 0.08 % or greater), since this may increase the risk of dizziness when standing up. </p>
 <p>If you take more CIALIS than you should<br />
-Contact your doctor. You may experience side effects described in section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store cialis"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store cialis"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take CIALIS 
+Contact your doctor. You may experience side effects described in section 4. If you forget to take CIALIS 
 Take your dose as soon as you remember but do not take a double dose to make up for a forgotten 
 tablet. You should not take CIALIS more than once a day. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. These 
 effects are normally mild to moderate in nature. </p>
@@ -275,4 +260,103 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system </p>
 <p>listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store cialis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store cialis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>Store in the original package in order to protect from moisture. Do not store above 30 C. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What CIALIS contains 
+- The active substance is tadalafil. Each tablet contains 2.5 mg of tadalafil. 
+- The other ingredients are: 
+Tablet core: lactose monohydrate (see end of section 2), croscarmellose sodium, 
+hydroxypropylcellulose, microcrystalline cellulose, sodium laurilsulfate, magnesium stearate, 
+see section 2  CIALIS contains lactose . 
+Film-coat: lactose monohydrate, hypromellose, triacetin, titanium dioxide (E171), iron oxide 
+yellow (E172), iron oxide red (E172), talc. </p>
+<p>What Cialis looks like and contents of the pack<br />
+CIALIS 2.5 mg is a light orange-yellow film-coated tablet in the shape of an almond and has "C 2  " 
+marked on one side. </p>
+<p>CIALIS 2.5 mg is available in blister packs containing 28 tablets. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder: Eli Lilly Nederland B.V., Papendorpseweg 83, 3528 BJ Utrecht, The 
+Netherlands. </p>
+<p>Manufacturer: Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain. </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgique/Belgi /Belgien 
+Eli Lilly Benelux S.A./N.V. 
+T l/Tel: + 32-(0)2 548 84 Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649<br />
+  "     "  . . - <br />
+ . + 359 2 491 41 Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
+ELI LILLY  R, s.r.o. 
+Tel: + 420 234 664 Magyarorsz g 
+Lilly Hung ria Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60 Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH<br />
+Tel. + 49-(0) 6172 273 2Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V. 
+Tel: +372 6 817 Norge 
+Eli Lilly Norge A.S. 
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 sterreich 
+Eli Lilly Ges.m.b.H. 
+Tel: + 43-(0) 1 711 Espa a 
+Lilly S.A.<br />
+Tel: + 34-91 663 50 Polska<br />
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France 
+T l: +33-(0) 1 55 49 34 Portugal 
+Lilly Portugal Produtos Farmac uticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350 Rom nia 
+Eli Lilly Rom nia S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4Slovenija 
+Eli Lilly farmacevtska dru ba, d.o.o. 
+Tel: +386 (0)1 580 00  sland 
+Icepharma hf. 
+S mi: + 354 540 8Slovensk  republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42Suomi/Finland 
+Oy Eli Lilly Finland Ab 
+Puh/Tel: + 358-(0) 9 85 45 <br />
+Phadisco Ltd<br />
+ : +357 22 715Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij<br />
+Tel: +371 67364United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

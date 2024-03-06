@@ -4,7 +4,7 @@ Instance: composition-en-37f7b68ab6ebbc66da81602164ae592c
 InstanceOf: CompositionUvEpi
 Title: "Composition for verkazia Package Leaflet"
 Description:  "Composition for verkazia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Verkazia is and what it is used for 
-2. What you need to know before you use Verkazia 
-3. How to use Verkazia 
-4. Possible side effects 
-5. How to store Verkazia 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Verkazia is and what it is used for </li>
+<li>What you need to know before you use Verkazia </li>
+<li>How to use Verkazia </li>
+<li>Possible side effects </li>
+<li>How to store Verkazia </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -276,15 +276,13 @@ Tel.: +48(0) 221042France
 Santen S.A.S. 
 T l: +33 (0) 1 70 75 26 Portugal 
 Santen Oy 
-Tel: +351 308 805  </p>
-<p>Hrvatska 
+Tel: +351 308 805 Hrvatska 
 Santen Oy 
 Tel: +358 (0) 3 284 8Rom nia 
 Santen Oy 
 Tel: +358 (0) 3 284 8Ireland 
 Santen Oy 
-Tel: +353 (0) 16950 
-Slovenija 
+Tel: +353 (0) 16950Slovenija 
 Santen Oy 
 Tel: +358 (0) 3 284 8 sland 
 Santen Oy 

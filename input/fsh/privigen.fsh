@@ -4,7 +4,7 @@ Instance: composition-en-049b5b7dcb707b91228a592e54e9e9d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for privigen Package Leaflet"
 Description:  "Composition for privigen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:
 1. What Privigen is and what it is used for
 2. What you need to know before you are given Privigen
 3. How to use Privigen
 4. Possible side effects
 5. How to store Privigen
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -152,8 +151,7 @@ When may slowing or stopping the infusion be required?</p>
 However, true allergic reactions are rare. They may occur even if you have previously received 
 human immunoglobulins and had tolerated them well. It may happen particularly if you have 
 developed antibodies against immunoglobulins of the type IgA. In these rare cases allergic 
-reactions such as a sudden fall in blood pressure or shock may occur (see also section 4 
- Possible side effects ).</p>
+reactions such as a sudden fall in blood pressure or shock may occur (see also section 4. Possible side effects ).</p>
 <p>In very rare cases transfusion-related acute lung injury (TRALI) can occur after receiving 
 immunoglobulins. This will lead to non-heart related accumulation of fluid in the air spaces of 
 the lungs (non-cardiogenic pulmonary oedema). You will recognize TRALI by severe difficulty 
@@ -181,14 +179,7 @@ possibility of passing on infection cannot be totally excluded. This also applie
 emerging viruses and other types of infections.
 The measures taken are considered effective for enveloped viruses such as human immunodeficiency 
 virus (HIV), hepatitis B virus and hepatitis C virus, and for the non-enveloped hepatitis A virus and 
-parvovirus B1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take privigen"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take privigen"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Immunoglobulins have not been associated with hepatitis A or parvovirus B19 infections, possibly 
+parvovirus B19. Immunoglobulins have not been associated with hepatitis A or parvovirus B19 infections, possibly 
 because antibodies against these infections, which are contained in the product, are protective.</p>
 <p>It is strongly recommended that every time you are given a dose of Privigen the name and batch 
 number of the product are recorded in order to maintain a record of the batches used.
@@ -224,13 +215,12 @@ before you are given Privigen ).</p>
 <p>Tell your doctor prior to treatment.
 Sodium content
 This medicine contains less than 2.3 mg sodium (main component of cooking/table salt) in 100 ml. 
-This is equivalent to 0.12% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""         
-
-        
+This is equivalent to 0.12% of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take privigen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take privigen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Privigen is intended solely for the infusion into a vein (intravenous infusion). It is usually administered 
 by your doctor or healthcare professional. Your doctor will calculate the correct dose for you taking 
@@ -243,12 +233,13 @@ Overdose is very unlikely to occur because Privigen is usually administered unde
 supervision. If, in spite of this, you receive more Privigen than you should, your blood may become 
 too thick (hyperviscous) which might increase the risk of developing blood clots. This may happen 
 particularly if you are a patient at risk, for example if you are elderly or if you suffer from a heart or
-kidney disease. Tell your doctor if you are known to have medical problems.</p>         </div>"""      
+kidney disease. Tell your doctor if you are known to have medical problems.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store privigen"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store privigen"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Possible 
 side effects may be reduced or even avoided by infusing Privigen at a slow infusion rate. Such side 
@@ -325,11 +316,10 @@ side effects not listed in this leaflet. You can also report side effects direct
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store privigen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store privigen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and the vial 
@@ -341,4 +331,182 @@ immediately after opening the vial.</p>
 <p>Keep the vial in the outer carton in order to protect from light.</p>
 <p>Do not use this medicine if you notice that the solution is cloudy or contains particles floating 
 within the solution.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Privigen contains</p>
+<p>The active substance is human normal immunoglobulin (antibodies of the type IgG). Privigen 
+contains 100 mg/ml (10%) human protein of which at least 98% is IgG.
+The approximate percentage of IgG subclasses is as follows:
+IgG1 ...................... 69 %
+IgG2 ...................... 26 %
+IgG3 ........................ 3 %
+IgG4 ........................ 2 %
+This medicine contains trace amounts of IgA (not more than 25 micrograms/ml).</p>
+<p>The other ingredients (excipients) are the amino acid proline, water for injections, and 
+hydrochloric acid or sodium hydroxide (for pH adjustment).
+What Privigen looks like and contents of the pack
+Privigen is presented as a solution for infusion.
+The solution is clear or slightly opalescent and colourless to pale-yellow.
+Pack sizes:
+1 vial (2.5 g/25 ml, 5 g/50 ml, 10 g/100 ml, 20 g/200 ml or 40 g/400 ml),
+3 vials (10 g/100 ml or 20 g/200 ml).
+Not all pack sizes may be marketed.
+Marketing Authorisation Holder and Manufacturer
+CSL Behring GmbH
+Emil-von-Behring-Strasse D-35041 Marburg
+Germany
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+CSL Behring NV
+T l/Tel: +32 15 28 89 Luxembourg/Luxemburg
+CSL Behring NV
+T l/Tel: +32 15 28 89  </p>
+<p>: +359 2 810 3Magyarorsz g
+CSL Behring Kft.
+Tel: +36 1 213 4 esk  republika
+CSL Behring s.r.o.
+Tel: +420 702 137 Malta
+AM Mangion Ltd.
+Tel: +356 2397 6Danmark
+CSL Behring ApS
+Tlf: +45 4520 1Nederland
+CSL Behring BV
+Tel: +31 85 111 96 Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584Norge
+CSL Behring AB
+Tlf: +46 8 544 966 Eesti
+CentralPharma Communications O 
+Tel: +3726015 sterreich
+CSL Behring GmbH
+Tel: +43 1 80101 2 
+CSL Behring<br />
+ : +30 210 7255 Polska
+CSL Behring Sp. z o.o.
+Tel.: +48 22 213 22 Espa a
+CSL Behring S.A.
+Tel: +34 933 67 1Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 France
+CSL Behring SA
+T l: +33 1 53 58 54 Hrvatska
+Marti Farm d.o.o.
+Tel: +385 1 5588Rom nia
+Prisum Healthcare S.R.L.
+Tel: +40 21 322 01 Slovenija
+EMMES BIOPHARMA GLOBAL s.r.o. -
+podru nica v Sloveniji
+Tel: +386 41 42 0Ireland
+CSL Behring GmbH
+Tel: +49 69 305 17Slovensk  republika
+CSL Behring s.r.o.
+Tel: +421 911 653  sland
+CSL Behring AB
+S mi: +46 8 544 966 Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 Sverige
+CSL Behring AB
+Tel: +46 8 544 966<br />
+CSL Behring<br />
+ : +30 210 7255 United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 305 17Latvija
+CentralPharma Communications SIA
+Tel: +371 6 7450Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0This leaflet was last revised in.
+Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu.</p>
+<hr />
+<p>The following information is intended for healthcare professionals only:
+Posology and method of administration
+The dosage recommendations are summarised in the following table:
+Indication
+Dose
+Frequency of injections
+Replacement therapy
+Primary immunodeficiency syndromes 
+(PID)
+starting dose:
+0.4 - 0.8 g/kg bw
+maintenance dose:
+0.2 - 0.8 g/kg bw
+every 3 to 4 weeks to obtain IgG 
+trough levels of at least 6 g/l
+Secondary immunodeficiencies (as 
+defined in 4.1)
+0.2 - 0.4 g/kg bw
+every 3 to 4 weeks to obtain IgG 
+trough levels of at least 6 g/l
+Immunomodulation
+Primary immune thrombocytopenia (ITP)
+0.8 - 1 g/kg bw
+or
+on day 1, possibly repeated once 
+within 3 days
+0.4 g/kg bw/d
+for 2 to 5 days
+Guillain-Barr  syndrome
+0.4 g/kg bw/d
+for 5 days
+Kawasaki disease
+2 g/kg bw
+in one dose in association with 
+acetylsalicylic acid
+Chronic inflammatory demyelinating 
+polyneuropathy (CIDP)* starting dose:
+2 g/kg bw
+in divided doses over 2 to 5 days
+maintenance dose: 
+1 g/kg bw
+every 3 weeks over 1 to 2 days
+Multifocal Motor Neuropathy (MMN)
+starting dose : 
+2 g/kg bw
+over 2 to 5 consecutive days
+maintenance dose:
+1 g/kg bw
+or
+every 2 to 4 weeks
+or
+2 g/kg bw
+every 4 to 8 weeks over 2 to 5 days
+Method of administration
+For intravenous use.
+Human normal immunoglobulin should be infused intravenously at an initial infusion rate of 0.3 ml/kg 
+bw/hr for approximately 30 min. If well tolerated, the rate of administration may gradually be 
+increased to 4.8 ml/kg bw/hr.
+In PID patients who have tolerated the infusion rate of 4.8 ml/kg bw/hr well, the rate may be further 
+increased gradually to a maximum of 7.2 ml/kg bw/hr.
+If dilution prior to infusion is desired, Privigen may be diluted with 5% glucose solution to a final 
+concentration of 50 mg/ml (5%).
+Special precautions
+In case of adverse reaction, either the rate of administration must be reduced or the infusion stopped.
+It is strongly recommended that every time Privigen is administered to a patient, the name and batch 
+number of the product are recorded in order to maintain a link between the patient and the batch of the 
+product.
+Incompatibilities
+This medicinal product must not be mixed with other medicinal products except those mentioned in 
+the section below.
+Special precautions for disposal and other handling
+The product should be brought to room or body temperature before use. A vented infusion line should 
+be used for the administration of Privigen. Always pierce the stopper at its centre, within the marked 
+area.
+The solution should be clear or slightly opalescent and colourless or pale yellow. Solutions that are 
+cloudy or have deposits should not be used.
+If dilution is desired, 5% glucose solution is recommended. For obtaining an immunoglobulin solution 
+of 50 mg/ml (5%), Privigen 100 mg/ml (10%) should be diluted with an equal volume of the glucose 
+solution. Aseptic technique must be strictly observed during the dilution of Privigen.
+Once the vial has been entered under aseptic conditions, its contents should be used promptly. Because 
+the solution contains no preservative, Privigen should be infused as soon as possible.
+Any unused medicinal product or waste material should be disposed of in accordance with local 
+requirements.</p>         </div>"""      
 

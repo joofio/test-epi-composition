@@ -4,7 +4,7 @@ Instance: composition-en-8d8f8c8dd8b6d0af13b2bc71d6fa0c36
 InstanceOf: CompositionUvEpi
 Title: "Composition for inlyta Package Leaflet"
 Description:  "Composition for inlyta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Inlyta is and what it is used for 
-2. What you need to know before you take Inlyta 
-3. How to take Inlyta 
-4. Possible side effects 
-5. How to store Inlyta 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Inlyta is and what it is used for </li>
+<li>What you need to know before you take Inlyta </li>
+<li>How to take Inlyta </li>
+<li>Possible side effects </li>
+<li>How to store Inlyta </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -324,8 +324,8 @@ skin)
 * Reduction in the number of white blood cells (may show in your blood tests) </p>
 <p>Not known: frequency cannot be estimated from the available data 
 * An enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall 
-(aneurysms and artery dissections). </p>
-<p>Reporting of side effects 
+(aneurysms and artery dissections). 
+Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
@@ -391,33 +391,28 @@ Authorisation Holder: </p>
 Pfizer SA/NV 
 T l/Tel: +32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. + 370 52 51 4 </p>
-<pre><code> ,
-</code></pre>
-<p>.: +359 2 970 4Luxembourg/Luxemburg 
+Tel. + 370 52 51 4<br />
+     ,   <br />
+ .: +359 2 970 4Luxembourg/Luxemburg 
 Pfizer S.A. 
-T l/Tel: +32 (0)2 554 62<br />
- esk  republika 
+T l/Tel: +32 (0)2 554 62  esk  republika 
 Pfizer, spol. s r.o. 
 Tel: +420 283 004 Magyarorsz g 
 Pfizer Kft. 
 Tel.: +36-1-488-37-Danmark 
 Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Malta 
+Tlf: +45 44 20 11 Malta 
 Vivian Corporation Ltd. 
 Tel: +356 21344Deutschland 
 PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055 51<br />
-Nederland 
+Tel: +49 (0)30 550055 51Nederland 
 Pfizer BV 
-Tel: +31 (0)10 406 43<br />
-Eesti 
+Tel: +31 (0)10 406 43 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal<br />
 Tel.: +372 666 7Norge 
 Pfizer AS 
-Tlf: +47 67 52 61  </p>
-<p>Pfizer   A.E. 
+Tlf: +47 67 52 61 <br />
+Pfizer   A.E. 
  : +30 210 6785  sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
@@ -425,29 +420,24 @@ Tel: +43 (0)1 521 15-0 </p>
 Pfizer S.L. 
 T l: +34 91 490 99 Polska 
 Pfizer Polska Sp. z o.o. 
-Tel.:+48 22 335 61<br />
-France 
+Tel.:+48 22 335 61 France 
 Pfizer<br />
 T l: +33 (0)1 58 07 34 Portugal 
 Laborat rios Pfizer, Lda. 
-Tel: +351 21 423 5 
-Hrvatska<br />
+Tel: +351 21 423 5Hrvatska<br />
 Pfizer Croatia d.o.o. 
 Tel: + 385 1 3908 Rom nia 
 Pfizer Romania S.R.L. 
-Tel: +40 (0) 21 207 28<br />
-Ireland 
+Tel: +40 (0) 21 207 28 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
 +44 (0)1304 616Slovenija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel.: + 386 (0)1 52 11<br />
- sland 
+Tel.: + 386 (0)1 52 11  sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Pfizer Luxembourg SARL, organiza n  zlo ka<br />
 Tel.: + 421 2 3355 5Italia 
 Pfizer S.r.l. 
@@ -455,17 +445,13 @@ Tel: +39 06 33 18 Suomi/Finland
 Pfizer Oy 
 Puh./Tel: +358 (0)9 43 00 K<br />
 Pfizer    . . (Cyprus Branch)<br />
- : +357 22 817 
-Sverige<br />
+ : +357 22 817Sverige<br />
 Pfizer AB 
-Tel: +46 (0)8 550 520<br />
-Latvija 
+Tel: +46 (0)8 550 520 Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel.: + 371 670 35<br />
-United Kingdom (Northern Ireland) 
+Tel.: + 371 670 35 United Kingdom (Northern Ireland) 
 Pfizer Limited 
-Tel: +44 (0) 1304 616 
-This leaflet was last revised in  </p>
+Tel: +44 (0) 1304 616This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

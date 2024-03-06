@@ -4,7 +4,7 @@ Instance: composition-en-8f194b3a85e80bebf07798b496672e52
 InstanceOf: CompositionUvEpi
 Title: "Composition for hbvaxpro Package Leaflet"
 Description:  "Composition for hbvaxpro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What HBVAXPRO 5 micrograms is and what it is used for
 2. What you need to know before you or your child receive HBVAXPRO 5 micrograms
 3. How HBVAXPRO 5 micrograms is given
 4. Possible side effects
 5. How to store HBVAXPRO 5 micrograms
-6. Contents of the pack and other information         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -320,5 +320,5 @@ information.
 - Keep this leaflet. You may need to read it again.
 - If you have any further questions, ask your doctor, pharmacist or nurse.
 - If you or your child get any side effects, talk to your doctor, pharmacist or nurse. This includes any
-possible side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

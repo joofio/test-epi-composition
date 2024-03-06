@@ -4,7 +4,7 @@ Instance: composition-en-6c112c3573c3c3963f8150233106c4e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for levemir Package Leaflet"
 Description:  "Composition for levemir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Levemir is and what it is used for 
-2. What you need to know before you use Levemir 
-3. How to use Levemir 
-4. Possible side effects 
-5. How to store Levemir 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Levemir is and what it is used for </li>
+<li>What you need to know before you use Levemir </li>
+<li>How to use Levemir </li>
+<li>Possible side effects </li>
+<li>How to store Levemir </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -91,14 +91,8 @@ Levemir provides up to 24 hours of basal insulin coverage. </p>         </div>""
 <p>If you are allergic to insulin detemir or any of the other ingredients in this medicine, see section 
 6, Contents of the pack and other information. </p>
 <p>If you suspect hypoglycaemia (low blood sugar) is starting, see a) Summary of serious and very 
-common side effects in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take levemir"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take levemir"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>In insulin infusion pumps. </p>
+common side effects in section 4. <br />
+In insulin infusion pumps. </p>
 <p>If the cartridge or the device containing the cartridge is dropped, damaged or crushed. </p>
 <p>If it has not been stored correctly or been frozen, see section 5, How to store Levemir. </p>
 <p>If the insulin does not appear water clear, colourless and aqueous. </p>
@@ -190,13 +184,12 @@ feeding. </p>
 and therefore also your ability to drive a car or operate a machine. Bear in mind that you could 
 endanger yourself or others. </p>
 <p>Important information about some of the ingredients in Levemir </p>
-<p>Levemir contains less than 1 mmol sodium (23 mg) per dose, i.e. Levemir is essentially  sodium-free . </p>         </div>"""         
-
-        
+<p>Levemir contains less than 1 mmol sodium (23 mg) per dose, i.e. Levemir is essentially  sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take levemir"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take levemir"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dose and when to take your insulin </p>
 <p>Always use your insulin and adjust your dose exactly as your doctor has told you. Check with your 
@@ -248,16 +241,123 @@ possible flow of blood into the needle or insulin reservoir. </p>
 needle attached. Otherwise the liquid may leak out which can cause inaccurate dosing. </p>
 <p>If you take more insulin than you should </p>
 <p>If you take too much insulin your blood sugar gets too low (hypoglycaemia). See a) Summary of 
-serious and very common side effects in section </p>         </div>"""      
+serious and very common side effects in section 4. If you forget to take your insulin </p>
+<p>If you forget to take your insulin your blood sugar may get too high (hyperglycaemia). See c) Effects 
+from diabetes in section 4. If you stop taking your insulin </p>
+<p>Do not stop taking your insulin without speaking with a doctor, who will tell you what needs to be 
+done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
+Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>a) 
+Summary of serious and very common side effects </p>
+<p>Low blood sugar (hypoglycaemia) is a very common side effect. It may affect more than 1 in people. </p>
+<p>Low blood sugar may occur if you: 
+* Inject too much insulin. 
+* Eat too little or miss a meal. 
+* Exercise more than usual. 
+* Drink alcohol (see section 2 Drinking alcohol and taking Levemir). </p>
+<p>Signs of low blood sugar: Cold sweat; cool pale skin; headache; rapid heartbeat; feeling sick; feeling 
+very hungry; temporary changes in vision; drowsiness; unusual tiredness and weakness; nervousness 
+or tremor; feeling anxious; feeling confused; difficulty in concentrating. </p>
+<p>Severe low blood sugar can lead to unconsciousness. If prolonged severe low blood sugar is not 
+treated, it can cause brain damage (temporary or permanent) and even death. You may recover more 
+quickly from unconsciousness with an injection of the hormone glucagon given by someone who 
+knows how to use it. If you are given glucagon you will need glucose or a sugar snack as soon as you 
+are conscious. If you do not respond to glucagon treatment, you will have to be treated in a hospital. </p>
+<p>What to do if you experience low blood sugar: </p>
+<p>If you experience low blood sugar, eat glucose tablets or another high sugar snack (e.g. sweets, 
+biscuits, fruit juice). Measure your blood sugar if possible and rest. Always carry glucose tablets 
+or high sugar snacks with you, just in case. </p>
+<p>When the symptoms of low blood sugar have disappeared or when your blood sugar level is 
+stabilised, continue insulin treatment as usual. </p>
+<p>If you have such low blood sugar that makes you pass out, if you have had the need for an 
+injection of glucagon, or if you have experienced many incidents of low blood sugar, talk to a 
+doctor. The amount or timing of insulin, food or exercise may need to be adjusted. </p>
+<p>Tell relevant people that you have diabetes and what the consequences may be, including the risk of 
+passing out (becoming unconscious) due to low blood sugar. Let them know that if you pass out, they 
+must turn you on your side and get medical help straight away. They must not give you any food or 
+drink because you may choke. </p>
+<p>Serious allergic reaction to Levemir or one of its ingredients (called a systemic allergic reaction) is a 
+very rare side effect but can potentially be life threatening. It may affect less than 1 in 10,000 people. </p>
+<p>Seek medical advice immediately: 
+* If signs of allergy spread to other parts of your body. 
+* If you suddenly feel unwell, and you: start sweating; start being sick (vomiting); have difficulty 
+in breathing; have a rapid heartbeat; feel dizzy. </p>
+<p>If you notice any of these signs, seek medical advice immediately. </p>
+<p>Skin changes at the injection site: If you inject insulin at the same place, the fatty tissue may shrink 
+(lipoatrophy) or thicken (lipohypertrophy) (may affect less than 1 in 100 people). Lumps under the 
+skin may also be caused by build-up of a protein called amyloid (cutaneous amyloidosis; how often 
+this occurs is not known). The insulin may not work very well if you inject into a lumpy, shrunken or 
+thickened area. Change the injection site with each injection to help prevent these skin changes.  </p>
+<p>b) 
+List of other side effects </p>
+<p>Uncommon side effects 
+May affect less than 1 in 100 people. </p>
+<p>Signs of allergy: Local allergic reactions (pain, redness, hives, inflammation, bruising, swelling and 
+itching) at the injection site may occur. These usually disappear after a few weeks of taking your 
+insulin. If they do not disappear, or if they spread throughout your body, talk to your doctor 
+immediately. See also Serious allergic reaction above. </p>
+<p>Vision problems: When you first start your insulin treatment, it may disturb your vision, but the 
+disturbance is usually temporary. </p>
+<p>Swollen joints: When you start taking insulin, water retention may cause swelling around your ankles 
+and other joints. Normally this soon disappears. If not, contact your doctor. </p>
+<p>Diabetic retinopathy (an eye disease related to diabetes which can lead to loss of vision): If you have 
+diabetic retinopathy and your blood sugar level improves very fast, the retinopathy may get worse. 
+Ask your doctor about this. </p>
+<p>Rare side effects 
+May affect less than 1 in 1,000 people. </p>
+<p>Painful neuropathy (pain due to nerve damage): If your blood sugar level improves very fast, you may 
+get nerve related pain, this is called acute painful neuropathy and is usually transient. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. 
+c) 
+Effects from diabetes </p>
+<p>High blood sugar (hyperglycaemia) </p>
+<p>High blood sugar may occur if you: 
+* Have not injected enough insulin. 
+* Forget to take your insulin or stop taking insulin. 
+* Repeatedly take less insulin than you need. 
+* Get an infection and/or a fever. 
+* Eat more than usual. 
+* Exercise less than usual. </p>
+<p>Warning signs of high blood sugar: 
+The warning signs appear gradually. They include: increased urination; feeling thirsty; losing your 
+appetite; feeling sick (nausea or vomiting); feeling drowsy or tired; flushed; dry skin; dry mouth and a 
+fruity (acetone) smell of the breath. </p>
+<p>What to do if you experience high blood sugar: </p>
+<p>If you get any of above signs: test your blood sugar level, test your urine for ketones if you can, 
+then seek medical advice immediately. </p>
+<p>These may be signs of a very serious condition called diabetic ketoacidosis (build-up of acid in 
+the blood because the body is breaking down fat instead of sugar). If you do not treat it, this 
+could lead to diabetic coma and eventually death. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store levemir"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store levemir"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take your insulin </p>
-<p>If you forget to take your insulin your blood sugar may get too high (hyperglycaemia). See c) Effects 
-from diabetes in section </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the cartridge label and carton after 
+ EXP . The expiry date refers to the last day of that month. 
+Always keep the cartridge in the outer carton when you are not using it in order to protect it from light. 
+Levemir must be protected from excessive heat and light. </p>
+<p>Before opening: Levemir Penfill that is not being used is to be stored in the refrigerator at 2 C to 8 C, 
+away from the cooling element. Do not freeze. </p>
+<p>During use or when carried as a spare: Levemir Penfill that is being used or carried as a spare 
+should not be kept in the refrigerator. You can carry it with you and keep it at room temperature 
+(below 30 C) for up to 6 weeks. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -265,8 +365,40 @@ from diabetes in section </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you stop taking your insulin </p>
-<p>Do not stop taking your insulin without speaking with a doctor, who will tell you what needs to be 
-done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
-Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Levemir contains </p>
+<ul>
+<li>The active substance is insulin detemir. Each ml contains 100 units of insulin detemir. Each 
+cartridge contains 300 units of insulin detemir in 3 ml solution for injection. 1 unit insulin 
+detemir corresponds to 1 international unit of human insulin. </li>
+<li>The other ingredients are glycerol, phenol, metacresol, zinc acetate, disodium phosphate 
+dihydrate, sodium chloride, hydrochloric acid, sodium hydroxide and water for injections. </li>
+</ul>
+<p>What Levemir looks like and contents of the pack </p>
+<p>Levemir is presented as a solution for injection. </p>
+<p>Pack sizes of 1, 5 and 10 cartridges of 3 ml. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder </p>
+<p>Novo Nordisk A/S, Novo All , DK-2880 Bagsv rd, Denmark </p>
+<p>Manufacturer </p>
+<p>The manufacturer can be identified by the batch number printed on the slip of the carton and on the 
+label: </p>
+<p>If the second and third characters are S6, P5, K7, R7, VG, FG or ZF, the manufacturer is Novo 
+Nordisk A/S, Novo All , DK-2880 Bagsv rd, Denmark. </p>
+<p>If the second and third characters are H7 or T6, the manufacturer is Novo Nordisk Production 
+SAS, 45 Avenue d Orl ans, F-28000 Chartres, France. </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. </p>
+<p>Package leaflet: Information for the user </p>
+<p>Levemir 100 units/ml solution for injection in pre-filled pen 
+insulin detemir </p>
+<p>Read all of this leaflet carefully before you start using this medicine because it contains 
+important information for you. 
+* Keep this leaflet. You may need to read it again. 
+* If you have any further questions, ask your doctor, nurse or pharmacist. 
+* This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. 
+* If you get any side effects, talk to your doctor, nurse or pharmacist. This includes any possible 
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-b4bc6381ffe8a433a405b4f88b0c023b
 InstanceOf: CompositionUvEpi
 Title: "Composition for nulojix Package Leaflet"
 Description:  "Composition for nulojix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What NULOJIX is and what it is used for 
 2. What you need to know before you use NULOJIX 
 3. How to use NULOJIX 
 4. Possible side effects 
 5. How to store NULOJIX 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,8 +99,8 @@ and can lead to death. People are at a higher risk of developing PTLD in the fol
 * If you have been given a therapy for treatment of acute rejection, such as antithymocyte 
 globulin to reduce T-cells. T-cells are cells responsible for maintaining your body's ability to 
 resist disease and infections. They may cause rejection of your transplanted kidney. 
-* If you are not sure about any of these conditions, ask you doctor. </p>
-<p>Serious infections </p>
+* If you are not sure about any of these conditions, ask you doctor. 
+Serious infections </p>
 <p>Serious infections can happen with NULOJIX treatment and can lead to death. </p>
 <p>NULOJIX weakens the body s ability to fight infections. Serious infections can include 
 * Tuberculosis 

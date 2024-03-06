@@ -4,7 +4,7 @@ Instance: composition-en-bfce752a769c6bdf68d02de41c720db5
 InstanceOf: CompositionUvEpi
 Title: "Composition for envarsus Package Leaflet"
 Description:  "Composition for envarsus Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Envarsus is and what it is used for 
-2. What you need to know before you take Envarsus 
-3. How to take Envarsus 
-4. Possible side effects 
-5. How to store Envarsus 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Envarsus is and what it is used for </li>
+<li>What you need to know before you take Envarsus </li>
+<li>How to take Envarsus </li>
+<li>Possible side effects </li>
+<li>How to store Envarsus </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -196,8 +196,8 @@ thrombocytopenic purpura, and haemolytic uraemic syndrome may increase (see sect
 certain diuretics used for heart failure, hypertension and kidney disease (e.g., amiloride, triamterene, 
 or spironolactone), or the antibiotics trimethoprim or cotrimoxazole that may increase levels of 
 potassium in your blood, nonsteroidal anti-inflammatory substances (NSAIDs, e.g., ibuprofen) used 
-for fever, inflammation and pain, anticoagulants (blood thinners), or oral medicines for diabetes. </p>
-<p>If you need to have any vaccinations, please tell your doctor before. </p>
+for fever, inflammation and pain, anticoagulants (blood thinners), or oral medicines for diabetes. 
+If you need to have any vaccinations, please tell your doctor before. </p>
 <p>Envarsus with food and drink 
 Avoid grapefruit (also as juice) while on treatment with Envarsus, since it can affect its levels in the 
 blood. </p>
@@ -421,11 +421,13 @@ blood, weight loss </li>
 <li>Problems with blood flow in the liver </li>
 <li>Serious illness with blistering of skin, mouth, eyes and genitals;  </li>
 <li>Increased hairiness </li>
-<li>Thirst, fall, feeling of tightness in your chest, decreased mobility, ulcer </li>
-</ul>
-<p>Very rare side effects (may affect up to 1 in 10 000 people):</p>
-<ul>
-<li>Muscular weakness </li>
+<li>
+<p>Thirst, fall, feeling of tightness in your chest, decreased mobility, ulcer 
+Very rare side effects (may affect up to 1 in 10 000 people):</p>
+</li>
+<li>
+<p>Muscular weakness </p>
+</li>
 <li>Impaired hearing </li>
 <li>Abnormal heart scan </li>
 <li>Liver failure </li>
@@ -468,6 +470,99 @@ Each prolonged-release tablet contains 1.0 mg tacrolimus (as monohydrate). </p>
 Each prolonged-release tablet contains 4.0 mg tacrolimus (as monohydrate). </p>
 <ul>
 <li>The other excipients are hypromellose, lactose monohydrate, macrogol 6000, poloxamer 188, 
-magnesium stearate, tartaric acid (E334), butylated hydroxytoluene (E321), dimethicone 35</li>
-</ul>         </div>"""      
+magnesium stearate, tartaric acid (E334), butylated hydroxytoluene (E321), dimethicone 350. What Envarsus looks like and contents of the pack 
+Envarsus 0.75 mg prolonged-release tablets are oval, white to off-white uncoated tablet, debossed with 
+ 0.75  on one side and  TCS  on the other side. 
+Envarsus 1 mg prolonged-release tablets are oval, white to off-white uncoated tablet, debossed with  1<br />
+on one side and  TCS  on the other side<br />
+Envarsus 4 mg prolonged-release tablets are oval, white to off-white uncoated tablet, debossed with  4<br />
+on one side and  TCS  on the other side. </li>
+</ul>
+<p>Envarsus is supplied in PVC/alu blisters containing 10 tablets. 3 blisters are packed together within a 
+protective aluminium foil wrapper, including a desiccant. Packs of 30, 60 and 90 prolonged-release 
+tablets are available. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo, 26/A 
+43122 Parma 
+Italy </p>
+<p>Manufacturer 
+Rottendorf Pharma GmbH 
+Ostenfelder Stra e 51 - 59320 Ennigerloh 
+Germany 
+or 
+Chiesi Farmaceutici S.p.A. 
+Via San Leonardo 43122 Parma 
+Italy 
+or 
+Chiesi Pharmaceuticals GmbH 
+Gonzagagasse 16/1010 Wien 
+Austria </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Chiesi sa/nv 
+T l/Tel: +32 (0)2 788 42 Lietuva 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +43 1 4073<br />
+Chiesi Bulgaria EOOD<br />
+Te .: +359 29201Luxembourg/Luxemburg 
+Chiesi sa/nv 
+T l/Tel: +32 (0)2 788 42  esk  republika 
+Chiesi CZ s.r.o. 
+Tel: +420 261221Magyarorsz g 
+Chiesi Hungary Kft. 
+Tel.: +36-1-429 1Danmark 
+Chiesi Pharma AB 
+Tlf: +46 8 753 35 Malta 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2Deutschland 
+Chiesi GmbH 
+Tel: +49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V. 
+Tel: +31 0 88 5016Eesti 
+Chiesi Pharmaceuticals GmbH 
+Tel: +43 1 4073Norge 
+Chiesi Pharma AB 
+Tlf: +46 8 753 35 <br />
+Chiesi Hellas AEBE 
+ : +30 210 6179 sterreich 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +43 1 4073Espa a 
+Chiesi Espa a, S.A.U. 
+Tel: +34 93 494 8Polska 
+Chiesi Poland Sp. z.o.o. 
+Tel.: +48 22 620 1France 
+Chiesi S.A.S<br />
+T l: +33 1 47688Portugal 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2Hrvatska 
+Chiesi Pharmaceuticals GmbH 
+Tel: +43 1 4073Rom nia 
+Chiesi Romania S.R.L. 
+Tel: +40 212023Ireland 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2Slovenija 
+CHIESI SLOVENIJA, d.o.o. 
+Tel: +386-1-43 00  sland 
+Chiesi Pharma AB 
+Tlf: +46 8 753 35 Slovensk  republika 
+Chiesi Slovakia s.r.o. 
+Tel: +421 259300Italia 
+Chiesi Italia S.p.A. 
+Tel: +39 0521 2Suomi/Finland 
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35 <br />
+Chiesi Farmaceutici S.p.A. 
+ : +39 0521 2Sverige 
+Chiesi Pharma AB 
+Tlf: +46 8 753 35 Latvija 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +43 1 4073United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: +39 0521 2This leaflet was last revised in. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

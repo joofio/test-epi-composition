@@ -4,7 +4,7 @@ Instance: composition-en-26b20b6a67265be2cf1102bb12c87943
 InstanceOf: CompositionUvEpi
 Title: "Composition for matever Package Leaflet"
 Description:  "Composition for matever Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Matever is and what it is used for 
 2. What you need to know before you take Matever 
 3. How to take Matever 
 4. Possible side effects 
 5. How to store Matever 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -386,80 +385,61 @@ Marketing Authorisation Holder. </p>
 Pharmathen S.A. 
 T l/Tel: +30 210 66 04 Lietuva 
 SIA ELVIM 
-Tel: +371 67808 </p>
-<p>Pharmathen S.A. 
-Te .: +30 210 66 04<br />
-Luxembourg/Luxemburg 
+Tel: +371 67808<br />
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
- esk  republika 
+Te .: +30 210 66 04 Luxembourg/Luxemburg 
+Pharmathen S.A. 
+Tel: +30 210 66 04  esk  republika 
 ARDEZ Pharma, spol. s r.o. 
-Tel.: +420 220 400<br />
-Magyarorsz g<br />
+Tel.: +420 220 400 Magyarorsz g<br />
 Pharmathen S.A. 
-Tel.: +30 210 66 04<br />
-Danmark 
+Tel.: +30 210 66 04 Danmark 
 Pharmathen S.A. 
-Tel.: +30 210 66 04<br />
-Malta 
+Tel.: +30 210 66 04 Malta 
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
-Deutschland 
+Tel: +30 210 66 04 Deutschland 
 Pharmathen S.A. 
 Tel.: +30 210 66 04 Nederland 
 Pharmathen S.A. 
-Tel: +30 210 66 04 300  </p>
-<p>Eesti (Estonia) 
+Tel: +30 210 66 04 Eesti (Estonia) 
 SIA ELVIM 
-Tel: +371 67808 
-Norge 
+Tel: +371 67808Norge 
 Pharmathen S.A. 
-Tlf: +30 210 66 04  </p>
-<p>INNOVIS PHARMA <br />
+Tlf: +30 210 66 04 <br />
+INNOVIS PHARMA <br />
  : +30 210 66 64 805- sterreich<br />
 Pharmathen S.A. 
-Tel: +30 210 66 04  </p>
-<p>Espa a 
+Tel: +30 210 66 04 Espa a 
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
-Polska 
+Tel: +30 210 66 04 Polska 
 Pharmathen S.A. 
-Tel.: +30 210 66 04<br />
-France 
+Tel.: +30 210 66 04 France 
 Pharmathen S.A. 
-T l: +30 210 66 04<br />
-Hrvatska 
+T l: +30 210 66 04 Hrvatska 
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
-Portugal 
+Tel: +30 210 66 04 Portugal 
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
-Rom nia 
+Tel: +30 210 66 04 Rom nia 
 Pharmathen S.A. 
 Tel: +30 210 66 04 Ireland 
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
-Slovenija 
+Tel: +30 210 66 04 Slovenija 
 Pharmathen S.A. 
 Tel: +30 210 66 04  sland 
 Alvogen ehf. 
-Tel: +354 522 2 
-Slovensk  republika<br />
+Tel: +354 522 2Slovensk  republika<br />
 ARDEZ Pharma, spol. s r.o. 
 Tel: +420 220 400 Italia 
 Ecupharma S.r.l 
-Tel : +39-02-38238 
-Suomi/Finland 
+Tel : +39-02-38238Suomi/Finland 
 Ailon Pharma Oy 
 Puh/Tel: +358 407024<br />
 The Star Medicines Importers Co. Ltd 
  : +357 25371Sverige<br />
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
-Latvija<br />
+Tel: +30 210 66 04 Latvija<br />
 SIA ELVIM 
-Tel: +371 67808 
-United Kingdom (Northern Ireland) 
+Tel: +371 67808United Kingdom (Northern Ireland) 
 Pharmathen S.A. 
 Tel: +30 210 66 04 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

@@ -4,7 +4,7 @@ Instance: composition-en-5b51c0d839da71000ee4c963dc89729f
 InstanceOf: CompositionUvEpi
 Title: "Composition for enhertu Package Leaflet"
 Description:  "Composition for enhertu Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Enhertu is and what it is used for 
-2. What you need to know before you are given Enhertu 
-3. How you are given Enhertu 
-4. Possible side effects 
-5. How to store Enhertu 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Enhertu is and what it is used for </li>
+<li>What you need to know before you are given Enhertu </li>
+<li>How you are given Enhertu </li>
+<li>Possible side effects </li>
+<li>How to store Enhertu </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -209,8 +209,8 @@ on your side effects. </li>
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Tell your 
-doctor if you get any side effects, including those not listed in this leaflet. </p>
-<p>Speak with your doctor immediately if you notice any of the following symptoms. They may be 
+doctor if you get any side effects, including those not listed in this leaflet. 
+Speak with your doctor immediately if you notice any of the following symptoms. They may be 
 signs of a serious, possibly fatal, condition. Getting medical treatment right away may help keep these 
 problems from becoming more serious. </p>
 <p>Very common (may affect more than 1 in 10 people) 
@@ -299,6 +299,89 @@ One vial of powder for concentrate for solution for infusion contains 100 mg of 
 deruxtecan. After reconstitution, one vial of 5 mL solution contains 20 mg/mL of trastuzumab 
 deruxtecan. </li>
 <li>The other ingredients are L-histidine, L-histidine hydrochloride monohydrate, sucrose, 
-polysorbate 8</li>
-</ul>         </div>"""      
+polysorbate 80. What Enhertu looks like and contents of the pack </li>
+</ul>
+<p>Enhertu is a white to yellowish-white lyophilised powder supplied in a clear amber vial with a rubber 
+stopper, aluminium seal and plastic flip-off cap. 
+Each carton contains 1 vial. </p>
+<p>Marketing Authorisation Holder 
+Daiichi Sankyo Europe GmbH 
+Zielstattstrasse 81379 Munich 
+Germany </p>
+<p>Manufacturer 
+Daiichi Sankyo Europe GmbH 
+Luitpoldstrasse 1 
+85276 Pfaffenhofen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: 
+Belgi /Belgique/Belgien 
+Daiichi Sankyo Belgium N.V.-S.A 
+T l/Tel: +32-(0) 2 227 18 Lietuva 
+UAB AstraZeneca Lietuva 
+Tel: +370 5 2660  </p>
+<p>.: +359 24455Luxembourg/Luxemburg 
+Daiichi Sankyo Belgium N.V.-S.A 
+T l/Tel: +32-(0) 2 227 18  esk  republika 
+AstraZeneca Czech Republic s.r.o. 
+Tel: +420 222 807 Magyarorsz g 
+AstraZeneca Kft. 
+Tel.: +36 1 883 6Danmark 
+Daiichi Sankyo Nordics ApS 
+Tlf: +45 (0) 33 68 19 Malta 
+Daiichi Sankyo Europe GmbH 
+Tel: +49-(0) 89 7808 0 </p>
+<p>Deutschland 
+Daiichi Sankyo Deutschland GmbH 
+Tel: +49-(0) 89 7808 0 </p>
+<p>Nederland 
+Daiichi Sankyo Nederland B.V. 
+Tel: +31-(0) 20 4 07 20 Eesti 
+AstraZeneca 
+Tel: +372 6549 Norge 
+Daiichi Sankyo Nordics ApS 
+Tlf: +47 (0) 21 09 38 <br />
+AstraZeneca A.E. 
+ : +30 210 6871 sterreich 
+Daiichi Sankyo Austria GmbH 
+Tel: +43 (0) 1 485 86 42 0 </p>
+<p>Espa a 
+Daiichi Sankyo Espa a, S.A. 
+Tel: +34 91 539 99 Polska 
+AstraZeneca Pharma Poland Sp. z o.o. 
+Tel: +48 22 245 73 France 
+Daiichi Sankyo France S.A.S. 
+T l: +33 (0) 1 55 62 14 Portugal 
+Daiichi Sankyo Portugal, Unip. LDA 
+Tel: +351 21 4232Hrvatska 
+AstraZeneca d.o.o. 
+Tel: +385 1 4628 Rom nia 
+AstraZeneca Pharma SRL 
+Tel: +40 21 317 60 Ireland 
+Daiichi Sankyo Ireland Ltd 
+Tel: +353-(0) 1 489 3Slovenija 
+AstraZeneca UK Limited 
+Tel: +386 1 51 35  sland 
+Daiichi Sankyo Nordics ApS 
+S mi: +354 5357Slovensk  republika 
+AstraZeneca AB, o.z. 
+Tel: +421 2 5737 7Italia 
+Daiichi Sankyo Italia S.p.A. 
+Tel: +39-06 85 2Suomi/Finland 
+Daiichi Sankyo Nordics ApS 
+Puh/Tel: +358 (0) 9 3540 7  </p>
+<p>: +357 22490Sverige 
+Daiichi Sankyo Nordics ApS 
+Tel: +46 (0) 40 699 2Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377United Kingdom (Northern Ireland) 
+Daiichi Sankyo Europe GmbH 
+Tel: +49 (0) 89 7808 0 </p>
+<p>This leaflet was last revised in {MM/YYYY} </p>
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
+about this medicine. 
+The European Medicines Agency will review new information on this medicine at least every year and 
+this leaflet will be updated as necessary. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

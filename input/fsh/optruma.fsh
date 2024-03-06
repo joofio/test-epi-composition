@@ -4,7 +4,7 @@ Instance: composition-en-3fb39d4138ab0b1b436f7dc265a1c128
 InstanceOf: CompositionUvEpi
 Title: "Composition for optruma Package Leaflet"
 Description:  "Composition for optruma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Optruma is and what it is used for 
 2. What you need to know before you take Optruma 
 3. How to take Optruma 
 4. Possible side effects 
 5. How to store Optruma 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -148,8 +147,8 @@ Optruma has no or negligible effects on driving or using machines. </p>         
 pharmacist if you are not sure. </p>
 <p>The dose is one tablet a day. It does not matter what time of day you take your tablet but taking the 
 tablet at the same time each day will help you remember to take it. You may take it with or without 
-food. </p>
-<p>The tablets are for oral use. 
+food. 
+The tablets are for oral use. 
 Swallow the tablet whole. If you wish you may take a glass of water with it. Do not break or crush the 
 tablet before taking it. A broken or crushed tablet may taste bad and there is a possibility that you will 
 receive an incorrect dose. </p>
@@ -246,8 +245,7 @@ Tel. +370 (5) 2649<br />
   "     "  . . - <br />
  . + 359 2 491 41 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-T l/Tel: + 32-(0)2 548 84 84<br />
- esk  republika 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
 ELI LILLY  R, s.r.o. 
 Tel: + 420 234 664 Magyarorsz g 
 Lilly Hung ria Kft. 
@@ -300,8 +298,7 @@ Tel: + 46-(0) 8 7378Latvija
 Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 
-This leaflet was last revised in month YYYY. </p>
+Tel: + 353-(0) 1 661 4This leaflet was last revised in month YYYY. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency (EMA) web 
 site: http://www.ema.europa.eu </p>         </div>"""      
 

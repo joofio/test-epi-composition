@@ -4,7 +4,7 @@ Instance: composition-en-b7b07dd0d126d4ea375a8a380bc3e7b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for mepsevii Package Leaflet"
 Description:  "Composition for mepsevii Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Mepsevii is and what it is used for  
-2. What you need to know before you are given Mepsevii  
-3. How Mepsevii is given 
-4. Possible side effects  
-5. How to store Mepsevii  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Mepsevii is and what it is used for  </li>
+<li>What you need to know before you are given Mepsevii  </li>
+<li>How Mepsevii is given </li>
+<li>Possible side effects  </li>
+<li>How to store Mepsevii  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -199,8 +199,8 @@ By reporting side effects you can help provide more information on the safety of
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store mepsevii"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
 date refers to the last day of that month. </p>
 <p>Unopened vials:</p>
 <ul>
@@ -235,8 +235,7 @@ Rahel-Hirsch-Str. 10557 Berlin
 Germany </p>
 <p>Manufacturer 
 Ultragenyx Netherlands B. V. 
-Evert van de Beekstraat 1, Unit 104<br />
-1118 CL Schiphol 
+Evert van de Beekstraat 1, Unit 1118 CL Schiphol 
 The Netherlands </p>
 <p>Millmount Healthcare Ltd. 
 Block-7, City North Business Campus 
@@ -247,8 +246,7 @@ Authorisation Holder: </p>
 <p>BE, BG, CZ, DK, DE, EE, IE, EL, ES, HR, IT, CY, LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, 
 SI, SK, FI, SE, UK(NI) 
 Ultragenyx Germany GmbH, DE 
-Tel/T l/Te ./Tlf/ /Puh/S mi : + 49 30 20179810  </p>
-<p>FR 
+Tel/T l/Te ./Tlf/ /Puh/S mi : + 49 30 20179FR 
 Ultragenyx France SAS, FR 
 T l: + 33 185 653761 ou 0800 91 79 24 (num ro vert)  </p>
 <p>This leaflet was last revised in  </p>

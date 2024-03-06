@@ -4,7 +4,7 @@ Instance: composition-en-d70366d9de20b85af1c498f11302a348
 InstanceOf: CompositionUvEpi
 Title: "Composition for efmody Package Leaflet"
 Description:  "Composition for efmody Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Efmody is and what it is used for  
-2. What you need to know before you take Efmody 
-3. How to take Efmody  
-4. Possible side effects  
-5. How to store Efmody  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Efmody is and what it is used for  </li>
+<li>What you need to know before you take Efmody </li>
+<li>How to take Efmody  </li>
+<li>Possible side effects  </li>
+<li>How to store Efmody  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -349,9 +349,7 @@ The Netherlands </p>
 <p>Manufacturer 
 Delpharm Lille SAS<br />
 Parc d'Activit s Roubaix-Est<br />
-22 rue de Toufflers CS 50070<br />
-Lys Lez Lannoy, 59 452<br />
-France  </p>
+22 rue de Toufflers CS 50Lys Lez Lannoy, 59 France  </p>
 <p>Wasdell Europe Limited 
 IDA Dundalk Science and Technology Park 
 Mullagharlin 

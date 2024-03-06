@@ -4,7 +4,7 @@ Instance: composition-en-bb91b33a725934383f978ba47cb95161
 InstanceOf: CompositionUvEpi
 Title: "Composition for tegsedi Package Leaflet"
 Description:  "Composition for tegsedi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tegsedi is and what it is used for  
-2. What you need to know before you use Tegsedi  
-3. How to use Tegsedi 
-4. Possible side effects  
-5. How to store Tegsedi  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tegsedi is and what it is used for  </li>
+<li>What you need to know before you use Tegsedi  </li>
+<li>How to use Tegsedi </li>
+<li>Possible side effects  </li>
+<li>How to store Tegsedi  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,8 +99,8 @@ kidney function, vitamin A and protein levels in your urine. You may also be tes
 negative pregnancy result.  Unless explicitly advised by your doctor, you will only be treated with 
 Tegsedi if these results are all at acceptable levels and your pregnancy result is negative.  Your doctor 
 will repeat these checks regularly during treatment. It is important that you have these regular blood 
-and urine tests for as long as you are taking Tegsedi. </p>
-<p>Thrombocytopenia </p>
+and urine tests for as long as you are taking Tegsedi. 
+Thrombocytopenia </p>
 <p>Tegsedi may reduce cells in the blood responsible for clotting of the blood (platelets), which may 
 result in a condition called thrombocytopenia at any time during treatment with Tegsedi (see section 
 4). When you do not have enough platelets, like in thrombocytopenia, your blood may not clot quickly 
@@ -142,8 +142,8 @@ Tegsedi and should practise effective contraception (see section  Pregnancy and 
 below). </p>
 <p>If you are planning to become pregnant you should stop taking inotersen including vitamin A 
 supplementation and ensure that your vitamin A levels have returned to normal before conception is 
-attempted.  </p>
-<p>If you have an unplanned pregnancy you should stop taking inotersen. Due to the prolonged activity of 
+attempted.<br />
+If you have an unplanned pregnancy you should stop taking inotersen. Due to the prolonged activity of 
 Tegsedi, however, your reduced vitamin A levels may persist. It is unknown if continuation of your 
 vitamin A supplementation with 3 000 IU per day will be harmful to your unborn child in the first 
 trimester of your pregnancy, but this dose should not be exceeded. You should resume the vitamin A 
@@ -284,8 +284,8 @@ Do not inject into tattoos,
 scars or damaged skin. 
 Do not inject through 
 clothing. 
-5. Clean the injection site </p>
-<p>Wash your hands with soap and 
+5. Clean the injection site 
+Wash your hands with soap and 
 water. 
 Clean the injection site with an 
 alcohol wipe in a circular motion. 
@@ -330,8 +330,8 @@ until it is fully inserted.
 Do not hold the pre-filled syringe by 
 the plunger or push against the 
 plunger to insert the needle. 
-8. Start the injection </p>
-<p>Slowly and firmly push the plunger 
+8. Start the injection 
+Slowly and firmly push the plunger 
 all the way down until the medicine 
 is injected. Make sure the needle 
 stays fully inserted in the injection 

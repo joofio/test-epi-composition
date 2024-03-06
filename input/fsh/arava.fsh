@@ -4,7 +4,7 @@ Instance: composition-en-fa8a8470c3a3a250549a317d0f9b36a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for arava Package Leaflet"
 Description:  "Composition for arava Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Arava is and what it is used for 
 2. What you need to know before you take Arava 
 3. How to take Arava 
 4. Possible side effects 
 5. How to store Arava 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -220,20 +219,15 @@ dose. Do not take a double dose to make up for a forgotten dose. </p>
 <ul>
 <li>if you experience weakness, feel light-headed or dizzy or have difficulty breathing, as these 
 may be signs of a serious allergic reaction, </li>
-<li>if you develop a skin rash or ulcers in your mouth, as these may indicate severe, sometimes 
+<li>
+<p>if you develop a skin rash or ulcers in your mouth, as these may indicate severe, sometimes 
 life-threatening reactions (e.g. Stevens-Johnson syndrome, toxic epidermal necrolysis, erythema 
-multiforme, Drug Reaction with Eosinophilia and Systemic Symptoms [DRESS]), see section </li>
-</ul>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store arava"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store arava"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor immediately if you experience:</p>
-<ul>
-<li>pale skin, tiredness, or bruising, as these may indicate blood disorders caused by an imbalance 
-in the different types of blood cells which make up blood, </li>
+multiforme, Drug Reaction with Eosinophilia and Systemic Symptoms [DRESS]), see section 2. Tell your doctor immediately if you experience:</p>
+</li>
+<li>
+<p>pale skin, tiredness, or bruising, as these may indicate blood disorders caused by an imbalance 
+in the different types of blood cells which make up blood, </p>
+</li>
 <li>tiredness, abdominal pain, or jaundice (yellow discolouration of the eyes or skin), as these 
 may indicate serious conditions such as liver failure, which may be fatal, </li>
 <li>any symptoms of an infection such as fever, sore throat or cough, as this medicine may 
@@ -302,11 +296,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store arava"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store arava"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the packaging. The expiry date refers 
@@ -317,4 +310,99 @@ Store in the original package. </p>
 Keep the bottle tightly closed.   </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Arava contains 
+- The active substance is leflunomide. One film-coated tablet contains 10 mg of leflunomide. 
+- The other ingredients are: maize starch, povidone (E1201), crospovidone (E1202), silica 
+colloidal anhydrous, magnesium stearate (E470b), and lactose monohydrate in the tablet core, as well 
+as talc (E553b), hypromellose (E464), titanium dioxide (E171), and macrogol 8000 in the film-
+coating. </p>
+<p>What Arava looks like and contents of the pack 
+Arava 10 mg film-coated tablets are white to almost white and round. 
+Imprint on one side: ZBN. </p>
+<p>The tablets are packed in blisters or bottles. 
+Packs of 30 and 100 tablets are available. </p>
+<p>Not all pack size may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Sanofi-Aventis Deutschland GmbH 
+D-65926 Frankfurt am Main 
+Germany </p>
+<p>Manufacturer<br />
+Opella Healthcare International SAS 
+56, Route de Choisy 
+60200 Compi gne 
+France </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Sanofi Belgium 
+T l/Tel: +32 (0)2 710 54 Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91 <br />
+Swixx Biopharma  EOOD 
+ .: +359 (0)2 4942 Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
+sanofi-aventis, s.r.o. 
+Tel: +420 233 086 Magyarorsz g 
+SANOFI-AVENTIS Zrt. 
+Tel.: +36 1 505 0Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70 Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21 Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Eesti 
+Swixx Biopharma O<br />
+Tel: +372 640 10 Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71 <br />
+Sanofi-Aventis   AEBE 
+ : +30 210 900 16  sterreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
+sanofi-aventis, S.A.<br />
+Tel: +34 93 485 94 Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00 France 
+Sanofi Winthrop Industrie 
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23 Portugal 
+Sanofi - Produtos Farmac uticos, Lda 
+Tel: +351 21 35 89 Hrvatska<br />
+Swixx Biopharma d.o.o.<br />
+Tel: +385 1 2078 Rom nia 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31 Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56 Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 235 51  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 Italia 
+Sanofi S.r.l. 
+Tel: 800 536Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200 <br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50 Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2This leaflet was last revised in {MM/YYYY} </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

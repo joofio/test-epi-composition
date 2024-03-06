@@ -4,7 +4,7 @@ Instance: composition-en-9889706f10caf682c405b7ee9acf1a34
 InstanceOf: CompositionUvEpi
 Title: "Composition for seffalair Package Leaflet"
 Description:  "Composition for seffalair Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Seffalair Spiromax is and what it is used for  
-2. What you need to know before you use Seffalair Spiromax  
-3. How to use Seffalair Spiromax  
-4. Possible side effects  
-5. How to store Seffalair Spiromax 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Seffalair Spiromax is and what it is used for  </li>
+<li>What you need to know before you use Seffalair Spiromax  </li>
+<li>How to use Seffalair Spiromax  </li>
+<li>Possible side effects  </li>
+<li>How to store Seffalair Spiromax </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -383,87 +383,67 @@ Mogilska 80 Str. 31-546 Krak w, Poland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG<br />
-Tel/T l: +32 3 820 73<br />
-Lietuva 
+Tel/T l: +32 3 820 73 Lietuva 
 UAB Teva Baltics 
-Tel: +370 5 266 02  </p>
-<p>Te : +359 2 489 95<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 266 02   </p>
+<p>Te : +359 2 489 95 Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG<br />
-Tel/T l: +32 3 820 73<br />
- esk  republika 
+Tel/T l: +32 3 820 73  esk  republika 
 Teva Pharmaceuticals CR, s.r.o.<br />
-Tel: +420 251 007<br />
-Magyarorsz g 
+Tel: +420 251 007 Magyarorsz g 
 Teva Gy gyszergy r Zrt<br />
-Tel.: +36 1 288 64<br />
-Danmark 
+Tel.: +36 1 288 64 Danmark 
 Teva Denmark A/S<br />
-Tlf: +45 44 98 55<br />
-Malta 
+Tlf: +45 44 98 55 Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
-Tel: +44 207 540 7 
-Deutschland 
+Tel: +44 207 540 7Deutschland 
 Teva GmbH 
-Tel: +49 731 402<br />
-Nederland 
+Tel: +49 731 402 Nederland 
 Teva Nederland B.V. 
-Tel: +31 800 0228<br />
-Eesti 
+Tel: +31 800 0228 Eesti 
 UAB Teva Baltics Eesti filiaal 
 Tel: +372 661 0Norge 
 Teva Norway AS<br />
-Tlf: +47 6677 55  </p>
-<p>Specifar A.B.E.E. 
- : +30 211 880 5 
- sterreich 
+Tlf: +47 6677 55 <br />
+Specifar A.B.E.E. 
+ : +30 211 880 5 sterreich 
 ratiopharm Arzneimittel Vertriebs GmbH 
 Tel: +43 1 97007 0 </p>
 <p>Espa a 
 Teva Pharma S.L.U.<br />
-T l: +34 91 387 32<br />
-Polska 
+T l: +34 91 387 32 Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
 Tel.: +48 22 345 93 France 
 Teva Sant<br />
 T l: +33 1 55 91 7Portugal<br />
 Teva Pharma - Produtos Farmac uticos Lda 
-Tel: +351 21 476 75<br />
-Hrvatska 
+Tel: +351 21 476 75 Hrvatska 
 Pliva Hrvatska d.o.o 
-Tel: + 385 1 37 20<br />
-Rom nia 
+Tel: + 385 1 37 20 Rom nia 
 Teva Pharmaceuticals S.R.L 
 Tel: +4021 230 6Ireland 
 Teva Pharmaceuticals Ireland 
 Tel: +44 207 540 7Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 1 58 90  </p>
-<p>sland 
+Tel: +386 1 58 90  sland 
 Teva Pharma Iceland ehf 
-Simi: +354 550 3 
-Slovensk  republika 
+Simi: +354 550 3Slovensk  republika 
 Teva Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 2 5726 7 
-Italia 
+Tel: +421 2 5726 7Italia 
 Teva Italia S.r.l. 
 Tel: +39 028 917 Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 20 180 5 </p>
-<p>Specifar A.B.E.E. </p>
-<p>: +30 211 880 5 
-Sverige 
+Puh/Tel: +358 20 180 5<br />
+Specifar A.B.E.E. </p>
+<p>: +30 211 880 5Sverige 
 Teva Sweden AB 
-Tel: +46 42 12 11<br />
-Latvija 
+Tel: +46 42 12 11 Latvija 
 Teva Baltics fili le Latvij <br />
-Tel: +371 673 23<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 673 23 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 
-Tel: + 44 207 540 7 </p>
-<p>This leaflet was last revised in. </p>
+Tel: + 44 207 540 7This leaflet was last revised in. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

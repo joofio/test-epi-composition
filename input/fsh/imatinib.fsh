@@ -4,7 +4,7 @@ Instance: composition-en-47a63fc97978537204b7a7371de13662
 InstanceOf: CompositionUvEpi
 Title: "Composition for imatinib Package Leaflet"
 Description:  "Composition for imatinib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Imatinib Accord is and what it is used for 
-2. What you need to know before you take Imatinib Accord 
-3. How to take Imatinib Accord 
-4. Possible side effects 
-5. How to store Imatinib Accord 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Imatinib Accord is and what it is used for </li>
+<li>What you need to know before you take Imatinib Accord </li>
+<li>How to take Imatinib Accord </li>
+<li>Possible side effects </li>
+<li>How to store Imatinib Accord </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -230,8 +230,8 @@ dissolved tablets may be left behind in the glass. </p>
 <p>Keep taking Imatinib Accord every day for as long as your doctor tells you. </p>
 <p>If you take more Imatinib Accord than you should </p>
 <p>If you have accidentally taken too many tablets, talk to your doctor straight away. You may require 
-medical attention. Take the medicine pack with you. </p>
-<p>If you forget to take Imatinib Accord </p>
+medical attention. Take the medicine pack with you. 
+If you forget to take Imatinib Accord </p>
 <ul>
 <li>If you forget a dose, take it as soon as you remember. However if it is nearly time for the next 
 dose, skip the missed dose. </li>

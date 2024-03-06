@@ -4,7 +4,7 @@ Instance: composition-en-d585d8fe14b9492a241ac7bacfd89f6d
 InstanceOf: CompositionUvEpi
 Title: "Composition for opdivo Package Leaflet"
 Description:  "Composition for opdivo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What OPDIVO is and what it is used for 
-2. What you need to know before you use OPDIVO 
-3. How to use OPDIVO 
-4. Possible side effects 
-5. How to store OPDIVO 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What OPDIVO is and what it is used for </li>
+<li>What you need to know before you use OPDIVO </li>
+<li>How to use OPDIVO </li>
+<li>Possible side effects </li>
+<li>How to store OPDIVO </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -155,8 +155,8 @@ not try to treat your symptoms with other medicines on your own. Your doctor may
 * or stop your treatment with OPDIVO altogether. 
 Please note that these signs and symptoms are sometimes delayed, and may develop weeks or months 
 after your last dose. Before treatment, your doctor will check your general health. You will also have 
-blood tests during your treatment. </p>
-<p>Check with your doctor or nurse before you are given OPDIVO if: 
+blood tests during your treatment. 
+Check with your doctor or nurse before you are given OPDIVO if: 
 * you have an autoimmune disease (a condition where the body attacks its own cells); 
 * you have melanoma of the eye; 
 * you were previously given ipilimumab, another medicine for treating melanoma, and 
@@ -292,8 +292,8 @@ appointment, ask your doctor when to schedule your next dose. </p>
 <p>If you stop using OPDIVO 
 Stopping your treatment may stop the effect of the medicine. Do not stop treatment with OPDIVO 
 unless you have discussed this with your doctor. </p>
-<p>If you have any further questions about your treatment or on the use of this medicine, ask your doctor. </p>
-<p>When OPDIVO is given in combination with other anti-cancer medicines, you will first be given 
+<p>If you have any further questions about your treatment or on the use of this medicine, ask your doctor. 
+When OPDIVO is given in combination with other anti-cancer medicines, you will first be given 
 OPDIVO followed by the other medicine. </p>
 <p>Please refer to the package leaflet of these other medicines in order to understand the use of these 
 medicines. If you have questions about them, please ask your doctor. </p>         </div>"""         
@@ -556,8 +556,8 @@ hydrochloric acid and water for injections. </li>
 OPDIVO concentrate for solution for infusion (sterile concentrate) is a clear to opalescent, colourless 
 to pale yellow liquid that may contain few light particles. </p>
 <p>It is available in packs containing either 1 vial of 4 mL, 1 vial of 10 mL, 1 vial of 12 mL or 1 vial 
-of 24 mL. </p>
-<p>Not all pack sizes may be marketed. </p>
+of 24 mL. 
+Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Bristol-Myers Squibb Pharma EEIG 
 Plaza Blanchardstown Corporate Park 2 

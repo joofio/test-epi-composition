@@ -4,7 +4,7 @@ Instance: composition-en-2d6385eb002eb6ef5792777c42c3b40e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sovaldi Package Leaflet"
 Description:  "Composition for sovaldi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -54,14 +54,13 @@ applicable to your child (in this case please read  your child  instead of  you 
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Sovaldi is and what it is used for 
 2. What you need to know before you take Sovaldi 
 3. How to take Sovaldi 
 4. Possible side effects 
 5. How to store Sovaldi 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -97,9 +96,9 @@ section 6 of this leaflet). </p>
 <li>Rifampicin (antibiotic used to treat infections, including tuberculosis); </li>
 <li>St. John s wort (herbal medicine used to treat depression); </li>
 <li>Carbamazepine, phenobarbital and phenytoin (medicines used to treat epilepsy and 
-prevent seizures). </li>
+prevent seizures). 
+  If any of these conditions apply to you, tell your doctor immediately. </li>
 </ul>
-<p>If any of these conditions apply to you, tell your doctor immediately. </p>
 <p>Warnings and precautions 
 Sovaldi is always taken with other medicines to treat hepatitis C (see section 1 above). Talk to your 
 doctor or pharmacist before taking this medicine if you: </p>
@@ -145,8 +144,8 @@ closely monitor these other medicines you are taking and make adjustments after 
 * Rifapentine (a medicine used to treat infections, including tuberculosis); 
 This is because they may make Sovaldi work less well. </p>
 <p>Tell your doctor if you take any of the following medicines: 
-* amiodarone, used to treat irregular heartbeats. </p>
-<p>If you are not sure of what medicines can be taken with Sovaldi, talk to your doctor or pharmacist. </p>
+* amiodarone, used to treat irregular heartbeats. 
+If you are not sure of what medicines can be taken with Sovaldi, talk to your doctor or pharmacist. </p>
 <p>Pregnancy and contraception 
 Pregnancy must be avoided due to the use of Sovaldi together with ribavirin. It is very important that 
 you read the "Pregnancy" section in the ribavirin package leaflet very carefully. Ribavirin can be very 
@@ -332,90 +331,65 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-T l/Tel: + 32 (0) 24 01 35<br />
-Lietuva 
+T l/Tel: + 32 (0) 24 01 35 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 </p>
-<p>Gilead Sciences Ireland UC 
- .: + 353 (0) 1 686 1 
-Luxembourg/Luxemburg 
+Tel: + 353 (0) 1 686 1<br />
+Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
 T l/Tel: + 32 (0) 24 01 35  esk  republika 
 Gilead Sciences s.r.o. 
-Tel: + 420 910 871<br />
-Magyarorsz g 
+Tel: + 420 910 871 Magyarorsz g 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Danmark 
+Tel: + 353 (0) 1 686 1Danmark 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Malta 
+Tlf: + 46 (0) 8 5057 1Malta 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Deutschland 
+Tel: + 353 (0) 1 686 1Deutschland 
 Gilead Sciences GmbH 
 Tel: + 49 (0) 89 899890-0 </p>
 <p>Nederland 
 Gilead Sciences Netherlands B.V. 
-Tel: + 31 (0) 20 718 36<br />
-Eesti 
+Tel: + 31 (0) 20 718 36 Eesti 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Norge 
+Tel: + 353 (0) 1 686 1Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 </p>
-<p>Gilead Sciences    . . 
- : + 30 210 8930<br />
- sterreich 
+Tlf: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930  sterreich 
 Gilead Sciences GesmbH 
-Tel: + 43 1 260<br />
-Espa a 
+Tel: + 43 1 260 Espa a 
 Gilead Sciences, S.L. 
-Tel: + 34 91 378 98<br />
-Polska 
+Tel: + 34 91 378 98 Polska 
 Gilead Sciences Poland Sp. z o.o. 
-Tel: + 48 22 262 8 
-France 
+Tel: + 48 22 262 8France 
 Gilead Sciences 
-T l: + 33 (0) 1 46 09 41<br />
-Portugal 
+T l: + 33 (0) 1 46 09 41 Portugal 
 Gilead Sciences, Lda. 
-Tel: + 351 21 7928 
-Hrvatska 
+Tel: + 351 21 7928Hrvatska 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Rom nia 
+Tel: + 353 (0) 1 686 1Rom nia 
 Gilead Sciences (GSR) S.R.L. 
-Tel: + 40 31 631 18<br />
-Ireland 
+Tel: + 40 31 631 18 Ireland 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 214 825 
-Slovenija 
+Tel: + 353 (0) 214 825Slovenija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
- sland 
+Tel: + 353 (0) 1 686 1 sland 
 Gilead Sciences Sweden AB 
-S mi: + 46 (0) 8 5057 1 
-Slovensk  republika 
+S mi: + 46 (0) 8 5057 1Slovensk  republika 
 Gilead Sciences Slovakia s.r.o 
-Tel: + 421 232 121<br />
-Italia 
+Tel: + 421 232 121 Italia 
 Gilead Sciences S.r.l. 
-Tel: + 39 02 439 
-Suomi/Finland 
+Tel: + 39 02 439Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 </p>
-<p>Gilead Sciences    . . 
- : + 30 210 8930<br />
-Sverige 
+Puh/Tel: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930 Sverige 
 Gilead Sciences Sweden AB 
-Tel: + 46 (0) 8 5057 1 
-Latvija 
+Tel: + 46 (0) 8 5057 1Latvija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-United Kingdom (Northern Ireland) 
+Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
-Tel: + 44 (0) 8000 113 </p>
-<p>This leaflet was last revised in  </p>
+Tel: + 44 (0) 8000 113This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

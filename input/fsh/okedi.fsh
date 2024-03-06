@@ -4,7 +4,7 @@ Instance: composition-en-3a36f8c3c4c534a765e5e9ed08db5433
 InstanceOf: CompositionUvEpi
 Title: "Composition for okedi Package Leaflet"
 Description:  "Composition for okedi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What OKEDI is and what it is used for 
 2. What you need to know before you use OKEDI 
 3. How to use OKEDI 
 4. Possible side effects 
 5. How to store OKEDI 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -411,26 +410,22 @@ Tel: +34 91 375 62 Lietuva
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Ispanija 
-Tel: +34 91 375 62  </p>
-<p>Laboratorios Farmac uticos Rovi, S.A. 
+Tel: +34 91 375 62 <br />
+Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid </p>
-<p>Te .: +34 91 375 62 <br />
-Luxembourg/Luxemburg 
+<p>Te .: +34 91 375 62 Luxembourg/Luxemburg 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Espagne/Spanien 
-Tel: +34 91 375 62<br />
- esk  republika 
+Tel: +34 91 375 62  esk  republika 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
  pan lsko 
-Tel: +34 91 375 62<br />
-Magyarorsz g 
+Tel: +34 91 375 62 Magyarorsz g 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Spanyolorsz g 
-Tel: +34 91 375 62<br />
-Danmark 
+Tel: +34 91 375 62 Danmark 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Spanien 
@@ -446,36 +441,31 @@ Tel: +49 8024 4782Nederland
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Spanje 
-Tel: +34 91 375 62<br />
-Eesti 
+Tel: +34 91 375 62 Eesti 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Hispaania 
-Tel: +34 91 375 62<br />
-Norge 
+Tel: +34 91 375 62 Norge 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Spania 
-Tlf: +34 91 375 62  </p>
-<p>BIANE   . . 
+Tlf: +34 91 375 62 <br />
+BIANE   . . 
     8, 
 14671  .  , <br />
-T . 210 8009 
- sterreich 
+T . 210 8009 sterreich 
 Rovi GmbH 
 Rudolf-Diesel-Ring 6 
 83607 Holzkirchen 
 Deutschland 
-Tel: +43 664 1340 
-Espa a 
+Tel: +43 664 1340Espa a 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Tel: +34 91 375 62 Polska 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Hiszpania 
-Tel: +34 91 375 62<br />
-France 
+Tel: +34 91 375 62 France 
 ROVI<br />
 24, Rue Du Drac<br />
 38180 Seyssins 
@@ -483,28 +473,23 @@ T l: +33 (0)4 76 968 Portugal
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Espanha 
-Tel: +34 91 375 62<br />
-Hrvatska 
+Tel: +34 91 375 62 Hrvatska 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
  panija 
-Tel: +34 91 375 62<br />
-Rom nia 
+Tel: +34 91 375 62 Rom nia 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Spania 
-Tel: +34 91 375 62<br />
-Ireland 
+Tel: +34 91 375 62 Ireland 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Spain 
-Tel: +34 91 375 62<br />
-Slovenija 
+Tel: +34 91 375 62 Slovenija 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
  panija 
-Tel: +34 91 375 62<br />
- sland 
+Tel: +34 91 375 62  sland 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Sp nn 
@@ -519,24 +504,20 @@ Tel: +39 02 366 877 Suomi/Finland
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Espanja/Spanien 
-Puh/Tel: +34 91 375 62  </p>
-<p>Laboratorios Farmac uticos Rovi, S.A. 
+Puh/Tel: +34 91 375 62 <br />
+Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid </p>
-<p>: +34 91 375 62<br />
-Sverige 
+<p>: +34 91 375 62 Sverige 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Spanien 
-Tel: +34 91 375 62<br />
-Latvija 
+Tel: +34 91 375 62 Latvija 
 Laboratorios Farmac uticos Rovi, S.A. 
 Juli n Camarillo, 28037 Madrid 
 Sp nija 
-Tel: +34 91 375 62<br />
-United Kingdom (Northern Ireland) 
+Tel: +34 91 375 62 United Kingdom (Northern Ireland) 
 Rovi Biotech Limited<br />
-Davis House 4th Floor Suite 425<br />
-Robert Street Croydon CR0 1QQ - UK 
+Davis House 4th Floor Suite Robert Street Croydon CR0 1QQ - UK 
 Tel: + 44 (0) 203 642 06 This leaflet was last revised in MM/YYYY. 
 The following information is intended for healthcare professionals only 
 INSTRUCTIONS FOR HEALTHCARE PROFESSIONALS 
@@ -576,5 +557,79 @@ not administer OKEDI.  </p>
 If it is frozen or partially frozen, allow to thaw using hands contact or leaving it at room 
 temperature until liquid flow recovered before continuing. </p>
 <p>1.2 Dislodge powder syringe </p>
-<p>TAP the OKEDI syringe to dislodge potential packed powder near the cap. </p>         </div>"""      
+<p>TAP the OKEDI syringe to dislodge potential packed powder near the cap. </p>
+<ol>
+<li>CONNECT THE SYRINGES </li>
+</ol>
+<p>2.1 Uncap syringes in upright position </p>
+<p>Hold both syringes in upright position to prevent loss of product. </p>
+<p>PULL the cap off the Solvent syringe. </p>
+<p>TWIST and PULL the Powder syringe cap off. </p>
+<p>2.2 Connect the syringes 
+Pick the solvent syringe S that has the coloured finger flange and place it on TOP of the powder 
+syringe R, or slightly lean it when connecting. 
+TWIST the syringes together until you feel a slight resistance. </p>
+<p>Make sure that Powder syringe R is in the upright position to prevent loss of product. </p>
+<ol>
+<li>MIX THE CONTENTS </li>
+</ol>
+<p>STOP AND READ THIS SECTION BEFORE STARTING OR THE MEDICINE MAY 
+NOT CORRECTLY RECONSTITUTE. </p>
+<p>PUSH VIGOROUSLY the Solvent content towards the Powder syringe.<br />
+  DO NOT WAIT for powder wetting and QUICKLY start mixing contents by pushing the 
+plungers FAST and alternately for 100 pushes (2 pushes within 1 second, approximately 1 
+minute).<br />
+  ENSURE medicine is passing between both syringes for a properly mixing: medicine is 
+viscous and you will need to apply force when pressing on the plunger rods. </p>
+<p>Mix for at least 100 pushes by doing alternately </p>
+<p>followed by </p>
+<p>Make sure medicine is passing between both syringes </p>
+<p>When medicine is correctly mixed, the appearance will be a uniform suspension off white to 
+yellowish colour and thick consistency. </p>
+<p>Once reconstituted, proceed immediately to prepare the injection syringe for administration 
+to avoid loss of homogeneity. </p>
+<ol>
+<li>PREPARE INJECTION SYRINGE </li>
+</ol>
+<p>4.1 Transfer medicine </p>
+<p>Place downward pressure on the R plunger rod and transfer all the content into the S syringe 
+that has attached the coloured finger flange. </p>
+<p>Make sure all the content is transferred. </p>
+<p>4.2 Detach syringes 
+Once the medicine is fully transferred, separate the two syringes by untwisting. </p>
+<p>OKEDI should be administered immediately to avoid loss of homogeneity. </p>
+<p>4.3 Attach the sterile needle with safety shield 
+Choose the proper needle: </p>
+<p>Deltoid: 21G, 1 inch for deltoid (green cap).<br />
+  Gluteus: 20G, 2 inch for gluteus (yellow cap). </p>
+<p>Attach it using a clockwise twisting motion. Do not over-tighten. 
+4.4 Remove exceeding air </p>
+<p>Remove needle cover and push out the excess of air (only big bubbles) from the syringe barrel. </p>
+<p>DO NOT expel any drops of medicine </p>
+<p>If medicine is seen at the needle tip, pull back slightly on the plunger to prevent medicine 
+spillage. </p>
+<ol>
+<li>ADMINISTER AND DISPOSE </li>
+</ol>
+<p>5.1 Inject medicine </p>
+<p>Insert the needle fully into the muscle. DO NOT INJECT BY ANY OTHER ROUTE. </p>
+<p>THICK MEDICINE, INJECT IT SLOWLY AND STEADILY. MAKE SURE TO FULLY 
+INJECT IT. 
+  The injection time is longer than usual due to the viscosity of the medicine. 
+  Wait a few seconds before removing the needle. 
+  Avoid inadvertent injection into a blood vessel. </p>
+<p>5.2 Dispose medicine 
+Cover the needle pressing on the needle guard using a finger or a flat surface and dispose 
+immediately in a secure sharps disposal container. </p>
+<p>Package leaflet: Information for the user<br />
+OKEDI 100 mg powder and solvent for prolonged-release suspension for injection 
+risperidone 
+Read all of this leaflet carefully before you start taking this medicine because it 
+contains important information for you. 
+* Keep this leaflet. You may need to read it again. 
+* If you have any further questions, ask your doctor or pharmacist. 
+* This medicine has been prescribed for you only. Do not pass it on to others. It may harm 
+them, even if their signs of illness are the same as yours. 
+* If you get any side effects, talk to your doctor or pharmacist. This includes any possible 
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

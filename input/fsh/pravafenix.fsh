@@ -4,7 +4,7 @@ Instance: composition-en-5e54bc899d36944f074c62413ee87b7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for pravafenix Package Leaflet"
 Description:  "Composition for pravafenix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Pravafenix is and what it is used for 
 2. What you need to know before you take Pravafenix 
 3. How to take Pravafenix 
 4. Possible side effects 
 5. How to store Pravafenix 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -147,12 +146,12 @@ as a statin or fibrate </li>
 bacterial infection) orally or by injection. The combination of fusidic acid and Pravafenix can lead 
 to serious muscle problems (rhabdomyolysis).  </li>
 <li>You or your close family members have a hereditary muscle disorder </li>
-<li>You have alcohol problems (regularly drinking large amounts of alcohol) </li>
-</ul>
-<p>Check with your doctor or pharmacist before taking Pravafenix if you have severe respiratory failure, 
+<li>You have alcohol problems (regularly drinking large amounts of alcohol) 
+Check with your doctor or pharmacist before taking Pravafenix if you have severe respiratory failure, 
 e.g. you have breathing problems including, persistent non-productive cough, deterioration in general 
 health like fatigue (tiredness), weight loss and/or shortness of breath or fever. 
-If you feel any of these symptoms you should stop taking Pravafenix and inform your doctor. </p>
+If you feel any of these symptoms you should stop taking Pravafenix and inform your doctor. </li>
+</ul>
 <p>While you are on this medicine your doctor will monitor you closely if you have diabetes or are at risk 
 of developing diabetes. You are likely to be at risk of developing diabetes if you have high levels of 
 sugars and fats in your blood, are overweight and have high blood pressure. </p>
@@ -172,16 +171,7 @@ affects the way Pravafenix works. </li>
 <li>Fusidic acid: If you need to take oral fusidic acid to treat a bacterial infection you will need to 
 temporarily stop using this medicine. Your doctor will tell you when it is safe to restart 
 Pravafenix. Taking Pravafenix with fusidic acid may rarely lead to muscle weakness, tenderness 
-or pain (rhabdomyolysis). See more information regarding rhabdomyolysis in section </li>
-</ul>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take pravafenix"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take pravafenix"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
-<li>Glecaprevir/pibrentasvir (used to treat hepatitis C virus infection) because it can increase some 
+or pain (rhabdomyolysis). See more information regarding rhabdomyolysis in section 4. - Glecaprevir/pibrentasvir (used to treat hepatitis C virus infection) because it can increase some 
 adverse events including muscle problems.  </li>
 <li>a particular class of medicines to treat diabetes (such as rosiglitazone, pioglitazone)  </li>
 </ul>
@@ -205,13 +195,12 @@ Pravafenix contains a sugar called lactose. If you have been told by your doctor
 intolerance to some sugars, contact your doctor before taking this medicinal product. 
 This medicine contains 33.3 mg sodium (main component of cooking/table salt) in each capsule 
 (excipients and active substance). This is equivalent to 1.7% of the recommended maximum daily 
-dietary intake of sodium for an adult. </p>         </div>"""         
-
-        
+dietary intake of sodium for an adult. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take pravafenix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take pravafenix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take Pravafenix exactly as your doctor has told you. Check with your doctor or pharmacist if 
 you are not sure. 
@@ -231,12 +220,13 @@ Do not take a double dose to make up for a forgotten dose, just take your normal
 at the usual time the next day. </p>
 <p>If you stop taking Pravafenix 
 Do not stop taking Pravafenix without first discussing it with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store pravafenix"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store pravafenix"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>The following two side effects are important and will require immediate action.<br />
@@ -304,16 +294,112 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store pravafenix"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pravafenix"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the carton and the blister/bottle after 
+EXP. The expiry date refers to the last day of that month. </p>
+<p>This medicine does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and the blister/bottle after 
-EXP. The expiry date refers to the last day of that month. </p>
-<p>This medicine does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pravafenix contains </p>
+<p>The active substances are fenofibrate and pravastatin sodium. Each hard capsule contains 40 mg 
+pravastatin sodium and 160 mg fenofibrate.  </p>
+<p>The other ingredients are:</p>
+<ul>
+<li>capsule content: lactose monohydrate, cellulose microcrystalline, ascorbyl palmitate, 
+povidone, sodium starch glycolate, magnesium stearate, talc, triacetin, sodium hydrogen 
+carbonate, lauroyl macrogolglycerides, hydroxypropylcellulose, macrogol 20 000. - capsule shell: gelatine, indigo carmine (E132), black iron oxide (E172), titanium dioxide 
+(E171), yellow iron oxide (E172). </li>
+</ul>
+<p>What Pravafenix looks like and contents of the pack </p>
+<p>The capsules are hard gelatine capsule with olive cap and light green body containing a waxy white 
+beige mass and a tablet. The capsules are supplied in Polyamide-Aluminium-PVC/aluminium blister 
+packs containing 30, 60 or 90 capsules, and in opaque white plastic bottles containing either 14, 30, or 90 capsules. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Manufacturer </p>
+<p>Laboratoires SMB s.a. </p>
+<p>SMB Technology s.a. 
+Rue de la Pastorale, 26-Rue du Parc Industriel B-1080 Brussels </p>
+<p>B-6900 Marche en Famenne 
+Belgium </p>
+<p>Belgium </p>
+<p>For any information over this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:  </p>
+<p>Belgi /Belgique/Belgien 
+Laboratoires SMB S.A. 
+T l/Tel: + 32.2.411.48.28. Lietuva 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. <br />
+Thea Pharma Ltd 
+Te .: +359.2.444.24.Luxembourg/Luxemburg 
+Laboratoires SMB S.A. 
+T l/Tel: + 32.2.411.48.28.  esk  republika 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Magyarorsz g 
+Laboratoires SMB S.A. 
+Tel.: + 32.2.411.48.28. Danmark 
+Galephar Nordic ApSTlf: +45 5666 0Malta 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Deutschland 
+Galephar Pharma GmbH<br />
+Tel: +49 7164 66 Nederland 
+Galephar B.V. 
+Tel: +31 71 562 15 Eesti 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Norge 
+Laboratoires SMB S.A. 
+Tlf: + 32.2.411.48.28. <br />
+Meditrina LTD 
+T : +30 2106726260Angelini Pharma Hellas SA 
+ : +30 210 62 69  sterreich 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Espa a 
+Lacer S.A. 
+Tel: +34 934 46 53 Polska 
+Laboratoires SMB S.A. 
+Tel.: + 32.2.411.48.28. France 
+Laboratoires SMB S.A. 
+T l: + 32.2.411.48.28. Portugal 
+Technimede Sociedade<br />
+T cnico-Medicinal S.A. 
+Tel: +351 21 041 41 Hrvatska<br />
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Rom nia 
+Meditrina Pharmaceuticals S.r.l 
+Solartium Group S.r.l. 
+Tel: +40 21 211 71 Ireland 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Slovenija 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28.  sland 
+Laboratoires SMB S.A. 
+S mi: + 32.2.411.48.28. Slovensk  republika 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. Italia 
+Abiogen Pharma S.p.A. 
+Tel: +39 050 3154 Suomi/Finland 
+Laboratoires SMB S.A. 
+Puh/Tel: + 32.2.411.48.28. <br />
+Multi-Pharm Co. Ltd. 
+ : +357 22438443Synapsis Trading Limited<br />
+ : +30 210 67 26 Sverige 
+Galephar Nordic ApS 
+Tlf: +45 5666 0Latvija 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. United Kingdom (Northern Ireland) 
+Laboratoires SMB S.A. 
+Tel: + 32.2.411.48.28. This leaflet was last revised in 1104/2Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu/. </p>         </div>"""      
 

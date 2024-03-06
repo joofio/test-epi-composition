@@ -4,7 +4,7 @@ Instance: composition-en-84263cabba69906218047f0258521479
 InstanceOf: CompositionUvEpi
 Title: "Composition for elfabrio Package Leaflet"
 Description:  "Composition for elfabrio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Elfabrio is and what it is used for  
-2. What you need to know before you are given Elfabrio 
-3. How Elfabrio is given 
-4. Possible side effects  
-5. How to store Elfabrio 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Elfabrio is and what it is used for  </li>
+<li>What you need to know before you are given Elfabrio </li>
+<li>How Elfabrio is given </li>
+<li>Possible side effects  </li>
+<li>How to store Elfabrio </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -269,91 +269,66 @@ Italy </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Chiesi sa/nv<br />
-T l/Tel: + 32 (0)2 788 42<br />
-Lietuva 
+T l/Tel: + 32 (0)2 788 42 Lietuva 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073919  </p>
-<p>Chiesi Bulgaria EOOD<br />
- .: +359 29201205  </p>
-<p>Luxembourg/Luxemburg 
+Tel: + 43 1 4073<br />
+Chiesi Bulgaria EOOD<br />
+ .: +359 29201Luxembourg/Luxemburg 
 Chiesi sa/nv 
-T l/Tel: + 32 (0)2 788 42<br />
- esk  republika 
+T l/Tel: + 32 (0)2 788 42  esk  republika 
 Chiesi CZ s.r.o. 
-Tel: + 420 261221 
-Magyarorsz g 
+Tel: + 420 261221Magyarorsz g 
 Chiesi Hungary Kft. 
-Tel.: + 36-1-429 1 
-Danmark 
+Tel.: + 36-1-429 1Danmark 
 Chiesi Pharma AB 
-Tlf: + 46 8 753 35<br />
-Malta 
+Tlf: + 46 8 753 35 Malta 
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 
-Deutschland 
+Tel: + 39 0521 2Deutschland 
 Chiesi GmbH 
 Tel: + 49 40 89724-0 </p>
 <p>Nederland 
 Chiesi Pharmaceuticals B.V. 
-Tel: + 31 88 501 64<br />
-Eesti 
+Tel: + 31 88 501 64 Eesti 
 Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073 
-Norge 
+Tel: + 43 1 4073Norge 
 Chiesi Pharma AB 
-Tlf: + 46 8 753 35  </p>
-<p>Chiesi Hellas AEBE 
- : + 30 210 6179 
- sterreich 
+Tlf: + 46 8 753 35 <br />
+Chiesi Hellas AEBE 
+ : + 30 210 6179 sterreich 
 Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073 
-Espa a 
+Tel: + 43 1 4073Espa a 
 Chiesi Espa a, S.A.U. 
-Tel: + 34 934948 
-Polska 
+Tel: + 34 934948Polska 
 Chiesi Poland Sp. z.o.o. 
-Tel.: + 48 22 620 1 
-France 
+Tel.: + 48 22 620 1France 
 Chiesi S.A.S.<br />
-T l: + 33 1 47688 
-Portugal 
+T l: + 33 1 47688Portugal 
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 
-Hrvatska 
+Tel: + 39 0521 2Hrvatska 
 Chiesi Pharmaceuticals GmbH 
 Tel: + 43 1 4073Rom nia 
 Chiesi Romania S.R.L. 
-Tel: + 40 212023 
-Ireland 
+Tel: + 40 212023Ireland 
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 
-Slovenija 
+Tel: + 39 0521 2Slovenija 
 CHIESI SLOVENIJA, d.o.o. 
-Tel: + 386-1-43 00<br />
- sland 
+Tel: + 386-1-43 00  sland 
 Chiesi Pharma AB 
-S mi: +46 8 753 35<br />
-Slovensk  republika 
+S mi: +46 8 753 35 Slovensk  republika 
 Chiesi Slovakia s.r.o. 
-Tel: + 421 259300 
-Italia 
+Tel: + 421 259300Italia 
 Chiesi Italia S.p.A. 
-Tel: + 39 0521 2 
-Suomi/Finland 
+Tel: + 39 0521 2Suomi/Finland 
 Chiesi Pharma AB 
-Puh/Tel: +46 8 753 35  </p>
-<p>Chiesi Farmaceutici S.p.A. 
- : + 39 0521 2 
-Sverige 
-Chiesi Pharma AB 
-Tel: +46 8 753 35<br />
-Latvija 
-Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073 
-United Kingdom (Northern Ireland) 
+Puh/Tel: +46 8 753 35 <br />
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 </p>
-<p>This leaflet was last revised in  </p>
+ : + 39 0521 2Sverige 
+Chiesi Pharma AB 
+Tel: +46 8 753 35 Latvija 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

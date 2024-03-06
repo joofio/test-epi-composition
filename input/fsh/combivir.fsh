@@ -4,7 +4,7 @@ Instance: composition-en-3df7bf1a2aef2fb435183285c8ded1c3
 InstanceOf: CompositionUvEpi
 Title: "Composition for combivir Package Leaflet"
 Description:  "Composition for combivir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
- 
-1. What Combivir is and what it is used for  
-2. What you need to know before you take Combivir 
-3. How to take Combivir 
-4. Possible side effects 
-5. How to store Combivir 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+<ol>
+<li>What Combivir is and what it is used for  </li>
+<li>What you need to know before you take Combivir </li>
+<li>How to take Combivir </li>
+<li>Possible side effects </li>
+<li>How to store Combivir </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -181,8 +182,8 @@ food or drink, and take all the dose immediately. </p>
 Combivir helps to control your condition. You need to keep taking it every day to stop your illness 
 getting worse. You may still develop other infections and illnesses linked to HIV infection. 
 Keep in touch with your doctor, and do not stop taking Combivir without your doctor s 
-advice. </p>
-<p>How much to take </p>
+advice. 
+How much to take </p>
 <p>Adults and adolescents 30 kg or more 
 The usual dose of Combivir is one tablet twice a day. 
 Take the tablets at regular times, leaving approximately 12 hours between each tablet. </p>
@@ -226,8 +227,8 @@ combination therapy for HIV . </p>
 <p>Very common side effects 
 These may affect more than 1 in 10 people: 
 * headache<br />
-* feeling sick (nausea). </p>
-<p>Common side effects 
+* feeling sick (nausea). 
+Common side effects 
 These may affect up to 1 in 10 people: 
 * being sick (vomiting) 
 * diarrhoea 
@@ -368,5 +369,94 @@ throw away medicines you no longer use. These measures will help to protect the 
 The active substances are lamivudine and zidovudine. The other ingredients are<br />
 * tablet core; microcrystalline cellulose, sodium starch glycollate (gluten free), magnesium 
 stearate, colloidal silicon dioxide 
-* tablet film-coat; hypromellose, titanium dioxide, macrogol 400 and polysorbate 8</p>         </div>"""      
+* tablet film-coat; hypromellose, titanium dioxide, macrogol 400 and polysorbate 80. What Combivir looks like and contents of the pack 
+Combivir film-coated tablets are provided in cartons, containing blister packs or bottles with a child 
+resistant-closure. Each pack type contains 60 film-coated tablets. They are white to off-white, capsule-
+shaped scored tablets marked with the code GXFC3 on both sides. 
+Marketing Authorisation Holder and Manufacturer </p>
+<p>Manufacturer 
+Marketing Authorisation Holder </p>
+<p>Delpharm Pozna  Sp ka 
+Akcyjna 
+ul. Grunwaldzka 60-322 Poznan 
+Poland 
+ViiV Healthcare BV 
+Van Asch van Wijckstraat 55H 
+3811 LP Amersfoort 
+Netherlands 
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:  </p>
+<p>Belgi /Belgique/Belgien 
+ViiV Healthcare srl/bv<br />
+T l/Tel: + 32 (0)10 85 65 Lietuva 
+ViiV Healthcare BV<br />
+Tel: + 370 5 80000<br />
+ViiV Healthcare BV 
+Te .: + 359 80018Luxembourg/Luxemburg 
+ViiV Healthcare srl/bv<br />
+Belgique/Belgien 
+T l/Tel: + 32 (0)10 85 65  esk  republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarorsz g 
+ViiV Healthcare BV 
+Tel.: + 36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+ViiV Healthcare BV<br />
+Tel: + 356 80065Deutschland 
+ViiV Healthcare GmbH<br />
+Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com  </p>
+<p>Nederland 
+ViiV Healthcare BV<br />
+Tel: + 31 (0)33 2081Eesti 
+ViiV Healthcare BV 
+Tel: + 372 8002Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>Espa a 
+Laboratorios ViiV Healthcare, S.L.<br />
+Tel: +34 900 923 es-ci@viivhealthcare.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9France 
+ViiV Healthcare SAS<br />
+T l.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
+<p>Portugal 
+VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
+Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
+<p>Hrvatska 
+ViiV Healthcare BV 
+Tel: +385 800787Rom nia 
+ViiV Healthcare BV 
+Tel: + 40 800672Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955Slovenija 
+ViiV Healthcare BV 
+Tel: + 386 80688 sland 
+Vistor hf.<br />
+Slovensk  republika 
+ViiV Healthcare BV 
+S mi: +354 535 7Tel: + 421 800500Italia 
+ViiV Healthcare S.r.l<br />
+Tel: + 39 (0)45 7741Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30 <br />
+ViiV Healthcare BV<br />
+ : + 357 80070Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+ViiV Healthcare BV 
+Tel: + 371 80205United Kingdom (Northern Ireland) 
+ViiV Healthcare BV 
+Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
+<p>This leaflet was last revised in {MM/YYYY}  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

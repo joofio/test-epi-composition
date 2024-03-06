@@ -4,7 +4,7 @@ Instance: composition-en-e904990c0daca9f90faf79e88bc809b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for orladeyo Package Leaflet"
 Description:  "Composition for orladeyo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Orladeyo is and what it is used for  
-2. What you need to know before you take Orladeyo 
-3. How to take Orladeyo 
-4. Possible side effects  
-5. How to store Orladeyo  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Orladeyo is and what it is used for  </li>
+<li>What you need to know before you take Orladeyo </li>
+<li>How to take Orladeyo </li>
+<li>Possible side effects  </li>
+<li>How to store Orladeyo  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -233,8 +233,7 @@ with 7 capsules per blister. </p>
 <li>
 <p>Marketing Authorisation Holder 
 BioCryst Ireland Limited 
-Block 4, Harcourt Centre, Harcourt Road, DUBLIN 2, D02HW77<br />
-Ireland  </p>
+Block 4, Harcourt Centre, Harcourt Road, DUBLIN 2, D02HWIreland  </p>
 </li>
 <li>
 <p>Manufacturer 

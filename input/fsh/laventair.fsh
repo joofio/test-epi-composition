@@ -4,7 +4,7 @@ Instance: composition-en-7d204d7b4b6b9533290dd865f462d707
 InstanceOf: CompositionUvEpi
 Title: "Composition for laventair Package Leaflet"
 Description:  "Composition for laventair Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What LAVENTAIR ELLIPTA is and what it is used for  
-2. What you need to know before you use LAVENTAIR ELLIPTA 
-3. How to use LAVENTAIR ELLIPTA 
-4. Possible side effects  
-5. How to store LAVENTAIR ELLIPTA 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What LAVENTAIR ELLIPTA is and what it is used for  </li>
+<li>What you need to know before you use LAVENTAIR ELLIPTA </li>
+<li>How to use LAVENTAIR ELLIPTA </li>
+<li>Possible side effects  </li>
+<li>How to store LAVENTAIR ELLIPTA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

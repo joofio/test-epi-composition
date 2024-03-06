@@ -4,7 +4,7 @@ Instance: composition-en-eefded9fc6fc231de4e5964766009df5
 InstanceOf: CompositionUvEpi
 Title: "Composition for kengrexal Package Leaflet"
 Description:  "Composition for kengrexal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Kengrexal is and what it is used for 
-2. What you need to know before you use Kengrexal 
-3. How to use Kengrexal 
-4. Possible side effects 
-5. How to store Kengrexal 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Kengrexal is and what it is used for </li>
+<li>What you need to know before you use Kengrexal </li>
+<li>How to use Kengrexal </li>
+<li>Possible side effects </li>
+<li>How to store Kengrexal </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -147,8 +147,8 @@ weight.  </p>
 doctor will decide if you will need to be treated for longer periods. </p>
 <p>If you use more Kengrexal than you should 
 This medicine will be given to you by a healthcare professional. Your doctor will decide how to treat 
-you, including stopping the medicine and monitoring for signs of side effects. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+you, including stopping the medicine and monitoring for signs of side effects. 
+If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -243,91 +243,66 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Ferrer Internacional, S.A.. 
-T l/Tel: +32 15 28 74<br />
-Lietuva 
+T l/Tel: +32 15 28 74 Lietuva 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: +43 1 4073 </p>
-<p>Chiesi Bulgaria EOOD<br />
-Te .: + 359 29201 
-Luxembourg/Luxemburg 
+Tel: +43 1 4073<br />
+Chiesi Bulgaria EOOD<br />
+Te .: + 359 29201Luxembourg/Luxemburg 
 Ferrer Internacional, S.A. 
-T l/Tel: +32 15 28 74<br />
- esk  republika 
+T l/Tel: +32 15 28 74  esk  republika 
 Chiesi CZ s.r.o. 
-Tel: +420 261221 
-Magyarorsz g 
+Tel: +420 261221Magyarorsz g 
 Chiesi Hungary Kft. 
-Tel.: +36-1-429 1 
-Danmark 
+Tel.: +36-1-429 1Danmark 
 Chiesi Pharma AB 
-Tlf: +46 8 753 35<br />
-Malta 
+Tlf: +46 8 753 35 Malta 
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 
-Deutschland 
+Tel: + 39 0521 2Deutschland 
 Ferrer Deutschland GmbH 
 Tel: +49 (0) 2407 502311-0 </p>
 <p>Nederland 
 Ferrer Internacional, S.A. 
-T l/Tel: +32 15 28 74<br />
-Eesti 
+T l/Tel: +32 15 28 74 Eesti 
 Chiesi Pharmaceuticals GmbH 
-Tel: +43 1 4073 
-Norge 
+Tel: +43 1 4073Norge 
 Chiesi Pharma AB 
-Tlf: +46 8 753 35  </p>
-<p>Chiesi Hellas AEBE 
- : + 30 210 6179 
- sterreich 
+Tlf: +46 8 753 35 <br />
+Chiesi Hellas AEBE 
+ : + 30 210 6179 sterreich 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-Espa a 
+Tel: + 43 1 4073Espa a 
 Ferrer Farma, S.A. 
-Tel: +34 93 600 3 
-Polska 
+Tel: +34 93 600 3Polska 
 Ferrer Internacional, S.A. 
 Tel.: +48 518 630 France 
 Bioprojet Pharma<br />
-+33 (0)1 47 03 66<br />
-Portugal 
++33 (0)1 47 03 66 Portugal 
 Ferrer Portugal, S.A 
-Tel: +351 214449 
-Hrvatska 
+Tel: +351 214449Hrvatska 
 Chiesi Pharmaceuticals GmbH 
-Tel: + 43 1 4073 
-Rom nia 
+Tel: + 43 1 4073Rom nia 
 Chiesi Romania S.R.L. 
-Tel: + 40 212023 
-Ireland 
+Tel: + 40 212023Ireland 
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 
-Slovenija 
+Tel: + 39 0521 2Slovenija 
 Chiesi Slovenija d.o.o. 
-Tel: + 386-1-43 00<br />
- sland 
+Tel: + 386-1-43 00  sland 
 Chiesi Pharma AB 
-Tlf: +46 8 753 35<br />
-Slovensk  republika 
+Tlf: +46 8 753 35 Slovensk  republika 
 Chiesi Slovakia s.r.o. 
-Tel: + 421 259300 
-Italia 
+Tel: + 421 259300Italia 
 Chiesi Italia S.p.A. 
-Tel: + 39 0521 2 
-Suomi/Finland 
+Tel: + 39 0521 2Suomi/Finland 
 Chiesi Pharma AB 
-Tlf: +46 8 753 35  </p>
-<p>Chiesi Farmaceutici S.p.A. 
- : + 39 0521 2 
-Sverige 
-Chiesi Pharma AB 
-Tlf: +46 8 753 35<br />
-Latvija 
-Chiesi Pharmaceuticals GmbH<br />
-Tel: +  43 1 4073 
-United Kingdom (Northern Ireland) 
+Tlf: +46 8 753 35 <br />
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+ : + 39 0521 2Sverige 
+Chiesi Pharma AB 
+Tlf: +46 8 753 35 Latvija 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: +  43 1 4073United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

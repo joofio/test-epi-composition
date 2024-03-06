@@ -4,7 +4,7 @@ Instance: composition-en-cfa624691d24d77fe98aa5c98b02fbeb
 InstanceOf: CompositionUvEpi
 Title: "Composition for puregon Package Leaflet"
 Description:  "Composition for puregon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Puregon is and what it is used for 
-2. What you need to know before you use Puregon 
-3. How to use Puregon 
-4. Possible side effects 
-5. How to store Puregon 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Puregon is and what it is used for </li>
+<li>What you need to know before you use Puregon </li>
+<li>How to use Puregon </li>
+<li>Possible side effects </li>
+<li>How to store Puregon </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -270,14 +270,7 @@ number of maturing follicles. Your doctor may also check blood hormone levels. P
 feeling sick or diarrhoea are the first symptoms. In more severe cases symptoms may include 
 enlargement of the ovaries, accumulation of fluid in the abdomen and/or chest (which may cause 
 sudden weight gain due to fluid buildup) and the occurrence of blood clots in the circulation. See 
-warnings and precautions in section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store puregon"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store puregon"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contact your doctor immediately if you are experiencing stomach pains, or any of the other 
+warnings and precautions in section 2.   Contact your doctor immediately if you are experiencing stomach pains, or any of the other 
 symptoms of ovarian hyperstimulation, also if this occurs some days after the last injection. </p>
 <p>If you are a woman:<br />
 Common side effects (may affect up to 1 in 10 people):</p>
@@ -323,11 +316,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
 of this medicine.  </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store puregon"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store puregon"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Storage by the pharmacist 
@@ -348,4 +340,122 @@ date refers to the last day of that month. </p>
 Do not mix any other drug into the cartridges. Empty cartridges must not be refilled.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Puregon contains </p>
+<ul>
+<li>Each cartridge contains the active substance follitropin beta, a hormone known as 
+follicle-stimulating hormone (FSH) in a strength of 833 IU/mL aqueous solution. </li>
+<li>The other ingredients are sucrose, sodium citrate, L-methionine, polysorbate 20 and benzyl 
+alcohol in water for injections. The pH may have been adjusted with sodium hydroxide and/or 
+hydrochloric acid. </li>
+</ul>
+<p>What Puregon looks like and contents of the pack </p>
+<p>Puregon solution for injection (injection) is a clear, colourless liquid. It is supplied in a glass cartridge. 
+It is available in packs of 1 cartridge.  </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+N.V. Organon 
+Kloosterstraat 6 
+5349 AB Oss 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Organon Belgium 
+T l/Tel: 0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Lietuva 
+Organon Pharma B.V. Lithuania atstovyb<br />
+Tel.: +370 52041dpoc.lithuania@organon.com </p>
+<p>( . .)  . . -   <br />
+ .: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>Luxembourg/Luxemburg 
+Organon Belgium 
+T l/Tel: 0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>esk  republika 
+Organon Czech Republic s.r.o. 
+Tel: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarorsz g 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS<br />
+Tlf: +45 4484 6info.denmark@organon.com </p>
+<p>Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel: +356 2277 8dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel.: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland 
+N.V. Organon 
+Tel: 00800 66550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>BIANE   . . 
+ : +30 210 80091 Mailbox@vianex.gr </p>
+<p>sterreich 
+Organon Healthcare GmbH 
+Tel: +49 (0) 89 2040022 dpoc.austria@organon.com </p>
+<p>Espa a 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 organon_info@organon.com 
+Polska 
+Organon Polska Sp. z o.o. 
+Tel.: +48 22 105 50 organonpolska@organon.com </p>
+<p>France 
+Organon France 
+T l: +33 (0) 1 57 77 32 Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: +385 1 638 4dpoc.croatia@organon.com </p>
+<p>Rom nia 
+Organon Biosciences S.R.L. 
+Tel: +40 21 527 29 dpoc.romania@organon.com </p>
+<p>Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podru nica Ljubljana 
+Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
+<p>sland 
+Vistor hf. 
+S mi: + 354 535 7Slovensk  republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
+<p>Italia 
+Organon Italia S.r.l. 
+Tel: +39 06 90259dpoc.italy@organon.com </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Organon Pharma B.V., Cyprus branch 
+ : +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
+<p>Latvija 
+ rvalsts komersanta  Organon Pharma B.V.<br />
+p rst vniec ba 
+Tel: +371 66968dpoc.latvia@organon.com </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited 
+Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
+<p>This leaflet was last revised in Month YYYY  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

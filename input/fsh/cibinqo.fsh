@@ -4,7 +4,7 @@ Instance: composition-en-7ced1bd163884509973841d906b58456
 InstanceOf: CompositionUvEpi
 Title: "Composition for cibinqo Package Leaflet"
 Description:  "Composition for cibinqo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Cibinqo is and what it is used for  
-2. What you need to know before you take Cibinqo  
-3. How to take Cibinqo  
-4. Possible side effects  
-5. How to store Cibinqo  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Cibinqo is and what it is used for  </li>
+<li>What you need to know before you take Cibinqo  </li>
+<li>How to take Cibinqo  </li>
+<li>Possible side effects  </li>
+<li>How to store Cibinqo  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -88,11 +88,9 @@ anxiety or depression and improves overall quality of life.   </p>         </div
 - if you are allergic to abrocitinib or any of the other ingredients of this medicine (listed in 
 section 6). 
 - if you have a serious infection ongoing, including tuberculosis. 
-- if you have severe liver problems. </p>
-<ul>
-<li>if you are pregnant or breast-feeding (see the  pregnancy, contraception, breast-feeding and 
-fertility  section). </li>
-</ul>
+- if you have severe liver problems. 
+- if you are pregnant or breast-feeding (see the  pregnancy, contraception, breast-feeding and 
+fertility  section). </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before and during treatment with Cibinqo if you:</p>
 <ul>
@@ -141,13 +139,9 @@ medicines to treat:</p>
 (such as ticlopidine), as they may increase the side effects of Cibinqo. </li>
 <li>stomach acid reflux (such as antacids, famotidine or omeprazole), as they may reduce the 
 amount of Cibinqo in your blood. </li>
-<li>
-<p>depression (such as citalopram, clobazam or escitalopram), as Cibinqo may increase their 
-effects.  </p>
-</li>
-<li>
-<p>neurofibromatosis type I (such as selumetinib), as Cibinqo may increase its effects. </p>
-</li>
+<li>depression (such as citalopram, clobazam or escitalopram), as Cibinqo may increase their 
+effects.  </li>
+<li>neurofibromatosis type I (such as selumetinib), as Cibinqo may increase its effects. </li>
 <li>heart failure (such as digoxin) or stroke (such as dabigatran), as Cibinqo may increase their 
 effects.  </li>
 <li>seizures (such a S-mephenytoin), as Cibinqo may increase its effects. </li>
@@ -222,15 +216,7 @@ medicine, it may help to take it with food. To help you remember to take your me
 suggested that you take it the same time every day. </p>
 <p>If you take more Cibinqo than you should 
 If you take more Cibinqo than you should, contact your doctor. You may get some of the side effects 
-described in section </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take Cibinqo<br />
+described in section 4. If you forget to take Cibinqo<br />
 - If you miss a dose, take it as soon as you remember, unless your next dose is due in less than 
 12 hours. 
 - If there is less than 12 hours before your next dose, just skip the missed dose and take your next 
@@ -238,12 +224,13 @@ usual dose when it is due.<br />
 - Do not take a double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Cibinqo<br />
 You should not stop taking Cibinqo without discussing this with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store cibinqo"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store cibinqo"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
@@ -275,11 +262,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix  . By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store cibinqo"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store cibinqo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton, bottle and blister foil after 
@@ -287,4 +273,111 @@ EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cibinqo contains<br />
+- The active substance is abrocitinib. 
+Each 50 mg tablet contains 50 mg of abrocitinib. 
+Each 100 mg tablet contains 100 mg of abrocitinib. 
+Each 200 mg tablet contains 200 mg of abrocitinib. </p>
+<ul>
+<li>The other ingredients are: 
+Tablet core: microcrystalline cellulose (E460i), calcium hydrogen phosphate anhydrous 
+(E341ii), sodium starch glycolate, magnesium stearate (E470b). 
+Film-coat: hypromellose (E464), titanium dioxide (E171), lactose monohydrate, macrogol 
+(E1521), triacetin (E1518), iron red oxide (E172) (see section 2 Cibinqo contains lactose and 
+sodium). </li>
+</ul>
+<p>What Cibinqo looks like and contents of the pack 
+Cibinqo 50 mg tablets are pink, approximately 11 mm long and 5 mm wide oval tablets with  PFE  on 
+one side and  ABR 50  on the other. </p>
+<p>Cibinqo 100 mg tablets are pink, approximately 9 mm in diameter round tablets with  PFE  on one 
+side and  ABR 100  on the other. </p>
+<p>Cibinqo 200 mg tablets are pink, approximately 18 mm long and 8 mm wide oval tablets with  PFE<br />
+on one side and  ABR 200  on the other. </p>
+<p>The 50 mg, 100 mg and 200 mg tablets are provided in polyvinylidene chloride (PVDC) blisters with 
+aluminum foil lidding film or high-density polyethylene (HDPE) bottles with polypropylene closure. 
+Each blister pack contains 14, 28 or 91 tablets. Each bottle contains 14 or 30 tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Pfizer Europe MA EEIG 
+Boulevard de la Plaine 1050 Bruxelles 
+Belgium </p>
+<p>Manufacturer </p>
+<p>Pfizer Manufacturing Deutschland GmbH 
+Mooswaldallee 1 
+79108 Freiburg Im Breisgau 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/ Belgien 
+Luxembourg/Luxemburg 
+Pfizer NV/SA 
+T l/Tel: +32 (0)2 554 62 Lietuva 
+Pfizer Luxembourg SARL filialas Lietuvoje 
+Tel: + 370 52 51 4<br />
+     ,   <br />
+ .: +359 2 970 4Magyarorsz g 
+Pfizer Kft. 
+Tel.: +36-1-488-37- esk  republika 
+Pfizer, spol. s r.o. 
+Tel.: +420 283 004 Malta 
+Vivian Corporation Ltd. 
+Tel: +356 21344Danmark 
+Pfizer ApS 
+Tlf: +45 44 20 11 Nederland 
+Pfizer bv 
+Tel: +31 (0)800 63 34 Deutschland 
+PFIZER PHARMA GmbH 
+Tel: +49 (0)30 550055-51Norge 
+Pfizer AS 
+Tlf: +47 67 52 61 Eesti 
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7 sterreich 
+Pfizer Corporation Austria Ges.m.b.H. 
+Tel: +43 (0)1 521 15-0 </p>
+<p>Pfizer   A.E. 
+ : +30 210 6785 Polska 
+Pfizer Polska Sp. z o.o. 
+Tel.:+48 22 335 61 Espa a 
+Pfizer S.L. 
+Tel: +34 91 490 99 Portugal 
+Laborat rios Pfizer, Lda. 
+Tel: +351 21 423 5France 
+Pfizer 
+T l: +33 (0)1 58 07 34 Rom nia 
+Pfizer Romania S.R.L. 
+Tel: +40 (0) 21 207 28 Hrvatska 
+Pfizer Croatia d.o.o. 
+Tel: +385 1 3908 Slovenija 
+Pfizer Luxembourg SARL 
+Pfizer, podru nica za svetovanje s podro ja 
+farmacevtske dejavnosti, Ljubljana 
+Tel: + 386 (0)1 52 11 Ireland 
+Pfizer Healthcare Ireland 
+Tel: +1800 633 363 (toll free) 
++44 (0)1304 616Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
+Tel: + 421 2 3355 5 sland 
+Icepharma hf. 
+S mi: +354 540 8Suomi/Finland 
+Pfizer Oy 
+Puh/Tel: +358 (0)9 43 00 Italia 
+Pfizer S.r.l. 
+Tel: +39 06 33 18 Sverige 
+Pfizer AB 
+Tel: +46 (0)8 550 520 K<br />
+Pfizer    . . (Cyprus Branch) 
+ : +357 22 817United Kingdom (Northern Ireland) 
+Pfizer Limited 
+Tel: +44 (0) 1304 616Latvija 
+Pfizer Luxembourg SARL fili le Latvij<br />
+Tel: + 371 670 35 This leaflet was last revised in . </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

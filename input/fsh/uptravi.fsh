@@ -4,7 +4,7 @@ Instance: composition-en-f797cc0b9b4e9335a18d81e479368f3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for uptravi Package Leaflet"
 Description:  "Composition for uptravi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Uptravi is and what it is used for
 2. What you need to know before you take Uptravi
 3. How to take Uptravi
 4. Possible side effects
 5. How to store Uptravi
-6. Contents of the package and other information
-         </div>"""   
+6. Contents of the package and other information</p>         </div>"""   
           
 
 * section[=].section[+]

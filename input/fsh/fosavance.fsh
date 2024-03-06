@@ -4,7 +4,7 @@ Instance: composition-en-4bec0630ba2fe20207306bdc003daeb2
 InstanceOf: CompositionUvEpi
 Title: "Composition for fosavance Package Leaflet"
 Description:  "Composition for fosavance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What FOSAVANCE is and what it is used for 
-2. What you need to know before you take FOSAVANCE 
-3. How to take FOSAVANCE 
-4. Possible side effects 
-5. How to store FOSAVANCE 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What FOSAVANCE is and what it is used for </li>
+<li>What you need to know before you take FOSAVANCE </li>
+<li>How to take FOSAVANCE </li>
+<li>Possible side effects </li>
+<li>How to store FOSAVANCE </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -71,16 +71,7 @@ Usage: #example
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is FOSAVANCE? 
 FOSAVANCE is a tablet containing the two active substances, alendronic acid (commonly called 
-alendronate) and colecalciferol known as vitamin D</p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take fosavance"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take fosavance"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is alendronate? 
+alendronate) and colecalciferol known as vitamin D3. What is alendronate? 
 Alendronate belongs to a group of non-hormonal medicines called bisphosphonates. Alendronate 
 prevents the loss of bone that occurs in women after they have been through the menopause, and helps 
 to rebuild bone. It reduces the risk of spine and hip fractures.  </p>
@@ -116,11 +107,13 @@ Like muscles, bones need exercise to stay strong and healthy. Consult your
 doctor before you begin any exercise programme. </p>
 <p>Eating a balanced diet Your doctor can advise you about your diet or whether you should take any 
 dietary supplements. </p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take fosavance"
+  * title = "2. What you need to know before you take fosavance"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take fosavance"
+  * code.text = "2. What you need to know before you take fosavance"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take FOSAVANCE 
 * if you are allergic to alendronic acid, colecalciferol or any of the other ingredients of this 
@@ -190,13 +183,12 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine.   </p>
 <p>FOSAVANCE contains sodium.<br />
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""         
-
-        
+free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take fosavance"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take fosavance"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take FOSAVANCE exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -241,12 +233,13 @@ is not known how long you should take FOSAVANCE, you should discuss the need to 
 medicine with your doctor periodically to determine if FOSAVANCE is still right for you. </p>
 <p>An Instruction Card is included in the carton for FOSAVANCE. It contains important information 
 reminding you how to take FOSAVANCE properly. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store fosavance"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store fosavance"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>See your doctor immediately if you notice any of the following side effects, which may be serious, 
@@ -294,8 +287,8 @@ sensation in the fingers or around the mouth,<br />
 </em> stomach or peptic ulcers (sometimes severe or with bleeding),<br />
 <em> narrowing of the gullet (oesophagus   the tube that connects your mouth with your stomach),<br />
 </em> rash made worse by sunlight, 
-* mouth ulcers. </p>
-<p>Very rare (may affect up to 1 in 10,000 people):<br />
+* mouth ulcers. 
+Very rare (may affect up to 1 in 10,000 people):<br />
 * talk to your doctor if you have ear pain, discharge from the ear, and/or an ear infection. These 
 could be signs of bone damage in the ear. </p>
 <p>Reporting of side effects 
@@ -304,11 +297,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store fosavance"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store fosavance"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the blister after EXP. 
@@ -316,4 +308,137 @@ The expiry date refers to the last day of that month. </p>
 <p>Store in the original blister in order to protect from moisture and light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What FOSAVANCE contains </p>
+<p>The active substances are alendronic acid and colecalciferol (vitamin D3). Each FOSAVANCE 
+70 mg/2,800 IU tablet contains 70 mg alendronic acid (as sodium trihydrate) and 70 micrograms 
+(2,800 IU) colecalciferol (vitamin D3). Each FOSAVANCE 70 mg/5,600 IU tablet contains 70 mg 
+alendronic acid (as sodium trihydrate) and 140 micrograms (5,600 IU) colecalciferol (vitamin D3). </p>
+<p>The other ingredients are microcrystalline cellulose (E460), lactose anhydrous (see section 2), medium 
+chain triglycerides, gelatin, croscarmellose sodium, sucrose (see section 2), colloidal silicon dioxide, 
+magnesium stearate (E572), butylhydroxytoluene (E321), modified starch (maize), and sodium 
+aluminium silicate (E554). </p>
+<p>What FOSAVANCE looks like and contents of the pack </p>
+<p>FOSAVANCE 70 mg/2,800 IU tablets are available as modified capsule-shaped, white to off-white 
+tablets marked with an outline of a bone image on one side and  710  on the other. FOSAVANCE 
+70 mg/2,800 IU tablets are available in packs containing 2, 4, 6 or 12 tablets. </p>
+<p>FOSAVANCE 70 mg/5,600 IU tablets are available as modified rectangle-shaped, white to off-white 
+tablets marked with an outline of a bone image on one side and  270  on the other. FOSAVANCE 
+70 mg/5,600 IU tablets are available in packs containing 2, 4 or 12 tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+N.V. Organon 
+Kloosterstraat 6 
+5349 AB Oss 
+The Netherlands 
+Manufacturer 
+Merck Sharp &amp; Dohme B.V. 
+Waarderweg 2031 BN Haarlem 
+The Netherlands </p>
+<p>Organon Heist bv 
+Industriepark 2220 Heist-op-den-Berg 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Organon Belgium 
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>Lietuva 
+Organon Pharma B.V. Lithuania atstovyb<br />
+Tel.: +370 52041dpoc.lithuania@organon.com </p>
+<p>( . .)  . . -   <br />
+ .: +359 2 806 3dpoc.bulgaria@organon.com </p>
+<p>Luxembourg/Luxemburg 
+Organon Belgium 
+T l/Tel: 0080066550123 (+32 2 2418100)<br />
+dpoc.benelux@organon.com </p>
+<p>esk  republika 
+Organon Czech Republic s.r.o. 
+Tel: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarorsz g 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS<br />
+Tlf: +45 4484 6info.denmark@organon.com </p>
+<p>Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel: +356 2277 8dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel: 0800 3384 726 (+49(0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland 
+N.V. Organon 
+Tel.: 00800 66550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>E<br />
+BIANE   . . 
+ : +30 210 80091 Mailbox@vianex.gr </p>
+<p>sterreich 
+Organon Healthcare GmbH<br />
+Tel: +49 (0) 89 2040022 dpoc.austria@organon.com 
+Espa a 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 organon_info@organon.com 
+Polska 
+Organon Polska Sp. z o.o. 
+Tel.: +48 22 105 50 organonpolska@organon.com </p>
+<p>France 
+Organon France<br />
+T l: +33 (0) 1 57 77 32 Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: +385 1 638 4dpoc.croatia@organon.com </p>
+<p>Rom nia 
+Organon Biosciences S.R.L. 
+Tel: +40 21 527 29 dpoc.romania@organon.com<br />
+Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podru nica 
+Ljubljana 
+Tel: +386 1 300 10 dpoc.slovenia@organon.com<br />
+ sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
+<p>talia 
+Organon Italia S.r.l. 
+Tel: +39 06 90259dpoc.italy@organon.com </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Organon Pharma B.V., Cyprus branch 
+ : +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com </p>
+<p>Latvija 
+ rvalsts komersanta  Organon Pharma B.V.<br />
+p rst vniec ba 
+Tel: +371 66968dpoc.latvia@organon.com </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited<br />
+Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt; </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+https://www.ema.europa.eu. </p>         </div>"""      
 

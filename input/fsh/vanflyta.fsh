@@ -4,7 +4,7 @@ Instance: composition-en-1ff94cd25db3b18c09de52395c558d2d
 InstanceOf: CompositionUvEpi
 Title: "Composition for vanflyta Package Leaflet"
 Description:  "Composition for vanflyta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What VANFLYTA is and what it is used for 
-2. What you need to know before you take VANFLYTA 
-3. How to take VANFLYTA 
-4. Possible side effects  
-5. How to store VANFLYTA 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What VANFLYTA is and what it is used for </li>
+<li>What you need to know before you take VANFLYTA </li>
+<li>How to take VANFLYTA </li>
+<li>Possible side effects  </li>
+<li>How to store VANFLYTA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -95,8 +95,8 @@ uncontrollably, and helps immature cells grow into normal cells. </p>         </
 section 6). If you think you may be allergic, ask your doctor for advice. 
 * if you were born with a heart problem called  long QT syndrome  (abnormal electrical activity 
 of the heart that affects its rhythm). 
-* if you are breast-feeding (see  Pregnancy, breast-feeding and fertility ). </p>
-<p>Warnings and precautions 
+* if you are breast-feeding (see  Pregnancy, breast-feeding and fertility ). 
+Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before taking VANFLYTA: 
 * if you have or have had any heart problems including arrhythmia (abnormal heart rhythm), 
 myocardial infarction (heart attack) within 6 months, congestive heart failure (heart isn t 
@@ -347,8 +347,8 @@ Daiichi Sankyo Europe GmbH
 Tel: +49-(0) 89 7808 0 
 Norge 
 Daiichi Sankyo Nordics ApS 
-Tlf: +47 (0) 21 09 38  </p>
-<p>Daiichi Sankyo Europe GmbH 
+Tlf: +47 (0) 21 09 38 <br />
+Daiichi Sankyo Europe GmbH 
  : +49-(0) 89 7808 0 
  sterreich 
 Daiichi Sankyo Austria GmbH 

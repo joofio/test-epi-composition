@@ -4,7 +4,7 @@ Instance: composition-en-6f8f57715090da2632453988d9a1501b
 InstanceOf: CompositionUvEpi
 Title: "Composition for m Package Leaflet"
 Description:  "Composition for m Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What M-M-RvaxPro is and what it is used for
 2. What you need to know before you receive  M-M-RvaxPro
 3. How to use M-M-RvaxPro
 4. Possible side effects
 5. How to store M-M-RvaxPro
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -394,7 +393,7 @@ United Kingdom (Northern Ireland)
 Merck Sharp &amp; Dohme Ireland (Human Health)
 Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com
-This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>.
+This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;.
 Other source of information
 Detailed information on this vaccine is available on the European Medicines Agency website:
 http://www.ema.europa.eu.</p>
@@ -429,5 +428,5 @@ important information for you.
 - Keep this leaflet. You may need to read it again.
 - If you have any further questions, ask your doctor or your pharmacist.
 - If you get any of the side effects, talk to your doctor or pharmacist. This includes any possible
-side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

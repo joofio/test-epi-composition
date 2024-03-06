@@ -4,7 +4,7 @@ Instance: composition-en-601fc65b81b2fd37245e8ad7fc0f0dd7
 InstanceOf: CompositionUvEpi
 Title: "Composition for litfulo Package Leaflet"
 Description:  "Composition for litfulo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Litfulo is and what it is used for  
-2. What you need to know before you take Litfulo 
-3. How to take Litfulo 
-4. Possible side effects  
-5. How to store Litfulo 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Litfulo is and what it is used for  </li>
+<li>What you need to know before you take Litfulo </li>
+<li>How to take Litfulo </li>
+<li>Possible side effects  </li>
+<li>How to store Litfulo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -188,15 +188,7 @@ swallowing as it may change how much medicine gets into your body.  </p>
 <p>You can take the capsule either with or without food.  </p>
 <p>If you take more Litfulo than you should 
 If you take more Litfulo than you should, contact your doctor. You may get some of the side effects 
-described in section </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take Litfulo 
+described in section 4. If you forget to take Litfulo 
 - If you miss a dose, take it as soon as you remember, unless your next dose is due in less than 
 8 hours. 
 - If there is less than 8 hours before your next dose, just skip the missed dose and take your next 
@@ -206,12 +198,13 @@ dose as usual when it is due.
 You should not stop taking Litfulo without discussing this with your doctor. </p>
 <p>If you need to stop taking Litfulo for a short time (not more than 6 weeks), the risk of losing your 
 scalp hair is low. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store litfulo"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store litfulo"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
@@ -240,11 +233,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store litfulo"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store litfulo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton, bottle, or blister after EXP. 
@@ -253,4 +245,108 @@ The expiry date refers to the last day of that month. </p>
 package in order to protect from light. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Litfulo contains<br />
+- The active substance is ritlecitinib. 
+Each hard capsule contains ritlecitinib tosylate equivalent to 50 mg ritlecitinib. </p>
+<ul>
+<li>The other ingredients are:<br />
+Hard capsule content: cellulose microcrystalline, lactose monohydrate, crospovidone ), glycerol 
+dibehenate (see section 2  Litfulo contains lactose monohydrate ). 
+Hard capsule shell: hypromellose (E464), titanium dioxide (E171), yellow iron oxide (E172), 
+brilliant blue FCF (E133). 
+Printing ink: shellac, propylene glycol, ammonia solution concentrated, black iron oxide (E172), 
+potassium hydroxide.  </li>
+</ul>
+<p>What Litfulo looks like and contents of the pack 
+Litfulo 50 mg opaque hard capsules have a yellow body and blue cap approximately 16 mm long and 
+6 mm wide of which the body is printed with  RCB 50  and the cap is printed with  Pfizer  in black. </p>
+<p>The 50 mg hard capsules are provided in high-density polyethylene (HDPE) bottles with 
+polypropylene closure containing 28 hard capsules or in OPA/Al/PVC/Al blisters containing 30 or 
+90 hard capsules. The bottle contains a silica gel desiccant used to keep the capsules dry. Do not 
+swallow the silica gel desiccant. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Pfizer Europe MA EEIG<br />
+Boulevard de la Plaine 1050 Bruxelles<br />
+Belgium </p>
+<p>Manufacturer </p>
+<p>Pfizer Manufacturing Deutschland GmbH<br />
+Betriebsst tte Freiburg<br />
+Mooswaldallee 1<br />
+79090 Freiburg<br />
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Luxembourg/Luxemburg 
+Pfizer NV/SA 
+T l/Tel: +32 (0)2 554 62 Lietuva 
+Pfizer Luxembourg SARL filialas Lietuvoje 
+Tel: +370 5 251 4<br />
+     ,   <br />
+Te .: +359 2 970 4Magyarorsz g 
+Pfizer Kft. 
+Tel.: + 36 1 488 37  esk  republika 
+Pfizer, spol. s r.o. 
+Tel: +420 283 004 Malta 
+Vivian Corporation Ltd. 
+Tel: +356 21344Danmark 
+Pfizer ApS 
+Tlf: +45 44 20 11 Nederland 
+Pfizer bv 
+Tel: +31 (0)800 63 34 Deutschland 
+PFIZER PHARMA GmbH 
+Tel: +49 (0)30 550055-51Norge 
+Pfizer AS 
+Tlf: +47 67 52 61 Eesti 
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7 sterreich 
+Pfizer Corporation Austria Ges.m.b.H. 
+Tel: +43 (0)1 521 15-0 </p>
+<p>Pfizer   A.E.<br />
+ : +30 210 6785Polska 
+Pfizer Polska Sp. z o.o. 
+Tel.: +48 22 335 61 Espa a 
+Pfizer, S.L. 
+Tel: +34 91 490 99 Portugal 
+Laborat rios Pfizer, Lda. 
+Tel: +351 21 423 5France 
+Pfizer 
+T l: +33 (0)1 58 07 34 Rom nia 
+Pfizer Romania S.R.L. 
+Tel: +40 (0) 21 207 28 Hrvatska 
+Pfizer Croatia d.o.o. 
+Tel: +385 1 3908 Slovenija 
+Pfizer Luxembourg SARL 
+Pfizer, podru nica za svetovanje s podro ja 
+farmacevtske dejavnosti, Ljubljana 
+Tel: +386 (0)1 52 11 Ireland 
+Pfizer Healthcare Ireland 
+Tel: +1800 633 363 (toll free) 
+Tel: +44 (0)1304 616Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
+Tel: + 421 2 3355 5 sland 
+Icepharma hf. 
+S mi: +354 540 8Suomi/Finland 
+Pfizer Oy 
+Puh/Tel: +358 (0)9 430 Italia 
+Pfizer S.r.l. 
+Tel: +39 06 33 18 Sverige 
+Pfizer AB 
+Tel: +46 (0)8 550 520 <br />
+Pfizer    . . (Cyprus Branch) 
+ : +357 22817United Kingdom (Northern Ireland) 
+Pfizer Limited 
+Tel: +44 (0) 1304 616Latvija 
+Pfizer Luxembourg SARL fili le Latvij<br />
+Tel: + 371 670 35 This leaflet was last revised in . </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

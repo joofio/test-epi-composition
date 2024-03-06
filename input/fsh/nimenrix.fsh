@@ -4,7 +4,7 @@ Instance: composition-en-61ed8c3f1f4d3021b93672950d48db1a
 InstanceOf: CompositionUvEpi
 Title: "Composition for nimenrix Package Leaflet"
 Description:  "Composition for nimenrix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Nimenrix is and what it is used for 
 2. What you need to know before you receive  Nimenrix 
 3. How Nimenrix is given 
 4. Possible side effects 
 5. How to store Nimenrix 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -135,8 +134,8 @@ If you are pregnant, think you may be pregnant, plan to become pregnant or are b
 must tell your doctor before receiving Nimenrix. </p>
 <p>Driving and using machines 
 Nimenrix is not likely to affect your ability to drive or use machines. However, do not drive or use any 
-machines if you are feeling unwell. </p>
-<p>Nimenrix contains sodium 
+machines if you are feeling unwell. 
+Nimenrix contains sodium 
 This vaccine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
  sodium-free . </p>         </div>"""   
                     
@@ -266,97 +265,74 @@ Boulevard de la Plaine 1050 Bruxelles
 Belgium </p>
 <p>Manufacturer responsible for batch release: 
 Pfizer Manufacturing Belgium N.V. 
-Rijksweg 12<br />
-B-2870 Puurs<br />
+Rijksweg B-2870 Puurs<br />
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer S.A./N.V. 
-T l/Tel: + 32 (0)2 554 62<br />
-Lietuva 
+T l/Tel: + 32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. + 370 52 51 4 </p>
-<pre><code> ,
-</code></pre>
-<p>Te : +359 2 970 4 
-Magyarorsz g 
+Tel. + 370 52 51 4<br />
+     ,   <br />
+Te : +359 2 970 4Magyarorsz g 
 Pfizer Kft 
 Tel: +36 1 488 3 esk  Republika 
 Pfizer, spol. s r.o. 
-Tel: +420 283 004<br />
-Malta 
+Tel: +420 283 004 Malta 
 Vivian Corporation Ltd. 
-Tel: + 35621 344 
-Danmark 
+Tel: + 35621 344Danmark 
 Pfizer ApS 
-Tlf: + 45 44 201<br />
-Nederland 
+Tlf: + 45 44 201 Nederland 
 Pfizer BV 
-Tel: +31 (0)800 63 34<br />
-Deutschland 
+Tel: +31 (0)800 63 34 Deutschland 
 Pfizer Pharma GmbH 
-Tel: + 49 (0)30 550055-51 
-Norge 
+Tel: + 49 (0)30 550055-51Norge 
 Pfizer AS 
 Tlf: +47 67 526 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel.: +372 666 7 
- sterreich 
+Tel.: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H 
 Tel: + 43 (0)1 521 15-0 </p>
 <p>Pfizer   A.E. 
- .: +30 210 6785<br />
-Polska 
+ .: +30 210 6785 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: +48 22 335 61 Espa a 
 Pfizer, S.L. 
-T lf: +34914909 
-Portugal 
+T lf: +34914909Portugal 
 Laborat rios Pfizer, Lda. 
-Tel: +351 21 423 5 
-France 
+Tel: +351 21 423 5France 
 Pfizer 
-T l +33 1 58 07 34<br />
-Rom nia 
+T l +33 1 58 07 34 Rom nia 
 Pfizer Romania S.R.L 
 Tel: +40 (0) 21 207 28 Hrvatska<br />
 Pfizer Croatia d.o.o. 
-Tel: + 385 1 3908<br />
-Slovenija 
+Tel: + 385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel.: + 386 (0) 1 52 11<br />
-Ireland 
+Tel.: + 386 (0) 1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
-+44 (0)1304 616 
-Slovensk  republika 
++44 (0)1304 616Slovensk  republika 
 Pfizer Luxembourg SARL, 
 organiza n  zlo ka 
-Tel: + 421 2 3355 5 
- sland 
+Tel: + 421 2 3355 5 sland 
 Icepharma hf 
-Simi: + 354 540 8 
-Suomi/Finland 
+Simi: + 354 540 8Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430 Italia 
 Pfizer S.r.l.<br />
-Tel: +39 06 33 18<br />
-Sverige 
+Tel: +39 06 33 18 Sverige 
 Pfizer AB 
-Tel: +46 (0)8 550 520<br />
-K<br />
+Tel: +46 (0)8 550 520 K<br />
 Pfizer    . . (Cyprus Branch)<br />
 T : +357 22 817United Kingdom (Northern Ireland) 
 Pfizer Limited<br />
-Tel: +44 (0) 1304 616 
-Latvija 
+Tel: +44 (0) 1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel.: + 371 670 35  </p>
-<p>This leaflet was last revised in {MM/YYYY} </p>
+Tel.: + 371 670 35 This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

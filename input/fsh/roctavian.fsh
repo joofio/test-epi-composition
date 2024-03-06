@@ -4,7 +4,7 @@ Instance: composition-en-6154ec9930909dd76813cd26c37e2a8e
 InstanceOf: CompositionUvEpi
 Title: "Composition for roctavian Package Leaflet"
 Description:  "Composition for roctavian Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ROCTAVIAN is and what it is used for 
-2. What you need to know before you are given ROCTAVIAN 
-3. How ROCTAVIAN is given 
-4. Possible side effects 
-5. How ROCTAVIAN is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ROCTAVIAN is and what it is used for </li>
+<li>What you need to know before you are given ROCTAVIAN </li>
+<li>How ROCTAVIAN is given </li>
+<li>Possible side effects </li>
+<li>How ROCTAVIAN is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -75,16 +75,7 @@ roxaparvovec. A gene therapy product works by delivering a gene into the body to
 deficiency. </p>
 <p>What ROCTAVIAN is used for 
 This medicine is used for the treatment of severe haemophilia A in adults who do not have current or 
-past inhibitors to factor VIII and who do not have antibodies to the virus vector AAV</p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take roctavian"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take roctavian"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Haemophilia A is a condition where people inherit an altered form of a gene needed to make 
+past inhibitors to factor VIII and who do not have antibodies to the virus vector AAV5. Haemophilia A is a condition where people inherit an altered form of a gene needed to make 
 factor VIII, an essential protein required for blood to clot and stop any bleeding. People with 
 haemophilia A cannot produce factor VIII and are prone to internal or external bleeding episodes. </p>
 <p>How does ROCTAVIAN work 
@@ -93,11 +84,13 @@ This virus has been modified so that it cannot spread in the body but can delive
 factor VIII gene into liver cells. This enables liver cells to produce factor VIII protein and raise levels 
 of working factor VIII in the blood. In turn, this helps the blood to clot more normally and prevents 
 bleeding or reduces bleeding episodes. </p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take roctavian"
+  * title = "2. What you need to know before you take roctavian"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take roctavian"
+  * code.text = "2. What you need to know before you take roctavian"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will not be given ROCTAVIAN 
 - if you are allergic to valoctocogene roxaparvovec or any of the other ingredients of this 
@@ -125,15 +118,7 @@ that may prevent ROCTAVIAN from working well. </p>
 in tests. Corticosteroids may cause side effects while you receive them. Your doctor may advise 
 you to avoid or postpone treatment with ROCTAVIAN if you are not able to safely receive 
 corticosteroids and may also advise you of steps you should take for safe use or may give you 
-an alternative medicine. See also section </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Side effects during or shortly after ROCTAVIAN infusion 
+an alternative medicine. See also section 3. Side effects during or shortly after ROCTAVIAN infusion 
 * Infusion-related side effects can occur during or shortly after you are given the ROCTAVIAN 
 infusion (drip). Symptoms of such side effects are listed in section 4. Possible side effects. Tell 
 your doctor or nurse immediately if you experience these or any other symptoms during or 
@@ -243,12 +228,12 @@ about this. </p>
 This medicine contains 29 mg sodium (main component of cooking/table salt) in each vial. This is 
 equivalent to 1.5% of the recommended maximum daily dietary intake of sodium for an adult. The 
 amount of sodium you will receive depends on the number of ROCTAVIAN vials used for your 
-infusion. </p>         </div>"""      
-        
+infusion. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "5. How to store roctavian"
+  * title =  "3. How to take roctavian"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store roctavian"
+  * code.text = "3. How to take roctavian"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>ROCTAVIAN will be given by a doctor who specialises in the management of your condition. </p>
 <p>The doctor will work out the correct dose for you, based on your body weight. </p>
@@ -269,13 +254,13 @@ As this medicine is given in hospital, and the dose is worked out and checked by
 is unlikely that you will be given too much. If you are given too much ROCTAVIAN, you might have 
 higher factor VIII levels than needed, which may theoretically increase the possibility of unwanted 
 blood clots. If this occurs, your doctor will treat you as necessary. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Infusion-related side effects can occur during or shortly after your infusion (commonly; may affect up 
@@ -324,4 +309,50 @@ If you get any side effects, talk to your doctor or nurse. This includes any pos
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store roctavian"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store roctavian"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>This medicine must not be used after the expiry date which is stated on the carton and vial after 
+ EXP . The expiry date refers to the last day of that month. </p>
+<p>ROCTAVIAN will be stored by the healthcare professionals at your healthcare facility. It must be 
+stored upright and in its original carton (in order to protect it from light). </p>
+<p>It must be stored and transported frozen at or below -60  C. Once thawed, it must be used within 
+10 hours at 25  C (this includes hold time in the vial and syringe, and time for infusion) or discarded. 
+If needed, an intact vial (stopper not yet punctured) that has been thawed can be stored refrigerated 
+(2 to 8  C) for up to 3 days, upright and protected from light (e.g., in the original carton). </p>
+<p>Thawed ROCTAVIAN must not be used if the solution is not clear and colourless to pale yellow. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ROCTAVIAN contains 
+- The active substance is valoctocogene roxaparvovec. 
+- The other ingredients are; disodium phosphate dodecahydrate (E339), mannitol (E421), 
+poloxamer 188, sodium chloride, sodium dihydrogen phosphate dihydrate (E339), and water for 
+injections. 
+See end of section 2 ROCTAVIAN contains sodium for information on the total sodium 
+content. 
+This medicine contains genetically modified organisms (GMOs). </p>
+<p>What ROCTAVIAN looks like and contents of the pack 
+When thawed, ROCTAVIAN is a clear, colourless to pale yellow solution for infusion. It is supplied 
+in a vial. </p>
+<p>Pack size: 1 vial of 8 mL </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+BioMarin International Ltd. 
+Shanbally, Ringaskiddy 
+County Cork 
+P43 RIreland </p>
+<p>This leaflet was last revised in </p>
+<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
+about this medicine. The European Medicines Agency will review new information on this medicine 
+at least every year and this leaflet will be updated as necessary. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

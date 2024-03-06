@@ -4,7 +4,7 @@ Instance: composition-en-ee1b9e575d1fb256c3611a3cc10df97d
 InstanceOf: CompositionUvEpi
 Title: "Composition for pregabalin Package Leaflet"
 Description:  "Composition for pregabalin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Pregabalin Zentiva is and what it is used for 
-2. What you need to know before you take Pregabalin Zentiva 
-3. How to take Pregabalin Zentiva 
-4. Possible side effects 
-5. How to store Pregabalin Zentiva 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Pregabalin Zentiva is and what it is used for </li>
+<li>What you need to know before you take Pregabalin Zentiva </li>
+<li>How to take Pregabalin Zentiva </li>
+<li>Possible side effects </li>
+<li>How to store Pregabalin Zentiva </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -136,18 +136,16 @@ blocked or paralysed bowel). Tell your doctor if you experience constipation, es
 are prone to this problem. 
 * Before taking this medicine, tell your doctor if you have ever abused or been dependent on 
 alcohol, prescription medicines or illegal drugs; it may mean you have a greater risk of 
-becoming dependent on Pregabalin Zentiva. </p>
-<ul>
-<li>There have been reports of convulsions when taking pregabalin or shortly after stopping 
-pregabalin. If you experience a convulsion, contact your doctor immediately. </li>
-<li>There have been reports of reduction in brain function (encephalopathy) in some patients taking 
+becoming dependent on Pregabalin Zentiva. 
+* There have been reports of convulsions when taking pregabalin or shortly after stopping 
+pregabalin. If you experience a convulsion, contact your doctor immediately. 
+* There have been reports of reduction in brain function (encephalopathy) in some patients taking 
 pregabalin when they have other conditions. Tell your doctor if you have a history of any 
-serious medical conditions, including liver or kidney disease. </li>
-<li>There have been reports of breathing difficulties. If you have nervous system disorders, 
+serious medical conditions, including liver or kidney disease. 
+* There have been reports of breathing difficulties. If you have nervous system disorders, 
 respiratory disorders, renal impairment, or you are older than 65, your doctor may prescribe you 
 a different dosing regimen. Contact your doctor if you experience trouble breathing or shallow 
-breaths. </li>
-</ul>
+breaths. </p>
 <p>Dependence 
 Some people may become dependent on Pregabalin Zentiva (a need to keep taking the medicine). 
 They may have withdrawal effects when they stop using Pregabalin Zentiva (see section 3,  How to 
@@ -184,8 +182,8 @@ It is advised not to drink alcohol while taking Pregabalin Zentiva. </p>
 <p>Pregnancy and breast-feeding 
 Pregabalin Zentiva should not be taken during pregnancy or when breast-feeding, unless you are told 
 otherwise by your doctor. Pregabalin use during the first 3 months of pregnancy may cause birth 
-defects in the unborn child that require medical treatment. In a study reviewing data from women in </p>
-<p>Nordic countries who took pregabalin in the first 3 months of pregnancy, 6 babies in every 100 had 
+defects in the unborn child that require medical treatment. In a study reviewing data from women in 
+Nordic countries who took pregabalin in the first 3 months of pregnancy, 6 babies in every 100 had 
 such birth defects. This compares to 4 babies in every 100 born to women not treated with pregabalin 
 in the study. Abnormalities of the face (orofacial clefts), the eyes, the nervous system (including the 
 brain), kidneys and genitals have been reported. </p>
@@ -278,30 +276,28 @@ abnormal.
 * Change in perception of self, restlessness, depression, agitation, mood swings, difficulty finding 
 words, hallucinations, abnormal dreams, panic attack, apathy, aggression, elevated mood, 
 mental impairment, difficulty with thinking, increase in sexual interest, problems with sexual 
-functioning including inability to achieve a sexual climax, delayed ejaculation. </p>
-<ul>
-<li>Changes in eyesight, unusual eye movement, changes in vision including tunnel vision, flashes 
+functioning including inability to achieve a sexual climax, delayed ejaculation. 
+* Changes in eyesight, unusual eye movement, changes in vision including tunnel vision, flashes 
 of light, jerky movements, reduced reflexes, increased activity, dizziness on standing, sensitive 
 skin, loss of taste, burning sensation, tremor on movement, decreased consciousness, loss 
-of consciousness, fainting, increased sensitivity to noise, feeling unwell. </li>
-<li>Dry eyes, eye swelling, eye pain, weak eyes, watery eyes, eye irritation. </li>
-<li>Heart rhythm disturbances, increased heart rate, low blood pressure, high blood pressure, 
-changes in heartbeat, heart failure. </li>
-<li>Flushing, hot flushes. </li>
-<li>Difficulty breathing, dry nose, nasal congestion. </li>
-<li>Increased saliva production, heartburn, numb around mouth. </li>
-<li>Sweating, rash, chills, fever. </li>
-<li>Muscle twitching, joint swelling, muscle stiffness, pain including muscle pain, neck pain. </li>
-<li>Breast pain. </li>
-<li>Difficulty with or painful urination, incontinence. </li>
-<li>Weakness, thirst, chest tightness. </li>
-<li>Changes in blood and liver test results (blood creatinine phosphokinase increased, alanine 
+of consciousness, fainting, increased sensitivity to noise, feeling unwell. 
+* Dry eyes, eye swelling, eye pain, weak eyes, watery eyes, eye irritation. 
+* Heart rhythm disturbances, increased heart rate, low blood pressure, high blood pressure, 
+changes in heartbeat, heart failure. 
+* Flushing, hot flushes. 
+* Difficulty breathing, dry nose, nasal congestion. 
+* Increased saliva production, heartburn, numb around mouth. 
+* Sweating, rash, chills, fever. 
+* Muscle twitching, joint swelling, muscle stiffness, pain including muscle pain, neck pain. 
+* Breast pain. 
+* Difficulty with or painful urination, incontinence. 
+* Weakness, thirst, chest tightness. 
+* Changes in blood and liver test results (blood creatinine phosphokinase increased, alanine 
 aminotransferase increased, aspartate aminotransferase increased, platelet count decreased, 
-neutropaenia, increase in blood creatinine, decrease in blood potassium). </li>
-<li>Hypersensitivity, swollen face, itchiness, hives, runny nose, nose bleed, cough, snoring. </li>
-<li>Painful menstrual periods. </li>
-<li>Coldness of hands and feet. </li>
-</ul>
+neutropaenia, increase in blood creatinine, decrease in blood potassium). 
+* Hypersensitivity, swollen face, itchiness, hives, runny nose, nose bleed, cough, snoring. 
+* Painful menstrual periods. 
+* Coldness of hands and feet. </p>
 <p>Rare: may affect up to 1 in 1 000 people 
 * Abnormal sense of smell, swinging vision, altered perception of depth, visual brightness, vision 
 loss. 
@@ -329,8 +325,8 @@ eyes. These serious skin rashes can be preceded by fever and flu-like symptoms (
 Johnson syndrome, toxic epidermal necrolysis).<br />
 * Jaundice (yellowing of the skin and eyes). 
 * Parkinsonism, that is symptoms resembling Parkinson s disease; such as tremor, bradykinesia 
-(decreased ability to move), and rigidity (muscle stiffness). </p>
-<p>Very rare: may affect up to 1 in 10 000 people 
+(decreased ability to move), and rigidity (muscle stiffness). 
+Very rare: may affect up to 1 in 10 000 people 
 * Liver failure. 
 * Hepatitis (inflammation of the liver). </p>
 <p>Not known: frequency cannot be estimated from the available data 
@@ -378,8 +374,8 @@ yellow iron oxide (E172). </p>
 <p>What Pregabalin Zentiva looks like and contents of the pack 
 25 mg capsules 
 Light grey cap and light grey body; approx. 15,9 mm in length, hard gelatin 
-capsule with imprinting  25 , containing almost white powder. </p>
-<p>50 mg capsules 
+capsule with imprinting  25 , containing almost white powder. 
+50 mg capsules 
 Light grey cap and light grey body; approx. 14,3 mm in length, hard gelatin 
 capsule with imprinting  50 , containing almost white powder. 
 75 mg capsules 
@@ -454,8 +450,7 @@ Zentiva d.o.o.
 Tel: +385 1 6641 PV-Croatia@zentiva.com 
 Ireland 
 Zentiva, k.s. 
-Tel: +353 818 882 243<br />
-PV-Ireland@zentiva.com 
+Tel: +353 818 882 PV-Ireland@zentiva.com 
  sland 
 Zentiva Denmark ApS 
 S mi: +354 539 0PV-Iceland@zentiva.com 
@@ -491,8 +486,8 @@ Zentiva, k.s.
 Tel: +386 360 00 PV-Slovenia@zentiva.com 
 Slovensk  republika 
 Zentiva, a.s. 
-Tel: +421 2 3918 3PV-Slovakia@zentiva.com </p>
-<p>Italia 
+Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
+Italia 
 Zentiva Italia S.r.l. 
 Tel: +39-02-38598PV-Italy@zentiva.com 
 Suomi/Finland 

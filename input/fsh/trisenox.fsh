@@ -4,7 +4,7 @@ Instance: composition-en-8e9729f37593f28a655449a0b1bb5596
 InstanceOf: CompositionUvEpi
 Title: "Composition for trisenox Package Leaflet"
 Description:  "Composition for trisenox Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
- 
-1. What TRISENOX is and what it is used for 
-2. What you need to know before you are given TRISENOX 
-3. How TRISENOX is given 
-4. Possible side effects 
-5. How to store TRISENOX 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+<ol>
+<li>What TRISENOX is and what it is used for </li>
+<li>What you need to know before you are given TRISENOX </li>
+<li>How TRISENOX is given </li>
+<li>Possible side effects </li>
+<li>How to store TRISENOX </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

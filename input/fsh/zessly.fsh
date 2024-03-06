@@ -4,7 +4,7 @@ Instance: composition-en-909f6f2d2e9597ae246c0a311cd0f289
 InstanceOf: CompositionUvEpi
 Title: "Composition for zessly Package Leaflet"
 Description:  "Composition for zessly Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Zessly is and what it is used for 
-2. What you need to know before you use Zessly 
-3. How Zessly will be given 
-4. Possible side effects 
-5. How to store Zessly 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Zessly is and what it is used for </li>
+<li>What you need to know before you use Zessly </li>
+<li>How Zessly will be given </li>
+<li>Possible side effects </li>
+<li>How to store Zessly </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -92,12 +92,10 @@ given Zessly which you will take in combination with another medicine called met
 <p>Psoriatic arthritis 
 Psoriatic arthritis is an inflammatory disease of the joints, usually accompanied by psoriasis. If you 
 have active psoriatic arthritis you will first be given other medicines. If these medicines do not 
-work well enough, you will be given Zessly to: </p>
-<ul>
-<li>Reduce the signs and symptoms of your disease </li>
-<li>Slow down the damage in your joints </li>
-<li>Improve your physical function. </li>
-</ul>
+work well enough, you will be given Zessly to: 
+* Reduce the signs and symptoms of your disease 
+* Slow down the damage in your joints 
+* Improve your physical function. </p>
 <p>Ankylosing spondylitis (Bechterew s disease) 
 Ankylosing spondylitis is an inflammatory disease of the spine. If you have ankylosing spondylitis 
 you will first be given other medicines. If these medicines do not work well enough, you will be 
@@ -146,8 +144,8 @@ higher risk for allergic reactions when you start the treatment again. </p>
 * Tell your doctor before you are given Zessly if you have an infection, even if it is a very 
 minor one. 
 * Tell your doctor before you are given Zessly if you have ever lived in or travelled to an area 
-where infections called histoplasmosis, coccidioidomycosis, or blastomycosis are common. </p>
-<p>These infections are caused by specific types of fungi that can affect the lungs or other parts 
+where infections called histoplasmosis, coccidioidomycosis, or blastomycosis are common. 
+These infections are caused by specific types of fungi that can affect the lungs or other parts 
 of your body. 
 * You may get infections more easily when you are being treated with Zessly. If you are 65 or 
 older, you have a greater risk. 
@@ -197,11 +195,9 @@ cancer. For women taking Zessly including those over 60 years of age, your docto
 recommend regular screening for cervical cancer. </p>
 <p>Lung disease or heavy smoking 
 * Tell your doctor before you are given Zessly if you have a lung disease called chronic 
-obstructive pulmonary disease (COPD) or if you are a heavy smoker. </p>
-<ul>
-<li>Patients with COPD and patients who are heavy smokers may have a higher risk of 
-developing cancer with Zessly treatment. </li>
-</ul>
+obstructive pulmonary disease (COPD) or if you are a heavy smoker. 
+* Patients with COPD and patients who are heavy smokers may have a higher risk of 
+developing cancer with Zessly treatment. </p>
 <p>Nervous system disease 
 * Tell your doctor if you have or have ever had a problem that affects your nervous system 
 before you are given Zessly. This includes multiple sclerosis, Guillain-Barr  syndrome, if 
@@ -292,16 +288,14 @@ pregnant, giving BCG vaccine (used to prevent tuberculosis) to your baby within 
 after birth may result in infection with serious complications, including death. Live vaccines 
 such as the BCG vaccine should not be given to your baby within 12 months after birth, 
 unless your baby s doctor recommends otherwise. For more information see section on 
-vaccination. </p>
-<ul>
-<li>If you are breast-feeding, it is important that you tell your baby s doctors and other 
+vaccination. 
+* If you are breast-feeding, it is important that you tell your baby s doctors and other 
 healthcare professionals about your Zessly use before your baby is given any vaccine. Live 
 vaccines should not be given to your baby while you are breast-feeding unless your baby s 
-doctor recommends otherwise. </li>
-<li>Severely decreased numbers of white blood cells have been reported in infants born to 
+doctor recommends otherwise. 
+* Severely decreased numbers of white blood cells have been reported in infants born to 
 women treated with infliximab during pregnancy. If your baby has continual fevers or 
-infections, contact your baby s doctor immediately. </li>
-</ul>
+infections, contact your baby s doctor immediately. </p>
 <p>Driving and using machines 
 Zessly is not likely to affect your ability to drive or use tools or machines. If you feel tired, dizzy or 
 unwell after having Zessly, do not drive or use any tools or machines. </p>
@@ -401,32 +395,30 @@ over the body. These skin reactions can be accompanied by fever. </p>
 * Headache 
 * Side effect due to an infusion 
 * Pain. </p>
-<p>Common (may affect up to 1 in 10 people) </p>
-<ul>
-<li>Changes in how your liver works, increase in liver enzymes (shown in blood tests) </li>
-<li>Lung or chest infections such as bronchitis or pneumonia </li>
-<li>Difficult or painful breathing, chest pain </li>
-<li>Bleeding in the stomach or intestines, diarrhoea, indigestion, heartburn, constipation </li>
-<li>Nettle-type rash (hives), itchy rash or dry skin </li>
-<li>Balance problems or feeling dizzy </li>
-<li>Fever, increased sweating </li>
-<li>Circulation problems such as low or high blood pressure, </li>
-<li>Bruising, hot flush or nosebleed, warm, red skin (flushing) </li>
-<li>Feeling tired or weak </li>
-<li>Bacterial infections such as blood poisoning, abscess or infection of the skin (cellulitis) </li>
-<li>Infection of the skin due to a fungus </li>
-<li>Blood problems such as anaemia or low white blood cell count </li>
-<li>Swollen lymph nodes </li>
-<li>Depression, problems sleeping </li>
-<li>Eye problems, including red eyes and infections </li>
-<li>Fast heart beat (tachycardia) or palpitations </li>
-<li>Pain in the joints, muscles or back </li>
-<li>Urinary tract infection </li>
-<li>Psoriasis, skin problems such as eczema and hair loss </li>
-<li>Reactions at the injection site such as pain, swelling, redness or itching </li>
-<li>Chills, a build up of fluid under the skin causing swelling </li>
-<li>Feeling numb or having a tingling feeling. </li>
-</ul>
+<p>Common (may affect up to 1 in 10 people) 
+* Changes in how your liver works, increase in liver enzymes (shown in blood tests) 
+* Lung or chest infections such as bronchitis or pneumonia 
+* Difficult or painful breathing, chest pain 
+* Bleeding in the stomach or intestines, diarrhoea, indigestion, heartburn, constipation 
+* Nettle-type rash (hives), itchy rash or dry skin 
+* Balance problems or feeling dizzy 
+* Fever, increased sweating 
+* Circulation problems such as low or high blood pressure, 
+* Bruising, hot flush or nosebleed, warm, red skin (flushing) 
+* Feeling tired or weak 
+* Bacterial infections such as blood poisoning, abscess or infection of the skin (cellulitis) 
+* Infection of the skin due to a fungus 
+* Blood problems such as anaemia or low white blood cell count 
+* Swollen lymph nodes 
+* Depression, problems sleeping 
+* Eye problems, including red eyes and infections 
+* Fast heart beat (tachycardia) or palpitations 
+* Pain in the joints, muscles or back 
+* Urinary tract infection 
+* Psoriasis, skin problems such as eczema and hair loss 
+* Reactions at the injection site such as pain, swelling, redness or itching 
+* Chills, a build up of fluid under the skin causing swelling 
+* Feeling numb or having a tingling feeling. </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 * Shortage of blood supply, swelling of a vein 
 * Collection of blood outside the blood vessels (haematoma) or bruising 
@@ -508,8 +500,8 @@ compared with adults who took infliximab for Crohn's disease. The side effects t
 in children were: low red blood cells (anaemia), blood in stool, low overall levels of white blood 
 cells (leukopenia), redness or blushing (flushing), viral infections, low levels of white blood cells 
 that fight infection (neutropenia), bone fracture, bacterial infection and allergic reactions of the 
-breathing tract. </p>
-<p>Reporting of side effects 
+breathing tract. 
+Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on 
@@ -561,85 +553,64 @@ Biochemiestr. 6336 Langkampfen
 Austria </p>
 <p>Lek Pharmaceuticals d.d. 
 Verov kova ulica 1526 Ljubljana 
-Slovenia  </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
+Slovenia<br />
+For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Sandoz nv/sa 
-T l/Tel: +32 2 722 97<br />
-Lietuva 
+T l/Tel: +32 2 722 97 Lietuva 
 Sandoz Pharmaceuticals d.d filialas 
 Tel: +370 5 2636   </p>
-<p>.: +359 2 970 47<br />
-Luxembourg/Luxemburg 
+<p>.: +359 2 970 47 Luxembourg/Luxemburg 
 Sandoz nv/sa 
-T l/Tel.: +32 2 722 97<br />
- esk  republika 
+T l/Tel.: +32 2 722 97  esk  republika 
 Sandoz s.r.o. 
-Tel: +420 225 775<br />
-Magyarorsz g 
+Tel: +420 225 775 Magyarorsz g 
 Sandoz Hung ria Kft. 
-Tel.: +36 1 430 2 
-Danmark/Norge/ sland/Sverige 
+Tel.: +36 1 430 2Danmark/Norge/ sland/Sverige 
 Sandoz A/S 
-Tlf: +45 63 95 10<br />
-Malta 
+Tlf: +45 63 95 10 Malta 
 Sandoz Pharmaceuticals d.d. 
 Tel: +35699644Deutschland 
 Hexal AG 
 Tel: +49 8024 908 0 </p>
 <p>Nederland 
 Sandoz B.V. 
-Tel: +31 36 52 41<br />
-Eesti 
+Tel: +31 36 52 41 Eesti 
 Sandoz d.d. Eesti filiaal 
-Tel: +372 665 2 
- sterreich 
+Tel: +372 665 2 sterreich 
 Sandoz GmbH 
 Tel: +43 5338 2<br />
 SANDOZ HELLAS    . . 
- : +30 216 600 5 
-Polska 
+ : +30 216 600 5Polska 
 Sandoz Polska Sp. z o.o. 
-Tel.: +48 22 209 70<br />
-Espa a 
+Tel.: +48 22 209 70 Espa a 
 Sandoz Farmac utica, S.A. 
-Tel: +34 900 456<br />
-Portugal 
+Tel: +34 900 456 Portugal 
 Sandoz Farmac utica Lda. 
-Tel: +351 21 000 86<br />
-France 
+Tel: +351 21 000 86 France 
 Sandoz SAS 
-T l: +33 1 49 64 48<br />
-Rom nia 
+T l: +33 1 49 64 48 Rom nia 
 Sandoz Pharmaceuticals SRL 
-Tel: +40 21 407 51<br />
-Hrvatska 
+Tel: +40 21 407 51 Hrvatska 
 Sandoz d.o.o. 
-Tel: +385 1 23 53 111  </p>
-<p>Slovenija 
+Tel: +385 1 23 53 Slovenija 
 Sandoz farmacevtska dru ba d.d. 
 Tel: +386 1 580 29 Ireland 
 Rowex Ltd. 
-Tel: + 353 27 50 
-Slovensk  republika 
+Tel: + 353 27 50Slovensk  republika 
 Sandoz d.d. - organiza n  zlo ka 
-Tel: +421 2 50 70 6 
-Italia 
+Tel: +421 2 50 70 6Italia 
 Sandoz S.p.A. 
-Tel: +39 02 96 
-Suomi/Finland 
+Tel: +39 02 96Suomi/Finland 
 Sandoz A/S 
-Puh/Tel: +358 10 6133  </p>
-<p>Sandoz Pharmaceuticals d.d. 
- : +357 22 69 0 
-United Kingdom (Northern Ireland) 
+Puh/Tel: +358 10 6133 <br />
+Sandoz Pharmaceuticals d.d. 
+ : +357 22 69 0United Kingdom (Northern Ireland) 
 Sandoz GmbH 
-Tel: +43 5338 2 
-Latvija 
+Tel: +43 5338 2Latvija 
 Sandoz d.d. Latvia fili le 
-Tel: +371 67 892  </p>
-<p>This leaflet was last revised in  </p>
+Tel: +371 67 892 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

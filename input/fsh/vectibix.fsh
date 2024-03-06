@@ -4,7 +4,7 @@ Instance: composition-en-fa1d1dbf5b18ae3c108f87c843db6e2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vectibix Package Leaflet"
 Description:  "Composition for vectibix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Vectibix is and what it is used for 
-2. What you need to know before you use Vectibix 
-3. How to use Vectibix 
-4. Possible side effects 
-5. How to store Vectibix 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Vectibix is and what it is used for </li>
+<li>What you need to know before you use Vectibix </li>
+<li>How to use Vectibix </li>
+<li>Possible side effects </li>
+<li>How to store Vectibix </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -299,93 +299,66 @@ Belgium </p>
 Marketing Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-Tel/T l: +32 (0)2 7752 
-Lietuva 
+Tel/T l: +32 (0)2 7752Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 </p>
+Tel: +370 5 219 7  </p>
 <p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
 s.a. Amgen 
 Belgique/Belgien 
-Tel/T l: +32 (0)2 7752 
- esk  republika 
+Tel/T l: +32 (0)2 7752 esk  republika 
 Amgen s.r.o. 
-Tel: +420 221 773<br />
-Magyarorsz g 
+Tel: +420 221 773 Magyarorsz g 
 Amgen Kft. 
-Tel.: +36 1 35 44<br />
-Danmark 
+Tel.: +36 1 35 44 Danmark 
 Amgen, filial af Amgen AB, Sverige 
-Tlf: +45 39617 
-Malta 
+Tlf: +45 39617Malta 
 Amgen S.r.l. 
 Italy 
-Tel: +39 02 6241 
-Deutschland 
+Tel: +39 02 6241Deutschland 
 Amgen GmbH 
-Tel.: +49 89 1490 
-Nederland 
+Tel.: +49 89 1490Nederland 
 Amgen B.V. 
-Tel: +31 (0)76 5732 
-Eesti 
+Tel: +31 (0)76 5732Eesti 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +372 586 09 
-Norge 
+Tel: +372 586 09Norge 
 Amgen AB 
-Tel: +47 23308 </p>
-<p>Amgen      . . . 
- .: +30 210 3447 
- sterreich 
+Tel: +47 23308<br />
+Amgen      . . . 
+ .: +30 210 3447 sterreich 
 Amgen GmbH 
-Tel: +43 (0)1 50<br />
-Espa a 
+Tel: +43 (0)1 50 Espa a 
 Amgen S.A. 
-Tel: +34 93 600 18<br />
-Polska 
+Tel: +34 93 600 18 Polska 
 Amgen Biotechnologia Sp. z o.o. 
-Tel.: +48 22 581 3 
-France 
+Tel.: +48 22 581 3France 
 Amgen S.A.S. 
-T l: +33 (0)9 69 363<br />
-Portugal 
+T l: +33 (0)9 69 363 Portugal 
 Amgen Biofarmac utica, Lda. 
-Tel: +351 21 4220 
-Hrvatska 
+Tel: +351 21 4220Hrvatska 
 Amgen d.o.o. 
-Tel: +385 (0)1 562 57<br />
-Rom nia 
+Tel: +385 (0)1 562 57 Rom nia 
 Amgen Rom nia SRL 
-Tel: +4021 527 3 
-Ireland 
+Tel: +4021 527 3Ireland 
 Amgen Ireland Limited 
-Tel: +353 1 8527 
-Slovenija 
+Tel: +353 1 8527Slovenija 
 AMGEN zdravila d.o.o. 
-Tel: +386 (0)1 585 1 
- sland 
+Tel: +386 (0)1 585 1 sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Amgen Slovakia s.r.o. 
-Tel: +421 2 321 114<br />
-Italia 
+Tel: +421 2 321 114 Italia 
 Amgen S.r.l. 
-Tel: +39 02 6241 
-Suomi/Finland 
+Tel: +39 02 6241Suomi/Finland 
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
-Puh/Tel: +358 (0)9 54900 
-K<br />
+Puh/Tel: +358 (0)9 54900K<br />
 C.A. Papaellinas Ltd 
- .: +357 22741<br />
-Sverige 
+ .: +357 22741 Sverige 
 Amgen AB 
-Tel: +46 (0)8 6951 
-Latvija 
+Tel: +46 (0)8 6951Latvija 
 Amgen Switzerland AG R gas fili le 
-Tel: +371 257 25 
-United Kingdom (Northern Ireland) 
+Tel: +371 257 25United Kingdom (Northern Ireland) 
 Amgen Limited 
-Tel: +44 (0)1223 420 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

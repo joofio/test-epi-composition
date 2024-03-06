@@ -4,7 +4,7 @@ Instance: composition-en-d78597bd4a8ec02c40a4fe805d40f1ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for uzpruvo Package Leaflet"
 Description:  "Composition for uzpruvo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Uzpruvo is and what it is used for
 2. What you need to know before you use Uzpruvo
 3. How to use Uzpruvo
 4. Possible side effects
 5. How to store Uzpruvo
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -192,8 +191,8 @@ Uzpruvo has no or negligible influence on the ability to drive and use machines.
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Uzpruvo is intended for use under the guidance and supervision of a doctor experienced in treating 
 conditions for which Uzpruvo is intended.  </p>
 <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you are not 
-sure. Talk to your doctor about when you will have your injections and follow-up appointments.  </p>
-<p>How much Uzpruvo is given<br />
+sure. Talk to your doctor about when you will have your injections and follow-up appointments.<br />
+How much Uzpruvo is given<br />
 Your doctor will decide how much Uzpruvo you need to use and for how long.  </p>
 <p>Adults aged 18 years or older<br />
  Psoriasis or psoriatic arthritis<br />
@@ -379,104 +378,74 @@ injection. It is supplied as a carton pack containing 1 single-dose, glass 1 mL 
 pre-filled syringe contains 45 mg ustekinumab in 0.5 mL solution for injection.  </p>
 <p>Marketing Authorisation Holder<br />
 STADA Arzneimittel AG<br />
-Stadastrasse 2 18<br />
-61118 Bad Vilbel <br />
+Stadastrasse 2 61118 Bad Vilbel <br />
 Germany  </p>
 <p>Manufacturer<br />
 Alvotech Hf 
-S mundargata 15-19<br />
-Reykjavik, 102<br />
-Iceland </p>
+S mundargata 15-Reykjavik, Iceland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
 <p>Belgi /Belgique/Belgien 
 EG (Eurogenerics) NV 
-T l/Tel: +32 4797 
-Lietuva 
+T l/Tel: +32 4797Lietuva 
 UAB  STADA Baltics<br />
-Tel: +370 52603 </p>
-<p>STADA Bulgaria EOOD 
-Te .: +359 29624 
-Luxembourg/Luxemburg 
+Tel: +370 52603<br />
+STADA Bulgaria EOOD 
+Te .: +359 29624Luxembourg/Luxemburg 
 EG (Eurogenerics) NV 
-T l/Tel: +32 4797 
- esk  republika 
+T l/Tel: +32 4797 esk  republika 
 STADA PHARMA CZ s.r.o. 
-Tel: +420 257888 
-Magyarorsz g 
+Tel: +420 257888Magyarorsz g 
 STADA Hungary Kft 
-Tel.: +36 18009 
-Danmark 
+Tel.: +36 18009Danmark 
 STADA Nordic ApS 
-Tlf: +45 44859 
-Malta 
+Tlf: +45 44859Malta 
 STADA Arzneimittel AG 
-Tel: +49 61016 
-Deutschland 
+Tel: +49 61016Deutschland 
 STADAPHARM GmbH 
-Tel: +49 61016 
-Nederland 
+Tel: +49 61016Nederland 
 Centrafarm B.V. 
-Tel.: +31 765081 
-Eesti 
+Tel.: +31 765081Eesti 
 UAB  STADA Baltics<br />
-Tel: +370 52603 
-Norge 
+Tel: +370 52603Norge 
 STADA Nordic ApS 
-Tlf: +45 44859 </p>
-<p>STADA Arzneimittel AG 
-Tel: +30 2106664 
- sterreich 
+Tlf: +45 44859<br />
+STADA Arzneimittel AG 
+Tel: +30 2106664 sterreich 
 STADA Arzneimittel GmbH 
-Tel: +43 136785 
-Espa a 
+Tel: +43 136785Espa a 
 Laboratorio STADA, S.L. 
-Tel: +34 934738 
-Polska 
+Tel: +34 934738Polska 
 STADA Poland Sp. z.o o. 
-Tel: +48 227377 
-France 
+Tel: +48 227377France 
 EG LABO - Laboratoires EuroGenerics 
-T l: +33 146948 
-Portugal 
+T l: +33 146948Portugal 
 Stada, Lda. 
-Tel: +351 211209 
-Hrvatska 
+Tel: +351 211209Hrvatska 
 STADA d.o.o. 
-Tel: +385 13764 
-Rom nia 
+Tel: +385 13764Rom nia 
 STADA M&amp;D SRL 
-Tel: +40 213160 
-Ireland 
+Tel: +40 213160Ireland 
 Clonmel Healthcare Ltd. 
-Tel: +353 526177 
-Slovenija 
+Tel: +353 526177Slovenija 
 Stada d.o.o. 
-Tel: +386 15896 
- sland 
+Tel: +386 15896 sland 
 STADA Arzneimittel AG 
-S mi: +49 61016 
-Slovensk  republika 
+S mi: +49 61016Slovensk  republika 
 STADA PHARMA Slovakia, s.r.o. 
-Tel: +421 252621 
-Italia 
+Tel: +421 252621Italia 
 EG SpA 
-Tel: +39 028310 
-Suomi/Finland 
+Tel: +39 028310Suomi/Finland 
 STADA Nordic ApS, Suomen sivuliike 
-Puh/Tel: +358 207416 </p>
-<p>STADA Arzneimittel AG 
- : +30 2106664 
-Sverige 
-STADA Nordic ApS 
-Tel: +45 44859 
-Latvija 
-UAB  STADA Baltics<br />
-Tel: +370 52603 
-United Kingdom (Northern Ireland) 
+Puh/Tel: +358 207416<br />
 STADA Arzneimittel AG 
-Tel: +49 61016 </p>
-<p>This leaflet was last revised in  </p>
+ : +30 2106664Sverige 
+STADA Nordic ApS 
+Tel: +45 44859Latvija 
+UAB  STADA Baltics<br />
+Tel: +370 52603United Kingdom (Northern Ireland) 
+STADA Arzneimittel AG 
+Tel: +49 61016This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

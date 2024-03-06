@@ -4,7 +4,7 @@ Instance: composition-en-f5bf35ae4883076cccfcead008b65f47
 InstanceOf: CompositionUvEpi
 Title: "Composition for heplisav Package Leaflet"
 Description:  "Composition for heplisav Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What HEPLISAV B is and what it is used for  
-2. What you need to know before you receive  HEPLISAV B  
-3. How HEPLISAV B is given  
-4. Possible side effects  
-5. How to store HEPLISAV B 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What HEPLISAV B is and what it is used for  </li>
+<li>What you need to know before you receive  HEPLISAV B  </li>
+<li>How HEPLISAV B is given  </li>
+<li>Possible side effects  </li>
+<li>How to store HEPLISAV B </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -211,8 +211,8 @@ Very rare (may affect up to 1 in 10,000 people)
 You should seek immediate treatment if you get any signs of a serious allergic reaction. 
 The signs may include: face swelling, low blood pressure, difficulty breathing, loss of consciousness, 
 fever, joint stiffness and a skin rash. Such reactions usually start very soon after injection. </p>
-<p>Other side effects </p>
-<p>Very Common (may affect more than 1 in 10 people) 
+<p>Other side effects 
+Very Common (may affect more than 1 in 10 people) 
 * Headache 
 * Muscle aches 
 * Feeling tired 
@@ -293,10 +293,8 @@ republika, Suomi/Finland, Sverige, United
 Kingdom (Northern Ireland) 
 Dynavax GmbH 
 T l/Tel/Te ./Tlf/ /S mi/Puh: 
-+49 211 758 
-Deutschland 
++49 211 758Deutschland 
 Bavarian Nordic A/S 
-Tel: +49 89 26200 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +49 89 26200This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-4a09b3a8552105810368cbf52100627e
 InstanceOf: CompositionUvEpi
 Title: "Composition for deferiprone Package Leaflet"
 Description:  "Composition for deferiprone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Deferiprone Lipomed is and what it is used for 
-2. What you need to know before you take Deferipone Lipomed 
-3. How to take Deferiprone Lipomed 
-4. Possible side effects  
-5. How to store Deferiprone Lipomed 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Deferiprone Lipomed is and what it is used for </li>
+<li>What you need to know before you take Deferipone Lipomed </li>
+<li>How to take Deferiprone Lipomed </li>
+<li>Possible side effects  </li>
+<li>How to store Deferiprone Lipomed </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

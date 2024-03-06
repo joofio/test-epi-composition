@@ -4,7 +4,7 @@ Instance: composition-en-dd18b3b8f2dba9230f63c60b0e5cbf28
 InstanceOf: CompositionUvEpi
 Title: "Composition for gonal Package Leaflet"
 Description:  "Composition for gonal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What GONAL-f is and what it is used for 
-2. What you need to know before you use GONAL-f 
-3. How to use GONAL-f 
-4. Possible side effects 
-5. How to store GONAL-f 
-6. Contents of the pack and other information  
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What GONAL-f is and what it is used for </li>
+<li>What you need to know before you use GONAL-f </li>
+<li>How to use GONAL-f </li>
+<li>Possible side effects </li>
+<li>How to store GONAL-f </li>
+<li>Contents of the pack and other information  </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -233,8 +233,8 @@ stopped. For the following cycle, your doctor will give you a higher starting do
 before. 
 If your body responds too strongly, your treatment with GONAL-f will be stopped and you will not be 
 given any hCG (see section 2,  Ovarian hyper-stimulation syndrome (OHSS) ). For the following 
-cycle, your doctor will give you a lower dose of GONAL-f than before. </p>
-<p>If you need to develop several eggs for collection prior to any assisted reproductive technology </p>
+cycle, your doctor will give you a lower dose of GONAL-f than before. 
+If you need to develop several eggs for collection prior to any assisted reproductive technology </p>
 <ul>
 <li>The usual starting dose of GONAL-f is 150 to 225 IU each day, from day 2 or 3 of your 
 treatment cycle.  </li>
@@ -387,6 +387,6 @@ solvent in pre-filled syringes. Not all pack sizes may be marketed. </li>
 <p>Merck Europe B.V., Gustav Mahlerplein 102, 1082 MA Amsterdam, The Netherlands </p>
 <p>Manufacturer </p>
 <p>Merck Serono S.p.A., Via delle Magnolie 15, 70026 Modugno (Bari), Italy </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>This leaflet was last revised in {MM/YYYY}. 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

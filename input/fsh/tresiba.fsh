@@ -4,7 +4,7 @@ Instance: composition-en-fab5fa92013ddb0c611232569286ddbb
 InstanceOf: CompositionUvEpi
 Title: "Composition for tresiba Package Leaflet"
 Description:  "Composition for tresiba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Tresiba is and what it is used for 
 2. What you need to know before you use Tresiba 
 3. How to use Tresiba 
 4. Possible side effects 
 5. How to store Tresiba 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -100,22 +99,15 @@ from another type, brand or manufacturer of insulin. Talk to your doctor. </li>
 diabetic eye disorder. If you experience eye problems, talk to your doctor. </li>
 <li>Ensuring you use the right type of insulin   always check the insulin label before each injection 
 to avoid accidental mix-ups between different strengths of Tresiba as well as other insulin 
-products. </li>
-</ul>
-<p>If you have poor eyesight, please see section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take tresiba"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tresiba"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Skin changes at the injection site 
+products. 
+If you have poor eyesight, please see section 3. Skin changes at the injection site 
 The injection site should be rotated to help prevent changes to the fatty tissue under the skin, such as 
 skin thickening, skin shrinking or lumps under the skin. The insulin may not work very well if you 
 inject into a lumpy, shrunken or thickened area (see section 3  How to use Tresiba ). Tell your doctor 
 if you notice any skin changes at the injection site. Tell your doctor if you are currently injecting into 
 these affected areas before you start injecting in a different area. Your doctor may tell you to check 
-your blood sugar more closely, and to adjust your insulin or your other antidiabetic medications dose. </p>
+your blood sugar more closely, and to adjust your insulin or your other antidiabetic medications dose. </li>
+</ul>
 <p>Children and adolescents 
 Tresiba can be used in adolescents and children aged 1 year and above. There is no experience with 
 the use of Tresiba in children below the age of 1 year. </p>
@@ -166,13 +158,12 @@ could be dangerous to yourself or others. Ask your doctor whether you can drive 
 * you find it hard to recognise too low blood sugar. </p>
 <p>Important information about some of the ingredients of Tresiba 
 This medicine contains less than 1 mmol sodium (23 mg) per dose. This means that the medicine is 
-essentially  sodium-free . </p>         </div>"""         
-
-        
+essentially  sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take tresiba"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take tresiba"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor, pharmacist or 
 nurse if you are not sure. </p>
@@ -237,12 +228,13 @@ next regular scheduled dose, do not inject a double dose, but resume your once-d
 <p>If you stop using Tresiba 
 Do not stop using your insulin without talking to your doctor. If you stop using your insulin, this could 
 lead to a very high blood sugar level and ketoacidosis (a condition with too much acid in the blood), 
-see advice in section 4  Too high blood sugar . </p>         </div>"""      
+see advice in section 4  Too high blood sugar . </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store tresiba"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tresiba"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Hypoglycaemia (too low blood sugar) may occur very commonly with insulin treatment (may affect 
@@ -334,11 +326,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store tresiba"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store tresiba"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the pen label and carton, after  EXP . 
@@ -352,4 +343,35 @@ above 30 C) or in a refrigerator (2 C to 8 C) for up to 8 weeks. </p>
 <p>Always keep the cap on the pen when you are not using it in order to protect it from light.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tresiba contains<br />
+* The active substance is insulin degludec. Each mL of solution contains 100 units of insulin 
+degludec. Each pre-filled pen contains 300 units of insulin degludec in 3 mL solution. </p>
+<ul>
+<li>The other ingredients are glycerol, metacresol, phenol, zinc acetate, hydrochloric acid and 
+sodium hydroxide (for pH adjustment) and water for injections (see section 2). </li>
+</ul>
+<p>What Tresiba looks like and contents of the pack 
+Tresiba is presented as a clear and colourless solution for injection in a pre-filled pen (300 units per 
+3 mL). </p>
+<p>Pack sizes of 1 (with or without needles), 5 (without needles) and multipack of 10 (2 x 5) (without 
+needles) pre-filled pens of 3 mL. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder<br />
+Novo Nordisk A/S 
+Novo All <br />
+DK-2880 Bagsv rd, Denmark </p>
+<p>Manufacturer </p>
+<p>The manufacturer can be identified by the batch number printed on the slip of the carton and on the 
+label: </p>
+<p>If the second and third characters are P5, ZF or FG, the manufacturer is Novo Nordisk A/S, 
+Novo All , DK-2880 Bagsv rd, Denmark. </p>
+<p>If the second and third characters are T6, the manufacturer is Novo Nordisk Production SAS, Avenue d Orl ans, 28000 Chartres, France. </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

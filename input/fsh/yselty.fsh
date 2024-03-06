@@ -4,7 +4,7 @@ Instance: composition-en-29aa13d063497263a16ff19921f8de13
 InstanceOf: CompositionUvEpi
 Title: "Composition for yselty Package Leaflet"
 Description:  "Composition for yselty Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Yselty is and what it is used for 
-2. What you need to know before you take Yselty 
-3. How to take Yselty 
-4. Possible side effects 
-5. How to store Yselty 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Yselty is and what it is used for </li>
+<li>What you need to know before you take Yselty </li>
+<li>How to take Yselty </li>
+<li>Possible side effects </li>
+<li>How to store Yselty </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,8 +98,8 @@ section 6) </li>
 </ul>
 <p>If you are taking Yselty together with additional hormonal therapy of estradiol and norethisterone 
 acetate (also known as add-back therapy), follow the instructions in the  Do not take  section of the 
-package leaflets for estradiol and norethisterone acetate. </p>
-<p>Warnings and precautions<br />
+package leaflets for estradiol and norethisterone acetate. 
+Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Yselty.  </p>
 <p>Before you start treatment with Yselty, your doctor will discuss your medical and family history and 
 relevant risk factors with you. Your doctor will also need to check your blood pressure and make sure 
@@ -288,8 +288,7 @@ Theramex Ireland Limited<br />
 3rd Floor, Kilmore House,<br />
 Park Lane, Spencer Dock,<br />
 Dublin 1<br />
-D01 YE64<br />
-Ireland </p>
+D01 YEIreland </p>
 <p>Manufacturer 
 Patheon France 
 40 boulevard de Champaret 

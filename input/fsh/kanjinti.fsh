@@ -4,7 +4,7 @@ Instance: composition-en-d9a2d4a9aed73e1deb35a60f1ae8a7b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for kanjinti Package Leaflet"
 Description:  "Composition for kanjinti Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What KANJINTI is and what it is used for  
-2. What you need to know before you are given KANJINTI  
-3. How KANJINTI is given 
-4. Possible side effects  
-5. How to store KANJINTI 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What KANJINTI is and what it is used for  </li>
+<li>What you need to know before you are given KANJINTI  </li>
+<li>How KANJINTI is given </li>
+<li>Possible side effects  </li>
+<li>How to store KANJINTI </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -363,5 +363,87 @@ dispose of medicines no longer required. These measures will help to protect the
   420 mg trastuzumab that has to be dissolved in 20 mL of water for injection. 
 * The resulting solution contains approximately 21 mg/mL trastuzumab. 
 * The other ingredient(s) are histidine, histidine monohydrochloride, trehalose dihydrate, 
-polysorbate 2</p>         </div>"""      
+polysorbate 20. What KANJINTI looks like and contents of the pack 
+KANJINTI is a powder for concentrate for solution, which is supplied in a glass vial with a rubber 
+stopper containing either 150 mg or 420 mg of trastuzumab. The powder is a white to pale yellow 
+pellet. Each carton contains 1 vial of powder. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Amgen Europe B.V. 
+Minervum 7NL-4817 ZK Breda 
+The Netherlands </p>
+<p>Marketing Authorisation Holder 
+Amgen Europe B.V. 
+Minervum 7NL-4817 ZK Breda 
+The Netherlands </p>
+<p>Manufacturer<br />
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/T l: +32 (0)2 7752Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7  </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen<br />
+Belgique/Belgien 
+Tel/T l: +32 (0)2 7752 esk  republika 
+Amgen s.r.o. 
+Tel: +420 221 773 Magyarorsz g 
+Amgen Kft. 
+Tel.: +36 1 35 44 Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617Malta 
+Amgen S.r.l. 
+Tel: +39 02 6241Deutschland 
+Amgen GmbH 
+Tel.: +49 89 1490Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09Norge 
+Amgen AB 
+Tel: +47 23308<br />
+Amgen      . . .<br />
+ .: +30 210 3447 sterreich 
+Amgen GmbH<br />
+Tel: +43 (0)1 50 Espa a 
+Amgen S.A. 
+Tel: +34 93 600 18 Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3France 
+Amgen S.A.S. 
+T l: +33 (0)9 69 363 Portugal 
+Amgen Biofarmac utica, Lda. 
+Tel: +351 21 4220Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57 Rom nia 
+Amgen Rom nia SRL 
+Tel: +4021 527 3Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114 Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900K<br />
+C.A. Papaellinas Ltd 
+ .: +357 22741 Sverige 
+Amgen AB<br />
+Tel: +46 (0)8 6951Latvija 
+Amgen Switzerland AG R gas fili le 
+Tel: +371 257 25United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

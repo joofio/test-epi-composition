@@ -4,7 +4,7 @@ Instance: composition-en-9291fddf7fee8d0f0e396206f1f18b06
 InstanceOf: CompositionUvEpi
 Title: "Composition for ninlaro Package Leaflet"
 Description:  "Composition for ninlaro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What NINLARO is and what it is used for 
 2. What you need to know before you take NINLARO 
 3. How to take NINLARO 
 4. Possible side effects 
 5. How to store NINLARO 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -332,17 +331,14 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-T l/Tel: +32 2 464 06 11<br />
-medinfoEMEA@takeda.com </p>
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB<br />
-Tel: +370 521 09 070<br />
-medinfoEMEA@takeda.com </p>
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
 <p>.: + 359 2 958 27 medinfoEMEA@takeda.com  </p>
 <p>Luxembourg/Luxemburg 
 Takeda Belgium NV 
-T l/Tel: +32 2 464 06 11<br />
-medinfoEMEA@takeda.com  </p>
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com  </p>
 <p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o.<br />
 Tel: +420 234 722 medinfoEMEA@takeda.com </p>
@@ -351,8 +347,7 @@ Takeda Pharma Kft.<br />
 Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
 <p>Danmark 
 Takeda Pharma A/S<br />
-Tlf: +45 46 77 10 10<br />
-medinfoEMEA@takeda.com </p>
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
 <p>Malta 
 Drugsales Ltd 
 Tel: +356 21419safety@drugsalesltd.com </p>
@@ -364,8 +359,7 @@ Takeda Nederland B.V.
 Tel: +31 20 203 5medinfoEMEA@takeda.com 
 Eesti 
 Takeda Pharma AS<br />
-Tel: +372 6177 669<br />
-medinfoEMEA@takeda.com </p>
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
 <p>Norge 
 Takeda AS<br />
 Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
@@ -373,8 +367,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
 T : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
 <p>Espa a 
 Takeda Farmac utica Espa a, S.A.<br />
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
@@ -386,15 +379,13 @@ Takeda France SAS
 T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
 Takeda Farmac uticos Portugal, Lda. 
-Tel: + 351 21 120 1457<br />
-medinfoEMEA@takeda.com </p>
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o.<br />
 Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
 <p>Rom nia 
 Takeda Pharmaceuticals SRL<br />
-Tel: +40 21 335 03 91<br />
-medinfoEMEA@takeda.com </p>
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
 <p>Ireland 
 Takeda Products Ireland Ltd 
 Tel: 1800 937 medinfoEMEA@takeda.com </p>
@@ -403,12 +394,10 @@ Takeda Pharmaceuticals farmacevtska dru ba d.o.o.
 Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
 <p>sland 
 Vistor hf.<br />
-S mi: +354 535 7000<br />
-medinfoEMEA@takeda.com </p>
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
 <p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o.<br />
-Tel: +421 (2) 20 602 600<br />
-medinfoEMEA@takeda.com </p>
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
 <p>Italia 
 Takeda Italia S.p.A.<br />
 Tel: +39 06 502medinfoEMEA@takeda.com </p>
@@ -419,12 +408,10 @@ Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
 T : +357 22583a.potamitismedicare@cytanet.com.cy </p>
 <p>Sverige 
 Takeda Pharma AB<br />
-Tel: 020 795 079<br />
-medinfoEMEA@takeda.com </p>
+Tel: 020 795 medinfoEMEA@takeda.com </p>
 <p>Latvija 
 Takeda Latvia SIA<br />
-Tel: +371 67840082<br />
-medinfoEMEA@takeda.com </p>
+Tel: +371 67840medinfoEMEA@takeda.com </p>
 <p>United Kingdom (Northern Ireland) 
 Takeda UK Ltd<br />
 Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>

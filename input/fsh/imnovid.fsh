@@ -4,7 +4,7 @@ Instance: composition-en-9690a7f47a287edf985eddd979c0833b
 InstanceOf: CompositionUvEpi
 Title: "Composition for imnovid Package Leaflet"
 Description:  "Composition for imnovid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Imnovid is and what it is used for 
-2. What you need to know before you take Imnovid 
-3. How to take Imnovid 
-4. Possible side effects 
-5. How to store Imnovid 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Imnovid is and what it is used for </li>
+<li>What you need to know before you take Imnovid </li>
+<li>How to take Imnovid </li>
+<li>Possible side effects </li>
+<li>How to store Imnovid </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -376,16 +376,9 @@ Tell your doctor straightaway if you notice any of these symptoms. </li>
 involvement (Drug Reaction with Eosinophilia and Systemic Symptoms which is also known as 
 DRESS or drug hypersensitivity syndrome, Toxic Epidermal Necrolysis or Stevens-Johnson 
 Syndrome). Stop using pomalidomide if you develop these symptoms and contact your doctor 
-or seek medical attention immediately. See also section </li>
-</ul>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store imnovid"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store imnovid"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stop taking Imnovid and see a doctor straight away if you notice any of the serious side effects 
-listed above   you may need urgent medical treatment. </p>
+or seek medical attention immediately. See also section 2. Stop taking Imnovid and see a doctor straight away if you notice any of the serious side effects 
+listed above   you may need urgent medical treatment. </li>
+</ul>
 <p>Other side effects 
 Very common (may affect more than 1 in 10 people): 
 * Shortness of breath (dyspnoea). 
@@ -473,11 +466,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store imnovid"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store imnovid"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blister and carton after EXP. The 
@@ -486,4 +478,60 @@ expiry date refers to the last day of that month. </p>
 <p>Do not use Imnovid if you notice any damage or signs of tampering to medicine packaging. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Any unused medicine should be 
 returned to the pharmacist at the end of treatment. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Imnovid contains 
+* The active substance is pomalidomide. 
+* The other ingredients are mannitol (E421), starch, pregelatinised, and sodium stearyl fumarate. </p>
+<p>Imnovid 1 mg hard capsule: 
+* Each capsule contains 1 mg of pomalidomide. 
+* The capsule shell contains: gelatin, titanium dioxide (E171), indigotine (E132) and yellow iron 
+oxide (E172) and white and black ink. 
+* The printing ink contains: shellac, titanium dioxide (E171), simeticone, propylene glycol 
+(E1520) and ammonium hydroxide (E527) (white ink) and shellac, iron oxide black (E172), 
+propylene glycol (E1520) and ammonium hydroxide (E527) (black ink). </p>
+<p>Imnovid 2 mg hard capsule: 
+* Each capsule contains 2 mg of pomalidomide. 
+* The capsule shell contains: gelatin, titanium dioxide (E171), indigotine (E132), yellow iron 
+oxide (E172), erythrosin (E127) and white ink. 
+* The printing ink contains: white ink - shellac, titanium dioxide (E171), simeticone, propylene 
+glycol (E1520) and ammonium hydroxide (E527). </p>
+<p>Imnovid 3 mg hard capsule: 
+* Each capsule contains 3 mg of pomalidomide. 
+* The capsule shell contains: gelatin, titanium dioxide (E171), indigotine (E132), yellow iron 
+oxide (E172) and white ink. 
+* The printing ink contains: white ink - shellac, titanium dioxide (E171), simeticone, propylene 
+glycol (E1520) and ammonium hydroxide (E527). </p>
+<p>Imnovid 4 mg hard capsule: 
+* Each capsule contains 4 mg of pomalidomide. 
+* The capsule shell contains: gelatin, titanium dioxide (E171), indigotine (E132), brilliant blue 
+FCF (E133), and white ink. 
+* The printing ink contains: white ink - shellac, titanium dioxide (E171), simeticone, propylene 
+glycol (E1520) and ammonium hydroxide (E527). </p>
+<p>What Imnovid looks like and contents of the pack 
+Imnovid 1 mg hard capsules: Dark blue opaque cap and yellow opaque body, with  POML 1 mg<br />
+written on them. 
+Imnovid 2 mg hard capsules: Dark blue opaque cap and orange opaque body, with  POML 2 mg<br />
+written on them. 
+Imnovid 3 mg hard capsules: Dark blue opaque cap and green opaque body, with  POML 3 mg<br />
+written on them. 
+Imnovid 4 mg hard capsules: Dark blue opaque cap and blue opaque body, with  POML 4 mg  written 
+on them. </p>
+<p>Each pack contains 14 or 21 capsules. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIreland </p>
+<p>Manufacturer </p>
+<p>Celgene Distribution B.V. 
+Orteliuslaan 13528 BD Utrecht<br />
+Netherlands </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

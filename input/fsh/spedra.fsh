@@ -4,7 +4,7 @@ Instance: composition-en-67eb9f5d8991acd60b19f2204c2773c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for spedra Package Leaflet"
 Description:  "Composition for spedra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Spedra is and what it is used for 
-2. What you need to know before you take Spedra 
-3. How to take Spedra 
-4. Possible side effects 
-5. How to store Spedra 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Spedra is and what it is used for </li>
+<li>What you need to know before you take Spedra </li>
+<li>How to take Spedra </li>
+<li>Possible side effects </li>
+<li>How to store Spedra </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -326,36 +326,27 @@ Menarini Benelux NV/SA
 T l/Tel: + 32 (0)2 721 4Lietuva 
 UAB  BERLIN-CHEMIE MENARINI 
 BALTIC<br />
-Tel: +370 52 691  </p>
-<ul>
-<li>/ .     <br />
- .: +359 2 454 0 
-Luxembourg/Luxemburg 
+Tel: +370 52 691 <br />
+ - / .     <br />
+ .: +359 2 454 0Luxembourg/Luxemburg 
 Menarini Benelux NV/SA 
 T l/Tel: + 32 (0)2 721 4 esk  republika 
 Berlin-Chemie/A.Menarini Ceska republika 
 s.r.o. 
-Tel: +420 267 199<br />
-Magyarorsz g 
+Tel: +420 267 199 Magyarorsz g 
 Berlin-Chemie/A. Menarini Kft. 
 Tel.: +36 23501Danmark 
 Pharmaprim AB 
-Tlf: +46 8355 
-Malta 
+Tlf: +46 8355Malta 
 Menarini International Operations Luxembourg 
 S.A. 
-Tel: +352 264 
-Deutschland 
+Tel: +352 264Deutschland 
 Berlin-Chemie AG 
-Tel: +49 (0) 30 67 
-Nederland 
+Tel: +49 (0) 30 67Nederland 
 Menarini Benelux NV/SA 
-Tel: +32 (0)2 721 4 </li>
-</ul>
-<p>Eesti 
+Tel: +32 (0)2 721 4Eesti 
 O  Berlin-Chemie Menarini Eesti 
-Tel: +372 667 5 </p>
-<p>Norge 
+Tel: +372 667 5Norge 
 Pharmaprim AB 
 Tlf: +46 8355<br />
 MENARINI HELLAS AE 
@@ -381,14 +372,12 @@ Berlin-Chemie / A. Menarini Distribution
 Ljubljana d.o.o.<br />
 Tel: +386 01 300 2 sland 
 Pharmaprim AB 
-S mi: +46 8355 
-Slovensk  republika 
+S mi: +46 8355Slovensk  republika 
  Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o.Tel: +421 2 544 30 Italia 
 A. Menarini Industrie Farmaceutiche Riunite 
 s.r.l. 
-Tel: +39-055 56 
-Suomi/Finland 
+Tel: +39-055 56Suomi/Finland 
 Berlin-Chemie/A.Menarini Suomi OY 
 Puh/Tel: +358 403 000 <br />
 MENARINI HELLAS AE 

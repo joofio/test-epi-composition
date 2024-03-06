@@ -4,7 +4,7 @@ Instance: composition-en-c9badf491db3dae4a0c364bdfb2e49d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for mvabea Package Leaflet"
 Description:  "Composition for mvabea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Mvabea is and what it is used for
 2. What you need to know before you or your child are given Mvabea
 3. How Mvabea is given
 4. Possible side effects
 5. How to store Mvabea
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -118,14 +117,8 @@ doctor, pharmacist or nurse if any of the points below apply to you or your chil
 you do not understand, ask your doctor, pharmacist or nurse to explain.
 Do not have the vaccine if</p>
 <p>you or your child have ever had a severe allergic reaction to any of the active substances or any 
-of the other ingredients listed in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take mvabea"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take mvabea"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>you or your child have ever had a severe allergic reaction to chicken or eggs or an antibiotic 
+of the other ingredients listed in section 6.<br />
+you or your child have ever had a severe allergic reaction to chicken or eggs or an antibiotic 
 known as  gentamicin .
 If you are not sure, talk to your doctor, pharmacist or nurse before you are given the vaccine.
 Warnings and precautions
@@ -181,13 +174,12 @@ Driving and using machines
 Mvabea has no known effect on the ability to drive and use machines.
 Mvabea contains Sodium
 Mvabea contains less than 1 mmol sodium (23 mg) per dose of 0.5 mL, that is to say essentially 
- sodium-free .</p>         </div>"""         
-
-        
+ sodium-free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take mvabea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take mvabea"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor or nurse will inject the vaccine into a muscle (intramuscular injection) in the upper arm or 
 thigh.
@@ -224,12 +216,13 @@ Mvabea.
 If you miss an appointment for vaccination of Zabdeno or Mvabea</p>
 <p>If you miss an appointment, tell your doctor and arrange another visit.</p>
 <p>If you miss a scheduled injection, you may not be fully protected from Ebola virus.</p>
-<p>If you have any further questions on the use of this vaccine, ask your doctor.</p>         </div>"""      
+<p>If you have any further questions on the use of this vaccine, ask your doctor.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store mvabea"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store mvabea"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this vaccine can cause side effects, although not everybody gets them. Most of the 
 side effects happen within 7 days of getting the injection.
@@ -271,15 +264,189 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store mvabea"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store mvabea"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this vaccine out of the sight and reach of children.
 Information about storage, expiry, and use and handling are described in the section intended for 
 healthcare professionals at the end of the leaflet.
 Your doctor or pharmacist is responsible for storing this vaccine and disposing of any unused product 
 correctly.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Mvabea contains
+One dose (0.5 mL) contains:</p>
+<p>The active substance is Modified Vaccinia Ankara Bavarian Nordic Virus* encoding the:</p>
+<p>Zaire ebolavirus Mayinga variant glycoprotein (GP)</p>
+<p>Sudan ebolavirus Gulu variant GP</p>
+<p>Tai Forest ebolavirus nucleoprotein</p>
+<p>Marburg marburgvirus Musoke variant GP
+Not less than 0.7 x 108 infectious units
+* Produced in chicken embryo fibroblast cells and by recombinant DNA technology.
+This product contains genetically modified organisms (GMOs).
+This vaccine contains trace residues of gentamicin (see section 2).</p>
+<p>The other ingredients (excipients) are sodium chloride, trometamol, water for injections and 
+hydrochloric acid (for pH adjustment).
+What Mvabea looks like and contents of the pack
+Mvabea is a suspension in a single-dose glass vial (0.5 mL) with a rubber stopper and yellow cap.
+Light yellow, clear to milky suspension.
+Mvabea is available in a pack containing 20 single-dose vials.
+Marketing Authorisation Holder
+Janssen-Cilag International NV
+Turnhoutseweg B-2340 Beerse
+Belgium
+Manufacturer
+Janssen Biologics B.V.
+Einsteinweg 2333 CB Leiden
+The Netherlands
+Janssen Pharmaceutica NV
+Turnhoutseweg B-2340 Beerse
+Belgium
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Janssen-Cilag NV
+Tel/T l: +32 14 64 94 janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 lt@its.jnj.com</p>
+<p>&amp;    <br />
+ .: +359 2 489 94 jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+T l/Tel: +32 14 64 94 janssen@jacbe.jnj.com
+ esk  republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 Magyarorsz g
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 jacno@its.jnj.com</p>
+<p>Janssen-Cilag    . . . .
+T : +30 210 80 90  sterreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 Espa a
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 France
+Janssen-Cilag
+T l: 0 800 25 50 75 / +33 1 55 00 40 medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmac utica, Lda.
+Tel: +351 214 368 Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 jjsafety@JNJCR.JNJ.com
+Rom nia
+Johnson &amp; Johnson Rom nia SRL
+Tel: +40 21 207 1Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 Janssen_safety_slo@its.jnj.com
+ sland
+Janssen-Cilag AB
+c/o Vistor hf.
+S mi: +354 535 7janssen@vistor.is
+Slovensk  republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 jacfi@its.jnj.com</p>
+<p>: +357 22 207 Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" fili le Latvij 
+Tel: +371 678 93lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 medinfo@its.jnj.com
+This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;.
+This vaccine has been authorised under  exceptional circumstances . This means that for scientific 
+reasons it has been impossible to get complete information on this medicine. The European Medicines 
+Agency will review any new information on this vaccine every year and this leaflet will be updated as 
+necessary.
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu.
+This leaflet is available in all EU/EEA languages on the European Medicines Agency website.</p>
+<hr />
+<p>The following information is intended for healthcare professionals only:</p>
+<p>As with all injectable vaccines, appropriate medical treatment and supervision must always be 
+readily available in the event of an anaphylactic reaction following the administration of
+Mvabea. Individuals should be observed by a healthcare professional for at least 15 minutes 
+after vaccination.</p>
+<p>Mvabea must not be mixed with other medicinal products in the same syringe.</p>
+<p>Mvabea must not be administered by intravascular injection under any circumstances.</p>
+<p>Immunisation should be carried out by intramuscular (IM) injection preferably in the upper arm 
+in the region of the deltoid or in the thigh.</p>
+<p>Syncope (fainting) can occur following, or even before, any vaccination as a psychogenic 
+response to injection with a needle. Procedures should be in place to prevent injury from falling 
+and to manage syncopal reactions.
+Instructions for administration and handling
+Mvabea is a light yellow, clear to milky suspension. The vaccine should be inspected visually for 
+particulate matter and discolouration prior to administration. The vial should be inspected visually for 
+cracks or any abnormalities, such as evidence of tampering prior to administration. If there are signs of 
+any of these, do not administer the vaccine.
+Once the vaccine has been removed from the freezer and thawed, use immediately or store in a 
+refrigerator at 2 C to 8 C (see section 6.4). Once removed from the refrigerator for administration, it 
+should be used immediately.
+Gently mix the contents of the vial by swirling for 10 seconds. Do not shake. Use a sterile needle and 
+sterile syringe to extract the entire contents from the vial for administration.
+Use a separate sterile needle and syringe for each individual. It is not necessary to change needles 
+between drawing up the vaccine from a vial and injecting it into a recipient, unless the needle has been 
+damaged or contaminated. Any remaining content in the vial should be discarded.
+Any unused medicinal product or waste material should be disposed of in accordance to local 
+requirements. Potential spills should be disinfected with agents with viricidal activity against vaccinia 
+virus.
+Information about storage
+Do not use this vaccine after the expiry date which is stated on the carton after EXP. The expiry date 
+refers to the last day of that month.
+Transport frozen at -25 C to -15 C. Upon receipt, the product can be stored as indicated below:
+Store in a freezer at -85 C to -55 C at the distributor in case of stockpiling. The expiry date for storage 
+at -85 C to -55 C is printed on the vial and outer carton after EXP.
+The vaccine can also be stored by the distributor or end user in a freezer at -25 C to -15 C for a single 
+period of up to 7 months. Upon removal from the -85 C to -55 C freezer, the new expiry date must be 
+written by the distributor or end user on the outer carton and the vaccine should be used or discarded 
+at the end of the 7 months. This new expiry date should not exceed the original expiry date (EXP). The 
+original expiry date should be made unreadable.
+The vaccine can also be stored by the distributor or end user in a refrigerator at 2 C to 8 C for a single 
+period of up to 1 month. Upon moving the product to 2 C to 8 C storage, the discard date must be 
+written by the distributor or end user on the outer carton and the vaccine should be used or discarded 
+at the end of the 1 month period. This discard date should not exceed the original expiry date (EXP), 
+or the new expiry date assigned for the -25 C to -15 C storage condition. The original expiry date 
+and/or the new expiry date assigned for the -25 C to -15 C storage condition should be made 
+unreadable.
+Once thawed, the vaccine cannot be refrozen.
+The vial must be kept in the original package in order to protect from light and to track the expiry or 
+discard date for the different storage conditions.</p>         </div>"""      
 

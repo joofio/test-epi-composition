@@ -4,7 +4,7 @@ Instance: composition-en-52a624241d4cc518b719672757fc515f
 InstanceOf: CompositionUvEpi
 Title: "Composition for cinacalcet Package Leaflet"
 Description:  "Composition for cinacalcet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Cinacalcet Accordpharma is and what it is used for 
 2. What you need to know before you take Cinacalcet Accordpharma 
 3. How to take Cinacalcet Accordpharma 
 4. Possible side effects 
 5. How to store Cinacalcet Accordpharma 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -129,14 +128,7 @@ Accordpharma. </p>
 <p>Low calcium levels can have an effect on your heart rhythm. Tell your doctor if you experience an 
 unusually fast or pounding heartbeat, if you have heart rhythm problems, or if you take medicines 
 known to cause heart rhythm problems, while taking Cinacalcet Accordpharma. </p>
-<p>For additional information see section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take cinacalcet"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take cinacalcet"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>During treatment with Cinacalcet Accordpharma, tell your doctor:</p>
+<p>For additional information see section 4. During treatment with Cinacalcet Accordpharma, tell your doctor:</p>
 <ul>
 <li>if you start or stop smoking, as this may affect the way Cinacalcet Accordpharma works. </li>
 </ul>
@@ -183,13 +175,12 @@ may decide to modify your treatment, as Cinacalcet Accordpharma might harm the u
 with you if you should discontinue either breast-feeding or treatment with Cinacalcet Accordpharma. </p>
 <p>Driving and using machines 
 Dizziness and seizures have been reported by patients taking Cinacalcet Accordpharma. If you 
-experience these side effects, do not drive or operate machines. </p>         </div>"""         
-
-        
+experience these side effects, do not drive or operate machines. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take cinacalcet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take cinacalcet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are unsure. Your doctor will tell you how much Cinacalcet Accordpharma you 
@@ -215,12 +206,13 @@ or cramps and seizures. </p>
 <p>If you forget to take Cinacalcet Accordpharma 
 Do not take a double dose to make up for a forgotten dose. 
 If you have forgotten a dose of Cinacalcet Accordpharma, you should take your next dose as normal. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store cinacalcet"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store cinacalcet"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Please tell your doctor immediately:</p>
@@ -269,11 +261,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V By reporting side effects you can help provide more information on the safety of 
 this medicine.  </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store cinacalcet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store cinacalcet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
@@ -283,4 +274,64 @@ refers to the last day of that month. </p>
 <p>This medicinal product does not require any special storage conditions. 
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Cinacalcet Accordpharma contains 
+- The active substance is cinacalcet. Each film-coated tablet contains 30 mg, 60 mg or 90 mg of 
+cinacalcet (as hydrochloride). 
+- The other ingredients are:</p>
+<ul>
+<li>Cellulose, microcrystalline </li>
+<li>Crospovidone </li>
+<li>Magnesium stearate </li>
+<li>
+<p>The tablets are coated with:</p>
+</li>
+<li>
+<p>Hypromellose (E464),  </p>
+</li>
+<li>Titanium dioxide (E171),  </li>
+<li>Triacetin,  </li>
+<li>Indigo carmine aluminum lake (E132),  </li>
+<li>Iron oxide yellow (E172) </li>
+</ul>
+<p>What Cinacalcet Accordpharma looks like and contents of the pack </p>
+<p>Cinacalcet Accordpharma 30 mg film-coated tablets (tablet) </p>
+<p>Light green colored, oval shaped (approximately 9.65 mm long and 6.00 mm wide), biconvex, film-
+coated tablets debossed with "HB1" on one side and plain on other side. </p>
+<p>Cinacalcet Accordpharma 60 mg film-coated tablets (tablet) </p>
+<p>Light green colored, oval shaped (approximately 12.20 mm long and 7.60 mm wide), biconvex, film-
+coated tablets debossed with "HB2" on one side and plain on other side. </p>
+<p>Cinacalcet Accordpharma 90 mg film-coated tablets (tablet) </p>
+<p>Light green colored, oval shaped (approximately 14.00 mm long and 8.70 mm wide), biconvex, film-
+coated tablets debossed with "HB3" on one side and plain on other side. 
+Cinacalcet Accordpharma is available in blisters of 30 mg, 60 mg or 90 mg film-coated tablets. 
+Cinacalcet Accordpharma is provided in PVC/Alu blister packs containing 14, 28 or 84 tablets and 
+unit dose blister containing 14 x 1, 28 x 1 or 84 x 1 tablet. 
+Cinacalcet Accordpharma is available in bottles of 30 mg, 60 mg or 90 mg film-coated tablets. Each 
+bottle holds 30 film-coated tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Accord Healthcare S.L.U 
+World Trade Center, Moll de Barcelona s/n,<br />
+Edifici Est, 6a planta,<br />
+08039 Barcelona, Spain </p>
+<p>Manufacturer </p>
+<p>LABORATORI FUNDACI  DAU 
+C/ C, 12-14 Pol. Ind. Zona Franca, 
+Barcelona, 08040, Spain </p>
+<p>Pharmadox Healthcare Ltd. 
+KW20A Kordin Industrial Park 
+Paola, PLA 3Malta </p>
+<p>Accord Healthcare Polska Sp. z o.o., 
+ul. Lutomierska 50, Pabianice, 
+95-200, Poland </p>
+<p>This leaflet was last revised in {MM/YYYY} </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

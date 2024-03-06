@@ -4,7 +4,7 @@ Instance: composition-en-d7b1f21254cfe6d481d9f6365694f530
 InstanceOf: CompositionUvEpi
 Title: "Composition for apexxnar Package Leaflet"
 Description:  "Composition for apexxnar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Apexxnar is and what it is used for
 2. What you need to know before you receive  Apexxnar
 3. How Apexxnar is given
 4. Possible side effects
 5. How to store Apexxnar
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -271,7 +270,7 @@ T : +357 22817United Kingdom (Northern Ireland)
 Pfizer Limited
 Tel: + 44 (0) 1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
-Tel.: + 371 670 35 This leaflet was last revised in <em>{MM/YYYY}</em>
+Tel.: + 371 670 35 This leaflet was last revised in &lt;{MM/YYYY}&gt;
 Other sources of information
 Detailed information on this product is available on the European Medicines Agency web site: 
 http://www.ema.europa.eu.</p>

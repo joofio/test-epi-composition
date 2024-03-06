@@ -4,7 +4,7 @@ Instance: composition-en-7480c406c1476ad2011cc90003d94188
 InstanceOf: CompositionUvEpi
 Title: "Composition for spinraza Package Leaflet"
 Description:  "Composition for spinraza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Spinraza is and what it is used for 
-2. What you need to know before you or your child are given Spinraza 
-3. How Spinraza is given 
-4. Possible side effects 
-5. How to store Spinraza 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Spinraza is and what it is used for </li>
+<li>What you need to know before you or your child are given Spinraza </li>
+<li>How Spinraza is given </li>
+<li>Possible side effects </li>
+<li>How to store Spinraza </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

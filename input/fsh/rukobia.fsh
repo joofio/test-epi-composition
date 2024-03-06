@@ -4,7 +4,7 @@ Instance: composition-en-4ebd45ede513ed024b967ea8c9e55dab
 InstanceOf: CompositionUvEpi
 Title: "Composition for rukobia Package Leaflet"
 Description:  "Composition for rukobia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Rukobia is and what it is used for  
-2. What you need to know before you take Rukobia  
-3. How to take Rukobia  
-4. Possible side effects  
-5. How to store Rukobia  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Rukobia is and what it is used for  </li>
+<li>What you need to know before you take Rukobia  </li>
+<li>How to take Rukobia  </li>
+<li>Possible side effects  </li>
+<li>How to store Rukobia  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -215,8 +215,8 @@ treat your HIV infection.  </p>
 <p>If you get any symptoms of infection and inflammation or if you notice any of the symptoms 
 above: 
   Tell your doctor immediately. Do not take other medicines for the infection without 
-checking with your doctor. </p>
-<p>Very common side effects (may affect more than 1 in 10 people):<br />
+checking with your doctor. 
+Very common side effects (may affect more than 1 in 10 people):<br />
 * feeling sick (nausea) 
 * diarrhoea 
 * being sick (vomiting) 
@@ -314,90 +314,71 @@ Authorisation Holder: </p>
 ViiV Healthcare srl/bv<br />
 T l/Tel: + 32 (0) 10 85 65 Lietuva 
 ViiV Healthcare BV 
-Tel: + 370 80000 </p>
-<p>ViiV Healthcare BV 
+Tel: + 370 80000<br />
+ViiV Healthcare BV 
 Te .: + 359 80018Luxembourg/Luxemburg 
 ViiV Healthcare srl/bv<br />
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 65<br />
- esk  republika 
+T l/Tel: + 32 (0) 10 85 65  esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com </p>
 <p>Magyarorsz g 
 ViiV Healthcare BV 
-Tel: + 36 80088 
-Danmark 
+Tel: + 36 80088Danmark 
 GlaxoSmithKline Pharma A/S 
 Tlf: + 45 36 35 91 dk-info@gsk.com </p>
 <p>Malta 
 ViiV Healthcare BV 
-Tel: + 356 80065 
-Deutschland 
+Tel: + 356 80065Deutschland 
 ViiV Healthcare GmbH<br />
-Tel.: + 49 (0)89 203 0038-10<br />
-viiv.med.info@viivhealthcare.com  </p>
+Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com  </p>
 <p>Nederland 
 ViiV Healthcare BV<br />
-Tel: + 31 (0)33 2081 </p>
-<p>Eesti 
+Tel: + 31 (0)33 2081Eesti 
 ViiV Healthcare BV 
-Tel: + 372 8002 </p>
-<p>Norge 
+Tel: + 372 8002Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>GlaxoSmithKline   A.E.B.E. 
- : + 30 210 68 82<br />
- sterreich 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
 <p>Espa a 
 Laboratorios ViiV Healthcare, S.L.<br />
-Tel: + 34 900 923 501<br />
-es-ci@viivhealthcare.com </p>
+Tel: + 34 900 923 es-ci@viivhealthcare.com </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 </p>
-<p>France 
+Tel.: + 48 (0)22 576 9France 
 ViiV Healthcare SAS<br />
 T l.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com 
 Portugal 
 VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
-Tel: + 351 21 094 08 01<br />
-viiv.fi.pt@viivhealthcare.com </p>
+Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
 <p>Hrvatska 
 ViiV Healthcare BV 
-Tel: + 385 800787 
-Rom nia 
+Tel: + 385 800787Rom nia 
 ViiV Healthcare BV 
-Tel: + 40800672 
-Ireland 
+Tel: + 40800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija 
+Tel: + 353 (0)1 4955Slovenija 
 ViiV Healthcare BV 
-Tel: + 386 80688 </p>
-<p>sland 
+Tel: + 386 80688 sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 ViiV Healthcare BV 
-Tel: + 421 800500 </p>
-<p>Italia 
+Tel: + 421 800500Italia 
 ViiV Healthcare S.r.l<br />
-Tel: + 39 (0)45 7741 
-Suomi/Finland 
+Tel: + 39 (0)45 7741Suomi/Finland 
 GlaxoSmithKline Oy 
 Puh/Tel: + 358 (0)10 30 30 Finland.tuoteinfo@gsk.com </p>
 <p>ViiV Healthcare BV 
- : + 357 80070 </p>
-<p>Sverige 
+ : + 357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 
 ViiV Healthcare BV 
-Tel: + 371 80205 </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: + 371 80205United Kingdom (Northern Ireland) 
 ViiV Healthcare BV 
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in {MM/YYYY}.  </p>

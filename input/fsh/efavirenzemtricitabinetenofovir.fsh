@@ -4,7 +4,7 @@ Instance: composition-en-65f18cefcd0fd99147e2e0a1f92724f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
 Description:  "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva is and what it is used for 
 2. What you need to know before you take Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
 3. How to take Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
 4. Possible side effects 
 5. How to store Efavirenz/Emtricitabine/Tenofovir disoproxil Zentiva 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -610,8 +609,7 @@ Zentiva Polska Sp. z o.o.
 Tel: + 48 22 375 92 PV-Poland@zentiva.com </p>
 <p>France 
 Zentiva France 
-T l: +33 (0) 800 089 219<br />
-PV-France@zentiva.com 
+T l: +33 (0) 800 089 PV-France@zentiva.com 
 Portugal 
 Zentiva Portugal, Lda 
 Tel: +351210601PV-Portugal@zentiva.com 

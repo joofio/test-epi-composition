@@ -4,7 +4,7 @@ Instance: composition-en-5e5d8991119f1b6cc9a73ed8524ab6d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for adtralza Package Leaflet"
 Description:  "Composition for adtralza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Adtralza is and what it is used for 
 2. What you need to know before you use Adtralza 
 3. How to use Adtralza 
 4. Possible side effects 
 5. How to store Adtralza 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,14 +98,7 @@ called anaphylaxis. You must look out for signs of these reactions (such as brea
 swelling of the face, mouth, and tongue, fainting, dizziness, feeling lightheaded (because of low blood 
 pressure), hives, itching and skin rash) while you are using Adtralza. 
 Stop using Adtralza and tell your doctor or get medical help immediately if you notice any signs of an 
-allergic reaction. Such signs are listed in the beginning of section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take adtralza"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take adtralza"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Parasitic infection in the intestines 
+allergic reaction. Such signs are listed in the beginning of section 4. Parasitic infection in the intestines 
 Adtralza may reduce your resistance to infections caused by parasites. Any parasitic infection should 
 be treated before you start treatment with Adtralza. Tell your doctor if you have diarrhoea, gas, upset 
 stomach, greasy stools, and dehydration which could be signs of a parasitic infection. If you live in a 
@@ -132,13 +124,12 @@ not do both. </p>
 Adtralza is unlikely to reduce your ability to drive and use machines. </p>
 <p>Adtralza contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 150 mg that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take adtralza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take adtralza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor, pharmacist or nurse has told you. Check with your 
 doctor, pharmacist or nurse if you are not sure. </p>
@@ -162,12 +153,13 @@ If you miss injecting a dose at the right time, inject Adtralza as soon as possi
 should be injected at the regular scheduled time. </p>
 <p>If you stop using Adtralza 
 Do not stop using Adtralza without speaking to your doctor first. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store adtralza"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store adtralza"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Adtralza can cause serious side effects, including allergic (hypersensitivity) reactions such as 
@@ -195,11 +187,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store adtralza"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store adtralza"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
@@ -215,4 +206,90 @@ the carton, and use Adtralza within 14 days. Adtralza must not be refrigerated a
 Do not throw away any medicines via wastewater or household waste. Ask your doctor, pharmacist or 
 nurse how to throw away medicines you no longer use. These measures will help protect the 
 environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Adtralza contains 
+- The active substance is tralokinumab. 
+- Each pre-filled syringe contains 150 mg of tralokinumab in 1 mL solution for injection. 
+- The other ingredients are sodium acetate trihydrate (E262), acetic acid (E260), sodium chloride, 
+polysorbate 80 (E433) and water for injections. </p>
+<p>What Adtralza looks like and contents of the pack 
+Adtralza is a clear to opalescent, colourless to pale yellow solution, supplied in a glass pre-filled 
+syringe with a needle guard. </p>
+<p>Adtralza is available in unit packs containing 2 pre-filled syringes or in multipacks containing 4 (2 
+packs of 2) or 12 (6 packs of 2) pre-filled syringes. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>LEO Pharma A/S 
+Industriparken DK-2750 Ballerup 
+Denmark </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+LEO Pharma N.V./S.A 
+T l/Tel: +32 3 740 7Lietuva 
+LEO Pharma A/S 
+Tel: +45 44 94 58 <br />
+LEO Pharma A/S 
+Te .: +45 44 94 58 Luxembourg/Luxemburg 
+LEO Pharma N.V./S.A 
+T l/Tel: +32 3 740 7 esk  republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575 Magyarorsz g 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Danmark 
+LEO Pharma AB 
+Tlf: +45 70 22 49 Malta 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Deutschland 
+LEO Pharma GmbH 
+Tel: +49 6102 2Nederland 
+LEO Pharma B.V. 
+Tel: +31 205104Eesti 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Norge 
+LEO Pharma AS 
+Tlf: +47 22514<br />
+LEO Pharmaceutical Hellas S.A. 
+ : +30 210 68 34 sterreich 
+LEO Pharma GmbH 
+Tel: +43 1 503 6Espa a 
+Laboratorios LEO Pharma, S.A. 
+Tel: +34 93 221 3Polska 
+LEO Pharma Sp. z o.o. 
+Tel.: +48 22 244 18 France 
+Laboratoires LEO 
+T l: +33 1 3014 4Portugal 
+LEO Farmac uticos Lda.<br />
+Tel: +351 21 711 0Hrvatska 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Ireland 
+LEO Laboratories Ltd 
+Tel: +353 (0) 1 490 8Rom nia 
+LEO Pharma A/S 
+Tel: +45 44 94 58 Slovenija 
+LEO Pharma A/S 
+Tel: +45 44 94 58  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+LEO Pharma s.r.o. 
+Tel: +420 734 575 Italia 
+LEO Pharma S.p.A 
+Tel: +39 06 52625Suomi/Finland 
+LEO Pharma Oy 
+Puh/Tel: +358 20 721 8<br />
+The Star Medicines Importers Co. Ltd. 
+ : +357 2537 1Sverige 
+LEO Pharma AB 
+Tel: +46 40 3522 Latvija 
+LEO Pharma A/S 
+Tel: +45 44 94 58 United Kingdom (Northern Ireland) 
+LEO Laboratories Ltd 
+Tel: +44 (0) 1844 347This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

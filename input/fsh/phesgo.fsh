@@ -4,7 +4,7 @@ Instance: composition-en-f191079d24f65ed4b318bd51e41feaaf
 InstanceOf: CompositionUvEpi
 Title: "Composition for phesgo Package Leaflet"
 Description:  "Composition for phesgo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Phesgo is and what it is used for  
-2. What you need to know before you are given Phesgo  
-3. How you are given Phesgo 
-4. Possible side effects  
-5. How to store Phesgo 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Phesgo is and what it is used for  </li>
+<li>What you need to know before you are given Phesgo  </li>
+<li>How you are given Phesgo </li>
+<li>Possible side effects  </li>
+<li>How to store Phesgo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -139,8 +139,7 @@ stop your treatment with Phesgo until the diarrhoea is under control. </p>
 <p>Children and adolescents </p>
 <p>Phesgo should not be given to patients under the age of 18 years because there is no information on 
 how it works in this age group. </p>
-<p>Elderly patients over<br />
-Patients over 65 years of age are more likely to get side effects such as reduced appetite, decrease in 
+<p>Elderly patients over Patients over 65 years of age are more likely to get side effects such as reduced appetite, decrease in 
 the number of red blood cells, weight loss, tiredness, loss or altered taste, weakness, numbness, 
 tingling or prickling sensations mainly affecting the feet and legs and diarrhoea, compared to patients 
 younger than 65 years of age. </p>
@@ -325,7 +324,7 @@ Authorisation Holder: </p>
 N.V. Roche S.A. 
 T l/Tel: +32 (0) 2 525 82 Lietuva 
 UAB  Roche Lietuva<br />
-Tel: +370 5 2546 </p>
+Tel: +370 5 2546  </p>
 <p>: +359 2 818 44 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) 
  esk  republika 
@@ -334,21 +333,18 @@ Tel: +420   2 20382Magyarorsz g
 Roche (Magyarorsz g) Kft. 
 Tel: +36 - 1 279 4Danmark 
 Roche a/s 
-Tlf: +45 - 36 39 99<br />
-Malta 
+Tlf: +45 - 36 39 99 Malta 
 (See Ireland) 
 Deutschland 
 Roche Pharma AG 
-Tel: +49 (0) 7624 140<br />
-Nederland 
+Tel: +49 (0) 7624 Nederland 
 Roche Nederland B.V. 
 Tel: +31 (0) 348 438Eesti 
 Roche Eesti O<br />
-Tel: + 372 - 6 177 380<br />
-Norge 
+Tel: + 372 - 6 177 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90  </p>
-<p>Roche (Hellas) A.E. 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E. 
  : +30 210 61 66  sterreich 
  Roche Austria GmbH 
 Tel: +43 (0) 1 27Espa a 
@@ -361,35 +357,30 @@ T l: +33 (0) 1 47 61 40 Portugal
 Roche Farmac utica Qu mica, Lda 
 Tel: +351 - 21 425 70 Hrvatska 
 Roche d.o.o. 
-Tel: +385 1 4722<br />
-Ireland 
+Tel: +385 1 4722 Ireland 
 Roche Products (Ireland) Ltd. 
 Tel: +353 (0) 1 469 0Rom nia 
 Roche Rom nia S.R.L. 
-Tel: +40 21 206 47<br />
-Slovenija 
+Tel: +40 21 206 47 Slovenija 
 Roche farmacevtska dru ba d.o.o. 
 Tel: +386 - 1 360 26  sland 
 Roche a/s 
 c/o Icepharma hf 
 S mi: +354 540 8Slovensk  republika 
 Roche Slovensko, s.r.o. 
-Tel: +421 - 2 52638 
-Italia 
+Tel: +421 - 2 52638Italia 
 Roche S.p.A. 
 Tel: +39 - 039 2Suomi/Finland 
 Roche Oy 
 Puh/Tel: +358 (0) 10 554 <br />
  . .  &amp;    . 
- : +357 - 22 76 62<br />
-Sverige 
+ : +357 - 22 76 62 Sverige 
 Roche AB 
 Tel: +46 (0) 8 726 1Latvija 
 Roche Latvija SIA 
 Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd. 
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in <em>{month YYYY}</em>. </p>
+Tel: +44 (0) 1707 366This leaflet was last revised in &lt;{month YYYY}&gt;. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

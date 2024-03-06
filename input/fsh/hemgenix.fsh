@@ -4,7 +4,7 @@ Instance: composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6
 InstanceOf: CompositionUvEpi
 Title: "Composition for hemgenix Package Leaflet"
 Description:  "Composition for hemgenix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Hemgenix is and what it is used for
 2. What you need to know before you are given Hemgenix
 3. How Hemgenix is given
 4. Possible side effects
 5. How to store Hemgenix
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -226,14 +225,7 @@ long-term safety of the treatment for 15 years, how well it continues to work an
 that may be linked to the treatment. In the event of cancer, your doctor may take a sample of your 
 cancer (biopsy) to check if Hemgenix has inserted into the cell DNA.
 Children and adolescents
-Hemgenix has not been studied in children or adolescents under the age of 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take hemgenix"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take hemgenix"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Hemgenix
+Hemgenix has not been studied in children or adolescents under the age of 18. Other medicines and Hemgenix
 Tell your doctor or nurse if you are taking, have recently taken or might take any other medicines.
 If you are taking medication that are known to damage the liver (hepatotoxic medication), your doctor 
 may decide that you may need to stop this medication to be able to receive Hemgenix.
@@ -268,13 +260,12 @@ The medicine contains 35.2 mg sodium (main component of cooking/table salt) in e
 equivalent to 1.8% of the recommended maximum daily dietary intake of sodium for an adult.
 -
 This medicinal product contains potassium, less than 1 mmol (39 mg) per vial, that is to say 
-essentially potassium-free.</p>         </div>"""         
-
-        
+essentially potassium-free.</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take hemgenix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take hemgenix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hemgenix will be given to you in a hospital setting under direction of a doctor experienced and trained 
 in the treatment of your condition Haemophilia B.
@@ -290,12 +281,13 @@ the first weeks after Hemgenix infusion.
 Your doctor will regularly monitor your blood for the Factor IX activity levels, i.e. weekly for at 
 least first 3 months, and at regular intervals thereafter, and decide if and when you should receive, 
 reduce, or stop your exogenous Factor IX therapy (see section 2).
-If you have any questions on the use of Hemgenix ask your doctor.</p>         </div>"""      
+If you have any questions on the use of Hemgenix ask your doctor.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store hemgenix"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store hemgenix"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 The following side effects were observed in clinical studies with Hemgenix.
@@ -322,11 +314,10 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store hemgenix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store hemgenix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The following information is intended for doctors only.
 Keep this medicine out of the sight and reach of children.
@@ -337,4 +328,180 @@ Dilute before use.
 Once diluted with sodium chloride 9 mg/mL (0.9%) solution for injection, Hemgenix can be stored at 
 15  C - 25  C in the infusion bag protected from light for up to 24 hours after the dose preparation.
 Do not use this medicine if you notice particles, cloudiness or discolouration.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Hemgenix contains</h2>
+<p>The active substance is etranacogene dezaparvovec. Each mL of etranacogene dezaparvovec 
+contains 1 x 1013 gene copies (gc)/mL.
+-
+The other ingredients (excipients) are sucrose, polysorbate-20, potassium chloride, potassium 
+dihydrogen phosphate, sodium chloride, sodium hydrogen phosphate, hydrochloric acid (for pH 
+adjustment), water for injections (see also section 2  Hemgenix contains sodium and potassium. ).
+This medicine contains genetically modified organisms.
+What Hemgenix looks like and contents of the pack
+Hemgenix is a concentrate for solution for infusion (sterile concentrate).
+Hemgenix is a clear, colourless solution.
+Hemgenix is supplied in a vial containing 10 mL of etranacogene dezaparvovec.
+The total number of vials in a pack, corresponds to the dosing requirement for individual patient 
+depending on his body weight, and is provided on the package.
+Marketing Authorisation Holder and Manufacturer
+CSL Behring GmbH
+Emil-von-Behring-Strasse D-35041 Marburg
+Germany
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+CSL Behring NV
+T l/Tel: +32 15 28 89 Luxembourg/Luxemburg
+CSL Behring NV
+T l/Tel: +32 15 28 89  </p>
+<p>: +359 2 810 3Magyarorsz g
+CSL Behring Kft.
+Tel: +36 1 213 4 esk  republika
+CSL Behring s.r.o.
+Tel: +420 702 137 Malta
+AM Mangion Ltd.
+Tel: +356 2397 6Danmark
+CSL Behring AB
+Tel: +46 8 544 966 Nederland
+CSL Behring BV
+Tel: +31 85 111 96 Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584Norge
+CSL Behring AB
+Tlf: +46 8 544 966 Eesti
+CentralPharma Communications O 
+Tel: +3726015 sterreich
+CSL Behring GmbH
+Tel: +43 1 80101 2 
+CSL Behring<br />
+ : +30 210 7255 Polska
+CSL Behring Sp. z o.o.
+Tel.: +48 22 213 22 Espa a
+CSL Behring S.A.
+Tel: +34 933 67 1Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 France
+CSL Behring SA
+T l: +33 1 53 58 54 Hrvatska
+Marti Farm d.o.o.
+Tel: +385 1 5588Rom nia
+Prisum Healthcare S.R.L.
+Tel: +40 21 322 01 Slovenija
+EMMES BIOPHARMA GLOBAL s.r.o -
+podru nica v Sloveniji
+Tel: +386 41 42 0Ireland
+CSL Behring GmbH
+Tel: +49 69 305 17Slovensk  republika
+CSL Behring Slovakia s.r.o.
+Tel: +421 911 653  sland
+CSL Behring AB
+S mi: +46 8 544 966 Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966 Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 Sverige
+CSL Behring AB
+Tel: +46 8 544 966<br />
+CSL Behring<br />
+ : +30 210 7255 United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 305 17Latvija
+CentralPharma Communications SIA
+Tel: +371 6 7450Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0This leaflet was last revised in
+This medicine has been given  conditional approval .
+This means that there is more evidence to come about this medicine.
+The European Medicines Agency will review new information on this medicine at least every year and
+this leaflet will be updated as necessary.
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site:
+http://www.ema.europa.eu.
+This leaflet is available in all EU/EEA languages on the European Medicines Agency website.</p>
+<hr />
+<p>The following information is intended for healthcare professionals only:
+Important: Please refer to the Summary of Product Characteristics (SmPC) before using.
+Precautions to be taken before handling or administering the medicinal product
+This medicinal product contains genetically modified organisms (GMOs).
+Personal protective equipment, including gloves, safety goggles, protective clothing and masks, should be 
+worn while preparing and administering etranacogene dezaparvovec.
+Preparation of etranacogene dezaparvovec prior to administration
+1. Use aseptic techniques during the preparation and administration of etranacogene dezaparvovec.
+2. Use etranacogene dezaparvovec vial(s) only once (single-use vial(s)).
+3. Verify the required dose of etranacogene dezaparvovec based on the patient s body weight. The total 
+number of vials in each finished pack corresponds to the dosing requirement for each individual 
+patient based on the body weight.
+4. Etranacogene dezaparvovec must be diluted with sodium chloride 9 mg/mL (0.9%) solution for 
+injection prior to administration.
+-
+Withdraw the volume of the calculated Hemgenix dose (in mL) from the 500 mL-infusion 
+bag(s) with sodium chloride 9 mg/mL (0.9%) solution for injection. The volume to be 
+withdrawn will vary based on the patient body weight.<em> For patients &lt;120 kg body weight, withdraw the volume of sodium chloride 9 mg/mL 
+(0.9%) solution for injection corresponding to the total Hemgenix dose (in mL) from 
+one 500 mL-infusion bag.</em> For patients  120 kg body weight, withdrawn the volume of sodium chloride 9 mg/mL 
+(0.9%) solution for injection corresponding to the total Hemgenix dose (in mL) from two 
+500 mL-infusion bags, by withdrawing half of the volume from each of the two 500 mL-
+infusion bags.
+-
+Add subsequently the required Hemgenix dose to the infusion bag(s) to bring the total volume 
+in each infusion bag back to 500 mL.
+5. Add the Hemgenix dose directly into the sodium chloride 9 mg/mL (0.9%) solution for injection. Do 
+not add the Hemgenix dose into the air within the infusion bag during diluting.
+6. Gently invert the infusion bag(s) at least 3 times to mix the solution and ensure even distribution of 
+the diluted product.
+7. To avoid foaming:
+-
+Do not shake the etranacogene dezaparvovec vial(s) and the prepared infusion bag(s).
+-
+Do not use filter needles during preparation of etranacogene dezaparvovec.
+8. To reduce the risk of spillage and/or aerosol formation, the infusion bag(s) should be provided 
+connected to an infusion tubing prefilled with sterile sodium chloride 9 mg/mL (0.9%) solution for 
+injection.
+9. The infusion tubing prefilled with sterile sodium chloride 9 mg/mL (0.9%) solution for injection
+should be connected to the main intravenous infusion line also primed with sterile sodium chloride 
+9 mg/mL (0.9%) solution for injection prior to use.
+10. Use only sodium chloride 9 mg/mL (0.9%) solution for injection since the stability of etranacogene 
+dezaparvovec has not been determined with other solutions and diluents.
+11. Do not infuse the diluted etranacogene dezaparvovec solution in the same intravenous line with any 
+other products.
+12. Do not use a central line or port.
+Administration
+13. Diluted etranacogene dezaparvovec should be visually inspected prior to administration. The diluted 
+etranacogene dezaparvovec should be a clear, colourless solution. If particulates, cloudiness or 
+discoloration are visible in the infusion bag, do not use etranacogene dezaparvovec.
+14. Use the product after dilution as soon as possible. You must not exceed the storage time of the diluted 
+product beyond that provided in SmPC section 6.3. 15. Use an integrated (in-line) 0.2  m filter made out of polyethersulfone (PES).
+16. The diluted etranacogene dezaparvovec solution must be administered into a peripheral vein by a 
+separate intravenous infusion line through a peripheral venous catheter.
+17. Etranacogene dezaparvovec solution should be infused closely following the infusion rate(s) provided 
+in SmPC section 4.2. The administration should be completed within  24 hours after the dose 
+preparation (see SmPC section 4.2).
+18. After the entire content of the infusion bag(s) is infused, the infusion line must be flushed at the same 
+infusion rate with sodium chloride 9 mg/mL (0.9%) solution for injection to ensure all etranacogene 
+dezaparvovec is delivered.
+Measures to take in case of accidental exposure
+In case of accidental exposure local guidance for pharmaceutical waste must be followed.<em> In case of accidental exposure to eyes, immediately flush eyes with water for at least 15 minutes. Do 
+not use alcohol solution.</em> In case of accidental needle stick exposure, encourage bleeding of the wound and wash injection area 
+well with soap and water.<em> In case of accidental exposure to skin, the affected area must be thoroughly cleaned with soap and 
+water for at least 15 minutes. Do not use alcohol solution.</em> In case of accidental inhalation, move the person into fresh air.<em> In case of accidental oral exposure, abundantly rinse mouth with water.</em> In each case, obtain subsequently medical attention.
+Work surfaces and materials which have potentially been in contact with etranacogene dezaparvovec 
+must be decontaminated with appropriate disinfectant with viricidal activity (e.g. a chlorine releasing 
+disinfectant like hypochlorite containing 0.1% available chlorine (1000 ppm)) after usage.
+Precautions to be taken for the disposal of the medicinal product
+Unused medicinal product and disposable material that may have come in contact with Hemgenix (solid 
+and liquid waste) must be disposed of in compliance with the local guidance for pharmaceutical waste.
+The risk of an adverse effect to human health upon accidental exposure to Hemgenix and the 
+environmental risks are, however, considered negligible.
+Caregivers should be advised on the proper handling of waste material generated from contaminated 
+medicinal ancillaries during Hemgenix use.
+Work surfaces and materials which have potentially been in contact with etranacogene dezaparvovec
+must be decontaminated with appropriate disinfectant with viricidal activity (e.g. a chlorine releasing 
+disinfectant like hypochlorite containing 0.1% available chlorine (1000 ppm)) after usage and then 
+autoclaved, if possible.</p>         </div>"""      
 

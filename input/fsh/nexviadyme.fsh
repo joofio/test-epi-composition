@@ -4,7 +4,7 @@ Instance: composition-en-af5a6458bf787a6cbcce31dd9f99f24f
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexviadyme Package Leaflet"
 Description:  "Composition for nexviadyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Nexviadyme is and what it is used for  
-2. What you need to know before you are given Nexviadyme  
-3. How Nexviadyme is given  
-4. Possible side effects  
-5. How to store Nexviadyme  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Nexviadyme is and what it is used for<br />
+2. What you need to know before you are given Nexviadyme<br />
+3. How Nexviadyme is given<br />
+4. Possible side effects<br />
+5. How to store Nexviadyme<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]

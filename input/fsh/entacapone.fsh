@@ -4,7 +4,7 @@ Instance: composition-en-9d6bde1dfdbe6ae73a503b7573b2e412
 InstanceOf: CompositionUvEpi
 Title: "Composition for entacapone Package Leaflet"
 Description:  "Composition for entacapone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
-1. What Entacapone Orion is and what it is used for
-2. What you need to know before you take Entacapone Orion
-3. How to take Entacapone Orion
-4. Possible side effects
-5. How to store Entacapone Orion
-6. Contents of the pack and other information
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Entacapone Teva is and what it is used for 
+2. What you need to know before you take Entacapone Teva<br />
+3. How to take Entacapone Teva 
+4. Possible side effects 
+5. How to store Entacapone Teva<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -68,10 +67,9 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What entacapone is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entacapone Orion tablets contain entacapone and are used together with levodopa to treat Parkinson s 
-disease. Entacapone Orion aids levodopa in relieving the symptoms of Parkinson's disease. 
-Entacapone Orion has no effect on relieving the symptoms of Parkinson s disease unless taken with 
-levodopa.</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Entacapone Teva tablets contain entacapone and are used together with levodopa to treat Parkinson s 
+disease. Entacapone Teva aids levodopa in relieving the symptoms of Parkinson's disease. Entacapone 
+Teva has no effect on relieving the symptoms of Parkinson s disease unless taken with levodopa. </p>         </div>"""   
           
 
              
@@ -80,75 +78,70 @@ levodopa.</p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take entacapone"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Entacapone Orion</p>
-<p>if you are allergic to entacapone or to peanut or soya or any of the other ingredients of this 
-medicine (listed in section 6);</p>
-<p>if you have a tumour of the adrenal gland (known as pheochromocytoma; this may increase the 
-risk of severe high blood pressure);</p>
-<p>if you are taking certain antidepressants (ask your doctor or pharmacist whether your 
-antidepressive medicine can be taken together with Entacapone Orion);</p>
-<p>if you have liver disease;</p>
-<p>if you have ever suffered from a rare reaction to antipsychotic medicines called neuroleptic 
-malignant syndrome (NMS). See section 4 Possible side effects for the characteristics of NMS;</p>
-<p>if you have ever suffered from a rare muscle disorder called rhabdomyolysis which was not 
-caused by injury.
-Warnings and precautions
-Talk to your doctor or pharmacist before taking Entacapone Orion:</p>
-<p>if you have ever had a heart attack or any other diseases of the heart;</p>
-<p>if you are taking a medicine which may cause dizziness or light-headedness (low blood 
-pressure) when rising from a chair or bed;</p>
-<p>if you experience prolonged diarrhoea consult your doctor as it may be a sign of inflammation 
-of the colon;</p>
-<p>if you experience diarrhoea, monitoring of your weight is recommended in order to avoid 
-potentially excessive weight loss;</p>
-<p>if you experience increasing loss of appetite, weakness, exhaustion and weight loss within a 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do NOT take Entacapone Teva 
+* if you are allergic to entacapone or any of the other ingredients of this medicine (listed in 
+section 6);<br />
+<em> if you have a tumour of the adrenal gland (known as pheochromocytoma; this may increase the 
+risk of severe high blood pressure);<br />
+</em> if you are taking certain antidepressants (ask your doctor or pharmacist whether your 
+antidepressive medicine can be taken together with Entacapone Teva);<br />
+<em> if you have liver disease;<br />
+</em> if you have ever suffered from a rare reaction to antipsychotic medicines called neuroleptic 
+malignant syndrome (NMS). See section 4 Possible side effects for the characteristics of NMS; 
+* if you have ever suffered from a rare muscle disorder called rhabdomyolysis which was not 
+caused by injury.  </p>
+<p>Warnings and precautions 
+Talk to your doctor or pharmacist before taking Entacapone Teva: 
+* if you have ever had a heart attack or any other diseases of the heart; 
+* if you are taking a medicine which may cause dizziness or light-headedness (low blood 
+pressure) when rising from a chair or bed;<br />
+* if you experience prolonged diarrhoea consult your doctor as it may be a sign of inflammation 
+of the colon; 
+* if you experience diarrhoea, monitoring of your weight is recommended in order to avoid 
+potentially excessive weight loss;  </p>
+<ul>
+<li>if you experience increasing loss of appetite, weakness, exhaustion and weight loss within a 
 relatively short period of time, a general medical evaluation including liver function should be 
-considered.
-Tell your doctor if you or your family/carer notices you are developing urges or cravings to behave in 
+considered.  </li>
+</ul>
+<p>Tell your doctor if you or your family/carer notices you are developing urges or cravings to behave in 
 ways that are unusual for you or you cannot resist the impulse, drive or temptation to carry out certain 
 activities that could harm yourself or others. These behaviours are called impulse control disorders and 
 can include addictive gambling, excessive eating or spending, an abnormally high sex drive or a 
 preoccupation with an increase in sexual thoughts or feelings. Your doctor may need to review your 
-treatments.
-As Entacapone Orion tablets will be taken together with other levodopa medicines, please also read 
-the package leaflets of these medicines carefully.
-The dose of other medicines to treat Parkinson s disease may need to be adjusted when you start 
-taking Entacapone Orion. Follow the instructions that your doctor has given you.
-Neuroleptic Malignant Syndrome (NMS) is a serious but rare reaction to certain medicines, and may 
-occur especially when Entacapone Orion and other medicines to treat Parkinson s disease are suddenly 
+treatments. </p>
+<p>As Entacapone Teva tablets will be taken together with other levodopa medicines, please also read the 
+package leaflets of these medicines carefully. </p>
+<p>The dose of other medicines to treat Parkinson s disease may need to be adjusted when you start 
+taking Entacapone Teva. Follow the instructions that your doctor has given you. </p>
+<p>Neuroleptic Malignant Syndrome (NMS) is a serious but rare reaction to certain medicines, and may 
+occur especially when Entacapone Teva and other medicines to treat Parkinson s disease are suddenly 
 stopped or the dose is suddenly reduced. For the characteristics of NMS see Section 4 Possible side 
-effects. Your doctor may advise you to slowly discontinue the treatment with Entacapone Orion and 
-other medicines to treat Parkinson s disease.
-Entacapone Orion taken with levodopa may cause drowsiness and may cause you to sometimes 
+effects. Your doctor may advise you to slowly discontinue the treatment with Entacapone Teva and 
+other medicines to treat Parkinson s disease. </p>
+<p>Entacapone Teva taken with levodopa may cause drowsiness and may cause you to sometimes 
 suddenly fall asleep. If this happens, you should not drive or use any tools or machines (see Driving 
-and using machines).
-Other medicines and Entacapone Orion
+and using machines).  </p>
+<p>Other medicines and Entacapone Teva 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
-medicines. In particular please tell your doctor if you are taking any of the following:</p>
-<p>rimiterole, isoprenaline, adrenaline, noradrenaline, dopamine, dobutamine, alpha-methyldopa, 
-apomorphine;</p>
-<p>antidepressants including desipramine, maprotiline, venlafaxine, paroxetine;</p>
-<p>warfarin used to thin the blood;</p>
-<p>iron supplements. Entacapone Orion may make it harder for you to digest iron. Therefore, do 
-not take Entacapone Orion and iron supplements at the same time. After taking one of them, 
-wait at least 2 to 3 hours before taking the other.
-Pregnancy, breast-feeding and fertility
-Do not use Entacapone Orion during pregnancy or if you are breast-feeding.
+medicines. In particular please tell your doctor if you are taking any of the following: 
+* rimiterole, isoprenaline, adrenaline, noradrenaline, dopamine, dobutamine, alpha-methyldopa, 
+apomorphine;<br />
+<em> antidepressants including desipramine, maprotiline, venlafaxine, paroxetine;<br />
+</em> warfarin used to thin the blood; 
+* iron supplements. Entacapone Teva may make it harder for you to digest iron. Therefore, do 
+not take Entacapone Teva and iron supplements at the same time. After taking one of them, 
+wait at least 2 to 3 hours before taking the other. </p>
+<p>Pregnancy, breast-feeding and fertility 
+Do not use Entacapone Teva during pregnancy or if you are breast-feeding.<br />
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
-your doctor or pharmacist for advice before taking this medicine.
-Driving and using machines
-Entacapone Orion taken together with levodopa may lower your blood pressure, which may make 
-you feel light-headed or dizzy. Be particularly careful when you drive or when you use tools or 
-machinery.
-In addition, Entacapone Orion taken with levodopa may make you feel very drowsy, or cause you to 
-sometimes suddenly fall asleep.
-Do not drive or operate machinery if you experience these side effects.
-Entacapone Orion contains soya lecithin and sodium
-Entacapone Orion contains soya lecithin. If you are allergic to peanut or soya, do not use this 
-medicinal product.
-This medicine contains 7.9 mg sodium (main component of cooking/table salt) in each tablet. The 
-maximum recommended daily dose (10 tablets) contains 79 mg of sodium. This is equivalent to 4% 
-of the recommended maximum daily dietary intake of sodium for an adult.</p>         </div>"""   
+your doctor or pharmacist for advice before taking this medicine. </p>
+<p>Driving and using machines<br />
+Entacapone Teva taken together with levodopa may lower your blood pressure, which may make you 
+feel light-headed or dizzy. Be particularly careful when you drive or when you use tools or machinery.  </p>
+<p>In addition, Entacapone Teva taken with levodopa may make you feel very drowsy, or cause you to 
+sometimes find yourself suddenly fall asleep. 
+Do not drive or operate machinery if you experience these side effects. </p>         </div>"""   
                     
 * section[=].section[+]
   * title =  "3. How to take entacapone"
@@ -156,32 +149,29 @@ of the recommended maximum daily dietary intake of sodium for an adult.</p>     
   * code.text = "3. How to take entacapone"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
-or pharmacist if you are not sure.
-Entacapone Orion is taken together with medicines containing levodopa (either levodopa/carbidopa 
+or pharmacist if you are not sure.  </p>
+<p>Entacapone Teva is taken together with medicines containing levodopa (either levodopa/carbidopa 
 preparations or levodopa/benserazide preparations). You may also use other medicines to treat 
-Parkinson s disease at the same time.
-The recommended dose of Entacapone Orion is one 200 mg tablet with each levodopa dose. The 
-maximum recommended dose is 10 tablets per day, i.e. 2,000 mg of Entacapone Orion.
-If you are receiving dialysis for renal insufficiency, your doctor may tell you to increase the time
-between doses.
-To open the bottle for the first time: open the closure, 
-and then press with your thumb on the seal until it 
-breaks. See picture 1. Picture 1
-Use in children and adolescents
-Experience with Entacapone Orion in patients under 18 years is limited. Therefore, the use of 
-Entacapone Orion in children or adolescents cannot be recommended.
-If you take more Entacapone Orion than you should
-In the event of an overdose, consult your doctor, pharmacist or the nearest hospital immediately.
-If you forget to take Entacapone Orion
-If you forget to take the Entacapone Orion tablet with your levodopa dose, you should continue the 
-treatment by taking the next Entacapone Orion tablet with your next levodopa dose.
-Do not take a double dose to make up for a forgotten tablet.
-If you stop taking Entacapone Orion
-Do not stop taking Entacapone Orion unless your doctor tells you to.
-When stopping your doctor may need to re-adjust the dosage of your other medicines to treat 
-Parkinson s disease. Suddenly stopping Entacapone Orion and other medicines to treat Parkinson s
-disease may result in unwanted side effects. See Section 2 Warnings and precautions.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+Parkinson s disease at the same time.  </p>
+<p>The recommended dose of Entacapone Teva is one 200 mg tablet with each levodopa dose. The 
+maximum recommended dose is 10 tablets per day, i.e. 2,000 mg of Entacapone Teva. </p>
+<p>If you are receiving dialysis for renal insufficiency, your doctor may tell you to increase the time 
+between doses.  </p>
+<p>Use in children and adolescents 
+Experience with Entacapone Teva in patients under 18 years is limited. Therefore, the use of 
+Entacapone Teva in children cannot be recommended. </p>
+<p>If you take more Entacapone Teva than you should<br />
+In the event of an overdose, consult your doctor, pharmacist or the nearest hospital immediately.  </p>
+<p>If you forget to take Entacapone Teva<br />
+If you forget to take the Entacapone Teva tablet with your levodopa dose, you should continue the 
+treatment by taking the next Entacapone Teva tablet with your next levodopa dose.  </p>
+<p>Do not take a double dose to make up for a forgotten tablet. </p>
+<p>If you stop taking Entacapone Teva 
+Do not stop taking Entacapone Teva unless your doctor tells you to.  </p>
+<p>When stopping your doctor may need to re-adjust the dosage of your other medicines to treat 
+Parkinson s disease. Suddenly stopping Entacapone Teva and other medicines to treat Parkinson s 
+disease may result in unwanted side effects. See Section 2 Warnings and precautions. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -190,76 +180,98 @@ If you have any further questions on the use of this medicine, ask your doctor o
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Usually 
-side effects caused by Entacapone Orion are mild to moderate.
-Some of the side effects are often caused by the increased effects of levodopa therapy and are most 
+side effects caused by Entacapone Teva are mild to moderate.  </p>
+<p>Some of the side effects are often caused by the increased effects of levodopa therapy and are most 
 common at the start of treatment. If you experience such effects at the start of treatment with 
-Entacapone Orion you should contact your doctor who may decide to adjust your dosage of levodopa.
-Very common (may affect more than 1 in 10 people):</p>
-<p>Uncontrollable movements with difficulty in performing voluntary movements (dyskinesias);</p>
-<p>feeling sick (nausea);</p>
-<p>harmless reddish-brown discolouration of urine.
-Common (may affect up to 1 in 10 people):</p>
-<p>Excessive movements (hyperkinesias), worsening of symptoms of Parkinson s disease, 
-prolonged muscle cramps (dystonia);</p>
-<p>being sick (vomiting), diarrhoea, abdominal pain, constipation, dry mouth;</p>
-<p>dizziness, tiredness, increased sweating, fall;</p>
-<p>hallucinations (seeing/hearing/feeling/smelling things that are not really there), sleeplessness,
-vivid dreams, and confusion;</p>
-<p>heart or artery disease events (e.g. chest pain).
-Uncommon (may affect up to 1 in 100 people):</p>
-<p>Heart attack.
-Rare (may affect up to 1 in 1,000 people):</p>
-<p>Rashes;</p>
-<p>abnormal results in liver function test.
-Very rare (may affect up to 1 in 10,000 people):</p>
-<p>Agitation;</p>
-<p>decreased appetite, weight loss;</p>
-<p>hives.
-Not known (frequency cannot be estimated from the available data):</p>
-<p>Inflammation of the colon (colitis), inflammation of the liver (hepatitis) with yellowing of the 
-skin and whites of the eyes;</p>
-<p>discolouration of skin, hair, beard and nails.
-When Entacapone Orion is given at higher doses:
+Entacapone Teva you should contact your doctor who may decide to adjust your dosage of levodopa. </p>
+<p>Very common (may affect more than 1 in 10 people):</p>
+<ul>
+<li>Uncontrollable movements with difficulty in performing voluntary movements (dyskinesias); </li>
+<li>feeling sick (nausea); </li>
+<li>harmless reddish-brown discoloration of urine. </li>
+</ul>
+<p>Common (may affect up to 1 in 10 people):</p>
+<ul>
+<li>Excessive movements (hyperkinesias), worsening of symptoms of Parkinson s disease, prolonged 
+muscle cramps (dystonia); </li>
+<li>being sick (vomiting), diarrhoea, abdominal pain, constipation, dry mouth; </li>
+<li>dizziness, tiredness, increased sweating, fall; </li>
+<li>hallucinations (seeing/hearing/feeling/smelling things that are not really there), sleeplessness, 
+vivid dreams, and confusion; </li>
+<li>heart or artery disease events (e.g. chest pain). </li>
+</ul>
+<p>Uncommon (may affect up to 1 in 100 people):</p>
+<ul>
+<li>Heart attack. </li>
+</ul>
+<p>Rare (may affect up to 1 in 1,000 people):</p>
+<ul>
+<li>Rashes; </li>
+<li>abnormal results in liver function test.  </li>
+</ul>
+<p>Very rare (may affect up to 1 in 10,000 people):</p>
+<ul>
+<li>Agitation; </li>
+<li>decreased appetite, weight loss; </li>
+<li>hives.  </li>
+</ul>
+<p>Not known (frequency cannot be estimated from the available data):</p>
+<ul>
+<li>Inflammation of the colon (colitis), inflammation of the liver (hepatitis) with yellowing of the 
+skin and whites of the eyes; </li>
+<li>discolouration of skin, hair, beard and nails.  </li>
+</ul>
+<p>When Entacapone Teva is given at higher doses: 
 In doses of 1,400 to 2,000 mg per day, the following side effects are more common:</p>
-<p>Uncontrollable movements;</p>
-<p>nausea;</p>
-<p>abdominal pain.
-Other important side effects which may occur:</p>
-<p>Entacapone Orion taken with levodopa may rarely make you feel very drowsy during the day, 
-and cause you to suddenly fall asleep;</p>
-<p>Neuroleptic Malignant Syndrome (NMS) is a rare severe reaction to medicines used to treat 
+<ul>
+<li>Uncontrollable movements; </li>
+<li>nausea; </li>
+<li>abdominal pain. </li>
+</ul>
+<p>Other important side effects which may occur:</p>
+<ul>
+<li>Entacapone Teva taken with levodopa may rarely make you feel very drowsy during the 
+day, and cause you to suddenly fall asleep; </li>
+<li>Neuroleptic Malignant Syndrome (NMS) is a rare severe reaction to medicines used to treat 
 disorders of the nervous system. It is characterised by stiffness, muscle twitching, shaking, 
-agitation and confusion, coma, high body temperature, increased heart rate, and unstable blood 
-pressure;</p>
+agitation and confusion, coma, high body temperature, increased heart rate and unstable blood 
+pressure; </li>
+<li>
 <p>a rare severe muscle disorder (rhabdomyolysis) which causes pain, tenderness and weakness of 
-the muscles and may lead to kidney problems.
-You may experience the following side effects: </p>
+the muscles and may lead to kidney problems.<br />
+You may experience the following side effects:</p>
+</li>
+<li>
 <p>Inability to resist the impulse to perform an action that could be harmful, which may include:</p>
-<p>strong impulse to gamble excessively despite serious personal or family consequences;</p>
-<p>altered or increased sexual interest and behaviour of significant concern to you or to others, 
-for example, an increased sexual drive;</p>
-<p>uncontrollable excessive shopping or spending;</p>
-<p>binge eating (eating large amounts of food in a short time period) or compulsive eating 
-(eating more food than normal and more than is needed to satisfy your hunger).
-Tell your doctor if you experience any of these behaviours; they will discuss ways of managing 
-or reducing the symptoms.
-Reporting of side effects
+</li>
+<li>
+<p>strong impulse to gamble excessively despite serious personal or family consequences; </p>
+</li>
+<li>altered or increased sexual interest and behaviour of significant concern to you or to others, 
+for example, an increased sexual drive; </li>
+<li>uncontrollable excessive shopping or spending; </li>
+<li>binge eating (eating large amounts of food in a short time period) or compulsive eating 
+(eating more food than normal and more than is needed to satisfy your hunger). </li>
+</ul>
+<p>Tell your doctor if you experience any of these behaviours; they will discuss ways of managing or 
+reducing the symptoms. </p>
+<p>Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
-listed in Appendix V. By reporting side effects you can help provide more information on the safety 
-of this medicine.</p>         </div>"""      
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store entacapone"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store entacapone"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
-Do not use this medicine after the expiry date which is stated on the carton and on the bottle label. The 
-expiry date refers to the last day of that month.
-This medicinal product does not require any special storage conditions.
-Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away 
-medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and tablet container label 
+after EXP. The expiry date refers to the last day of that month. </p>
+<p>This medicinal product does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
+you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -267,97 +279,104 @@ medicines you no longer use. These measures will help protect the environment.</
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Entacapone Orion contains</h2>
-<h2>The active substance is entacapone. Each tablet contains 200 mg of entacapone.</h2>
-<p>The other ingredients in the tablet core are microcrystalline cellulose, croscarmellose sodium, 
-povidone and magnesium stearate.
--
-The film-coating contains partly hydrolysed polyvinyl alcohol, talc, macrogol, soya lecithin, 
-yellow iron oxide (E 172), red iron oxide (E 172) and titanium dioxide (E 171).
-What Entacapone Orion looks like and contents of the pack
-Entacapone Orion 200 mg film-coated tablets are brownish-orange, oval tablets with "COMT"
-engraved on one side. They are packed in bottles. 
-There are four different pack sizes (bottles containing 30, 60, 100 or 175 tablets). Not all pack sizes 
-may be marketed.
-Marketing Authorisation Holder
-Orion Corporation
-Orionintie 1
-FI-02200 Espoo
-Finland
-Manufacturer
-Orion Corporation Orion Pharma
-Joensuunkatu 7
-FI-24100 Salo
-Finland
-Orion Corporation Orion Pharma
-Orionintie 1
-FI-02200 Espoo
-Finland
-For further information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder:
-Belgi /Belgique/Belgien
-Orion Corporation
-T l./Tel: +358 10 4Lietuva
-UAB Orion Pharma
-Tel: +370 5 276 9 
-Orion Corporation
- .: +358 10 4Luxembourg/Luxemburg
-Orion Corporation
-T l./Tel: +358 10 4 esk  republika
-Orion Corporation
-Tel: +358 10 4Magyarorsz g
-Orion Corporation
-Tel.: +358 10 4Danmark
-Orion Pharma A/S
-Tlf: +45 8614 0Malta
-Orion Corporation
-Tel: +358 10 4Deutschland
-Orion Corporation
-Tel: +358 10 4Nederland
-Orion Corporation
-Tel: +358 10 4Eesti
-Orion Pharma Eesti O 
-Tel: +372 66 44 Norge
-Orion Pharma AS
-Tlf.: +47 40 00 42<br />
-Orion Corporation
-Tel: + 358 10 4 sterreich
-Orion Corporation
-Tel: +358 10 4Espa a
-Orion Corporation
-Tel.: +358 10 4Polska
-Orion Corporation
-Tel.: +358 10 4France
-Orion Corporation
-T l.: +358 10 4Portugal
-Orion Corporation
-Tel: +358 10 4Hrvatska
-Orion Corporation
-Tel.: +358 10 4Rom nia
-Orion Corporation
-Tel: +358 10 4Ireland
-Orion Corporation
-Tel: +358 10 4Slovenija
-Orion Corporation
-Tel: +358 10 4 sland
-Vistor hf.
-S mi: +354 535 7Slovensk  republika
-Orion Corporation
-Tel: +358 10 4Italia
-Orion Corporation
-Tel: +358 10 4Suomi/Finland
-Orion Corporation
-Puh./Tel: +358 10 4 
-Orion Corporation
-T : +358 10 4Sverige
-Orion Pharma AB
-Tel: +46 8 623 6Latvija
-Orion Corporation
-Orion Pharma p rst vniec ba
-Tel: +371 20028United Kingdom (Northern Ireland)
-Orion Corporation
-Tel: +358 10 4This leaflet was last revised in
-Other sources of information
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Entacapone Teva contains 
+* The active substance is entacapone. Each film-coated tablet contains 200 mg of entacapone. 
+* The other ingredients in the tablet core are cellulose microcrystalline, povidone, starch 
+pregelatinised, magnesium stearate and in the film-coating are poly(vinyl alcohol), talc, titanium 
+dioxide (E171), macrogol, iron oxide yellow (E172), lecithin (soya), iron oxide red (E172). </p>
+<p>What Entacapone Teva looks like and contents of the pack<br />
+Entacapone Teva film-coated tablets are light brown, biconvex ellipse-shaped with approximately 
+18 mm length and 10 mm width, embossed with  E200  on one side and plain on the other side.  </p>
+<p>Entacapone Teva is available in HDPE tablet containers with polypropylene screw caps with desiccant 
+insert containing 30, 60, 100 or 175 film-coated tablets. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+The Netherlands </p>
+<p>Manufacturer 
+TEVA Pharmaceutical Works Private Limited Company 
+Pallagi  t 13, 
+4042 Debrecen, 
+Hungary </p>
+<p>Pharmachemie B.V.<br />
+Swensweg 5, 
+2031 GA Haarlem,<br />
+The Netherlands  </p>
+<p>Teva Czech Industries s.r.o.<br />
+Ostravska 29, c.p. 305, 
+74770 Opava-Komarov, 
+Czech Republic </p>
+<p>Teva Operations Poland Sp.z.o.o 
+ul. Mogilska 80, 
+31-546, Krakow, 
+Poland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien<br />
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660   </p>
+<p>Te : +359 24899Luxembourg/Luxemburg<br />
+ratiopharm GmbH<br />
+Allemagne/Deutschland 
+T l/Tel: +49 73140 esk  republika<br />
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251007Magyarorsz g<br />
+Teva Gy gyszergy r Zrt.<br />
+Tel: +36 12886Danmark<br />
+Teva Denmark A/S<br />
+Tlf: +45 44985Malta<br />
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+TEVA GmbH 
+Tel: +49 73140Nederland<br />
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Norge 
+Teva Norway AS 
+Tlf: +47 66775<br />
+Specifar  . . . . 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
+Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+Specifar  . . . . </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last revised in MM/YYYY. </p>
+<p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
-http://www.ema.europa.eu.</p>         </div>"""      
+http://www.ema.europa.eu  </p>         </div>"""      
 

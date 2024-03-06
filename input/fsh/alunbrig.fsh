@@ -4,7 +4,7 @@ Instance: composition-en-7b67c4d38704991f22e7013a4909f813
 InstanceOf: CompositionUvEpi
 Title: "Composition for alunbrig Package Leaflet"
 Description:  "Composition for alunbrig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Alunbrig is and what it is used for  
-2. What you need to know before you take Alunbrig  
-3. How to take Alunbrig  
-4. Possible side effects  
-5. How to store Alunbrig  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Alunbrig is and what it is used for  </li>
+<li>What you need to know before you take Alunbrig  </li>
+<li>How to take Alunbrig  </li>
+<li>Possible side effects  </li>
+<li>How to store Alunbrig  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -121,14 +121,7 @@ greater. These will help to protect against potential sunburn. </li>
 may include, nausea, changes in volume or frequency of urination, abnormal blood tests (see section 
 4). </p>
 <p>Your doctor may need to adjust your treatment or stop Alunbrig temporarily or permanently. See also 
-the beginning of section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take alunbrig"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take alunbrig"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents </p>
+the beginning of section 4. Children and adolescents </p>
 <p>Alunbrig has not been studied in children or adolescents. Treatment with Alunbrig is not 
 recommended in persons under 18 years of age. </p>
 <p>Other medicines and Alunbrig </p>
@@ -182,21 +175,20 @@ treatment if such signs occur. </p>
 before taking this medicine. </p>
 <p>Alunbrig contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take alunbrig"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take alunbrig"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.  </p>
 <p>The recommended dose is </p>
 <p>One 90 mg tablet once daily for the first 7 treatment days; thereafter, one 180 mg tablet once daily. 
 Do not change the dose without talking to your doctor. Your doctor may adjust your dose according to 
-your needs and this may require use of a 30 mg tablet to achieve the new recommended dose. </p>
-<p>Treatment initiation pack </p>
+your needs and this may require use of a 30 mg tablet to achieve the new recommended dose. 
+Treatment initiation pack </p>
 <p>At the beginning of your treatment with Alunbrig your doctor may prescribe a treatment initiation 
 pack. To help you start treatment each treatment initiation pack consists of an outer pack with two 
 inner packs containing 
@@ -217,12 +209,13 @@ The required dose is printed on the treatment initiation pack. </p>
 <p>Do not take a double dose to make up for a forgotten dose. Take your next dose at your regular time. </p>
 <p>If you stop taking Alunbrig </p>
 <p>Do not stop taking Alunbrig before talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store alunbrig"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store alunbrig"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor or pharmacist immediately if you have any of the following serious side effects: </p>
@@ -327,11 +320,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store alunbrig"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store alunbrig"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on either the bottle label or blister and 
@@ -339,4 +331,163 @@ carton after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via waste water or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Alunbrig contains </p>
+<ul>
+<li>
+<p>The active substance is brigatinib. 
+Each 30 mg film-coated tablet contains 30 mg brigatinib. 
+Each 90 mg film-coated tablet contains 90 mg brigatinib. 
+Each 180 mg film-coated tablet contains 180 mg brigatinib. </p>
+</li>
+<li>
+<p>The other excipients are lactose monohydrate, microcrystalline cellulose, sodium starch 
+glycolate (type A), silica colloidal hydrophobic, magnesium stearate, talc, macrogol, polyvinyl 
+alcohol, and titanium dioxide (see also section 2  Alunbrig contains lactose  and  Alunbrig 
+contains sodium ). </p>
+</li>
+</ul>
+<p>What Alunbrig looks like and contents of the pack </p>
+<p>Alunbrig film-coated tablets are white to off-white, oval (90 mg and 180 mg) or round (30 mg). They 
+are convex on the upper and lower side. </p>
+<p>Alunbrig 30 mg:<br />
+<em> Each 30 mg tablet contains 30 mg brigatinib.<br />
+</em> The film-coated tablets are approximately 7 mm in diameter with  U3  on one side and plain on 
+the other side. </p>
+<p>Alunbrig 90 mg:<br />
+* Each 90 mg tablet contains 90 mg brigatinib. 
+* The film-coated tablets are approximately 15 mm long with  U7  on one side and plain on the 
+other side. </p>
+<p>Alunbrig 180 mg:<br />
+* Each 180 mg tablet contains 180 mg brigatinib. 
+* The film-coated tablets are approximately 19 mm long with  U13  on one side and plain on the 
+other side. </p>
+<p>Alunbrig is available in plastic foil strips (blisters) packed in a carton with: 
+* Alunbrig 30 mg: 28, 56 or 112 film-coated tablets 
+* Alunbrig 90 mg: 7 or 28 film-coated tablets 
+* Alunbrig 180 mg: 28 film-coated tablets </p>
+<p>Alunbrig is available in plastic bottles with child resistant screw top closures. Each bottle contains one 
+canister of a desiccant and is packed in a carton with: 
+* Alunbrig 30 mg: 60 or 120 film-coated tablets 
+* Alunbrig 90 mg: 7 or 30 film-coated tablets 
+* Alunbrig 180 mg: 30 film-coated tablets </p>
+<p>Keep the desiccant canister in the bottle.  </p>
+<p>Alunbrig is available as a treatment initiation pack. Each pack consists of an outer carton with two 
+inner cartons containing: 
+* Alunbrig 90 mg film-coated tablets 
+1 plastic foil strip (blister), containing 7 film-coated tablets 
+* Alunbrig 180 mg film-coated tablets 
+3 plastic foil strips (blisters), containing 21 film-coated tablets </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Takeda Pharma A/S 
+Delta Park 2665 Vallensbaek Strand 
+Denmark </p>
+<p>Manufacturer </p>
+<p>Takeda Austria GmbH 
+St. Peter-Strasse 4020 Linz<br />
+Austria </p>
+<p>Takeda Ireland Limited 
+Bray Business Park 
+Kilruddery<br />
+Co. Wicklow<br />
+A98 CDIreland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com<br />
+Luxembourg/Luxemburg 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>esk  republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarorsz g 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Drugsales Ltd<br />
+Tel: +356 21419safety@drugsalesltd.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>akeda    . . 
+T : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
+<p>Espa a 
+Takeda Farmac utica Espa a, S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmac uticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>Rom nia 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com 
+ sland 
+Vistor hf. 
+S mi: +354 535 7medinfoEMEA@takeda.com 
+Slovensk  republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>A.POTAMITIS MEDICARE LTD 
+ : +357 22583a.potamitismedicare@cytanet.com.cy </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
+<p>This leaflet was last revised in. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. </p>         </div>"""      
 

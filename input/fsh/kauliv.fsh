@@ -4,7 +4,7 @@ Instance: composition-en-b811ffa8d83d17ddd48f696870f998c3
 InstanceOf: CompositionUvEpi
 Title: "Composition for kauliv Package Leaflet"
 Description:  "Composition for kauliv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Kauliv is and what it is used for 
-2.  What you need to know before you use Kauliv? 
-3.  How to use Kauliv 
-4.  Possible side effects  
-5. How to store Kauliv? 
-6. Contents of the pack and other information  
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Kauliv is and what it is used for </li>
+<li>What you need to know before you use Kauliv? </li>
+<li>How to use Kauliv </li>
+<li>Possible side effects  </li>
+<li>How to store Kauliv? </li>
+<li>Contents of the pack and other information  </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

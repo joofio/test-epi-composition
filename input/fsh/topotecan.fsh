@@ -4,7 +4,7 @@ Instance: composition-en-c70f3196826e850a6889cb4c778ecf4a
 InstanceOf: CompositionUvEpi
 Title: "Composition for topotecan Package Leaflet"
 Description:  "Composition for topotecan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Topotecan Hospira is and what it is used for 
-2. What you need to know before you are given Topotecan Hospira 
-3. How Topotecan Hospira is used  
-4. Possible side effects 
-5. How to store Topotecan Hospira 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Topotecan Hospira is and what it is used for </li>
+<li>What you need to know before you are given Topotecan Hospira </li>
+<li>How Topotecan Hospira is used  </li>
+<li>Possible side effects </li>
+<li>How to store Topotecan Hospira </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -248,99 +249,74 @@ Boulevard de la Plaine 1050 Bruxelles
 Belgium </p>
 <p>Manufacturer 
 Pfizer Service Company BV<br />
-Hoge Wei 10<br />
-1930 Zaventem<br />
+Hoge Wei 1930 Zaventem<br />
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder:  </p>
 <p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA<br />
-T l/Tel: +32 (0)2 554 62<br />
-Lietuva 
+T l/Tel: +32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. +370 5 251 4 </p>
-<pre><code> ,
-</code></pre>
-<p>.: +359 2 970 4 
-Magyarorsz g 
+Tel. +370 5 251 4<br />
+     ,   <br />
+ .: +359 2 970 4Magyarorsz g 
 Pfizer Kft.<br />
-Tel.: + 36 1 488 37<br />
- esk  republika 
+Tel.: + 36 1 488 37  esk  republika 
 Pfizer, spol. s r.o. 
-Tel: +420 283 004<br />
-Malta 
+Tel: +420 283 004 Malta 
 Drugsales Ltd 
 Tel: +356 21419070/1/2 
 Danmark 
 Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Nederland 
+Tlf: +45 44 20 11 Nederland 
 Pfizer bv 
-Tel: +31 (0)800 63 34<br />
-Deutschland<br />
+Tel: +31 (0)800 63 34 Deutschland<br />
 PFIZER PHARMA GmbH<br />
-Tel: +49 (0)30 550055-51 
-Norge 
+Tel: +49 (0)30 550055-51Norge 
 Pfizer AS 
-Tlf: +47 67 52 61<br />
-Eesti 
+Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
- sterreich 
+Tel: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>Pfizer    A.E. 
- : +30 210 6785 
-Polska 
+ : +30 210 6785Polska 
 Pfizer Polska Sp. z o.o. 
-Tel.: +48 22 335 61<br />
-Espa a 
+Tel.: +48 22 335 61 Espa a 
 Pfizer, S.L.<br />
-Tel: +34 91 490 99<br />
-Portugal 
+Tel: +34 91 490 99 Portugal 
 Laborat rios Pfizer, Lda. 
-Tel: +351 21 423 5 
-France 
+Tel: +351 21 423 5France 
 Pfizer 
-T l: +33 (0)1 58 07 34<br />
-Rom nia 
+T l: +33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L. 
-Tel: +40 (0) 21 207 28<br />
-Hrvatska 
+Tel: +40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
-Tel: +385 1 3908<br />
-Slovenija 
+Tel: +385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel: +386 (0)1 52 11<br />
-Ireland 
+Tel: +386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: +1800 633 363 (toll free) 
 Tel: +44 (0)1304 616Slovensk  republika 
 Pfizer Luxembourg SARL, organiza n  zlo ka 
-Tel: +421 2 3355 5 </p>
-<p>sland 
+Tel: +421 2 3355 5 sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Suomi/Finland 
+S mi: +354 540 8Suomi/Finland 
 Pfizer Oy 
-Puh/Tel: +358 (0)9 430<br />
-Italia 
+Puh/Tel: +358 (0)9 430 Italia 
 Pfizer S.r.l. 
-Tel: +39 06 33 18<br />
-Sverige 
+Tel: +39 06 33 18 Sverige 
 Pfizer AB 
-Tel: +46 (0)8 550 520  </p>
-<p>Pfizer    . . (Cyprus Branch) 
+Tel: +46 (0)8 550 520 <br />
+Pfizer    . . (Cyprus Branch) 
  .: +357 22817United Kingdom (Northern Ireland) 
 Pfizer Limited 
-Tel: +44 (0) 1304 616 
-Latvija 
+Tel: +44 (0) 1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel.: +371 670 35  </p>
-<p>This leaflet was last revised in  </p>
+Tel.: +371 670 35 This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 

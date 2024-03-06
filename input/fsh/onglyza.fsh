@@ -4,7 +4,7 @@ Instance: composition-en-007d6f1b6943d8c2483d508167f6813d
 InstanceOf: CompositionUvEpi
 Title: "Composition for onglyza Package Leaflet"
 Description:  "Composition for onglyza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Onglyza is and what it is used for
 2. What you need to know before you take Onglyza
 3. How to take Onglyza
 4. Possible side effects
 5. How to store Onglyza
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -365,5 +364,5 @@ This medicine has been prescribed for you only. Do not pass it on to others. It 
 even if their signs of illness are the same as yours.
 -
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

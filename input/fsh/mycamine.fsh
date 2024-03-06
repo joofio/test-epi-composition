@@ -4,7 +4,7 @@ Instance: composition-en-a8bf6c781d45d4ee28ddbc241a4ae52b
 InstanceOf: CompositionUvEpi
 Title: "Composition for mycamine Package Leaflet"
 Description:  "Composition for mycamine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Mycamine is and what it is used for 
 2. What you need to know before you use Mycamine 
 3. How to use Mycamine 
 4. Possible side effects 
 5. How to store Mycamine 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -289,81 +288,63 @@ Marketing Authorisation Holder: </p>
 Astellas Pharma B.V. Branch 
 T l/Tel: +32 (0)2 5580Lietuva 
 Biocodex UAB 
-Tel: +370 37 408  </p>
-<p>Te : +359 2 862 53  </p>
-<p>Luxembourg/Luxemburg 
+Tel: +370 37 408   </p>
+<p>Te : +359 2 862 53 Luxembourg/Luxemburg 
 Astellas Pharma B.V. Branch 
 Belgique/Belgien 
-T l/Tel: +32 (0)2 5580 
- esk  republika 
+T l/Tel: +32 (0)2 5580 esk  republika 
 Astellas Pharma s.r.o. 
-Tel: +420 221 401<br />
-Magyarorsz g 
+Tel: +420 221 401 Magyarorsz g 
 Astellas Pharma Kft. 
-Tel: +36 1577 8 
-Danmark 
+Tel: +36 1577 8Danmark 
 Astellas Pharma a/s 
-Tlf: +45 43430 
-Malta 
+Tlf: +45 43430Malta 
 Astellas Pharmaceuticals AEBE 
 Greece 
- el: +30 210 8189 
-Deutschland 
+ el: +30 210 8189Deutschland 
 Astellas Pharma GmbH 
-Tel: +49 (0)89 454 
-Nederland 
+Tel: +49 (0)89 454Nederland 
 Astellas Pharma B.V. 
 Tel: +31 (0)71 5455Eesti 
 Biocodex O<br />
 Tel: +372 6 056 Norge 
 Astellas Pharma 
-Tlf: +47 6676 4 </p>
-<p>sterreich </p>
+Tlf: +47 6676 4<br />
+ sterreich </p>
 <p>Astellas Pharmaceuticals AEBE 
 T : +30 210 8189Astellas Pharma Ges.m.b.H. 
-Tel: +43 (0)1 8772 
-Espa a 
+Tel: +43 (0)1 8772Espa a 
 Astellas Pharma S.A. 
-Tel: +34 91 4952 
-Polska 
+Tel: +34 91 4952Polska 
 Astellas Pharma Sp.z o.o. 
-Tel: +48 225451<br />
-France 
+Tel: +48 225451 France 
 Astellas Pharma S.A.S. 
-T l: +33 (0)1 55917 
-Portugal 
+T l: +33 (0)1 55917Portugal 
 Astellas Farma, Lda. 
-Tel: +351 21 4401 
-Hrvatska 
+Tel: +351 21 4401Hrvatska 
 Astellas d.o.o. 
 Tel: + 385 1 670 01 Rom nia 
 S.C.Astellas Pharma SRL 
-Tel: +40 (0)21 361 04 95/96/ 
-Ireland 
+Tel: +40 (0)21 361 04 95/96/Ireland 
 Astellas Pharma Co. Ltd. 
-Tel: +353 (0)1 4671 
-Slovenija 
+Tel: +353 (0)1 4671Slovenija 
 Astellas Pharma d.o.o. 
 Tel: +386 (0) 14011  sland 
 Vistor hf. 
-Tel: +354 535 7 
-Slovensk  republika 
+Tel: +354 535 7Slovensk  republika 
 Astellas Pharma s.r.o., organiza n  zlo ka 
 Tel: +421 2 4444 2Italia 
 Astellas Pharma S.p.A. 
-Tel: +39 02 921 
-Suomi/Finland 
+Tel: +39 02 921Suomi/Finland 
 Astellas Pharma 
 Puh/Tel: +358 (0)9 85606<br />
 Astellas Pharmaceuticals AEBE </p>
-<p>T : +30 210 8189 
-Sverige 
+<p>T : +30 210 8189Sverige 
 Astellas Pharma AB 
 Tel: +46 (0)40-650 15 Latvija 
 Biocodex SIA 
 Tel: +371 67 619United Kingdom (Northern Ireland) 
 Astellas Pharma Co., Limited 
-Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671 </p>
-<p>This leaflet was last approved in {MM/YYYY}.   </p>
+Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671This leaflet was last approved in {MM/YYYY}.   </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

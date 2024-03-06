@@ -4,7 +4,7 @@ Instance: composition-en-f09921a712319be762e8c3e2baca4fd9
 InstanceOf: CompositionUvEpi
 Title: "Composition for rozlytrek Package Leaflet"
 Description:  "Composition for rozlytrek Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Rozlytrek is and what it is used for 
-2. What you need to know before you take Rozlytrek 
-3. How to take Rozlytrek 
-4. Possible side effects 
-5. How to store Rozlytrek 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Rozlytrek is and what it is used for </li>
+<li>What you need to know before you take Rozlytrek </li>
+<li>How to take Rozlytrek </li>
+<li>Possible side effects </li>
+<li>How to store Rozlytrek </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -179,8 +179,8 @@ dose, tell your doctor straight away. </li>
 </ul>
 <p>Breast-feeding  </p>
 <p>Do not breast-feed while taking this medicine. This is because it is not known if Rozlytrek can pass 
-over into breast milk and could therefore harm your baby. </p>
-<p>Driving and using machines </p>
+over into breast milk and could therefore harm your baby. 
+Driving and using machines </p>
 <p>Rozlytrek may affect your ability to drive or use machines. Rozlytrek may cause you to: 
 * have blurred vision 
 * feel dizzy 
@@ -368,9 +368,8 @@ Authorisation Holder: </p>
 N.V. Roche S.A.<br />
 T l/Tel: +32 (0) 2 525 82 Lietuva 
 UAB  Roche Lietuva <br />
-Tel: +370 5 2546 </p>
-<p>: +359 2 818 44<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) 
  esk  republika 
 Roche s. r. O.<br />
@@ -378,71 +377,54 @@ Tel: +420 - 2 20382Magyarorsz g
 Roche (Magyarorsz g) Kft.<br />
 Tel: +36 - 1 279 4Danmark 
 Roche Pharmaceuticals A/S<br />
-Tlf: +45 - 36 39 99<br />
-Malta 
+Tlf: +45 - 36 39 99 Malta 
 (See Ireland) </p>
 <p>Deutschland 
 Roche Pharma AG<br />
-Tel: +49 (0) 7624 140<br />
-Nederland 
+Tel: +49 (0) 7624 Nederland 
 Roche Nederland B.V.<br />
-Tel: +31 (0) 348 438 
-Eesti 
+Tel: +31 (0) 348 438Eesti 
 Roche Eesti O <br />
-Tel: + 372 - 6 177 380<br />
-Norge 
+Tel: + 372 - 6 177 Norge 
 Roche Norge AS<br />
-Tlf: +47 - 22 78 90  </p>
-<p>Roche (Hellas) A.E.<br />
- : +30 210 61 66<br />
- sterreich 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
 Roche Austria GmbH<br />
 Tel: +43 (0) 1 27Espa a 
 Roche Farma S.A.<br />
 Tel: +34 - 91 324 81 Polska 
 Roche Polska Sp.z o.o.<br />
-Tel: +48 - 22 345 18<br />
-France 
+Tel: +48 - 22 345 18 France 
 Roche<br />
-T l: +33 (0) 1 47 61 40 00<br />
-Portugal 
+T l: +33 (0) 1 47 61 40 Portugal 
 Roche Farmac utica Qu mica, Lda<br />
-Tel: +351 - 21 425 70<br />
-Hrvatska 
+Tel: +351 - 21 425 70 Hrvatska 
 Roche d.o.o.<br />
-Tel: +385 1 4722 333  </p>
-<p>Ireland 
+Tel: +385 1 4722 Ireland 
 Roche Products (Ireland) Ltd.<br />
-Tel: +353 (0) 1 469 0 
-Rom nia 
+Tel: +353 (0) 1 469 0Rom nia 
 Roche Rom nia S.R.L.<br />
-Tel: +40 21 206 47 01  </p>
-<p>Slovenija 
+Tel: +40 21 206 47 Slovenija 
 Roche farmacevtska dru ba d.o.o.<br />
 Tel: +386 - 1 360 26  sland 
 Roche Pharmaceuticals A/S<br />
 c/o Icepharma hf<br />
 S mi: +354 540 8Slovensk  republika 
 Roche Slovensko, s.r.o.<br />
-Tel: +421 - 2 52638201  </p>
-<p>Italia 
+Tel: +421 - 2 52638Italia 
 Roche S.p.A.<br />
-Tel: +39 - 039 2 
-Suomi/Finland 
+Tel: +39 - 039 2Suomi/Finland 
 Roche Oy<br />
-Puh/Tel: +358 (0) 10 554 500  </p>
-<p>. .  &amp;    .<br />
- : +357 - 22 76 62 76<br />
-Sverige 
+Puh/Tel: +358 (0) 10 554 <br />
+ . .  &amp;    .<br />
+ : +357 - 22 76 62 Sverige 
 Roche AB<br />
-Tel: +46 (0) 8 726 1 
-Latvija 
+Tel: +46 (0) 8 726 1Latvija 
 Roche Latvija SIA<br />
-Tel: +371 - 6 7039831<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd.<br />
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 (0) 1707 366This leaflet was last revised in </p>
 <p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 

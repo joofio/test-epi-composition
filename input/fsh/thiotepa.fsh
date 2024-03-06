@@ -4,7 +4,7 @@ Instance: composition-en-f26848c5b2f5c977d1dab0f1db6d241e
 InstanceOf: CompositionUvEpi
 Title: "Composition for thiotepa Package Leaflet"
 Description:  "Composition for thiotepa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Thiotepa Riemser is and what it is used for 
-2. What you need to know before you use Thiotepa Riemser 
-3. How to use Thiotepa Riemser 
-4. Possible side effects 
-5. How to store Thiotepa Riemser 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Thiotepa Riemser is and what it is used for </li>
+<li>What you need to know before you use Thiotepa Riemser </li>
+<li>How to use Thiotepa Riemser </li>
+<li>Possible side effects </li>
+<li>How to store Thiotepa Riemser </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,8 +99,8 @@ You should tell your doctor if you have:</p>
 blood tests will be taken during treatment to check your blood cell counts. </p>
 <p>In order to prevent and manage infections, you will be given anti-infectives. </p>
 <p>Thiotepa Riemser may cause another type of cancer in the future. Your doctor will discuss this risk 
-with you. </p>
-<p>Other medicines and Thiotepa Riemser 
+with you. 
+Other medicines and Thiotepa Riemser 
 Tell your doctor if you are taking, have recently taken or might take any other medicines. </p>
 <p>Pregnancy, breast-feeding and fertility 
 You must tell your doctor if you are pregnant or you think you may be pregnant before you receive 
@@ -258,8 +258,8 @@ The expiry date refers to the last day of that month. </p>
 Do not freeze. </p>
 <p>After reconstitution the product is stable for 8 hours when stored at 2  C   8  C. </p>
 <p>After dilution the product is stable for 24 hours when stored at 2  C   8  C and for 4 hours when 
-stored at 25  C. From a microbiological point of view, the product should be used immediately. </p>
-<p>Any unused product or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
+stored at 25  C. From a microbiological point of view, the product should be used immediately. 
+Any unused product or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -285,8 +285,7 @@ Thiotepa Riemser is a white crystalline powder supplied in a glass vial containi
 <p>Each carton contains 1 vial. </p>
 <p>Marketing Authorisation Holder<br />
 Esteve Pharmaceuticals GmbH 
-Hohenzollerndamm 150-151<br />
-14199 Berlin<br />
+Hohenzollerndamm 150-14199 Berlin<br />
 Germany </p>
 <p>Manufacturer 
 HWI pharma services GmbH 
@@ -352,8 +351,7 @@ Tel: +43 (0) 1 336 01 office@ageapharma.com  </p>
 <p>Espa a 
 Esteve Pharmaceuticals, S.A. 
 Espa a 
-Tel: +34 93 446 60<br />
-Polska 
+Tel: +34 93 446 60 Polska 
 COPHARMA JOSEPH RAKOTO 
 Polska 
 Tel.: +48 691 702 joseph.rakoto@copharma.pl </p>
@@ -365,8 +363,7 @@ T l: +33 1 42 31 07 contact-france@esteve.com </p>
 Esteve Pharmaceuticals   Laborat rio 
 Farmac utico, Limitada<br />
 Portugal 
-Tel: +34 93 446 60<br />
-Hrvatska 
+Tel: +34 93 446 60 Hrvatska 
 MEDIS Adria d.o.o. 
 Hrvatska 
 Tel: +385 1 2303 info@medisadria.hr 

@@ -4,7 +4,7 @@ Instance: composition-en-a52ec7613e4d995340e57022d20be3f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for rizmoic Package Leaflet"
 Description:  "Composition for rizmoic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Rizmoic is and what it is used for 
-2. What you need to know before you take Rizmoic 
-3. How to take Rizmoic 
-4. Possible side effects 
-5. How to store Rizmoic 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Rizmoic is and what it is used for </li>
+<li>What you need to know before you take Rizmoic </li>
+<li>How to take Rizmoic </li>
+<li>Possible side effects </li>
+<li>How to store Rizmoic </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -206,8 +206,8 @@ to take your next tablet.
 Do not take a double dose to make up for a forgotten tablet. </p>
 <p>If you stop taking Rizmoic 
 Stopping Rizmoic while continuing to take your opioid medicine may cause the constipation to return. 
-Talk to your doctor if you stop taking Rizmoic. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+Talk to your doctor if you stop taking Rizmoic. 
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -319,8 +319,7 @@ Viatris Sant<br />
 T l:  +33 (0)1 40 80 15 medinfo.france@viatris.com </p>
 <p>PL 
 Molteni Farmaceutici Polska<br />
-Sp. Zo.o Tel.: +48 (12) 653 15 71                                                                                                                                     <br />
-e-mail: biuro@molteni.com.pl </p>
+Sp. Zo.o Tel.: +48 (12) 653 15 e-mail: biuro@molteni.com.pl </p>
 <p>DK 
 Viatris ApS 
 Tlf: +45 28 11 69 infodk@viatris.com </p>

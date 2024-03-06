@@ -4,7 +4,7 @@ Instance: composition-en-46af9fe042942e0b323406b7f9580690
 InstanceOf: CompositionUvEpi
 Title: "Composition for zilbrysq Package Leaflet"
 Description:  "Composition for zilbrysq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Zilbrysq is and what it is used for 
-2. What you need to know before you use Zilbrysq 
-3. How to use Zilbrysq 
-4. Possible side effects 
-5. How to store Zilbrysq 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Zilbrysq is and what it is used for </li>
+<li>What you need to know before you use Zilbrysq </li>
+<li>How to use Zilbrysq </li>
+<li>Possible side effects </li>
+<li>How to store Zilbrysq </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -94,8 +94,8 @@ section 6).
 - if you have not been vaccinated against meningococcal infection. See warnings and precautions 
 section.<br />
 - if you have a meningococcal infection. </p>
-<p>Warnings and precautions  </p>
-<p>Meningococcal and other Neisseria infections alert 
+<p>Warnings and precautions<br />
+Meningococcal and other Neisseria infections alert 
 As Zilbrysq inhibits the body s natural defences against infection, its use may increase your risk of 
 infections caused by Neisseria meningitidis, such as meningococcal infection (severe infection of the 
 linings of the brain and spinal cord and/or an infection of the blood) and also of other infections 
@@ -278,9 +278,8 @@ Authorisation Holder: </p>
 UCB Pharma S.A./NV<br />
 T l/Tel: + 32 / (0)2 559 92 Lietuva 
 UAB Medfiles 
-Tel: + 370 5 246 16  </p>
-<p>Te .: + 359 (0) 2 962 30<br />
-Luxembourg/Luxemburg 
+Tel: + 370 5 246 16   </p>
+<p>Te .: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
 UCB Pharma SA/NV<br />
 T l/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
 <p>esk  republika 
@@ -289,74 +288,53 @@ Tel: + 420 221 773 Magyarorsz g
 UCB Magyarorsz g Kft.<br />
 Tel.: + 36-(1) 391 0Danmark 
 UCB Nordic A/S<br />
-Tlf: + 45 / 32 46 24<br />
-Malta 
+Tlf: + 45 / 32 46 24 Malta 
 Pharmasud Ltd.<br />
-Tel: + 356 / 21 37 64<br />
-Deutschland 
+Tel: + 356 / 21 37 64 Deutschland 
 UCB Pharma GmbH<br />
 Tel: + 49 /(0) 2173 48 4Nederland 
 UCB Pharma B.V.<br />
-Tel: + 31 / (0)76-573 11  </p>
-<p>Eesti 
+Tel: + 31 / (0)76-573 11 Eesti 
 O  Medfiles 
-Tel: + 372 730 5 
-Norge 
+Tel: + 372 730 5Norge 
 UCB Nordic A/S<br />
-Tlf: + 47 / 67 16 5 </p>
-<p>UCB  . .<br />
- : + 30 / 2109974 
- sterreich 
+Tlf: + 47 / 67 16 5<br />
+UCB  . .<br />
+ : + 30 / 2109974 sterreich 
 UCB Pharma GmbH<br />
-Tel: + 43-(0)1 291 80<br />
-Espa a 
+Tel: + 43-(0)1 291 80 Espa a 
 UCB Pharma, S.A.<br />
-Tel: + 34 / 91 570 34<br />
-Polska 
+Tel: + 34 / 91 570 34 Polska 
 UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
-Tel: + 48 22 696 99<br />
-France 
+Tel: + 48 22 696 99 France 
 UCB Pharma S.A.<br />
-T l: + 33 / (0)1 47 29 44<br />
-Portugal 
+T l: + 33 / (0)1 47 29 44 Portugal 
 UCB Pharma (Produtos Farmac uticos), Lda<br />
-Tel: + 351 21 302 5 
-Hrvatska 
+Tel: + 351 21 302 5Hrvatska 
 Medis Adria d.o.o.<br />
-Tel: +385 (0) 1 230 34<br />
-Ireland 
+Tel: +385 (0) 1 230 34 Ireland 
 UCB (Pharma) Ireland Ltd.<br />
-Tel: + 353 / (0)1-46 37<br />
-Rom nia 
+Tel: + 353 / (0)1-46 37 Rom nia 
 UCB Pharma Romania S.R.L.<br />
-Tel: + 40 21 300 29<br />
-Slovenija 
+Tel: + 40 21 300 29 Slovenija 
 Medis, d.o.o.<br />
-Tel: + 386 1 589 69<br />
- sland 
+Tel: + 386 1 589 69  sland 
 Vistor hf.<br />
-Simi: + 354 535 7 
-Slovensk  republika 
+Simi: + 354 535 7Slovensk  republika 
 UCB s.r.o., organiza n  zlo ka<br />
-Tel: + 421 (0) 2 5920 2 
-Italia 
+Tel: + 421 (0) 2 5920 2Italia 
 UCB Pharma S.p.A.<br />
-Tel: + 39 / 02 300<br />
-Suomi/Finland 
+Tel: + 39 / 02 300 Suomi/Finland 
 UCB Pharma Oy Finland<br />
-Puh/Tel: + 358 9 2514 4 </p>
-<p>Lifepharma (Z.A.M.) Ltd<br />
- : + 357 22 056 
-Sverige 
+Puh/Tel: + 358 9 2514 4<br />
+Lifepharma (Z.A.M.) Ltd<br />
+ : + 357 22 056Sverige 
 UCB Nordic A/S<br />
-Tel: + 46 / (0) 40 294<br />
-Latvija 
+Tel: + 46 / (0) 40 294 Latvija 
 Medfiles SIA 
-Tel: + 371 67 370<br />
-United Kingdom (Northern Ireland) 
+Tel: + 371 67 370 United Kingdom (Northern Ireland) 
 UCB (Pharma) Ireland Ltd.<br />
-Tel : + 353 / (0)1-46 37  </p>
-<p>This leaflet was last revised in . </p>
+Tel : + 353 / (0)1-46 37 This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

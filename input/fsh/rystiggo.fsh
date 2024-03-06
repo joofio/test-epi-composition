@@ -4,7 +4,7 @@ Instance: composition-en-b4a7586c3f2386c190c1701cbb794f3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rystiggo Package Leaflet"
 Description:  "Composition for rystiggo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Rystiggo is and what it is used for  
-2. What you need to know before you use Rystiggo  
-3. How to use Rystiggo  
-4. Possible side effects  
-5. How to store Rystiggo  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Rystiggo is and what it is used for  </li>
+<li>What you need to know before you use Rystiggo  </li>
+<li>How to use Rystiggo  </li>
+<li>Possible side effects  </li>
+<li>How to store Rystiggo  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -226,8 +226,8 @@ Do not freeze. </p>
 <p>Each vial of solution for injection must be used only once (single use). Any unused product or waste 
 material should be disposed of in accordance with local requirements. </p>
 <p>Do not use this medicine if you notice that the liquid looks cloudy, contains foreign particles, or has 
-changed colour. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+changed colour. 
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
@@ -255,8 +255,7 @@ The devices used for administration should be procured separately. </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 UCB Pharma S.A./NV 
-T l/Tel: + 32 / (0)2 559 92<br />
-Lietuva 
+T l/Tel: + 32 / (0)2 559 92 Lietuva 
 UAB Medfiles 
 Tel: + 370 5 246 16   </p>
 <p>Te .: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
@@ -266,68 +265,55 @@ T l/Tel: + 32 / (0)2 559 92 00 (Belgique/Belgien) </p>
 UCB s.r.o. 
 Tel: + 420 221 773 Magyarorsz g 
 UCB Magyarorsz g Kft. 
-Tel.: + 36-(1) 391 0 
-Danmark 
+Tel.: + 36-(1) 391 0Danmark 
 UCB Nordic A/S 
 Tlf: + 45 / 32 46 24 Malta 
 Pharmasud Ltd. 
-Tel: + 356 / 21 37 64<br />
-Deutschland 
+Tel: + 356 / 21 37 64 Deutschland 
 UCB Pharma GmbH 
 Tel: + 49 /(0) 2173 48 4Nederland 
 UCB Pharma B.V. 
-Tel: + 31 / (0)76-573 11<br />
-Eesti 
+Tel: + 31 / (0)76-573 11 Eesti 
 O  Medfiles 
 Tel: + 372 730 5Norge 
 UCB Nordic A/S 
-Tlf: + 47 / 67 16 5 </p>
-<p>UCB  . .<br />
+Tlf: + 47 / 67 16 5<br />
+UCB  . .<br />
  : + 30 / 2109974 sterreich 
 UCB Pharma GmbH 
-Tel: + 43-(0)1 291 80<br />
-Espa a 
+Tel: + 43-(0)1 291 80 Espa a 
 UCB Pharma, S.A. 
 Tel: + 34 / 91 570 34 Polska 
 UCB Pharma Sp. z o.o. / VEDIM Sp. z o.o. 
-Tel.: + 48 22 696 99<br />
-France 
+Tel.: + 48 22 696 99 France 
 UCB Pharma S.A. 
 T l: + 33 / (0)1 47 29 44 Portugal 
 UCB Pharma (Produtos Farmac uticos), Lda 
-Tel: + 351 21 302 5 
-Hrvatska 
+Tel: + 351 21 302 5Hrvatska 
 Medis Adria d.o.o. 
-Tel: +385 (0) 1 230 34<br />
-Rom nia 
+Tel: +385 (0) 1 230 34 Rom nia 
 UCB Pharma Romania S.R.L. 
-Tel: + 40 21 300 29<br />
-Ireland 
+Tel: + 40 21 300 29 Ireland 
 UCB (Pharma) Ireland Ltd. 
 Tel: + 353 / (0)1-46 37 Slovenija 
 Medis, d.o.o. 
-Tel: + 386 1 589 69<br />
- sland 
+Tel: + 386 1 589 69  sland 
 Vistor hf. 
 S mi: + 354 535 7Slovensk  republika 
 UCB s.r.o., organiza n  zlo ka 
-Tel: + 421 (0) 2 5920 2 
-Italia 
+Tel: + 421 (0) 2 5920 2Italia 
 UCB Pharma S.p.A. 
 Tel: + 39 / 02 300 Suomi/Finland 
 UCB Pharma Oy Finland 
-Puh/Tel: + 358 9 2514 4 </p>
-<p>Lifepharma (Z.A.M.) Ltd 
- : + 357 22 056 
-Sverige 
+Puh/Tel: + 358 9 2514 4<br />
+Lifepharma (Z.A.M.) Ltd 
+ : + 357 22 056Sverige 
 UCB Nordic A/S 
 Tel: + 46 / (0) 40 294 Latvija 
 Medfiles SIA 
-Tel: + 371 67 370<br />
-United Kingdom (Northern Ireland) 
+Tel: + 371 67 370 United Kingdom (Northern Ireland) 
 UCB (Pharma) Ireland Ltd. 
-Tel: + 353 / (0)1-46 37  </p>
-<p>This leaflet was last revised in . </p>
+Tel: + 353 / (0)1-46 37 This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

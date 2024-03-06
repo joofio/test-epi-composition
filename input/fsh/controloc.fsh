@@ -4,7 +4,7 @@ Instance: composition-en-88a139efdb931409e42b2a2c15745022
 InstanceOf: CompositionUvEpi
 Title: "Composition for controloc Package Leaflet"
 Description:  "Composition for controloc Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What CONTROLOC Control is and what it is used for 
-2. What you need to know before you take CONTROLOC Control  
-3. How to take CONTROLOC Control  
-4. Possible side effects 
-5. How to store CONTROLOC Control 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What CONTROLOC Control is and what it is used for </li>
+<li>What you need to know before you take CONTROLOC Control  </li>
+<li>How to take CONTROLOC Control  </li>
+<li>Possible side effects </li>
+<li>How to store CONTROLOC Control </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -158,15 +158,8 @@ also mention any other ill-effects like pain in your joints. </li>
 reaction with eosinophilia and systemic symptoms (DRESS) and erythema multiforme have 
 been reported in association with pantoprazole treatment. Stop using pantoprazole and seek 
 medical attention immediately if you notice any of the symptoms related to these serious skin 
-reactions described in section </li>
-</ul>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take controloc"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take controloc"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor may decide that you need some tests.  </p>
+reactions described in section 4. Your doctor may decide that you need some tests.  </li>
+</ul>
 <p>If you are due to have a blood test, tell your doctor that you are taking this medicine. </p>
 <p>You may experience relief from your acid reflux and heartburn symptoms after just one day of 
 treatment with CONTROLOC Control, but this medicine is not meant to bring immediate relief. 
@@ -206,13 +199,12 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 <p>If you experience side effects like dizziness or disturbed vision, you should not drive or use machines. </p>
 <p>CONTROLOC Control contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take controloc"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take controloc"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as described in this leaflet or as your doctor or pharmacist have told 
 you. Check with your doctor or pharmacist if you are not sure.  </p>
@@ -233,12 +225,13 @@ your medicine and this leaflet with you </p>
 <p>If you forget to take CONTROLOC Control </p>
 <p>Do not take a double dose to make up for the forgotten dose. Take your next, normal dose, the next 
 day, at your usual time. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store controloc"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store controloc"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately or contact the casualty department at your nearest hospital, if you get 
@@ -257,24 +250,20 @@ very fast heartbeat and heavy sweating. </p>
 available data):  </p>
 </li>
 </ul>
-<p>you may notice one or more of the following  </p>
-<ul>
-<li>rash with swelling, blistering or peeling of the skin, losing skin and bleeding around eyes, 
+<p>you may notice one or more of the following<br />
+- rash with swelling, blistering or peeling of the skin, losing skin and bleeding around eyes, 
 nose, mouth or genitals and rapid deterioration of your general health, or rash particularly in 
 areas of skin exposed to the sun. You may also have joint pain or flu-like symptoms, a fever, 
 swollen glands (e.g. in the armpit) and blood tests may show changes in certain white blood 
-cells or liver enzymes.  </li>
-<li>reddish non-elevated, target-like or circular patches on the trunk, often with central blisters, 
+cells or liver enzymes.<br />
+- reddish non-elevated, target-like or circular patches on the trunk, often with central blisters, 
 skin peeling, ulcers of mouth, throat, nose, genitals and eyes. These serious skin rashes can be 
 preceded by fever and flu-like symptoms (Stevens-Johnson syndrome, toxic epidermal 
-necrolysis). </li>
-<li>
-<p>widespread rash, high body temperature and enlarged lymph nodes (DRESS syndrome or drug 
+necrolysis). 
+- widespread rash, high body temperature and enlarged lymph nodes (DRESS syndrome or drug 
 hypersensitivity syndrome). </p>
-</li>
-<li>
-<p>Other serious reactions (frequency not known):  </p>
-</li>
+<ul>
+<li>Other serious reactions (frequency not known):  </li>
 </ul>
 <p>yellowing of the skin and eyes (due to severe liver damage), or fever, rash, and enlarged kidneys 
 sometimes with painful urination, and lower back pain (serious inflammation of the kidneys), 
@@ -319,11 +308,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store controloc"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store controloc"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date, which is stated on the carton and the blister after  EXP . 
@@ -331,4 +319,128 @@ The expiry date refers to the last day of that month. </p>
 <p>Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What CONTROLOC Control contains </p>
+<ul>
+<li>The active substance is pantoprazole. Each tablet contains 20 mg pantoprazole (as sodium 
+sesquihydrate). </li>
+<li>The other ingredients are:  </li>
+</ul>
+<p>Core: sodium carbonate (anhydrous), mannitol (E421), crospovidone, povidone K90, calcium 
+stearate. </p>
+<p>Coating: hypromellose, povidone, titanium dioxide (E171), yellow iron oxide (E172), propylene 
+glycol (E1520), methacrylic acid-ethyl acrylate copolymer, sodium laurilsulfate, polysorbate 80, 
+triethyl citrate. </p>
+<p>Printing ink: shellac, red, black and yellow iron oxide (E172) and ammonia solution, 
+concentrated. </p>
+<p>What CONTROLOC Control looks like and contents of the pack </p>
+<p>The gastro-resistant tablets are yellow, oval, biconvex film-coated tablets imprinted with  P20  on one 
+side. </p>
+<p>CONTROLOC Control is available in Alu/Alu blisters with or without cardboard reinforcement. 
+Packs containing 7 or 14 gastro-resistant tablets. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Takeda GmbH 
+Byk-Gulden-Stra e 2, 78467 Konstanz<br />
+Germany </p>
+<p>Manufacturer </p>
+<p>Takeda GmbH 
+Production site Oranienburg 
+Lehnitzstra e 70-98, 16515 Oranienburg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Takeda Belgium NV 
+T l/Tel: + 32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>Te .: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+T l/Tel: + 32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>esk  republika<br />
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarorsz g 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Takeda HELLAS S.A. 
+Tel: +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0) 800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>Takeda    . . 
+ : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
+<p>Espa a 
+Takeda Farmac utica Espa a, S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmac uticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>Rom nia 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>sland 
+Vistor hf. 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>Takeda    . . 
+ : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

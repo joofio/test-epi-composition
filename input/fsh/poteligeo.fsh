@@ -4,7 +4,7 @@ Instance: composition-en-249170621fe2e34bc97c331b03b5b5b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for poteligeo Package Leaflet"
 Description:  "Composition for poteligeo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What POTELIGEO is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What POTELIGEO is and what it is used for<br />
 2. What you need to know before you use POTELIGEO 
 3. How POTELIGEO is given 
-4. Possible side effects  
-5. How to store POTELIGEO  
-6. Contents of the pack and other information 
-         </div>"""   
+4. Possible side effects<br />
+5. How to store POTELIGEO<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -251,7 +250,7 @@ Netherlands  </p>
 allphamed PHARBIL Arzneimittel GmbH 
 Hildebrandstr. 10-37081 G ttingen 
 Germany </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

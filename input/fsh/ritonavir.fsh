@@ -4,7 +4,7 @@ Instance: composition-en-de065403a5793478002be710eeac097c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ritonavir Package Leaflet"
 Description:  "Composition for ritonavir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Ritonavir Mylan is and what it is used for 
 2. What you need to know before you or your child takes Ritonavir Mylan 
 3. How to take Ritonavir Mylan 
 4. Possible side effects 
 5. How to store Ritonavir Mylan 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -264,10 +263,10 @@ amlodipine, diltiazem and nifedipine); </li>
 <li>morphine and morphine-like medicines used to treat severe pain (e.g. methadone, fentanyl); </li>
 <li>sleeping pills (e.g. alprazolam, zolpidem) and also midazolam administered by injection; </li>
 <li>tranquillisers (e.g. haloperidol, risperidone, thioridazine); </li>
-<li>colchicine, a treatment for gout. </li>
+<li>colchicine, a treatment for gout. 
+There are some medicines you cannot take at all with ritonavir. These are listed earlier in section 2, 
+under  Do not take Ritonavir Mylan . </li>
 </ul>
-<p>There are some medicines you cannot take at all with ritonavir. These are listed earlier in section 2, 
-under  Do not take Ritonavir Mylan . </p>
 <p>Taking Ritonavir Mylan with food and drink </p>
 <p>Ritonavir Mylan tablets should be taken with food. </p>
 <p>Pregnancy and breast-feeding </p>
@@ -308,8 +307,8 @@ of 6 tablets twice daily (totalling 1,200 mg per day). Children (2 - 12 years of
 with a dose smaller than this and continue up to the maximum allowed for their size. </p>
 <p>Your doctor will advise you on the dose to be taken. </p>
 <p>Other forms of this medicine may be more appropriate for children who have difficulty swallowing 
-tablets. </p>
-<p>Ritonavir Mylan should be taken every day to help control your HIV, no matter how much better you 
+tablets. 
+Ritonavir Mylan should be taken every day to help control your HIV, no matter how much better you 
 feel. If a side effect is preventing you from taking Ritonavir Mylan as directed, tell your doctor 
 straight away. During episodes of diarrhoea your doctor may decide that extra monitoring is needed. </p>
 <p>Always keep enough Ritonavir Mylan on hand so you don't run out. When you travel or need to stay in 
@@ -473,7 +472,96 @@ you no longer use. These measures will help the environment. </p>         </div>
 <li>The other tablet ingredients are: copovidone, sorbitan laurate, colloidal anhydrous silica, sodium 
 chloride, sodium stearyl fumarate see section 2  Ritonavir Mylan contains sodium . </li>
 <li>The tablet coating is composed of: hypromellose, titanium dioxide (E171), macrogols, 
-hydroxypropylcellulose, talc, iron oxide yellow (E172), colloidal anhydrous silica, polysorbate 
-8</li>
-</ul>         </div>"""      
+hydroxypropylcellulose, talc, iron oxide yellow (E172), colloidal anhydrous silica, polysorbate </li>
+<li>What Ritonavir Mylan looks like and contents of the pack </li>
+</ul>
+<p>Ritonavir Mylan film-coated tablets are yellow, capsule shaped, biconvex, beveled edge and marked 
+with  M163  on one side and blank on the other. </p>
+<p>Ritonavir Mylan film-coated tablets are available in plastic bottles with screw caps and aluminium 
+sealing liner wads, containing 30, 90 or 100 tablets and in multipacks of 90 tablets comprising 3 
+bottles, each containing 30 tablets. The bottles also contain a desiccant. Do not eat the desiccant. </p>
+<p>Also available in blister pack containing 30 and 90 tablets and in perforated unit dose blister packs 
+containing, 30 x 1 and 90 x 1 tablets. </p>
+<p>Not all pack sizes may be marketed. 
+Marketing Authorisation Holder </p>
+<p>Mylan Pharmaceuticals Limited 
+Damastown Industrial Park,<br />
+Mulhuddart, Dublin 15,<br />
+DUBLIN 
+Ireland </p>
+<p>Manufacturer </p>
+<p>McDermott Laboratories Limited trading as Gerard Laboratories trading as Mylan Dublin, 
+Unit 35/36 Baldoyle Industrial Estate, 
+Grange Road, Dublin 13, 
+Ireland </p>
+<p>Mylan Hungary Kft, 
+Mylan utca 1, Kom rom, H-2Hungary </p>
+<p>Mylan Germany GmbH 
+Zweigniederlassung Bad Homburg v. d. Hoehe,<br />
+Benzstrasse 1, Bad Homburg v. d. Hoehe 
+Hessen, 61Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Viatris 
+T l/Tel: + 32 (0)2 658 61 Lietuva 
+Viatris UAB<br />
+Tel: + 370 5 205 1  </p>
+<p>: + 359 2 44 55 Luxembourg/Luxemburg 
+Viatris 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
+Viatris CZ s.r.o. 
+Tel: + 420 222 004 Magyarorsz g 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2Danmark 
+Viatris ApS 
+Tlf: + 45 28 11 69 Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01 Deutschland 
+Viatris Healthcare GmbH<br />
+Tel: + 49 800 0700 Nederland 
+Mylan BV 
+Tel: + 31 (0)20 426 3Eesti 
+Viatris O<br />
+Tel: + 372 6363 Norge 
+Viatris AS 
+Tlf: + 47 66 75 33  <br />
+Viatris Hellas Ltd 
+ :  + 30 2100 100  sterreich 
+Arcana Arzneimittel GmbH 
+Tel: + 43 1 416 2Espa a 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102 Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel.: + 48 22 546 64 France 
+Viatris Sant<br />
+T l: + 33 4 37 25 75 Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127Hrvatska 
+Viatris Hrvatska d.o.o. <br />
+Tel: + 385 1 23 50 Rom nia 
+BGP Products SRL 
+Tel: + 40 372 579 Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63  sland 
+Icepharma hf. 
+S mi: + 354 540 8Slovensk  republika 
+Viatris Slovakia s.r.o. 
+Tel: + 421 2 32 199 Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 (0) 2 612 46Suomi/Finland 
+Viatris Oy 
+Puh/Tel: + 358 20 720 9<br />
+Varnavas Hadjipanayis Ltd. 
+ : + 357 2220 7Sverige 
+Viatris AB<br />
+Tel: + 46 (0)8 630 19 Latvija 
+Viatris SIA<br />
+Tel: + 371 676 055 United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: + 353 18711This leaflet was last revised in { </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

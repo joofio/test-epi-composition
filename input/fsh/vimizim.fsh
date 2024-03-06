@@ -4,7 +4,7 @@ Instance: composition-en-5b2806d6987bdec4479a8e779b3ce797
 InstanceOf: CompositionUvEpi
 Title: "Composition for vimizim Package Leaflet"
 Description:  "Composition for vimizim Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Vimizim is and what it is used for 
 2. What you need to know before you are given Vimizim 
 3. How Vimizim is given 
 4. Possible side effects 
 5. How to store Vimizim 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]

@@ -4,7 +4,7 @@ Instance: composition-en-28443e1a5133f6583423ca208758fe45
 InstanceOf: CompositionUvEpi
 Title: "Composition for gliolan Package Leaflet"
 Description:  "Composition for gliolan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Gliolan is and what it is used for 
-2. What you need to know before you take Gliolan 
-3. How to take Gliolan 
-4. Possible side effects 
-5. How to store Gliolan 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Gliolan is and what it is used for </li>
+<li>What you need to know before you take Gliolan </li>
+<li>How to take Gliolan </li>
+<li>Possible side effects </li>
+<li>How to store Gliolan </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -258,8 +258,7 @@ gliolan@medac.de </p>
 medac Gesellschaft f r klinische 
 Spezialpr parate G.m.b.H, Tyskland, filial 
 Postboks N-1312 Slependen 
-Tlf: +47 90 63 81<br />
-Polska 
+Tlf: +47 90 63 81 Polska 
 medac GmbH Sp. z o.o. 
 Oddzia  w Polsce 
 ul Post pu 21 B 
@@ -280,8 +279,7 @@ geral@medac.de </p>
 medac Gesellschaft f r klinische 
 Spezialpr parate G.m.b.H, Tyskland, filial 
 Bagerstr de 28, 1. DK-4640 Faxe 
-Tlf: +46 (0)44 7850<br />
-Slovensk  republika 
+Tlf: +46 (0)44 7850 Slovensk  republika 
 medac GmbH 
 organiza n  zlo ka Slovensko 
 Staromestsk  3 
@@ -295,8 +293,7 @@ Spezialpr parate G.m.b.H, Tyskland, filial
 Spektri Business Park 
 Mets nneidonkuja 4 
 FIN-02130 Espoo 
-Puh/Tel: + 358 (0)10 420 4 
-France 
+Puh/Tel: + 358 (0)10 420 4France 
 medac SAS 
 1 rue Croix Barret 
 F-69007 Lyon 
@@ -305,8 +302,7 @@ T l: + 33 (0)4 37 66 14 infomed@medac.fr </p>
 medac Gesellschaft f r klinische 
 Spezialpr parate G.m.b.H, Tyskland, filial 
 Hyllie Boulevard S-215 32 Malm<br />
-Tel: +46 (0)44 7850<br />
-Ireland 
+Tel: +46 (0)44 7850 Ireland 
 Fannin Ltd 
 Fannin House 
 South County Business Park 

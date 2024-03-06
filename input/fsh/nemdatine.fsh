@@ -4,7 +4,7 @@ Instance: composition-en-19f088d0c7284b3f1b2eff5965fbb50a
 InstanceOf: CompositionUvEpi
 Title: "Composition for nemdatine Package Leaflet"
 Description:  "Composition for nemdatine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Nemdatine is and what it is used for 
 2. What you need to know before you take Nemdatine 
 3. How to take Nemdatine 
 4. Possible side effects 
 5. How to store Nemdatine 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -199,8 +198,8 @@ shortness of breath, high blood pressure and drug hypersensitivity </p>
 - Tiredness, fungal infections, confusion, hallucinations, vomiting, abnormal gait, heart failure 
 and venous blood clotting (thrombosis/thromboembolism) </p>
 <p>Very Rare (affects less than 1 user in 10,000) 
-- Seizures </p>
-<p>Not known (frequency cannot be estimated from the available data) 
+- Seizures 
+Not known (frequency cannot be estimated from the available data) 
 - Inflammation of the pancreas, inflammation of the liver (hepatitis) and psychotic reactions </p>
 <p>Alzheimer s disease has been associated with depression, suicidal ideation and suicide. These events 
 have been reported in patients treated with memantine. </p>
@@ -250,101 +249,74 @@ Iceland </p>
 <p>Manufacturer 
 Actavis Ltd. 
 BLB 015-016 Bulebel Industrial Estate 
-Zejtun ZTN 3Malta </p>
-<p>TEVA Gy gyszergy r Zrt. 
+Zejtun ZTN 3Malta 
+TEVA Gy gyszergy r Zrt. 
 Pallagi  t Debrecen 4Hungary </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-T l/Tel: +32 38207 
-Lietuva 
+T l/Tel: +32 38207Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 </p>
-<p>: +359 24899 
-Luxembourg/Luxemburg 
+Tel: +370 52660  </p>
+<p>: +359 24899Luxembourg/Luxemburg 
 ratiopharm GmbH 
 Allemagne/Deutschland 
-T l/Tel: +49 73140 
- esk  republika 
+T l/Tel: +49 73140 esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarorsz g 
+Tel: +420 251007Magyarorsz g 
 Teva Gy gyszergy r Zrt. 
-Tel: +36 12886 
-Danmark 
+Tel: +36 12886Danmark 
 Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
+Tlf: +45 44985Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
+Tel: +44 2075407Deutschland 
 ratiopharm GmbH 
-Tel: +49 73140 
-Nederland 
+Tel: +49 73140Nederland 
 Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
+Tel: +31 8000228Eesti 
 UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
+Tel: +372 6610Norge 
 Teva Norway AS 
-Tlf: +47 66775 </p>
-<p>TEVA HELLAS A.E. 
- : +30 2118805 
- sterreich 
+Tlf: +47 66775<br />
+TEVA HELLAS A.E. 
+ : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-Espa a 
+Tel: +43 1970Espa a 
 Teva Pharma, S.L.U. 
-Tel: +34 913873 
-Polska 
+Tel: +34 913873Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
+Tel: +48 223459France 
 Teva Sant<br />
-T l: +33 155917 
-Portugal 
+T l: +33 155917Portugal 
 Teva Pharma - Produtos Farmac uticos, Lda. 
-Tel: +351 214767 
-Hrvatska 
+Tel: +351 214767Hrvatska 
 Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-Rom nia 
+Tel: +385 13720Rom nia 
 Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
+Tel: +40 212306Ireland 
 Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
+Tel: +44 2075407Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
- sland 
+Tel: +386 15890 sland 
 Teva Pharma Iceland ehf. 
-S mi: +354 5503 
-Slovensk  republika 
+S mi: +354 5503Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
+Tel: +421 257267Italia 
 Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
+Tel: +39 028917Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 </p>
-<p>TEVA HELLAS A.E. </p>
-<p>: +30 2118805 
-Sverige 
+Puh/Tel: +358 201805<br />
+TEVA HELLAS A.E. </p>
+<p>: +30 2118805Sverige 
 Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
+Tel: +46 42121Latvija 
 UAB Teva Baltics fili le Latvij<br />
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
+Tel: +371 67323United Kingdom (Northern Ireland) 
 Accord Healthcare Ireland Ltd. 
 Ireland 
-Tel: +353 214619 </p>
-<p>This leaflet was last revised in {MM/YYYY} </p>
+Tel: +353 214619This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-2f7a279f68a665d0f862dc617efb9035
 InstanceOf: CompositionUvEpi
 Title: "Composition for relistor Package Leaflet"
 Description:  "Composition for relistor Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Relistor is and what it is used for 
-2. What you need to know before you use Relistor 
-3. How to use Relistor 
-4. Possible side effects 
-5. How to store Relistor 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Relistor is and what it is used for </li>
+<li>What you need to know before you use Relistor </li>
+<li>How to use Relistor </li>
+<li>Possible side effects </li>
+<li>How to store Relistor </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -207,14 +207,14 @@ sweating, hair standing on end, blushing, fast heart beat) </p>
 <p>Reaction at the site of injection (e.g., stinging, burning, pain, redness, oedema)  </p>
 </li>
 <li>
-<p>Vomiting </p>
-</li>
-</ul>
-<p>Reporting of side effects<br />
+<p>Vomiting 
+Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects you can help provide more information on the safety 
-of this medicine. </p>         </div>"""      
+of this medicine. </p>
+</li>
+</ul>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store relistor"

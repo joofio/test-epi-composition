@@ -4,7 +4,7 @@ Instance: composition-en-c655ba158247aca6fe88c56a30a2ce75
 InstanceOf: CompositionUvEpi
 Title: "Composition for jetrea Package Leaflet"
 Description:  "Composition for jetrea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Jetrea is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Jetrea is and what it is used for<br />
 2. What you need to know before you are given Jetrea 
 3. How Jetrea is given 
 4. Possible side effects 
 5. How Jetrea is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]

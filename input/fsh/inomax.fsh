@@ -4,7 +4,7 @@ Instance: composition-en-b3a7e562e5ab08730073fe4737f50e1b
 InstanceOf: CompositionUvEpi
 Title: "Composition for inomax Package Leaflet"
 Description:  "Composition for inomax Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
- 
-1. What INOmax is and what it is used for 
-2. What you need to know before you begin a treatment with INOmax  
-3. How INOmax is given 
-4. Possible side effects 
-5. How to store INOmax  
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+<ol>
+<li>What INOmax is and what it is used for </li>
+<li>What you need to know before you begin a treatment with INOmax  </li>
+<li>How INOmax is given </li>
+<li>Possible side effects </li>
+<li>How to store INOmax  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -270,8 +271,7 @@ France  </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Linde Gas Belgium N.V. 
-Borsbeeksebrug 34<br />
-B - 2600 Antwerpen 
+Borsbeeksebrug B - 2600 Antwerpen 
 T l/Tel.: +32 70 233 info.healthcare.be@linde.com </p>
 <p>Lietuva 
 Linde Gas UAB 
@@ -283,8 +283,7 @@ S - 169 68 Solna </p>
 <p>Tel: +46 8 7311healthcare.se@linde.com </p>
 <p>Luxembourg/Luxemburg 
 Linde Gas Belgium N.V. 
-Borsbeeksebrug 34<br />
-B - 2600 Antwerpen 
+Borsbeeksebrug B - 2600 Antwerpen 
 Belgique/Belgien 
 T l/Tel.: +32 70 233 info.healthcare.be@linde.com 
  esk  republika 
@@ -309,8 +308,7 @@ l-Isvezja
 Tel: +46 8 7311healthcare.se@linde.com 
 Deutschland 
 Linde GmbH 
-Seitnerstra e 70<br />
-D - 82049 Pullach 
+Seitnerstra e D - 82049 Pullach 
 Tel: +49 89 31001 0 
 medgas@linde.com  </p>
 <p>Nederland 
@@ -373,8 +371,7 @@ Tel: 0800 917 4Slovenija
 GTG plin d.o.o. 
 Bukov lak 65/b 
 SI - 3000 CELJE 
-Tel: + 386 (0)3 42 60<br />
-ukcsc@inotherapy.co.uk 
+Tel: + 386 (0)3 42 60 ukcsc@inotherapy.co.uk 
 prodaja@gtg-plin.com 
  sland 
 Linde Gas ehf<br />
@@ -389,8 +386,7 @@ Italia
 LINDE MEDICALE S.r.L 
 Via Guido Rossa 3 
 I - 20004 Arluno (MI) 
-Tel : +39 02 903731 / 800 600<br />
-Suomi/Finland 
+Tel : +39 02 903731 / 800 600 Suomi/Finland 
 Oy Linde Gas Ab 
 Itsehallintokuja 6 
 FI - 02600 Espoo 

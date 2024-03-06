@@ -4,7 +4,7 @@ Instance: composition-en-354a12a26a634d20a9056857238f1e23
 InstanceOf: CompositionUvEpi
 Title: "Composition for jalra Package Leaflet"
 Description:  "Composition for jalra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Jalra is and what it is used for 
-2. What you need to know before you take Jalra 
-3. How to take Jalra 
-4. Possible side effects 
-5. How to store Jalra 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Jalra is and what it is used for </li>
+<li>What you need to know before you take Jalra </li>
+<li>How to take Jalra </li>
+<li>Possible side effects </li>
+<li>How to store Jalra </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -256,8 +256,8 @@ Jalra 50 mg tablets are round, white to light yellowish and flat, with  NVR  on 
 the other. </p>
 <p>Jalra 50 mg tablets are available in packs containing 7, 14, 28, 30, 56, 60, 90, 112, 180 or 336 tablets 
 and in multipacks comprising 3 cartons, each containing 112 tablets. </p>
-<p>Not all pack sizes may be marketed in your country. </p>
-<p>Marketing Authorisation Holder 
+<p>Not all pack sizes may be marketed in your country. 
+Marketing Authorisation Holder 
 Novartis Europharm Limited 
 Vista Building 
 Elm Park, Merrion Road 
@@ -278,23 +278,19 @@ Verovskova ulica Ljubljana 1Slovenia </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
-Lietuva 
+T l/Tel: +32 2 246 16 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16  </p>
-<p>Novartis Bulgaria EOOD 
- .: +359 2 489 98<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ .: +359 2 489 98 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
 T l/Tel: +32 2 246 16  esk  republika 
 Novartis s.r.o. 
-Tel: +420 225 775<br />
-Magyarorsz g 
+Tel: +420 225 775 Magyarorsz g 
 Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
-Tlf: +45 39 16 84<br />
-Malta 
+Tlf: +45 39 16 84 Malta 
 Novartis Pharma Services Inc. 
 Tel: +356 2122 2Deutschland 
 Novartis Pharma GmbH 
@@ -303,60 +299,48 @@ Tel: +49 911 273 0 </p>
 Novartis Pharma B.V. 
 Tel: +31 88 04 52 Eesti 
 SIA Novartis Baltics Eesti filiaal 
-Tel: +372 66 30<br />
-Norge 
+Tel: +372 66 30 Norge 
 Novartis Norge AS 
 Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
  : +30 210 281 17 <br />
 WIN MEDICA   A.E. 
-T : +30 210 74 88<br />
- sterreich 
+T : +30 210 74 88  sterreich 
 Novartis Pharma GmbH 
 Tel: +43 1 86 6Espa a 
 Esteve Pharmaceuticals, S.A. 
-Tel: +34 93 446 60<br />
-Polska 
+Tel: +34 93 446 60 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-T l: +33 1 55 47 66<br />
-Portugal 
+T l: +33 1 55 47 66 Portugal 
 Bialport-Produtos Farmac uticos, S.A. 
 Tel: +351 22 986 61 Hrvatska 
 Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274<br />
-Rom nia 
+Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
-Tel: +353 1 260 12<br />
-Slovenija 
+Tel: +353 1 260 12 Slovenija 
 Novartis Pharma Services Inc. 
 Tel: +386 1 300 75  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Novartis Slovakia s.r.o. 
-Tel: +421 2 5542 5 
-Italia 
+Tel: +421 2 5542 5Italia 
 Novartis Farma S.p.A. 
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133  </p>
-<p>Novartis Pharma Services Inc. 
- : +357 22 690<br />
-Sverige 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
 Novartis Sverige AB 
-Tel: +46 8 732 32<br />
-Latvija 
+Tel: +46 8 732 32 Latvija 
 SIA Novartis Baltics 
-Tel: +371 67 887<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
 Novartis Ireland Limited 
-Tel: +44 1276 698 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu </p>         </div>"""      

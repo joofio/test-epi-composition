@@ -4,7 +4,7 @@ Instance: composition-en-171cf6efa1f321eb434b5635b2f1abe1
 InstanceOf: CompositionUvEpi
 Title: "Composition for prandin Package Leaflet"
 Description:  "Composition for prandin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Prandin is and what it is used for 
-2. What you need to know before you take Prandin 
-3. How to take Prandin 
-4. Possible side effects 
-5. How to store Prandin 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Prandin is and what it is used for </li>
+<li>What you need to know before you take Prandin </li>
+<li>How to take Prandin </li>
+<li>Possible side effects </li>
+<li>How to store Prandin </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -96,17 +96,15 @@ section 6). </li>
 <li>If you take gemfibrozil (a medicine used to lower increased fat levels in the blood). </li>
 </ul>
 <p>Warnings and precautions 
-Talk to your doctor before taking Prandin: </p>
-<ul>
-<li>If you have liver problems. Prandin is not recommended in patients with moderate liver 
+Talk to your doctor before taking Prandin: 
+* If you have liver problems. Prandin is not recommended in patients with moderate liver 
 disease. Prandin should not be taken if you have a severe liver disease (see Do not take 
-Prandin). </li>
-<li>If you have kidney problems. Prandin should be taken with caution. </li>
-<li>If you are about to have major surgery or you have recently suffered a severe illness or 
-infection. At such times diabetic control may be lost. </li>
-<li>If you are under 18 or over 75 years of age. Prandin is not recommended. It has not been 
-studied in these age groups. </li>
-</ul>
+Prandin). 
+* If you have kidney problems. Prandin should be taken with caution. 
+* If you are about to have major surgery or you have recently suffered a severe illness or 
+infection. At such times diabetic control may be lost. 
+* If you are under 18 or over 75 years of age. Prandin is not recommended. It has not been 
+studied in these age groups. </p>
 <p>Talk to your doctor if any of the above applies to you. Prandin may not be suitable for you. Your 
 doctor will advise you. </p>
 <p>Children and adolescents </p>
@@ -240,8 +238,8 @@ Common (may affect up to 1 in 10 patients)
 * Severe liver problems, abnormal liver function such as increased liver enzymes in your blood. </p>
 <p>Frequency not known 
 * Hypersensitivity (such as rash, itchy skin, redening of the skin, swelling of the skin) 
-* Feeling sick (nausea). </p>
-<p>Reporting of side effects 
+* Feeling sick (nausea). 
+Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 

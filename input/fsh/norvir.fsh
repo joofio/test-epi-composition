@@ -4,7 +4,7 @@ Instance: composition-en-05f8c1dee8f03d43d5a47046b61f2f18
 InstanceOf: CompositionUvEpi
 Title: "Composition for norvir Package Leaflet"
 Description:  "Composition for norvir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Norvir is and what it is used for
 2. What you need to know before you or your child takes Norvir
 3. How to take Norvir
 4. Possible side effects
 5. How to store Norvir
-6. Contents of the pack and other information         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -481,15 +481,7 @@ e. Slowly push the plunger until you see a small
 amount of liquid at the tip of the syringe.
 f. If there are any large air bubbles, empty the 
 liquid from the syringe into the mixing cup and 
-start again from Step </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Figure Step 9. Measure the dose
+start again from Step 7. Figure Step 9. Measure the dose
 a. Check the prescription label on the carton for 
 the dose in ml. If you are not sure, call your 
 doctor or pharmacist.
@@ -528,12 +520,13 @@ If you miss a dose, take the missed dose as soon as possible.  If it is nearly t
 take that one.  Do not take a double dose to make up for a forgotten dose.
 If you stop taking Norvir
 Even if you feel better, do not stop taking Norvir without talking to your doctor.  Taking Norvir as 
-recommended should give you the best chance of delaying resistance to the medicines.</p>         </div>"""      
+recommended should give you the best chance of delaying resistance to the medicines.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store norvir"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store norvir"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose.  This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -621,11 +614,10 @@ signs of an inflamed pancreas.  Also tell your doctor if you experience joint st
 (especially of the hip, knee and shoulder) and difficulty moving, as this may be a sign of 
 osteonecrosis.  See also section </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store norvir"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store norvir"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>In patients with haemophilia types A and B, there have been reports of increased bleeding while taking 
 this treatment or another protease inhibitor.  Should this happen to you, seek immediate advice from 
@@ -649,4 +641,18 @@ If you get any side effects, talk to your doctor or pharmacist.  This includes a
 not listed in this leaflet.  You can also report side effects directly via the national reporting system 
 listed in Appendix V.  By reporting side effects, you can help provide more information on the safety 
 of this medicine.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
+Do not use Norvir powder for oral suspension after the expiry date on the sachet and carton.  The 
+expiry date refers to the last day of the month.
+Norvir powder for oral suspension should be stored below 30 C.<br />
+Do not use this medicine if you notice the powder is not beige/pale yellow to yellow.
+Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
+you no longer use. These measures will help protect the environment.</p>         </div>"""      
 

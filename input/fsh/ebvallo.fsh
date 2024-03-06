@@ -4,7 +4,7 @@ Instance: composition-en-dc231a8d527554079b48b6c9ff637f0d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebvallo Package Leaflet"
 Description:  "Composition for ebvallo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ebvallo is and what it is used for  
-2. What you need to know before you are given Ebvallo 
-3. How Ebvallo is given 
-4. Possible side effects  
-5. How to store Ebvallo 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ebvallo is and what it is used for  </li>
+<li>What you need to know before you are given Ebvallo </li>
+<li>How Ebvallo is given </li>
+<li>Possible side effects  </li>
+<li>How to store Ebvallo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -97,8 +97,8 @@ Talk to your doctor or nurse before you are given Ebvallo if:<br />
 * you have had a solid organ transplant or bone marrow transplant, so your doctor can monitor 
 you for signs and symptoms of transplant rejection. 
 * you are 65 years of age or older, so your doctor can monitor you for serious side effects. 
-Ebvallo should be used with caution in elderly patients. </p>
-<p>Talk to your doctor or nurse after you are given Ebvallo if: 
+Ebvallo should be used with caution in elderly patients. 
+Talk to your doctor or nurse after you are given Ebvallo if: 
 * you have signs and symptoms of tumour flare reaction. Depending on the location of the tumour, 
 Ebvallo can cause a side effect called tumour flare reaction. The tumour or enlarged lymph nodes 
 may become suddenly painful or increase in size and could cause problems for organs next to the 
@@ -202,12 +202,8 @@ blood, yellowing of the skin, nausea, vomiting, diarrhoea and bloody stools </p>
 <li>Low levels of red blood cells (anaemia) </li>
 <li>Decreased appetite </li>
 <li>Decreased levels of sodium in the blood </li>
-<li>
-<p>Abdominal pain or discomfort </p>
-</li>
-<li>
-<p>Decreased number of white blood cells (including neutrophils)  </p>
-</li>
+<li>Abdominal pain or discomfort </li>
+<li>Decreased number of white blood cells (including neutrophils)  </li>
 <li>Increased liver enzymes in the blood </li>
 <li>Constipation </li>
 <li>Increased levels of the enzyme alkaline phosphatase in the blood </li>
@@ -259,13 +255,13 @@ blood, yellowing of the skin, nausea, vomiting, diarrhoea and bloody stools </p>
 <li>Skin discolouration </li>
 <li>Skin infection </li>
 <li>Destruction of soft tissue </li>
-<li>Persistent cough </li>
-</ul>
-<p>Reporting of side effects<br />
+<li>Persistent cough 
+Reporting of side effects<br />
 If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this 
-medicine. </p>         </div>"""      
+medicine. </li>
+</ul>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store ebvallo"
@@ -309,8 +305,8 @@ Parc industriel de la Chartreuse
 France </p>
 <p>This leaflet was last revised in   </p>
 <p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
-rarity of this disease, it has been impossible to get complete information on this medicine. The </p>
-<p>European Medicines Agency will review any new information on this medicine every year and this 
+rarity of this disease, it has been impossible to get complete information on this medicine. The 
+European Medicines Agency will review any new information on this medicine every year and this 
 leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

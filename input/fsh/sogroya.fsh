@@ -4,7 +4,7 @@ Instance: composition-en-21c3d5a66a6d27b5569da6d8c7e6fc48
 InstanceOf: CompositionUvEpi
 Title: "Composition for sogroya Package Leaflet"
 Description:  "Composition for sogroya Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Sogroya is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Sogroya is and what it is used for<br />
 2. What you need to know before you use Sogroya 
 3. How to use Sogroya 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Sogroya 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -148,9 +147,9 @@ stimulating hormone) which stimulate the production of sex hormones
 * Insulin or other diabetes medicines 
 * Thyroid hormone medicines such as levothyroxine 
 * Medicines to treat epilepsy or fits (seizures)   such as carbamazepine<br />
-* Cyclosporine (immunosuppressive drug)   a medicine to suppress your immune system.  </p>
-<p>Pregnancy<br />
-* If you are able to get pregnant, you should not use Sogroya unless you are also using reliable 
+<em> Cyclosporine (immunosuppressive drug)   a medicine to suppress your immune system.<br />
+Pregnancy<br />
+</em> If you are able to get pregnant, you should not use Sogroya unless you are also using reliable 
 contraception. This is because it is not known if it could harm your unborn child. If you become 
 pregnant while you are using Sogroya, speak to your doctor immediately. If you wish to become 
 pregnant, discuss it with your doctor, as you may need to stop using the medicine. </p>
@@ -254,8 +253,8 @@ If you or the child in your care forget to inject a dose:<br />
 * and it is 3 days or less after you should have used Sogroya, use it as soon as you remember. 
 Then inject your next dose on your usual injection day. 
 * and it is more than 3 days since you should have used Sogroya, skip the missed dose. Then 
-inject your next dose as usual on your next scheduled day. </p>
-<p>Do not inject an extra dose or increase the dose to make up for a missed dose. </p>
+inject your next dose as usual on your next scheduled day. 
+Do not inject an extra dose or increase the dose to make up for a missed dose. </p>
 <p>If you stop using Sogroya<br />
 Do not stop using Sogroya without talking to your doctor. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         

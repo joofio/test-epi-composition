@@ -4,7 +4,7 @@ Instance: composition-en-6dd54a91ba651345f1ff3d87a8449c07
 InstanceOf: CompositionUvEpi
 Title: "Composition for viread Package Leaflet"
 Description:  "Composition for viread Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Viread is and what it is used for 
 2. What you need to know before your child takes Viread 
 3. How to take Viread 
 4. Possible side effects 
 5. How to store Viread 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -88,15 +87,7 @@ due to development of resistance, or have caused side effects. </p>
 <p>Your child does not have to have HIV to be treated with Viread for HBV. </p>
 <p>This medicine is not a cure for HIV infection.  While taking Viread your child may still develop 
 infections or other illnesses associated with HIV infection.  Your child can also pass on HBV to 
-others, so it is important to take precautions to avoid infecting other people. </p>
-<ol>
-<li>What you need to know before your child takes Viread </li>
-</ol>
-<p>Do not give Viread </p>
-<ul>
-<li>If your child is allergic to tenofovir, tenofovir disoproxil or any of the other ingredients of this 
-medicine listed in section </li>
-</ul>         </div>"""   
+others, so it is important to take precautions to avoid infecting other people. </p>         </div>"""   
           
 
              
@@ -105,7 +96,11 @@ medicine listed in section </li>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "2. What you need to know before you take viread"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If this applies to your child, tell their doctor immediately and don t give Viread. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not give Viread </p>
+<ul>
+<li>If your child is allergic to tenofovir, tenofovir disoproxil or any of the other ingredients of this 
+medicine listed in section 6.   If this applies to your child, tell their doctor immediately and don t give Viread. </li>
+</ul>
 <p>Warnings and precautions </p>
 <ul>
 <li>
@@ -379,11 +374,13 @@ doctor. </p>
 <p>Most frequent side effects </p>
 <p>The following side effects are very common (these can affect at least 10 in every 100 patients): </p>
 <ul>
-<li>diarrhoea, being sick (vomiting), feeling sick (nausea), dizziness, rash, feeling weak </li>
-</ul>
-<p>Tests may also show: </p>
-<ul>
-<li>decreases in phosphate in the blood </li>
+<li>
+<p>diarrhoea, being sick (vomiting), feeling sick (nausea), dizziness, rash, feeling weak 
+Tests may also show: </p>
+</li>
+<li>
+<p>decreases in phosphate in the blood </p>
+</li>
 </ul>
 <p>Other possible side effects </p>
 <p>The following side effects are common (these can affect up to 10 in every 100 patients): </p>
@@ -483,89 +480,65 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-T l/Tel: + 32 (0) 24 01 35<br />
-Lietuva 
+T l/Tel: + 32 (0) 24 01 35 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 </p>
-<p>Gilead Sciences Ireland UC 
- .: + 353 (0) 1 686 1 
-Luxembourg/Luxemburg 
+Tel: + 353 (0) 1 686 1<br />
+Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-T l/Tel: + 32 (0) 24 01 35<br />
- esk  republika 
+T l/Tel: + 32 (0) 24 01 35  esk  republika 
 Gilead Sciences s.r.o. 
-Tel: + 420 910 871<br />
-Magyarorsz g 
+Tel: + 420 910 871 Magyarorsz g 
 Gilead Sciences Ireland UC 
-Tel.: + 353 (0) 1 686 1 
-Danmark 
+Tel.: + 353 (0) 1 686 1Danmark 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Malta 
+Tlf: + 46 (0) 8 5057 1Malta 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Deutschland 
+Tel: + 353 (0) 1 686 1Deutschland 
 Gilead Sciences GmbH 
 Tel: + 49 (0) 89 899890-0 </p>
 <p>Nederland 
 Gilead Sciences Netherlands B.V. 
-Tel: + 31 (0) 20 718 36<br />
-Eesti 
+Tel: + 31 (0) 20 718 36 Eesti 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Norge 
+Tel: + 353 (0) 1 686 1Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 </p>
-<p>Gilead Sciences    . . 
- : + 30 210 8930<br />
- sterreich 
+Tlf: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930  sterreich 
 Gilead Sciences GesmbH 
-Tel: + 43 1 260<br />
-Espa a 
+Tel: + 43 1 260 Espa a 
 Gilead Sciences, S.L. 
-Tel: + 34 91 378 98<br />
-Polska 
+Tel: + 34 91 378 98 Polska 
 Gilead Sciences Poland Sp. z o.o. 
-Tel.: + 48 22 262 8 
-France 
+Tel.: + 48 22 262 8France 
 Gilead Sciences 
-T l: + 33 (0) 1 46 09 41<br />
-Portugal 
+T l: + 33 (0) 1 46 09 41 Portugal 
 Gilead Sciences, Lda. 
-Tel: + 351 21 7928 
-Hrvatska 
+Tel: + 351 21 7928Hrvatska 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1Rom nia 
 Gilead Sciences (GSR) S.R.L. 
-Tel: + 40 31 631 18<br />
-Ireland 
+Tel: + 40 31 631 18 Ireland 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 214 825<br />
-Slovenija 
+Tel: + 353 (0) 214 825 Slovenija 
 Gilead Sciences Ireland UC 
 Tel: + 353 (0) 1 686 1 sland 
 Gilead Sciences Sweden AB 
-S mi: + 46 (0) 8 5057 1 
-Slovensk  republika 
+S mi: + 46 (0) 8 5057 1Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
-Tel: + 421 232 121<br />
-Italia 
+Tel: + 421 232 121 Italia 
 Gilead Sciences S.r.l. 
-Tel: + 39 02 439 
-Suomi/Finland 
+Tel: + 39 02 439Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 </p>
-<p>Gilead Sciences    . . 
- : + 30 210 8930<br />
-Sverige 
+Puh/Tel: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930 Sverige 
 Gilead Sciences Sweden AB 
-Tel: + 46 (0) 8 5057 1 
-Latvija 
+Tel: + 46 (0) 8 5057 1Latvija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-United Kingdom (Northern Ireland) 
+Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
-Tel: + 44 (0) 8000 113  </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: + 44 (0) 8000 113 This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

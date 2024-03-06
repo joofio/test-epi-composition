@@ -4,7 +4,7 @@ Instance: composition-en-34ad0d9c563d0ccd4014e8e8bf3c5d98
 InstanceOf: CompositionUvEpi
 Title: "Composition for eliquis Package Leaflet"
 Description:  "Composition for eliquis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Eliquis is and what it is used for 
-2. What you need to know before you take Eliquis 
-3. How to take Eliquis 
-4. Possible side effects 
-5. How to store Eliquis 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Eliquis is and what it is used for </li>
+<li>What you need to know before you take Eliquis </li>
+<li>How to take Eliquis </li>
+<li>Possible side effects </li>
+<li>How to store Eliquis </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -216,8 +216,8 @@ or one of the other liquids (e.g., 30 mL), and swallow the rinse. </p>
 <p>To prevent blood clots from forming after hip or knee replacement operations. 
 The recommended dose is one tablet of Eliquis 2.5 mg twice a day. For example, one in the morning 
 and one in the evening. 
-You should take the first tablet 12 to 24 hours after your operation. </p>
-<p>If you have had a major hip operation you will usually take the tablets for 32 to 38 days. 
+You should take the first tablet 12 to 24 hours after your operation. 
+If you have had a major hip operation you will usually take the tablets for 32 to 38 days. 
 If you have had a major knee operation you will usually take the tablets for 10 to 14 days. </p>
 <p>To prevent a blood clot from forming in the heart in patients with an irregular heart beat and at least 
 one additional risk factor. 

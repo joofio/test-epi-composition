@@ -4,7 +4,7 @@ Instance: composition-en-eb144117bf1832a81a0b81022c43f19d
 InstanceOf: CompositionUvEpi
 Title: "Composition for granupas Package Leaflet"
 Description:  "Composition for granupas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What GRANUPAS is and what it is used for 
-2. What you need to know before you take GRANUPAS 
-3. How to take GRANUPAS 
-4. Possible side effects 
-5. How to store GRANUPAS 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What GRANUPAS is and what it is used for </li>
+<li>What you need to know before you take GRANUPAS </li>
+<li>How to take GRANUPAS </li>
+<li>Possible side effects </li>
+<li>How to store GRANUPAS </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -97,12 +97,9 @@ Tell your doctor or pharmacist if you are taking, have recently taken or might t
 medicines. </p>
 <p>It is especially important to tell your doctor if you are taking any of the following: 
 * Antituberculosis medicines or ethionamide (other treatments against tuberculosis) 
-* Vitamin B </p>
-<ul>
-<li>Digoxin (for heart disease) </li>
-<li>Diphenylhydramine (for allergic reactions) </li>
-<li>Tenofovir (for HIV/ hepatitis B infections) </li>
-</ul>
+* Vitamin B* Digoxin (for heart disease) 
+* Diphenylhydramine (for allergic reactions) 
+* Tenofovir (for HIV/ hepatitis B infections) </p>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. 

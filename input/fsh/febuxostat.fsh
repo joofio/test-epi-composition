@@ -4,7 +4,7 @@ Instance: composition-en-4ee334e9551b40764860d0c83a3de6c2
 InstanceOf: CompositionUvEpi
 Title: "Composition for febuxostat Package Leaflet"
 Description:  "Composition for febuxostat Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Febuxostat Viatris is and what it is used for 
-2. What you need to know before you take Febuxostat Viatris 
-3. How to take Febuxostat Viatris 
-4. Possible side effects 
-5. How to store Febuxostat Viatris 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Febuxostat Viatris is and what it is used for </li>
+<li>What you need to know before you take Febuxostat Viatris </li>
+<li>How to take Febuxostat Viatris </li>
+<li>Possible side effects </li>
+<li>How to store Febuxostat Viatris </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -141,8 +141,8 @@ febuxostat for Tumor Lysis Syndrome. </p>
 <p>Your doctor may ask you to have blood tests to check that your liver is working normally. </p>
 <p>Children and adolescents </p>
 <p>Do not give this medicine to children under the age of 18 because the safety and efficacy have 
-not been established. </p>
-<p>Other medicines and Febuxostat Viatris </p>
+not been established. 
+Other medicines and Febuxostat Viatris </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines, including medicines obtained without a prescription. 
 It is especially important to tell your doctor or pharmacist if you are taking medicines 
@@ -186,8 +186,8 @@ have prescribed the strength most suitable for you. </p>
 attack. </p>
 <p>Prevention and treatment of high uric acid levels in patients undergoing cancer chemotherapy 
 Febuxostat Viatris is available as a 120 mg tablet. 
-Start taking Febuxostat Viatris two days before chemotherapy and continue its use according to </p>
-<p>your doctor s advice. Usually treatment is short-term. </p>
+Start taking Febuxostat Viatris two days before chemotherapy and continue its use according to 
+your doctor s advice. Usually treatment is short-term. </p>
 <p>If you take more Febuxostat Viatris than you should </p>
 <p>In the event of an accidental overdose ask your doctor what to do, or contact your nearest 
 accident and emergency department. </p>
@@ -233,10 +233,8 @@ sections)
 * dizziness 
 * shortness of breath 
 * itching 
-* pain in extremity, pain/ache in muscle/joints </p>
-<ul>
-<li>fatigue </li>
-</ul>
+* pain in extremity, pain/ache in muscle/joints 
+* fatigue </p>
 <p>Uncommon side effects (may affect up to 1 in 100 people) are: 
 * decreased appetite, change in blood sugar levels (diabetes) of which a symptom may be 
 excessive thirst, increased blood fat levels, weight increase 
@@ -287,44 +285,42 @@ vomiting
 * muscle damage, a condition which on rare occasions can be serious. It may cause muscle 
 problems and particularly, if at the same time, you feel unwell or have a high temperature 
 it may be caused by an abnormal muscle breakdown. Contact your doctor immediately if 
-you experience muscle pain, tenderness or weakness </p>
-<ul>
-<li>severe swelling of the deeper layers of the skin, especially around the eyes, genitals, 
-hands, feet or tongue, with possible sudden difficult breathing </li>
-<li>high fever in combination with measles-like skin rash, enlarged lymph nodes, liver 
+you experience muscle pain, tenderness or weakness 
+* severe swelling of the deeper layers of the skin, especially around the eyes, genitals, 
+hands, feet or tongue, with possible sudden difficult breathing 
+* high fever in combination with measles-like skin rash, enlarged lymph nodes, liver 
 enlargement, hepatitis (up to liver failure), raising of the white-cells count in the blood 
-(leukocytosis, with or without eosinophilia) </li>
-<li>rash in various types (e.g. with white spots, with blisters, with blisters containing pus, 
+(leukocytosis, with or without eosinophilia) 
+* rash in various types (e.g. with white spots, with blisters, with blisters containing pus, 
 with shedding of the skin, measles-like rash), widespread erythema, necrosis, and bullous 
 detachment of the epidermis and mucous membranes, resulting in exfoliation and 
-possible sepsis (Stevens-Johnson Syndrome/Toxic epidermal necrolysis) </li>
-<li>nervousness </li>
-<li>feeling thirsty </li>
-<li>weight decrease, increased appetite, uncontrolled loss of appetite (anorexia) </li>
-<li>abnormally low blood cell counts (white or red blood cells or platelets) </li>
-<li>changes or decrease in urine amount due to inflammation in the kidneys (tubulointerstitial 
-nephritis) </li>
-<li>inflammation of the liver (hepatitis) </li>
-<li>yellowing of the skin (jaundice) </li>
-<li>infection of the bladder </li>
-<li>liver damage </li>
-<li>increased level of creatine phosphokinase in blood (an indicator of muscle damage) </li>
-<li>sudden cardiac death </li>
-<li>low red blood cell counts (anaemia) </li>
-<li>depression </li>
-<li>sleep disturbance </li>
-<li>loss of sense of taste </li>
-<li>burning sensation </li>
-<li>vertigo </li>
-<li>circulatory failure </li>
-<li>lung infection (pneumonia) </li>
-<li>mouth sores; inflammation of the mouth </li>
-<li>gastrointestinal perforation </li>
-<li>rotator cuff syndrome </li>
-<li>polymyalgia rheumatica </li>
-<li>feeling hot </li>
-<li>sudden vision loss due to blockage of an artery in the eye </li>
-</ul>
+possible sepsis (Stevens-Johnson Syndrome/Toxic epidermal necrolysis) 
+* nervousness 
+* feeling thirsty 
+* weight decrease, increased appetite, uncontrolled loss of appetite (anorexia) 
+* abnormally low blood cell counts (white or red blood cells or platelets) 
+* changes or decrease in urine amount due to inflammation in the kidneys (tubulointerstitial 
+nephritis) 
+* inflammation of the liver (hepatitis) 
+* yellowing of the skin (jaundice) 
+* infection of the bladder 
+* liver damage 
+* increased level of creatine phosphokinase in blood (an indicator of muscle damage) 
+* sudden cardiac death 
+* low red blood cell counts (anaemia) 
+* depression 
+* sleep disturbance 
+* loss of sense of taste 
+* burning sensation 
+* vertigo 
+* circulatory failure 
+* lung infection (pneumonia) 
+* mouth sores; inflammation of the mouth 
+* gastrointestinal perforation 
+* rotator cuff syndrome 
+* polymyalgia rheumatica 
+* feeling hot 
+* sudden vision loss due to blockage of an artery in the eye </p>
 <p>Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national 
@@ -342,8 +338,8 @@ expiry date refers to the last day of that month.
 For bottles, after first opening use within 180 days 
 This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
-how to throw away medicines you no longer use. These measures will help protect the </p>
-<p>environment. </p>         </div>"""      
+how to throw away medicines you no longer use. These measures will help protect the 
+environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -386,93 +382,73 @@ Grange Road
 Dublin Ireland </p>
 <p>Mylan Germany GmbH 
 Zweigniederlassung Bad Homburg v. d. Hoehe, Benzstrasse 1 
-Bad Homburg v. d. Hoehe </p>
-<p>Hessen, 61352,<br />
+Bad Homburg v. d. Hoehe 
+Hessen, 61352,<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the 
 Marketing 
 Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-T l/Tel: + 32 (0)2 658 61<br />
-Lietuva 
+T l/Tel: + 32 (0)2 658 61 Lietuva 
 Mylan Healthcare UAB 
-Tel: +370 5 205 1 </p>
+Tel: +370 5 205 1  </p>
 <p>: +359 2 44 55 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
 T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) 
  esk  republika 
 Viatris CZ s.r.o. 
-Tel: +420 222 004<br />
-Magyarorsz g 
+Tel: +420 222 004 Magyarorsz g 
 Mylan EPD Kft. 
-Tel.: + 36 1 465 2 
-Danmark 
+Tel.: + 36 1 465 2Danmark 
 Viatris ApS 
-Tlf: +45 28 11 69<br />
-Malta 
+Tlf: +45 28 11 69 Malta 
 V.J. Salomone Pharma Ltd 
 Tel: + 356 21 22 01 Deutschland 
 Viatris Healthcare GmbH<br />
-Tel: +49 800 0700<br />
-Nederland 
+Tel: +49 800 0700 Nederland 
 Mylan BV 
 Tel: +31 (0)20 426 3Eesti 
 BGP Products Switzerland GmbH Eesti filiaal 
-Tel: + 372 6363<br />
-Norge 
+Tel: + 372 6363 Norge 
 Viatris AS 
-Tlf: + 47 66 75 33  </p>
-<p>Generics Pharma Hellas  <br />
- : +30 210 993 6410  </p>
-<p>sterreich 
+Tlf: + 47 66 75 33  <br />
+Generics Pharma Hellas  <br />
+ : +30 210 993 6 sterreich 
 Arcana Arzneimittel GmbH 
-Tel: +43 1 416 2 
-Espa a 
+Tel: +43 1 416 2Espa a 
 Viatris Pharmaceuticals, S.L.U. 
-Tel: + 34 900 102<br />
-Polska 
+Tel: + 34 900 102 Polska 
 Mylan Healthcare Sp. z o.o. 
 Tel.: + 48 22 546 64 France 
 Viatris Sant<br />
-T l: +33 4 37 25 75<br />
-Portugal 
+T l: +33 4 37 25 75 Portugal 
 Mylan, Lda. 
-Tel: + 351 214 127<br />
-Hrvatska 
+Tel: + 351 214 127 Hrvatska 
 Viatris Hrvatska d.o.o. 
-Tel: +385 1 23 50<br />
-Rom nia 
+Tel: +385 1 23 50 Rom nia 
 BGP Products SRL 
-Tel: +40 372 579<br />
-Ireland 
+Tel: +40 372 579 Ireland 
 Mylan Ireland Limited 
 Tel: +353 1 8711Slovenija 
 Viatris d.o.o. 
-Tel: + 386 1 23 63<br />
- sland 
+Tel: + 386 1 23 63  sland 
 Icepharma hf.<br />
-S mi: +354 540 8 
-Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Viatris Slovakia s.r.o. 
-Tel: +421 2 32 199  </p>
-<p>Italia 
+Tel: +421 2 32 199 Italia 
 Mylan Italia S.r.l 
-Tel: + 39 02 612 46 
-Suomi/Finland 
+Tel: + 39 02 612 46Suomi/Finland 
 Viatris Oy 
-Puh/Tel: +358 20 720 9 </p>
-<p>Varnavas Hadjipanayis Ltd<br />
- : +357 2220 7 
-Sverige 
+Puh/Tel: +358 20 720 9<br />
+Varnavas Hadjipanayis Ltd<br />
+ : +357 2220 7Sverige 
 Viatris AB<br />
 Tel: +46 (0)8 630 19 Latvija 
 Mylan Healthcare SIA 
-Tel: +371 676 055<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
-Tel: +353 18711 
-This leaflet was last revised in </p>
+Tel: +353 18711This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website 
 http://www.ema.europa.eu. </p>         </div>"""      

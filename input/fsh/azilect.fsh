@@ -4,7 +4,7 @@ Instance: composition-en-156b61ce1985095bf62d895909c686c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for azilect Package Leaflet"
 Description:  "Composition for azilect Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What AZILECT is and what it is used for 
 2. What you need to know before you take AZILECT 
 3. How to take AZILECT 
 4. Possible side effects 
 5. How to store AZILECT 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -113,14 +112,7 @@ for the treatment of Parkinson s disease). For further information please refer 
 driving and using machines. </p>
 <p>Children and adolescents 
 There is no relevant use of AZILECT in children and adolescents. Therefore, AZILECT is not 
-recommended for use under the age of 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take azilect"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take azilect"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and AZILECT 
+recommended for use under the age of 18. Other medicines and AZILECT 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Especially tell your doctor if you are taking any of the following medicines:</p>
@@ -152,13 +144,12 @@ dizzy or drowsy; it can also cause episodes of sudden sleep onset.
 This might be enhanced if you take other medicines to treat the symptoms of your Parkinson s disease, 
 or if you take medicines which can make you feel drowsy, or if you drink alcohol while taking 
 AZILECT. If you have experienced somnolence and/or episodes of sudden sleep onset before, or 
-while taking AZILECT do not drive or operate machinery (see section 2). </p>         </div>"""         
-
-        
+while taking AZILECT do not drive or operate machinery (see section 2). </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take azilect"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take azilect"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -174,12 +165,13 @@ Do not take a double dose to make up for a forgotten dose. Take the next dose no
 time to take it. </p>
 <p>If you stop taking AZILECT 
 Do not stop taking AZILECT without first talking to your doctor.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store azilect"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store azilect"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Contact your doctor right away if you notice any of the following symptoms. You may need urgent 
@@ -246,11 +238,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store azilect"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store azilect"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton, bottle or blister after EXP. 
@@ -258,4 +249,102 @@ The expiry date refers to the last day of that month.  </p>
 <p>Do not store above 30oC. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What AZILECT contains 
+- The active substance is rasagiline. Each tablet contains 1 mg rasagiline (as mesilate). 
+- The other ingredients are mannitol, colloidal anhydrous silica, maize starch, pregelatinised 
+maize starch, stearic acid, talc. </p>
+<p>What AZILECT looks like and contents of the pack 
+AZILECT tablets are presented as white to off-white, round, flat, bevelled tablets, debossed with 
+ GIL  and  1  underneath on one side and plain on the other side. </p>
+<p>The tablets are available in blister packs of 7, 10, 28, 30, 100 and 112 tablets or in a bottle containing 
+30 tablets. 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+The Netherlands </p>
+<p>Manufacturers </p>
+<p>Teva Pharmaceuticals Europe B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+The Netherlands </p>
+<p>Pliva Croatia Ltd. 
+Prilaz baruna Filipovica 10000 Zagreb 
+Croatia </p>
+<p>Teva Operations Poland Sp.z o.o. 
+ul. Mogilska 31-546 Krakow 
+Poland </p>
+<p>For any information about this medicinal product, please contact the local representative of the 
+Marketing Authorisation Holder:  </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+T l/Tel: +32 38207 esk  republika<br />
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
+Tel: +36 12886Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+TEVA GmbH 
+Tel: +49 73140Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+UAB Teva Baltics Eesti filiaal<br />
+Tel: +372 6610Norge 
+Teva Norway AS<br />
+Tlf: +47 66775<br />
+TEVA HELLAS  . . 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France<br />
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
+Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+TEVA HELLAS  . . </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij <br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>         </div>"""      
 

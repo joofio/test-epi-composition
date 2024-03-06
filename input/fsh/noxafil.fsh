@@ -4,7 +4,7 @@ Instance: composition-en-23bb5acd65ff17ef75a4158a12199fd2
 InstanceOf: CompositionUvEpi
 Title: "Composition for noxafil Package Leaflet"
 Description:  "Composition for noxafil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Noxafil is and what it is used for
 2. What you need to know before you take Noxafil
 3. How to take Noxafil
 4. Possible side effects
 5. How to store Noxafil
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -530,7 +529,7 @@ United Kingdom (Northern Ireland)
 Merck Sharp &amp; Dohme Ireland (Human
 Health) Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com
-This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>.
+This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu.
@@ -544,5 +543,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them,
 even if their signs of illness are the same as yours.
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

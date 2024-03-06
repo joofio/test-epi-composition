@@ -4,7 +4,7 @@ Instance: composition-en-96e3a078093b1cdfc599d6c2d6322437
 InstanceOf: CompositionUvEpi
 Title: "Composition for alprolix Package Leaflet"
 Description:  "Composition for alprolix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,15 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ALPROLIX is and what it is used for  
-2. What you need to know before you use ALPROLIX 
-3. How to use ALPROLIX  
-4. Possible side effects  
-5. How to store ALPROLIX 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ALPROLIX is and what it is used for  </li>
+<li>What you need to know before you use ALPROLIX </li>
+<li>How to use ALPROLIX  </li>
+<li>Possible side effects  </li>
+<li>How to store ALPROLIX </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -240,5 +240,18 @@ Powder:
 * The active substance is eftrenonacog alfa (recombinant coagulation factor IX, Fc fusion protein). Each 
 vial of ALPROLIX contains nominally 250, 500, 1000, 2000 or 3000 IU eftrenonacog alfa.<br />
 * The other ingredients are sucrose, histidine, mannitol, polysorbate 20, sodium hydroxide and 
-hydrochloric acid. If you are on a controlled sodium diet, see section </p>         </div>"""      
+hydrochloric acid. If you are on a controlled sodium diet, see section 2. Solvent: 
+5 mL sodium chloride and water for injections. </p>
+<p>What ALPROLIX looks like and contents of the pack 
+ALPROLIX is provided as a powder and solvent for solution for injection. The powder is a white to off-
+white powder or cake. The solvent provided for preparation of the solution, is a clear, colourless solution. 
+After preparation, the solution is clear to slightly opalescent and colourless. </p>
+<p>Each pack of ALPROLIX contains 1 powder vial, 5 mL solvent in pre-filled syringe, 1 plunger rod, 1 vial 
+adapter, 1 infusion set, 2 alcohol swabs, 2 plasters and 1 gauze pad. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Swedish Orphan Biovitrum AB (publ)<br />
+SE-112 76 Stockholm 
+Sweden 
+Phone: +46 8 697 20 This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

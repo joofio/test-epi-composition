@@ -4,7 +4,7 @@ Instance: composition-en-c2d0e28fbe1723337dab22fe407d0234
 InstanceOf: CompositionUvEpi
 Title: "Composition for brukinsa Package Leaflet"
 Description:  "Composition for brukinsa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What BRUKINSA is and what it is used for 
-2. What you need to know before you take BRUKINSA 
-3. How to take BRUKINSA 
-4. Possible side effects 
-5. How to store BRUKINSA 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What BRUKINSA is and what it is used for </li>
+<li>What you need to know before you take BRUKINSA </li>
+<li>How to take BRUKINSA </li>
+<li>Possible side effects </li>
+<li>How to store BRUKINSA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -140,8 +140,8 @@ Talk to your doctor about what your test results mean.
 Tumour lysis syndrome (TLS): Unusual levels of chemicals in the blood caused by the fast 
 breakdown of cancer cells have occurred during treatment of cancer and sometimes even without 
 treatment. This may lead to changes in kidney function, abnormal heartbeat, or seizures. Your doctor 
-or another healthcare provider may do blood tests to check for TLS. </p>
-<p>Children and adolescents </p>
+or another healthcare provider may do blood tests to check for TLS. 
+Children and adolescents </p>
 <p>BRUKINSA should not be used in children and adolescents, because it is unlikely to work.  </p>
 <p>Other medicines and BRUKINSA </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
@@ -340,91 +340,65 @@ The Netherlands </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 BeiGene Belgium SRL 
-T l/Tel: 0800 774<br />
-Lietuva 
+T l/Tel: 0800 774 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91  </p>
-<p>Swixx Biopharma EOOD<br />
-Te .: +359 (0)2 4942<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 236 91 <br />
+Swixx Biopharma EOOD<br />
+Te .: +359 (0)2 4942 Luxembourg/Luxemburg 
 BeiGene France sarl 
-T l/Tel: 0800 85 
- esk  republika 
+T l/Tel: 0800 85 esk  republika 
 Swixx Biopharma s.r.o. 
-Tel: +420 242 434<br />
-Magyarorsz g 
+Tel: +420 242 434 Magyarorsz g 
 Swixx Biopharma Kft. 
-Tel.: +36 1 9206<br />
-Danmark 
+Tel.: +36 1 9206 Danmark 
 BeiGene Sweden AB 
-Tlf: 808 10<br />
-Malta 
+Tlf: 808 10 Malta 
 Swixx Biopharma S.M.S.A. 
-Tel: +30 214 444 9 
-Deutschland 
+Tel: +30 214 444 9Deutschland 
 Beigene Germany GmbH 
-Tel: 0800 200 8 
-Nederland 
+Tel: 0800 200 8Nederland 
 BeiGene Netherlands B.V. 
-Tel: 08000 233<br />
-Eesti 
+Tel: 08000 233 Eesti 
 Swixx Biopharma O <br />
-Tel: +372 640 1 
-Norge 
+Tel: +372 640 1Norge 
 BeiGene Sweden AB 
-Tlf: 800 31  </p>
-<p>Swixx Biopharma  . .<br />
-Tel: +30 214 444 9 
- sterreich 
+Tlf: 800 31 <br />
+Swixx Biopharma  . .<br />
+Tel: +30 214 444 9 sterreich 
 BeiGene Austria GmbH 
 Tel: 0800 909 Espa a 
 BeiGene Spain, SLU 
-Tel: 9000 31<br />
-Polska 
+Tel: 9000 31 Polska 
 BeiGene Poland sp. z o. o. 
-Tel.: 8000 80<br />
-France 
+Tel.: 8000 80 France 
 BeiGene France sarl 
-T l: 080 554 3 
-Portugal 
+T l: 080 554 3Portugal 
 BeiGene Portugal, Unipessoal Lda 
-Tel: 800 210<br />
-Hrvatska 
+Tel: 800 210 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-Ireland 
+Tel: +385 1 2078 Ireland 
 BeiGene UK Ltd 
-Tel: 1800 812<br />
-Rom nia 
+Tel: 1800 812 Rom nia 
 Swixx Biopharma S.R.L 
-Tel: +40 37 1530<br />
-Slovenija 
+Tel: +40 37 1530 Slovenija 
 Swixx Biopharma d.o.o. 
-Tel: +386 1 2355<br />
- sland 
+Tel: +386 1 2355  sland 
 BeiGene Sweden AB 
-S mi: 800 4 
-Slovensk  republika 
+S mi: 800 4Slovensk  republika 
 Swixx Biopharma s.r.o.<br />
-Tel: +421 2 20833<br />
-Italia 
+Tel: +421 2 20833 Italia 
 BeiGene Italy Srl 
-Tel: 800 588<br />
-Suomi/Finland 
+Tel: 800 588 Suomi/Finland 
 BeiGene Sweden AB 
-Puh/Tel: 0800 774  </p>
-<p>Swixx Biopharma  . .<br />
-Tel: +30 214 444 9 
-Sverige 
+Puh/Tel: 0800 774 <br />
+Swixx Biopharma  . .<br />
+Tel: +30 214 444 9Sverige 
 BeiGene Sweden AB 
-Puh/Tel: 0200 810<br />
-Latvija 
+Puh/Tel: 0200 810 Latvija 
 Swixx Biopharma SIA 
-Tel: +371 6 616 47<br />
-Northern Ireland 
+Tel: +371 6 616 47 Northern Ireland 
 BeiGene UK Ltd 
-Tel: 0800 917 6 </p>
-<p>This leaflet was last revised in  </p>
+Tel: 0800 917 6This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

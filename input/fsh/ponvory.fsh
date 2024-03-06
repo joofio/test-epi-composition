@@ -4,7 +4,7 @@ Instance: composition-en-fc7c0b4a680b856c6d3878351fc9d22e
 InstanceOf: CompositionUvEpi
 Title: "Composition for ponvory Package Leaflet"
 Description:  "Composition for ponvory Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Ponvory is and what it is used for
 2. What you need to know before you take Ponvory
 3. How to take Ponvory
 4. Possible side effects
 5. How to store Ponvory
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]

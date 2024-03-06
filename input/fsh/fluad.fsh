@@ -4,7 +4,7 @@ Instance: composition-en-2551c286e23d3921dbfab879452cee74
 InstanceOf: CompositionUvEpi
 Title: "Composition for fluad Package Leaflet"
 Description:  "Composition for fluad Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Fluad Tetra is and what it is used for  
-2. What you need to know before you receive  Fluad Tetra  
-3. How Fluad Tetra is given  
-4. Possible side effects  
-5. How to store Fluad Tetra 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Fluad Tetra is and what it is used for  </li>
+<li>What you need to know before you receive  Fluad Tetra  </li>
+<li>How Fluad Tetra is given  </li>
+<li>Possible side effects  </li>
+<li>How to store Fluad Tetra </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -255,91 +255,66 @@ Not all pack sizes may be marketed.  </p>
 Seqirus Netherlands B.V. 
 Paasheuvelweg 28,1105 BJ Amsterdam, Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>Belgi /Belgique/Belgien 
+Authorisation Holder: 
+Belgi /Belgique/Belgien 
 Seqirus Netherlands B.V.Nederland/Netherlands 
-Tel: +31 (0) 20 204 6 </p>
-<p>Seqirus Netherlands B.V. <br />
- .: +31 (0) 20 204 6 
- esk  republika 
+Tel: +31 (0) 20 204 6<br />
+Seqirus Netherlands B.V. <br />
+ .: +31 (0) 20 204 6 esk  republika 
 Seqirus Netherlands B.V. Nizozemsko 
-Tel: +31 (0) 20 204 6 
-Danmark 
+Tel: +31 (0) 20 204 6Danmark 
 Seqirus Netherlands B.V. Holland 
-Tlf: +31 (0) 20 204 6 
-Deutschland 
+Tlf: +31 (0) 20 204 6Deutschland 
 Seqirus GmbH Marburg 
-Tel: 0800/3601 
-Eesti 
+Tel: 0800/3601Eesti 
 Seqirus Netherlands B.V. Holland 
-Tel: +31 (0) 20 204 6 </p>
-<p>WIN MEDICA  . . 
- : 210 7488 
-Espa a 
+Tel: +31 (0) 20 204 6<br />
+WIN MEDICA  . . 
+ : 210 7488Espa a 
 Seqirus Spain, S.L., Barcelona 
-Tel: 937 817<br />
-France 
+Tel: 937 817 France 
 Seqirus Netherlands B.V. Netherlands 
-T l: +31 (0) 20 204 6 
-Hrvatska 
+T l: +31 (0) 20 204 6Hrvatska 
 Seqirus Netherlands B.V. Nizozemska 
-Tel: +31 (0) 20 204 6 
-Ireland 
+Tel: +31 (0) 20 204 6Ireland 
 Seqirus UK Limited Maidenhead 
-Tel: +44 1628 641<br />
- sland 
+Tel: +44 1628 641  sland 
 Seqirus Netherlands B.V. Holland 
-S mi: +31 (0) 20 204 6 
-Italia 
+S mi: +31 (0) 20 204 6Italia 
 Seqirus S.r.l. Siena 
-Tel: +39 0577 096 </p>
-<p>Seqirus Netherlands B.V. <br />
+Tel: +39 0577 096<br />
+Seqirus Netherlands B.V. <br />
  : +31 (0) 20 204 6Lietuva 
 Seqirus Netherlands B.V. Nyderlandai 
-Tel: +31 (0) 20 204 6 
-Luxembourg/Luxemburg 
+Tel: +31 (0) 20 204 6Luxembourg/Luxemburg 
 Seqirus Netherlands B.V. Netherlands 
-T l/Tel: +31 (0) 20 204 6 
-Magyarorsz g 
+T l/Tel: +31 (0) 20 204 6Magyarorsz g 
 Seqirus Netherlands B.V. Hollandia 
-Tel.: +31 (0) 20 204 6 
-Malta 
+Tel.: +31 (0) 20 204 6Malta 
 Seqirus Netherlands B.V. In-Netherlands 
-Tel: +31 (0) 20 204 6 
-Nederland 
+Tel: +31 (0) 20 204 6Nederland 
 Seqirus Netherlands B.V. Amsterdam 
-Tel: +31 (0) 20 204 6 
-Norge 
+Tel: +31 (0) 20 204 6Norge 
 Seqirus Netherlands B.V. Nederland 
-Tlf: +31 (0) 20 204 6 
- sterreich 
+Tlf: +31 (0) 20 204 6 sterreich 
 Valneva Austria GmbH, Wien 
-Tel: +43 1 20620 2 
-Polska 
+Tel: +43 1 20620 2Polska 
 Seqirus Netherlands B.V. Holandia 
-Tel.: +31 (0) 20 204 6 
-Portugal 
+Tel.: +31 (0) 20 204 6Portugal 
 Seqirus Netherlands B.V. Pa ses Baixos 
-Tel: +31 (0) 20 204 6 
-Rom nia 
+Tel: +31 (0) 20 204 6Rom nia 
 Seqirus Netherlands B.V. Olanda 
-Tel: +31 (0) 20 204 6 
-Slovenija 
+Tel: +31 (0) 20 204 6Slovenija 
 Seqirus Netherlands B.V. Nizozemska 
-Tel: +31 (0) 20 204 6 
-Slovensk  republika 
+Tel: +31 (0) 20 204 6Slovensk  republika 
 Seqirus Netherlands B.V. Holandsko 
-Tel: +31 (0) 20 204 6 
-Suomi/Finland 
+Tel: +31 (0) 20 204 6Suomi/Finland 
 Seqirus Netherlands B.V. Alankomaat 
-Puh/Tel: +31 (0) 20 204 6 
-Sverige 
+Puh/Tel: +31 (0) 20 204 6Sverige 
 Seqirus Netherlands B.V. Nederl nderna 
-Tel: +31 (0) 20 204 6 
-Latvija 
+Tel: +31 (0) 20 204 6Latvija 
 Seqirus Netherlands B.V. N derlande 
-Tel: +31 (0) 20 204 6 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +31 (0) 20 204 6This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

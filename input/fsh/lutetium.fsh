@@ -4,7 +4,7 @@ Instance: composition-en-3527ac50ad46eb1b8a7bfbd957d1971a
 InstanceOf: CompositionUvEpi
 Title: "Composition for lutetium Package Leaflet"
 Description:  "Composition for lutetium Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Lutetium (177Lu) chloride Billev is and what it is used for  
-2.  What you need to know before Lutetium (177Lu) chloride Billev is used  
-3.  How the medicine radiolabelled with Lutetium (177Lu) chloride Billev is used 
-4.  Possible side effects  
-5.  How Lutetium (177Lu) chloride Billev is stored 
-6.  Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Lutetium (177Lu) chloride Billev is and what it is used for  </li>
+<li>What you need to know before Lutetium (177Lu) chloride Billev is used  </li>
+<li>How the medicine radiolabelled with Lutetium (177Lu) chloride Billev is used </li>
+<li>Possible side effects  </li>
+<li>How Lutetium (177Lu) chloride Billev is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,8 +98,8 @@ Lutetium (177Lu) chloride Billev. </p>         </div>"""
 <p>For more information, refer to the Package Leaflet of the medicine that is to be radiolabelled with 
 Lutetium (177Lu) chloride Billev. </p>
 <p>Warnings and precautions<br />
-Lutetium (177Lu) chloride Billev is not to be administered directly to patients. </p>
-<p>Take special care with the medicine that is radiolabelled with Lutetium (177Lu) chloride Billev:</p>
+Lutetium (177Lu) chloride Billev is not to be administered directly to patients. 
+Take special care with the medicine that is radiolabelled with Lutetium (177Lu) chloride Billev:</p>
 <ul>
 <li>if you have renal impairment or bone marrow disease. </li>
 </ul>
@@ -255,8 +255,8 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You will not have to store this medicine. This medicine is stored under the responsibility of the 
 specialist in appropriate premises. Storage of radiopharmaceuticals will be in accordance with national 
-regulation on radioactive materials. </p>
-<p>The following information is intended for the specialist only: </p>
+regulation on radioactive materials. 
+The following information is intended for the specialist only: </p>
 <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Lutetium (177Lu) chloride Billev must not be used after the expiry date and time which is stated on the 
 label after EXP. Lutetium (177Lu) chloride Billev will be stored in the original package that provides 

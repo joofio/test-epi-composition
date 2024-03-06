@@ -4,7 +4,7 @@ Instance: composition-en-d8787a27d7ba4af2fcd538383133d1e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for yondelis Package Leaflet"
 Description:  "Composition for yondelis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Yondelis is and what it is used for 
-2. What you need to know before you are given Yondelis 
-3. How to use Yondelis 
-4. Possible side effects 
-5. How to store Yondelis 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Yondelis is and what it is used for </li>
+<li>What you need to know before you are given Yondelis </li>
+<li>How to use Yondelis </li>
+<li>Possible side effects </li>
+<li>How to store Yondelis </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -434,8 +434,7 @@ Avda. de los Reyes 1
 Pol gono Industrial La Mina 
 28770 Colmenar Viejo (Madrid) 
 Spain 
-Tel: +34 91 846 60 Fax: +34 91 846 60<br />
-For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
+Tel: +34 91 846 60 Fax: +34 91 846 60 For any information about this medicine, please contact the Marketing Authorisation Holder. </p>
 <p>This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      

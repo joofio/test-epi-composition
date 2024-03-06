@@ -4,7 +4,7 @@ Instance: composition-en-99b35aa72c0e418c8749ea99edf139d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for vizimpro Package Leaflet"
 Description:  "Composition for vizimpro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Vizimpro is and what it is used for  
-2. What you need to know before you take Vizimpro 
-3. How to take Vizimpro 
-4. Possible side effects 
-5. How to store Vizimpro 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Vizimpro is and what it is used for  </li>
+<li>What you need to know before you take Vizimpro </li>
+<li>How to take Vizimpro </li>
+<li>Possible side effects </li>
+<li>How to store Vizimpro </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -276,10 +276,9 @@ Luxembourg/Luxemburg
 Pfizer NV/SA 
 T l/Tel: +32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. + 370 52 51 4 </p>
-<pre><code> ,
-</code></pre>
-<p>.: +359 2 970 4Magyarorsz g 
+Tel. + 370 52 51 4<br />
+     ,   <br />
+ .: +359 2 970 4Magyarorsz g 
 Pfizer Kft. 
 Tel.: +36-1-488-37- esk  republika 
 Pfizer, spol. s r.o. 
@@ -287,16 +286,13 @@ Tel.: +420 283 004 Malta
 Vivian Corporation Ltd. 
 Tel: + 35621 344Danmark 
 Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Nederland 
+Tlf: +45 44 20 11 Nederland 
 Pfizer BV 
 Tel: +31 (0)10 406 43 Deutschland 
 PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055-51<br />
-Norge 
+Tel: +49 (0)30 550055-51Norge 
 Pfizer AS 
-Tlf: +47 67 52 61<br />
-Eesti 
+Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal<br />
 Tel.: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
@@ -304,8 +300,7 @@ Tel: +43 (0)1 521 15-0 </p>
 <p>Pfizer   A.E. 
  .: +30 210 6785 Polska 
 Pfizer Polska Sp. z o.o. 
-Tel.:+48 22 335 61<br />
-Espa a 
+Tel.:+48 22 335 61 Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99 Portugal 
 Laborat rios Pfizer, Lda. 
@@ -319,8 +314,7 @@ Tel: +385 1 3908 Slovenija
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel.: + 386 (0)1 52 11<br />
-Ireland 
+Tel.: + 386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
 +44 (0)1304 616Slovensk  republika 
@@ -339,7 +333,6 @@ Pfizer    . . (Cyprus Branch)<br />
 Pfizer Limited 
 Tel: +44 (0) 1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel.: + 371 670 35  </p>
-<p>This leaflet was last revised in MM/YYYY </p>
+Tel.: + 371 670 35 This leaflet was last revised in MM/YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

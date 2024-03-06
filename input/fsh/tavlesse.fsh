@@ -4,7 +4,7 @@ Instance: composition-en-4143a283449d30b8e5a863d688670e88
 InstanceOf: CompositionUvEpi
 Title: "Composition for tavlesse Package Leaflet"
 Description:  "Composition for tavlesse Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What TAVLESSE is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What TAVLESSE is and what it is used for<br />
 2. What you need to know before you take TAVLESSE 
 3. How to take TAVLESSE 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store TAVLESSE 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -146,8 +145,8 @@ pressure. </p>
 TAVLESSE should not be used during pregnancy. It can cause harm or birth defects to your unborn 
 baby. </p>
 <p>If you are pregnant, if think you may be pregnant or if you are planning to have a baby, ask your 
-doctor or pharmacist for advice before taking this medicine. </p>
-<p>If you are a woman who could become pregnant, you must use reliable contraception while you are 
+doctor or pharmacist for advice before taking this medicine. 
+If you are a woman who could become pregnant, you must use reliable contraception while you are 
 taking TAVLESSE, and you must continue to use reliable contraception for at least 1 month after 
 taking your last dose. </p>
 <p>Contact your doctor straight away if you become pregnant while taking this medicine.  </p>
@@ -298,25 +297,20 @@ Authorisation Holder: </p>
 <p>AT/BE/BG/CY/EE/EL/ES/HR/HU/IE/LV/ 
 LT/LU/MT/NL/RO/SI/SK/UK(NI) 
 Instituto Grifols, S.A. 
-Tel: +34 93 571 01<br />
-CZ 
+Tel: +34 93 571 01 CZ 
 Grifols S.R.O. 
-Tel: +4202 2223 1 
-DE 
+Tel: +4202 2223 1DE 
 Grifols Deutschland GmbH 
-Tel: +49 69 660 593<br />
-DK/FI/IS/NO/SE 
+Tel: +49 69 660 593 DK/FI/IS/NO/SE 
 Grifols Nordic AB 
 Tel: +46 8 441 89 FR 
 Grifols France 
-T l: +33 (0)1 53 53 08<br />
-IT 
+T l: +33 (0)1 53 53 08 IT 
 Grifols Italia S.p.A. 
 Tel: +39 050 8755 PL 
 Grifols Polska Sp. z o. o. 
-Tel: +48 22 378 85<br />
-PT 
+Tel: +48 22 378 85 PT 
 Grifols Portugal, Lda. 
-Tel: +351 219 255 This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
+Tel: +351 219 255 This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
 

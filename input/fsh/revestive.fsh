@@ -4,7 +4,7 @@ Instance: composition-en-e89d4b98290873899b23cafcfe5a6a01
 InstanceOf: CompositionUvEpi
 Title: "Composition for revestive Package Leaflet"
 Description:  "Composition for revestive Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Revestive is and what it is used for 
-2. What you need to know before you use Revestive 
-3. How to use Revestive 
-4. Possible side effects 
-5. How to store Revestive 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Revestive is and what it is used for </li>
+<li>What you need to know before you use Revestive </li>
+<li>How to use Revestive </li>
+<li>Possible side effects </li>
+<li>How to store Revestive </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -279,8 +279,8 @@ solvent in pre-filled syringe). </p>
 Block 2 Miesian Plaza, 
 50   58 Baggot Street Lower,<br />
 Dublin 2, D02 HW68,<br />
-Ireland </p>
-<p>Manufacturer </p>
+Ireland 
+Manufacturer </p>
 <p>Shire Pharmaceuticals Ireland Limited 
 Block 2 &amp; 3 Miesian Plaza 
 50   58 Baggot Street Lower 
@@ -295,8 +295,7 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-Tel/T l: +32 2 464 06 11<br />
-medinfoEMEA@takeda.com </p>
+Tel/T l: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
@@ -332,8 +331,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
 T : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
 <p>Espa a 
 Takeda Farmac utica Espa a, S.A 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>

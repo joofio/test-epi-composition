@@ -4,7 +4,7 @@ Instance: composition-en-62c46661f10ee1d05a1ac34b44b4b3a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for moventig Package Leaflet"
 Description:  "Composition for moventig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Moventig is and what it is used for  
-2. What you need to know before you take Moventig  
-3. How to take Moventig  
-4. Possible side effects  
-5. How to store Moventig  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Moventig is and what it is used for<br />
+2. What you need to know before you take Moventig<br />
+3. How to take Moventig<br />
+4. Possible side effects<br />
+5. How to store Moventig<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -97,12 +96,10 @@ medicine (listed in section 6).
 are at risk of becoming blocked. 
 * if you have cancer in your gut or  peritoneum  (the lining of your stomach area), advanced or 
 recurrent ovarian cancer or if you are taking medicines used to treat cancer such as  VEGF 
-inhibitors  (e.g. bevacizumab). </p>
-<ul>
-<li>if you are taking certain other medicines such as ketoconazole or itraconazole (to treat fungal 
+inhibitors  (e.g. bevacizumab). 
+* if you are taking certain other medicines such as ketoconazole or itraconazole (to treat fungal 
 infections), clarithromycin or telithromycin (antibiotics) or ritonavir, indinavir or saquinavir (to 
-treat HIV).  </li>
-</ul>
+treat HIV).  </p>
 <p>Do not use Moventig if any of the above applies to you. If you are not sure, talk to your doctor, 
 pharmacist or nurse before taking Moventig. </p>
 <p>Warnings and precautions 
@@ -145,15 +142,13 @@ Moventig ):
 <p>Do not take Moventig if any of the above apply to you.  </p>
 <p>Tell your doctor, pharmacist or nurse if you are taking any of the following medicines: 
 * other medicines for constipation (any laxatives) 
-* methadone  </p>
-<ul>
-<li>diltiazem or verapamil (for high blood pressure or angina). You may need to take a lower dose 
-of Moventig </li>
-<li>rifampin (an antibiotic), carbmazepine (for epilepsy) or the herbal medicine St. John s wort (for 
-depression). You may need to stop taking Moventig </li>
-<li>medicines called  opioid antagonists  (such as naltrexone and naloxone) which are used to 
-counteract the effects of opioids  </li>
-</ul>
+* methadone<br />
+* diltiazem or verapamil (for high blood pressure or angina). You may need to take a lower dose 
+of Moventig 
+* rifampin (an antibiotic), carbmazepine (for epilepsy) or the herbal medicine St. John s wort (for 
+depression). You may need to stop taking Moventig 
+* medicines called  opioid antagonists  (such as naltrexone and naloxone) which are used to 
+counteract the effects of opioids  </p>
 <p>If any of the above apply to you, or you are not sure, talk to your doctor, pharmacist or nurse before 
 taking Moventig.  </p>
 <p>Moventig with drink 
@@ -193,12 +188,10 @@ medicine. </p>
 <p>If you have trouble swallowing the tablet 
 If you have trouble swallowing the tablet you can crush it and mix with water as follows: 
 * Crush the tablet to a powder 
-* Pour the powder into half a glass of water (120 ml) </p>
-<ul>
-<li>Stir and drink immediately </li>
-<li>To make sure there is no medicine left, rinse the empty glass with another half a glass of water 
-(120 ml), and drink it </li>
-</ul>
+* Pour the powder into half a glass of water (120 ml) 
+* Stir and drink immediately 
+* To make sure there is no medicine left, rinse the empty glass with another half a glass of water 
+(120 ml), and drink it </p>
 <p>If you take more Moventig than you should 
 If you take more Moventig than you should, talk to a doctor or go to hospital.  </p>
 <p>If you forget to take Moventig 

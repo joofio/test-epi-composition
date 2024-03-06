@@ -4,7 +4,7 @@ Instance: composition-en-b49a3ab45641cdaf6bd8a0f7bc20385d
 InstanceOf: CompositionUvEpi
 Title: "Composition for neorecormon Package Leaflet"
 Description:  "Composition for neorecormon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What NeoRecormon is and what it is used for 
 2. What you need to know before you use NeoRecormon 
 3. How to use NeoRecormon 
 4. Possible side effects 
 5. How to store NeoRecormon 
-6. Content of the pack and other information 
-         </div>"""   
+6. Content of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]

@@ -4,7 +4,7 @@ Instance: composition-en-9aa25859b3b911a1afa24fe9c429ab94
 InstanceOf: CompositionUvEpi
 Title: "Composition for revatio Package Leaflet"
 Description:  "Composition for revatio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Revatio is and what it is used for 
 2. What you need to know before you take Revatio 
 3. How to take Revatio 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Revatio 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -310,75 +309,63 @@ Marketing Authorisation Holder. </p>
 Lietuva 
 Viatris<br />
 Viatris UAB<br />
-T l/Tel: +32 (0)2 658 61 Tel: +370 52051 </p>
-<p>Luxembourg/Luxemburg </p>
+T l/Tel: +32 (0)2 658 61 Tel: +370 52051<br />
+Luxembourg/Luxemburg </p>
 <p>Viatris 
- .: +359 2 44 55 T l/Tel: +32 (0)2 658 61<br />
-(Belgique/Belgien) 
+ .: +359 2 44 55 T l/Tel: +32 (0)2 658 61 (Belgique/Belgien) 
  esk  republika 
 Magyarorsz g 
 Viatris CZ s.r.o. 
 Viatris Healthcare Kft. 
-Tel: +420 222 004 Tel.: + 36 1 465 2 </p>
-<p>Danmark 
+Tel: +420 222 004 Tel.: + 36 1 465 2Danmark 
 Malta 
 V.J. Salomone Pharma Limited<br />
 Tel: (+356) 21 220 Viatris ApS 
-Tlf: +45 28 11 69  </p>
-<p>Deutschland 
+Tlf: +45 28 11 69 Deutschland 
 Nederland 
 Viatris Healthcare GmbH 
 Mylan Healthcare BV 
-Tel: +49 (0)800 0700 Tel: +31 (0)20 426 3 </p>
-<p>Eesti 
+Tel: +49 (0)800 0700 Tel: +31 (0)20 426 3Eesti 
 Norge 
 Viatris O<br />
 Viatris AS 
-Tel: +372 6363 Tlf: +47 66 75 33  </p>
-<p>sterreich 
+Tel: +372 6363 Tlf: +47 66 75 33 <br />
+ sterreich 
 Viatris Hellas Ltd 
 Mylan  sterreich GmbH 
- : +30 2100 100 Tel: +43 1 86 </p>
-<p>Espa a 
+ : +30 2100 100 Tel: +43 1 86Espa a 
 Polska 
 Viatris Pharmaceuticals, S.L.U. 
 Mylan Healthcare Sp. z o.o. 
-Tel: +34 900 102 Tel.: +48 22 546 64  </p>
-<p>France 
+Tel: +34 900 102 Tel.: +48 22 546 64 France 
 Portugal 
 Viatris Sant<br />
 Viatris Healthcare, Lda. 
-T l: +33 (0)4 37 25 75 Tel: +351 21 412 72  </p>
-<p>Hrvatska 
+T l: +33 (0)4 37 25 75 Tel: +351 21 412 72 Hrvatska 
 Rom nia 
 Viatris Hrvatska d.o.o. 
 BGP Products SRL 
-Tel: +385 1 23 50 Tel: +40 372 579  </p>
-<p>Ireland 
+Tel: +385 1 23 50 Tel: +40 372 579 Ireland 
 Slovenija 
 Mylan Ireland Limited<br />
 Viatris d.o.o. 
-Tel: +353 1 8711Tel: + 386 1 236 31 80  </p>
-<p>sland 
+Tel: +353 1 8711Tel: + 386 1 236 31  sland 
 Slovensk  republika 
 Icepharma hf. 
 Viatris Slovakia s.r.o.<br />
-S mi: + 354 540 8Tel: +421 2 32 199  </p>
-<p>Italia 
+S mi: + 354 540 8Tel: +421 2 32 199 Italia 
 Suomi/Finland 
 Viatris Pharma S.r.l. 
 Viatris Oy 
-Tel: +39 02 612 46Puh/Tel: +358 20 720 9 </p>
-<p>Sverige<br />
+Tel: +39 02 612 46Puh/Tel: +358 20 720 9<br />
+Sverige<br />
 GPA Pharmaceuticals Ltd 
 Viatris AB 
- : +357 22863Tel: + 46 (0)8 630 19  </p>
-<p>Latvija 
+ : +357 22863Tel: + 46 (0)8 630 19 Latvija 
 United Kingdom (Northern Ireland) 
 Viatris SIA 
 Mylan IRE Healthcare Limited 
-Tel: +371 676 055 Tel: +353 18711 
-This leaflet was last revised in  </p>
+Tel: +371 676 055 Tel: +353 18711This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. There are also links to other website about rare diseases and treatments. </p>
@@ -392,5 +379,5 @@ information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

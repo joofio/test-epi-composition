@@ -4,7 +4,7 @@ Instance: composition-en-a9cc1591b2509e823baad904a2322951
 InstanceOf: CompositionUvEpi
 Title: "Composition for rapiscan Package Leaflet"
 Description:  "Composition for rapiscan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Rapiscan is and what it is used for 
 2. What you need to know before you are given Rapiscan 
 3. How Rapiscan is given 
 4. Possible side effects 
 5. How to store Rapiscan 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -100,11 +100,9 @@ pacemaker fitted.
 * if you have chest pain that occurs unpredictably (unstable angina) and that has not improved after 
 treatment. 
 * if you have low blood pressure (hypotension). 
-* if you have heart failure. </p>
-<ul>
-<li>if you are allergic to regadenoson or any of the other ingredients of Rapiscan listed in section 6 of 
-this leaflet. </li>
-</ul>
+* if you have heart failure. 
+* if you are allergic to regadenoson or any of the other ingredients of Rapiscan listed in section 6 of 
+this leaflet. </p>
 <p>Talk to your doctor or nurse before taking Rapiscan 
 Your doctor needs to know before you are given Rapiscan: 
 * if you have had a recent serious heart problem (for example a heart attack or abnormal heart 
@@ -150,8 +148,8 @@ least 10 hours after you are given Rapiscan. </p>
 <p>Driving and using machines 
 Rapiscan may make you feel dizzy. It may cause other symptoms (headache or shortness of breath) 
 that could affect your ability to drive or use machinery. These effects usually do not last longer than 
-30 minutes. Do not drive or operate machinery until these effects have improved. </p>
-<p>Rapiscan contains sodium<br />
+30 minutes. Do not drive or operate machinery until these effects have improved. 
+Rapiscan contains sodium<br />
 This medicine contains less than 1 mmol sodium (23 mg) per dose. After you have been given 
 Rapiscan, you will be given an injection of sodium chloride 9 mg/ml (0.9%) solution which contains 
 45 mg of sodium. To be taken into consideration if you are on a controlled sodium diet. </p>         </div>"""   

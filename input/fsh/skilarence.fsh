@@ -4,7 +4,7 @@ Instance: composition-en-040bd687344f34655b854f4b67248074
 InstanceOf: CompositionUvEpi
 Title: "Composition for skilarence Package Leaflet"
 Description:  "Composition for skilarence Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Skilarence is and what it is used for 
-2. What you need to know before you take Skilarence 
-3. How to take Skilarence 
-4. Possible side effects 
-5. How to store Skilarence 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Skilarence is and what it is used for </li>
+<li>What you need to know before you take Skilarence </li>
+<li>How to take Skilarence </li>
+<li>Possible side effects </li>
+<li>How to store Skilarence </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -248,8 +248,8 @@ recommend that you temporarily go back to the last dose. If the side effects are
 your dose will be increased until your condition is well controlled. You may not need the maximum 
 dose of 720 mg per day as supplied in the table above. After your condition has improved sufficiently, 
 your doctor will consider how to gradually reduce the daily dose of Skilarence to what you need to 
-maintain your improvement. </p>
-<p>Method of administration 
+maintain your improvement. 
+Method of administration 
 Swallow Skilarence tablets whole with liquid. Take your tablet(s) during or immediately after a meal. 
 Do not crush, break, dissolve or chew the tablet, as they have a special coating to help prevent 
 irritation of your stomach. </p>
@@ -300,8 +300,8 @@ possible so that this can be investigated further. </p>
 - reddening of the face or body (flushing) 
 - diarrhoea 
 - bloating, stomach pain or stomach cramps 
-- feeling sick (nausea) </p>
-<p>Common (may affect up to 1 in 10 people) 
+- feeling sick (nausea) 
+Common (may affect up to 1 in 10 people) 
 - increase in all white blood cells (leukocytosis) 
 - increase in specific white blood cells called eosinophils 
 - increase in certain enzymes in the blood (used for checking the health of your liver) 
@@ -364,50 +364,33 @@ sizes may be marketed. The tablets are packed in PVC/PVDC-aluminium blisters. </
 Almirall, S.A. 
 Ronda General Mitre, E-08022 Barcelona 
 Spain 
-Tel. +34 93 291 30<br />
-Manufacturer 
+Tel. +34 93 291 30 Manufacturer 
 Industrias Farmac uticas Almirall, S.A. 
 Ctra. de Martorell 41-E-08740 Sant Andreu de la Barca, Barcelona 
 Spain </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien/ Luxembourg/Luxemburg 
-Almirall N.V., T l/Tel: +32 (0)2 771 86  </p>
-<p>EGIS Pharmaceuticals PLC, Te .: +359 2 987 60<br />
- esk  republika 
-EGIS Praha, spol. s r. o., Tel: +420 227 129<br />
-Danmark/ Norge/ Sverige 
-Almirall ApS, Tlf/Tel: +45 70 25 75<br />
-Deutschland 
+Almirall N.V., T l/Tel: +32 (0)2 771 86 <br />
+EGIS Pharmaceuticals PLC, Te .: +359 2 987 60  esk  republika 
+EGIS Praha, spol. s r. o., Tel: +420 227 129 Danmark/ Norge/ Sverige 
+Almirall ApS, Tlf/Tel: +45 70 25 75 Deutschland 
 Almirall Hermal GmbH, Tel: +49 (0)40 72704-0 </p>
 <p>Eesti/ Espa a/ Hrvatska/  / Latvija/ Lietuva/ Malta/ Slovenija 
-Almirall, S.A., Tel/ : +34 93 291 30  </p>
-<p>Galenica A.E., T : +30 210 52 81<br />
-France 
-Almirall SAS, T l: +33(0)1 46 46 19<br />
-Ireland/ United Kingdom (Northern Ireland) 
-Almirall, S.A., Tel: +353 (0) 1431 9 
- sland 
-Vistor hf., S mi: +354 535 70<br />
-Italia 
-Almirall SpA, Tel: +39 02 346 
-Magyarorsz g 
-Egis Gy gyszergy r Zrt., Tel.: +36 1 803 5555  </p>
-<p>Nederland 
-Almirall B.V., Tel: +31 (0)30 799 1 
- sterreich 
-Almirall GmbH, Tel: +43 (0)1/595 39<br />
-Polska 
-EGIS Polska Sp. z o.o., Tel.: +48 22 417 92<br />
-Portugal 
-Almirall - Produtos Farmac uticos, Lda., Tel: +351 21 415 57<br />
-Rom nia 
-Egis Pharmaceuticals PLC, Tel: +40 21 412 0 
-Slovensk  republika 
-EGIS SLOVAKIA spol. s r.o., Tel: +421 2 32409 
-Suomi/Finland 
-Orion Pharma, Puh/Tel: +358 10 4 
-This leaflet was last revised in . </p>
+Almirall, S.A., Tel/ : +34 93 291 30 <br />
+Galenica A.E., T : +30 210 52 81 France 
+Almirall SAS, T l: +33(0)1 46 46 19 Ireland/ United Kingdom (Northern Ireland) 
+Almirall, S.A., Tel: +353 (0) 1431 9 sland 
+Vistor hf., S mi: +354 535 70 Italia 
+Almirall SpA, Tel: +39 02 346Magyarorsz g 
+Egis Gy gyszergy r Zrt., Tel.: +36 1 803 5Nederland 
+Almirall B.V., Tel: +31 (0)30 799 1 sterreich 
+Almirall GmbH, Tel: +43 (0)1/595 39 Polska 
+EGIS Polska Sp. z o.o., Tel.: +48 22 417 92 Portugal 
+Almirall - Produtos Farmac uticos, Lda., Tel: +351 21 415 57 Rom nia 
+Egis Pharmaceuticals PLC, Tel: +40 21 412 0Slovensk  republika 
+EGIS SLOVAKIA spol. s r.o., Tel: +421 2 32409Suomi/Finland 
+Orion Pharma, Puh/Tel: +358 10 4This leaflet was last revised in . </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

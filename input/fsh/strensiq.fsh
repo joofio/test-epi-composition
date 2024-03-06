@@ -4,7 +4,7 @@ Instance: composition-en-028530430ed7d9b47cd8ba73da175d72
 InstanceOf: CompositionUvEpi
 Title: "Composition for strensiq Package Leaflet"
 Description:  "Composition for strensiq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Strensiq is and what it is used for  
-2. What you need to know before you use Strensiq  
-3. How to use Strensiq  
-4. Possible side effects  
-5. How to store Strensiq  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Strensiq is and what it is used for  </li>
+<li>What you need to know before you use Strensiq  </li>
+<li>How to use Strensiq  </li>
+<li>Possible side effects  </li>
+<li>How to store Strensiq  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -428,17 +428,9 @@ This will help seal the punctured tissue and
 prevent any leakage. Do not rub the injection site 
 after injection.<br />
 If you need a second injection for your prescribed dose, get another Strensiq vial and repeat steps 1 
-through </p>
+through 4. Step 5: Disposing of supplies </p>
 </li>
-</ol>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Step 5: Disposing of supplies </p>
+</ol>
 <p>Please collect your syringes, vials and needle in a sharps container. Your doctor, pharmacist or nurse 
 will advise you on how you can obtain a sharps container. </p>
 <p>If you use more Strensiq than you should 
@@ -447,12 +439,13 @@ please contact your doctor for advice. </p>
 <p>If you forget to use Strensiq 
 Do not inject a double dose to make up for a forgotten dose and contact your doctor for advice. </p>
 <p>For more information, please consult: </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store strensiq"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store strensiq"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you are not sure what the side effects below are, ask your doctor to explain them to you. </p>
@@ -495,11 +488,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store strensiq"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store strensiq"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and the vial label after 
@@ -511,4 +503,42 @@ After opening the vial, the product should be used immediately (within 3 hours m
 temperature, between 23 C and 27 C). </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Strensiq contains<br />
+The active substance is asfotase alfa. Each ml of solution contains 40 mg of asfotase alfa. 
+Each vial of 0.3 ml solution (40 mg/ml) contains 12 mg of asfotase alfa. 
+Each vial of 0.45 ml solution (40 mg/ml) contains 18 mg of asfotase alfa. 
+Each vial of 0.7 ml solution (40 mg/ml) contains 28 mg of asfotase alfa. 
+Each vial of 1 ml solution (40 mg/ml) contains 40 mg of asfotase alfa. </p>
+<p>The other ingredients are sodium chloride, sodium phosphate monobasic monohydrate, sodium 
+phosphate dibasic heptahydrate and water for injections. </p>
+<p>What Strensiq looks like and contents of the pack 
+Strensiq is presented as a clear, slightly opalescent or opalescent, colourless to slightly yellow aqueous 
+solution for injection in vials containing 0.3 ml, 0.45 ml, 0.7 ml and 1 ml of solution. A few small 
+translucent or white particles may be present. </p>
+<p>Pack sizes of 1 or 12 vials.<br />
+Not all pack sizes may be marketed in your country. </p>
+<p>Marketing Authorisation Holder 
+Alexion Europe SAS 
+103-105 rue Anatole France 
+92300 Levallois-Perret 
+France </p>
+<p>Manufacturer 
+Alexion Pharma International Operations Limited<br />
+College Business and Technology Park, Blanchardstown 
+Dublin Ireland </p>
+<p>This leaflet was last revised in  </p>
+<p>This medicine has been authorised under  exceptional circumstances . 
+This means that because of the rarity of this disease it has been impossible to get complete information 
+on this medicine. 
+The European Medicines Agency will review any new information on this medicine every year and 
+this leaflet will be updated as necessary. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

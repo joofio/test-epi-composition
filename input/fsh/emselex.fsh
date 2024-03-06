@@ -4,7 +4,7 @@ Instance: composition-en-0d9fdb5a39ccb7b71c8ef7225226fb5e
 InstanceOf: CompositionUvEpi
 Title: "Composition for emselex Package Leaflet"
 Description:  "Composition for emselex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Emselex is and what it is used for 
 2. What you need to know before you take Emselex 
 3. How to take Emselex 
 4. Possible side effects 
 5. How to store Emselex 
-6. Contents of the pack and other information  
-         </div>"""   
+6. Contents of the pack and other information  </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -281,5 +280,5 @@ important information for you.
 - This medicine has been prescribed for you. Do not pass it on to others. It may harm them, even 
 if their symptoms are the same as yours. 
 If you get any side effects, talk your doctor or pharmacist. This includes any possible side effects not 
-listed in this leaflet. See section </p>         </div>"""      
+listed in this leaflet. See section 4.</p>         </div>"""      
 

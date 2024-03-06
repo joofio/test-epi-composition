@@ -4,7 +4,7 @@ Instance: composition-en-97c09c3f6bb46169676674f25613736c
 InstanceOf: CompositionUvEpi
 Title: "Composition for silodosin Package Leaflet"
 Description:  "Composition for silodosin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Silodosin Recordati is and what it is used for 
-2. What you need to know before you take Silodosin Recordati 
-3. How to take Silodosin Recordati 
-4. Possible side effects 
-5. How to store Silodosin Recordati 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Silodosin Recordati is and what it is used for </li>
+<li>What you need to know before you take Silodosin Recordati </li>
+<li>How to take Silodosin Recordati </li>
+<li>Possible side effects </li>
+<li>How to store Silodosin Recordati </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -297,92 +297,65 @@ France </p>
 Authorisation Holder:  </p>
 <p>Belgi /Belgique/Belgien 
 Recordati Ireland Ltd. 
-T l/Tel: + 353 21 4379 
-Lietuva 
+T l/Tel: + 353 21 4379Lietuva 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 </p>
-<p>Recordati Ireland Ltd. 
- .: + 353 21 4379 
-Luxembourg/Luxemburg 
+Tel: + 353 21 4379<br />
 Recordati Ireland Ltd. 
-T l/Tel: + 353 21 4379 
- esk  republika 
+ .: + 353 21 4379Luxembourg/Luxemburg 
+Recordati Ireland Ltd. 
+T l/Tel: + 353 21 4379 esk  republika 
 Herbacos Recordati s.r.o. 
-Tel: + 420 466 741<br />
-Magyarorsz g 
+Tel: + 420 466 741 Magyarorsz g 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Danmark 
+Tel: + 353 21 4379Danmark 
 Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 
-Malta 
+Tlf: + 353 21 4379Malta 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Deutschland 
+Tel: + 353 21 4379Deutschland 
 Recordati Pharma GmbH 
-Tel: + 49 731 70 
-Nederland 
+Tel: + 49 731 70Nederland 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Eesti 
+Tel: + 353 21 4379Eesti 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Norge 
+Tel: + 353 21 4379Norge 
 Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 </p>
-<p>Recordati Hellas Pharmaceuticals A.E. 
- : + 30 210-6773 
- sterreich 
+Tlf: + 353 21 4379<br />
+Recordati Hellas Pharmaceuticals A.E. 
+ : + 30 210-6773 sterreich 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Espa a 
+Tel: + 353 21 4379Espa a 
 Casen Recordati, S.L. 
-Tel: + 34 91 659 15<br />
-Polska 
+Tel: + 34 91 659 15 Polska 
 Recordati Polska sp. z o.o. 
-Tel: + 48 22 206 84<br />
-France 
+Tel: + 48 22 206 84 France 
 Laboratoires BOUCHARA-RECORDATI 
-T l: + 33 1 45 19 10<br />
-Portugal 
+T l: + 33 1 45 19 10 Portugal 
 Jaba Recordati, S.A. 
-Tel: + 351 21 432 95<br />
-Hrvatska 
+Tel: + 351 21 432 95 Hrvatska 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Rom nia 
+Tel: + 353 21 4379Rom nia 
 Recordati Rom nia S.R.L. 
-Tel: + 40 21 667 17<br />
-Ireland 
+Tel: + 40 21 667 17 Ireland 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Slovenija 
+Tel: + 353 21 4379Slovenija 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
- sland 
+Tel: + 353 21 4379 sland 
 Recordati Ireland Ltd. 
-S mi: + 353 21 4379 
-Slovensk  republika 
+S mi: + 353 21 4379Slovensk  republika 
 Herbacos Recordati s.r.o. 
-Tel: + 420 466 741<br />
-Italia 
+Tel: + 420 466 741 Italia 
 Recordati Industria Chimica e Farmaceutica S.p.A. 
-Tel: + 39 02 487 
-Suomi/Finland 
+Tel: + 39 02 487Suomi/Finland 
 Recordati Ireland Ltd. 
-Puh/Tel: + 353 21 4379 </p>
-<p>Recordati Ireland Ltd. 
- : + + 353 21 4379 
-Sverige 
+Puh/Tel: + 353 21 4379<br />
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Latvija 
+ : + + 353 21 4379Sverige 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-United Kingdom (Northern Ireland) 
+Tel: + 353 21 4379Latvija 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 </p>
-<p>This leaflet was last revised in  </p>
+Tel: + 353 21 4379United Kingdom (Northern Ireland) 
+Recordati Ireland Ltd. 
+Tel: + 353 21 4379This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

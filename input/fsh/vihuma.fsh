@@ -4,7 +4,7 @@ Instance: composition-en-ff59b7a06a4fc6ca91db06fdf5a7d8c9
 InstanceOf: CompositionUvEpi
 Title: "Composition for vihuma Package Leaflet"
 Description:  "Composition for vihuma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Vihuma is and what it is used for  
-2. What you need to know before you use Vihuma 
-3. How to use Vihuma 
-4. Possible side effects  
-5. How to store Vihuma  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Vihuma is and what it is used for  </li>
+<li>What you need to know before you use Vihuma </li>
+<li>How to use Vihuma </li>
+<li>Possible side effects  </li>
+<li>How to store Vihuma  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -91,8 +91,8 @@ If you are unsure about this, ask your doctor. </p>
 <p>There is a rare chance that you may experience an anaphylactic reaction (a severe, sudden allergic 
 reaction) to Vihuma. You should be aware of the early signs of allergic reactions as they are listed in 
 section 4  Allergic reactions .<br />
-If any of these symptoms occur, stop the injection immediately and contact your doctor. </p>
-<p>The formation of inhibitors (antibodies) is a known complication that can occur during treatment with 
+If any of these symptoms occur, stop the injection immediately and contact your doctor. 
+The formation of inhibitors (antibodies) is a known complication that can occur during treatment with 
 all factor VIII medicines. These inhibitors, especially at high levels, stop the treatment working 
 properly and you or your child will be monitored carefully for the development of these inhibitors. If 
 you or your child s bleeding is not controlled with Vihuma, tell your doctor immediately. </p>
@@ -136,8 +136,8 @@ The usual dose of Vihuma is 20 to 40 IU per kg body weight, given every 2 to 3 d
 some cases, especially in younger patients, more frequent injections or higher doses may be necessary. </p>
 <p>Treatment of bleeding 
 The dose of Vihuma is calculated depending on your body weight and the factor VIII levels to be 
-achieved. The target factor VIII levels will depend on the severity and location of the bleeding.  </p>
-<p>If you have the impression that Vihuma is not working well enough, talk to your doctor. Your doctor 
+achieved. The target factor VIII levels will depend on the severity and location of the bleeding.<br />
+If you have the impression that Vihuma is not working well enough, talk to your doctor. Your doctor 
 will carry out laboratory tests to make sure that you have adequate factor VIII levels. This is 
 particularly important if you are having major surgery. </p>
 <p>Patients developing factor VIII inhibitors 
@@ -186,8 +186,8 @@ your child s medicines may stop working properly and you or your child may exper
 persistent bleeding. If this happens, you should contact your doctor immediately. </li>
 </ul>
 <p>Common side effects may affect up to 1 in 10 people 
-Hypersensitivity, fever. </p>
-<p>Uncommon side effects may affect up to 1 in 100 people 
+Hypersensitivity, fever. 
+Uncommon side effects may affect up to 1 in 100 people 
 Tingling or numbness (paraesthesia), headache, dizziness, vertigo, dyspnoea, dry mouth, back pain, 
 injection site inflammation, injection site pain, a vague feeling of bodily discomfort (malaise), 
 haemorrhagic anaemia, anaemia, chest pain, non-neutralising antibody positive (in previously treated 
@@ -418,10 +418,8 @@ the perforation of the cap. Do not touch the inside of the cap or the syringe ti
 <li>
 <p>Remove the adapter packaging from the top of the vial and discard. </p>
 </li>
-<li>
-<p>Firmly connect the solvent syringe to the vial adapter by turning clockwise until resistance is 
-felt. </p>
-</li>
+<li>Firmly connect the solvent syringe to the vial adapter by turning clockwise until resistance is 
+felt. </li>
 <li>
 <p>Slowly inject all solvent into the powder vial by pressing down the plunger rod. </p>
 </li>

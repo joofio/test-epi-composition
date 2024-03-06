@@ -4,7 +4,7 @@ Instance: composition-en-68233cef8a2150549da332e078e2cbf5
 InstanceOf: CompositionUvEpi
 Title: "Composition for sunitinib Package Leaflet"
 Description:  "Composition for sunitinib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Sunitinib Accord is and what it is used for  
-2. What you need to know before you take  Sunitinib Accord 
-3. How to take  Sunitinib Accord 
-4. Possible side effects 
-5. How to store  Sunitinib Accord 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Sunitinib Accord is and what it is used for  </li>
+<li>What you need to know before you take  Sunitinib Accord </li>
+<li>How to take  Sunitinib Accord </li>
+<li>Possible side effects </li>
+<li>How to store  Sunitinib Accord </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -203,14 +203,7 @@ of low blood sugar (fatigue, palpitations, sweating, hunger and loss of consciou
 </li>
 </ul>
 <p>Children and adolescents </p>
-<p>Sunitinib Accord  is not recommended for people aged under 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take sunitinib"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take sunitinib"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and  Sunitinib Accord  </p>
+<p>Sunitinib Accord  is not recommended for people aged under 18. Other medicines and  Sunitinib Accord  </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken, or might take any other 
 medicines, including medicines obtained without a prescription.  </p>
 <p>Some medicines can affect the levels of Sunitinib Accord in your body. You should inform your 
@@ -225,8 +218,8 @@ conditions<br />
 </em> herbal preparations containing St. John s Wort (Hypericum perforatum)   used to treat 
 depression and anxiety </p>
 <p>Sunitinib Accord with food and drink </p>
-<p>You should avoid drinking grapefruit juice while on treatment with Sunitinib Accord. </p>
-<p>Pregnancy and breast-feeding </p>
+<p>You should avoid drinking grapefruit juice while on treatment with Sunitinib Accord. 
+Pregnancy and breast-feeding </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant, or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
 <p>If you might get pregnant, you should use a reliable method of contraception during treatment with 
@@ -238,13 +231,12 @@ Accord.   </p>
 machines. </p>
 <p>Sunitinib Accord  contains sodium </p>
 <p>This medicine contains less than 1 mmol (23 mg) sodium (croscarmellose sodium) per capsule, that is 
-to say essentially  sodium-free . </p>         </div>"""         
-
-        
+to say essentially  sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take sunitinib"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take sunitinib"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. </p>
@@ -260,12 +252,13 @@ stop treatment with Sunitinib Accord. </p>
 <p>If you have accidentally taken too many capsules, talk to your doctor straight away. You may require 
 medical attention. </p>
 <p>If you forget to take  Sunitinib Accord </p>
-<p>Do not take a double dose to make up for a forgotten dose. </p>         </div>"""      
+<p>Do not take a double dose to make up for a forgotten dose. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store sunitinib"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store sunitinib"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>You must immediately contact your doctor if you experience any of those serious side effects (see also 
@@ -382,11 +375,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store sunitinib"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store sunitinib"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Keep this medicine out of the sight and reach of children. </li>
@@ -397,4 +389,56 @@ after  EXP . The expiry date refers to the last day of that month. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Sunitinib Accord contains  </p>
+<p>The active substance is sunitinib. Each hard capsule contains 12.5mg, 25mg, 37.5mg, or 50mg of 
+sunitinib. The other ingredients are:</p>
+<ul>
+<li>Capsule content: cellulose, microcrystalline, mannitol (E421), croscarmellose sodium, povidone 
+(E1201), magnesium stearate. </li>
+<li>Capsule shell: gelatin, titanium dioxide (E171), black iron oxide (E172) (For 25 mg and 50 mg), 
+red iron oxide (E172) (For 12.5 mg, 25 mg, 50 mg), yellow iron oxide (E172) (For 25 mg, 37.5 
+mg, 50 mg)  </li>
+<li>Printing ink: shellac, titanium dioxide (E171), black iron oxide (E172), propylene glycol, 
+ammonium hydroxide. </li>
+</ul>
+<p>What Sunitinib Accord looks like and contents of the pack </p>
+<p>Sunitinib Accord 12.5 mg hard c apsules 
+Gelatin capsules (approximate length 14.3 mm) with orange cap and orange body, printed with white 
+ink  12.5 mg  on the body, containing yellow to orange granules. </p>
+<p>Sunitinib Accord 25 mg hard c apsules 
+Gelatin capsules (approximate length 15.9 mm) with caramel cap and orange body, printed with 
+white ink  25 mg  on the body, containing yellow to orange granules. </p>
+<p>Sunitinib Accord 37.5 mg hard c apsules 
+Gelatin capsules (approximate length 18.0 mm) with yellow cap and yellow body, printed with black 
+ink  37.5 mg  on the body, containing yellow to orange granules. </p>
+<p>Sunitinib Accord 50 mg hard c apsules 
+Gelatin capsules (approximate length 19.4 mm) with caramel cap and caramel body, printed with white 
+ink  50 mg  on the body, containing yellow to orange granules. </p>
+<p>Sunitinib Accord is available in bottles of 30 capsules and blister packs containing 28 capsules and 
+perforated unit dose blister packs containing 28 x 1 capsules. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Accord Healthcare S.L.U. 
+World Trade Center, Moll De Barcelona s/n, 
+Edifici Est, 6a Planta, 
+Barcelona, 08039, 
+Spain </p>
+<p>Manufacturer </p>
+<p>Remedica Ltd. 
+Aharnon Street, Limassol Industrial Estate, 
+Building 10, 3056 Limassol, 
+Cyprus </p>
+<p>Pharmacare Premium Ltd. 
+HHF003 Hal Far Industrial Estate, 
+Birzebbugia, BBG3Malta </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

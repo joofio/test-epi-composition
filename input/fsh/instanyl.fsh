@@ -4,7 +4,7 @@ Instance: composition-en-10411891efb91b807d8d0643ea830640
 InstanceOf: CompositionUvEpi
 Title: "Composition for instanyl Package Leaflet"
 Description:  "Composition for instanyl Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Instanyl is and what it is used for 
-2. What you need to know before you use Instanyl 
-3. How to use Instanyl 
-4. Possible side effects 
-5. How to store Instanyl 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Instanyl is and what it is used for </li>
+<li>What you need to know before you use Instanyl </li>
+<li>How to use Instanyl </li>
+<li>Possible side effects </li>
+<li>How to store Instanyl </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -390,8 +390,7 @@ Takeda Pharmaceuticals Czech Republic s.r.o.
 Tel: + 420 234 722 medinfoEMEA@takeda.com 
 Magyarorsz g<br />
 Takeda Pharma Kft. 
-Tel.: +36 1 270 7030<br />
-medinfoEMEA@takeda.com </p>
+Tel.: +36 1 270 7medinfoEMEA@takeda.com </p>
 <p>Danmark<br />
 Takeda Pharma A/S 
 Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
@@ -414,8 +413,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
  : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
 <p>Espa a 
 Takeda Farmac utica Espa a S.A. 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>

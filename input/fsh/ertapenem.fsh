@@ -4,7 +4,7 @@ Instance: composition-en-34b5097700b5b214baa08b9eb1554dbe
 InstanceOf: CompositionUvEpi
 Title: "Composition for ertapenem Package Leaflet"
 Description:  "Composition for ertapenem Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ertapenem SUN is and what it is used for 
-2. What you need to know before you are given Ertapenem SUN 
-3. How to use Ertapenem SUN 
-4. Possible side effects 
-5. How to store Ertapenem SUN 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ertapenem SUN is and what it is used for </li>
+<li>What you need to know before you are given Ertapenem SUN </li>
+<li>How to use Ertapenem SUN </li>
+<li>Possible side effects </li>
+<li>How to store Ertapenem SUN </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,8 +98,8 @@ used to treat various infections). </p>
 Talk to your doctor, nurse or pharmacist before taking Ertapenem SUN. </p>
 <p>During treatment, if you experience an allergic reaction (such as swelling of the face, tongue or throat, 
 difficulty in breathing or swallowing, skin rash), tell your doctor straight away as you may need urgent 
-medical treatment.  </p>
-<p>While antibiotics including Ertapenem SUN kill certain bacteria, other bacteria and fungi may 
+medical treatment.<br />
+While antibiotics including Ertapenem SUN kill certain bacteria, other bacteria and fungi may 
 continue to grow more than normal. This is called overgrowth. Your doctor will monitor you for 
 overgrowth and treat you if necessary. </p>
 <p>It is important that you tell your doctor if you have diarrhoea before, during or after your treatment 
@@ -299,8 +299,7 @@ Nederlandene/Holland/ /Nizozemska/The Netherlands/Holland/
 L-Olanda/Nederland/Nederland/Niederlande/Pa ses Baixos/ 
 Nizozemska/Holandsko/Alankomaat/Nederl nderna/Nederl nderna 
 Tel./ ./tlf./ ./S mi/ ./Tlf./Puh./ 
- +31 (0)23 568 5 
-Deutschland 
+ +31 (0)23 568 5Deutschland 
 Sun Pharmaceuticals Germany GmbH 
 Hemmelrather Weg 51377 Leverkusen 
 Deutschland 
@@ -309,30 +308,24 @@ Tel. +49 (0) 214 40399 0 </p>
 Sun Pharma Laboratorios, S.L.<br />
 Rambla de Catalunya 53-08007 Barcelona 
 Espa a 
-tel. +34 93 342 78<br />
-France 
+tel. +34 93 342 78 France 
 Sun Pharma France 
 11-15, Quai de Dion Bouton 
 92800 Puteaux 
 France 
-Tel. +33 1 41 44 44<br />
-Italia 
+Tel. +33 1 41 44 44 Italia 
 Sun Pharma Italia Srl 
 Viale Giulio Richard, 3 
 20143 Milano 
 Italia 
-tel. +39 02 33 49 07<br />
-Polska 
+tel. +39 02 33 49 07 Polska 
 Ranbaxy (Poland) Sp. Z o. o. 
-ul. Kubickiego 11<br />
-02-954 Warszawa<br />
+ul. Kubickiego 02-954 Warszawa<br />
 Polska 
-Tel. +48 22 642 07<br />
-Rom nia 
+Tel. +48 22 642 07 Rom nia 
 Terapia S.A. 
 Str. Fabricii nr Cluj-Napoca, Jude ul Cluj 
 Rom nia 
-Tel. +40 (264) 501  </p>
-<p>This leaflet was last revised in </p>
+Tel. +40 (264) 501 This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

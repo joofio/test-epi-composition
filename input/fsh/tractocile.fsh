@@ -4,7 +4,7 @@ Instance: composition-en-dc08afd9c59a04fa9fdda149a83f92c4
 InstanceOf: CompositionUvEpi
 Title: "Composition for tractocile Package Leaflet"
 Description:  "Composition for tractocile Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tractocile is and what it is used for  
-2. What you need to know before you are given Tractocile  
-3. How Tractocile will be given  
-4. Possible side effects  
-5. How to store Tractocile  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tractocile is and what it is used for  </li>
+<li>What you need to know before you are given Tractocile  </li>
+<li>How Tractocile will be given  </li>
+<li>Possible side effects  </li>
+<li>How to store Tractocile  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -103,8 +103,8 @@ also have fits (convulsions). This will mean your unborn baby needs to be delive
 your pregnancy. 
 - if you are allergic to atosiban or any of the other ingredients of this medicine (listed in section 6).  </p>
 <p>Do not use Tractocile if any of the above apply to you. If you are not sure, talk to your doctor, midwife or 
-pharmacist before you are given Tractocile. </p>
-<p>Warnings and precautions<br />
+pharmacist before you are given Tractocile. 
+Warnings and precautions<br />
 Talk to your doctor, midwife or pharmacist before you are given Tractocile:</p>
 <ul>
 <li>if you think your waters might have broken (premature rupture of your membranes). </li>
@@ -158,8 +158,8 @@ be repeated up to three more times. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>The side effects seen in the mother are generally of a mild severity. There are no known side effects on the 
 unborn or new-born baby. </p>
-<p>The following side effects may happen with this medicine: </p>
-<p>Very common (affects more than 1 in 10 people) 
+<p>The following side effects may happen with this medicine: 
+Very common (affects more than 1 in 10 people) 
 - feeling sick (nausea) </p>
 <p>Common (affects less than 1 in 10 people) 
 - headache 
@@ -209,8 +209,8 @@ to the last day of that month. </p>
 - The active substance is atosiban. 
 - Each vial of Tractocile 6.75 mg/0.9 ml solution for injection contains atosiban acetate equivalent to 
 6.75 mg of atosiban in 0.9 ml. 
-- The other ingredients are mannitol, hydrochloric acid and water for injections. </p>
-<p>What Tractocile looks like and contents of the pack 
+- The other ingredients are mannitol, hydrochloric acid and water for injections. 
+What Tractocile looks like and contents of the pack 
 Tractocile 6.75 mg/0.9 ml solution for injection is a clear, colourless solution without particles. One pack 
 contains one vial containing 0.9 ml solution. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
@@ -218,11 +218,9 @@ Marketing Authorisation Holder:
 Ferring Pharmaceuticals A/S 
 Amager Strandvej 2770 Kastrup 
 Denmark 
-Tel: +45 88 33 88<br />
-Manufacturer: 
+Tel: +45 88 33 88 Manufacturer: 
 Ferring GmbH 
-Wittland 11<br />
-D-24109 Kiel 
+Wittland D-24109 Kiel 
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
@@ -248,8 +246,7 @@ Tel: +36 1 236 3ferring@ferring.hu </p>
 Ferring L gemidler A/S 
 Tlf: +45 88 16 88 Malta 
 E.J. Busuttil Ltd.<br />
-Tel: +356 21447184<br />
-info@ejbusuttil.com </p>
+Tel: +356 21447info@ejbusuttil.com </p>
 <p>Deutschland 
 Ferring Arzneimittel GmbH<br />
 Tel: +49 431 5852 0 
@@ -279,20 +276,16 @@ T l: +33 1 49 08 67 information.medicale@ferring.com
 Portugal 
 Ferring Portuguesa   Produtos Farmac uticos, 
 Sociedade Unipessoal, Lda. 
-Tel: +351 21 940 51<br />
-Hrvatska 
+Tel: +351 21 940 51 Hrvatska 
 Clinres farmacija d.o.o. 
-Tel: +385 1 2396<br />
-Rom nia 
+Tel: +385 1 2396 Rom nia 
 Ferring Pharmaceuticals Romania SRL 
-Tel: +40 356 113<br />
-Ireland 
+Tel: +40 356 113 Ireland 
 Ferring Ireland Ltd.<br />
 Tel: +353 1 4637EnquiriesIrelandMailbox@ferring.com </p>
 <p>Slovenija 
 SALUS, Veletrgovina, d.o.o.<br />
-Tel: +386 1 5899 179<br />
-regulatory@salus.si  </p>
+Tel: +386 1 5899 regulatory@salus.si  </p>
 <p>sland 
 Vistor hf. 
 S mi: +354 535 70 Slovensk  republika 

@@ -4,7 +4,7 @@ Instance: composition-en-8f36194c6cc063f159cffcece33902d5
 InstanceOf: CompositionUvEpi
 Title: "Composition for somavert Package Leaflet"
 Description:  "Composition for somavert Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What SOMAVERT is and what it is used for
 2. What you need to know before you use SOMAVERT
 3. How to use SOMAVERT
 4. Possible side effects
 5. How to store SOMAVERT
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -345,7 +344,7 @@ Pfizer    . . (Cyprus Branch)
 Pfizer Limited
 Tel: +44 (0)1304 616Latvija
 Pfizer Luxembourg SARL fili le Latvij 
-Tel: + 371 670 35 This leaflet was last revised in <em>{MM/YYYY}</em>.
+Tel: + 371 670 35 This leaflet was last revised in &lt;{MM/YYYY}&gt;.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments.</p>
@@ -403,5 +402,91 @@ Caution: Do not let anything touch the vial stopper.
 <p>Keep the syringe upright to avoid leakage.
 Caution: Do not let the end of the syringe touch anything when the syringe cap is off.
 6. Attach safety needle</p>
-<p>Twist the safety needle firmly onto the syringe as far as it will go.</p>         </div>"""      
+<p>Twist the safety needle firmly onto the syringe as far as it will go.
+7. Remove needle cover</p>
+<p>Fold the needle guard out of the way of the needle cover.</p>
+<p>Carefully pull the needle cover straight off.</p>
+<p>Throw the needle cover away; it is not needed again.
+Caution: Do not let the needle touch anything.
+8. Insert needle</p>
+<p>Push the needle through the centre of vial stopper, as shown.</p>
+<p>Support the syringe while the needle is in the vial stopper to prevent bending the needle.
+9. Add liquid</p>
+<p>Tilt both the vial and syringe at an angle, as shown.</p>
+<p>Push the plunger rod down slowly until all the liquid has emptied into the vial.</p>
+<p>Caution: Do not squirt the liquid directly onto the powder, as this creates foam. Foam 
+makes the medicine unusable.</p>
+<p>Do not withdraw the needle yet.
+10. Swirl vial</p>
+<p>Support both the syringe and vial in one hand, as shown.</p>
+<p>Gently swirl the liquid, sliding the vial in a circular motion on a flat surface.</p>
+<p>Continue swirling the liquid until all the powder has fully dissolved.
+Note: This may take up to 5 minutes.
+11. Check medicine</p>
+<p>Keeping the needle in the vial, look carefully at the medicine. It must be clear and free of 
+particles.</p>
+<p>Do not use if:<em> the medicine is cloudy or hazy;</em> the medicine has any colour at all;* there are any particles or there is a layer of foam in the vial.
+12. Reposition needle</p>
+<p>Turn the vial so that you can see the stopper gap, as shown.</p>
+<p>Pull the needle down so that the needle tip is at the lowest point in the liquid. This will 
+help you to draw off as much liquid as possible.</p>
+<p>Check that the plunger rod has not moved if it has, then push it back all the way into the 
+syringe. This ensures that all air is removed from the syringe before you draw off the 
+dose.
+13. Draw off dose</p>
+<p>Slowly pull back the plunger rod to withdraw as much medicine as possible from the vial.
+Note: If you see air in the syringe, tap the barrel to float the bubbles to the top, and then 
+gently push the bubbles out into the vial.</p>
+<p>Pull the needle out of the vial.
+14. Insert needle</p>
+<p>Gently pinch the skin at the site of injection. </p>
+<p>Insert the needle to its full depth into the pinched skin.
+15. Inject medicine</p>
+<p>Push the plunger rod down slowly until the barrel is empty.
+Note: Make sure you keep the needle in at full depth.</p>
+<p>Release the pinched skin and pull the needle straight out.
+16. Make needle safe</p>
+<p>Fold the needle guard over the needle.</p>
+<p>Gently apply pressure using a hard surface to lock the needle guard in place.
+Note: You will hear a click when the needle guard has been locked.
+17. Dispose</p>
+<p>The syringe and needle should NEVER be reused. Dispose of the needle and syringe as 
+instructed by your doctor, nurse or pharmacist and in accordance with local health and 
+safety laws.
+18. After injection</p>
+<p>If necessary, use a clean cotton ball and press lightly on the injection area.</p>
+<p>Do not rub the area.
+QUESTIONS &amp; ANSWERS
+What should I do if anything has accidentally touched the vial stopper?</p>
+<p>Clean the vial stopper with a fresh alcohol wipe, and leave it to dry completely. If you are 
+unable to clean the stopper, do not use the vial.
+What should I do with the syringe if it has been dropped?</p>
+<p>Do not use it even if it looks undamaged. Dispose of the syringe in the same way as a 
+used syringe. You will need a replacement syringe.
+How many times can I safely insert the needle into the vial stopper?</p>
+<p>Once only. Withdrawing and reinserting greatly increases the risk of needle damage, and 
+will blunt the needle. This can cause discomfort and increases risk of skin damage and 
+infection. There is also a risk you may lose some of the medicine.
+Is it OK to shake the vial if the powder is not dissolving?</p>
+<p>No never shake the vial. Shaking can destroy the medicine and create foam. The 
+powder may take a few minutes to dissolve fully, so continue swirling the vial gently 
+until the liquid is completely clear.
+How can I tell if there is any foam in the vial?</p>
+<p>Foam looks like a mass of small bubbles that float as a layer to the top of the liquid. Do 
+not inject SOMAVERT if it has foamed.
+How can I prevent the medicine from foaming?</p>
+<p>Press the plunger very slowly so that the liquid gently runs down the inside of the vial. 
+Do not spray the liquid directly onto the powder, as this creates foam. This technique will 
+also reduce the swirling time and allow more of the medicine to be drawn off.
+I can see some air in the syringe. Is this OK?</p>
+<p>Tiny air bubbles in the liquid are normal and are safe to inject. However, it is possible to 
+accidently draw air into the syringe, which should be removed before injecting. Bubbles 
+or air gaps that float to the top of the liquid should be pushed back out into the vial.
+Why can t I get all of the medicine out of the vial?</p>
+<p>The shape of the vial means that a very small amount of the medicine will be left behind 
+in the vial. This is normal. To ensure that only a trace of medicine remains, make sure the 
+needle tip is as low as it can be in the vial when drawing off your dose.
+What should I do if I have any doubts about my medicine?</p>
+<p>All questions should be handled by a doctor, nurse or pharmacist familiar with 
+SOMAVERT.</p>         </div>"""      
 

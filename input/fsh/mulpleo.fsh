@@ -4,7 +4,7 @@ Instance: composition-en-ae95ec75d9c7638e000a13f3c8891532
 InstanceOf: CompositionUvEpi
 Title: "Composition for mulpleo Package Leaflet"
 Description:  "Composition for mulpleo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Mulpleo is and what it is used for  
-2. What you need to know before you take Mulpleo 
-3. How to take Mulpleo  
-4. Possible side effects  
-5. How to store Mulpleo 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Mulpleo is and what it is used for  </li>
+<li>What you need to know before you take Mulpleo </li>
+<li>How to take Mulpleo  </li>
+<li>Possible side effects  </li>
+<li>How to store Mulpleo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -103,8 +103,8 @@ clots </li>
 <p>swelling, pain, heat, redness, or tenderness in your leg </p>
 <p>sudden shortness of breath, especially with sharp pain in the chest or rapid breathing </p>
 <p>pain in the abdomen (tummy), swollen abdomen, blood in your stools.  </p>
-<p>Get medical help immediately if you notice any of these. </p>
-<p>Children and adolescents 
+<p>Get medical help immediately if you notice any of these. 
+Children and adolescents 
 Do not give this medicine to children or adolescents under the age of 18 years, because the medicine 
 has not been studied in children and adolescents. </p>
 <p>Other medicines and Mulpleo 
@@ -243,7 +243,7 @@ Tel: +33 (0)1 86 65 58 contactfrance@shionogi.eu </p>
 <p>UK (NI)<br />
 Shionogi B.V. 
 Tel: +44 (0) 28 9124 8contact@shionogi.eu </p>
-<p>This leaflet was last revised in  </p>
-<p>Other sources of information </p>
+<p>This leaflet was last revised in<br />
+Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

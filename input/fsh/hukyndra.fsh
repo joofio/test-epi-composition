@@ -4,7 +4,7 @@ Instance: composition-en-f2459f44725cc293d7b9c9def994f1ff
 InstanceOf: CompositionUvEpi
 Title: "Composition for hukyndra Package Leaflet"
 Description:  "Composition for hukyndra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,7 +44,9 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instructions for use</li>
+</ol>         </div>"""   
 
 
 
@@ -53,29 +55,19 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Hukyndra is and what it is used for
 2. What you need to know before you use Hukyndra
 3. How to use Hukyndra
 4. Possible side effects
 5. How to store Hukyndra
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
   * title =  "1. What hukyndra is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What hukyndra is and what it is used for"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use</p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take hukyndra"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take hukyndra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hukyndra contains the active substance adalimumab.
 Hukyndra is used to treat:</p>
@@ -173,11 +165,13 @@ dots or wispy lines that move across the field of vision). Hukyndra works by red
 inflammation.
 You may first be given other medicines. If you do not respond well enough to these medicines, you 
 will be given Hukyndra.</p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take hukyndra"
+  * title = "2. What you need to know before you take hukyndra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take hukyndra"
+  * code.text = "2. What you need to know before you take hukyndra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Hukyndra</p>
 <p>If you are allergic to adalimumab or any of the other ingredients of this medicine (listed in 
@@ -305,13 +299,12 @@ Hukyndra may have a small effect on your ability to drive, cycle or use machines
 sensation and vision disturbances may occur after taking Hukyndra.
 Hukyndra contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per 0.4 ml, that is to say essentially  sodium-
-free .</p>         </div>"""         
-
-        
+free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take hukyndra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take hukyndra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.
@@ -547,12 +540,13 @@ forgotten a dose.
 If you stop using Hukyndra
 The decision to stop using Hukyndra should be discussed with your doctor. Your symptoms may 
 return if you stop using Hukyndra.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store hukyndra"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store hukyndra"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most side 
 effects are mild to moderate. However, some may be serious and require treatment. Side effects may 
@@ -727,11 +721,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
 of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store hukyndra"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store hukyndra"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the label/blister/carton after EXP. The 
@@ -748,4 +741,101 @@ which it should be discarded.
 Do not use this medicine if the liquid is cloudy, discoloured, or has flakes or particles in it.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Hukyndra contains</p>
+<p>The active substance is adalimumab.</p>
+<p>The other ingredients are sodium chloride, sucrose, polysorbate 80, water for injections, 
+hydrochloric acid (for pH adjustment), sodium hydroxide (for pH adjustment)
+What Hukyndra looks like and contents of the pack
+Hukyndra 40 mg solution for injection in pre-filled syringe with needle guard is supplied as a sterile 
+solution of 40 mg adalimumab dissolved in 0.4 ml solution.
+The Hukyndra pre-filled syringe is a glass syringe containing a solution of adalimumab.
+Each pack contains 1, 2 or 6 pre-filled syringe(s) packed in a blister, with 1, 2 or 6 alcohol pad(s).
+Not all pack sizes may be marketed.
+Hukyndra may be available as a pre-filled syringe and/or a pre-filled pen.
+Marketing Authorisation Holder
+STADA Arzneimittel AG
+Stadastrasse 2 61118 Bad Vilbel
+Germany 
+Manufacturers
+Ivers-Lee CSM
+Marie-Curie-Str.8
+79539 L rrach, 
+Germany
+Alvotech Hf
+S mundargata 15-Reykjavik, Iceland
+STADA Arzneimittel AG
+Stadastrasse 2 61118 Bad Vilbel
+Germany
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+EG (Eurogenerics) NV
+T l/Tel: +32 24797Lietuva
+UAB  STADA Baltics 
+Tel: +370 52603 
+STADA Bulgaria EOOD
+Te .: +359 29624Luxembourg/Luxemburg
+EG (Eurogenerics) NV
+T l/Tel: +32 4797 esk  republika
+STADA PHARMA CZ s.r.o.
+Tel: +420 257888Magyarorsz g
+STADA Hungary Kft
+Tel.: +36 18009Danmark
+STADA Nordic ApS
+Tlf: +45 44859Malta
+Pharma.MT Ltd
+Tel: +356 21337Deutschland
+STADAPHARM GmbH
+Tel: +49 61016Nederland
+Centrafarm B.V.
+Tel.: +31 765081Eesti
+UAB  STADA Baltics 
+Tel: +370 52603Norge
+STADA Nordic ApS
+Tlf: +45 44859 
+RAFARM A.E.B.E.
+ : +30 2106776 sterreich
+STADA Arzneimittel GmbH
+Tel: +43 136785Espa a
+Laboratorio STADA, S.L.
+Tel: +34 934738Polska
+STADA Poland Sp. z.o o.
+Tel: +48 227377France
+EG LABO - Laboratoires EuroGenerics
+T l: +33 146948Portugal
+Stada, Lda.
+Tel: +351 211209Hrvatska
+STADA d.o.o.
+Tel: +385 13764Rom nia
+STADA M&amp;D SRL
+Tel: +40 213160Ireland
+Clonmel Healthcare Ltd.
+Tel: +353 526177Slovenija
+Stada d.o.o.
+Tel: +386 15896 sland
+STADA Arzneimittel AG
+S mi: +49 61016Slovensk  republika
+STADA PHARMA Slovakia, s.r.o.
+Tel: +421 252621Italia
+EG SpA
+Tel: +39 028310Suomi/Finland
+STADA Nordic ApS, Suomen sivuliike
+Puh/Tel: +358 207416 
+STADA Arzneimittel AG
+ : +30 2106664Sverige
+STADA Nordic ApS
+Tel: +45 44859Latvija
+UAB  STADA Baltics 
+Tel: +370 52603United Kingdom (Northern Ireland)
+STADA Arzneimittel AG
+Tel: +49 61016This leaflet was last revised in 
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

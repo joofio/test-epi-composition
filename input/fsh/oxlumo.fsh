@@ -4,7 +4,7 @@ Instance: composition-en-1f87461293bc326acebf2dcaabf7857f
 InstanceOf: CompositionUvEpi
 Title: "Composition for oxlumo Package Leaflet"
 Description:  "Composition for oxlumo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Oxlumo is and what it is used for 
-2. What you need to know before you are given Oxlumo 
-3. How Oxlumo is given 
-4. Possible side effects 
-5. How to store Oxlumo 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Oxlumo is and what it is used for </li>
+<li>What you need to know before you are given Oxlumo </li>
+<li>How Oxlumo is given </li>
+<li>Possible side effects </li>
+<li>How to store Oxlumo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -204,8 +205,7 @@ away any medicines that are no longer being used. These measures will help prote
 <p>Each pack contains one single use vial containing 0.5 mL solution. </p>
 <p>Marketing Authorisation Holder and Manufacturer </p>
 <p>Alnylam Netherlands B.V. 
-Antonio Vivaldistraat 150<br />
-1083 HP Amsterdam<br />
+Antonio Vivaldistraat 1083 HP Amsterdam<br />
 Netherlands </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>

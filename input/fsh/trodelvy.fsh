@@ -4,7 +4,7 @@ Instance: composition-en-27ec6b1f73b141fda5344cc71ceec655
 InstanceOf: CompositionUvEpi
 Title: "Composition for trodelvy Package Leaflet"
 Description:  "Composition for trodelvy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Trodelvy is and what it is used for 
-2. What you need to know before you are given Trodelvy 
-3. How you will be given Trodelvy  
-4. Possible side effects 
-5. How to store Trodelvy 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Trodelvy is and what it is used for </li>
+<li>What you need to know before you are given Trodelvy </li>
+<li>How you will be given Trodelvy  </li>
+<li>Possible side effects </li>
+<li>How to store Trodelvy </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -96,8 +96,8 @@ medicine has been prescribed for you. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You must not be given Trodelvy if you are allergic to sacituzumab govitecan or any of the other 
 ingredients of this medicine (listed in section 6). If you think you may be allergic, ask your doctor for 
-advice. </p>
-<p>Warnings and precautions </p>
+advice. 
+Warnings and precautions </p>
 <p>Infusion-related reactions </p>
 <p>Trodelvy is given by drip into a vein. Some people may develop infusion-related reactions which can 
 be severe or life-threatening. Seek urgent medical attention if you have any of the following signs 
@@ -188,8 +188,8 @@ immediately if you are pregnant, think you may be pregnant, or are planning to h
 <p>Women who might get pregnant must use effective contraception during treatment with Trodelvy, and 
 for 6 months after the last dose of Trodelvy. 
 Men with female partners who could become pregnant must use effective contraception during 
-treatment and for 3 months after the last dose of Trodelvy. </p>
-<p>Breast-feeding </p>
+treatment and for 3 months after the last dose of Trodelvy. 
+Breast-feeding </p>
 <p>Do not breast-feed during treatment with Trodelvy and for 1 month after the last dose. It is unknown 
 whether this medicine passes into breast milk and could affect the baby. </p>
 <p>Driving and using machines </p>
@@ -223,27 +223,12 @@ symptoms of infusion-related reactions. </p>
 <p>Infusion-related reactions 
 Your doctor will slow down the infusion rate of your medicine if you develop an infusion-related 
 reaction. The medicine will be stopped if the infusion-related reaction is life-threatening. See 
-section </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dose of medicine when experiencing some side-effects 
-Your doctor may change or stop your dose if you experience certain side effects. See section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store trodelvy"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store trodelvy"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you are given more Trodelvy than you should </p>
+section 2. Dose of medicine when experiencing some side-effects 
+Your doctor may change or stop your dose if you experience certain side effects. See section 4. If you are given more Trodelvy than you should </p>
 <p>Since the infusion is given to you by your doctor or other appropriately trained staff, an overdose is 
 unlikely. If you inadvertently receive too much medicine, your doctor will monitor you and give you 
-additional treatment as required. </p>
-<p>If a dose of Trodelvy is missed </p>
+additional treatment as required. 
+If a dose of Trodelvy is missed </p>
 <p>If you forget or miss your appointment, call your doctor or your treatment centre to make another 
 appointment as soon as possible. Do not wait until your next planned visit. For the treatment to be 
 fully effective, it is very important not to miss a dose. </p>
@@ -253,13 +238,13 @@ fully effective, it is very important not to miss a dose. </p>
 infusions that you receive will depend on how you are responding to treatment. Therefore, you should 
 continue receiving Trodelvy even if you see your symptoms improve and until your doctor decides 
 that Trodelvy should be stopped. If the treatment is stopped too early, your symptoms may return.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
@@ -346,4 +331,114 @@ related to coagulation  </p>
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
 of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trodelvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trodelvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Trodelvy will be stored by healthcare professionals at the hospital or clinic where you receive 
+treatment. The storage details are as follows: 
+* Keep this medicine out of the sight and reach of children. 
+* Do not use this medicine after the expiry date which is stated on the vial label and carton after 
+EXP. The expiry date refers to the last day of that month. 
+* Store in a refrigerator (2 C - 8 C). Do not freeze.<br />
+<em> Keep the vial in the outer carton in order to protect from light. 
+* After reconstitution and dilution, if not used immediately, the infusion bag containing diluted 
+solution can be stored in a refrigerator (2 C - 8 C) for up to 24 hours protected from light.<br />
+</em> Do not use this medicine if you notice the reconstituted solution is cloudy or discoloured. </p>
+<p>Trodelvy is a cytotoxic medicine. Applicable special handling and disposal procedures must be 
+followed. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Trodelvy contains:</p>
+<ul>
+<li>The active substance is sacituzumab govitecan. One vial of powder contains 200 mg 
+sacituzumab govitecan. After reconstitution, one mL of solution contains 10 mg of sacituzumab 
+govitecan </li>
+<li>The other ingredients are 2-(N-morpholino)ethane sulfonic acid (MES), polysorbate 80 and 
+trehalose dihydrate. </li>
+</ul>
+<p>What Trodelvy looks like and contents of the pack </p>
+<p>The medicine is an off-white to yellowish powder for concentrate for solution for infusion supplied in 
+a glass vial. Each pack contains 1 vial. </p>
+<p>Marketing Authorisation Holder<br />
+Gilead Sciences Ireland UC 
+Carrigtohill 
+County Cork, T45 DPIreland </p>
+<p>Manufacturer 
+Gilead Sciences Ireland UC 
+IDA Business and Technology Park 
+Carrigtohill 
+County Cork, T45 DPIreland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:  </p>
+<p>Belgi /Belgique/Belgien 
+Gilead Sciences Belgium SRL-BV 
+T l/Tel: + 32 (0) 24 01 35 Lietuva 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1<br />
+Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1Luxembourg/Luxemburg 
+Gilead Sciences Belgium SRL-BV 
+T l/Tel: + 32 (0) 24 01 35  esk  republika 
+Gilead Sciences s.r.o. 
+Tel: + 420 910 871 Magyarorsz g 
+Gilead Sciences Ireland UC 
+Tel.: + 353 (0) 1 686 1Danmark 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1Malta 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Deutschland 
+Gilead Sciences GmbH 
+Tel: + 49 (0) 89 899890-0 </p>
+<p>Nederland 
+Gilead Sciences Netherlands B.V. 
+Tel: + 31 (0) 20 718 36 Eesti 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Norge 
+Gilead Sciences Sweden AB 
+Tlf: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930  sterreich 
+Gilead Sciences GesmbH 
+Tel: + 43 1 260 Espa a 
+Gilead Sciences, S.L. 
+Tel: + 34 91 378 98 Polska 
+Gilead Sciences Poland Sp. z o.o. 
+Tel.: + 48 22 262 8France 
+Gilead Sciences 
+T l: + 33 (0) 1 46 09 41 Portugal 
+Gilead Sciences, Lda. 
+Tel: + 351 21 7928Hrvatska 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1Rom nia 
+Gilead Sciences (GSR) S.R.L. 
+Tel: + 40 31 631 18 Ireland 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 214 825 Slovenija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1 sland 
+Gilead Sciences Sweden AB 
+S mi: + 46 (0) 8 5057 1Slovensk  republika 
+Gilead Sciences Slovakia s.r.o. 
+Tel: + 421 232 121 Italia 
+Gilead Sciences S.r.l. 
+Tel: + 39 02 439Suomi/Finland 
+Gilead Sciences Sweden AB 
+Puh/Tel: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930 Sverige 
+Gilead Sciences Sweden AB 
+Tel: + 46 (0) 8 5057 1Latvija 
+Gilead Sciences Ireland UC 
+Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
+Gilead Sciences Ireland UC 
+Tel: + 44 (0) 8000 113 This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

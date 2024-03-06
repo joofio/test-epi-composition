@@ -4,7 +4,7 @@ Instance: composition-en-257716587c0bc57c8b7f0da168f8cf11
 InstanceOf: CompositionUvEpi
 Title: "Composition for sixmo Package Leaflet"
 Description:  "Composition for sixmo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Sixmo is and what it is used for  
-2. What you need to know before you use Sixmo  
-3. How to use Sixmo  
-4. Possible side effects  
-5. How to store Sixmo  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Sixmo is and what it is used for  </li>
+<li>What you need to know before you use Sixmo  </li>
+<li>How to use Sixmo  </li>
+<li>Possible side effects  </li>
+<li>How to store Sixmo  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

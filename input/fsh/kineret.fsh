@@ -4,7 +4,7 @@ Instance: composition-en-e32af5235bc449e932db46935c53460a
 InstanceOf: CompositionUvEpi
 Title: "Composition for kineret Package Leaflet"
 Description:  "Composition for kineret Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Kineret is and what it is used for 
-2. What you need to know before you use Kineret 
-3. How to use Kineret 
-4. Possible side effects 
-5. How to store Kineret 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Kineret is and what it is used for </li>
+<li>What you need to know before you use Kineret </li>
+<li>How to use Kineret </li>
+<li>Possible side effects </li>
+<li>How to store Kineret </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -207,14 +207,7 @@ should take the next dose. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Possible side effects are similar regardless if you are treated with Kineret for RA, CAPS, FMF, Still s 
-disease, or COVID-1</p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store kineret"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store kineret"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If any of the following happen, tell your doctor immediately:</p>
+disease, or COVID-19. If any of the following happen, tell your doctor immediately:</p>
 <ul>
 <li>
 <p>Serious infections such as pneumonia (a chest infection) or infections of the skin can occur 
@@ -263,11 +256,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store kineret"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store kineret"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
@@ -279,4 +271,28 @@ refrigerator and has reached room temperature (up to 25  C) it must either be us
 discarded. Do not place it back in the refrigerator if it has been stored at room temperature. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kineret contains 
+- The active substance is anakinra. Each graduated pre-filled syringe contains 100 mg of 
+anakinra. 
+- The other ingredients are anhydrous citric acid, sodium chloride, disodium edetate dihydrate, 
+polysorbate 80 and sodium hydroxide and water for injections. </p>
+<p>What Kineret looks like and contents of the pack 
+Kineret is a clear, colourless-to-white solution for injection and is supplied ready for use in a pre-filled 
+syringe. It may contain some translucent-to-white particles of protein. The presence of these particles 
+does not affect the quality of the product. </p>
+<p>Pack sizes of 1, 7 or 28 (multipack containing 4 packs of 7 pre-filled syringes) pre-filled syringes. 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Swedish Orphan Biovitrum AB (publ) 
+SE-112 76 Stockholm 
+Sweden </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

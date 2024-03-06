@@ -4,7 +4,7 @@ Instance: composition-en-dd757aba03311ccfbf31708d5bd7ddb1
 InstanceOf: CompositionUvEpi
 Title: "Composition for terrosa Package Leaflet"
 Description:  "Composition for terrosa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Terrosa is and what it is used for 
-2. What you need to know before you use Terrosa 
-3. How to use Terrosa 
-4. Possible side effects 
-5. How to store Terrosa 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Terrosa is and what it is used for </li>
+<li>What you need to know before you use Terrosa </li>
+<li>How to use Terrosa </li>
+<li>Possible side effects </li>
+<li>How to store Terrosa </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -300,8 +300,8 @@ cartridge contains 2.4 mL of solution, enough for 28 doses. </p>
 <p>Pack sizes:1 cartridge or 3 cartridges packed in a plastic tray sealed with lid foil and packed in a 
 carton. 
 Terrosa cartridge and pen pack: 1 Terrosa cartridge packed in a plastic tray sealed with lid foil and 
-packed in an inner carton and 1 Terrosa Pen packed in an inner carton. </p>
-<p>Not all pack sizes may be marketed. </p>
+packed in an inner carton and 1 Terrosa Pen packed in an inner carton. 
+Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Gedeon Richter Plc. 
 Gy mr i  t 19-21. 1103 Budapest 

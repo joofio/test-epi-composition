@@ -4,7 +4,7 @@ Instance: composition-en-6eb523b7a88cd6dcee848368833cbd08
 InstanceOf: CompositionUvEpi
 Title: "Composition for dovato Package Leaflet"
 Description:  "Composition for dovato Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Dovato is and what it is used for  
-2. What you need to know before you take Dovato  
-3. How to take Dovato 
-4. Possible side effects  
-5. How to store Dovato  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Dovato is and what it is used for  </li>
+<li>What you need to know before you take Dovato  </li>
+<li>How to take Dovato </li>
+<li>Possible side effects  </li>
+<li>How to store Dovato  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -143,8 +143,8 @@ lactitol or maltitol), if taken regularly
 <p>Tell your doctor or pharmacist if you are taking any of these. Your doctor may decide to adjust 
 your dose or that you need extra check ups. </p>
 <p>Pregnancy<br />
-If you are pregnant, think you may be pregnant, or if you are planning to have a baby:  </p>
-<p>Talk to your doctor about the risks and benefits of taking Dovato.  </p>
+If you are pregnant, think you may be pregnant, or if you are planning to have a baby:<br />
+  Talk to your doctor about the risks and benefits of taking Dovato.  </p>
 <p>Taking Dovato at the time of becoming pregnant or during the first six weeks of pregnancy, may increase the 
 risk of a birth defect, called neural tube defect, such as spina bifida (malformed spinal cord). </p>
 <p>If you could get pregnant while taking Dovato: </p>
@@ -189,8 +189,8 @@ your body and make it less effective.
 If you take Dovato with food, you can take supplements or multivitamins containing calcium, iron or 
 magnesium at the same time as Dovato. If you do not take Dovato with food, do not take a supplement or 
 multivitamin containing calcium, iron or magnesium during the 6 hours before you take Dovato, or for at 
-least 2 hours after you take it. </p>
-<p>Talk to your doctor for further advice on taking supplements or multivitamins containing calcium, 
+least 2 hours after you take it. 
+  Talk to your doctor for further advice on taking supplements or multivitamins containing calcium, 
 iron or magnesium with Dovato. </p>
 <p>If you take more Dovato than you should<br />
 If you take too many tablets of Dovato contact your doctor or pharmacist for advice. If possible, show 
@@ -377,91 +377,71 @@ Authorisation Holder: </p>
 ViiV Healthcare srl/bv<br />
 T l/Tel: + 32 (0) 10 85 65 Lietuva 
 ViiV Healthcare BV 
-Tel: + 370 80000 </p>
-<p>ViiV Healthcare BV 
-Te .: + 359 80018 
-Luxembourg/Luxemburg 
+Tel: + 370 80000<br />
+ViiV Healthcare BV 
+Te .: + 359 80018Luxembourg/Luxemburg 
 ViiV Healthcare srl/bv<br />
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 65  </p>
-<p>esk  republika 
+T l/Tel: + 32 (0) 10 85 65  esk  republika 
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
 Magyarorsz g 
 ViiV Healthcare BV 
-Tel.: + 36 80088 
-Danmark 
+Tel.: + 36 80088Danmark 
 GlaxoSmithKline Pharma A/S 
 Tlf: + 45 36 35 91 dk-info@gsk.com </p>
 <p>Malta 
 ViiV Healthcare BV 
-Tel: + 356 80065 
-Deutschland 
+Tel: + 356 80065Deutschland 
 ViiV Healthcare GmbH<br />
-Tel.: + 49 (0)89 203 0038-10<br />
-viiv.med.info@viivhealthcare.com  </p>
+Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com  </p>
 <p>Nederland 
 ViiV Healthcare BV<br />
-Tel: + 31 (0)33 2081 </p>
-<p>Eesti 
+Tel: + 31 (0)33 2081Eesti 
 ViiV Healthcare BV 
-Tel: + 372 8002 </p>
-<p>Norge 
+Tel: + 372 8002Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>GlaxoSmithKline   A.E.B.E. 
- : + 30 210 68 82<br />
- sterreich 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
 <p>Espa a 
 Laboratorios ViiV Healthcare, S.L.<br />
-Tel: + 34 900 923 501<br />
-es-ci@viivhealthcare.com </p>
+Tel: + 34 900 923 es-ci@viivhealthcare.com </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 </p>
-<p>France 
+Tel.: + 48 (0)22 576 9France 
 ViiV Healthcare SAS<br />
 T l.: + 33 (0)1 39 17 69 Infomed@viivhealthcare.com </p>
 <p>Portugal 
 VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
-Tel: + 351 21 094 08 01<br />
-viiv.fi.pt@viivhealthcare.com </p>
+Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
 <p>Hrvatska 
 ViiV Healthcare BV 
-Tel: + 385 800787 
-Rom nia 
+Tel: + 385 800787Rom nia 
 ViiV Healthcare BV 
-Tel: + 40800672 
-Ireland 
+Tel: + 40800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija 
+Tel: + 353 (0)1 4955Slovenija 
 ViiV Healthcare BV 
-Tel: + 386 80688 </p>
-<p>sland 
+Tel: + 386 80688 sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 ViiV Healthcare BV 
-Tel: + 421 800500 </p>
-<p>Italia 
+Tel: + 421 800500Italia 
 ViiV Healthcare S.r.l<br />
-Tel: + 39 (0)45 7741 
-Suomi/Finland 
+Tel: + 39 (0)45 7741Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>ViiV Healthcare BV </p>
+Puh/Tel: + 358 (0)10 30 30 <br />
+ViiV Healthcare BV </p>
 <p>Sverige 
 GlaxoSmithKline AB 
- : + 357 80070 
-Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+ : + 357 80070Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 
 ViiV Healthcare BV 
-Tel: + 371 80205 </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: + 371 80205United Kingdom (Northern Ireland) 
 ViiV Healthcare BV 
 Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in {month YYYY}.  </p>

@@ -4,7 +4,7 @@ Instance: composition-en-f451f2b898e52e0d41c95e83d0aff4db
 InstanceOf: CompositionUvEpi
 Title: "Composition for qinlock Package Leaflet"
 Description:  "Composition for qinlock Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What QINLOCK is and what it is used for  
-2. What you need to know before you take QINLOCK 
-3. How to take QINLOCK 
-4. Possible side effects  
-5. How to store QINLOCK 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What QINLOCK is and what it is used for  </li>
+<li>What you need to know before you take QINLOCK </li>
+<li>How to take QINLOCK </li>
+<li>Possible side effects  </li>
+<li>How to store QINLOCK </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -214,8 +214,8 @@ before taking this medicine.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "3. How to take qinlock"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>QINLOCK will be prescribed for you by a doctor experienced in using anticancer therapies. </p>
-<p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>QINLOCK will be prescribed for you by a doctor experienced in using anticancer therapies. 
+Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. </p>
 <p>The recommended daily dose is three 50 mg tablets (150 mg) once daily. Take the tablets at the 
 same time each day with or without food. Swallow the tablets whole with a glass of water and do not 
@@ -270,15 +270,11 @@ improves.  </p>
 <p>High blood pressure<br />
 High blood pressure is a very common side effect when taking this medicine. If you develop: </p>
 </li>
-<li>
-<p>headache, feeling of lightheadedness, or dizziness, these may be symptoms of high 
+<li>headache, feeling of lightheadedness, or dizziness, these may be symptoms of high 
 blood pressure,<br />
-your doctor may change your dose or stop your treatment until your condition improves. </p>
-</li>
-<li>
-<p>Heart problems (heart failure) 
-Heart failure is a common side effect when taking this medicine. If you feel: </p>
-</li>
+your doctor may change your dose or stop your treatment until your condition improves. </li>
+<li>Heart problems (heart failure) 
+Heart failure is a common side effect when taking this medicine. If you feel: </li>
 <li>very tired, are short of breath, have swollen feet and/or ankles,<br />
 these may be symptoms of heart problems.  </li>
 </ul>
@@ -383,8 +379,7 @@ Strawinskylaan 31077ZX, Amsterdam
 Netherlands </p>
 <p>For any information about this medicine, please contact the Marketing Authorization Holder:  </p>
 <p>Deciphera Pharmaceuticals (Netherlands) B.V., NL 
-Tel/ T l/ Te / Tlf/  / S mi/ Puh: +318006333435<br />
-e-mail: medicalinformation@deciphera.com </p>
+Tel/ T l/ Te / Tlf/  / S mi/ Puh: +318006333e-mail: medicalinformation@deciphera.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

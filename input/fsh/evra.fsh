@@ -4,7 +4,7 @@ Instance: composition-en-9d34314ad8d36a42a39a37ea1d4e2b34
 InstanceOf: CompositionUvEpi
 Title: "Composition for evra Package Leaflet"
 Description:  "Composition for evra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What EVRA is and what it is used for 
 2. What you need to know before you use EVRA 
 3. How to use EVRA 
 4. Possible side effects 
 5. How to store EVRA 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -299,8 +298,8 @@ or triglycerides);
 fibrillation); 
 * if you have diabetes. </p>
 <p>If you have more than one of these conditions or if any of them are particularly severe the risk of 
-developing a blood clot may be increased even more. </p>
-<p>If any of the above conditions change while you are using EVRA, for example you start smoking, a 
+developing a blood clot may be increased even more. 
+If any of the above conditions change while you are using EVRA, for example you start smoking, a 
 close family member experiences a thrombosis for no known reason; or you gain a lot of weight, tell 
 your doctor. </p>
 <p>Psychiatric disorders 
@@ -582,15 +581,7 @@ you. He/she may also talk about whether you need to use another method of contra
 If you forget to put on your patch, you may be at particularly high risk of becoming pregnant. 
 * You must use non-hormonal contraception as back up for one week. 
 * Put on the first patch of your new cycle as soon as you remember. 
-* You now have a new  Patch Change Day  and new Day </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>In the middle of your patch cycle (Week 2 or 3): 
+* You now have a new  Patch Change Day  and new Day 1. In the middle of your patch cycle (Week 2 or 3): 
 If you forget to change your patch for one or two days (up to 48 hours): 
 * You must put on a new patch as soon as you remember. 
 * Put on your next patch on your normal  Patch Change Day . </p>
@@ -602,14 +593,7 @@ If you forget to change your patch for one or two days (up to 48 hours):
 <p>At the end of your patch cycle (Week 4): 
 If you forget to take off your patch: 
 * Take it off as soon as you remember. 
-* Start your next cycle on your normal  Patch Change Day , the day after Day 2</p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store evra"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store evra"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>No back-up contraception is needed. </p>
+* Start your next cycle on your normal  Patch Change Day , the day after Day 28. No back-up contraception is needed. </p>
 <p>If you have absent or irregular bleeding with EVRA 
 This medicine may cause unexpected vaginal bleeding or spotting during the weeks when you are 
 wearing the patch. 
@@ -630,14 +614,14 @@ Take the patches off and talk to a doctor immediately. </p>
 * Bleeding from the vagina. </p>
 <p>If you stop using EVRA 
 You may get irregular, little or no menstruation. This usually happens in the first 3 months and 
-especially if your periods were not regular before you started using this medicine. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
-        
+especially if your periods were not regular before you started using this medicine. 
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. If you get 
 any side effect, particularly if severe and persistent, or have any change to your health that you think 
@@ -733,4 +717,57 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store evra"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store evra"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date, which is stated on the label after  EXP . The expiry 
+date refers to the last day of that month. </p>
+<p>Store in the original container to protect from light and moisture. </p>
+<p>Do not refrigerate or freeze. </p>
+<p>Used patches still contain some active hormones. To protect the environment, the patches should be 
+disposed of with care. To discard the used patch, you should: 
+* Peel back the disposal label on the outside of the sachet. 
+* Place the used patch within the open disposal label so that the sticky surface covers the shaded 
+area. 
+* Close the label sealing the used patch within and discard, keeping out of reach of children. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What EVRA contains 
+The active substances are norelgestromin and ethinyl estradiol. Each 20 cm2 transdermal patch 
+contains 6 mg norelgestromin and 600 micrograms ethinyl estradiol. The active substances are 
+released over 7 days with an average of 203 micrograms norelgestromin and 34 micrograms ethinyl 
+estradiol being released each 24 hours. </p>
+<p>The other ingredients are: backing layer: low-density pigmented polyethylene outer layer, polyester 
+inner layer; middle layer: polyisobutylene/polybutene adhesive, crospovidone, non-woven polyester 
+fabric, lauryl lactate; third layer: polyethylene terephthalate (PET) film, polydimethylsiloxane coating. </p>
+<p>What EVRA looks like and contents of the pack 
+EVRA is a thin, beige, plastic transdermal patch stamped  EVRA . The sticky adhesive side is stuck 
+to the skin after removal of the clear, plastic, protective covering. </p>
+<p>EVRA is available in the following pack sizes: Cartons containing 3, 9 or 18 patches in individual 
+foil-lined sachets, wrapped per three in a transparent perforated plastic film. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Marketing Authorisation Holder:<br />
+Gedeon Richter Plc. 
+Gy mr i  t 19-21. 1103 Budapest 
+Hungary </p>
+<p>Manufacturer:<br />
+Janssen Pharmaceutica NV, Turnhoutseweg 30, B-2340 Beerse, Belgium. </p>
+<p>Gedeon Richter Plc. 
+Gy mr i  t 19-21. 1103 Budapest 
+Hungary 
+This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

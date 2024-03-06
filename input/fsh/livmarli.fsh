@@ -4,7 +4,7 @@ Instance: composition-en-0a545e5c9515b05d7e6ea3998a427c70
 InstanceOf: CompositionUvEpi
 Title: "Composition for livmarli Package Leaflet"
 Description:  "Composition for livmarli Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Livmarli is and what it is used for 
-2. What you need to know before you or your child take Livmarli 
-3. How to take Livmarli 
-4. Possible side effects 
-5. How to store Livmarli 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Livmarli is and what it is used for </li>
+<li>What you need to know before you or your child take Livmarli </li>
+<li>How to take Livmarli </li>
+<li>Possible side effects </li>
+<li>How to store Livmarli </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -217,15 +217,7 @@ Figure I.b. </p>
 <p>1.7<br />
 Check the syringe for air bubbles. If you see any air bubbles: 
 * Push the air bubbles back into the bottle by pushing the plunger (see Figure J)<br />
-* then re-draw the prescribed dose following the instructions in Step 1.</p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Figure J.a. 
+* then re-draw the prescribed dose following the instructions in Step 1.6. Figure J.a. 
 Figure J.b. 
 Check for air bubbles 
 Push plunger into syringe to remove air bubbles </p>
@@ -268,12 +260,13 @@ as soon as possible. Then continue taking as usual.<br />
 * If a dose is missed by more than 12 hours, do not take the missed dose. Take the next dose at the 
 usual time. </p>
 <p>If you stop taking Livmarli 
-Do not stop taking Livmarli without first talking with your doctor. </p>         </div>"""      
+Do not stop taking Livmarli without first talking with your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store livmarli"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store livmarli"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effects may happen with this medicine. </p>
@@ -288,11 +281,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store livmarli"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store livmarli"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>This medicine does not require any special temperature storage conditions. Store in the original 
@@ -304,4 +296,44 @@ opening. After 130 days, the bottle should be discarded even when it is not empt
 date on the Livmarli bottle. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Livmarli contains </p>
+<ul>
+<li>
+<p>The active substance is maralixibat chloride. 
+Each mL of solution contains maralixibat chloride equivalent to 9.5 mg maralixibat. </p>
+</li>
+<li>
+<p>The other ingredients are propylene glycol (E1520) (see section 2  Livmarli contains propylene 
+glycol ), disodium edetate (see section 2  Livmarli contains propylene glycol and sodium ), 
+sucralose, grape flavour, and purified water. </p>
+</li>
+</ul>
+<p>What Livmarli looks like and contents of the pack 
+Livmarli is a clear and colourless to light yellow oral solution. It is stored in a 30 mL amber-coloured 
+plastic bottle with a pre-installed adapter and a child-resistant closure with a foam liner. Three sizes of 
+oral syringes (0.5 mL, 1 mL and 3 mL) provided in the pack are compatible with the pre-installed 
+adapter and reclosable bottle cap. To ensure correct dose of Livmarli, refer to the table in section 3 
+( How to take Livmarli ) for selection of the correct oral syringe size. </p>
+<p>Pack size 
+1 bottle with 30 mL and 3 oral syringes (0.5 mL, 1 mL and 3 mL). </p>
+<p>Marketing Authorisation Holder 
+Mirum Pharmaceuticals International B.V. 
+Kingsfordweg 1043 GR Amsterdam, 
+The Netherlands  </p>
+<p>Manufacturer 
+Millmount Healthcare Limited </p>
+<p>Block 7 City North Business Campus 
+Stamullen, Co. Meath, K32 YDIreland </p>
+<p>This leaflet was last revised in  </p>
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
+rarity of this disease it has been impossible to get complete information on this medicine. </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

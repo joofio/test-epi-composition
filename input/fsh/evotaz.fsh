@@ -4,7 +4,7 @@ Instance: composition-en-35f018d5cf43d63ae34ce4515a0b50b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for evotaz Package Leaflet"
 Description:  "Composition for evotaz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What EVOTAZ is and what it is used for 
-2. What you need to know before you take EVOTAZ 
-3. How to take EVOTAZ 
-4. Possible side effects 
-5. How to store EVOTAZ 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What EVOTAZ is and what it is used for </li>
+<li>What you need to know before you take EVOTAZ </li>
+<li>How to take EVOTAZ </li>
+<li>Possible side effects </li>
+<li>How to store EVOTAZ </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -167,14 +167,7 @@ you develop a rash inform your doctor immediately. </p>
 use of EVOTAZ was not studied in this population. </p>
 <p>Other medicines and EVOTAZ </p>
 <p>You must not take EVOTAZ with certain medicines. These are listed under Do not take EVOTAZ, 
-at the start of section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take evotaz"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take evotaz"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>There are other medicines that may not be taken together or may require a change in their mode of 
+at the start of section 2. There are other medicines that may not be taken together or may require a change in their mode of 
 administration when taken with EVOTAZ. Tell your doctor or pharmacist if you are taking, have 
 recently taken or might take any other medicines. It is especially important to mention these: 
 * medicines containing ritonavir or cobicistat (booster agents) 
@@ -223,13 +216,12 @@ soon as possible. </p>
 <p>Driving and using machines </p>
 <p>Some patients have reported dizziness when taking atazanavir or cobicistat, active substances of 
 EVOTAZ. If you feel dizzy or lightheaded, do not drive, use any tools or use machines and contact 
-your doctor immediately. </p>         </div>"""         
-
-        
+your doctor immediately. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take evotaz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take evotaz"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. This way, you can be sure your medicine is fully effective and you reduce the risk of the 
@@ -249,12 +241,13 @@ time. Do not double the next dose. It is important that you do not miss any dose
 other anti-HIV medicines. </p>
 <p>If you stop taking EVOTAZ 
 Do not stop taking EVOTAZ before talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store evotaz"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store evotaz"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Tell your 
 doctor if you notice anything unusual about your health. </p>
@@ -315,11 +308,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store evotaz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store evotaz"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
@@ -327,4 +319,46 @@ expiry date refers to the last day of that month. </p>
 <p>Do not store above 30  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What EVOTAZ contains </p>
+<ul>
+<li>The active substances are atazanavir and cobicistat. Each film-coated tablet contains 300 mg of 
+atazanavir (as sulphate), and 150 mg cobicistat. </li>
+<li>The other ingredients are: 
+Tablet core - cellulose, microcrystalline (E460(i)), croscarmellose sodium (E468), sodium 
+starch glycolate, crospovidone (E1202), stearic acid (E570), magnesium stearate (E470b), 
+hydroxypropyl cellulose (E463), silica (E551) 
+Film-coating - hypromellose (hydroxypropyl methyl cellulose, E464), titanium dioxide (E171), 
+talc (E553b), triacetin (E1518), red iron oxide (E172) </li>
+</ul>
+<p>What EVOTAZ looks like and contents of the pack </p>
+<p>EVOTAZ film-coated tablets are pink, oval, biconvex, of approximate dimensions of 
+19 mm x 10.4 mm, debossed on one side with "3641" and plain-faced on the other side of the tablet. </p>
+<p>EVOTAZ film-coated tablets are supplied in bottles of 30 tablets. The following pack sizes are 
+available: outer cartons containing 1 bottle of 30 film-coated tablets and outer cartons containing 
+90 (3 bottles of 30) film-coated tablets. </p>
+<p>Not all packages may be marketed in your country. </p>
+<p>Marketing Authorisation Holder 
+Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIreland </p>
+<p>Manufacturer 
+CATALENT ANAGNI S.R.L. 
+Loc. Fontana del Ceraso snc 
+Strada Provinciale 12 Casilina, 03012 Anagni (FR) 
+Italy </p>
+<p>Swords Laboratories Unlimited Company T/A 
+Bristol-Myers Squibb Pharmaceutical Operations, 
+External Manufacturing 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIreland </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

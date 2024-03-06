@@ -4,7 +4,7 @@ Instance: composition-en-8ceafeb1fcccbf6af415d119af979934
 InstanceOf: CompositionUvEpi
 Title: "Composition for zirabev Package Leaflet"
 Description:  "Composition for zirabev Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Zirabev is and what it is used for 
-2. What you need to know before you use Zirabev 
-3. How to use Zirabev 
-4. Possible side effects 
-5. How to store Zirabev 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Zirabev is and what it is used for </li>
+<li>What you need to know before you use Zirabev </li>
+<li>How to use Zirabev </li>
+<li>Possible side effects </li>
+<li>How to store Zirabev </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -92,8 +93,8 @@ patients with kidney cancer, it will be administered with another type of medici
 or primary peritoneal cancer. When used for patients with epithelial ovarian, fallopian tube, or primary 
 peritoneal cancer, it will be administered in combination with carboplatin and paclitaxel. </p>
 <p>When used for those adult patients with advanced epithelial ovarian, fallopian tube, or primary 
-peritoneal cancer whose disease has come back at least 6 months after the last time they were treated </p>
-<p>with a chemotherapy regimen containing a platinum agent, Zirabev will be administered in 
+peritoneal cancer whose disease has come back at least 6 months after the last time they were treated 
+with a chemotherapy regimen containing a platinum agent, Zirabev will be administered in 
 combination with carboplatin and gemcitabine or with carboplatin and paclitaxel. </p>
 <p>When used for those adult patients with advanced epithelial ovarian, fallopian tube, or primary 
 peritoneal cancer whose disease has come back before 6 months after the last time they were treated 
@@ -183,8 +184,8 @@ Tell your doctor, pharmacist or nurse if you are taking, have recently taken or 
 medicines. </p>
 <p>Combinations of Zirabev with another medicine called sunitinib malate (prescribed for renal and 
 gastrointestinal cancer) may cause severe side effects. Discuss with your doctor to make sure that you 
-do not combine these medicines. </p>
-<p>Tell your doctor if you are using platinum- or taxane-based therapies for lung or metastatic breast 
+do not combine these medicines. 
+Tell your doctor if you are using platinum- or taxane-based therapies for lung or metastatic breast 
 cancer. These therapies in combination with Zirabev may increase the risk of severe side effects. </p>
 <p>Please tell your doctor if you have recently received, or are receiving, radiotherapy. </p>
 <p>Pregnancy, breast-feeding and fertility 
@@ -279,8 +280,8 @@ lightheadedness, fast heartbeat and loss of consciousness. </p>
 (this may be accompanied by fever), and cells that help the blood to clot, </p>
 <p>feeling weak and having no energy, </p>
 <p>tiredness, </p>
-<p>diarrhoea, nausea, vomiting and abdominal pain. </p>
-<p>Severe side effects, which may be common (may affect up to 1 in 10 people), include: </p>
+<p>diarrhoea, nausea, vomiting and abdominal pain. 
+Severe side effects, which may be common (may affect up to 1 in 10 people), include: </p>
 <p>perforation of the gut, </p>
 <p>bleeding, including bleeding in the lungs in patients with non-small cell lung cancer, </p>
 <p>blocking of the arteries by a blood clot, </p>
@@ -443,94 +444,67 @@ Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-T l/Tel: +32 (0)2 554 62<br />
-K<br />
+T l/Tel: +32 (0)2 554 62 K<br />
 Pfizer E  A.E. (Cyprus Branch) 
-T : +357 22817 
- esk  republika 
+T : +357 22817 esk  republika 
 Pfizer, spol. s r.o. 
-Tel: +420 283 004<br />
-Magyarorsz g 
+Tel: +420 283 004 Magyarorsz g 
 Pfizer Kft. 
-Tel.: + 36 1 488 37<br />
-Danmark 
+Tel.: + 36 1 488 37 Danmark 
 Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Malta 
+Tlf: +45 44 20 11 Malta 
 Drugsales Ltd 
 Tel: +356 21419070/1/2 </p>
 <p>Deutschland 
 PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055-51 
-Nederland 
+Tel: +49 (0)30 550055-51Nederland 
 Pfizer bv 
-Tel: +31 (0)800 63 34  </p>
-<pre><code> ,
-</code></pre>
-<p>Te .: +359 2 970 4 
-Norge 
+Tel: +31 (0)800 63 34 <br />
+     , </p>
+<p>Te .: +359 2 970 4Norge 
 Pfizer AS 
-Tlf: +47 67 52 61<br />
-Eesti 
+Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
- sterreich 
+Tel: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>Pfizer E  A.E. 
- : +30 210 6785 
-Polska 
+ : +30 210 6785Polska 
 Pfizer Polska Sp. z o.o. 
-Tel.: +48 22 335 61<br />
-Espa a 
+Tel.: +48 22 335 61 Espa a 
 Pfizer, S.L. 
-Tel: +34 91 490 99<br />
-Portugal 
+Tel: +34 91 490 99 Portugal 
 Laborat rios Pfizer, Lda. 
-Tel: +351 21 423 5 
-France 
+Tel: +351 21 423 5France 
 Pfizer 
-T l: +33 (0)1 58 07 34<br />
-Rom nia 
+T l: +33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L 
-Tel: +40 (0) 21 207 28<br />
-Hrvatska 
+Tel: +40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
-Tel: +385 1 3908<br />
-Slovenija 
+Tel: +385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel: +386 (0)1 52 11<br />
-Ireland 
+Tel: +386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
-Tel: +44 (0)1304 616 
-Slovensk  republika 
+Tel: +44 (0)1304 616Slovensk  republika 
 Pfizer Luxembourg SARL, organiza n  zlo ka 
-Tel: + 421 2 3355 5 </p>
-<p>sland 
+Tel: + 421 2 3355 5 sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Suomi/Finland 
+S mi: +354 540 8Suomi/Finland 
 Pfizer Oy 
-Puh/Tel: +358 (0)9 430<br />
-Italia 
+Puh/Tel: +358 (0)9 430 Italia 
 Pfizer S.r.l. 
-Tel: +39 06 33 18<br />
-Sverige 
+Tel: +39 06 33 18 Sverige 
 Pfizer AB 
-Tel: +46 (0)8 550 520<br />
-Latvija 
+Tel: +46 (0)8 550 520 Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel: + 371 670 35<br />
-United Kingdom (Northern Ireland) 
+Tel: + 371 670 35 United Kingdom (Northern Ireland) 
 Pfizer Limited 
-Tel: +44 (0)1304 616 
-Lietuva 
+Tel: +44 (0)1304 616Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 5 251 4 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +370 5 251 4This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

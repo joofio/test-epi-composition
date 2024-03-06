@@ -4,7 +4,7 @@ Instance: composition-en-b5b875180b10dd24ad24a5a713e37047
 InstanceOf: CompositionUvEpi
 Title: "Composition for budesonideformoterol Package Leaflet"
 Description:  "Composition for budesonideformoterol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Budesonide/Formoterol Teva Pharma B.V. is and what it is used for 
-2. What you need to know before you use Budesonide/Formoterol Teva Pharma B.V. 
-3. How to use Budesonide/Formoterol Teva Pharma B.V. 
-4. Possible side effects 
-5. How to store Budesonide/Formoterol Teva Pharma B.V. 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Budesonide/Formoterol Teva Pharma B.V. is and what it is used for </li>
+<li>What you need to know before you use Budesonide/Formoterol Teva Pharma B.V. </li>
+<li>How to use Budesonide/Formoterol Teva Pharma B.V. </li>
+<li>Possible side effects </li>
+<li>How to store Budesonide/Formoterol Teva Pharma B.V. </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -298,20 +298,12 @@ the mouthpiece. Take care not to block the air vents. </li>
 cover.  </p>
 </li>
 </ol>
-<p>If you are to take a second inhalation, repeat steps 1 to </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Rinse your mouth with water after every dose, and spit it out.<br />
+<p>If you are to take a second inhalation, repeat steps 1 to 7. Rinse your mouth with water after every dose, and spit it out.<br />
 Do not try to take your inhaler apart, remove or twist the mouthpiece cover, it is fixed to your inhaler 
 and must not be taken off.  Do not use your Spiromax if it has been damaged or if the mouthpiece has 
 come apart from your Spiromax. Do not open and close the mouthpiece cover unless you are about to 
-use your inhaler.  </p>
-<p>Cleaning your Spiromax 
+use your inhaler.<br />
+Cleaning your Spiromax 
 Keep your Spiromax dry and clean. 
 If necessary you may wipe the mouthpiece of your Spiromax after use with a dry cloth or tissue. </p>
 <p>When to start using a new Spiromax 
@@ -359,12 +351,13 @@ usual time.  </p>
  reliever inhaler , then seek medical advice.  </p>
 <p>If you stop using Budesonide/Formoterol Teva Pharma B.V. 
 Do not stop using your inhaler without telling your doctor first.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store budesonideformoterol"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store budesonideformoterol"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If any of the following happen to you, stop using Budesonide/Formoterol Teva Pharma B.V. and 
@@ -440,11 +433,10 @@ effects not listed in this leaflet.  </p>
 <p>You can also report side effects directly via the national reporting system listed in Appendix V. By 
 reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store budesonideformoterol"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store budesonideformoterol"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Keep this medicine out of the sight and reach of children. </li>
@@ -458,4 +450,99 @@ down the date you open the foil pouch. </li>
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </li>
 </ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Budesonide/Formoterol Teva Pharma B.V. contains<br />
+- The active substances are budesonide and formoterol fumarate dihydrate. Each delivered 
+(inhaled) dose contains 160 micrograms of budesonide and 4.5 micrograms of formoterol 
+fumarate dihydrate. This is equivalent to a metered dose of 200 micrograms of budesonide and 
+6 micrograms of formoterol fumarate dihydrate.<br />
+- The other ingredient is lactose monohydrate (see section 2 under  Budesonide/Formoterol Teva 
+Pharma B.V. contains lactose ) </p>
+<p>What Budesonide/Formoterol Teva Pharma B.V. looks like and contents of the pack </p>
+<p>Budesonide/Formoterol Teva Pharma B.V. is an inhalation powder.<br />
+Each Budesonide/Formoterol Teva Pharma B.V. inhaler contains 120 inhalations and has a white body 
+with a semi-transparent wine red mouthpiece cover. </p>
+<p>Packs of 1, 2, and 3 inhalers.  Not all pack sizes may be marketed in your country.  </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Teva Pharma B.V.,<br />
+Swensweg 5, 2031GA Haarlem, The Netherlands.  </p>
+<p>Manufacturer </p>
+<p>Norton (Waterford) Limited T/A Teva Pharmaceuticals Ireland 
+Unit 27/35, IDA Industrial Park, Cork Road, Waterford, Ireland </p>
+<p>Teva Pharmaceuticals Europe B.V., Swensweg 5, 2031 GA Haarlem, Netherlands </p>
+<p>Teva Operations Poland Sp. z o.o. Mogilska 80 Str. 31-546 Krak w Poland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG<br />
+Tel/T l: +32 3 820 73 Lietuva 
+UAB Teva Baltics 
+Tel: +370 5 266 02   </p>
+<p>Te .: +359 2 489 95 Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG<br />
+Belgique/Belgien 
+Tel/T l: +32 3 820 73  esk  republika 
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251 007 Magyarorsz g 
+Teva Gy gyszergy r Zrt<br />
+Tel.: +36 1 288 64 Danmark 
+Teva Denmark A/S<br />
+Tlf: +45 44 98 55 Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 207 540 7Deutschland 
+TEVA GmbH 
+Tel: +49 731 402 Nederland 
+Teva Nederland B.V. 
+Tel: +31 800 0228 Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 661 0Norge 
+Teva Norway AS<br />
+Tlf: +47 6677 55 <br />
+Specifar A.B.E.E. 
+ : +30 211 880 5 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1 97007 0 </p>
+<p>Espa a 
+Teva Pharma S.L.U.<br />
+T l: +34 91 387 32 Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel.: +48 22 345 93 France 
+Teva Sant<br />
+T l: +33 1 55 91 7Portugal<br />
+Teva Pharma - Produtos Farmac uticos Lda 
+Tel: +351 21 476 75 Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: + 385 1 37 20 Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +4021 230 6Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 207 540 7Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 1 58 90  sland 
+Teva Pharma Iceland ehf. 
+S mi: + 354 550 3Slovensk  republika 
+Teva Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 2 5726 7Italia 
+Teva Italia S.r.l. 
+Tel: +39 028 917 Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 20 180 5<br />
+Specifar A.B.E.E. </p>
+<p>: +30 211 880 5Sverige 
+Teva Sweden AB 
+Tel: +46 42 12 11 Latvija 
+UAB Teva Baltics fili le Latvij <br />
+Tel: +371 67 323 United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 207 540 7This leaflet was last revised in month YYYY. </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

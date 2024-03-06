@@ -4,7 +4,7 @@ Instance: composition-en-2dc44ebb45d2b0f7332cf61717b9e639
 InstanceOf: CompositionUvEpi
 Title: "Composition for ceprotin Package Leaflet"
 Description:  "Composition for ceprotin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What CEPROTIN is and what it is used for 
-2. What you need to know before you use CEPROTIN 
-3. How to use CEPROTIN 
-4. Possible side effects 
-5. How to store CEPROTIN 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What CEPROTIN is and what it is used for </li>
+<li>What you need to know before you use CEPROTIN </li>
+<li>How to use CEPROTIN </li>
+<li>Possible side effects </li>
+<li>How to store CEPROTIN </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,8 +99,8 @@ pressure, tightness of chest, and shock. If such symptoms occur during the admin
 CEPROTIN, injection should be stopped. Such symptoms may constitute an allergic reaction to any 
 of the components, to mouse protein or heparin. The preparation may contain traces of heparin 
 and/or mouse protein as a result of the manufacturing process. If such a reaction occurs, your doctor 
-will decide on the most appropriate treatment. </p>
-<p>If the preparation is used in patients with severe congenital protein C deficiency, antibodies inhibiting 
+will decide on the most appropriate treatment. 
+If the preparation is used in patients with severe congenital protein C deficiency, antibodies inhibiting 
 protein C may develop that can inhibit protein C and therefore diminish the effect of the preparation. 
 However, this has not been observed in the clinical studies to date. </p>
 <p>When medicines are made from human blood or plasma, certain measures are put in place to prevent 
@@ -275,8 +276,7 @@ Austria </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-Tel/T l: +32 2 464 06 11<br />
-medinfoEMEA@takeda.com </p>
+Tel/T l: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
@@ -312,8 +312,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
 T : +30 210 6387medinfoEMEA@takeda.com 
  sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
 <p>Espa a 
 Takeda Farmac utica Espa a S.A 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
@@ -337,8 +336,8 @@ Takeda Products Ireland Ltd
 Tel: 1800 937 medinfoEMEA@takeda.com 
 Slovenija 
 Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
-Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>sland 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com 
+ sland 
 Vistor hf. 
 S mi: +354 535 7medinfoEMEA@takeda.com </p>
 <p>Slovensk  republika 

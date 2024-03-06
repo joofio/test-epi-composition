@@ -4,7 +4,7 @@ Instance: composition-en-a2d91e093ece9c0d3351fd31285a05ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for voriconazole Package Leaflet"
 Description:  "Composition for voriconazole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Voriconazole Hikma is and what it is used for  
-2. What you need to know before you take Voriconazole Hikma 
-3. How to take Voriconazole Hikma 
-4. Possible side effects  
-5. How to store Voriconazole Hikma 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Voriconazole Hikma is and what it is used for  </li>
+<li>What you need to know before you take Voriconazole Hikma </li>
+<li>How to take Voriconazole Hikma </li>
+<li>Possible side effects  </li>
+<li>How to store Voriconazole Hikma </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -195,12 +195,12 @@ inflammation) </li>
 <li>Everolimus (used for treating advanced kidney cancer and in transplant patients) </li>
 <li>Letermovir (used for preventing cytomegalovirus (CMV) disease after bone marrow transplant) </li>
 <li>Ivacaftor (used to treat cystic fibrosis) </li>
-<li>Flucloxacillin (antibiotic used against bacterial infections) </li>
-</ul>
-<p>Pregnancy and breast-feeding<br />
+<li>Flucloxacillin (antibiotic used against bacterial infections) 
+Pregnancy and breast-feeding<br />
 Voriconazole Hikma must not be used during pregnancy, unless indicated by your doctor. Effective 
 contraception must be used in women of childbearing potential. Contact your doctor immediately if you 
-become pregnant while being treated with Voriconazole Hikma. </p>
+become pregnant while being treated with Voriconazole Hikma. </li>
+</ul>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your 
 doctor or pharmacist for advice before taking this medicine. </p>
 <p>Driving and using machines 
@@ -296,8 +296,8 @@ the usual field of vision, spots before the eyes)
   Breathing difficulties. 
   Elevated liver enzymes </p>
 <p>Common: may affect up to 1 in 10 people </p>
-<p>Inflammation of the sinuses, inflammation of the gums, chills, weakness </p>
-<p>Low numbers of some types, including severe, of red (sometimes immune-related) and/or white 
+<p>Inflammation of the sinuses, inflammation of the gums, chills, weakness 
+  Low numbers of some types, including severe, of red (sometimes immune-related) and/or white 
 blood cells (sometimes with fever), low numbers of cells called platelets that help blood to clot 
   Low blood sugar, low blood potassium, low sodium in the blood 
   Anxiety, depression, confusion, agitation, inability to sleep, hallucinations 
@@ -349,8 +349,8 @@ of the skin, hives, sunburn or severe skin reaction following exposure to light 
 and irritation, red or purple discoloration of the skin which may be caused by low platelet count, 
 eczema 
   Infusion site reaction 
-  Allergic reaction or exaggerated immune response </p>
-<p>Rare: may affect up to 1 in 1000 people </p>
+  Allergic reaction or exaggerated immune response 
+Rare: may affect up to 1 in 1000 people </p>
 <p>Overactive thyroid gland 
   Deterioration of brain function that is a serious complication of liver disease 
   Loss of most fibers in the optic nerve clouding of the cornea, involuntary movement of the eye 
@@ -434,20 +434,15 @@ Belgium </p>
 Authorisation Holder: </p>
 <p>AT / BE / DE / NL 
 Hikma Pharma GmbH 
-Tel: +49 89-45450- IT 
+Tel: +49 89-45450-IT 
 Hikma Italia S.p.A. 
-T l/Tel: + 39 0382 1751 
-BG / CY / CZ / DK / EE / ES / EL / FI / HR / 
+T l/Tel: + 39 0382 1751BG / CY / CZ / DK / EE / ES / EL / FI / HR / 
 HU / IE / IS / LI / LT / LU / LV / MT / NO / PL 
 / PT / RO / SE / SI / SK 
 Hikma Farmac utica (Portugal), S.A. 
-Tel.: +351 219 608<br />
-UK 
+Tel.: +351 219 608 UK 
 Consilient Health Ltd 
-Tel.: +44(0)203 751 1 
-FR 
+Tel.: +44(0)203 751 1FR 
 Hikma France 
-+33(0) 1 87 69 98 43  </p>
-<p>This leaflet was last revised in 05/2 
-Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
++33(0) 1 87 69 98 This leaflet was last revised in 05/2Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

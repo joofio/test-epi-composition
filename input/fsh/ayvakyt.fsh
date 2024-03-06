@@ -4,7 +4,7 @@ Instance: composition-en-f40cac7981e52d03bbfe471a7f88b25f
 InstanceOf: CompositionUvEpi
 Title: "Composition for ayvakyt Package Leaflet"
 Description:  "Composition for ayvakyt Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What AYVAKYT is and what it is used for  
-2. What you need to know before you take AYVAKYT 
-3. How to take AYVAKYT 
-4. Possible side effects  
-5. How to store AYVAKYT 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What AYVAKYT is and what it is used for  </li>
+<li>What you need to know before you take AYVAKYT </li>
+<li>How to take AYVAKYT </li>
+<li>Possible side effects  </li>
+<li>How to store AYVAKYT </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -144,14 +144,7 @@ sun-exposed areas of skin and use sunscreen with high sun protection factor (SPF
 </ul>
 <p>While you are taking avapritinib, your doctor will ask you to have regular blood tests and weigh you 
 regularly if you have AdvSM. </p>
-<p>For more information see section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take ayvakyt"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ayvakyt"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents<br />
+<p>For more information see section 4. Children and adolescents<br />
 AYVAKYT has not been studied in children and adolescents under age 18. Do not give this medicine 
 to children or adolescents under the age of 18 years. </p>
 <p>Other medicines and AYVAKYT 
@@ -217,13 +210,12 @@ Therefore, AYVAKYT may influence the ability to drive and use machines. Take spe
 driving a car or operating machines if you experience these side effects. </p>
 <p>AYVAKYT contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""         
-
-        
+free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take ayvakyt"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take ayvakyt"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.  </p>
@@ -248,12 +240,13 @@ medical attention. </p>
 <p>If you forget to take AYVAKYT 
 If you miss a dose of AYVAKYT, take it as soon as you remember unless your next scheduled dose is 
 due within 8 hours. Take the next dose at your regular time.<br />
-Do not take two doses within 8 hours to make up for a forgotten dose. </p>         </div>"""      
+Do not take two doses within 8 hours to make up for a forgotten dose. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store ayvakyt"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ayvakyt"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Most serious side effects in patients with AdvSM 
@@ -330,11 +323,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store ayvakyt"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store ayvakyt"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle label and outer carton after 
@@ -343,4 +335,52 @@ this medicine. </p>         </div>"""
 <p>Do not use this medicine if you notice that the bottle is damaged or shows signs of tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What AYVAKYT contains<br />
+- The active substance is avapritinib. Each film-coated tablet contains 25 mg avapritinib. 
+- The other ingredients are:</p>
+<ul>
+<li>The tablet core contains: microcrystalline cellulose, copovidone, croscarmellose sodium 
+and magnesium stearate (see section 2  AYVAKYT contains sodium ). </li>
+<li>The tablet coating contains: talc, macrogol 3350, poly(vinyl alcohol), and titanium 
+dioxide (E171). </li>
+</ul>
+<p>What AYVAKYT looks like and contents of the pack 
+AYVAKYT 25 mg film-coated tablets are round, white tablets of 5 mm diameter, debossed with 
+ BLU  on one side and  25  on the other.  </p>
+<p>AYVAKYT is supplied in a bottle containing 30 film-coated tablets. Each carton contains one bottle. </p>
+<p>Keep the desiccant canister in the bottle. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Blueprint Medicines (Netherlands) B.V. 
+Gustav Mahlerplein 2 
+1082 MA Amsterdam 
+Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien,  ,  esk<br />
+republika, Danmark, Deutschland, Eesti, 
+Espa a, France, Hrvatska, Ireland,  sland, 
+ , <br />
+Swixx Biopharma S.M.S.A.<br />
+ : +30 214 444 9Italia, Latvija, Lietuva, 
+Luxembourg/Luxemburg, Magyarorsz g, 
+Malta, Nederland, Norge,  sterreich, Polska, 
+Portugal, Rom nia, Slovenija, Slovensk<br />
+republika, Suomi/Finland, Sverige, United 
+Kingdom (Northern Ireland) 
+Blueprint Medicines (Netherlands) B.V., NL 
+Tel/ T l/ Te / Tlf/ S mi/ Puh: +31 85 064 4e-mail: MedinfoEurope@blueprintmedicines.com </p>
+<p>This leaflet was last revised in  </p>
+<p>This medicine has been given  conditional approval .<br />
+This means that there is more evidence to come about this medicine. 
+The European Medicines Agency will review new information on this medicine at least every year and 
+this leaflet will be updated as necessary. </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

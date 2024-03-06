@@ -4,7 +4,7 @@ Instance: composition-en-684d3ac7eb172f49f26955be7ae4a00d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ajovy Package Leaflet"
 Description:  "Composition for ajovy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What AJOVY is and what it is used for  
-2. What you need to know before you use AJOVY  
-3. How to use AJOVY  
-4. Possible side effects  
-5. How to store AJOVY 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What AJOVY is and what it is used for  </li>
+<li>What you need to know before you use AJOVY  </li>
+<li>How to use AJOVY  </li>
+<li>Possible side effects  </li>
+<li>How to store AJOVY </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -224,90 +224,67 @@ The Netherlands </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-T l/Tel: +32 38207373  </p>
-<p>Lietuva 
+T l/Tel: +32 38207Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 </p>
-<p>Te : +359 24899 
-Luxembourg/Luxemburg 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-T l/Tel: +32 38207 
- esk  republika 
+T l/Tel: +32 38207 esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
 Tel: +420 251007Magyarorsz g 
 Teva Gy gyszergy r Zrt.<br />
-Tel: +36 12886400<br />
-Danmark 
+Tel: +36 12886Danmark 
 Teva Denmark A/S<br />
-Tlf: +45 44985511  </p>
-<p>Malta 
+Tlf: +45 44985Malta 
 Teva Pharmaceuticals Ireland<br />
 L-Irlanda<br />
-Tel: +44 2075407 
-Deutschland 
+Tel: +44 2075407Deutschland 
 TEVA GmbH 
-Tel: +49 73140208  </p>
-<p>Nederland 
+Tel: +49 73140Nederland 
 Teva Nederland B.V. 
-Tel: +31 8000228400  </p>
-<p>Eesti 
+Tel: +31 8000228Eesti 
 UAB Teva Baltics Eesti filiaal<br />
 Tel: +372 6610Norge 
 Teva Norway AS<br />
-Tlf: +47 66775590  </p>
-<p>TEVA HELLAS  . . 
+Tlf: +47 66775<br />
+TEVA HELLAS  . . 
  : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH<br />
-Tel: +43 1970 
-Espa a 
+Tel: +43 1970Espa a 
 Teva Pharma, S.L.U.<br />
-Tel: +34 913873280<br />
-Polska 
+Tel: +34 913873Polska 
 Teva Pharmaceuticals Polska Sp. z o.o.<br />
-Tel: +48 223459300  </p>
-<p>France 
+Tel: +48 223459France 
 Teva Sant <br />
-T l: +33 155917800  </p>
-<p>Portugal 
+T l: +33 155917Portugal 
 Teva Pharma - Produtos Farmac uticos, Lda.<br />
-Tel: +351 214767550<br />
-Hrvatska 
+Tel: +351 214767Hrvatska 
 Pliva Hrvatska d.o.o. 
-Tel: +385 13720000  </p>
-<p>Rom nia 
+Tel: +385 13720Rom nia 
 Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306524  </p>
-<p>Ireland 
+Tel: +40 212306Ireland 
 Teva Pharmaceuticals Ireland<br />
-Tel: +44 2075407 
-Slovenija 
+Tel: +44 2075407Slovenija 
 Pliva Ljubljana d.o.o.<br />
 Tel: +386 15890 sland 
 Teva Pharma Iceland ehf. 
-S mi: +354 5503 
-Slovensk  republika 
+S mi: +354 5503Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o.<br />
-Tel: +421 257267911<br />
-Italia 
+Tel: +421 257267Italia 
 Teva Italia S.r.l.<br />
-Tel: +39 028917981<br />
-Suomi/Finland 
+Tel: +39 028917Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805900  </p>
-<p>TEVA HELLAS  . . </p>
-<p>: +30 2118805 
-Sverige 
+Puh/Tel: +358 201805<br />
+TEVA HELLAS  . . </p>
+<p>: +30 2118805Sverige 
 Teva Sweden AB<br />
-Tel: +46 42121100  </p>
-<p>Latvija 
+Tel: +46 42121Latvija 
 UAB Teva Baltics fili le Latvij <br />
-Tel: +371 67323666  </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: +371 67323United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 
-Tel: +44 2075407 </p>
-<p>This leaflet was last revised in {month YYYY}. </p>
+Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

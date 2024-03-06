@@ -4,7 +4,7 @@ Instance: composition-en-b33771d603196a4c6882e9a09cc14a10
 InstanceOf: CompositionUvEpi
 Title: "Composition for tamiflu Package Leaflet"
 Description:  "Composition for tamiflu Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tamiflu is and what it is used for 
-2. What you need to know before you take Tamiflu  
-3. How to take Tamiflu  
-4. Possible side effects 
-5. How to store Tamiflu  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tamiflu is and what it is used for </li>
+<li>What you need to know before you take Tamiflu  </li>
+<li>How to take Tamiflu  </li>
+<li>Possible side effects </li>
+<li>How to store Tamiflu  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,14 +99,7 @@ Outside epidemic periods, flu-like symptoms are usually caused by a different ty
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Tamiflu: 
 * if you are allergic (hypersensitive) to oseltamivir or any of the other ingredients of Tamiflu 
-listed in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take tamiflu"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tamiflu"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Talk to your doctor if this applies to you. Do not take Tamiflu. </p>
+listed in section 6. Talk to your doctor if this applies to you. Do not take Tamiflu. </p>
 <p>Warnings and precautions: 
 Before you take Tamiflu, make sure the prescribing doctor knows 
 * if you are allergic to other medicines 
@@ -139,13 +132,12 @@ that your doctor can decide if Tamiflu is right for you. </p>
 Tamiflu has no effect on your ability to drive or use machines. </p>
 <p>Information about some of the ingredients of Tamiflu 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take tamiflu"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take tamiflu"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if you 
 are not sure. </p>
@@ -154,8 +146,8 @@ are not sure. </p>
 <p>For treating flu, take two doses daily. It is usually convenient to take one dose in the morning and 
 one in the evening. It is important to complete the whole 5-day course, even if you start to feel 
 better quickly. </p>
-<p>For patients with a weak immune system, treatment will continue for 10 days. </p>
-<p>For preventing flu or after being exposed to an infected person, take one dose daily for 10 days. It 
+<p>For patients with a weak immune system, treatment will continue for 10 days. 
+For preventing flu or after being exposed to an infected person, take one dose daily for 10 days. It 
 is best to take this in the mornings with breakfast. </p>
 <p>In special situations, such as widespread flu or for patients with a weak immune system, treatment will 
 continue for up to 6 or 12 weeks. </p>
@@ -259,12 +251,13 @@ Do not take a double dose to make up for a forgotten capsule. </p>
 There are no side effects when you stop Tamiflu. But if Tamiflu is stopped earlier than your doctor 
 told you, the symptoms of flu may come back. Always complete the course that your doctor 
 prescribed. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store tamiflu"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tamiflu"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Many of 
 the side effects listed below may also be caused by influenza. </p>
@@ -338,8 +331,8 @@ If you notice any of these symptoms, especially in younger people, get medical h
 (may affect more than 1 in 10 people) 
 * Cough 
 * Nasal congestion 
-* Vomiting. </p>
-<p>Common side effects 
+* Vomiting. 
+Common side effects 
 (may affect up to 1 in 10 people) 
 * Conjunctivitis (red eyes and discharge or pain in the eye) 
 * Ear inflammation and other ear disorders 
@@ -366,11 +359,10 @@ If you get any side effects, talk to your doctor. This includes any possible sid
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store tamiflu"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store tamiflu"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister after EXP. The 
@@ -378,4 +370,96 @@ expiry date refers to the last day of that month. </p>
 <p>Do not store above 25  C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tamiflu contains 
+* Each hard capsule contains oseltamivir equivalent to 30 mg of oseltamivir<br />
+* The other ingredients are: 
+capsule contents: pregelatinised starch, talc, povidone, croscarmellose sodium and sodium 
+stearyl fumarate 
+capsule shell: gelatin, yellow iron oxide (E172), red iron oxide (E172) and titanium dioxide 
+(E171)<br />
+printing ink: shellac (E904), titanium dioxide (E171) and FD and C Blue 2 (indigo carmine 
+E132). </p>
+<p>What Tamiflu looks like and contents of the pack 
+The 30 mg hard capsule consists of a light yellow opaque body bearing the imprint  ROCHE  and a 
+light yellow opaque cap bearing the imprint  30 mg . Imprints are blue. </p>
+<p>Tamiflu 30 mg hard capsules are available in blister packs of 10. Marketing Authorisation Holder and Manufacturer 
+Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Roche Pharma AG 
+Emil-Barell-Str. 1,<br />
+D-79639 Grenzach-Wyhlen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36 - 1 279 4Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O<br />
+Tel: + 372 - 6 177 Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 France 
+Roche 
+T l: +33 (0) 1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o 
+Tel:  +385 1 4722 Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in {MM/YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

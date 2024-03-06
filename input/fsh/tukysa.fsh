@@ -4,7 +4,7 @@ Instance: composition-en-31b0725ade6496816df8ac216511de2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for tukysa Package Leaflet"
 Description:  "Composition for tukysa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What TUKYSA is and what it is used for 
 2. What you need to know before you take TUKYSA 
 3. How to take TUKYSA 
 4. Possible side effects 
 5. How to store TUKYSA 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -320,15 +319,14 @@ Tel: +421 2 20833 Italia
 Seagen Italy S.r.l. 
 Tel: (+39) 02 82952Suomi/Finland 
 Seagen B.V. (Alankomaat/Nederl nderna) 
-Puh/Tel: +358 753 252  </p>
-<p>Genesis Pharma (Cyprus) Ltd<br />
+Puh/Tel: +358 753 252 <br />
+Genesis Pharma (Cyprus) Ltd<br />
  : +357 22 765Sverige 
 Seagen B.V. (Nederl nderna) 
 Tel: (+46) 108 885 Latvija 
 Swixx Biopharma SIA<br />
 Tel: +371 6 6164 United Kingdom (Northern Ireland) 
 Seagen B.V. (Netherlands) 
-Tel: +44 330 818 0 
-This leaflet was last revised in  </p>
+Tel: +44 330 818 0This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

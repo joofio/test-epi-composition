@@ -4,7 +4,7 @@ Instance: composition-en-f820aac92043b070aeae10deaf85e116
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexium Package Leaflet"
 Description:  "Composition for nexium Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Nexium Control is and what it is used for  
-2. What you need to know before you take Nexium Control  
-3. How to take Nexium Control  
-4. Possible side effects  
-5. How to store Nexium Control  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Nexium Control is and what it is used for  </li>
+<li>What you need to know before you take Nexium Control  </li>
+<li>How to take Nexium Control  </li>
+<li>Possible side effects  </li>
+<li>How to store Nexium Control  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -328,12 +328,10 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien,Luxembourg/ 
 Luxemburg 
 Haleon Belgium n.v./s.a.<br />
-T l/Tel: + 32 (0)800 81 </p>
-<p>Latvija 
+T l/Tel: + 32 (0)800 81Latvija 
 GlaxoSmithKline Latvia SIA 
 Tel: + 371 67312lv-epasts@gsk.com  </p>
-<p>Te .: + 359 2 953 10<br />
-Lietuva<br />
+<p>Te .: + 359 2 953 10 Lietuva<br />
 GlaxoSmithKline Lietuva UAB<br />
 Tel: + 370 5 264 90 info.lt@gsk.com </p>
 <p>esk  republika 
@@ -342,78 +340,61 @@ Republic s.r.o.<br />
 Tel.: + 420  222 001 cz.info@gsk.com  </p>
 <p>Magyarorsz g 
 GlaxoSmithKline   Consumer Kft. 
-Tel.: + 36 1 225 5 
-Danmark<br />
+Tel.: + 36 1 225 5Danmark<br />
 GlaxoSmithKline Consumer Healthcare ApS<br />
 Tel.: + 45 80 25 16 scanda.consumer-relations@gsk.com<br />
 Nederland 
 Haleon Netherlands B.V. 
-Tel: +31 (0)800 4090 </p>
-<p>Deutschland 
+Tel: +31 (0)800 4090Deutschland 
 GlaxoSmithKline Consumer Healthcare GmbH 
 &amp; Co.KG.<br />
-Tel.: + 49 (0) 800 6645 </p>
-<p>sterreich<br />
+Tel.: + 49 (0) 800 6645 sterreich<br />
 GSK-Gebro Consumer Healthcare GmbH 
-Tel: +43 (0) 5354 563 </p>
-<p>Eesti 
+Tel: +43 (0) 5354 563Eesti 
 GlaxoSmithKline Eesti O<br />
-Tel: + 372 6676 900<br />
-estonia@gsk.com </p>
+Tel: + 372 6676 estonia@gsk.com </p>
 <p>Norge 
 GlaxoSmithKline Consumer Healthcare<br />
-Tlf:  + 47 80 05 86 30<br />
-scanda.consumer-relations@gsk.com  </p>
+Tlf:  + 47 80 05 86 scanda.consumer-relations@gsk.com  </p>
 <p>GSK CH      . . 
  .   274, 152 32, <br />
- .: 210 6882 </p>
-<p>Polska 
+ .: 210 6882Polska 
 GlaxoSmithKline Consumer Healthcare Sp.z.o.o. 
 Tel: + 48 (0)22 576 96 Espa a 
 GlaxoSmithKline Consumer Healthcare, S.A. 
-Tel: + 34 900 816<br />
-Portugal 
+Tel: + 34 900 816 Portugal 
 GlaxoSmithKline Consumer Healthcare <br />
 Produtos para a Sa de e Higiene, Lda.<br />
-Tel: 800 784 695<br />
-apoio.consumidor@gsk.com </p>
+Tel: 800 784 apoio.consumidor@gsk.com </p>
 <p>France 
 GlaxoSmithKline Sant  Grand Public 
 T l. : + 33 1 57 97 99 Rom nia 
 GlaxoSmithKline Consumer Healthcare S.R.L 
-Tel: + 40 21 302 8<br />
-Hrvatsk 
+Tel: + 40 21 302 8 Hrvatsk 
 GlaxoSmithKline d.o.o. 
-Tel:+385 1 6051<br />
-Slovenija 
+Tel:+385 1 6051 Slovenija 
 GSK d.o.o., Ljubljana 
-Tel: + 386 (0)1 280 25<br />
-Ireland, Malta 
+Tel: + 386 (0)1 280 25 Ireland, Malta 
 Haleon Ireland Limited 
-Tel.: + 353 1800 441<br />
-Slovensk  republika 
+Tel.: + 353 1800 441 Slovensk  republika 
 GlaxoSmithKline Consumer Healthcare Slovakia 
 s.r.o.<br />
 Tel: + 421 248 261 cz.info@gsk.com  </p>
 <p>sland 
 Vistor hf. GlaxoSmithKline ehf. 
-S mi: + 354 535<br />
-Suomi/Finland 
+S mi: + 354 535 Suomi/Finland 
 GlaxoSmithKline Oy 
 Consumer Healthcare 
 Puh/Tel: 080 077 40 scanda.consumer-relations @gsk.com </p>
 <p>Italia 
 Haleon Italy S.r.l. 
-Tel.: + 39 02 38062 
-Sverige 
+Tel.: + 39 02 38062Sverige 
 GlaxoSmithKline Consumer Healthcare 
 Tel: 020-100scanda.consumer-relations @gsk.com </p>
 <p>C. A. Papaellinas Ltd, 
  . . 24018, 1700 <br />
-T . +357 22 741<br />
-United Kingdom (Northern Ireland) 
+T . +357 22 741 United Kingdom (Northern Ireland) 
 Haleon UK Trading Limited<br />
-Tel.: + 44 (0)800 783 8881  </p>
-<p>This leaflet was last revised in  </p>
+Tel.: + 44 (0)800 783 8This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

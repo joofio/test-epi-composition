@@ -4,7 +4,7 @@ Instance: composition-en-c01e0605e2e3c43213448cfeba0686aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for paxlovid Package Leaflet"
 Description:  "Composition for paxlovid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Paxlovid is and what it is used for  
-2. What you need to know before you take Paxlovid 
-3. How to take Paxlovid 
-4. Possible side effects  
-5. How to store Paxlovid 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Paxlovid is and what it is used for  </li>
+<li>What you need to know before you take Paxlovid </li>
+<li>How to take Paxlovid </li>
+<li>Possible side effects  </li>
+<li>How to store Paxlovid </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -152,8 +152,8 @@ before taking Paxlovid and while you are taking this medicine. There have been r
 pressure in people taking Paxlovid, particularly in older individuals.  </p>
 <p>Risk of HIV-1 resistance development 
 If you have untreated or uncontrolled HIV infection, Paxlovid may lead to some HIV medicines not 
-working as well in the future. </p>
-<p>Children and adolescents 
+working as well in the future. 
+Children and adolescents 
 Do not give Paxlovid to children and adolescents under 18 years because Paxlovid has not been 
 studied in children and adolescents. </p>
 <p>Other medicines and Paxlovid 
@@ -336,5 +336,102 @@ iron oxide red.
 - The other ingredients in the ritonavir tablet are copovidone, sorbitan laurate, colloidal 
 anhydrous silica, anhydrous calcium hydrogen phosphate, sodium stearyl fumarate. The 
 film-coating contains hypromellose, titanium dioxide, macrogol, hydroxypropyl cellulose, talc, 
-colloidal anhydrous silica and polysorbate 8</p>         </div>"""      
+colloidal anhydrous silica and polysorbate 80. What Paxlovid looks like and contents of the pack 
+Paxlovid film-coated tablets are available in 5 daily-dose blister cards with a total of 30 tablets 
+packaged in a carton.  </p>
+<p>Each daily blister card contains 4 nirmatrelvir tablets (150 mg each) and 2 ritonavir tablets (100 mg 
+each) and indicates which tablets need to be taken in the morning and evening (sun and moon 
+symbols). </p>
+<p>Nirmatrelvir 150 mg film-coated tablets are pink, oval-shaped and debossed with  PFE  on one side 
+and  3CL  on the other side. </p>
+<p>Ritonavir 100 mg film-coated tablets are white to off white, capsule shaped, and debossed with  H  on 
+one side and  R9  on the other side. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Pfizer Europe MA EEIG 
+Boulevard de la Plaine 1050 Brussels 
+Belgium </p>
+<p>Manufacturer </p>
+<p>Pfizer Manufacturing Deutschland GmbH<br />
+Betriebsst tte Freiburg 
+Mooswaldallee 1 
+79090 Freiburg 
+Germany 
+Pfizer Italia S.r.L. 
+Localita Marino del Tronto 
+63100 Ascoli, Piceno<br />
+Italy </p>
+<p>Pfizer Ireland Pharmaceuticals<br />
+Little Connell<br />
+Newbridge 
+Ireland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:  </p>
+<p>Belgi /Belgique/Belgien 
+Luxembourg/Luxemburg<br />
+Pfizer NV/SA 
+T l/Tel: +32 (0)2 554 62 Lietuva 
+Pfizer Luxembourg SARL filialas Lietuvoje 
+Tel: +370 5 251 4<br />
+     ,   </p>
+<p>Te .: +359 2 970 4Magyarorsz g 
+Pfizer Kft. 
+Tel.: + 36 1 488 37  esk  republika 
+Pfizer, spol. s r.o. 
+Tel: +420 283 004 Malta 
+Vivian Corporation Ltd. 
+Tel: +356 21344Danmark 
+Pfizer ApS 
+Tlf: +45 44 20 11 Nederland 
+Pfizer bv 
+Tel: +31 (0)800 63 34 Deutschland 
+PFIZER PHARMA GmbH 
+Tel: +49 (0)30 550055-51Norge 
+Pfizer AS 
+Tlf: +47 67 52 61 Eesti 
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7 sterreich 
+Pfizer Corporation Austria Ges.m.b.H 
+Tel: +43 (0)1 521 15-0  </p>
+<p>Pfizer   A.E. 
+ : +30 210 6785Polska 
+Pfizer Polska Sp. z o.o. 
+Tel.: +48 22 335 61 Espa a 
+Pfizer, S.L. 
+Tel: +34 91 490 99 Portugal 
+Laborat rios Pfizer, Lda. 
+Tel: +351 21 423 5France 
+Pfizer 
+T l: +33 (0)1 58 07 34 Rom nia 
+Pfizer Romania S.R.L 
+Tel: +40 (0) 21 207 28 Hrvatska 
+Pfizer Croatia d.o.o. 
+Tel: +385 1 3908 Slovenija 
+Pfizer Luxembourg SARL 
+Pfizer, podru nica za svetovanje s podro ja 
+farmacevtske dejavnosti, Ljubljana 
+Tel: +386 (0)1 52 11 Ireland 
+Pfizer Healthcare Ireland 
+Tel: 1800 633 363 (toll free) 
++44 (0)1304 616Slovensk  republika 
+Pfizer Luxembourg SARL, 
+organiza n  zlo ka 
+Tel: + 421 2 3355 5 sland 
+Icepharma hf. 
+S mi: +354 540 8Suomi/Finland 
+Pfizer Oy 
+Puh/Tel: +358 (0)9 430 Italia 
+Pfizer S.r.l. 
+Tel: +39 06 33 18 Sverige 
+Pfizer AB 
+Tel: +46 (0)8 550 520 <br />
+Pfizer    . . (Cyprus Branch) 
+T : +357 22817United Kingdom (Northern Ireland) 
+Pfizer Limited 
+Tel: +44 (0) 1304 616Latvija 
+Pfizer Luxembourg SARL fili le Latvij<br />
+Tel: + 371 670 35 This leaflet was last revised in  </p>
+<p>Scan the code with a mobile device to get the package leaflet in different languages.  </p>
+<p>URL: https://pfi.sr/c19oralrx </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-46ce8c3bfb2b68d2cb00bd6f9c79816f
 InstanceOf: CompositionUvEpi
 Title: "Composition for hemlibra Package Leaflet"
 Description:  "Composition for hemlibra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,15 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Hemlibra is and what it is used for  
-2. What you need to know before you use Hemlibra 
-3. How to use Hemlibra 
-4. Possible side effects 
-5. How to store Hemlibra 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Hemlibra is and what it is used for  </li>
+<li>What you need to know before you use Hemlibra </li>
+<li>How to use Hemlibra </li>
+<li>Possible side effects </li>
+<li>How to store Hemlibra </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -89,8 +89,8 @@ phenotype. </li>
 required for blood to clot and stop any bleeding. </p>
 <p>The medicine prevents bleeding or reduces bleeding episodes in people with this condition. </p>
 <p>Some patients with haemophilia A can develop factor VIII inhibitors (antibodies against factor VIII) 
-which stop the replacement factor VIII from working. </p>
-<p>How Hemlibra works </p>
+which stop the replacement factor VIII from working. 
+How Hemlibra works </p>
 <p>Hemlibra restores the function of missing activated factor VIII that is needed for effective blood 
 clotting. Its structure is different from factor VIII, therefore Hemlibra is not affected by factor VIII 
 inhibitors.  </p>         </div>"""   
@@ -267,14 +267,10 @@ these symptoms may be signs of thrombotic microangiopathy. </li>
 </ul>
 <p>Blood clots (thromboembolism):</p>
 <ul>
-<li>
-<p>swelling, warmth, pain or redness   these symptoms may be signs of a blood clot in a 
-vein near the surface of the skin. </p>
-</li>
-<li>
-<p>headache, numbness in your face, eye pain or swelling or problems with your vision <br />
-these symptoms may be signs of a blood clot in a vein behind your eye. </p>
-</li>
+<li>swelling, warmth, pain or redness   these symptoms may be signs of a blood clot in a 
+vein near the surface of the skin. </li>
+<li>headache, numbness in your face, eye pain or swelling or problems with your vision <br />
+these symptoms may be signs of a blood clot in a vein behind your eye. </li>
 <li>blackening of the skin   this symptom may be a sign of severe damage to the skin 
 tissue. </li>
 </ul>
@@ -360,8 +356,8 @@ needle safety feature. </p>
 <p>Roche Registration GmbH 
 Emil-Barell-Strasse 1 
 79639 Grenzach-Wyhlen<br />
-Germany  </p>
-<p>Manufacturer </p>
+Germany<br />
+Manufacturer </p>
 <p>Roche Pharma AG 
 Emil-Barell-Strasse 1 
 79639 Grenzach-Wyhlen 
@@ -370,89 +366,65 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-T l/Tel: +32 (0) 2 525 82<br />
-Lietuva 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
 UAB  Roche Lietuva<br />
-Tel: +370 5 2546 </p>
-<p>: +359 2 818 44<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
 <p>esk  republika 
 Roche s. r. O. 
 Tel: +420 - 2 20382Magyarorsz g 
 Roche (Magyarorsz g) Kft. 
-Tel: +36 - 1 279 4 
-Danmark 
+Tel: +36 - 1 279 4Danmark 
 Roche Pharmaceuticals A/S 
-Tlf: +45 - 36 39 99   </p>
-<p>Malta 
+Tlf: +45 - 36 39 99 Malta 
 (See Ireland) </p>
 <p>Deutschland 
 Roche Pharma AG 
-Tel: +49 (0) 7624 140<br />
-Nederland 
+Tel: +49 (0) 7624 Nederland 
 Roche Nederland B.V. 
-Tel: +31 (0) 348 438 
-Eesti 
+Tel: +31 (0) 348 438Eesti 
 Roche Eesti O<br />
-Tel: + 372 - 6 177 380  </p>
-<p>Norge 
+Tel: + 372 - 6 177 Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90  </p>
-<p>Roche (Hellas) A.E. 
- : +30 210 61 66<br />
- sterreich 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E. 
+ : +30 210 61 66  sterreich 
 Roche Austria GmbH 
-Tel: +43 (0) 1 27 
-Espa a 
+Tel: +43 (0) 1 27Espa a 
 Roche Farma S.A. 
-Tel: +34 - 91 324 81<br />
-Polska 
+Tel: +34 - 91 324 81 Polska 
 Roche Polska Sp.z o.o. 
-Tel: +48 - 22 345 18<br />
-France 
+Tel: +48 - 22 345 18 France 
 Roche 
-T l: +33 (0) 1 47 61 40<br />
-Portugal 
+T l: +33 (0) 1 47 61 40 Portugal 
 Roche Farmac utica Qu mica, Lda 
-Tel: +351 - 21 425 70  </p>
-<p>Hrvatska 
+Tel: +351 - 21 425 70 Hrvatska 
 Roche d.o.o. 
-Tel: +385 1 4722<br />
-Ireland 
+Tel: +385 1 4722 Ireland 
 Roche Products (Ireland) Ltd. 
-Tel: +353 (0) 1 469 0 
-Rom nia 
+Tel: +353 (0) 1 469 0Rom nia 
 Roche Rom nia S.R.L. 
-Tel: +40 21 206 47<br />
-Slovenija 
+Tel: +40 21 206 47 Slovenija 
 Roche farmacevtska dru ba d.o.o. 
-Tel: +386 - 1 360 26<br />
- sland 
+Tel: +386 - 1 360 26  sland 
 Roche Pharmaceuticals A/S 
 c/o Icepharma hf 
-S mi: +354 540 8 
-Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Roche Slovensko, s.r.o. 
-Tel: +421 - 2 52638 
-Italia 
+Tel: +421 - 2 52638Italia 
 Roche S.p.A. 
-Tel: +39 - 039 2 
-Suomi/Finland 
+Tel: +39 - 039 2Suomi/Finland 
 Roche Oy 
-Puh/Tel: +358 (0) 10 554  </p>
-<p>. .  &amp;    . 
- : +357 - 22 76 62<br />
-Sverige 
+Puh/Tel: +358 (0) 10 554 <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
 Roche AB 
-Tel: +46 (0) 8 726 1 
-Latvija 
+Tel: +46 (0) 8 726 1Latvija 
 Roche Latvija SIA 
-Tel: +371 - 6 7039 
-United Kingdom (Northern Ireland) 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd. 
-Tel: +44 (0) 1707 366 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

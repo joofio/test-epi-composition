@@ -4,7 +4,7 @@ Instance: composition-en-a65021751afedc04d4560394d8a23778
 InstanceOf: CompositionUvEpi
 Title: "Composition for adasuve Package Leaflet"
 Description:  "Composition for adasuve Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ADASUVE is and what it is used for 
-2. What you need to know before you use ADASUVE 
-3. How to use ADASUVE 
-4. Possible side effects 
-5. How to store ADASUVE 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ADASUVE is and what it is used for </li>
+<li>What you need to know before you use ADASUVE </li>
+<li>How to use ADASUVE </li>
+<li>Possible side effects </li>
+<li>How to store ADASUVE </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -136,17 +136,9 @@ tramadol, mefloquine)
 sleep) or any other medicines that cause sleepiness 
 * recreational (illegal) drugs 
 * medicines like fluvoxamine, propranolol, and enoxacin and other medicines that inhibit a certain 
-liver enzyme called  CYP450 1A</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take adasuve"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take adasuve"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
-<li>medicines to treat schizophrenia, depression, or pain since you may be more at risk for seizures 
-Using ADASUVE and adrenaline together may cause your blood pressure to drop. </li>
-</ul>
+liver enzyme called  CYP450 1A2.<br />
+* medicines to treat schizophrenia, depression, or pain since you may be more at risk for seizures 
+Using ADASUVE and adrenaline together may cause your blood pressure to drop. </p>
 <p>ADASUVE with alcohol 
 Because ADASUVE affects the nervous system, alcohol should be avoided when using ADASUVE. </p>
 <p>Pregnancy and breast-feeding 
@@ -160,13 +152,12 @@ any of these symptoms you may need to contact your doctor. </p>
 <p>Driving and using machines 
 Do not drive or use any tools or machines after using ADASUVE until you know how ADASUVE 
 affects you since dizziness, sedation, and sleepiness have been reported as a potential side effect of 
-ADASUVE. </p>         </div>"""         
-
-        
+ADASUVE. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take adasuve"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take adasuve"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or nurse has told you. Check with your doctor or 
 nurse if you are not sure. </p>
@@ -183,12 +174,13 @@ nurse of your concern. Patients who have been given more ADASUVE than they shoul
 experience any of the following symptoms: extreme tiredness or sleepiness, trouble breathing, low 
 blood pressure, throat irritation or a bad taste in the mouth, muscle or eye movements you can t 
 control.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store adasuve"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store adasuve"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you get any of the following side effects, talk to your doctor immediately and stop taking the 
@@ -216,11 +208,10 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store adasuve"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store adasuve"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use ADASUVE after the expiry date which is stated on the product label. The expiry date 
@@ -230,4 +221,93 @@ refers to the last day of that month. </p>
 medicine. </p>
 <p>Do not throw away any medicines via household waste. Ask your pharmacist how to throw away 
 medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ADASUVE contains<br />
+The active substance is loxapine. Each single-dose inhaler contains 5 mg loxapine and delivers 4.5 mg 
+of loxapine. </p>
+<p>What ADASUVE looks like and contents of the pack 
+ADASUVE 4.5 mg inhalation powder, pre-dispensed consists of a single-dose, disposable white 
+plastic inhaler that contains loxapine. Each inhaler is packaged in a sealed foil pouch. ADASUVE 4.5 
+mg is supplied in a carton of 1 or 5 single dose inhalers. </p>
+<p>Marketing Authorisation Holder 
+Ferrer Internacional, S.A. 
+Gran V a Carlos III, 08028- Barcelona 
+Espa a </p>
+<p>Manufacturer 
+Ferrer Internacional, S.A. 
+Joan Buscalla, 1-9, 08173 Sant Cugat del Vall s 
+Barcelona, Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien<br />
+Ferrer Internacional, S.A. 
+T l/Tel: +34 93 600 37 Lietuva<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel +370 672 12 <br />
+AOP Orphan Pharmaceuticals GmbH 
+Te .: +35 988 6666Luxembourg/Luxemburg<br />
+Ferrer Internacional, S.A. 
+T l/Tel: +34 93 600 37  esk  republika<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +420 251 512 Magyarorsz g<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel.: +36 1 3192Danmark<br />
+Ferrer Internacional, S.A. 
+Tlf: +34 93 600 37 Malta<br />
+Ferrer Internacional, S.A. 
+Tel.: +34 93 600 37 Deutschland<br />
+Ferrer Deutschland GmbH 
+Tel: +49 (0) 2407 502311 0 </p>
+<p>Nederland<br />
+Ferrer Internacional, S.A. 
+Tel.: +34 93 600 37 Eesti<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +370 672 12Norge<br />
+Ferrer Internacional, S.A. 
+Tlf: +34 93 600 37  <br />
+Ferrer Galenica S.A. 
+ : +30 210 52 81  sterreich<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +43 1 5037244-0 </p>
+<p>Espa a<br />
+Ferrer Farma, S.A. 
+Tel.: +34 93 600 37 Polska<br />
+AOP Orphan Poland Sp. z o. o. 
+Tel: +48 22 5428France<br />
+Ferrer Internacional, S.A. 
+T l: +34 93 600 37 Portugal<br />
+Ferrer Portugal, S.A. 
+Tel: +351 214449Hrvatska<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +43 1 5037244-0 </p>
+<p>Rom nia<br />
+Galenica S.A. 
+Tel: +30 210 52 81 Ireland<br />
+Ferrer Internacional, S.A. 
+Tel.: +34 93 600 37 Slovenija<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +43 1 5037244-0 </p>
+<p>sland<br />
+Ferrer Internacional, S.A. 
+S mi: +34 93 600 37 Slovensk  republika<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel: +421 902 566Italia<br />
+Angelini S.p.A. 
+Tel: +39 06 780Suomi/Finland<br />
+Ferrer Internacional, S.A. 
+Puh/Tel: +34 93 600 37  <br />
+ hespis Pharmaceutical Ltd T : 
+++357 22 67 77 Sverige<br />
+Ferrer Internacional, S.A. 
+Tel: +34 93 600 37 Latvija<br />
+AOP Orphan Pharmaceuticals GmbH 
+Tel +370 672 12This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

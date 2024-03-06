@@ -4,7 +4,7 @@ Instance: composition-en-5e76230e59397f1e6fa849c96667af6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for abevmy Package Leaflet"
 Description:  "Composition for abevmy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Abevmy is and what it is used for 
-2. What you need to know before you are given Abevmy 
-3. How Abevmy is given 
-4. Possible side effects 
-5. How to store Abevmy 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Abevmy is and what it is used for </li>
+<li>What you need to know before you are given Abevmy </li>
+<li>How Abevmy is given </li>
+<li>Possible side effects </li>
+<li>How to store Abevmy </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -88,8 +88,8 @@ Abevmy will be administered together with a chemotherapy regimen containing plat
 cancer cells have specific mutations of a protein called epidermal growth factor receptor (EGFR). 
 Abevmy will be administered in combination with erlotinib. </p>
 <p>Abevmy is also used for treatment of adult patients with advanced kidney cancer. When used for 
-patients with kidney cancer, it will be administered with another type of medicine called interferon. </p>
-<p>Abevmy is also used for the treatment of adult patients with advanced epithelial ovarian, fallopian 
+patients with kidney cancer, it will be administered with another type of medicine called interferon. 
+Abevmy is also used for the treatment of adult patients with advanced epithelial ovarian, fallopian 
 tube, or primary peritoneal cancer. When used for patients with epithelial ovarian, fallopian tube, or 
 primary peritoneal cancer, it will be administered in combination with carboplatin and paclitaxel. </p>
 <p>When used for those adult patients with advanced epithelial ovarian, fallopian tube, or primary 
@@ -145,15 +145,11 @@ high blood pressure. </li>
 <li>The risk of developing blood clots in your arteries (a type of blood vessel) can increase if you 
 are over 65 years old, if you have diabetes, or if you have had previous blood clots in your 
 arteries. Please talk to your doctor since blood clots can lead to heart attack and stroke. </li>
-<li>
-<p>Abevmy can also increase the risk of developing blood clots in your veins (a type of blood 
-vessel). </p>
-</li>
-<li>
-<p>This medicine may cause bleeding, especially tumour-related bleeding. Please consult your 
+<li>Abevmy can also increase the risk of developing blood clots in your veins (a type of blood 
+vessel). </li>
+<li>This medicine may cause bleeding, especially tumour-related bleeding. Please consult your 
 doctor if you or your family tend to suffer from bleeding problems or you are taking medicines 
-to thin the blood for any reason. </p>
-</li>
+to thin the blood for any reason. </li>
 <li>It is possible that Abevmy may cause bleeding in and around your brain. Please discuss this 
 with your doctor if you have metastatic cancer affecting your brain. </li>
 <li>It is possible that Abevmy can increase the risk of bleeding in your lungs, including coughing or 
@@ -198,8 +194,8 @@ gastrointestinal cancer) may cause severe side effects. Discuss with your doctor
 do not combine these medicines. </p>
 <p>Tell your doctor if you are using platinum- or taxane-based therapies for lung or metastatic breast 
 cancer. These therapies in combination with Abevmy may increase the risk of severe side effects. </p>
-<p>Please tell your doctor if you have recently received, or are receiving, radiotherapy. </p>
-<p>Pregnancy, breast-feeding and fertility 
+<p>Please tell your doctor if you have recently received, or are receiving, radiotherapy. 
+Pregnancy, breast-feeding and fertility 
 You must not use this medicine if you are pregnant. Abevmy may cause damage to your unborn baby 
 as it may stop the formation of new blood vessels. Your doctor should advise you about using 
 contraception during treatment with Abevmy and for at least 6 months after the last dose of Abevmy. </p>
@@ -247,16 +243,14 @@ infusion may be given over 60 minutes. Later infusions may be given to you over 
 - severe high blood pressure which cannot be controlled by blood pressure medicines; or a sudden 
 severe rise in blood pressure, 
 - presence of protein in your urine accompanied by swelling of your body, 
-- a hole in your gut wall, </p>
-<ul>
-<li>an abnormal tube-like connection or passage between the windpipe and the gullet, between 
+- a hole in your gut wall, 
+- an abnormal tube-like connection or passage between the windpipe and the gullet, between 
 internal organs and skin, between the vagina and any parts of the gut or between other tissues 
-that are not normally connected (fistula), and are judged by your doctor to be severe, </li>
-<li>serious infections of the skin or deeper layers under the skin, </li>
-<li>a blood clot in your arteries, </li>
-<li>a blood clot in the blood vessels of your lungs, </li>
-<li>any severe bleeding. </li>
-</ul>
+that are not normally connected (fistula), and are judged by your doctor to be severe, 
+- serious infections of the skin or deeper layers under the skin, 
+- a blood clot in your arteries, 
+- a blood clot in the blood vessels of your lungs, 
+- any severe bleeding. </p>
 <p>If too much Abevmy is given 
 - you may develop a severe migraine. If this happens you should talk to your doctor, pharmacist 
 or nurse immediately. </p>
@@ -302,12 +296,8 @@ lightheadedness, fast heartbeat and loss of consciousness. </p>
 <li>blocking of the arteries by a blood clot, </li>
 <li>blocking of the veins by a blood clot, </li>
 <li>blocking of the blood vessels of the lungs by a blood clot, </li>
-<li>
-<p>blocking of the veins of the legs by a blood clot, </p>
-</li>
-<li>
-<p>heart failure, </p>
-</li>
+<li>blocking of the veins of the legs by a blood clot, </li>
+<li>heart failure, </li>
 <li>problems with wound healing after surgery, </li>
 <li>redness, peeling, tenderness, pain, or blistering on the fingers or feet, </li>
 <li>decreased number of red cells in the blood, </li>
@@ -363,15 +353,11 @@ the heart work harder than normal, </li>
 abdominal pain, feeling bloated, black tarry stools or blood in your stools (faeces) or blood in 
 your vomit), </li>
 <li>bleeding from the lower part of the large bowel, </li>
-<li>
-<p>lesions in the gums with an exposed jaw bone that does not heal and may be associated with 
+<li>lesions in the gums with an exposed jaw bone that does not heal and may be associated with 
 pain and inflammation of the surrounding tissue (see the paragraphs below the list of side effects 
-for further recommendations), </p>
-</li>
-<li>
-<p>hole in the gall bladder (symptoms and signs may include abdominal pain, fever, and 
-nausea/vomiting). </p>
-</li>
+for further recommendations), </li>
+<li>hole in the gall bladder (symptoms and signs may include abdominal pain, fever, and 
+nausea/vomiting). </li>
 </ul>
 <p>You should seek help as soon as possible if you suffer from any of the below mentioned side 
 effects. </p>
@@ -423,13 +409,13 @@ When Abevmy is injected directly into the eye (unapproved use), the following si
 <li>Redness of the eye, small particles or spots in your vision (floaters), eye pain, </li>
 <li>Seeing flashes of light with floaters, progressing to a loss of some of your vision, </li>
 <li>Increased eye pressure, </li>
-<li>Bleeding in the eye. </li>
-</ul>
-<p>Reporting of side effects 
+<li>Bleeding in the eye. 
+Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+safety of this medicine. </li>
+</ul>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store abevmy"
@@ -470,8 +456,8 @@ Abevmy is a concentrate for solution for infusion. The concentrate is a clear to
 colourless to pale brown liquid and free of visible particles. It is filled in a glass vial with a rubber 
 stopper. 4 mL vials are available in packs containing 1 or 5 vials. 16 mL vials are available in packs 
 containing 1, 2 or 3 vials. </p>
-<p>Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
+<p>Not all pack sizes may be marketed. 
+Marketing Authorisation Holder 
 Biosimilar Collaborations Ireland Limited 
 Unit 35/Grange Parade, 
 Baldoyle Industrial Estate, 
@@ -488,84 +474,65 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Biocon Biologics Belgium BV 
-T l/Tel: 0080008250 
-Lietuva 
+T l/Tel: 0080008250Lietuva 
 Biosimilar Collaborations Ireland Limited 
-Tel: 0080008250 </p>
-<p>Biosimilar Collaborations Ireland Limited 
- : 0080008250 
-Luxembourg/Luxemburg 
+Tel: 0080008250<br />
+Biosimilar Collaborations Ireland Limited 
+ : 0080008250Luxembourg/Luxemburg 
 Biocon Biologics France S.A.S 
 T l/Tel: 0080008250(Belgique/Belgien) </p>
 <p>esk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Magyarorsz g 
 Biosimilar Collaborations Ireland Limited<br />
-Tel.: 0080008250 
-Danmark 
+Tel.: 0080008250Danmark 
 Biocon Biologics Finland OY<br />
 Tlf: 0080008250Malta 
 Biosimilar Collaborations Ireland Limited<br />
-Tel.: 0080008250 
-Deutschland 
+Tel.: 0080008250Deutschland 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250 
-Nederland 
+Tel: 0080008250Nederland 
 Biocon Biologics France S.A.S 
 Tel: 0080008250Eesti 
 Biosimilar Collaborations Ireland Limited 
 Tel: 0080008250Norge 
 Biocon Biologics Finland OY<br />
-Tlf: +47 800 62  </p>
-<p>Biocon Biologics Greece <br />
+Tlf: +47 800 62  <br />
+Biocon Biologics Greece <br />
  . .<br />
- .: 0080008250 
- sterreich 
+ .: 0080008250 sterreich 
 Biocon Biologics Germany GmbH 
-Tel: 0080008250 
-Espa a 
+Tel: 0080008250Espa a 
 Biocon Biologics Spain S.L. 
-Tel: 0080008250 
-Polska 
+Tel: 0080008250Polska 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 
-France 
+Tel: 0080008250France 
 Biocon Biologics France S.A.S<br />
 Tel: 0080008250Portugal 
 Biocon Biologics Spain S.L. 
-Tel: 0080008250 </p>
-<p>Hrvatska 
+Tel: 0080008250Hrvatska 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250 
-Rom nia 
+Tel: 0080008250Rom nia 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 
-Ireland 
+Tel: 0080008250Ireland 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 1800 777<br />
-Slovenija 
+Tel: 1800 777 Slovenija 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 
- sland 
+Tel: 0080008250 sland 
 Biocon Biologics Finland OY<br />
-S mi: +345 800 4 
-Slovensk  republika 
+S mi: +345 800 4Slovensk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Italia 
 Biocon Biologics Spain S.L. 
-Tel: 0080008250 
-Suomi/Finland 
+Tel: 0080008250Suomi/Finland 
 Biocon Biologics Finland OY<br />
-Puh/Tel: 99980008250 </p>
-<p>Biosimilar Collaborations Ireland Limited<br />
- : 0080008250 
-Sverige 
-Biocon Biologics Finland OY<br />
-Tel: 0080008250 
-Latvija 
+Puh/Tel: 99980008250<br />
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 </p>
-<p>This leaflet was last revised in 
+ : 0080008250Sverige 
+Biocon Biologics Finland OY<br />
+Tel: 0080008250Latvija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250This leaflet was last revised in 
 Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-27f53ce7e817ea56aac44769c7b5a3bb
 InstanceOf: CompositionUvEpi
 Title: "Composition for quofenix Package Leaflet"
 Description:  "Composition for quofenix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Quofenix is and what it is used for 
-2. What you need to know before you are given Quofenix 
-3. How to use Quofenix 
-4. Possible side effects 
-5. How to store Quofenix 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Quofenix is and what it is used for </li>
+<li>What you need to know before you are given Quofenix </li>
+<li>How to use Quofenix </li>
+<li>Possible side effects </li>
+<li>How to store Quofenix </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -95,8 +95,8 @@ skeleton.
 * If you are pregnant, might become pregnant, or think you might be pregnant. 
 * If you are breast-feeding. 
 * If you are a child or growing adolescent below 18 years of age. </p>
-<p>Warnings and precautions </p>
-<p>Before you are given this medicine 
+<p>Warnings and precautions 
+Before you are given this medicine 
 You should not be given fluoroquinolone/quinolone antibacterial medicines, including Quofenix, if 
 you have experienced any serious adverse reaction in the past when taking a quinolone or 
 fluoroquinolone. In this situation, you should inform your doctor as soon as possible. </p>
@@ -318,24 +318,16 @@ taste and smell have been associated with administration of quinolone and fluoro
 in some cases irrespective of pre-existing risk factors. </p>
 <p>Cases of an enlargement and weakening of the aortic wall or a tear in the aortic wall (aneurysms and 
 dissections), which may rupture and may be fatal, and of  leaking heart valves have been reported in 
-patients receiving fluoroquinolones. See also section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store quofenix"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store quofenix"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reporting of side effects 
+patients receiving fluoroquinolones. See also section 2. Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store quofenix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store quofenix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton or blister after  EXP . The 
@@ -347,4 +339,105 @@ after reconstitution and dilution. If not used immediately, in-use storage times
 use are the responsibility of the user and would normally not be longer than 24 hours at 2 to 8 C, 
 unless reconstitution and dilution has taken place in controlled and validated aseptic conditions. </p>
 <p>Do not freeze. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Quofenix contains 
+- The active substance is delafloxacin. Each vial of powder contains 300 mg of delafloxacin (as 
+meglumine). 
+- The other excipients are meglumine, sulfobutylbetadex sodium,disodium edetate, sodium 
+hydroxide (for pH-adjustment), hydrochloric acid, concentrated (for pH-adjustment). </p>
+<p>What Quofenix looks like and contents of the pack 
+Quofenix powder for concentrate for solution for infusion is provided in 20 ml clear glass vial. The 
+vial contains light yellow to tan cake powder. 
+It is available in packs containing 10 vials. </p>
+<p>Marketing Authorisation Holder 
+A. Menarini   Industrie Farmaceutiche Riunite   s.r.l. 
+Via Sette Santi 3 
+50131 Florence 
+Italy </p>
+<p>Manufacturer 
+Patheon Italia S.p.A. 
+2  Trav. SX Via Morolense 5 
+03013 Ferentino (FR) 
+Italy </p>
+<p>or </p>
+<p>AlfaSigma 
+1 Via Enrico Fermi 
+65020 Alanno (PE) 
+Italy </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Menarini Benelux NV/SA 
+T l/Tel: + 32 (0)2 721 4Lietuva 
+UAB  BERLIN-CHEMIE MENARINI 
+BALTIC<br />
+Tel: +370 52 691 <br />
+ - / .     <br />
+ .: +359 2 454 0Luxembourg/Luxemburg 
+Menarini Benelux NV/SA 
+T l/Tel: + 32 (0)2 721 4 esk  republika 
+Berlin-Chemie/A.Menarini Ceska republika 
+s.r.o. 
+Tel: +420 267 199 Magyarorsz g 
+Berlin-Chemie/A. Menarini Kft. 
+Tel.: +36 17997Danmark 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56Malta 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56Deutschland 
+Berlin-Chemie AG 
+Tel: +49 (0) 30 67Nederland 
+Menarini Benelux NV/SA 
+Tel: +32 (0)2 721 4Eesti 
+O  Berlin-Chemie Menarini Eesti 
+Tel: +372 667 5Norge 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56<br />
+MENARINI HELLAS AE 
+ : +30 210 8316111- sterreich 
+A. Menarini Pharma GmbH. 
+Tel: +43 1 879 95 85-0 
+Espa a 
+Laboratorios Menarini S.A. 
+Tel: +34-93 462 88 Polska 
+Berlin-Chemie/Menarini Polska Sp. z o.o. 
+Tel.: +48 22 566 21 France 
+MENARINI France 
+T l: +33 (0)1 45 60 77 Portugal 
+A. Menarini Portugal   Farmac utica, S.A. 
+Tel: +351 210 935 Hrvatska 
+Berlin-Chemie Menarini Hrvatska d.o.o. 
+Tel: + 385 1 4821 Rom nia 
+Berlin-Chemie A. Menarini S.R.L. 
+Tel: +40 21 232 34 Ireland 
+A. Menarini Pharmaceuticals Ireland Ltd 
+Tel: +353 1 284 6Slovenija 
+Berlin-Chemie / A. Menarini Distribution 
+Ljubljana d.o.o.<br />
+Tel: +386 01 300 2 sland 
+A. Menarini - Industrie Farmaceutiche Riunite -
+s.r.l. 
+Tel: +39-055 56Slovensk  republika 
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o. Tel: +421 2 544 30 Italia 
+A. Menarini - Industrie Farmaceutiche Riunite -
+s.r.l. 
+Tel: +39-055 56Suomi/Finland 
+Berlin-Chemie/A.Menarini Suomi OY 
+Puh/Tel: +358 403 000 <br />
+MENARINI HELLAS AE 
+ : +30 210 8316111-Sverige 
+A. Menarini - Industrie Farmaceutiche Riunite - s.r.l. 
+Tel: +39-055 56Latvija 
+SIA Berlin-Chemie/Menarini Baltic 
+Tel: +371 67103United Kingdom (Northern Ireland) 
+A. Menarini Farmaceutica Internazionale S.R.L. 
+Tel: +44 (0)1628 856This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

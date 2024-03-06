@@ -4,7 +4,7 @@ Instance: composition-en-aba8c5f77c63653318ac43fe1a1d54ff
 InstanceOf: CompositionUvEpi
 Title: "Composition for pandemic Package Leaflet"
 Description:  "Composition for pandemic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:
 1. What Pandemic influenza vaccine H5N1 AstraZeneca is and what it is used for
 2. What you need to know before you are given Pandemic influenza vaccine H5N1 AstraZeneca
 3. How Pandemic influenza vaccine H5N1 AstraZeneca is given
 4. Possible side effects
 5. How to store Pandemic influenza vaccine H5N1 AstraZeneca
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -236,5 +235,87 @@ The other ingredients are sucrose, dipotassium phosphate, potassium dihydrogen p
 injections.
 What Pandemic influenza vaccine H5N1 AstraZeneca looks like and contents of the pack
 This vaccine is presented as a nasal spray suspension in a single-use nasal applicator (0.2 ml) in a pack 
-size of 1</p>         </div>"""      
+size of 10. The suspension is colourless to pale yellow, clear to slightly cloudy. Small white particles may 
+be present.
+Marketing Authorisation Holder
+AstraZeneca AB
+SE-151 S dert lje
+Sweden
+Manufacturer
+AstraZeneca Nijmegen B.V.,
+Lagelandseweg Nijmegen, 6545CG
+Netherlands
+MedImmune, UK Limited
+Plot 6, Renaissance Way
+Boulevard Industry Park
+Speke
+Liverpool L24 9JW
+United Kingdom
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+AstraZeneca S.A./N.V.
+Tel: +32 2 370 48 Lietuva
+UAB ,AstraZeneca Lietuva
+Tel: +370 5 2660 </p>
+<p>: +359 24455Luxembourg/Luxemburg
+AstraZeneca S.A./N.V.
+T l/Tel: +32 2 370 48  esk  republika
+AstraZeneca Czech Republic s.r.o.
+Tel: +420 222 807 Magyarorsz g
+AstraZeneca Kft.
+Tel.: +36 1 883 6Danmark
+AstraZeneca A/S
+Tlf: +45 43 66 64 Malta
+Associated Drug Co. Ltd
+Tel: +356 2277 8Deutschland
+AstraZeneca GmbH
+Tel: +49 40 809034Nederland
+AstraZeneca BV
+Tel: +31 79 363 2Eesti
+AstraZeneca
+Tel: +372 6549 Norge
+AstraZeneca AS
+Tlf: +47 21 00 64<br />
+AstraZeneca A.E.
+ : +30 2-10 6871 sterreich
+AstraZeneca  sterreich GmbH
+Tel: +43 1 711 31 0
+Espa a
+AstraZeneca Farmac utica Spain, S.A.
+Tel: +34 91 301 91 Polska
+AstraZeneca Pharma Poland Sp. z o.o.
+Tel.: +48 22 245 73 France
+AstraZeneca
+T l: +33 1 41 29 40 Portugal
+AstraZeneca Produtos Farmac uticos, Lda.
+Tel: +351 21 434 61 Hrvatska
+AstraZeneca d.o.o.
+Tel: +385 1 4628 Rom nia
+AstraZeneca Pharma SRL
+Tel: +40 21 317 60 Ireland
+AstraZeneca Pharmaceuticals (Ireland) Ltd
+Tel: +353 1609 7Slovenija
+AstraZeneca UK Limited
+Tel: +386 1 51 35  sland
+Vistor hf.
+S mi: +354 535 7Slovensk  republika
+AstraZeneca AB, o.z.
+Tel: +421 2 5737 7Italia
+AstraZeneca S.p.A.
+Tel: +39 02 00704Suomi/Finland
+AstraZeneca Oy
+Puh/Tel: +358 10 23  </p>
+<p>: +357 22490Sverige
+AstraZeneca AB
+Tel: +46 8 553 26 Latvija
+SIA AstraZeneca Latvija
+Tel: +371 67377United Kingdom (Northern Ireland)
+AstraZeneca UK Ltd
+Tel: +44 1582 836 This leaflet was last revised in {MM/YYYY}
+This medicine has been given  conditional approval . This means that there is more evidence to come 
+about this medicine. The European Medicines Agency will review new information on this medicines 
+at least every year and this leaflet will be updated as necessary.
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

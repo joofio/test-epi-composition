@@ -4,7 +4,7 @@ Instance: composition-en-8d0c124d18ae7d118dd0c09ef060535b
 InstanceOf: CompositionUvEpi
 Title: "Composition for semglee Package Leaflet"
 Description:  "Composition for semglee Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Semglee is and what it is used for  
-2. What you need to know before you use Semglee  
-3. How to use Semglee  
-4. Possible side effects  
-5. How to store Semglee  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Semglee is and what it is used for  </li>
+<li>What you need to know before you use Semglee  </li>
+<li>How to use Semglee  </li>
+<li>Possible side effects  </li>
+<li>How to store Semglee  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -367,8 +367,7 @@ each containing 5 pens.
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder </p>
 <p>Biosimilar Collaborations Ireland Limited 
-Unit 35/36<br />
-Grange Parade, 
+Unit 35/Grange Parade, 
 Baldoyle Industrial Estate, 
 Dublin DUBLIN 
 Ireland<br />
@@ -383,82 +382,64 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Biocon Biologics Belgium BV 
-T l/Tel: 0080008250 
-Lietuva 
+T l/Tel: 0080008250Lietuva 
 Biosimilar Collaborations Ireland Limited 
-Tel: 0080008250 </p>
-<p>Biosimilar Collaborations Ireland Limited 
- : 0080008250 
-Luxembourg/Luxemburg 
+Tel: 0080008250<br />
+Biosimilar Collaborations Ireland Limited 
+ : 0080008250Luxembourg/Luxemburg 
 Biocon Biologics France S.A.S 
 T l/Tel: 0080008250 esk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Magyarorsz g 
 Biosimilar Collaborations Ireland Limited<br />
-Tel.: 0080008250 
-Danmark 
+Tel.: 0080008250Danmark 
 Biocon Biologics Finland OY<br />
 Tlf: 0080008250Malta 
 Biosimilar Collaborations Ireland Limited<br />
-Tel.: 0080008250 
-Deutschland 
+Tel.: 0080008250Deutschland 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250 
-Nederland 
+Tel: 0080008250Nederland 
 Biocon Biologics France S.A.S 
 Tel: 0080008250Eesti 
 Biosimilar Collaborations Ireland Limited 
 Tel: 0080008250Norge 
 Biocon Biologics Finland OY<br />
-Tlf: +47 800 62  </p>
-<p>Biocon Biologics Greece <br />
+Tlf: +47 800 62  <br />
+Biocon Biologics Greece <br />
  . .<br />
- .: 0080008250 
- sterreich 
+ .: 0080008250 sterreich 
 Biocon Biologics Germany GmbH 
-Tel: 0080008250 
-Espa a 
+Tel: 0080008250Espa a 
 Biocon Biologics Spain S.L. 
-Tel: 0080008250 
-Polska 
+Tel: 0080008250Polska 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 
-France 
+Tel: 0080008250France 
 Biocon Biologics France S.A.S<br />
 Tel: 0080008250Portugal 
 Biocon Biologics Spain S.L. 
-Tel: 0080008250 
-Hrvatska 
+Tel: 0080008250Hrvatska 
 Biocon Biologics Germany GmbH<br />
-Tel: 0080008250 
-Rom nia 
+Tel: 0080008250Rom nia 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 </p>
-<p>Ireland 
+Tel: 0080008250Ireland 
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 1800 777  </p>
-<p>Slovenija 
+Tel: 1800 777 Slovenija 
 Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250 sland 
 Biocon Biologics Finland OY<br />
-S mi: +345 8004 
-Slovensk  republika 
+S mi: +345 8004Slovensk  republika 
 Biocon Biologics Germany GmbH<br />
 Tel: 0080008250Italia 
 Biocon Biologics Spain S.L. 
-Tel: 0080008250 
-Suomi/Finland 
+Tel: 0080008250Suomi/Finland 
 Biocon Biologics Finland OY<br />
-Puh/Tel: 99980008250 </p>
-<p>Biosimilar Collaborations Ireland Limited<br />
- : 0080008250 
-Sverige 
-Biocon Biologics Finland OY<br />
-Tel: 0080008250 
-Latvija 
+Puh/Tel: 99980008250<br />
 Biosimilar Collaborations Ireland Limited<br />
-Tel: 0080008250 </p>
-<p>This leaflet was last revised in {month YYYY}. </p>
+ : 0080008250Sverige 
+Biocon Biologics Finland OY<br />
+Tel: 0080008250Latvija 
+Biosimilar Collaborations Ireland Limited<br />
+Tel: 0080008250This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

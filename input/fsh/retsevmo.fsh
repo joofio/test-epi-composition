@@ -4,7 +4,7 @@ Instance: composition-en-8662bc57cc6dd8ed253b99e206e17747
 InstanceOf: CompositionUvEpi
 Title: "Composition for retsevmo Package Leaflet"
 Description:  "Composition for retsevmo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Retsevmo is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Retsevmo is and what it is used for<br />
 2. What you need to know before you take Retsevmo 
 3. How to take Retsevmo 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Retsevmo 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -367,8 +366,7 @@ Tel: + 46-(0) 8 7378Latvija
 Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 </p>
-<p>This leaflet was last revised in.  </p>
+Tel: + 353-(0) 1 661 4This leaflet was last revised in.  </p>
 <p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 

@@ -4,7 +4,7 @@ Instance: composition-en-ac1fc3c62e1c367a53d2af315f7d1723
 InstanceOf: CompositionUvEpi
 Title: "Composition for kiovig Package Leaflet"
 Description:  "Composition for kiovig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What KIOVIG is and what it is used for
 2. What you need to know before you use KIOVIG
 3. How to use KIOVIG
 4. Possible side effects
 5. How to store KIOVIG
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -152,14 +151,7 @@ excluded. This also applies to any unknown or emerging viruses or other types of
 The measures taken for the manufacture of KIOVIG are considered effective for enveloped viruses 
 such as human immunodeficiency virus (HIV), hepatitis B virus and hepatitis C virus, and for the 
 non-enveloped hepatitis A virus and parvovirus B19. KIOVIG also contains certain antibodies that 
-can prevent an infection with hepatitis A virus and parvovirus B1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take kiovig"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take kiovig"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and KIOVIG
+can prevent an infection with hepatitis A virus and parvovirus B19. Other medicines and KIOVIG
 Tell your doctor or pharmacist if you are taking, or have recently taken or might take any other 
 medicines.
 If you have received a vaccination during the last six weeks and up to three months, the infusion of 
@@ -183,13 +175,12 @@ in the breast milk. Therefore, your baby may be protected from certain infection
 Driving and using machines
 Patients may experience reactions (for example dizziness or nausea) during the treatment with 
 KIOVIG, which might affect the ability to drive and use machines. If this happens, you should
-wait until the reactions have disappeared.</p>         </div>"""         
-
-        
+wait until the reactions have disappeared.</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take kiovig"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take kiovig"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>KIOVIG is intended for intravenous administration (infusion into a vein). It is given to you by your 
 doctor or nurse. Dose and frequency of the infusion will vary depending on your condition and your 
@@ -203,12 +194,13 @@ If you use more KIOVIG than you should
 If you get more KIOVIG than you should, your blood may become too thick (hyperviscous).
 This could particularly happen when you are a patient at risk, e.g. an elderly patient or a patient 
 having problems with your kidneys. Be sure that you take adequate fluids so you are not 
-dehydrated and notify your physician if you are known to have medical problems.</p>         </div>"""      
+dehydrated and notify your physician if you are known to have medical problems.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store kiovig"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store kiovig"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Certain side effects, e.g. headache or flushing, may be reduced by slowing the infusion rate.
@@ -246,11 +238,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on 
 the safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store kiovig"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store kiovig"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is printed on the label and carton after 
@@ -259,4 +250,119 @@ EXP. The expiry date refers to the last day of that month.</p>
 <p>Do not store above 25 C.</p>
 <p>Do not freeze.</p>
 <p>Keep the container in the outer carton in order to protect from light.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What KIOVIG contains</p>
+<p>The active substance of KIOVIG is human normal immunoglobulin.</p>
+<p>1 ml of KIOVIG contains 100 mg of human protein of which at least 98% is 
+immunoglobulin G (IgG).</p>
+<p>The other ingredients (excipients) are glycine and water for injections.
+What KIOVIG looks like and contents of the pack
+KIOVIG is a solution for infusion in vials of 10, 25, 50, 100, 200 or 300 ml. The solution is clear or 
+slightly opalescent and colourless or pale-yellow.
+Not all presentations may be marketed.
+Marketing Authorisation Holder
+Takeda Manufacturing Austria AG
+Industriestrasse A-1221 Vienna
+Austria
+Manufacturer
+Baxalta Belgium Manufacturing SA
+Boulevard Ren  Branquart, B-7860 Lessines
+Belgium
+For any information about this medicine, please contact the local representative of the Marketing
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Takeda Belgium NV
+Tel/T l: +32 2 464 06 medinfoEMEA@takeda.com
+Lietuva
+Takeda, UAB
+Tel: +370 521 09 medinfoEMEA@takeda.com</p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com 
+Luxembourg/Luxemburg
+Takeda Belgium NV
+Tel/T l: +32 2 464 06 medinfoEMEA@takeda.com
+ esk  republika
+Takeda Pharmaceuticals Czech Republic s.r.o.
+Tel: +420 234 722 medinfoEMEA@takeda.com
+Magyarorsz g
+Takeda Pharma Kft.
+Tel: +36 1 270 7medinfoEMEA@takeda.com
+Danmark
+Takeda Pharma A/S
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com
+Malta
+ akeda HELLAS SA
+Tel: +30 210 6387medinfoEMEA@takeda.com
+Deutschland
+Takeda GmbH
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com
+Nederland
+Takeda Nederland B.V.
+Tel: +31 20 203 5medinfoEMEA@takeda.com
+Eesti
+Takeda Pharma AS
+Tel: +372 6177 medinfoEMEA@takeda.com
+Norge
+Takeda AS
+Tlf: +47 800 800 medinfoEMEA@takeda.com</p>
+<p>akeda  <br />
+T : +30 210 6387medinfoEMEA@takeda.com
+ sterreich
+Takeda Pharma Ges.m.b.H. 
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com
+Espa a
+Takeda Farmac utica Espa a S.A
+Tel: +34 917 90 42 medinfoEMEA@takeda.com
+Polska
+Takeda Pharma Sp. z o.o.
+tel: +48223062medinfoEMEA@takeda.com
+France
+Takeda France SAS
+Tel. + 33 1 40 67 33 medinfoEMEA@takeda.com
+Portugal
+Takeda Farmac uticos Portugal, Lda.
+Tel: + 351 21 120 1medinfoEMEA@takeda.com
+Hrvatska
+Takeda Pharmaceuticals Croatia d.o.o.
+Tel: +385 1 377 88 medinfoEMEA@takeda.com
+Rom nia
+Takeda Pharmaceuticals SRL
+Tel: +40 21 335 03 medinfoEMEA@takeda.com
+Ireland
+Takeda Products Ireland Ltd
+Tel: 1800 937 medinfoEMEA@takeda.com
+Slovenija
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o.
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com
+ sland
+Vistor hf.
+S mi: +354 535 7medinfoEMEA@takeda.com
+Slovensk  republika
+Takeda Pharmaceuticals Slovakia s.r.o.
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com
+Italia
+Takeda Italia S.p.A.
+Tel: +39 06 502medinfoEMEA@takeda.com
+Suomi/Finland
+Takeda Oy
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com</p>
+<p>akeda  <br />
+ : +30 210 6387medinfoEMEA@takeda.com
+Sverige
+Takeda Pharma AB
+Tel: 020 795 medinfoEMEA@takeda.com
+Latvija
+Takeda Latvia SIA
+Tel: +371 67840medinfoEMEA@takeda.com
+United Kingdom (Northern Ireland)
+Takeda UK Ltd
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com
+This leaflet was last revised in .
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

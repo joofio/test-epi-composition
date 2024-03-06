@@ -4,7 +4,7 @@ Instance: composition-en-79541d402cce9addf4bbd477616da529
 InstanceOf: CompositionUvEpi
 Title: "Composition for nuwiq Package Leaflet"
 Description:  "Composition for nuwiq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Nuwiq is and what it is used for  
-2. What you need to know before you use Nuwiq 
-3. How to use Nuwiq 
-4. Possible side effects  
-5. How to store Nuwiq  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Nuwiq is and what it is used for  </li>
+<li>What you need to know before you use Nuwiq </li>
+<li>How to use Nuwiq </li>
+<li>Possible side effects  </li>
+<li>How to store Nuwiq  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -139,8 +139,8 @@ The dose of Nuwiq is calculated depending on your body weight and the factor VII
 achieved. The target factor VIII levels will depend on the severity and location of the bleeding.  </p>
 <p>If you have the impression that the effect of Nuwiq is insufficient, talk to your doctor. Your doctor 
 will perform appropriate laboratory tests to make sure that you have adequate factor VIII levels. This 
-is particularly important if you are having major surgery. </p>
-<p>Patients developing factor VIII inhibitors 
+is particularly important if you are having major surgery. 
+Patients developing factor VIII inhibitors 
 If your plasma factor VIII fails to reach expected levels with Nuwiq, or if bleeding is not adequately 
 controlled, it could be due to the development of factor VIII inhibitors. This will be checked by your 
 doctor. You might need a higher dose of Nuwiq or a different product to control bleedings. Do not 
@@ -191,8 +191,8 @@ Hypersensitivity, fever. </p>
 Tingling or numbness (paraesthesia), headache, dizziness, vertigo, dyspnoea, dry mouth, back pain, 
 injection site inflammation, injection site pain, a vague feeling of bodily discomfort (malaise), 
 haemorrhagic anaemia, anaemia, chest pain, non-neutralising antibody positive (in previously treated 
-patients). </p>
-<p>Reporting of side effects 
+patients). 
+Reporting of side effects 
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
@@ -247,94 +247,73 @@ After reconstitution, the solution is clear, colourless and free from foreign pa
 <li>1 pre-filled syringe with 2.5 mL water for injections </li>
 <li>1 vial adapter </li>
 <li>1 butterfly needle </li>
-<li>2 alcohol swabs </li>
+<li>2 alcohol swabs 
+Marketing Authorisation Holder and Manufacturer 
+Octapharma AB, Lars Forssells gata 23, 112 75 Stockholm, Sweden </li>
 </ul>
-<p>Marketing Authorisation Holder and Manufacturer 
-Octapharma AB, Lars Forssells gata 23, 112 75 Stockholm, Sweden </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Octapharma Benelux (Belgium) 
-T l/Tel: +32 2 3730 
-Lietuva 
+T l/Tel: +32 2 3730Lietuva 
 Octapharma Nordic AB (Sweden) 
 Tel: +46 8 56643<br />
 Octapharma Nordic AB (Sweden) 
-Te .: +46 8 56643 
-Luxembourg/Luxemburg 
+Te .: +46 8 56643Luxembourg/Luxemburg 
 Octapharma Benelux (Belgium) 
-T l/Tel: +32 2 3730 
- esk  republika 
+T l/Tel: +32 2 3730 esk  republika 
 Octapharma CZ s.r.o. 
-Tel: +420 266 793<br />
-Magyarorsz g 
+Tel: +420 266 793 Magyarorsz g 
 Octapharma Nordic AB (Sweden) 
-Tel: +46 8 56643 
-Danmark 
+Tel: +46 8 56643Danmark 
 Octapharma Nordic AB (Sweden) 
 Tlf: +46 8 56643Malta 
 Octapharma Nordic AB (Sweden) 
-Tel: +46 8 56643 
-Deutschland 
+Tel: +46 8 56643Deutschland 
 Octapharma GmbH 
-Tel: +49 2173 9 
-Nederland 
+Tel: +49 2173 9Nederland 
 Octapharma Benelux (Belgium) 
-Tel: +32 2 3730 
-Eesti 
+Tel: +32 2 3730Eesti 
 Octapharma Nordic AB (Sweden) 
 Tel: +46 8 56643Norge 
 Octapharma AS 
-Tlf: +47 63988 </p>
-<p>Octapharma Hellas SA 
+Tlf: +47 63988<br />
+Octapharma Hellas SA 
  : +30 210 8986 sterreich 
 Octapharma Handelsgesellschaft m.b.H. 
-Tel: +43 1 610321 
-Espa a 
+Tel: +43 1 610321Espa a 
 Octapharma S.A. 
-Tel: +34 91 6487 
-Polska 
+Tel: +34 91 6487Polska 
 Octapharma Poland Sp. z o.o. 
-Tel: +48 22 2082 
-France 
+Tel: +48 22 2082France 
 Octapharma France 
-T l: +33 1 41318 
-Portugal 
+T l: +33 1 41318Portugal 
 Octapharma Produtos Farmac uticos Lda. 
-Tel: +351 21 8160 
-Hrvatska 
+Tel: +351 21 8160Hrvatska 
 Octapharma Nordic AB (Sweden) 
 Tel: +46 8 56643Rom nia 
 Octapharma Nordic AB (Suedia) 
-Tel: +46 8 56643 
-Ireland 
+Tel: +46 8 56643Ireland 
 Octapharma AB (Sweden) 
-Tel: +46 8 56643 
-Slovenija 
+Tel: +46 8 56643Slovenija 
 Octapharma Nordic AB (Sweden) 
-Tel: +46 8 56643 
- sland 
+Tel: +46 8 56643 sland 
 Octapharma AS (Norway) 
-S mi: +47 63988 
-Slovensk  republika 
+S mi: +47 63988Slovensk  republika 
 Octapharma AG, o.z.z.o. 
-Tel: +421 2 54646 
-Italia 
+Tel: +421 2 54646Italia 
 Kedrion S.p.A. <br />
 Tel: +39 0583 767Suomi/Finland 
 Octapharma Nordic AB 
-Puh/Tel: +358 9 85202 </p>
-<p>Octapharma Nordic AB (Sweden) 
+Puh/Tel: +358 9 85202<br />
+Octapharma Nordic AB (Sweden) 
  : +46 8 56643Sverige 
 Octapharma Nordic AB 
-Tel: +46 8 56643 
-Latvija 
+Tel: +46 8 56643Latvija 
 Octapharma Nordic AB (Sweden) 
-Tel: +46 8 56643 
-United Kingdom (Northern Ireland) 
+Tel: +46 8 56643United Kingdom (Northern Ireland) 
 Octapharma Limited 
-Tel: +44 161 8373 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 161 8373This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the web site of the European Medicines Agency: 
 http://www.ema.europa.eu.  </p>
 <hr />
@@ -415,10 +394,8 @@ immediately close the filled syringe with the tamper-proof plastic tip for stora
 <li>
 <p>Remove the adapter packaging and discard. </p>
 </li>
-<li>
-<p>Firmly connect the solvent syringe to the vial adapter by turning clockwise until resistance is 
-felt. </p>
-</li>
+<li>Firmly connect the solvent syringe to the vial adapter by turning clockwise until resistance is 
+felt. </li>
 <li>
 <p>Slowly inject all solvent into the powder vial by pressing down the plunger rod. </p>
 </li>

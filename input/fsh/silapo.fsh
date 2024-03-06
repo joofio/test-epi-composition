@@ -4,7 +4,7 @@ Instance: composition-en-542b66b905705c6df098d31fe81d888d
 InstanceOf: CompositionUvEpi
 Title: "Composition for silapo Package Leaflet"
 Description:  "Composition for silapo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Silapo is and what it is used for
 2. What you need to know before you use Silapo
 3. How to use Silapo
 4. Possible side effects
 5. How to store Silapo
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -103,14 +102,8 @@ need for a blood transfusion.</p>         </div>"""
 section 6).</p>
 <p>If you have been diagnosed with Pure Red Cell Aplasia (the bone marrow cannot produce 
 enough red blood cells) after previous treatment with any product that stimulates red blood cell 
-production (including Silapo). See section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take silapo"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take silapo"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you have high blood pressure not properly controlled with medicines</p>
+production (including Silapo). See section 4.<br />
+If you have high blood pressure not properly controlled with medicines</p>
 <p>To stimulate the production of your red blood cells (so that doctors can take more blood from 
 you) if you cannot have transfusions with your own blood during or after surgery.</p>
 <p>If you are due to have major elective orthopaedic surgery (such as hip or knee surgery), and 
@@ -185,13 +178,12 @@ if you have phenylketonuria (PKU), a rare genetic disorder in which phenylalanin
 the body cannot remove it properly.
 Silapo contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
- sodium-free .</p>         </div>"""         
-
-        
+ sodium-free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take silapo"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take silapo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you are 
 not sure.
@@ -353,12 +345,13 @@ You should discuss this with your doctor because a combination of Silapo with in
 ribavirin has led to a loss of effect and development of a condition called pure red cell aplasia 
 (PRCA), a severe form of anaemia, in rare cases. Silapo is not approved in the management of 
 anaemia associated with hepatitis C.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store silapo"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store silapo"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Tell your doctor or nurse immediately if you notice any of the effects in this list.
@@ -430,11 +423,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store silapo"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store silapo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the box and on the label after EXP. 
@@ -449,4 +441,83 @@ Do not use this medicine if you notice that the seal is broken or if the liquid 
 particles floating in it. In the event of either being observed, discard the medicinal product.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Silapo contains</p>
+<p>The active substance is epoetin zeta (produced by recombinant DNA technology in Chinese 
+Hamster Ovary (CHO) cell line).
+Silapo 1 000 IU/0.3 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 0.3 mL solution for injection contains 1 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 3 333 IU epoetin zeta 
+per mL.
+Silapo 2 000 IU/0.6 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 0.6 mL solution for injection contains 2 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 3 333 IU epoetin zeta 
+per mL.
+Silapo 3 000 IU/0.9 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 0.9 mL solution for injection contains 3 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 3 333 IU epoetin zeta 
+per mL.
+Silapo 4 000 IU/0.4 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 0.4 mL solution for injection contains 4 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL.
+Silapo 5 000 IU/0.5 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 0.5 mL solution for injection contains 5 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL.
+Silapo 6 000 IU/0.6 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 0.6 mL solution for injection contains 6 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL.
+Silapo 8 000 IU/0.8 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 0.8 mL solution for injection contains 8 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL.
+Silapo 10 000 IU/1 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 1 mL solution for injection contains 10 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL.
+Silapo 20 000 IU/0.5 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 0.5 mL solution for injection contains 20 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 40 000 IU epoetin zeta 
+per mL.
+Silapo 30 000 IU/0.75 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 0.75 mL solution for injection contains 30 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 40 000 IU epoetin zeta 
+per mL.
+Silapo 40 000 IU/1 mL solution for injection in pre-filled syringe
+1 pre-filled syringe with 1 mL solution for injection contains 40 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 40 000 IU epoetin zeta 
+per mL.</p>
+<p>The other ingredients are disodium phosphate dihydrate, sodium dihydrogen phosphate 
+dihydrate, sodium chloride, calcium chloride dihydrate, polysorbate 20, glycine, leucine, 
+isoleucine, threonine, glutamic acid, phenylalanine, water for injections, sodium hydroxide (pH 
+adjuster), hydrochloric acid (pH adjuster).
+What Silapo looks like and contents of the pack
+Silapo is presented as a clear and colourless solution for injection in a pre-filled syringe with a fixed 
+injection needle.
+The pre-filled syringes contain between 0.3 and 1 mL solution, depending on the content of epoetin 
+zeta (see  What Silapo contains ).
+One pack contains 1, 4 or 6 pre-filled syringes with or without a needle guard device.
+Marketing Authorisation Holder
+STADA Arzneimittel AG
+Stadastrasse 2-D-61118 Bad Vilbel
+Germany
+Manufacturer
+STADA Arzneimittel AG
+Stadastrasse 2-D-61118 Bad Vilbel
+Germany
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+STADAPHARM GmbH
+Stadastra e 2-D-61118 Bad Vilbel
+Tel: +49 (0) 6101 603-0
+Fax: +49 (0) 6101 603-3This leaflet was last revised in {MM/YYYY}.
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

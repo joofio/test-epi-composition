@@ -4,7 +4,7 @@ Instance: composition-en-e4987c505b33cb8f74903d77ffd0fb1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for aspaveli Package Leaflet"
 Description:  "Composition for aspaveli Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ASPAVELI is and what it is used for 
-2. What you need to know before you use ASPAVELI 
-3. How to use ASPAVELI 
-4. Possible side effects 
-5. How to store ASPAVELI 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ASPAVELI is and what it is used for </li>
+<li>What you need to know before you use ASPAVELI </li>
+<li>How to use ASPAVELI </li>
+<li>Possible side effects </li>
+<li>How to store ASPAVELI </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -97,8 +97,8 @@ red blood cells (reduce anaemia), which may improve these symptoms. </p>        
 section 6). 
 - if you have an infection caused by so-called encapsulated bacteria. 
 - if you are not vaccinated against Neisseria meningitidis, Streptococcus pneumoniae, and 
-Haemophilus influenzae. </p>
-<p>Warnings and precautions 
+Haemophilus influenzae. 
+Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before using ASPAVELI. </p>
 <p>Symptoms of infection 
 Before starting ASPAVELI, inform your doctor if you have any infections. </p>
@@ -370,8 +370,7 @@ B. Secure the needle(s) using sterile
 gauze and tape or a transparent 
 dressing placed over the infusion 
 site(s) (Figure 12). </p>
-<p>Figure<br />
-Figure Step 7 
+<p>Figure Figure Step 7 
 Start infusion 
 Follow the device manufacturer s 
 instructions to start the infusion. 
@@ -402,8 +401,7 @@ professional.
 D. Clean and store the syringe system 
 infusion pump according to the 
 device manufacturer s instructions. </p>
-<p>Figure  </p>
-<p>If you forget to use ASPAVELI 
+<p>Figure If you forget to use ASPAVELI 
 If you miss a dose, it should be taken as soon as possible; then take the next dose at the regularly 
 planned time. </p>
 <p>If you stop using ASPAVELI 

@@ -4,7 +4,7 @@ Instance: composition-en-fd0c928ba69b44963057ba928ecaf5ac
 InstanceOf: CompositionUvEpi
 Title: "Composition for onpattro Package Leaflet"
 Description:  "Composition for onpattro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Onpattro is and what it is used for 
-2. What you need to know before you are given Onpattro 
-3. How Onpattro is given 
-4. Possible side effects 
-5. How to store Onpattro 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Onpattro is and what it is used for </li>
+<li>What you need to know before you are given Onpattro </li>
+<li>How Onpattro is given </li>
+<li>Possible side effects </li>
+<li>How to store Onpattro </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -103,14 +104,7 @@ may happen during treatment with Onpattro. Before each infusion you will be give
 help to lower the chance of infusion-related reactions (see  Medicines given during treatment with 
 Onpattro  in section 3). </p>
 <p>Tell your doctor or nurse straight away if you get any signs of an infusion-related reaction. These signs 
-are listed at the beginning of section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take onpattro"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take onpattro"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you have an infusion-related reaction, your doctor or nurse may slow down or stop your infusion, 
+are listed at the beginning of section 4. If you have an infusion-related reaction, your doctor or nurse may slow down or stop your infusion, 
 and you may need to take other medicines to control the symptoms. When these reactions stop, or get 
 better, your doctor or nurse may decide to start the infusion again. </p>
 <p>Vitamin A deficiency </p>
@@ -162,13 +156,12 @@ doctor will tell you whether your condition allows you to drive vehicles and use
 <p>Onpattro contains sodium </p>
 <p>This medicine contains 3.99 milligrams (mg) of sodium (main component of cooking/table salt) per 
 millilitre (mL). This is 0.2% of the recommended maximum daily dietary intake of sodium for an 
-adult. </p>         </div>"""         
-
-        
+adult. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take onpattro"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take onpattro"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How much Onpattro is given </p>
 <ul>
@@ -196,12 +189,13 @@ too much (an overdose) your doctor or nurse will check you for side effects. </p
 <p>If you miss your dose of Onpattro </p>
 <p>If you miss an appointment to have Onpattro, ask your doctor or nurse when to book your next 
 treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store onpattro"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store onpattro"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Infusion-related reactions </p>
@@ -248,11 +242,10 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store onpattro"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store onpattro"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton after  EXP . The expiry 
@@ -263,4 +256,129 @@ date refers to the last day of that month. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Your healthcare professional 
 will throw away any medicines that are no longer being used. These measures will help protect the 
 environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Onpattro contains </p>
+<ul>
+<li>The active substance is patisiran. </li>
+<li>Each mL contains patisiran sodium equivalent to 2 mg patisiran. </li>
+<li>Each vial contains patisiran sodium equivalent to 10 mg patisiran. </li>
+<li>The other ingredients are DLin-MC3-DMA 
+((6Z,9Z,28Z,31Z)-heptatriaconta-6,9,28,31-tetraen-19-yl-4- (dimethylamino) butanoate), 
+PEG2000-C-DMG ( - (3 -{[1,2-di(myristyloxy)propanoxy]carbonylamino}propyl)- -methoxy, 
+polyoxyethylene), DSPC (1,2-distearoyl-sn-glycero-3-phosphocholine), cholesterol, disodium 
+hydrogen phosphate, heptahydrate, potassium dihydrogen phosphate, anhydrous, sodium 
+chloride, and water for injections (see  Onpattro contains sodium  in section 2). </li>
+</ul>
+<p>What Onpattro looks like and contents of the pack 
+* Onpattro is a white to off-white, opalescent, homogeneous concentrate for solution for infusion 
+(sterile concentrate). 
+* Onpattro is supplied in cartons containing one vial each. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Alnylam Netherlands B.V. 
+Antonio Vivaldistraat 1083 HP Amsterdam 
+Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Alnylam Netherlands B.V. 
+T l/Tel: 0800 81 443 (+32 234 208 71) 
+medinfo@alnylam.com </p>
+<p>Malta 
+Genesis Pharma (Cyprus) Ltd 
+Tel: +357 22765medinfo@genesispharmagroup.com </p>
+<p>Genesis Pharma Bulgaria EOOD 
+Te .: +359 2 969 3medinfo@genesispharmagroup.com </p>
+<p>Nederland 
+Alnylam Netherlands B.V. 
+Tel: 08002820025 (+31 203697861) 
+medinfo@alnylam.com </p>
+<p>esk  republika 
+Alnylam Czech s.r.o. 
+Tel: 800 050 450 (+420 234 092 195) 
+medinfo@alnylam.com </p>
+<p>Norge 
+Alnylam Sweden AB 
+Tlf: 800 544 00 (+472 1405 657) 
+medinfo@alnylam.com </p>
+<p>Danmark 
+Alnylam Sweden AB 
+Tlf: 433 105 15 (+45 787 453 01) 
+medinfo@alnylam.com </p>
+<p>sterreich 
+Alnylam Austria GmbH 
+Tel: 0800070339 (+43 720 778 072) 
+medinfo@alnylam.com </p>
+<p>Deutschland 
+Alnylam Germany GmbH 
+Tel: 08002569526 (+49 8920190112) 
+medinfo@alnylam.com </p>
+<p>Polska 
+Alnylam Netherlands B.V. 
+Tel: 0800 000 medinfo@alnylam.com </p>
+<pre><code> .
+</code></pre>
+<p>: +30 210 87 71 medinfo@genesispharmagroup.com </p>
+<p>Portugal 
+Alnylam Portugal 
+Tel: 707201512 (+351 707502642) 
+medinfo@alnylam.com </p>
+<p>Espa a 
+Alnylam Pharmaceuticals Spain SL 
+Tel: 900810212 (+34 910603753) 
+medinfo@alnylam.com </p>
+<p>Rom nia 
+Genesis Biopharma Romania SRL 
+Tel: +40 21 403 4medinfo@genesispharmagroup.com </p>
+<p>France<br />
+Alnylam France SAS 
+T l: 0805542656 (+33 187650921) 
+medinfo@alnylam.com </p>
+<p>Slovenija 
+Genesis Pharma Adriatic d.o.o 
+Tel: +385 1 5813 medinfo@genesispharmagroup.com </p>
+<p>Hrvatska 
+Genesis Pharma Adriatic d.o.o 
+Tel: +385 1 5813 medinfo@genesispharmagroup.com </p>
+<p>Slovensk  republika 
+Alnylam Netherlands B.V. 
+Tel: 0800 601 medinfo@alnylam.com </p>
+<p>Ireland 
+Alnylam Netherlands B.V. 
+Tel: 1800 924260 (+353 818 882213) 
+medinfo@alnylam.com </p>
+<p>Suomi/Finland 
+Alnylam Sweden AB 
+Puh/Tel: 0800 417 452 (+358 942 727 020) 
+medinfo@alnylam.com </p>
+<p>Italia 
+Alnylam Italy S.r.l. 
+Tel: 800 90 25 37 (+39 02 89 73 22 91) 
+medinfo@alnylam.com </p>
+<p>Sverige 
+Alnylam Sweden AB 
+Tel: 020109162 (+46 842002641) 
+medinfo@alnylam.com </p>
+<p>Genesis Pharma (Cyprus) Ltd 
+ : +357 22765medinfo@genesispharmagroup.com </p>
+<p>United Kingdom (Northern Ireland) 
+Alnylam UK Ltd. 
+Tel: 08001412569 (+44 1628 878592) 
+medinfo@alnylam.com </p>
+<p>Luxembourg/Luxemburg 
+Alnylam Netherlands B.V. 
+T l/Tel: 80085235 (+352 203 014 48) 
+medinfo@alnylam.com </p>
+<p>Eesti,  sland, Latvija, Lietuva, 
+Magyarorsz g 
+Alnylam Netherlands B.V. 
+Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
+<p>This leaflet was last revised in MM/YYYY. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

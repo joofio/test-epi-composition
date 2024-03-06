@@ -4,7 +4,7 @@ Instance: composition-en-1c483862a2de53c1f77db26617c2401e
 InstanceOf: CompositionUvEpi
 Title: "Composition for novorapid Package Leaflet"
 Description:  "Composition for novorapid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What NovoRapid is and what it is used for 
-2. What you need to know before you use NovoRapid  
-3. How to use NovoRapid 
-4. Possible side effects 
-5. How to store NovoRapid 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What NovoRapid is and what it is used for </li>
+<li>What you need to know before you use NovoRapid  </li>
+<li>How to use NovoRapid </li>
+<li>Possible side effects </li>
+<li>How to store NovoRapid </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -256,7 +256,12 @@ recommended that you measure your blood sugar level regularly. </p>
 the skin in case of pump system failure. </p>
 <p>If you take more insulin than you should </p>
 <p>If you take too much insulin your blood sugar gets too low (hypoglycaemia). See a) Summary of 
-serious and very common side effects in section </p>         </div>"""         
+serious and very common side effects in section 4. If you forget to take your insulin </p>
+<p>If you forget to take your insulin your blood sugar may get too high (hyperglycaemia). See c) Effects 
+from diabetes in section 4. If you stop taking your insulin </p>
+<p>Do not stop taking your insulin without speaking with a doctor, who will tell you what needs to be 
+done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
+Effects from diabetes in section 4. If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -264,19 +269,108 @@ serious and very common side effects in section </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take your insulin </p>
-<p>If you forget to take your insulin your blood sugar may get too high (hyperglycaemia). See c) Effects 
-from diabetes in section </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
+<p>a) 
+Summary of serious and very common side effects  </p>
+<p>Low blood sugar (hypoglycaemia) is a very common side effect. It may affect more than 1 in people. </p>
+<p>Low blood sugar may occur if you: 
+* Inject too much insulin. 
+* Eat too little or miss a meal. 
+* Exercise more than usual. 
+* Drink alcohol (see Drinking alcohol and taking NovoRapid in section 2). </p>
+<p>Signs of low blood sugar: Cold sweat; cool pale skin; headache; rapid heartbeat; feeling sick; feeling 
+very hungry; temporary changes in vision; drowsiness; unusual tiredness and weakness; nervousness 
+or tremor; feeling anxious; feeling confused; difficulty in concentrating. </p>
+<p>Severe low blood sugar can lead to unconsciousness. If prolonged severe low blood sugar is not 
+treated, it can cause brain damage (temporary or permanent) and even death. You may recover more 
+quickly from unconsciousness with an injection of the hormone glucagon by someone who knows how 
+to use it. If you are given glucagon, you will need glucose or a sugar snack as soon as you are 
+conscious. If you do not respond to glucagon treatment, you will have to be treated in a hospital. </p>
+<p>What to do if you experience low blood sugar: </p>
+<p>If you experience low blood sugar, eat glucose tablets or another high sugar snack (e.g. sweets, 
+biscuits, fruit juice). Measure your blood sugar if possible and rest. Always carry glucose tablets 
+or high sugar snacks with you, just in case. </p>
+<p>When symptoms of low blood sugar have disappeared or when blood sugar level is stabilised, 
+continue insulin treatment as usual. </p>
+<p>If you have such a low blood sugar that it makes you pass out, if you have had need for injection 
+of glucagon, or if you have experienced many incidents of low blood sugar, talk with a doctor. 
+The amount or timing of insulin, food or exercise may need to be adjusted. </p>
+<p>Tell relevant people that you have diabetes and what the consequences may be, including the risk of 
+passing out (become unconscious) due to low blood sugar. Let them know that if you pass out, they 
+must turn you on your side and get medical help straight away. They must not give you any food or 
+drink due to risk of suffocation. </p>
+<p>Serious allergic reactions to NovoRapid or one of its ingredients (called a systemic allergic reaction) 
+is a very rare side effect but can potentially be life threatening. It may affect less than 1 in 10,people. </p>
+<p>Seek medical advice immediately: 
+* If signs of allergy spread to other parts of your body. 
+* If you suddenly feel unwell, and you: start sweating; start being sick (vomiting); have difficulty 
+in breathing; have a rapid heartbeat; feel dizzy. </p>
+<p>If you notice any of these signs, seek medical advice immediately. </p>
+<p>Skin changes at the injection site: If you inject insulin at the same place, the fatty tissue may shrink 
+(lipoatrophy) or thicken (lipohypertrophy) (may affect less than 1 in 100 people). Lumps under the 
+skin may also be caused by build-up of a protein called amyloid (cutaneous amyloidosis; how often 
+this occurs is not known). The insulin may not work very well if you inject into a lumpy, shrunken or 
+thickened area. Change the injection site with each injection to help prevent these skin changes. </p>
+<p>b) 
+List of other side effects </p>
+<p>Uncommon side effects 
+May affect less than 1 in 100 people. </p>
+<p>Signs of allergy: Local allergic reactions (pain, redness, hives, inflammation, bruising, swelling and 
+itching) at the injection site may occur. These usually disappear after a few weeks of taking your 
+insulin. If they do not disappear, or if they spread throughout your body, talk to your doctor 
+immediately. See also Serious allergic reactions above. </p>
+<p>Vision problems: When you first start your insulin treatment, it may disturb your vision, but the 
+disturbance is usually temporary. </p>
+<p>Swollen joints: When you start taking insulin, water retention may cause swelling around your ankles 
+and other joints. Normally this soon disappears. If not, talk to your doctor. </p>
+<p>Diabetic retinopathy (an eye disease related to diabetes which can lead to loss of vision): If you have 
+diabetic retinopathy and your blood sugar level improves very fast, the retinopathy may get worse. 
+Ask your doctor about this. </p>
+<p>Rare side effects<br />
+May affect less than 1 in 1,000 people. </p>
+<p>Painful neuropathy (pain due to nerve damage): If your blood sugar level improves very fast, you may 
+get nerve related pain. This is called acute painful neuropathy and is usually transient. </p>
+<p>Reporting of side effects </p>
+<p>If you get any side effects, talk with your doctor, nurse or pharmacist. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>
+<p>c) 
+Effects from diabetes  </p>
+<p>High blood sugar (hyperglycaemia) </p>
+<p>High blood sugar may occur if you: 
+* Have not injected enough insulin. 
+* Forget to inject your insulin or stop taking insulin. 
+* Repeatedly inject less insulin than you need. 
+* Get an infection and/or a fever. 
+* Eat more than usual. 
+* Exercise less than usual. </p>
+<p>Warning signs of high blood sugar: 
+The warning signs appear gradually. They include: increased urination; feeling thirsty; losing your 
+appetite; feeling sick (nausea or vomiting); feeling drowsy or tired; flushed; dry skin; dry mouth and a 
+fruity (acetone) smell of the breath. </p>
+<p>What to do if you experience high blood sugar: </p>
+<p>If you get any of the above signs: test your blood sugar level, test your urine for ketones if you 
+can, then seek medical advice immediately. </p>
+<p>These may be signs of a very serious condition called diabetic ketoacidosis (build-up of acid in 
+the blood because the body is breaking down fat instead of sugar). If you do not treat it, this 
+could lead to diabetic coma and eventually death. </p>         </div>"""      
         
 * section[=].section[+]
   * title = "5. How to store novorapid"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store novorapid"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you stop taking your insulin </p>
-<p>Do not stop taking your insulin without speaking with a doctor, who will tell you what needs to be 
-done. This could lead to very high blood sugar (severe hyperglycaemia) and ketoacidosis. See c) 
-Effects from diabetes in section </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the vial label and carton, after  EXP . 
+The expiry date refers to the last day of that month. 
+Keep the vial in the outer carton in order to protect it from light.  </p>
+<p>Before opening: Store in a refrigerator at 2 C to 8 C, away from the cooling element. Do not freeze. </p>
+<p>During use or when carried as a spare: The product may be stored for a maximum of 4 weeks. Store 
+below 30 C. Do not refrigerate or freeze. </p>
+<p>Discard the needle after each injection. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -284,5 +378,35 @@ Effects from diabetes in section </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you have any further questions on the use of this medicine, ask your doctor, nurse or pharmacist. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What NovoRapid contains </p>
+<ul>
+<li>The active substance is insulin aspart. Each ml contains 100 units of insulin aspart. Each vial 
+contains 1,000 units of insulin aspart in 10 ml solution for injection. </li>
+<li>The other ingredients are glycerol, phenol, metacresol, zinc chloride, disodium phosphate 
+dihydrate, sodium chloride, hydrochloric acid, sodium hydroxide and water for injections. </li>
+</ul>
+<p>What NovoRapid looks like and contents of the pack </p>
+<p>NovoRapid is presented as a solution for injection. </p>
+<p>Pack sizes of 1 or 5 vials of 10 ml or a multipack of 5 packs of 1 x 10 ml vial. Not all pack sizes may 
+be marketed. </p>
+<p>The solution is clear and colourless.  </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Novo Nordisk A/S, Novo All , DK-2880 Bagsv rd, Denmark </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. 
+Package leaflet: Information for the user </p>
+<p>NovoRapid Penfill 100 units/ml solution for injection in cartridge<br />
+insulin aspart </p>
+<p>Read all of this leaflet carefully before you start using this medicine because it contains 
+important information for you. </p>
+<ul>
+<li>Keep this leaflet. You may need to read it again. </li>
+<li>If you have any further questions, ask your doctor, nurse or pharmacist. </li>
+<li>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. </li>
+<li>If you get any side effects, talk with your doctor, nurse or pharmacist. This includes any 
+possible side effects not listed in this leaflet. See section 4.</li>
+</ul>         </div>"""      
 

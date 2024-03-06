@@ -4,7 +4,7 @@ Instance: composition-en-bf83463883d97743be055a0192c94a53
 InstanceOf: CompositionUvEpi
 Title: "Composition for emadine Package Leaflet"
 Description:  "Composition for emadine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What EMADINE is and what it is used for 
-2. What you need to know before you use EMADINE 
-3. How to use EMADINE 
-4. Possible side effects 
-5. How to Store EMADINE 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What EMADINE is and what it is used for </li>
+<li>What you need to know before you use EMADINE </li>
+<li>How to use EMADINE </li>
+<li>Possible side effects </li>
+<li>How to Store EMADINE </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -84,14 +84,7 @@ allergic reactions resulting in itching, redness as well as swelling of the surf
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use EMADINE 
 * if you are allergic to emedastine or any of the other ingredients of this medicine listed in 
-section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take emadine"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take emadine"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ask your doctor for advice. </p>
+section 6. Ask your doctor for advice. </p>
 <p>Warning and precautions 
 * Do not use EMADINE in children under the age of 3 years. 
 * If you wear contact lenses please see section  EMADINE contains benzalkonium chloride 
@@ -103,8 +96,8 @@ studied in clinical trials in this age group.
 <p>Other medicines and EMADINE 
 Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines. </p>
 <p>If you are using other eye drops at the same time as EMADINE, follow the advice at the end of 
-section 3  How to use EMADINE . </p>
-<p>Pregnancy, breast feeding and fertility 
+section 3  How to use EMADINE . 
+Pregnancy, breast feeding and fertility 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Driving and using machines 
@@ -118,13 +111,12 @@ may change the colour of the contact lenses. You should remove contact lenses be
 medicine and put them back 15 minutes afterwards. Benzalkonium chloride may also cause eye 
 irritation, especially if you have dry eyes or disorders of the cornea (the clear layer at the front of the 
 eye). If you feel abnormal eye sensation, stinging or pain in the eye after using this medicine, talk to 
-your doctor. </p>         </div>"""         
-
-        
+your doctor. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take emadine"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take emadine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use EMADINE exactly as your doctor has told you. You should check with your doctor or 
 pharmacist if you are not sure. </p>
@@ -133,12 +125,13 @@ pharmacist if you are not sure. </p>
 with your doctor or pharmacist if you are not sure. </p>
 <p>Only use the drops in your eyes. </p>
 <p>Turn the page for more advice </p>
-<p>Now turn over&gt; </p>         </div>"""      
+<p>Now turn over&gt; </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store emadine"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store emadine"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>1 
 2 </p>
@@ -172,11 +165,10 @@ normal routine. Do not use a double dose to make up for the one missed. </p>
 drops. Eye ointments should be used last. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store emadine"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store emadine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>You can carry on taking the drops, unless the effects are serious, If you are worried, talk to your doctor 
@@ -194,4 +186,20 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. 
+Do not use EMADINE after the expiry date which is stated on the bottle and box after  EXP . The 
+expiry date refers to the last day of the month. </p>
+<p>Do not store above 25 C. </p>
+<p>You must throw away the bottle four weeks after you first opened it, to prevent infections. Write 
+down the date you opened each bottle in the space below and in the space on the bottle label and box. </p>
+<p>Opened: </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

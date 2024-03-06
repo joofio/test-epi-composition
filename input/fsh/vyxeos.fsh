@@ -4,7 +4,7 @@ Instance: composition-en-691dd468387a7314644483dde7be004c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyxeos Package Leaflet"
 Description:  "Composition for vyxeos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Vyxeos liposomal is and what it is used for 
-2. What you need to know before you are given Vyxeos liposomal 
-3. How you are given Vyxeos liposomal 
-4. Possible side effects 
-5. How to store Vyxeos liposomal 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Vyxeos liposomal is and what it is used for </li>
+<li>What you need to know before you are given Vyxeos liposomal </li>
+<li>How you are given Vyxeos liposomal </li>
+<li>Possible side effects </li>
+<li>How to store Vyxeos liposomal </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -152,8 +152,8 @@ tools or machines. </p>         </div>"""
 * The infusion is given over one and a half hours (90 minutes). </p>
 <p>Your doctor or nurse will work out your dose of the medicine based on your weight and height. Your 
 treatment will be given in  courses . Each course is given as a separate infusion and can be given 
-weeks apart.  </p>
-<p>You will receive a first course of treatment and your doctor will decide if you will receive further 
+weeks apart.<br />
+You will receive a first course of treatment and your doctor will decide if you will receive further 
 courses of treatment depending on how you respond to treatment and any side effects you get. Your 
 doctor will assess how you respond to treatment after each course. </p>
 <ul>
@@ -259,8 +259,8 @@ encapsulated in liposomes.
 cholesterol, copper gluconate, trolamine and sucrose. </p>
 <p>What Vyxeos liposomal looks like and contents of the pack 
 Vyxeos liposomal is a purple powder for concentrate for solution for infusion supplied in a glass vial.<br />
-Each pack contains 1 vial, 2 vials or 5 vials. Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder and Manufacturer </p>
+Each pack contains 1 vial, 2 vials or 5 vials. Not all pack sizes may be marketed. 
+Marketing Authorisation Holder and Manufacturer </p>
 <p>Jazz Pharmaceuticals Ireland Ltd<br />
 5th Floor 
 Waterloo Exchange 

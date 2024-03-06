@@ -4,7 +4,7 @@ Instance: composition-en-29e53310e209535224a929c7efb5c5b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for jayempi Package Leaflet"
 Description:  "Composition for jayempi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Jayempi is and what it is used for  
-2. What you need to know before you take Jayempi  
-3. How to take Jayempi  
-4. Possible side effects  
-5. How to store Jayempi  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Jayempi is and what it is used for  </li>
+<li>What you need to know before you take Jayempi  </li>
+<li>How to take Jayempi  </li>
+<li>Possible side effects  </li>
+<li>How to store Jayempi  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

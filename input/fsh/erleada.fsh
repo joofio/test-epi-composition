@@ -4,7 +4,7 @@ Instance: composition-en-d9dc9ab79b2a856f92a3151fb8d4fca9
 InstanceOf: CompositionUvEpi
 Title: "Composition for erleada Package Leaflet"
 Description:  "Composition for erleada Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Erleada is and what it is used for
 2. What you need to know before you take Erleada
 3. How to take Erleada
 4. Possible side effects
 5. How to store Erleada
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]

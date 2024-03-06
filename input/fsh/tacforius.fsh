@@ -4,7 +4,7 @@ Instance: composition-en-dff98a1057e854dd22ade83cc61ef07f
 InstanceOf: CompositionUvEpi
 Title: "Composition for tacforius Package Leaflet"
 Description:  "Composition for tacforius Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tacforius is and what it is used for 
-2. What you need to know before you take Tacforius 
-3. How to take Tacforius 
-4. Possible side effects 
-5. How to store Tacforius 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tacforius is and what it is used for </li>
+<li>What you need to know before you take Tacforius </li>
+<li>How to take Tacforius </li>
+<li>Possible side effects </li>
+<li>How to store Tacforius </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -197,8 +197,8 @@ thrombocytopenic purpura, and haemolytic uraemic syndrome may increase (see sect
 heart failure, hypertension and kidney disease, (e.g. amiloride, triamterene, or spironolactone), or the 
 antibiotics trimethoprim or cotrimoxazole that may increase levels of potassium in your blood, non-
 steroidal anti-inflammatory medicines (NSAIDs, e.g. ibuprofen) used for fever, inflammation and 
-pain, anticoagulants (blood thinners), or oral medicines for diabetes, while you take Tacforius. </p>
-<p>If you need to have any vaccinations, please tell your doctor before. </p>
+pain, anticoagulants (blood thinners), or oral medicines for diabetes, while you take Tacforius. 
+If you need to have any vaccinations, please tell your doctor before. </p>
 <p>Tacforius with food and drink 
 Avoid grapefruit (also as juice) while on treatment with Tacforius, since it can affect its levels in the 
 blood. </p>
@@ -498,96 +498,69 @@ Spain </p>
 Pallagi Ut 4042 Debrecen 
 Hungary </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
-Authorisation Holder: </p>
-<p>Belgi /Belgique/Belgien 
+Authorisation Holder: 
+Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-T l/Tel: +32 38207 
-Lietuva 
+T l/Tel: +32 38207Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 </p>
-<p>: +359 24899 
-Luxembourg/Luxemburg 
+Tel: +370 52660  </p>
+<p>: +359 24899Luxembourg/Luxemburg 
 ratiopharm GmbH 
 Allemagne/Deutschland 
-T l/Tel: +49 73140 
- esk  republika 
+T l/Tel: +49 73140 esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarorsz g 
+Tel: +420 251007Magyarorsz g 
 Teva Gy gyszergy r Zrt 
-Tel: +36 12886 
-Danmark 
+Tel: +36 12886Danmark 
 Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
+Tlf: +45 44985Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
+Tel: +44 2075407Deutschland 
 TEVA GmbH 
-Tel: +49 73140 
-Nederland 
+Tel: +49 73140Nederland 
 Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
+Tel: +31 8000228Eesti 
 UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
+Tel: +372 6610Norge 
 Teva Norway AS 
-Tlf: +47 66775 </p>
-<p>Specifar A.B.E.E. 
- : +30 2118805 
- sterreich 
+Tlf: +47 66775<br />
+Specifar A.B.E.E. 
+ : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-Espa a 
+Tel: +43 1970Espa a 
 Nordic Pharma, S.A.U. 
-Tel.: +34 916404 
-Polska 
+Tel.: +34 916404Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
+Tel: +48 223459France 
 Teva Sant<br />
-T l: +33 155917 
-Portugal 
+T l: +33 155917Portugal 
 Teva Pharma - Produtos Farmac uticos, Lda. 
-Tel: +351 214767 
-Hrvatska 
+Tel: +351 214767Hrvatska 
 Pliva Hrvatska d.o.o. 
-Tel: + 385 13720 
-Rom nia 
+Tel: + 385 13720Rom nia 
 Teva Pharmaceuticals S.R.L 
-Tel: +40 212306 
-Ireland 
+Tel: +40 212306Ireland 
 Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
+Tel: +44 2075407Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
- sland 
+Tel: +386 15890 sland 
 Teva Pharma Iceland ehf. 
-S mi: +354 5503 
-Slovensk  republika 
+S mi: +354 5503Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
+Tel: +421 257267Italia 
 Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
+Tel: +39 028917Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 </p>
-<p>Specifar A.B.E.E. 
+Puh/Tel: +358 201805<br />
+Specifar A.B.E.E. 
 Sverige 
 Teva Sweden AB </p>
-<p>: +30 2118805 
-Tel: +46 42121 
-Latvija 
+<p>: +30 2118805Tel: +46 42121Latvija 
 UAB Teva Baltics fili le Latvij<br />
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
+Tel: +371 67323United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 
-Tel: +44 2075407 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 2075407This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-682a1ddf5b561c3896c1e826a81d2aed
 InstanceOf: CompositionUvEpi
 Title: "Composition for sevelamer Package Leaflet"
 Description:  "Composition for sevelamer Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Sevelamer carbonate Winthrop is and what it is used for 
 2. What you need to know before you take Sevelamer carbonate Winthrop 
 3. How to take Sevelamer carbonate Winthrop 
 4. Possible side effects 
 5. How to store Sevelamer carbonate Winthrop 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -155,8 +154,8 @@ Sevelamer carbonate Winthrop.  Your doctor may monitor the phosphate level in yo
 regular basis. </p>
 <p>In some cases where Sevelamer carbonate Winthrop should be taken at the same time as another medicine, 
 your doctor may advise you to take this medicine 1 hour before or 3 hours after Sevelamer carbonate 
-Winthrop intake. Your doctor may also consider monitoring the levels of that medicine in your blood. </p>
-<p>Pregnancy and breast-feeding 
+Winthrop intake. Your doctor may also consider monitoring the levels of that medicine in your blood. 
+Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask your 
 doctor for advice before taking this medicine.<br />
 The potential risk of Sevelamer carbonate Winthrop during human pregnancy is unknown. Talk to your 
@@ -290,88 +289,63 @@ Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-T l/Tel: + 32 2 710 54<br />
-Lietuva 
+T l/Tel: + 32 2 710 54 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91  </p>
-<p>Swixx Biopharma EOOD 
- .: +359 (0)2 4942<br />
-Magyarorsz g 
+Tel: +370 5 236 91 <br />
+Swixx Biopharma EOOD 
+ .: +359 (0)2 4942 Magyarorsz g 
 SANOFI-AVENTIS Zrt 
 Tel: +36 1 505 0 esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Malta 
+Tel: +420 233 086 Malta 
 Sanofi S.r.l. 
-Tel: +39 02 39394 
-Danmark<br />
+Tel: +39 02 39394Danmark<br />
 Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Nederland 
+Tlf: +45 45 16 70 Nederland 
 Sanofi B.V.<br />
-Tel: +31 20 245 4 </p>
-<p>Deutschland 
+Tel: +31 20 245 4Deutschland 
 Sanofi-Aventis Deutschland GmbH 
-Tel: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
-Norge 
+Tel: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21 Norge 
 sanofi-aventis Norge AS 
-Tlf: + 47 67 10 71<br />
-Eesti 
+Tlf: + 47 67 10 71 Eesti 
 Swixx Biopharma O <br />
-Tel: +372 640 10<br />
- sterreich 
+Tel: +372 640 10  sterreich 
 sanofi-aventis GmbH 
 Tel: + 43 1 80 185 - 0 </p>
 <p>Sanofi-Aventis   AEBE 
- : +30 210 900 1 
-Polska 
+ : +30 210 900 1Polska 
 sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00<br />
-Espa a 
+Tel.: +48 22 280 00 Espa a 
 sanofi-aventis, S.A. 
-Tel: +34 93 485 94 <br />
-Portugal 
+Tel: +34 93 485 94 Portugal 
 Sanofi   Produtos Farmac uticos, Lda.. 
-Tel: +351 21 35 89<br />
-France 
+Tel: +351 21 35 89 France 
 Sanofi Winthrop Industrie 
-T l : 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
-Rom nia 
+T l : 0 800 222 Appel depuis l tranger : +33 1 57 63 23 Rom nia 
 Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31 36  </p>
-<p>Hrvatska 
+Tel: +40 (0) 21 317 31 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-Slovenija 
+Tel: +385 1 2078 Slovenija 
 Swixx Biopharma d.o.o.<br />
-Tel: +386 1 235 51<br />
-Ireland 
+Tel: +386 1 235 51 Ireland 
 sanofi-aventis Ireland Ltd T/A SANOFI 
-Tel: +353 (0) 1 4035 600  </p>
-<p>Slovensk  republika 
+Tel: +353 (0) 1 4035 Slovensk  republika 
 Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33<br />
- sland 
+Tel: +421 2 208 33  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Suomi/Finland 
+S mi: +354 535 7Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: + 358 201 200<br />
-Italia 
+Puh/Tel: + 358 201 200 Italia 
 Sanofi S.r.l. 
-Tel: 800 536 389  </p>
-<p>Sverige 
+Tel: 800 536 Sverige 
 Sanofi AB 
 Tel: +46 (0)8 634 50 <br />
 C.A. Papaellinas Ltd. 
- : +357 22 741 
-Latvija 
+ : +357 22 741Latvija 
 Swixx Biopharma SIA<br />
-Tel: +371 6 616 47<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 
-This leaflet was last revised in  </p>
+Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other sources of information  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

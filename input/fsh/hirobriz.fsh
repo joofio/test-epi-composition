@@ -4,7 +4,7 @@ Instance: composition-en-622a07d3e5a04e7612a8bd99c6c58083
 InstanceOf: CompositionUvEpi
 Title: "Composition for hirobriz Package Leaflet"
 Description:  "Composition for hirobriz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Hirobriz Breezhaler is and what it is used for 
 2. What you need to know before you use Hirobriz Breezhaler 
 3. How to use Hirobriz Breezhaler 
 4. Possible side effects 
 5. How to store Hirobriz Breezhaler 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -149,8 +149,8 @@ capsules should remain in the blister until you need to use them. </p>
 <p>Dispose of each inhaler after 30 days of use. </p>
 <p>Do not swallow the capsules. </p>
 <p>Please read the instructions at the end of this leaflet for more information about how to 
-use the inhaler. </p>
-<p>If you use more Hirobriz Breezhaler than you should 
+use the inhaler. 
+If you use more Hirobriz Breezhaler than you should 
 If you have inhaled too much Hirobriz Breezhaler or if someone else uses your capsules, tell your 
 doctor immediately or go to the nearest emergency unit. Show the pack of Hirobriz Breezhaler. 
 Medical attention may be needed. You may notice that your heart is beating faster than usual, or you 
@@ -253,8 +253,8 @@ Carton containing 30 capsules and 1 inhaler.
 Multipack comprising 2 packs (each containing 30 capsules and 1 inhaler). 
 Multipack comprising 3 packs (each containing 30 capsules and 1 inhaler). 
 Multipack comprising 30 packs (each containing 10 capsules and 1 inhaler). </p>
-<p>Not all pack sizes or strengths may be available in your country. </p>
-<p>Marketing Authorisation Holder 
+<p>Not all pack sizes or strengths may be available in your country. 
+Marketing Authorisation Holder 
 Novartis Europharm Limited 
 Vista Building 
 Elm Park, Merrion Road 
@@ -271,24 +271,19 @@ Spain </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
-Lietuva 
+T l/Tel: +32 2 246 16 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
-Tel: +370 5 269 16  </p>
-<p>Novartis Bulgaria EOOD 
- .: +359 2 489 98<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ .: +359 2 489 98 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
- esk  republika 
+T l/Tel: +32 2 246 16  esk  republika 
 Novartis s.r.o. 
-Tel: +420 225 775<br />
-Magyarorsz g 
+Tel: +420 225 775 Magyarorsz g 
 Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
-Tlf: +45 39 16 84<br />
-Malta 
+Tlf: +45 39 16 84 Malta 
 Novartis Pharma Services Inc. 
 Tel: +356 2122 2Deutschland 
 Novartis Pharma GmbH 
@@ -297,58 +292,46 @@ Tel: +49 911 273 0 </p>
 Novartis Pharma B.V. 
 Tel: +31 88 04 52 Eesti 
 SIA Novartis Baltics Eesti filiaal 
-Tel: +372 66 30<br />
-Norge 
+Tel: +372 66 30 Norge 
 Novartis Norge AS 
 Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
- : +30 210 281 17<br />
- sterreich 
+ : +30 210 281 17  sterreich 
 Novartis Pharma GmbH 
 Tel: +43 1 86 6Espa a 
 Laboratorios Farmac uticos ROVI, S.A. 
-Tel.: +34 91 375 62<br />
-Polska 
+Tel.: +34 91 375 62 Polska 
 Novartis Poland Sp. z o.o. 
 Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
-T l: +33 1 55 47 66<br />
-Portugal 
+T l: +33 1 55 47 66 Portugal 
 Novartis Farma - Produtos Farmac uticos, S.A. 
 Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274<br />
-Rom nia 
+Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
-Tel: +353 1 260 12<br />
-Slovenija 
+Tel: +353 1 260 12 Slovenija 
 Novartis Pharma Services Inc. 
 Tel: +386 1 300 75  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Novartis Slovakia s.r.o. 
-Tel: +421 2 5542 5 
-Italia 
+Tel: +421 2 5542 5Italia 
 Novartis Farma S.p.A. 
 Tel: +39 02 96 54 1 
 Suomi/Finland 
 Novartis Finland Oy 
-Puh/Tel: +358 (0)10 6133  </p>
-<p>Novartis Pharma Services Inc. 
- : +357 22 690<br />
-Sverige 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
 Novartis Sverige AB 
-Tel: +46 8 732 32<br />
-Latvija 
+Tel: +46 8 732 32 Latvija 
 SIA Novartis Baltics 
-Tel: +371 67 887<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
 Novartis Ireland Limited 
-Tel: +44 1276 698 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu 

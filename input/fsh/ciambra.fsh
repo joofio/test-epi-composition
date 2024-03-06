@@ -4,7 +4,7 @@ Instance: composition-en-0229c66f6a287008163b8e1f43423a91
 InstanceOf: CompositionUvEpi
 Title: "Composition for ciambra Package Leaflet"
 Description:  "Composition for ciambra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What CIAMBRA is and what it is used for  
-2. What you need to know before you use CIAMBRA  
-3. How to use CIAMBRA  
-4. Possible side effects  
-5. How to store CIAMBRA  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What CIAMBRA is and what it is used for  </li>
+<li>What you need to know before you use CIAMBRA  </li>
+<li>How to use CIAMBRA  </li>
+<li>Possible side effects  </li>
+<li>How to store CIAMBRA  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -134,8 +134,8 @@ treatment with CIAMBRA and for 6 months after receiving the last dose. </p>
 Breast-feeding must be discontinued during treatment with CIAMBRA. </p>
 <p>Fertility </p>
 <p>Men are advised not to father a child during and up to  3 months following treatment with CIAMBRA 
-and should therefore use effective contraception during treatment with CIAMBRA and for up to  3 </p>
-<p>months afterwards. If you would like to father a child during the treatment or in the  3 months 
+and should therefore use effective contraception during treatment with CIAMBRA and for up to  3 
+months afterwards. If you would like to father a child during the treatment or in the  3 months 
 following receipt of treatment, seek advice from your doctor or pharmacist. CIAMBRA can affect 
 your ability to have children. Talk to your doctor to seek advice about sperm storage before starting 
 your therapy.  </p>
@@ -239,8 +239,8 @@ cornea (the clear layer in front of the iris and pupil.
 Swelling of the eyelids 
 Eye disorder with dryness, tearing, irritation, and/or pain 
 Cardiac Failure (Condition that affects the pumping power of your heart muscles) 
-Irregular heart rhythm </p>
-<p>Indigestion 
+Irregular heart rhythm 
+Indigestion 
 Constipation 
 Abdominal pain 
 Liver: increases in the chemicals in the blood made by the liver<br />
@@ -291,8 +291,8 @@ Toxic epidermal necrolysis (a type of severe skin reaction that may be life thre
 Autoimmune disorder that results in skin rashes and blistering on the legs, arms, and abdomen 
 Inflammation of the skin characterized by the presence of bullae which are filled with fluid 
 Skin fragility, blisters and erosions and skin scarring 
-Redness, pain and swelling mainly of the lower limbs </p>
-<p>Inflammation of the skin and fat beneath the skin (pseudocellulitis) 
+Redness, pain and swelling mainly of the lower limbs 
+Inflammation of the skin and fat beneath the skin (pseudocellulitis) 
 Inflammation of the skin (dermatitis) 
 Skin to become inflamed, itchy, red, cracked, and rough 
 Intensely itchy spots  </p>
@@ -366,8 +366,7 @@ Am Pharmapark
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: 
 AT A. Menarini Pharma GmbH Tel: +43 1 879 95 85-0 
-BE Menarini Benelux NV/SA T l/Tel: + 32 (0)2 721 4BG  - / .        .: +359 2 454 0CY MENARINI HELLAS AE  : +30 210 8316111-CZ Berlin-Chemie/A.Menarini Ceska republika s.r.o. Tel: +420 267 199 DE Berlin-Chemie AG Tel: +49 (0) 30 67DK Berlin-Chemie/A.Menarini Danmark ApS Tlf: +4548 217 EE O  Berlin-Chemie Menarini Eesti Tel: +372 667 5ES Laboratorios Menarini S.A. Tel: +34-93 462 88 FI Berlin-Chemie/A.Menarini Suomi OY Puh/Tel: +358 403 000 FR MENARINI France T l: +33 (0)1 45 60 77 GR MENARINI HELLAS AE  : +30 210 8316111-HR Berlin-Chemie Menarini Hrvatska d.o.o. Tel: + 385 1 4821 HU Berlin-Chemie/A. Menarini Kft. Tel.: +36 1799 7IE A. Menarini Pharmaceuticals Ltd Tel: +353 1 284 6IS Menarini International Operations Luxembourg S.A. S mi: +352 264IT A. Menarini Industrie Farmaceutiche Riunite s.r.l. Tel: +39-055 56LT UAB  BERLIN-CHEMIE MENARINI BALTIC  Tel: +370 52 691 LU Menarini Benelux NV/SA T l/Tel: + 32 (0)2 721 4LV SIA Berlin-Chemie/Menarini Baltic Tel: +371 67103MT Menarini International Operations Luxembourg S.A. Tel: +352 264NO Menarini International Operations Luxembourg S.A. Tlf: +352 264NL Menarini Benelux NV/SA Tel: +32 (0)2 721 4PL Berlin-Chemie/Menarini Polska Sp. z o.o. Tel.: +48 22 566 21 PT A. Menarini Portugal   Farmac utica, S.A. Tel: +351 210 935 RO Berlin-Chemie A.Menarini S.R.L. Tel: +40 21 232 34 SE Menarini International Operations Luxembourg S.A. Tel: +352 264SK Berlin-Chemie / A. Menarini Distribution Slovakia s.r.o.  Tel: +421 2 544 30 SI Berlin-Chemie / A. Menarini Distribution Ljubljana d.o.o. Tel: +386 01 300 2UK A. Menarini Farmaceutica Internazionale S.R.L. Tel: +44 (0)1628 856 </p>
-<p>This leaflet was last revised in  </p>
+BE Menarini Benelux NV/SA T l/Tel: + 32 (0)2 721 4BG  - / .        .: +359 2 454 0CY MENARINI HELLAS AE  : +30 210 8316111-CZ Berlin-Chemie/A.Menarini Ceska republika s.r.o. Tel: +420 267 199 DE Berlin-Chemie AG Tel: +49 (0) 30 67DK Berlin-Chemie/A.Menarini Danmark ApS Tlf: +4548 217 EE O  Berlin-Chemie Menarini Eesti Tel: +372 667 5ES Laboratorios Menarini S.A. Tel: +34-93 462 88 FI Berlin-Chemie/A.Menarini Suomi OY Puh/Tel: +358 403 000 FR MENARINI France T l: +33 (0)1 45 60 77 GR MENARINI HELLAS AE  : +30 210 8316111-HR Berlin-Chemie Menarini Hrvatska d.o.o. Tel: + 385 1 4821 HU Berlin-Chemie/A. Menarini Kft. Tel.: +36 1799 7IE A. Menarini Pharmaceuticals Ltd Tel: +353 1 284 6IS Menarini International Operations Luxembourg S.A. S mi: +352 264IT A. Menarini Industrie Farmaceutiche Riunite s.r.l. Tel: +39-055 56LT UAB  BERLIN-CHEMIE MENARINI BALTIC  Tel: +370 52 691 LU Menarini Benelux NV/SA T l/Tel: + 32 (0)2 721 4LV SIA Berlin-Chemie/Menarini Baltic Tel: +371 67103MT Menarini International Operations Luxembourg S.A. Tel: +352 264NO Menarini International Operations Luxembourg S.A. Tlf: +352 264NL Menarini Benelux NV/SA Tel: +32 (0)2 721 4PL Berlin-Chemie/Menarini Polska Sp. z o.o. Tel.: +48 22 566 21 PT A. Menarini Portugal   Farmac utica, S.A. Tel: +351 210 935 RO Berlin-Chemie A.Menarini S.R.L. Tel: +40 21 232 34 SE Menarini International Operations Luxembourg S.A. Tel: +352 264SK Berlin-Chemie / A. Menarini Distribution Slovakia s.r.o.  Tel: +421 2 544 30 SI Berlin-Chemie / A. Menarini Distribution Ljubljana d.o.o. Tel: +386 01 300 2UK A. Menarini Farmaceutica Internazionale S.R.L. Tel: +44 (0)1628 856This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

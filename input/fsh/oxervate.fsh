@@ -4,7 +4,7 @@ Instance: composition-en-f9944720e0617f59c4092a55c234abd3
 InstanceOf: CompositionUvEpi
 Title: "Composition for oxervate Package Leaflet"
 Description:  "Composition for oxervate Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What OXERVATE is and what it is used for 
-2. What you need to know before you use OXERVATE 
-3. How to use OXERVATE 
-4. Possible side effects 
-5. How to store OXERVATE 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What OXERVATE is and what it is used for </li>
+<li>What you need to know before you use OXERVATE </li>
+<li>How to use OXERVATE </li>
+<li>Possible side effects </li>
+<li>How to store OXERVATE </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -102,8 +102,8 @@ cetrimide). Eye drops containing these substances could slow down or interfere w
 of your eye and should therefore be avoided during treatment with this medicine.  </li>
 </ul>
 <p>Treatment with OXERVATE may cause you mild to moderate eye discomfort such as eye pain. If you 
-experience a severe eye reaction seek medical advice from your doctor.  </p>
-<p>Contact lenses could interfere with the correct use of this medicine. If you wear contact lenses remove 
+experience a severe eye reaction seek medical advice from your doctor.<br />
+Contact lenses could interfere with the correct use of this medicine. If you wear contact lenses remove 
 them before using this medicine and wait 15 minutes after using this medicine before reinserting 
 them. </p>
 <p>Children and adolescents 
@@ -149,19 +149,17 @@ any case no later than 5 hours from when you receive the medicine from your phar
 pharmacy this medicine is stored in a freezer, in case treatment is started right away after receiving the 
 weekly carton, you will have to wait until the first vial is thawed (this could take up to 30 minutes). </p>
 <p>Take an individual vial of this medicine from the fridge in the morning (always at the same time each 
-morning), and prepare it in the following way: </p>
-<ul>
-<li>Wash your hands. </li>
-<li>If you wear contact lenses, take them out before using the drops and wait 15 minutes after 
-using this medicine before reinserting them. </li>
-<li>Remove the plastic flip-off cap from the vial (picture 1). </li>
-<li>Peel-off the back of the vial adapter blister pack (picture 2). </li>
-<li>Without removing the vial adapter from its blister pack, connect it to the vial by firmly pushing 
+morning), and prepare it in the following way: 
+* Wash your hands. 
+* If you wear contact lenses, take them out before using the drops and wait 15 minutes after 
+using this medicine before reinserting them. 
+* Remove the plastic flip-off cap from the vial (picture 1). 
+* Peel-off the back of the vial adapter blister pack (picture 2). 
+* Without removing the vial adapter from its blister pack, connect it to the vial by firmly pushing 
 it down until it snaps into place over the neck of the vial. The spike of the vial adapter should 
 pierce through the vial s rubber stopper. Once the vial adapter has been connected correctly, it 
-should not be removed from the vial (picture 3). </li>
-<li>Remove and discard the packaging of the vial adapter. </li>
-</ul>
+should not be removed from the vial (picture 3). 
+* Remove and discard the packaging of the vial adapter. </p>
 <p>1 </p>
 <p>2 </p>
 <p>3 </p>
@@ -183,22 +181,22 @@ stops, to draw the solution into the pipette. Ensure the plunger has reached the
 <p>6 </p>
 <ul>
 <li>Check the pipette to ensure it contains the eye drops, solution. Air bubbles may cause blockage 
-and prevent the pipette from filling properly (especially at first withdrawal). If the pipette is </li>
-</ul>
-<p>empty, keep the vial with the connected pipette upside-down, push the plunger all the way in 
-and pull it out again. 
-* Once it has been correctly filled, unscrew the pipette from the connector part of the vial adapter. 
-* Holding the pipette, pointing down, between your middle finger and thumb, tilt your head back 
+and prevent the pipette from filling properly (especially at first withdrawal). If the pipette is 
+empty, keep the vial with the connected pipette upside-down, push the plunger all the way in 
+and pull it out again. </li>
+<li>Once it has been correctly filled, unscrew the pipette from the connector part of the vial adapter. </li>
+<li>Holding the pipette, pointing down, between your middle finger and thumb, tilt your head back 
 and position the pipette above your affected eye. Pull down your lower eyelid with a finger, 
 which detaches from the eye and forms a cavity. Gently push the plunger in until a single drop 
 is dropped into the conjunctival fornix (picture 7). Make sure you do not touch your eye with 
-the tip of the pipette. 
-* With your head still tilted back, close your eye a few times so that the medicine covers the 
-surface of your eye and stay in your eye. 
-* Immediately discard the used pipette after use, even if there is still some liquid left in it. 
-* If a drop misses your eye, try again, using a new pipette and wipe. 
-* After each use throughout the day, wash your hands, and place the vial back in the fridge (or 
-keep it below 25  C) for the rest of the day, with the vial adapter still connected. </p>
+the tip of the pipette. </li>
+<li>With your head still tilted back, close your eye a few times so that the medicine covers the 
+surface of your eye and stay in your eye. </li>
+<li>Immediately discard the used pipette after use, even if there is still some liquid left in it. </li>
+<li>If a drop misses your eye, try again, using a new pipette and wipe. </li>
+<li>After each use throughout the day, wash your hands, and place the vial back in the fridge (or 
+keep it below 25  C) for the rest of the day, with the vial adapter still connected. </li>
+</ul>
 <p>7</p>
 <p>Repeat the above process (from picture 4 onwards) every 2 hours 6 times a day. Use a new 
 disinfectant wipe and a new pipette each time. </p>
@@ -220,8 +218,8 @@ likely to be harmful.  Continue with your next dose as scheduled. </p>
 Continue with your next dose as scheduled. Do not use a double dose to make up for the forgotten 
 dose. You can give the missed dose 2 hours after your last scheduled dose of the day, provided this is 
 still within 12 hours from first opening the daily vial. Do not use more than 6 drops each day in the 
-affected eye(s). </p>
-<p>If you stop using OXERVATE<br />
+affected eye(s). 
+If you stop using OXERVATE<br />
 The lesion or ulcer in your eye will worsen and could lead to infections or impaired vision. Speak to 
 your doctor first if you intend to stop using OXERVATE. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
@@ -270,8 +268,8 @@ this medicine. </p>         </div>"""
 <p>Store the weekly carton containing 7 vials of OXERVATE in the fridge (2-8  C). </p>
 <p>After the vial adapter is connected to the vial, it can be stored in the fridge or below 25  C. Discard the 
 used vial at the end of the day (even if there is still some liquid left in it), and in any case no later than 
-12 hours from the time you connected the vial adapter to it. </p>
-<p>The pipettes included in the delivery system are single-use only. Each pipette should be discarded 
+12 hours from the time you connected the vial adapter to it. 
+The pipettes included in the delivery system are single-use only. Each pipette should be discarded 
 immediately after using, even if there is still some liquid left in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      

@@ -4,7 +4,7 @@ Instance: composition-en-d5d8894da2fa70f6a957a74ada445d1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for xadago Package Leaflet"
 Description:  "Composition for xadago Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Xadago is and what it is used for  
-2. What you need to know before you take Xadago 
-3. How to take Xadago 
-4. Possible side effects  
-5. How to store Xadago 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Xadago is and what it is used for  </li>
+<li>What you need to know before you take Xadago </li>
+<li>How to take Xadago </li>
+<li>Possible side effects  </li>
+<li>How to store Xadago </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -281,48 +281,37 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Zambon N.V./S.A.<br />
-T l/Tel: + 32 2 777 02<br />
-France 
+T l/Tel: + 32 2 777 02 France 
 Zambon France S.A. 
-T l: + 33 (0)1 58 04 41<br />
- / Eesti/<br />
+T l: + 33 (0)1 58 04 41  / Eesti/<br />
 Ireland/ sland/ /Latvija/ Malta/Polska/ 
 Rom nia/ / United Kingdom (Northern Ireland) <br />
 Zambon S.p.A. 
-Te ./Tel/ /S mi: + 39 02665 </p>
-<p>Italia 
+Te ./Tel/ /S mi: + 39 02665Italia 
 Zambon Italia S.r.l. 
-Tel: + 39 02665 
-Danmark/Norge/Suomi/Finland/Sverige 
+Tel: + 39 02665Danmark/Norge/Suomi/Finland/Sverige 
 Zambon Sweden, Filial of Zambon Nederland B.V. 
-Tlf/Puh/Tel: + 46 10 33 50<br />
-Nederland 
+Tlf/Puh/Tel: + 46 10 33 50 Nederland 
 Zambon Nederland B.V. 
-Tel: + 31 (0) 20 3085185  </p>
-<p>Deutschland/ sterreich 
+Tel: + 31 (0) 20 3085Deutschland/ sterreich 
 Zambon GmbH 
-Tel: 00800 92626 
-Portugal 
+Tel: 00800 92626Portugal 
 Zambon - Produtos Farmac uticos, Lda. 
 Tel: + 351 217 600 952 / 217 600 Espa a 
 Zambon, S.A.U. 
 Tel: + 34 93 544 64 Hrvatska/Slovenija 
 SALUS, Veletrgovina, d.o.o. 
-Tel: + 386 1 5899<br />
- esk  republika 
+Tel: + 386 1 5899  esk  republika 
 Desitin Pharma spol. s r.o. 
-Tel: + 420 222 245<br />
-Slovensk  republika 
+Tel: + 420 222 245 Slovensk  republika 
 Desitin Pharma s.r.o.<br />
-Tel: + 421 2 5556 3 </p>
-<p>Innovis Pharma A.E.B.E. 
+Tel: + 421 2 5556 3<br />
+Innovis Pharma A.E.B.E. 
  :+ 30 216 200 5Magyarorsz g<br />
 Richter Gedeon Nyrt. 
-Tel.: +36 1 505 7032<br />
-Lietuva 
+Tel.: +36 1 505 7Lietuva 
 UAB  Norameda <br />
-Tel: + 370 5 2306 
-This leaflet was last revised in . </p>
+Tel: + 370 5 2306This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

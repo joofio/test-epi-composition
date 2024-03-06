@@ -4,7 +4,7 @@ Instance: composition-en-8774c315768c11f1f8299f9a299778e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for abasaglar Package Leaflet"
 Description:  "Composition for abasaglar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ABASAGLAR is and what it is used for  
-2. What you need to know before you use ABASAGLAR 
-3. How to use ABASAGLAR 
-4. Possible side effects  
-5. How to store ABASAGLAR 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ABASAGLAR is and what it is used for  </li>
+<li>What you need to know before you use ABASAGLAR </li>
+<li>How to use ABASAGLAR </li>
+<li>Possible side effects  </li>
+<li>How to store ABASAGLAR </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -96,8 +96,8 @@ The injection site should be rotated to prevent skin changes such as lumps under
 may not work well if you inject into a lumpy area (See How to use Abasaglar). Contact your doctor if 
 you are currently injecting into a lumpy area before you start injecting into a different area. Your 
 doctor may tell you to check your blood sugar more closely, and to adjust your insulin or your other 
-antidiabetic medications dose. </p>
-<p>Travel 
+antidiabetic medications dose. 
+Travel 
 Before travelling consult your doctor. You may need to talk about:</p>
 <ul>
 <li>the availability of your insulin in the country you are visiting, </li>
@@ -389,94 +389,65 @@ Eli Lilly Italia S.p.A., Via Gramsci 731-733, 50019 Sesto Fiorentino, (FI) Italy
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Eli Lilly Benelux S.A./N.V. 
-T l/Tel: + 32-(0)2 548 84<br />
-Lietuva 
+T l/Tel: + 32-(0)2 548 84 Lietuva 
 Eli Lilly Lietuva 
-Tel. +370 (5) 2649 </p>
-<p>"     "  . . - <br />
- . +359 2 491 41<br />
-Luxembourg/Luxemburg 
+Tel. +370 (5) 2649<br />
+  "     "  . . - <br />
+ . +359 2 491 41 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-T l/Tel: + 32-(0)2 548 84<br />
- esk  republika 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
 ELI LILLY  R, s.r.o. 
-Tel: + 420 234 664<br />
-Magyarorsz g 
+Tel: + 420 234 664 Magyarorsz g 
 Lilly Hung ria Kft. 
-Tel: + 36 1 328 5 
-Danmark 
+Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S<br />
-Tlf: +45 45 26 60<br />
-Malta 
+Tlf: +45 45 26 60 Malta 
 Charles de Giorgio Ltd. 
-Tel: + 356 25600<br />
-Deutschland 
+Tel: + 356 25600 Deutschland 
 Lilly Deutschland GmbH 
-Tel. + 49-(0) 6172 273 2 
-Nederland 
+Tel. + 49-(0) 6172 273 2Nederland 
 Eli Lilly Nederland B.V.<br />
-Tel: + 31-(0) 30 60 25<br />
-Eesti 
+Tel: + 31-(0) 30 60 25 Eesti 
 Eli Lilly Nederland B.V. 
-Tel: +372 6 817<br />
-Norge 
+Tel: +372 6 817 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18  </p>
-<ul>
-<li>. . . .<br />
- : +30 210 629 4 
- sterreich 
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 sterreich 
 Eli Lilly Ges.m.b.H.<br />
-Tel: + 43-(0) 1 711<br />
-Espa a 
+Tel: + 43-(0) 1 711 Espa a 
 Lilly S.A. 
-Tel: + 34-91 663 50<br />
-Polska 
+Tel: + 34-91 663 50 Polska 
 Eli Lilly Polska Sp. z o.o. 
-Tel: +48 22 440 33<br />
-France 
+Tel: +48 22 440 33 France 
 Lilly France<br />
-T l: +33-(0) 1 55 49 34<br />
-Portugal 
+T l: +33-(0) 1 55 49 34 Portugal 
 Lilly Portugal Produtos Farmac uticos, Lda 
-Tel: + 351-21-4126 
-Hrvatska 
+Tel: + 351-21-4126Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
-Tel: +385 1 2350<br />
-Rom nia 
+Tel: +385 1 2350 Rom nia 
 Eli Lilly Rom nia S.R.L. 
-Tel: + 40 21 4023 
-Ireland 
+Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 
-Slovenija 
+Tel: + 353-(0) 1 661 4Slovenija 
 Eli Lilly farmacevtska dru ba, d.o.o. 
-Tel: +386 (0)1 580 00<br />
- sland 
+Tel: +386 (0)1 580 00  sland 
 Icepharma hf. 
-S mi + 354 540 8 
-Slovensk  republika 
+S mi + 354 540 8Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
-Tel: + 421 220 663<br />
-Italia 
+Tel: + 421 220 663 Italia 
 Eli Lilly Italia S.p.A. 
-Tel: + 39- 055 42 
-Suomi/Finland 
+Tel: + 39- 055 42Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45  </li>
-</ul>
-<p>Phadisco Ltd<br />
- : +357 22 715 </p>
-<p>Sverige 
+Puh/Tel: + 358-(0) 9 85 45 <br />
+Phadisco Ltd<br />
+ : +357 22 715Sverige 
 Eli Lilly Sweden AB 
-Tel: + 46-(0) 8 7378 
-Latvija 
+Tel: + 46-(0) 8 7378Latvija 
 Eli Lilly (Suisse) S.A P rst vniec ba Latvij  Tel: 
-+371 67364 
-United Kingdom (Northern Ireland) 
++371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 
-This leaflet was last revised in  </p>
+Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

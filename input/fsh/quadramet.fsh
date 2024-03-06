@@ -4,7 +4,7 @@ Instance: composition-en-08cf6fb4c3e579390e3141196404b03b
 InstanceOf: CompositionUvEpi
 Title: "Composition for quadramet Package Leaflet"
 Description:  "Composition for quadramet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Quadramet is and what it is used for 
-2. What you need to know before you take Quadramet 
-3. How to take Quadramet 
-4. Possible side effects 
-5. How to store Quadramet 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Quadramet is and what it is used for </li>
+<li>What you need to know before you take Quadramet </li>
+<li>How to take Quadramet </li>
+<li>Possible side effects </li>
+<li>How to store Quadramet </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

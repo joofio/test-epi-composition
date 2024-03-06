@@ -4,7 +4,7 @@ Instance: composition-en-feeed9880dec4a6641451397ef875739
 InstanceOf: CompositionUvEpi
 Title: "Composition for xelevia Package Leaflet"
 Description:  "Composition for xelevia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Xelevia is and what it is used for
 2. What you need to know before you take Xelevia
 3. How to take Xelevia
 4. Possible side effects
 5. How to store Xelevia
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]

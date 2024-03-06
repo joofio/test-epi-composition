@@ -4,7 +4,7 @@ Instance: composition-en-fcac0917e849c1f92a8946a3de74e720
 InstanceOf: CompositionUvEpi
 Title: "Composition for talzenna Package Leaflet"
 Description:  "Composition for talzenna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Talzenna is and what it is used for  
-2. What you need to know before you take Talzenna  
-3. How to take Talzenna  
-4. Possible side effects  
-5. How to store Talzenna  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Talzenna is and what it is used for  </li>
+<li>What you need to know before you take Talzenna  </li>
+<li>How to take Talzenna  </li>
+<li>Possible side effects  </li>
+<li>How to store Talzenna  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -195,11 +195,11 @@ Talzenna is taken by mouth once daily. The recommended dose is:</p>
 <ul>
 <li>for breast cancer: one 1 mg capsule of Talzenna. </li>
 <li>for prostate cancer: Talzenna is taken with a medicine called enzalutamide. The usual dose of 
-Talzenna is 0.5 mg (two 0.25 mg capsules). </li>
-</ul>
-<p>If you get certain side effects while you are taking Talzenna alone or in combination with 
+Talzenna is 0.5 mg (two 0.25 mg capsules). 
+If you get certain side effects while you are taking Talzenna alone or in combination with 
 enzalutamide (see section 4), your doctor may lower your dose or stop treatment, either temporarily or 
-permanently. Take Talzenna and enzalutamide exactly as your doctor has told you.  </p>
+permanently. Take Talzenna and enzalutamide exactly as your doctor has told you.  </li>
+</ul>
 <p>Swallow the capsule whole with a glass of water. Do not chew or crush the capsules. You can take 
 Talzenna with food or between meals. Do not open the capsules. Contact with the capsule content 
 should be avoided. </p>
@@ -296,8 +296,8 @@ iron oxide (E172). </li>
 oxide (E172) and potassium hydroxide (E525). </p>
 <p>What Talzenna looks like and contents of the pack 
 Talzenna 0.1 mg is supplied as opaque, approximately 14 mm   5 mm hard capsule with a white cap 
-(printed with  Pfizer  in black) and a white body (printed with  TLZ 0.1  in black). </p>
-<p>Talzenna 0.25 mg is supplied as opaque, approximately 14 mm   5 mm hard capsule with an ivory cap 
+(printed with  Pfizer  in black) and a white body (printed with  TLZ 0.1  in black). 
+Talzenna 0.25 mg is supplied as opaque, approximately 14 mm   5 mm hard capsule with an ivory cap 
 (printed with  Pfizer  in black) and a white body (printed with  TLZ 0.25  in black). </p>
 <p>Talzenna 1 mg is supplied as opaque, approximately 14 mm   5 mm hard capsule with a light red cap 
 (printed with  Pfizer  in black) and a white body (printed with  TLZ 1  in black). </p>
@@ -313,8 +313,7 @@ Boulevard de la Plaine 1050 Bruxelles
 Belgium </p>
 <p>Manufacturer 
 Excella GmbH &amp; Co. KG<br />
-N rnberger Strasse 12<br />
-90537 Feucht<br />
+N rnberger Strasse 90537 Feucht<br />
 Germany </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
@@ -333,16 +332,13 @@ Tel: +420 283 004 Malta
 Vivian Corporation Ltd 
 Tel: +356 21344Danmark 
 Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Nederland 
+Tlf: +45 44 20 11 Nederland 
 Pfizer bv 
 Tel: +31 (0)800 63 34 Deutschland 
 PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055-51<br />
-Norge 
+Tel: +49 (0)30 550055-51Norge 
 Pfizer AS 
-Tlf: +47 67 52 61<br />
-Eesti 
+Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal<br />
 Tel: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
@@ -350,8 +346,7 @@ Tel: +43 (0)1 521 15-0 </p>
 <p>Pfizer   A.E. 
  : +30 210 6785 Polska 
 Pfizer Polska Sp. z o.o. 
-Tel.: +48 22 335 61<br />
-Espa a 
+Tel.: +48 22 335 61 Espa a 
 Pfizer, S.L. 
 Tel: +34 91 490 99 Portugal 
 Laborat rios Pfizer, Lda.<br />
@@ -365,8 +360,7 @@ Tel: +385 1 3908 Slovenija
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel: + 386 (0)1 52 11<br />
-Ireland 
+Tel: + 386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
 +44 (0)1304 616Slovensk  republika 
@@ -385,8 +379,7 @@ Pfizer    . . (Cyprus Branch)<br />
 Pfizer Limited 
 Tel: +44 (0) 1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel: + 371 670 35  </p>
-<p>This leaflet was last revised in MM/YYYY. </p>
+Tel: + 371 670 35 This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

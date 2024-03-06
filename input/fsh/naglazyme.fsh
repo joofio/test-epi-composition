@@ -4,7 +4,7 @@ Instance: composition-en-bcfd259a4c339f09aa5b9e39f7a72d51
 InstanceOf: CompositionUvEpi
 Title: "Composition for naglazyme Package Leaflet"
 Description:  "Composition for naglazyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What this medicine is and what it is used for 
-2. What you need to know before you are given this medicine  
+2. What you need to know before you are given this medicine<br />
 3. How this medicine is given 
 4. Possible side effects 
 5. How to store this medicine 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -239,8 +239,7 @@ County Cork, P43 RIreland </p>
 <p>Manufacturer<br />
 BioMarin International Limited<br />
 Shanbally, Ringaskiddy<br />
-County Cork, P43 R298<br />
-Ireland </p>
+County Cork, P43 RIreland </p>
 <p>This leaflet was last revised in MM/YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

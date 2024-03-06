@@ -4,7 +4,7 @@ Instance: composition-en-7068e2b853db37b4eafef95f69aa4580
 InstanceOf: CompositionUvEpi
 Title: "Composition for firmagon Package Leaflet"
 Description:  "Composition for firmagon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
- 
-1. What FIRMAGON is and what it is used for 
-2. What you need to know before you use FIRMAGON 
-3. How to use FIRMAGON 
-4. Possible side effects 
-5. How to store FIRMAGON 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+<ol>
+<li>What FIRMAGON is and what it is used for </li>
+<li>What you need to know before you use FIRMAGON </li>
+<li>How to use FIRMAGON </li>
+<li>Possible side effects </li>
+<li>How to store FIRMAGON </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,8 +99,8 @@ cause a reduction in bone calcium (thinning of bones).  </p>
 hypersensitivity reactions. </p>
 <p>Children and adolescents 
 Do not give this medicine to children or adolescents. </p>
-<p>Other medicines and FIRMAGON </p>
-<p>FIRMAGON might interfere with some medicines used to treat heart rhythm problems (e.g. quinidine, 
+<p>Other medicines and FIRMAGON 
+FIRMAGON might interfere with some medicines used to treat heart rhythm problems (e.g. quinidine, 
 procainamide, amiodarone and sotalol) or other medicines which can have an effect on heart rhythm (e.g. 
 methadone (used for pain relief and as part of drug addiction detoxification), moxifloxacin (an antibiotic), 
 antipsychotics). </p>
@@ -201,8 +202,8 @@ away medicines you no longer use. These measures will help protect the environme
 1 ml of the reconstituted solution contains 20 mg degarelix. </p>
 <p>The other ingredient of the powder is mannitol (E 421).  </p>
 <p>The solvent is water for injections. </p>
-<p>What FIRMAGON looks like and contents of the pack </p>
-<p>FIRMAGON is a powder and solvent for solution for injection. The powder is white to off-white. The 
+<p>What FIRMAGON looks like and contents of the pack 
+FIRMAGON is a powder and solvent for solution for injection. The powder is white to off-white. The 
 solvent is a clear, colourless solution. </p>
 <p>FIRMAGON is available in 2 pack-sizes. </p>
 <p>Pack-size of 1 tray containing: 
@@ -216,8 +217,7 @@ solvent is a clear, colourless solution. </p>
 Ferring Pharmaceuticals A/S<br />
 Amager Strandvej 2770 Kastrup 
 Denmark 
-Tel. +45 8833 8 
-Manufacturer<br />
+Tel. +45 8833 8Manufacturer<br />
 Ferring GmbH 
 Wittland D-24109 Kiel 
 Germany </p>
@@ -233,8 +233,7 @@ Tel: +370 5 243 0centralpharma@centralpharma.lt </p>
 <p>Luxembourg/Luxemburg 
 Ferring N.V.<br />
 Belgique/Belgien<br />
-Tel/T l: +32 53 72 92<br />
-ferringnvsa@ferring.be  </p>
+Tel/T l: +32 53 72 92 ferringnvsa@ferring.be  </p>
 <p>esk  republika 
 Ferring Pharmaceuticals CZ s.r.o.<br />
 Tel: +420 234 701 cz1-info@ferring.com </p>
@@ -243,8 +242,7 @@ Ferring Magyarorsz g Gy gyszerkereskedelmi Kft.
 Tel: +36 1 236 3ferring@ferring.hu  </p>
 <p>Danmark 
 Ferring L gemidler A/S 
-Tlf: +45 88 16 88<br />
-Malta 
+Tlf: +45 88 16 88 Malta 
 E.J. Busuttil Ltd. 
 Tel: +356 21447info@ejbusuttil.com </p>
 <p>Deutschland 
@@ -261,8 +259,7 @@ Norge
 Ferring Legemidler AS 
 Tlf: +47 22 02 08 mail@oslo.ferring.com </p>
 <p>Ferring   ME<br />
- : +30 210 68 43 449  </p>
-<p>sterreich 
+ : +30 210 68 43  sterreich 
 Ferring Arzneimittel Ges.m.b.H. 
 Tel: +43 1 60 8office@ferring.at  </p>
 <p>Espa a 
@@ -277,14 +274,12 @@ T l: +33 1 49 08 67 information.medicale@ferring.com </p>
 <p>Portugal 
 Ferring Portuguesa   Produtos Farmac uticos, 
 Sociedade Unipessoal, Lda. 
-Tel: +351 21 940 51<br />
-Hrvatska 
+Tel: +351 21 940 51 Hrvatska 
 Clinres farmacija d.o.o. 
 Tel: +385 1 2396 info@clinres-farmacija.hr </p>
 <p>Rom nia 
 Ferring Pharmaceuticals Romania SRL<br />
-Tel: +40 356 113<br />
-Ireland 
+Tel: +40 356 113 Ireland 
 Ferring Ireland Ltd. 
 Tel: +353 1 4637EnquiriesIrelandMailbox@ferring.com </p>
 <p>Slovenija 
@@ -297,8 +292,7 @@ Ferring Slovakia s.r.o.<br />
 Tel: +421 2 54 416 SK0-Recepcia@ferring.com </p>
 <p>Italia 
 Ferring S.p.A. 
-Tel: +39 02 640 00<br />
-Suomi/Finland 
+Tel: +39 02 640 00 Suomi/Finland 
 Ferring L kkeet Oy 
 Puh/Tel: +358 207 401 info@ferring.fi </p>
 <p>A. Potamitis Medicare Ltd 

@@ -4,7 +4,7 @@ Instance: composition-en-f7d3ef50226760b75f06fdcf55be16ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for vitrakvi Package Leaflet"
 Description:  "Composition for vitrakvi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What VITRAKVI is and what it is used for 
-2. What you need to know before you take VITRAKVI 
-3. How to take VITRAKVI 
-4. Possible side effects 
-5. How to store VITRAKVI 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What VITRAKVI is and what it is used for </li>
+<li>What you need to know before you take VITRAKVI </li>
+<li>How to take VITRAKVI </li>
+<li>Possible side effects </li>
+<li>How to store VITRAKVI </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -280,8 +281,7 @@ Printing ink:</p>
 <li>Indigo carmine aluminium lake (E 132) </li>
 <li>Titanium dioxide (E 171) </li>
 <li>Propylene glycol (E 1520) </li>
-<li>Dimeticone 1 
-What VITRAKVI looks like and the contents of the bottle </li>
+<li>Dimeticone 1What VITRAKVI looks like and the contents of the bottle </li>
 <li>VITRAKVI 25 mg is supplied as white opaque hard gelatine capsule, (18 mm long x 6 mm 
 wide), with blue printing of BAYER-cross and  25 mg  on the body of the capsule  </li>
 <li>VITRAKVI 100 mg is supplied as white opaque hard gelatine capsule, (22 mm long x 7 mm 
@@ -360,8 +360,7 @@ Tel: +46 (0) 8 580 223 Latvija
 SIA Bayer 
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0)118 206 3 
-This leaflet was last revised in </p>
+Tel: +44-(0)118 206 3This leaflet was last revised in </p>
 <p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 

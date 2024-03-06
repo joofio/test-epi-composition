@@ -4,7 +4,7 @@ Instance: composition-en-9e6efceebc84a86b70285b4c52bf6209
 InstanceOf: CompositionUvEpi
 Title: "Composition for retacrit Package Leaflet"
 Description:  "Composition for retacrit Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Retacrit is and what it is used for 
-2. What you need to know before you use Retacrit 
-3. How to use Retacrit 
-4. Possible side effects 
-5. How to store Retacrit 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Retacrit is and what it is used for </li>
+<li>What you need to know before you use Retacrit </li>
+<li>How to use Retacrit </li>
+<li>Possible side effects </li>
+<li>How to store Retacrit </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -124,18 +124,7 @@ section 6). </p>
 <li>
 <p>If you have been diagnosed with Pure Red Cell Aplasia (the bone marrow cannot produce 
 enough red blood cells) after previous treatment with any product that stimulates red blood cell 
-production (including Retacrit). See section </p>
-</li>
-</ul>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take retacrit"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take retacrit"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
-<li>
-<p>If you have high blood pressure not properly controlled with medicines. </p>
+production (including Retacrit). See section 4. * If you have high blood pressure not properly controlled with medicines. </p>
 </li>
 <li>
 <p>To stimulate the production of your red blood cells (so that doctors can take more blood from 
@@ -234,13 +223,12 @@ ask your doctor or pharmacist for advice before taking this medicine.  </li>
 phenylalanine builds up because the body cannot remove it properly. </p>
 <p>Retacrit contains sodium </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take retacrit"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take retacrit"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you are 
 not sure. </p>
@@ -258,8 +246,8 @@ Retacrit yourself. </p>
 * if there has been a refrigerator failure. </p>
 <p>The dose of Retacrit you receive is based on your bodyweight in kilograms. The cause of your 
 anaemia is also a factor in your doctor deciding the correct dose. </p>
-<p>Your doctor will monitor your blood pressure regularly while you are using Retacrit. </p>
-<p>People with kidney disease </p>
+<p>Your doctor will monitor your blood pressure regularly while you are using Retacrit. 
+People with kidney disease </p>
 <ul>
 <li>Your doctor will maintain your haemoglobin level between 10 and 12 g/dL as a high 
 haemoglobin level may increase the risk of blood clots and death. In children the haemoglobin 
@@ -577,12 +565,13 @@ for a forgotten dose.  </p>
 ribavirin has led to a loss of effect and development of a condition called pure red cell aplasia 
 (PRCA), a severe form of anaemia, in rare cases. Retacrit is not approved in the management of 
 anaemia associated with hepatitis C. </p>
-<p>If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store retacrit"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store retacrit"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor or nurse immediately if you notice any of the effects in this list. </p>
@@ -591,15 +580,7 @@ reported in association with epoetin treatment. These can appear as reddish targ
 circular patches often with central blisters on the trunk, skin peeling, ulcers of mouth, throat, nose, 
 genitals and eyes and can be preceded by fever and flu-like symptoms. Stop using Retacrit if you 
 develop these symptoms and contact your doctor or seek medical attention immediately. See also 
-section </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Very common: may affect more than 1 in 10 people. 
+section 2. Very common: may affect more than 1 in 10 people. 
 * Diarrhoea 
 * Feeling sick in your stomach 
 * Vomiting 
@@ -669,4 +650,167 @@ If you get any side effects, talk to your doctor, nurse or pharmacist. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store retacrit"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store retacrit"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the box and on the label after EXP. 
+The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C-8 C). You may take Retacrit out of the refrigerator and keep it at room 
+temperature (up to 25 C) for no longer than 3 days. Once a syringe has been removed from the 
+refrigerator and has reached room temperature (up to 25 C) it must either be used within 3 days or 
+disposed of. </p>
+<p>Do not freeze or shake. </p>
+<p>Store in the original package in order to protect from light. </p>
+<p>Do not use this medicine if you notice that the seal is broken or if the liquid is coloured or you can see 
+particles floating in it. In the event of either being observed, discard the medicinal product. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Retacrit contains </p>
+<p>The active substance is epoetin zeta (produced by recombinant DNA technology in Chinese 
+Hamster Ovary (CHO) cell line). </p>
+<p>Retacrit 1 000 IU/0.3 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 0.3 mL solution for injection contains 1 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 3 333 IU epoetin zeta 
+per mL. </p>
+<p>Retacrit 2 000 IU/0.6 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 0.6 mL solution for injection contains 2 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 3 333 IU epoetin zeta 
+per mL. </p>
+<p>Retacrit 3 000 IU/0.9 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 0.9 mL solution for injection contains 3 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 3 333 IU epoetin zeta 
+per mL. </p>
+<p>Retacrit 4 000 IU/0.4 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 0.4 mL solution for injection contains 4 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL. </p>
+<p>Retacrit 5 000 IU/0.5 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 0.5 mL solution for injection contains 5 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL.  </p>
+<p>Retacrit 6 000 IU/0.6 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 0.6 mL solution for injection contains 6 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL. </p>
+<p>Retacrit 8 000 IU/0.8 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 0.8 mL solution for injection contains 8 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL. </p>
+<p>Retacrit 10 000 IU/1 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 1 mL solution for injection contains 10 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 10 000 IU epoetin zeta 
+per mL. </p>
+<p>Retacrit 20 000 IU/0.5 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 0.5 mL solution for injection contains 20 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 40 000 IU epoetin zeta 
+per mL. </p>
+<p>Retacrit 30 000 IU/0.75 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 0.75 mL solution for injection contains 30 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 40 000 IU epoetin zeta 
+per mL. </p>
+<p>Retacrit 40 000 IU/1 mL solution for injection in pre-filled syringe </p>
+<p>1 pre-filled syringe with 1 mL solution for injection contains 40 000 international units (IU) 
+epoetin zeta (recombinant human erythropoietin). The solution contains 40 000 IU epoetin zeta 
+per mL. </p>
+<p>The other ingredients are disodium phosphate dihydrate, sodium dihydrogen phosphate dihydrate, 
+sodium chloride (see section 2  Retacrit contains sodium ), calcium chloride dihydrate, polysorbate 
+20, glycine, leucine, isoleucine, threonine, glutamic acid, phenylalanine (see section 2  Retacrit 
+contains phenylalanine ), water for injections, sodium hydroxide (pH adjuster), hydrochloric acid (pH 
+adjuster). </p>
+<p>What Retacrit looks like and contents of the pack </p>
+<p>Retacrit is presented as a clear and colourless solution for injection in a pre-filled syringe with a fixed 
+injection needle. </p>
+<p>The pre-filled syringes contain between 0.3 and 1 mL solution, depending on the content of epoetin 
+zeta (see  What Retacrit contains ). </p>
+<p>One pack contains 1, 4 or 6 pre-filled syringes with or without a needle guard or needle-trap device. 
+Multipacks contain 4 (4 x 1) or 6 (6 x 1) pre-filled syringes. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Pfizer Europe MA EEIG 
+Boulevard de la Plaine 1050 Bruxelles 
+Belgium </p>
+<p>Manufacturers  </p>
+<p>STADA Arzneimittel AG 
+Stadastrasse 2-D-61118 Bad Vilbel 
+Germany </p>
+<p>Hospira Zagreb d.o.o. 
+Prudni ka cesta 10291 Prigorje Brdove ko 
+Croatia </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Luxembourg/Luxemburg 
+Pfizer NV/SA 
+T l/Tel: +32 (0)2 554 62 Lietuva 
+Pfizer Luxembourg SARL filialas Lietuvoje 
+Tel: +370 5 251 4<br />
+     ,   <br />
+ .: +359 2 970 4Magyarorsz g 
+Pfizer Kft. 
+Tel.: + 36 1 488 37  esk  republika 
+Pfizer, spol. s r.o. 
+Tel: +420-283-004-Malta 
+Drugsales Ltd 
+Tel: +356 21419070/1/2 </p>
+<p>Danmark 
+Pfizer ApS 
+Tlf: + 45 44 20 11 Nederland 
+Pfizer bv 
+Tel: +31 (0)800 63 34 Deutschland 
+PFIZER PHARMA GmbH 
+Tel: +49 (0)30 550055-51Norge 
+Pfizer AS 
+Tlf: +47 67 52 61 Eesti 
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7 sterreich 
+Pfizer Corporation Austria Ges.m.b.H. 
+Tel: +43 (0)1 521 15-0 </p>
+<p>Pfizer   A.E. 
+ : + 30 210 6785Polska 
+Pfizer Polska Sp. z o.o. 
+Tel.: +48 22 335 61 Espa a 
+Pfizer, S.L. 
+Tel: +34 91 490 99 Portugal 
+Laborat rios Pfizer, Lda. 
+Tel: +351 21 423 5France 
+Pfizer 
+T l: + 33 (0)1 58 07 34 Rom nia 
+Pfizer Romania S.R.L. 
+Tel: +40 (0)21 207 28 Hrvatska 
+Pfizer Croatia d.o.o. 
+Tel: +385 1 3908 Slovenija 
+Pfizer Luxembourg SARL 
+Pfizer, podru nica za svetovanje s podro ja 
+farmacevtske dejavnosti, Ljubljana 
+Tel: +386 (0)1 52 11 Ireland 
+Pfizer Healthcare Ireland 
+Tel: 1800 633 363 (toll free) 
+Tel: +44 (0)1304 616Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
+Tel: + 421 2 3355 5 sland 
+Icepharma hf. 
+S mi: +354 540 8Suomi/Finland 
+Pfizer Oy 
+Puh/Tel: +358 (0)9 430 Italia 
+Pfizer S.r.l. 
+Tel: +39 06 33 18 Sverige 
+Pfizer AB 
+Tel: +46 (0)8 550 520 <br />
+Pfizer    . . (Cyprus Branch) 
+ : +357 22 817United Kingdom (Northern Ireland)<br />
+Pfizer Limited 
+Tel: +44 (0)1304 616Latvija 
+Pfizer Luxembourg SARL fili le Latvij<br />
+Tel: + 371 670 35 This leaflet was last revised in {MM/YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

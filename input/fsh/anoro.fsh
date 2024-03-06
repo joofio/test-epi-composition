@@ -4,7 +4,7 @@ Instance: composition-en-7eebcc5370e576e4703db784c7ade61f
 InstanceOf: CompositionUvEpi
 Title: "Composition for anoro Package Leaflet"
 Description:  "Composition for anoro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What ANORO ELLIPTA is and what it is used for  
-2. What you need to know before you use ANORO ELLIPTA 
-3. How to use ANORO ELLIPTA 
-4. Possible side effects  
-5. How to store ANORO ELLIPTA 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What ANORO ELLIPTA is and what it is used for  </li>
+<li>What you need to know before you use ANORO ELLIPTA </li>
+<li>How to use ANORO ELLIPTA </li>
+<li>Possible side effects  </li>
+<li>How to store ANORO ELLIPTA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -235,9 +235,9 @@ called sinusitis)
 * muscle spasms 
 * tremor 
 * taste disturbance<br />
-* hoarseness. </p>
-<p>Rare (may affect up to 1 in 1 000 people)<br />
-* blurred vision 
+<em> hoarseness. 
+Rare (may affect up to 1 in 1 000 people)<br />
+</em> blurred vision 
 * increase of the measured eye pressure 
 * decrease in vision or pain in your eyes (possible signs of glaucoma) 
 * difficulty and pain when passing urine   these may be signs of a bladder obstruction or urinary 
@@ -302,8 +302,7 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-T l/Tel: + 32 (0) 10 85 52  </p>
-<p>Lietuva<br />
+T l/Tel: + 32 (0) 10 85 52 Lietuva<br />
 UAB  BERLIN-CHEMIE MENARINI BALTIC<br />
 Tel: +370 52 691 lt@berlin-chemie.com </p>
 <ul>
@@ -314,8 +313,7 @@ Te .: +359 2 454 0bcsofia@berlin-chemie.com </li>
 <p>Luxembourg/Luxemburg<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 52<br />
- esk  republika<br />
+T l/Tel: + 32 (0) 10 85 52  esk  republika<br />
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
 Magyarorsz g<br />
@@ -326,32 +324,28 @@ GlaxoSmithKline Pharma A/S
 Tlf: + 45 36 35 91 dk-info@gsk.com 
 Malta<br />
 GlaxoSmithKline (Ireland) Limited<br />
-Tel: +356 80065 </p>
-<p>Deutschland<br />
+Tel: +356 80065Deutschland<br />
 GlaxoSmithKline GmbH &amp; Co. KG 
 Tel.: + 49 (0)89 36044 8produkt.info@gsk.com 
 Nederland<br />
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 </p>
-<p>Eesti<br />
+Tel: + 31 (0)33 2081Eesti<br />
 O  Berlin-Chemie Menarini Eesti<br />
 Tel: +372 667 5ee@berlin-chemie.com<br />
 Norge<br />
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>Menarini Hellas A.E. 
- : +30 210 83161 11-13 <br />
- sterreich<br />
+Tlf: + 47 22 70 20  <br />
+Menarini Hellas A.E. 
+ : +30 210 83161 11- sterreich<br />
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
-at.info@gsk.com </p>
-<p>Espa a<br />
+at.info@gsk.com 
+Espa a<br />
 GlaxoSmithKline, S.A. 
 Tel: + 34 900 202 es-ci@gsk.com 
 Polska<br />
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 </p>
-<p>France<br />
+Tel.: + 48 (0)22 576 9France<br />
 Laboratoire GlaxoSmithKline 
 T l: + 33 (0)1 39 17 84 diam@gsk.com 
 Portugal<br />
@@ -364,27 +358,23 @@ Tel: +385 1 4821 office-croatia@berlin-chemie.com </p>
 GlaxoSmithKline (Ireland) Limited<br />
 Tel: +40 800672Ireland<br />
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija<br />
+Tel: + 353 (0)1 4955Slovenija<br />
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
 Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
 <p>sland<br />
 Vistor hf. 
-S mi: + 354 535 7 </p>
-<p>Slovensk  republika<br />
+S mi: + 354 535 7Slovensk  republika<br />
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
 Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
 <p>Italia<br />
 GlaxoSmithKline S.p.A. 
-Tel: + 39 (0)45 774 1 
-Suomi/Finland<br />
+Tel: + 39 (0)45 774 1Suomi/Finland<br />
 GlaxoSmithKline Oy 
 Puh/Tel: + 358 (0)10 30 30  <br />
 GlaxoSmithKline (Ireland) Limited<br />
- : +357 80070 
-Sverige<br />
+ : +357 80070Sverige<br />
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija<br />

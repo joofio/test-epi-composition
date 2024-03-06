@@ -4,7 +4,7 @@ Instance: composition-en-a292590defa3c39010b96fff24e30c08
 InstanceOf: CompositionUvEpi
 Title: "Composition for neulasta Package Leaflet"
 Description:  "Composition for neulasta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Neulasta is and what it is used for 
-2. What you need to know before you use Neulasta 
-3. How to use Neulasta 
-4. Possible side effects 
-5. How to store Neulasta 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Neulasta is and what it is used for </li>
+<li>What you need to know before you use Neulasta </li>
+<li>How to use Neulasta </li>
+<li>Possible side effects </li>
+<li>How to store Neulasta </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -141,14 +141,7 @@ inflammatory markers. Tell your doctor if you experience those symptoms. </li>
 kidneys (glomerulonephritis). </p>
 <p>Severe skin reactions (Stevens-Johnson syndrome) have been reported with the use of Neulasta. Stop 
 using Neulasta and seek medical attention immediately if you notice any of the symptoms described in 
-section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take neulasta"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take neulasta"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should talk to your doctor about your risks of developing cancers of the blood. If you develop or 
+section 4. You should talk to your doctor about your risks of developing cancers of the blood. If you develop or 
 are likely to develop cancers of the blood, you should not use Neulasta, unless instructed by your 
 doctor. </p>
 <p>Loss of response to pegfilgrastim </p>
@@ -170,13 +163,12 @@ pregnant women. It is important to tell your doctor if you:
 <p>Neulasta contains sorbitol (E420) and sodium </p>
 <p>This medicine contains 30 mg sorbitol in each pre-filled syringe which is equivalent to 50 mg/mL. 
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take neulasta"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take neulasta"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Neulasta is for use in adults aged 18 and over. </p>
 <p>Always take Neulasta exactly as your doctor has told you. You should check with your doctor or 
@@ -195,12 +187,13 @@ this leaflet. </p>
 <p>If you forget to inject Neulasta </p>
 <p>If you are injecting yourself and have forgotten your dose of Neulasta, you should contact your doctor 
 to discuss when you should inject the next dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store neulasta"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store neulasta"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Please tell your doctor immediately if you have any of the following or combination of the following 
@@ -243,7 +236,30 @@ see section 2. * bleeding from the lung (pulmonary haemorrhage).
 * Stevens-Johnson syndrome, which can appear as reddish target-like or circular patches often 
 with central blisters on the trunk, skin peeling, ulcers of mouth, throat, nose, genitals and eyes 
 and can be preceded by fever and flu-like symptoms. Stop using Neulasta if you develop these 
-symptoms and contact your doctor or seek medical attention immediately. See also section </p>         </div>"""      
+symptoms and contact your doctor or seek medical attention immediately. See also section 2. Reporting of side effects </p>
+<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store neulasta"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store neulasta"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and on the syringe label 
+after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C   8 C). </p>
+<p>You may take Neulasta out of the refrigerator and keep it at room temperature (not above 30 C) for no 
+longer than 3 days. Once a syringe has been removed from the refrigerator and has reached room 
+temperature (not above 30 C) it must either be used within 3 days or disposed of. </p>
+<p>Do not freeze. Neulasta may be used if it is accidentally frozen for a single period of less than 
+24 hours. </p>
+<p>Keep the pre-filled syringe in the outer carton in order to protect from light. </p>
+<p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -251,9 +267,101 @@ symptoms and contact your doctor or seek medical attention immediately. See also
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reporting of side effects </p>
-<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
-effects not listed in this leaflet. You can also report side effects directly via the national reporting 
-system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Neulasta contains </p>
+<ul>
+<li>The active substance is pegfilgrastim. Each pre-filled syringe contains 6 mg of pegfilgrastim in 
+0.6 mL of solution. </li>
+<li>The other ingredients are sodium acetate, sorbitol (E420), polysorbate 20 and water for 
+injections. See section 2. What Neulasta looks like and contents of the pack </li>
+</ul>
+<p>Neulasta is a clear, colourless solution for injection in a pre-filled syringe (6 mg/0.6 mL). </p>
+<p>Each pack contains 1 glass pre-filled syringe with an attached stainless steel needle and needle cap. </p>
+<p>The pre-filled syringe (with or without blister wrapping) may also be provided with an automatic 
+needle guard. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+The Netherlands </p>
+<p>Marketing Authorisation Holder 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+The Netherlands </p>
+<p>Manufacturer 
+Amgen Technology (Ireland) Unlimited Company 
+Pottery Road 
+Dun Laoghaire 
+Co Dublin 
+Ireland </p>
+<p>Manufacturer 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+s.a. Amgen n.v. 
+T l/Tel: +32 (0)2 7752Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7  </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen 
+Belgique/Belgien 
+T l/Tel: +32 (0)2 7752 esk  republika 
+Amgen s.r.o. 
+Tel: +420 221 773 Magyarorsz g 
+Amgen Kft. 
+Tel.: +36 1 35 44 Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617Malta 
+Amgen S.r.l. 
+Italy 
+Tel: +39 02 6241Deutschland 
+Amgen GmbH 
+Tel.: +49 89 1490Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09Norge 
+Amgen AB 
+Tlf: +47 23308<br />
+Amgen      . . . 
+ : +30 210 3447 sterreich 
+Amgen GmbH 
+Tel: +43 (0)1 50 Espa a 
+Amgen S.A. 
+Tel: +34 93 600 18 Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3France 
+Amgen S.A.S. 
+T l: +33 (0)9 69 363 Portugal 
+Amgen Biofarmac utica, Lda. 
+Tel: +351 21 422 0Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57 Rom nia 
+Amgen Rom nia SRL 
+Tel: +4021 527 3Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114 Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900K<br />
+C.A. Papaellinas Ltd 
+ : +357 22741 Sverige 
+Amgen AB 
+Tel: +46 (0)8 6951Latvija 
+Amgen Switzerland AG R gas fili le 
+Tel: +371 257 25United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

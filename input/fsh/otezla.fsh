@@ -4,7 +4,7 @@ Instance: composition-en-8e4b99b58ac1302c60e1a3d75920f33f
 InstanceOf: CompositionUvEpi
 Title: "Composition for otezla Package Leaflet"
 Description:  "Composition for otezla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Otezla is and what it is used for 
-2. What you need to know before you take Otezla 
-3. How to take Otezla 
-4. Possible side effects 
-5. How to store Otezla 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Otezla is and what it is used for </li>
+<li>What you need to know before you take Otezla </li>
+<li>How to take Otezla </li>
+<li>Possible side effects </li>
+<li>How to store Otezla </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -132,14 +132,7 @@ suicide.  </p>
 <p>You or your caregiver should also tell your doctor straight away of any changes in behaviour or mood, 
 feelings of depression and of any suicidal thoughts you may have after taking Otezla. </p>
 <p>Severe kidney problems </p>
-<p>If you have severe kidney problems, your dose will be different   see section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take otezla"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take otezla"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you are underweight </p>
+<p>If you have severe kidney problems, your dose will be different   see section 3. If you are underweight </p>
 <p>Talk to your doctor while taking Otezla if you lose weight without meaning to. </p>
 <p>Gut problems </p>
 <p>If you experience severe diarrhoea, nausea, or vomiting, you should talk to your doctor. </p>
@@ -171,13 +164,12 @@ feeding.  </p>
 <p>Otezla has no effect on the ability to drive and use machines. </p>
 <p>Otezla contains lactose  </p>
 <p>Otezla contains lactose (a type of sugar). If you have been told by your doctor that you have an 
-intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""         
-
-        
+intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take otezla"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take otezla"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. </p>
@@ -254,14 +246,15 @@ Day 5
 Day 6 onwards 
 30 mg (beige) 
 30 mg (beige) 
-60 mg </li>
-</ul>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+60 mg 
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </li>
+</ul>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store otezla"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store otezla"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Serious side effects   depression and suicidal thoughts </p>
@@ -305,11 +298,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store otezla"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store otezla"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Keep this medicine out of the sight and reach of children. </li>
@@ -321,4 +313,118 @@ packaging. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.  </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Otezla contains  </p>
+<p>The active substance is apremilast. 
+* Otezla 10 mg film-coated tablets: each film-coated tablet contains 10 mg of apremilast.<br />
+<em> Otezla 20 mg film-coated tablets: each film-coated tablet contains 20 mg of apremilast.<br />
+</em> Otezla 30 mg film-coated tablets: each film-coated tablet contains 30 mg of apremilast.  </p>
+<p>The other ingredients in the tablet core are cellulose microcrystalline, lactose monohydrate, 
+croscarmellose sodium and magnesium stearate.<br />
+<em> The film-coating contains poly (vinyl alcohol), titanium dioxide (E171), macrogol (3350), talc, 
+iron oxide red (E172). 
+* The 20 mg film-coated tablet also contains iron oxide yellow (E172).<br />
+</em> The 30 mg film-coated tablet also contains iron oxide yellow (E172) and iron oxide black 
+(E172). </p>
+<p>What Otezla looks like and contents of the pack </p>
+<p>The Otezla 10 mg film-coated tablet is a pink, diamond shaped film-coated tablet with  APR<br />
+engraved on one side and  10  on the opposite side. 
+The Otezla 20 mg film-coated tablet is a brown, diamond shaped film-coated tablet with  APR<br />
+engraved on one side and  20  on the opposite side. 
+The Otezla 30 mg film-coated tablet is a beige, diamond shaped film-coated tablet with  APR<br />
+engraved on one side and  30  on the opposite side. </p>
+<p>Pack sizes 
+* The treatment initiation pack is a folding wallet containing 27 film-coated tablets: 4 x 10 mg 
+tablets, 4 x 20 mg tablets and 19 x 30 mg tablets.<br />
+<em> The one-month standard pack contains 56 x 30 mg film-coated tablets.<br />
+</em> The three-month standard pack contains 168 x 30 mg film-coated tablets.  </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+The Netherlands </p>
+<p>Marketing Authorisation Holder 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+The Netherlands  </p>
+<p>Manufacturer 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/T l: +32 (0)2 7752Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7  </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen<br />
+Belgique/Belgien 
+Tel/T l: +32 (0)2 7752 esk  republika 
+Amgen s.r.o. 
+Tel: +420 221 773 Magyarorsz g 
+Amgen Kft. 
+Tel.: +36 1 35 44 Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732Deutschland 
+AMGEN GmbH 
+Tel: +49 89 1490Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09Norge 
+Amgen AB 
+Tel: +47 23308<br />
+Amgen      . . .<br />
+ : +30 210 3447 sterreich 
+Amgen GmbH<br />
+Tel: +43 (0)1 50 Espa a 
+Amgen S.A. 
+Tel: +34 93 600 18 Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3France 
+Amgen S.A.S. 
+T l: +33 (0)9 69 363 Portugal 
+Amgen Biofarmac utica, Lda. 
+Tel: +351 21 4220Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57 Rom nia 
+Amgen Rom nia SRL 
+Tel: +4021 527 3Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2  321 114 Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900K<br />
+C.A. Papaellinas Ltd 
+ : +357 22741 Sverige 
+Amgen AB<br />
+Tel: +46 (0)8 6951Latvija 
+Amgen Switzerland AG R gas fili le 
+Tel: +371 257 25United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed and updated information on this medicine is available by scanning the QR code on the outer 
+packaging with a smartphone. The same information is also available on the following URL:<br />
+www.otezla-eu-pil.com. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

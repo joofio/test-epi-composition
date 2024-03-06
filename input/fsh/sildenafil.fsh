@@ -4,7 +4,7 @@ Instance: composition-en-d674db7613c7ef04137ad9c28d3399bb
 InstanceOf: CompositionUvEpi
 Title: "Composition for sildenafil Package Leaflet"
 Description:  "Composition for sildenafil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Sildenafil Teva is and what it is used for 
-2. What you need to know before you take Sildenafil Teva  
+2. What you need to know before you take Sildenafil Teva<br />
 3. How to take Sildenafil Teva 
 4. Possible side effects 
-5. How to store Sildenafil Teva  
-6. Contents of the pack and other information 
-         </div>"""   
+5. How to store Sildenafil Teva<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -122,14 +121,7 @@ containing sildenafil or any other PDE5 inhibitors. </p>
 You should tell your doctor if you have kidney or liver problems. Your doctor may decide on a lower 
 dose for you. </p>
 <p>Children and adolescents 
-Sildenafil Teva should not be given to individuals under the age of 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take sildenafil"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take sildenafil"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Sildenafil Teva 
+Sildenafil Teva should not be given to individuals under the age of 18. Other medicines and Sildenafil Teva 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Sildenafil Teva tablets may interfere with some medicines, especially those used to treat chest pain. In 
@@ -145,8 +137,8 @@ donors such as amyl nitrite ( poppers ) as the combination may also lead to a da
 blood pressure.  </p>
 <p>Tell your doctor or pharmacist if you are already taking riociguat. </p>
 <p>If you are taking medicines known as protease inhibitors, such as for the treatment of HIV, your 
-doctor may start you on the lowest dose (25 mg) of Sildenafil Teva. </p>
-<p>Some patients who take alpha-blocker therapy for the treatment of high blood pressure or prostate 
+doctor may start you on the lowest dose (25 mg) of Sildenafil Teva. 
+Some patients who take alpha-blocker therapy for the treatment of high blood pressure or prostate 
 enlargement may experience dizziness or light-headedness, which may be caused by low blood 
 pressure upon sitting or standing up quickly. Certain patients have experienced these symptoms when 
 taking Sildenafil Teva with alpha-blockers. This is most likely to happen within 4 hours after taking 
@@ -168,13 +160,12 @@ Sildenafil Teva can cause dizziness and can affect vision. You should be aware o
 Sildenafil Teva before you drive or use machinery. </p>
 <p>Sildenafil Teva contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per film-coated tablet, that is to say 
-essentially  sodium-free . </p>         </div>"""         
-
-        
+essentially  sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take sildenafil"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take sildenafil"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. The recommended starting dose is 50 mg. </p>
@@ -196,12 +187,13 @@ You may experience an increase in side effects and their severity. Doses above 1
 the efficacy.  </p>
 <p>You should not take more tablets than your doctor tells you to. </p>
 <p>Contact your doctor if you take more tablets than you should. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store sildenafil"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store sildenafil"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects although not everybody gets them. The side 
 effects reported in association with the use of Sildenafil Teva are usually mild to moderate and of a 
@@ -266,11 +258,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store sildenafil"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store sildenafil"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blister and carton after EXP. The 
@@ -278,4 +269,106 @@ expiry date refers to the last day of that month. </p>
 <p>Store in the original package, in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Sildenafil Teva contains </p>
+<p>The active substance is sildenafil. Each tablet contains 25 mg of sildenafil (as the citrate salt). </p>
+<p>The other ingredients are: 
+Tablet core: microcrystalline cellulose, calcium hydrogen phosphate, croscarmellose sodium, 
+magnesium stearate. 
+Film coat: poly(vinyl alcohol), titanium dioxide (E171), macrogol 3350, talc.  </p>
+<p>What Sildenafil Teva looks like and contents of the pack<br />
+Sildenafil Teva 25 mg are white, oval-shaped film-coated tablets, engraved with  S 25  on one side, 
+and plain on the other side.<br />
+Sildenafil Teva is available in blister packs of 2, 4, 8 and 12 tablets, and perforated unit dose blisters 
+containing 10 x 1 tablet.   </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+The Netherlands </p>
+<p>Manufacturer: 
+TEVA Pharmaceutical Works Private Limited Company<br />
+Pallagi  t 4042 Debrecen 
+Hungary </p>
+<p>Teva Pharma, S.L.U. 
+Pol gono Industrial Malp ca, calle C,no.4 
+50016 Zaragoza<br />
+Spain </p>
+<p>Teva Operations Poland Sp.z.o.o. 
+ul Mogilska 80. 31-546, Krakow,<br />
+Poland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660  </p>
+<p>: +359 24899Luxembourg/Luxemburg 
+ratiopharm GmbH 
+Allemagne/Deutschland 
+T l/Tel: +49 73140 esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
+Tel: +36 12886Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+TEVA GmbH 
+Tel: +49 73140Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Norge 
+Teva Norway AS 
+Tlf: +47 66775<br />
+Specifar  . . . . 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Sant<br />
+Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
+T l: +33 155917Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+Specifar  . . . . </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

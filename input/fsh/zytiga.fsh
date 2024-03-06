@@ -4,7 +4,7 @@ Instance: composition-en-18a94f164fb1fa919f787ce6c80174e7
 InstanceOf: CompositionUvEpi
 Title: "Composition for zytiga Package Leaflet"
 Description:  "Composition for zytiga Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:
 1. What ZYTIGA is and what it is used for
 2. What you need to know before you take ZYTIGA
 3. How to take ZYTIGA
 4. Possible side effects
 5. How to store ZYTIGA
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -409,5 +408,5 @@ This medicine has been prescribed for you only. Do not pass it on to others. It 
 even if their signs of illness are the same as yours.
 -
 If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section 4. </p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

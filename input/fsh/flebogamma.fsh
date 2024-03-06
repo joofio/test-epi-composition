@@ -4,7 +4,7 @@ Instance: composition-en-d4555e443163704d4c697ea40b21716a
 InstanceOf: CompositionUvEpi
 Title: "Composition for flebogamma Package Leaflet"
 Description:  "Composition for flebogamma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Flebogamma DIF is and what it is used for 
-2. What you need to know before you use Flebogamma DIF  
+2. What you need to know before you use Flebogamma DIF<br />
 3. How to use Flebogamma DIF 
 4. Possible side effects 
 5. How to store Flebogamma DIF 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -164,10 +164,7 @@ particular, tell your doctor if you have:
 * overweight<br />
 * blood volume decrease 
 * diseases which increase blood viscosity 
-* age over  </p>
-<ul>
-<li>52 - Patients with a kidney problem </li>
-</ul>
+* age over - 52 - Patients with a kidney problem </p>
 <p>If you have a renal disease and you are receiving Flebogamma DIF for the first time, you may suffer a 
 problem in your kidneys. </p>
 <p>Your doctor will consider your risk factors and take measures such as to decrease the rate of infusion 
@@ -414,33 +411,23 @@ Authorisation Holder: </p>
 <p>AT/BE/BG/EE/ES/HR/HU/IE/LV/ 
 LT/LU/MT/NL/RO/SI/SK/UK(NI) 
 Instituto Grifols, S.A. 
-Tel: +34 93 571 01<br />
-CY/EL 
+Tel: +34 93 571 01 CY/EL 
 Instituto Grifols, S.A. 
  : +34 93 571 01 CZ 
 Grifols S.R.O. 
-Tel: +4202 2223 1 
-DE 
+Tel: +4202 2223 1DE 
 Grifols Deutschland GmbH 
-Tel: +49 69 660 593  </p>
-<ul>
-<li>57 - DK/FI/IS/NO/SE 
+Tel: +49 69 660 593 - 57 - DK/FI/IS/NO/SE 
 Grifols Nordic AB 
-Tel: +46 8 441 89<br />
-FR 
+Tel: +46 8 441 89 FR 
 Grifols France 
-T l: +33 (0)1 53 53 08<br />
-IT 
+T l: +33 (0)1 53 53 08 IT 
 Grifols Italia S.p.A. 
-Tel: +39 050 8755<br />
-PL 
+Tel: +39 050 8755 PL 
 Grifols Polska Sp. z o. o. 
-Tel: +48 22 378 85<br />
-PT 
+Tel: +48 22 378 85 PT 
 Grifols Portugal, Lda. 
-Tel: +351 219 255  </li>
-</ul>
-<p>This leaflet was last revised in MM/YYYY </p>
+Tel: +351 219 255 This leaflet was last revised in MM/YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
 <p>The following information is intended for healthcare professionals only (see section 3 for further 
@@ -569,5 +556,5 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-e468ee61b4ad57838bdb12806e9312f2
 InstanceOf: CompositionUvEpi
 Title: "Composition for rekovelle Package Leaflet"
 Description:  "Composition for rekovelle Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What REKOVELLE is and what it is used for 
-2. What you need to know before you use REKOVELLE 
-3. How to use REKOVELLE 
-4. Possible side effects 
-5. How to store REKOVELLE 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What REKOVELLE is and what it is used for </li>
+<li>What you need to know before you use REKOVELLE </li>
+<li>How to use REKOVELLE </li>
+<li>Possible side effects </li>
+<li>How to store REKOVELLE </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -182,23 +182,16 @@ receiving adequate training. </p>
 The pre-filled pen may be used for several injections. </p>
 <p>If you use more REKOVELLE than you should 
 The effects of taking too much of this medicine are unknown. Ovarian hyperstimulation syndrome 
-may possibly occur, which is described in section </p>         </div>"""         
+may possibly occur, which is described in section 4. If you forget to use REKOVELLE 
+Do not take a double dose to make up for a forgotten dose. Please contact your doctor as soon as you 
+notice that you forgot a dose. </p>
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to use REKOVELLE 
-Do not take a double dose to make up for a forgotten dose. Please contact your doctor as soon as you 
-notice that you forgot a dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store rekovelle"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store rekovelle"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects: 
@@ -229,11 +222,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store rekovelle"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store rekovelle"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the pre-filled pen label and carton 
@@ -246,4 +238,117 @@ It must not be refrigerated again and must be discarded if it has not been used 
 <p>At the end of the treatment any unused solution must be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What REKOVELLE contains 
+- The active substance is follitropin delta. 
+Each pre-filled pen with multidose cartridge contains 12 micrograms of follitropin delta in 
+0.36 millilitre of solution. One millilitre of solution contains 33.3 micrograms of follitropin 
+delta in each millilitre of solution. 
+- The other ingredients are phenol, polysorbate 20, L-methionine, sodium sulphate decahydrate, 
+disodium phosphate dodecahydrate, concentrated phosphoric acid, sodium hydroxide and water 
+for injections. </p>
+<p>What REKOVELLE looks like and contents of the pack 
+REKOVELLE is a clear and colourless solution for injection in a pre-filled pen (injection). It is 
+available in packs of 1 pre-filled pen and 3 pen injection needles. </p>
+<p>Marketing Authorisation Holder 
+Ferring Pharmaceuticals A/S 
+Amager Strandvej 2770 Kastrup 
+Denmark </p>
+<p>Manufacturer 
+Ferring GmbH 
+Wittland D-24109 Kiel 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Ferring N.V.<br />
+Tel/T l: +32 53 72 92 ferringnvsa@ferring.be<br />
+Lietuva 
+CentralPharma Communications UAB 
+Tel: +370 5 243 0centralpharma@centralpharma.lt </p>
+<p>: +359 2 807 5farmont@farmont.bg </p>
+<p>Luxembourg/Luxemburg 
+Ferring N.V.<br />
+Belgique/Belgien<br />
+Tel/T l: +32 53 72 92 ferringnvsa@ferring.be  </p>
+<p>esk  republika<br />
+Ferring Pharmaceuticals CZ s.r.o.<br />
+Tel: +420 234 701 cz1-info@ferring.com<br />
+Magyarorsz g<br />
+Ferring Magyarorsz g Gy gyszerkereskedelmi Kft.<br />
+Tel: +36 1 236 3ferring@ferring.hu  </p>
+<p>Danmark<br />
+Ferring L gemidler A/S<br />
+Tlf: +45 88 16 88 Malta<br />
+E.J. Busuttil Ltd.<br />
+Tel: +356 21447info@ejbusuttil.com  </p>
+<p>Deutschland<br />
+Ferring Arzneimittel GmbH<br />
+Tel: +49 431 5852 0<br />
+info-service@ferring.de<br />
+Nederland<br />
+Ferring B.V.<br />
+Tel: +31 235680infoNL@ferring.com  </p>
+<p>Eesti<br />
+CentralPharma Communications O <br />
+Tel: +372 601 5centralpharma@centralpharma.ee 
+Norge<br />
+Ferring Legemidler AS<br />
+Tlf: +47 22 02 08 mail@oslo.ferring.com  </p>
+<p>Ferring    <br />
+ : +30 210 68 43  sterreich<br />
+Ferring Arzneimittel Ges.m.b.H<br />
+Tel: +43 1 60 8office@ferring.at  </p>
+<p>Espa a<br />
+Ferring S.A.U.<br />
+Tel: +34 91 387 70 Registros@ferring.com  </p>
+<p>Polska<br />
+Ferring Pharmaceuticals Poland Sp. z o.o.<br />
+Tel: +48 22 246 06 PL0-Recepcja@ferring.com 
+France<br />
+Ferring S.A.S.<br />
+T l: +33 1 49 08 67 information.medicale@ferring.com<br />
+Portugal<br />
+Ferring Portuguesa   Produtos Farmac uticos, 
+Sociedade Unipessoal, Lda. 
+Tel: +351 21 940 51 Hrvatska<br />
+Clinres farmacija d.o.o.<br />
+Tel: +385 1 2396 info@clinres-farmacija.hr </p>
+<p>Rom nia<br />
+Ferring Pharmaceuticals Romania SRL<br />
+Tel: +40 356 113 Ireland<br />
+Ferring Ireland Ltd.<br />
+Tel: +353 1 4637EnquiriesIrelandMailbox@ferring.com 
+Slovenija<br />
+SALUS, Veletrgovina, d.o.o.<br />
+Tel: +386 1 5899 regulatory@salus.si  </p>
+<p>sland<br />
+Vistor hf.<br />
+S mi: +354 535 70 Slovensk  republika<br />
+Ferring Slovakia s.r.o.<br />
+Tel: +421 2 54 416 SK0-Recepcia@ferring.com  </p>
+<p>Italia<br />
+Ferring S.p.A.<br />
+Tel: +39 02 640 00 Suomi/Finland<br />
+Ferring L kkeet Oy<br />
+Puh/Tel: +358 207 401 info@ferring.fi  </p>
+<p>A.Potamitis Medicare Ltd<br />
+ : +357 22583a.potamitismedicare@cytanet.com.cy<br />
+Sverige<br />
+Ferring L kemedel AB<br />
+Tel: +46 40 691 69 info@ferring.se  </p>
+<p>Latvija<br />
+CentralPharma Communications SIA 
+T lr: +371 674 50centralpharma@centralpharma.lv 
+United Kingdom (Northern Ireland) 
+Ferring Ireland Ltd. 
+Tel.: +353 14637EnquiriesIrelandMailbox@ferring.com </p>
+<p>This leaflet was last revised in . </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

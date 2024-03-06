@@ -4,7 +4,7 @@ Instance: composition-en-28ca2cc7e6d8de308e6b9675ddc2a14c
 InstanceOf: CompositionUvEpi
 Title: "Composition for firazyr Package Leaflet"
 Description:  "Composition for firazyr Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Firazyr is and what it is used for 
-2. What you need to know before you use Firazyr  
-3. How to use Firazyr 
-4. Possible side effects 
-5. How to store Firazyr 
-6. Contents of the pack and other information           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Firazyr is and what it is used for </li>
+<li>What you need to know before you use Firazyr  </li>
+<li>How to use Firazyr </li>
+<li>Possible side effects </li>
+<li>How to store Firazyr </li>
+<li>Contents of the pack and other information  </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -253,8 +254,8 @@ transferred to the graduated syringe. Refer to table 1 for dosage information. <
 <p>Turn the connected syringes so that the pre-filled syringe is on top (see below image). </p>
 <p>Push the plunger of the graduated syringe so that any air is transferred back into the pre-filled 
 syringe (this step may need to be repeated several times). </p>
-<p>Withdraw the required volume of icatibant solution. </p>
-<p>4) Remove the pre-filled syringe and connector from the graduated syringe. </p>
+<p>Withdraw the required volume of icatibant solution. 
+4) Remove the pre-filled syringe and connector from the graduated syringe. </p>
 <p>5) Discard the pre-filled syringe and connector into the sharps container. </p>
 <p>2b) Preparing the syringe and needle for injection: 
 All patients (adults, adolescents and children) </p>
@@ -374,8 +375,7 @@ D02 YIreland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-T l/Tel: +32 2 464 06 11<br />
-medinfoEMEA@takeda.com </p>
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
@@ -411,8 +411,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
 T : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
 <p>Espa a 
 Takeda Farmac utica Espa a S.A 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>

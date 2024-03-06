@@ -4,7 +4,7 @@ Instance: composition-en-80012b09e7b7a78ced217a2ccd81660e
 InstanceOf: CompositionUvEpi
 Title: "Composition for elrexfio Package Leaflet"
 Description:  "Composition for elrexfio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ELREXFIO is and what it is used for 
-2. What you need to know before you are given ELREXFIO 
-3. How ELREXFIO is given 
-4. Possible side effects 
-5. How to store ELREXFIO 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ELREXFIO is and what it is used for </li>
+<li>What you need to know before you are given ELREXFIO </li>
+<li>How ELREXFIO is given </li>
+<li>Possible side effects </li>
+<li>How to store ELREXFIO </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -136,8 +136,8 @@ pregnant or are planning to have a baby. </p>
 <p>If you become pregnant while being treated with this medicine, tell your doctor or nurse straight away. </p>
 <p>Contraception </p>
 <p>If you could become pregnant, you must use effective contraception during treatment and for 6 months 
-after stopping treatment with ELREXFIO. </p>
-<p>Breast-feeding </p>
+after stopping treatment with ELREXFIO. 
+Breast-feeding </p>
 <p>You should not breast-feed during treatment and for 6 months after stopping treatment with 
 ELREXFIO. </p>
 <p>Driving and using machines 
@@ -287,82 +287,66 @@ Authorisation Holder: </p>
 <p>Belgique/Belgi /Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-T l/Tel: +32 (0)2 554 62<br />
-Lietuva 
+T l/Tel: +32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
 Tel: +370 52 51 4<br />
      ,   <br />
- .: +359 2 970 4 
-Magyarorsz g 
+ .: +359 2 970 4Magyarorsz g 
 Pfizer Kft. 
 Tel: +36-1-488-37- esk  republika 
 Pfizer, spol. s r.o. 
-Tel: +420 283 004<br />
-Malta 
+Tel: +420 283 004 Malta 
 Vivian Corporation Ltd. 
 Tel: +356 21344Danmark 
 Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Nederland 
+Tlf: +45 44 20 11 Nederland 
 Pfizer bv 
 Tel: +31 (0)800 63 34 Deutschland 
 PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055 51 
-Norge 
+Tel: +49 (0)30 550055 51Norge 
 Pfizer AS 
 Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
- sterreich 
+Tel: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>Pfizer   A.E. 
- : +30 210 6785<br />
-Polska 
+ : +30 210 6785 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel: +48 22 335 61 Espa a 
 Pfizer, S.L. 
-Tel: +34 91 490 99<br />
-Portugal 
+Tel: +34 91 490 99 Portugal 
 Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5France 
 Pfizer 
-T l: +33 (0)1 58 07 34<br />
-Rom nia 
+T l: +33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L. 
 Tel: +40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
-Tel: +385 1 3908<br />
-Slovenija 
+Tel: +385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel: +386 (0)1 52 11<br />
-Ireland 
+Tel: +386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Slovensk  republika 
 Pfizer Luxembourg SARL, organiza n  zlo ka 
 Tel: 1800 633 363 (toll free) 
-+44 (0)1304 616 
-Tel: +421 2 3355 5 sland 
++44 (0)1304 616Tel: +421 2 3355 5 sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Suomi/Finland 
+S mi: +354 540 8Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430 Italia 
 Pfizer S.r.l. 
-Tel: +39 06 33 18<br />
-Sverige 
+Tel: +39 06 33 18 Sverige 
 Pfizer AB 
 Tel: +46 (0)8 550-520 <br />
 Pfizer    . . (Cyprus Branch) 
- : +357 22 817 
-United Kingdom (Northern Ireland) 
+ : +357 22 817United Kingdom (Northern Ireland) 
 Pfizer Limited 
 Tel: +44 (0) 1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel: +371 670 35  </p>
-<p>This leaflet was last revised in  </p>
+Tel: +371 670 35 This leaflet was last revised in  </p>
 <p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 

@@ -4,7 +4,7 @@ Instance: composition-en-899927b87eee0edddf78e53b80fec139
 InstanceOf: CompositionUvEpi
 Title: "Composition for zokinvy Package Leaflet"
 Description:  "Composition for zokinvy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Zokinvy is and what it is used for 
-2. What you need to know before you take Zokinvy 
-3. How to take Zokinvy 
-4. Possible side effects 
-5. How to store Zokinvy 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Zokinvy is and what it is used for </li>
+<li>What you need to know before you take Zokinvy </li>
+<li>How to take Zokinvy </li>
+<li>Possible side effects </li>
+<li>How to store Zokinvy </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -253,28 +253,13 @@ containing the orange juice. </p>
 contents and orange juice well. 
 * If only 1 capsule is to be taken, skip to 
 Step 7. * If 2 capsules are to be taken, proceed to 
-Step </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Step 6: 
+Step 6. Step 6: 
 * If 2 capsules will be taken, repeat Steps 1 
 through 5 for the second capsule. 
 * Once the second capsule is mixed - the 
 2 servings can either be combined in a single 
 cup or remain in 2 serving cups. 
-* After you finish, go to Steps 7, 8 and </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store zokinvy"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store zokinvy"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Step 7: 
+* After you finish, go to Steps 7, 8 and 9. Step 7: 
 Take all of the Zokinvy mixture: 
 * with food. 
 * within about 10 minutes of preparing. </p>
@@ -356,13 +341,13 @@ as soon as possible with some food. If less than 8 hours remains before the next
 missed dose and resume taking Zokinvy at the next scheduled dose. </p>
 <p>If you stop taking Zokinvy </p>
 <p>Do not stop taking Zokinvy without talking to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects. Tell your doctor immediately if you: 
@@ -417,4 +402,67 @@ how much you eat and drink to help detect any of these possible electrolyte cond
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you help provide more information on the safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store zokinvy"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store zokinvy"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and on the bottle after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>Store in the original package. Keep the bottle tightly closed in order to protect from moisture. This medicinal 
+product does not require any special temperature storage conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
+away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zokinvy contains </p>
+<ul>
+<li>
+<p>The active substance is lonafarnib 
+Zokinvy 50 mg hard capsules: each capsule contains 50 mg lonafarnib. 
+Zokinvy 75 mg hard capsules: each capsule contains 75 mg lonafarnib. </p>
+</li>
+<li>
+<p>The other ingredients are: 
+Capsule contents: croscarmellose sodium (see section 2  Zokinvy contains sodium ), magnesium 
+stearate, poloxamer, povidone and silica, colloidal anhydrous 
+Capsule shell: 
+Zokinvy 50 mg hard capsules: gelatin, titanium dioxide, yellow iron oxide and sunflower lecithin 
+Zokinvy 75 mg hard capsules: gelatin, titanium dioxide, yellow iron oxide, red iron oxide and 
+sunflower lecithin 
+Printing ink: shellac, iron oxide black </p>
+</li>
+</ul>
+<p>What Zokinvy looks like and contents of the pack </p>
+<p>Zokinvy 50 mg hard capsules are opaque yellow hard capsules, marked with  LNF  and  50  in black ink. </p>
+<p>Zokinvy 75 mg hard capsules are opaque light orange hard capsules, marked with  LNF  and  75  in black 
+ink. </p>
+<p>The bottle pack contains 30 hard capsules and a desiccant. The desiccant is in a cannister and that cannister 
+is included in the bottle, containing the capsules. </p>
+<p>Marketing Authorisation Holder 
+EigerBio Europe Ltd. 
+1 Castlewood Avenue 
+Rathmines, D06 H685, Ireland </p>
+<p>Manufacturer 
+ABF Pharmaceutical Services GmbH 
+Brunner Stra e 63/18-A-1230 Vienna 
+Austria </p>
+<p>Sciensus International B.V. 
+Bijsterhuizen 36604 LV, Wijchen 
+Netherlands </p>
+<p>This leaflet was last revised in MONTH YEAR </p>
+<p>This medicine has been authorised under  exceptional circumstances . 
+This means that because of the rarity of this disease it has been impossible to get complete information on 
+this medicine. 
+The European Medicines Agency will review any new information on this medicine every year and this 
+leaflet will be updated as necessary. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

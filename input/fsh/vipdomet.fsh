@@ -4,7 +4,7 @@ Instance: composition-en-91532a0bac4066c0d200269dda7e0b3f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vipdomet Package Leaflet"
 Description:  "Composition for vipdomet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Vipdomet is and what it is used for  
-2. What you need to know before you take Vipdomet 
-3. How to take Vipdomet 
-4. Possible side effects  
-5. How to store Vipdomet 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Vipdomet is and what it is used for  </li>
+<li>What you need to know before you take Vipdomet </li>
+<li>How to take Vipdomet </li>
+<li>Possible side effects  </li>
+<li>How to store Vipdomet </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -204,8 +204,8 @@ combination with medicines called pioglitazone or insulin can cause too low bloo
   * code.text = "3. How to take vipdomet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
-or pharmacist if you are not sure. </p>
-<p>Your doctor will tell you exactly how much Vipdomet you need to take. The amount of Vipdomet will 
+or pharmacist if you are not sure. 
+Your doctor will tell you exactly how much Vipdomet you need to take. The amount of Vipdomet will 
 vary depending on your condition and the doses you currently take of metformin alone, metformin in 
 combination with pioglitazone, insulin and/or individual tablets of alogliptin and metformin.  </p>
 <p>The recommended dose is one tablet twice a day. If you have reduced kidney function, your doctor 
@@ -257,16 +257,18 @@ back as well as nausea and vomiting, as it could be a sign of an inflamed pancre
 <li>Diarrhoea  </li>
 <li>Loss of appetite </li>
 <li>Feeling sick  </li>
-<li>Being sick. </li>
-</ul>
-<p>Common (may affect up to 1 in 10 people):</p>
-<ul>
-<li>Symptoms of low blood sugar (hypoglycaemia) may occur when Vipdomet is taken in 
+<li>
+<p>Being sick. 
+Common (may affect up to 1 in 10 people):</p>
+</li>
+<li>
+<p>Symptoms of low blood sugar (hypoglycaemia) may occur when Vipdomet is taken in 
 combination with insulin or sulphonylureas (e.g. glipizide, tolbutamide, glibenclamide). 
 Symptoms may include: trembling, sweating, anxiety, blurred vision, tingling lips, paleness, 
 mood change or feeling confused. Your blood sugar could fall below the normal level, but can 
 be increased again by taking sugar. It is recommended that you carry some sugar lumps, sweets, 
-biscuits or sugary fruit juice. </li>
+biscuits or sugary fruit juice. </p>
+</li>
 <li>Cold symptoms such as sore throat, stuffy or blocked nose, feeling tired, fever, chills, dry cough </li>
 <li>Rash  </li>
 <li>Itchy skin with or without hives </li>
@@ -396,8 +398,7 @@ Takeda France SAS
 Tel: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
 Tecnimede - Sociedade T cnico-Medicinal, S.A 
-Tel: +351 21 041 41 00<br />
-dmed.fv@tecnimede.pt  </p>
+Tel: +351 21 041 41 dmed.fv@tecnimede.pt  </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o 
 Tel: +385 1 377 88 medinfoEMEA@takeda.com 

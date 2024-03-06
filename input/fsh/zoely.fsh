@@ -4,7 +4,7 @@ Instance: composition-en-03f98a1996ed57d7e15b1f1c7ae087d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for zoely Package Leaflet"
 Description:  "Composition for zoely Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Zoely is and what it is used for 
-2. What you need to know before you use Zoely 
-3. How to use Zoely 
-4. Possible side effects 
-5. How to store Zoely 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Zoely is and what it is used for </li>
+<li>What you need to know before you use Zoely </li>
+<li>How to use Zoely </li>
+<li>Possible side effects </li>
+<li>How to store Zoely </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -500,8 +500,8 @@ maintained. Take the tablet as soon as possible and then take the next tablets a
 * if you are 24 or more hours late taking a tablet, the pill protection against pregnancy may be 
 reduced. The more tablets you have forgotten, the higher your risk of becoming pregnant. There 
 is a particularly high risk of becoming pregnant if you miss white active tablets at the beginning 
-or at the end of the blister. Therefore you should follow the rules given below. </p>
-<p>Day 1-7 of white active tablet intake (see picture and schedule) 
+or at the end of the blister. Therefore you should follow the rules given below. 
+Day 1-7 of white active tablet intake (see picture and schedule) 
 Take the forgotten white active tablet as soon as possible, even if this means that you have to take two 
 tablets at the same time, and continue to take the next tablet at the usual time. However, use a barrier 
 method of contraception (for example, a condom) as an extra precaution until you have taken your 
@@ -609,8 +609,8 @@ contraceptives, please see section 2,  What you need to know before you use Zoel
 <p>The following side effects have been linked with the use of Zoely: </p>
 <p>Very common (may affect more than 1 in 10 people): 
 * acne 
-* changes to menstrual periods (e.g. absence or irregularity) </p>
-<p>Common (may affect up to 1 in 10 people): 
+* changes to menstrual periods (e.g. absence or irregularity) 
+Common (may affect up to 1 in 10 people): 
 * decreased interest in sex; depression/depressed mood; mood changes 
 * headache or migraine 
 * feeling sick (nausea) 

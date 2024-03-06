@@ -4,7 +4,7 @@ Instance: composition-en-565029a2726c6824ab356ecb59362043
 InstanceOf: CompositionUvEpi
 Title: "Composition for pemazyre Package Leaflet"
 Description:  "Composition for pemazyre Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Pemazyre is and what it is used for  
-2. What you need to know before you take Pemazyre 
-3. How to take Pemazyre 
-4. Possible side effects 
-5. How to store Pemazyre 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Pemazyre is and what it is used for  </li>
+<li>What you need to know before you take Pemazyre </li>
+<li>How to take Pemazyre </li>
+<li>Possible side effects </li>
+<li>How to store Pemazyre </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -95,10 +95,8 @@ Talk to your doctor or pharmacist before taking Pemazyre if you have:
 * been told you have an increase or decrease of a mineral in your blood called phosphorus 
 * vision or eye problems 
 * severely reduced liver function. Your treatment may need to be adjusted 
-* severely reduced kidney function. Your treatment may need to be adjusted </p>
-<ul>
-<li>cancer cells that have spread into the brain or spinal cord </li>
-</ul>
+* severely reduced kidney function. Your treatment may need to be adjusted 
+* cancer cells that have spread into the brain or spinal cord </p>
 <p>Eye examinations are recommended: 
 * before starting treatment with Pemazyre 
 * every 2 months for the first 6 months of treatment 
@@ -139,19 +137,15 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 <li>Pregnancy 
 Pemazyre may harm the unborn baby and should not be used during pregnancy unless you are 
 told otherwise by your doctor. A pregnancy test should be performed before initiating treatment. </li>
-<li>
-<p>Contraception advice for men and women 
+<li>Contraception advice for men and women 
 Women being treated with Pemazyre should not become pregnant. Therefore, women who 
 could become pregnant must use effective contraception during treatment and for at least 1 
 week after the last dose of Pemazyre. Talk to your doctor about the most suitable contraception 
 for you.<br />
 Men should avoid fathering a child. They must use effective contraception during treatment and 
-for at least 1 week after the last dose of Pemazyre.  </p>
-</li>
-<li>
-<p>Breast-feeding 
-Do not breast-feed during treatment with Pemazyre and for at least 1 week after the last dose. </p>
-</li>
+for at least 1 week after the last dose of Pemazyre.  </li>
+<li>Breast-feeding 
+Do not breast-feed during treatment with Pemazyre and for at least 1 week after the last dose. </li>
 </ul>
 <p>Driving and using machines 
 Pemazyre can cause side effects such as fatigue or visual disturbances. Do not drive or operate 
@@ -199,12 +193,10 @@ of therapy. </p>
 may occur with the following frequency: </p>
 <p>Very common (may affect more than 1 in 10 people):<br />
 * low sodium in blood; symptoms include decreased ability to think, headache, nausea, poor 
-balance, confusion, seizures, coma </p>
-<ul>
-<li>blood tests showing increase of creatinine, which can suggest kidney problems; usually raised 
+balance, confusion, seizures, coma 
+* blood tests showing increase of creatinine, which can suggest kidney problems; usually raised 
 creatinine does not cause symptoms, but symptoms of kidney problems may include nausea and 
-changes in urination  </li>
-</ul>
+changes in urination  </p>
 <p>Other side effects may occur with the following frequencies: </p>
 <p>Very common (may affect more than 1 in 10 people) 
 * high or low phosphate levels seen in blood tests 

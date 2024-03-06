@@ -4,7 +4,7 @@ Instance: composition-en-288b5bf92457cec46266040e05fc3d90
 InstanceOf: CompositionUvEpi
 Title: "Composition for byfavo Package Leaflet"
 Description:  "Composition for byfavo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Byfavo is and what it is used for  
-2. What you need to know before you are given Byfavo  
-3. How Byfavo is given 
-4. Possible side effects  
-5. How Byfavo is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Byfavo is and what it is used for  </li>
+<li>What you need to know before you are given Byfavo  </li>
+<li>How Byfavo is given </li>
+<li>Possible side effects  </li>
+<li>How Byfavo is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -256,7 +256,7 @@ Te .: + 49 800 4453 4Luxembourg/Luxemburg<br />
 PAION Deutschland GmbH<br />
 T l/Tel: + 49 800 4453 4 esk  republika 
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4453<em>{e-mail}</em> 
+Tel: + 49 800 4453 4453&lt;{e-mail}&gt; 
 Magyarorsz g<br />
 PAION Deutschland GmbH<br />
 Tel.: + 49 800 4453 4Danmark<br />
@@ -293,8 +293,7 @@ Tel: + 49 800 4453 4Slovenija
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4 sland 
 PAION Deutschland GmbH<br />
-S mi: + 49 800 4453 4453<br />
-Slovensk  republika<br />
+S mi: + 49 800 4453 4Slovensk  republika<br />
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Italia 
 Mylan Italia S.r.l. 
@@ -308,8 +307,7 @@ Tel: + 49 800 4453 4Latvija<br />
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4United Kingdom (Northern Ireland) 
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4 </p>
-<p>This leaflet was last revised in </p>
+Tel: + 49 800 4453 4This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site 
 http://www.ema.europa.eu.   </p>
@@ -318,8 +316,8 @@ http://www.ema.europa.eu.   </p>
 <p>Byfavo 20 mg powder for solution for injection </p>
 <p>FOR INTRAVENOUS USE ONLY  </p>
 <p>Must be reconstituted before use with Sodium Chloride 9 mg/mL (0.9%) solution for injection </p>
-<p>Read the Summary of Product Characteristics (SmPC) carefully before use.  </p>
-<p>Remimazolam must only be administered by health care professionals experienced in sedation. The 
+<p>Read the Summary of Product Characteristics (SmPC) carefully before use.<br />
+Remimazolam must only be administered by health care professionals experienced in sedation. The 
 patient should be monitored throughout by a separate healthcare professional, who is not involved in 
 the conduct of the procedure, and whose sole task is to monitor the patient. All personnel must be 
 trained in the detection and management of airway obstruction, hypoventilation and apnoea, including 
@@ -374,5 +372,5 @@ information for you.
 - Keep this leaflet. You may need to read it again.<br />
 - If you have any further questions, ask your doctor or nurse. 
 - If you get any side effects, talk to your doctor or nurse. This includes any possible side effects 
-not listed in this leaflet. See section </p>         </div>"""      
+not listed in this leaflet. See section 4.</p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-41d224cd3a7da19e9ef0d058f5098940
 InstanceOf: CompositionUvEpi
 Title: "Composition for fuzeon Package Leaflet"
 Description:  "Composition for fuzeon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,15 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Fuzeon is and what it is used for 
-2. What you need to know before you use Fuzeon  
-3. How to use Fuzeon 
-4. Possible side effects 
-5. How to store Fuzeon 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Fuzeon is and what it is used for </li>
+<li>What you need to know before you use Fuzeon  </li>
+<li>How to use Fuzeon </li>
+<li>Possible side effects </li>
+<li>How to store Fuzeon </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -221,14 +221,7 @@ but talk to your doctor about any concerns you have. </p>
 <p>Reactions may be worse when injections are repeated in the same place on the body. They may also be 
 worse when the injection is given deeper than intended (for example, into a muscle). Rarely, you may 
 get an infection at a place where an individual injection was given. To reduce the risk of infection, it is 
-important that you follow the instructions provided in Section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store fuzeon"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store fuzeon"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Fuzeon can cause a build-up of a type of protein, called amyloid, under the skin at the injection site. 
+important that you follow the instructions provided in Section 7. Fuzeon can cause a build-up of a type of protein, called amyloid, under the skin at the injection site. 
 This may feel like lumps under the skin. Please contact your doctor if this occurs. </p>
 <p>Other possible side effects </p>
 <p>Very common (affects more than 1 in 10 people)<br />
@@ -271,11 +264,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store fuzeon"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store fuzeon"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label of either the Fuzeon or the 
@@ -288,4 +280,109 @@ injection has been added. Also do not use the Water for Injections if you see an
 if the water is cloudy. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fuzeon contains </p>
+<ul>
+<li>The active substance is enfuvirtide. Each vial contains 108 mg enfuvirtide. After reconstitution 
+with the solvent provided 1 ml of reconstituted solution contains 90 mg enfuvirtide. </li>
+<li>The other ingredients are: </li>
+</ul>
+<p>Powder </p>
+<p>Sodium Carbonate, anhydrous 
+Mannitol 
+Sodium Hydroxide 
+Hydrochloric Acid </p>
+<p>Solvent </p>
+<p>Water for Injections </p>
+<p>See section 2  Fuzeon contains sodium . </p>
+<p>What Fuzeon looks like and contents of the pack </p>
+<p>Fuzeon powder and solvent for solution for injection comes in a carton containing: </p>
+<p>60 vials of Fuzeon<br />
+60 vials of Water for Injections that is used to reconstitute the Fuzeon powder 
+60 3 ml syringes 
+60 1 ml syringes<br />
+180 alcohol swabs.  </p>
+<p>This pack provides you with everything you need to prepare and take your Fuzeon for 30 days of 
+injections. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>The Manufacturer responsible for batch release is </p>
+<p>Roche Pharma AG 
+Emil-Barell-Str. 1,<br />
+D-79639 Grenzach-Wyhlen 
+Germany </p>
+<p>For any information about this medicinal product, please contact the local representative of the 
+Marketing Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546  </p>
+<p>: +359 2 474 5Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36 - 1 279 4Danmark 
+Roche Pharmaceuticals A/S 
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland) </p>
+<p>Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O<br />
+Tel: + 372 6 177 Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 France 
+Roche 
+T l: +33 (0) 1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22 Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371   6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
 

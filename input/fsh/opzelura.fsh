@@ -4,7 +4,7 @@ Instance: composition-en-5f2f3f0c1c43271a861dd5210ff699a4
 InstanceOf: CompositionUvEpi
 Title: "Composition for opzelura Package Leaflet"
 Description:  "Composition for opzelura Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Opzelura is and what it is used for  
-2. What you need to know before you use Opzelura 
-3. How to use Opzelura 
-4. Possible side effects  
-5. How to store Opzelura 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Opzelura is and what it is used for  </li>
+<li>What you need to know before you use Opzelura </li>
+<li>How to use Opzelura </li>
+<li>Possible side effects  </li>
+<li>How to store Opzelura </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -146,8 +146,8 @@ A minimum duration of 6 months is recommended but satisfactory treatment may req
 12 months. If you achieve satisfactory repigmentation of treated areas, consult your doctor to discuss if 
 treatment of those areas could be stopped. Consult your doctor if you experience loss of 
 repigmentation after stopping treatment. </p>
-<p>Do not use more than two 100 gram tubes a month.  </p>
-<p>If you use more Opzelura than you should 
+<p>Do not use more than two 100 gram tubes a month.<br />
+If you use more Opzelura than you should 
 Wipe off the excess cream if this occurs. </p>
 <p>If you forget to use Opzelura 
 If you forget to apply the cream at the scheduled time, do it as soon as you remember, then continue 

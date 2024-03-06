@@ -4,7 +4,7 @@ Instance: composition-en-fca2b0949c2af4853c1cd5b425813585
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontozry Package Leaflet"
 Description:  "Composition for ontozry Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ontozry is and what it is used for  
-2. What you need to know before you take Ontozry  
-3. How to take Ontozry  
-4. Possible side effects  
-5. How to store Ontozry  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ontozry is and what it is used for  </li>
+<li>What you need to know before you take Ontozry  </li>
+<li>How to take Ontozry  </li>
+<li>Possible side effects  </li>
+<li>How to store Ontozry  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -279,5 +279,37 @@ side.<br />
 Ontozry 200 mg are oval light orange film-coated tablets with AV on one side and  200  on the other 
 side.  </p>
 <p>Ontozry Treatment Initiation pack contains 14 tablets of 12.5 mg and 14 film-coated tablets of 25 mg.  </p>
-<p>Ontozry 50 mg, 100 mg, 150 mg and 200 mg film-coated tablets are available in packs of 14, 28 or 8</p>         </div>"""      
+<p>Ontozry 50 mg, 100 mg, 150 mg and 200 mg film-coated tablets are available in packs of 14, 28 or 84. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Angelini Pharma S.p.A 
+Viale Amelia 70, 00Rome   Italy </p>
+<p>Manufacturer </p>
+<p>Swiss Caps GmbH 
+Grassingerstrasse 9 
+83043 Bad Aibling 
+Germany </p>
+<p>Aziende Chimiche Riunite Angelini Francesco ACRAF SPA 
+Via Vecchia del Pinocchio, 22 60Ancona (AN), Italy </p>
+<p>This leaflet was last revised in. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu.  </p>
+<p>Annex IV 
+Scientific conclusions and grounds for the variation to the terms of the marketing 
+authorisation(s) </p>
+<p>Scientific conclusions 
+Taking into account the PRAC Assessment Report on the PSUR(s) for cenobamate, the scientific 
+conclusions of PRAC are as follows:<br />
+In view of available data from clinical trials and spontaneous reports, including 11 Individual Case 
+Safety Reports with a close temporal relationship and a positive de-challenge, the PRAC considers a 
+causal relationship between cenobamate and  suicidal ideation  is at least a reasonable possibility. 
+The PRAC concluded that the product information of products containing cenobamate should be 
+amended accordingly. 
+Having reviewed the PRAC recommendation, the CHMP agrees with the PRAC overall 
+conclusions and grounds for recommendation. 
+Grounds for the variation to the terms of the marketing authorisation(s) 
+On the basis of the scientific conclusions for cenobamate the CHMP is of the opinion that the 
+benefit-risk balance of the medicinal product(s) containing cenobamate is unchanged subject to the 
+proposed changes to the product information 
+The CHMP recommends that the terms of the marketing authorisation(s) should be varied. </p>         </div>"""      
 

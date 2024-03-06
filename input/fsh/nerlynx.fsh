@@ -4,7 +4,7 @@ Instance: composition-en-4106f4a5a4b46a8c1fb9847b0f08bced
 InstanceOf: CompositionUvEpi
 Title: "Composition for nerlynx Package Leaflet"
 Description:  "Composition for nerlynx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Nerlynx is and what it is used for 
-2. What you need to know before you take Nerlynx 
-3. How to take Nerlynx 
-4. Possible side effects 
-5. How to store Nerlynx 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Nerlynx is and what it is used for </li>
+<li>What you need to know before you take Nerlynx </li>
+<li>How to take Nerlynx </li>
+<li>Possible side effects </li>
+<li>How to store Nerlynx </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -204,8 +204,8 @@ Your doctor will tell you if you need to keep taking anti-diarrhoea medicine aft
 months to control your diarrhoea.<br />
 - Your doctor will also tell you if you need to change the dose of Nerlynx because of diarrhoea. </p>
 <p>If you take more Nerlynx than you should, contact a doctor or a hospital straight away. Take the 
-medicine pack with you. </p>
-<p>Some side effects associated with taking more Nerlynx than you should are: diarrhoea, nausea, 
+medicine pack with you. 
+Some side effects associated with taking more Nerlynx than you should are: diarrhoea, nausea, 
 vomiting and dehydration. </p>
 <p>If you forget to take Nerlynx 
 - If you forget a dose, wait until the next day before you take the next dose. 

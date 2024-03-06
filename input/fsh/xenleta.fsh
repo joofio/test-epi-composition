@@ -4,7 +4,7 @@ Instance: composition-en-962167f0883d517c612253bd6d108856
 InstanceOf: CompositionUvEpi
 Title: "Composition for xenleta Package Leaflet"
 Description:  "Composition for xenleta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Xenleta is and what it is used for 
-2. What you need to know before you take Xenleta 
-3. How to take Xenleta 
-4. Possible side effects 
-5. How to store Xenleta 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Xenleta is and what it is used for </li>
+<li>What you need to know before you take Xenleta </li>
+<li>How to take Xenleta </li>
+<li>Possible side effects </li>
+<li>How to store Xenleta </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -97,8 +97,8 @@ rhythm.
 - if you have or have had an irregular heart rhythm or an abnormal ECG finding called QT 
 prolongation 
 - if you have a very slow heart beat (bradycardia) 
-- if your heart does not work well enough (heart failure) </p>
-<p>Warnings and precautions 
+- if your heart does not work well enough (heart failure) 
+Warnings and precautions 
 Talk to your doctor, pharmacist, or nurse before you are given Xenleta 
 - if you have kidney failure and require dialysis. 
 - if you have cirrhosis (severe liver disease.) </p>
@@ -146,8 +146,8 @@ medicines include:
 * verapamil (for high blood pressure) </p>
 <p>Xenleta with food and drink 
 Xenleta should be taken on an empty stomach, at least 1 hour before or 2 hours after a meal. This is 
-because food and some drinks can affect the way medicines work. </p>
-<p>You must not eat grapefruit or drink grapefruit juice while on treatment with Xenleta as it might 
+because food and some drinks can affect the way medicines work. 
+You must not eat grapefruit or drink grapefruit juice while on treatment with Xenleta as it might 
 interact with Xenleta and increase side effects. </p>
 <p>Pregnancy, breast-feeding 
 Do not take Xenleta if you are pregnant or breast-feeding. If you are pregnant or breastfeeding, think 
@@ -195,8 +195,8 @@ dose. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
-<p>Common: may affect up to 1 in 10 people 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
+Common: may affect up to 1 in 10 people 
 * low potassium levels in your blood (hypokalaemia), which can cause muscle weakness, 
 twitching or abnormal heart rhythm 
 * difficulty sleeping (insomnia) 

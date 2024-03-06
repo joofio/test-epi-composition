@@ -4,7 +4,7 @@ Instance: composition-en-9f5779161e02fec0335dcad538341589
 InstanceOf: CompositionUvEpi
 Title: "Composition for adenuric Package Leaflet"
 Description:  "Composition for adenuric Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What ADENURIC is and what it is used for 
-2. What you need to know before you take ADENURIC 
-3. How to take ADENURIC 
-4. Possible side effects 
-5. How to store ADENURIC 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What ADENURIC is and what it is used for </li>
+<li>What you need to know before you take ADENURIC </li>
+<li>How to take ADENURIC </li>
+<li>Possible side effects </li>
+<li>How to store ADENURIC </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -374,39 +375,32 @@ Germany </p>
 Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Menarini Benelux NV/SA 
-T l/Tel: + 32 (0)2 721 4 
-Lietuva 
+T l/Tel: + 32 (0)2 721 4Lietuva 
 UAB  BERLIN-CHEMIE MENARINI 
 BALTIC<br />
-Tel: +370 52 691  </p>
-<ul>
-<li>/ .     E<br />
+Tel: +370 52 691 <br />
+ - / .     E<br />
  .: +359 2 454 0Luxembourg/Luxemburg 
 Menarini Benelux NV/SA 
-T l/Tel: + 32 (0)2 721 4 
- esk  republika 
+T l/Tel: + 32 (0)2 721 4 esk  republika 
 Berlin-Chemie/A.Menarini Ceska republika s.r.o. 
-Tel: +420 267 199<br />
-Magyarorsz g 
+Tel: +420 267 199 Magyarorsz g 
 Berlin-Chemie/A. Menarini Kft. 
 Tel.: +36 1799 7Danmark 
 Pharmaprim AB<br />
 Tlf: +468355Malta 
 Menarini International Operations Luxembourg 
 S.A. 
-Tel: +352 264 
-Deutschland 
+Tel: +352 264Deutschland 
 Berlin-Chemie AG 
 Tel: +49 (0) 30 67Nederland 
 Menarini Benelux NV/SA 
-Tel: +32 (0)2 721 4 
-Eesti 
+Tel: +32 (0)2 721 4Eesti 
 O  Berlin-Chemie Menarini Eesti 
 Tel: +372 667 5Norge 
 Pharmaprim AB 
-Tlf: +468355 </li>
-</ul>
-<p>MENARINI HELLAS AE 
+Tlf: +468355<br />
+MENARINI HELLAS AE 
  : +30 210 8316111- sterreich 
 A. Menarini Pharma GmbH. 
 Tel: +43 1 879 95 85-0 </p>
@@ -414,45 +408,37 @@ Tel: +43 1 879 95 85-0 </p>
 Laboratorios Menarini S.A. 
 Tel: +34-93 462 88 Polska 
 Berlin-Chemie/Menarini Polska Sp. z o.o. 
-Tel.: +48 22 566 21<br />
-France 
+Tel.: +48 22 566 21 France 
 MENARINI France 
 T l: +33 (0)1 45 60 77 Portugal 
 A. Menarini Portugal   Farmac utica, S.A. 
-Tel: +351 210 935<br />
-Hrvatska 
+Tel: +351 210 935 Hrvatska 
 Berlin-Chemie Menarini Hrvatska d.o.o. 
-Tel : + 385 1 4821<br />
-Rom nia 
+Tel : + 385 1 4821 Rom nia 
 Berlin-Chemie A.Menarini S.R.L. 
-Tel: +40 21 232 34<br />
-Ireland 
+Tel: +40 21 232 34 Ireland 
 A. Menarini Pharmaceuticals Ireland Ltd 
 Tel: +353 1 284 6Slovenija 
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
-Tel: +386 01 300 2 
- sland 
+Tel: +386 01 300 2 sland 
 Pharmaprim AB 
 S mi: +468355Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o 
-Tel: +421 2 544 30<br />
-Italia 
+Tel: +421 2 544 30 Italia 
 A. Menarini Industrie Farmaceutiche Riunite s.r.l. 
 Tel: +39-055 56Suomi/Finland 
 Berlin-Chemie/A.Menarini Suomi OY 
-Puh/Tel: +358 403 000  </p>
-<p>MENARINI HELLAS AE 
+Puh/Tel: +358 403 000 <br />
+MENARINI HELLAS AE 
  : +30 210 8316111-Sverige 
 Pharmaprim AB 
-Tel: +468355 
-Latvija 
+Tel: +468355Latvija 
 SIA Berlin-Chemie/Menarini Baltic 
 Tel: +371 67103United Kingdom (Northern Ireland) 
 A. Menarini Farmaceutica Internazionale S.R.L. 
-Tel: +44 (0)1628 856 
-This leaflet was last revised in </p>
+Tel: +44 (0)1628 856This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website 
 http://www.ema.europa.eu. </p>         </div>"""      

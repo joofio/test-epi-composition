@@ -4,7 +4,7 @@ Instance: composition-en-c082813e7ff4dad923d73dee6e29eba2
 InstanceOf: CompositionUvEpi
 Title: "Composition for menveo Package Leaflet"
 Description:  "Composition for menveo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
- 
-1. What Menveo is and what it is used for 
-2. What you need to know before you or your child are given Menveo 
-3. How to use Menveo 
-4. Possible side effects 
-5. How to store Menveo 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+<ol>
+<li>What Menveo is and what it is used for </li>
+<li>What you need to know before you or your child are given Menveo </li>
+<li>How to use Menveo </li>
+<li>Possible side effects </li>
+<li>How to store Menveo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -183,8 +184,8 @@ during clinical trials are listed below. </p>
 <p>Very common: headache, nausea, injection site pain, injection site redness (  50 mm), injection site 
 firmness (  50 mm), muscle ache, generally feeling unwell </p>
 <p>Common: rash, injection site redness (&gt; 50 mm), injection site firmness (&gt; 50 mm), joint ache, 
-fever   38 C, chills </p>
-<p>Uncommon: dizziness, injection site itching </p>
+fever   38 C, chills 
+Uncommon: dizziness, injection site itching </p>
 <p>Side effects that have been reported during marketed use include: 
 Rare: enlarged lymph nodes. 
 Not known: allergic reactions that may include severe swelling of the lips, mouth, throat (which may 
@@ -276,41 +277,34 @@ Italy </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 GlaxoSmithKline Pharmaceuticals SA/NV 
-T l/Tel: + 32 10 85 52 00<br />
-Lietuva 
+T l/Tel: + 32 10 85 52 Lietuva 
 GSK Vaccines S.r.l. 
 Tel: +370 80000<br />
 GSK Vaccines S.r.l. 
  . +359 80018Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals SA/NV 
-T l/Tel: + 32 10 85 52<br />
- esk  republika 
+T l/Tel: + 32 10 85 52  esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
 <p>Magyarorsz g 
 GSK Vaccines S.r.l. 
-Tel.: +36 80088309<br />
-Danmark 
+Tel.: +36 80088Danmark 
 GlaxoSmithKline Pharma A/S 
 Tlf: + 45 36 35 91 dk-info@gsk.com </p>
 <p>Malta 
 GSK Vaccines S.r.l. 
-Tel: +356 80065004<br />
-Deutschland 
+Tel: +356 80065Deutschland 
 GlaxoSmithKline GmbH &amp; Co. KG 
 Tel: +49 (0)89 36044 8de.impfservice@gsk.com<br />
 Nederland 
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081100  </p>
-<p>Eesti 
+Tel: + 31 (0)33 2081Eesti 
 GSK Vaccines S.r.l.<br />
-Tel: +372 8002 </p>
-<p>Norge 
+Tel: +372 8002Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>GlaxoSmithKline   A.E.B.E 
-T : + 30 210 68 82 100<br />
- sterreich 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E 
+T : + 30 210 68 82  sterreich 
 GlaxoSmithKline Pharma GmbH. 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com  </p>
@@ -319,8 +313,7 @@ GlaxoSmithKline, S.A.
 Tel: + 34 900 202 es-ci@gsk.com  </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (22) 576 9000<br />
-France 
+Tel.: + 48 (22) 576 9France 
 Laboratoire GlaxoSmithKline 
 T l: + 33 (0) 1 39 17 84 diam@gsk.com  </p>
 <p>Portugal 
@@ -329,37 +322,28 @@ Lda.
 Tel: + 351 21 412 95 FI.PT@gsk.com<br />
 Hrvatska 
 GSK Vaccines S.r.l. 
-Tel.: +385 800787089  </p>
-<p>Rom nia 
+Tel.: +385 800787Rom nia 
 GSK Vaccines S.r.l. 
-Tel: +40 800672524<br />
-Ireland 
+Tel: +40 800672Ireland 
 GlaxoSmithKline (Ireland) Ltd 
-Tel: + 353 (0)1 495 5000  </p>
-<p>Slovenija 
+Tel: + 353 (0)1 495 5Slovenija 
 GSK Vaccines S.r.l. 
-Tel: +386 80688 
- sland 
+Tel: +386 80688 sland 
 Vistor hf.<br />
-S mi: +354 535 7000  </p>
-<p>Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 GSK Vaccines S.r.l. 
-Tel.: +421 800500 
-Italia 
+Tel.: +421 800500Italia 
 GlaxoSmithKline S.p.A. 
-Tel: +39 (0)45 7741<br />
-Suomi/Finland 
+Tel: +39 (0)45 7741 Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 10 30 30  </p>
-<p>GSK Vaccines S.r.l. 
- : +357 80070017  </p>
-<p>Sverige 
+Puh/Tel: + 358 10 30 30 <br />
+GSK Vaccines S.r.l. 
+ : +357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com<br />
 Latvija 
 GSK Vaccines S.r.l. 
-Tel: +371 80205045<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 80205United Kingdom (Northern Ireland) 
 GSK Vaccines S.r.l. 
 Tel: +44 (0)800 221 customercontactuk@gsk.com  </p>
 <p>This leaflet was last revised in (MM/YYYY)  </p>

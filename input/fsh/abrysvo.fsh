@@ -4,7 +4,7 @@ Instance: composition-en-0e4b0f32f27cd3409c6b65f9b73ff49f
 InstanceOf: CompositionUvEpi
 Title: "Composition for abrysvo Package Leaflet"
 Description:  "Composition for abrysvo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Abrysvo is and what it is used for 
-2. What you need to know before you receive  Abrysvo 
-3. How Abrysvo is given 
-4. Possible side effects 
-5. How to store Abrysvo 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Abrysvo is and what it is used for </li>
+<li>What you need to know before you receive  Abrysvo </li>
+<li>How Abrysvo is given </li>
+<li>Possible side effects </li>
+<li>How to store Abrysvo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -153,14 +153,7 @@ This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say 
 weakness of the limbs and may progress up to paralysis of part or all of the body). </p>
 <p>Very rare (may affect up to 1 in 10 000 people) 
 * allergic reactions - signs of an allergic reaction include swelling of the face, lips, tongue or 
-throat, hives, difficulty breathing or swallowing and dizziness. See also section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store abrysvo"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store abrysvo"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor immediately if you notice signs of these serious side effects. </p>
+throat, hives, difficulty breathing or swallowing and dizziness. See also section 2. Tell your doctor immediately if you notice signs of these serious side effects. </p>
 <p>The following side effects were reported in pregnant individuals </p>
 <p>Very common (may affect more than 1 in 10 people) 
 * pain where the injection is given 
@@ -186,11 +179,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store abrysvo"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store abrysvo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
@@ -199,4 +191,119 @@ expiry date refers to the last day of that month. </p>
 <p>Do not freeze. Discard if the carton has been frozen. </p>
 <p>After reconstitution Abrysvo should be administered immediately or within 4 hours if stored between 
 15 C and 30 C. Do not freeze. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Abrysvo contains </p>
+<p>The active substances are: 
+RSV subgroup A stabilised prefusion F antigen1,2 
+60 micrograms 
+RSV subgroup B stabilised prefusion F antigen1,2 
+60 micrograms 
+(RSV antigens) 
+1glycoprotein F stabilised in the prefusion conformation 
+2produced in Chinese Hamster Ovary cells by recombinant DNA technology. </p>
+<p>The other ingredients are: 
+Powder 
+* trometamol 
+* trometamol hydrochloride 
+* sucrose 
+* mannitol 
+* polysorbate * sodium chloride 
+* hydrochloric acid 
+Solvent 
+* water for injections </p>
+<p>What Abrysvo looks like and contents of the pack </p>
+<p>Abrysvo is provided as 
+* a white powder in a glass vial 
+* a solvent in a pre-filled syringe to dissolve the powder 
+After dissolving the powder in the solvent, the solution is clear and colourless. 
+Abrysvo is available in 
+* a carton containing 1 vial of powder, 1 pre-filled syringe of solvent, 1 vial adaptor, with 1 
+needle or without needles. 
+* a carton containing 5 vials of powder, 5 pre-filled syringes of solvent, 5 vial adaptors, with 5 
+needles or without needles. 
+* a carton containing 10 vials of powder, 10 pre-filled syringes of solvent, 10 vial adaptors, with 
+10 needles or without needles. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Pfizer Europe MA EEIG 
+Boulevard de la Plaine 1050 Bruxelles<br />
+Belgium </p>
+<p>Manufacturer 
+Pfizer Manufacturing Belgium NV 
+Rijksweg 2870 Puurs-Sint-Amands 
+Belgium </p>
+<p>Pfizer Ireland Pharmaceuticals 
+Grange Castle Business Park 
+Clondalkin, Dublin Ireland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Luxembourg/Luxemburg 
+Pfizer NV/SA 
+T l/Tel: + 32 (0)2 554 62 Latvija 
+Pfizer Luxembourg SARL fili le Latvij<br />
+Tel.: + 371 670 35 <br />
+     ,   <br />
+Te : +359 2 970 4Magyarorsz g 
+Pfizer Kft 
+Tel: + 36 1 488 37  esk  republika 
+Pfizer, spol. s r.o.<br />
+Tel: +420 283 004 Malta 
+Vivian Corporation Ltd. 
+Tel: + 356 21344Danmark 
+Pfizer ApS 
+Tlf: + 45 44 20 11 Nederland 
+Pfizer bv 
+Tel: +31 (0)800 63 34 Deutschland 
+PFIZER PHARMA GmbH 
+Tel: +49 (0)30 550055-51Norge 
+Pfizer AS 
+Tlf: +47 67 52 61 Eesti 
+Pfizer Luxembourg SARL Eesti filiaal 
+Tel: +372 666 7 sterreich 
+Pfizer Corporation Austria Ges.m.b.H 
+Tel: +43 (0)1 521 15-0 </p>
+<p>Pfizer   A.E. 
+ .: +30 210 6785Polska 
+Pfizer Polska Sp. z o.o. 
+Tel.: +48 22 335 61 Espa a 
+Pfizer, S.L. 
+T lf: +34 91 490 99 Portugal 
+Laborat rios Pfizer, Lda. 
+Tel: +351 21 423 5France 
+Pfizer 
+T l +33 (0)1 58 07 34 Rom nia 
+Pfizer Romania S.R.L 
+Tel: +40 (0) 21 207 28 Hrvatska 
+Pfizer Croatia d.o.o. 
+Tel: + 385 1 3908 Slovenija 
+Pfizer Luxembourg SARL 
+Pfizer, podru nica za svetovanje s podro ja 
+farmacevtske dejavnosti, Ljubljana 
+Tel.: +386 (0)1 52 11 Ireland 
+Pfizer Healthcare Ireland 
+Tel: +1800 633 363 (toll free) 
+Tel: +44 (0)1304 616Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka 
+Tel: + 421 2 3355 5 sland 
+Icepharma hf. 
+Simi: + 354 540 8Suomi/Finland 
+Pfizer Oy 
+Puh/Tel: +358 (0)9 430 Italia 
+Pfizer S.r.l.<br />
+Tel: +39 06 33 18 Sverige 
+Pfizer AB 
+Tel: +46 (0)8 550 520 K<br />
+Pfizer    . . (Cyprus Branch) 
+T : +357 22817United Kingdom (Northern Ireland) 
+Pfizer Limited 
+Tel: + 44 (0) 1304 616This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

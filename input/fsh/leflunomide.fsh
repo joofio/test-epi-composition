@@ -4,7 +4,7 @@ Instance: composition-en-77a855e484d10473c2746e9b03c57dde
 InstanceOf: CompositionUvEpi
 Title: "Composition for leflunomide Package Leaflet"
 Description:  "Composition for leflunomide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Leflunomide Zentiva is and what it is used for 
 2. What you need to know before you take Leflunomide Zentiva 
 3. How to take Leflunomide Zentiva 
 4. Possible side effects 
 5. How to store Leflunomide Zentiva 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -232,20 +231,15 @@ dose. Do not take a double dose to make up for a forgotten dose. </p>
 <ul>
 <li>if you experience weakness, feel light-headed or dizzy or have difficulty breathing, as these 
 may be signs of a serious allergic reaction, </li>
-<li>if you develop a skin rash or ulcers in your mouth, as these may indicate severe, sometimes 
+<li>
+<p>if you develop a skin rash or ulcers in your mouth, as these may indicate severe, sometimes 
 life-threatening reactions (e.g. Stevens-Johnson syndrome, toxic epidermal necrolysis, erythema 
-multiforme, Drug Reaction with Eosinophilia and Systemic Symptoms [DRESS]), see section </li>
-</ul>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store leflunomide"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store leflunomide"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor immediately if you experience:</p>
-<ul>
-<li>pale skin, tiredness, or bruising, as these may indicate blood disorders caused by an imbalance 
-in the different types of blood cells which make up blood, </li>
+multiforme, Drug Reaction with Eosinophilia and Systemic Symptoms [DRESS]), see section 2. Tell your doctor immediately if you experience:</p>
+</li>
+<li>
+<p>pale skin, tiredness, or bruising, as these may indicate blood disorders caused by an imbalance 
+in the different types of blood cells which make up blood, </p>
+</li>
 <li>tiredness, abdominal pain, or jaundice (yellow discolouration of the eyes or skin), as these 
 may indicate serious conditions such as liver failure, which may be fatal, </li>
 <li>any symptoms of an infection such as fever, sore throat or cough, as this medicine may 
@@ -316,11 +310,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store leflunomide"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store leflunomide"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the packaging. The expiry date refers 
@@ -331,4 +324,123 @@ Store in the original package. </p>
 Keep the bottle tightly closed.   </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Leflunomide Zentiva contains 
+- The active substance is leflunomide. One film-coated tablet contains 10 mg of leflunomide. 
+- The other ingredients are: maize starch, povidone (E1201), crospovidone (E1202), silica 
+colloidal anhydrous, magnesium stearate (E470b), and lactose monohydrate in the tablet core, as well 
+as talc (E553b), hypromellose (E464), titanium dioxide (E171), and macrogol 8000 in the 
+film-coating. </p>
+<p>What Leflunomide Zentiva looks like and contents of the pack 
+Leflunomide Zentiva 10 mg film-coated tablets are white to almost white and round. 
+Imprint on one side: ZBN. </p>
+<p>The tablets are packed in blisters or bottles. 
+Packs of 30 and 100 tablets are available. </p>
+<p>Not all pack size may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Zentiva k.s.<br />
+U kabelovny 102 37 Prague Czech Republic </p>
+<p>Manufacturer<br />
+Opella Healthcare International SAS 
+56, Route de Choisy 
+60200 Compi gne 
+France </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Zentiva, k.s. 
+T l/Tel: +32 280 86 PV-Belgium@zentiva.com </p>
+<p>Lietuva 
+Zentiva, k.s. 
+Tel: +370 52152PV-Lithuania@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +35924417PV-Bulgaria@zentiva.com </p>
+<p>Luxembourg/Luxemburg 
+Zentiva, k.s. 
+T l/Tel: +352 208 82PV-Luxembourg@zentiva.com 
+ esk  republika 
+Zentiva, k.s. 
+Tel: +420 267 241 PV-Czech-Republic@zentiva.com </p>
+<p>Magyarorsz g 
+Zentiva Pharma Kft. 
+Tel.: +36 1 299 1PV-Hungary@zentiva.com 
+Danmark 
+Zentiva Denmark ApS 
+Tlf: +45 787 68 PV-Denmark@zentiva.com </p>
+<p>Malta 
+Zentiva, k.s. 
+Tel: +356 2778 0PV-Malta@zentiva.com 
+Deutschland 
+Zentiva Pharma GmbH<br />
+Tel: +49 (0) 800 53 53 PV-Germany@zentiva.com </p>
+<p>Nederland 
+Zentiva, k.s. 
+Tel: +31 202 253 PV-Netherlands@zentiva.com 
+Eesti 
+Zentiva, k.s. 
+Tel: +372 52 70PV-Estonia@zentiva.com </p>
+<p>Norge 
+Zentiva Denmark ApS 
+Tlf: +47 219 66 PV-Norway@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +30 211 198 7PV-Greece@zentiva.com </p>
+<p>sterreich 
+Zentiva, k.s. 
+Tel: +43 720 778 PV-Austria@zentiva.com 
+Espa a 
+Zentiva, k.s. 
+Tel: +34 931 815 PV-Spain@zentiva.com </p>
+<p>Polska 
+Zentiva Polska Sp. z o.o. 
+Tel: + 48 22 375 92 PV-Poland@zentiva.com 
+France 
+Zentiva France 
+T l: +33 (0) 800 089 PV-France@zentiva.com </p>
+<p>Portugal 
+Zentiva Portugal, Lda 
+Tel: +351210601PV-Portugal@zentiva.com </p>
+<p>Hrvatska 
+Zentiva d.o.o. 
+Tel: +385 1 6641 PV-Croatia@zentiva.com </p>
+<p>Ireland 
+Zentiva, k.s. 
+Tel: +353 818 882 PV-Ireland@zentiva.com </p>
+<p>Rom nia 
+ZENTIVA S.A. 
+Tel: +4 021.304.7PV-Romania@zentiva.com </p>
+<p>Slovenija 
+Zentiva, k.s. 
+Tel: +386 360 00 PV-Slovenia@zentiva.com 
+ sland 
+Zentiva Denmark ApS 
+S mi: +354 539 0PV-Iceland@zentiva.com </p>
+<p>Slovensk  republika 
+Zentiva, a.s. 
+Tel: +421 2 3918 3PV-Slovakia@zentiva.com 
+Italia 
+Zentiva Italia S.r.l. 
+Tel: +39-02-38598PV-Italy@zentiva.com 
+Suomi/Finland 
+Zentiva Denmark ApS 
+Puh/Tel: +358 942 598 PV-Finland@zentiva.com </p>
+<p>Zentiva, k.s. 
+ : +357 240 30 PV-Cyprus@zentiva.com </p>
+<p>Sverige 
+Zentiva Denmark ApS 
+Tel: +46 840 838 PV-Sweden@zentiva.com 
+Latvija 
+Zentiva, k.s. 
+Tel: +371 67893PV-Latvia@zentiva.com </p>
+<p>United Kingdom (Northern Ireland) 
+Zentiva, k.s. 
+Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
+<p>This leaflet was last revised in {MM/YYYY} </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-d14c5d7dea1d2e7785c6d37dbbff6788
 InstanceOf: CompositionUvEpi
 Title: "Composition for orphacol Package Leaflet"
 Description:  "Composition for orphacol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Orphacol is and what it is used for 
 2. What you need to know before you take Orphacol 
 3. How to take Orphacol 
 4. Possible side effects 
 5. How to store Orphacol 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -134,8 +134,8 @@ the morning and one in the evening. This way, you will have to take fewer capsul
 might not be possible if you have been prescribed at the same time another medicine containing 
 ursodeoxycholic acid. In this case, you should seek advice from your doctor or pharmacist about proper 
 sequence of administration of ursodeoxycholic acid and Orphacol over the day, as these products should 
-be administered separately by several hours (see section 2). </p>
-<p>Use in children 
+be administered separately by several hours (see section 2). 
+Use in children 
 For babies and children who cannot swallow capsules, the capsule can be opened and its contents added to 
 baby formula or apple/orange or apple/apricot juice adapted for small children. </p>
 <p>If you take more Orphacol than you should 
@@ -221,8 +221,7 @@ THERAVIA
 T l/Tel: +32 (0)2 40 11 question@theravia.com   </p>
 <p>Lietuva 
 Immedica Pharma AB 
-Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com </p>
+Tel/Puh: +46 (0)8 533 39 info@immedica.com </p>
 <p>THERAVIA 
 Te .: +33 (0)1 72 69 01 question@theravia.com  </p>
 <p>Luxembourg/Luxemburg 
@@ -236,8 +235,7 @@ Medis Hungary Kft
 Tel: +36 (2) 380 1info@medis.hu  </p>
 <p>Danmark 
 Immedica Pharma AB<br />
-Tlf: +46 (0)8 533 39 500<br />
-info@immedica.com </p>
+Tlf: +46 (0)8 533 39 info@immedica.com </p>
 <p>Malta 
 THERAVIA 
 Tel: +356 2776 1question@theravia.com  </p>
@@ -249,12 +247,10 @@ THERAVIA
 Tel: +31 (0)2 070 38 question@theravia.com  </p>
 <p>Eesti 
 Immedica Pharma AB<br />
-Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com  </p>
+Tel/Puh: +46 (0)8 533 39 info@immedica.com  </p>
 <p>Norge 
 Immedica Pharma AB 
-Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com  </p>
+Tel/Puh: +46 (0)8 533 39 info@immedica.com  </p>
 <p>THERAVIA 
  : +33 (0)1 72 69 01 question@theravia.com<br />
  sterreich 
@@ -295,18 +291,15 @@ THERAVIA
 Tel: +39 (0)800 959 question@theravia.com  </p>
 <p>Suomi/Finland 
 Immedica Pharma AB 
-Tel/Puh: +46 (0)8 533 39 500<br />
-info@immedica.com </p>
+Tel/Puh: +46 (0)8 533 39 info@immedica.com </p>
 <p>THERAVIA 
  : +33 (0)1 72 69 01 question@theravia.com </p>
 <p>Sverige 
 Immedica Pharma AB<br />
-Tel: +46 (0)8 533 39 500<br />
-info@immedica.com 
+Tel: +46 (0)8 533 39 info@immedica.com 
 Latvija 
 Immedica Pharma AB 
-Tel: +46 (0)8 533 39 500<br />
-info@immedica.com 
+Tel: +46 (0)8 533 39 info@immedica.com 
 United Kingdom (Northern Ireland) 
 THERAVIA 
 Tel: +44 (0)3 301 002 question@theravia.com    </p>

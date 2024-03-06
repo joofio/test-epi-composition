@@ -4,7 +4,7 @@ Instance: composition-en-4aba175a0cd44d120f1be90c1da17ad7
 InstanceOf: CompositionUvEpi
 Title: "Composition for zynlonta Package Leaflet"
 Description:  "Composition for zynlonta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Zynlonta is and what it is used for 
-2. What you need to know before you are given Zynlonta 
-3. How you are given Zynlonta 
-4. Possible side effects 
-5. How to store Zynlonta  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Zynlonta is and what it is used for </li>
+<li>What you need to know before you are given Zynlonta </li>
+<li>How you are given Zynlonta </li>
+<li>Possible side effects </li>
+<li>How to store Zynlonta  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -241,10 +241,10 @@ following exposure to light </li>
 <li>itchy rash </li>
 <li>blistering of skin </li>
 <li>darker skin patches </li>
-<li>irritation, swelling, pain, and/or skin damage at the injection site. </li>
+<li>irritation, swelling, pain, and/or skin damage at the injection site. 
+Other side effects 
+Tell your doctor or nurse if you notice any of the following side effects: </li>
 </ul>
-<p>Other side effects 
-Tell your doctor or nurse if you notice any of the following side effects: </p>
 <p>Very common: may affect more than 1 in 10 people 
 - tiredness and pale skin 
 - abnormal blood tests showing: * 
@@ -325,8 +325,7 @@ SE-112 76 Stockholm
 Sweden </p>
 <p>Manufacturer 
 Swedish Orphan Biovitrum AB (publ)<br />
-Strandbergsgatan 49<br />
-SE-112 51 Stockholm<br />
+Strandbergsgatan SE-112 51 Stockholm<br />
 Sweden  </p>
 <p>This leaflet was last revised in </p>
 <p>This medicine has been given  conditional approval . This means that there is more evidence to come 

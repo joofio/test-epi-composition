@@ -4,7 +4,7 @@ Instance: composition-en-a0ac9d79e71815d66e8cc1b00ebabcb0
 InstanceOf: CompositionUvEpi
 Title: "Composition for adempas Package Leaflet"
 Description:  "Composition for adempas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Adempas is and what it is used for 
-2. What you need to know before you take Adempas 
-3. How to take Adempas 
-4. Possible side effects 
-5. How to store Adempas 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Adempas is and what it is used for </li>
+<li>What you need to know before you take Adempas </li>
+<li>How to take Adempas </li>
+<li>Possible side effects </li>
+<li>How to store Adempas </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -447,8 +447,7 @@ MSD Polska Sp.z o.o.
 Tel.: +48 22 549 51 msdpolska@merck.com </p>
 <p>France 
 MSD France 
-T l : + 33 (0) 1 80 46 40<br />
-Portugal 
+T l : + 33 (0) 1 80 46 40 Portugal 
 Merck Sharp &amp; Dohme, Lda 
 Tel: + 351 214465inform_pt@merck.com </p>
 <p>Hrvatska 
@@ -466,8 +465,7 @@ Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
 Tel: + 386 1 5204msd_slovenia@merck.com </p>
 <p>sland 
 Vistor hf. 
-S mi: + 354 535 7 
-Slovensk  republika 
+S mi: + 354 535 7Slovensk  republika 
 Merck Sharp &amp; Dohme, s. r. o. 
 Tel: + 421 2 58282dpoc_czechslovak@merck.com </p>
 <p>Italia 

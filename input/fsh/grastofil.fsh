@@ -4,7 +4,7 @@ Instance: composition-en-8e61b46541cd782d75f47b06ddfea02f
 InstanceOf: CompositionUvEpi
 Title: "Composition for grastofil Package Leaflet"
 Description:  "Composition for grastofil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Grastofil is and what it is used for 
-2. What you need to know before you use Grastofil 
-3. How to use Grastofil 
-4. Possible side effects 
-5. How to store Grastofil 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Grastofil is and what it is used for </li>
+<li>What you need to know before you use Grastofil </li>
+<li>How to use Grastofil </li>
+<li>Possible side effects </li>
+<li>How to store Grastofil </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -360,24 +360,16 @@ volume disturbances) </p>
 <p>unusual change in the urine </p>
 <p>bone density decreased </p>
 <p>Inflammation of aorta (the large blood vessel which transports blood from the heart to the 
-body), see section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store grastofil"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store grastofil"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reporting of side effects  </p>
+body), see section 2. Reporting of side effects  </p>
 <p>If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V By reporting side effects you can help provide more information on the safety of this 
 medicine.  </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store grastofil"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store grastofil"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the pre-filled 
@@ -392,4 +384,47 @@ accordance with local requirements. </p>
 <p>Do not use Grastofil if you notice it is cloudy, or there is discoloration or there are particles in it. </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
 dispose of medicines no longer required. These measures will help to protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Grastofil contains  </p>
+<p>The active substance is filgrastim. Each mL of solution contains 60 million units (MU) 
+(equivalent to 600 micrograms [ g]) of filgrastim. Each pre-filled syringe contains 30 MU 
+(300  g) filgrastim in 0.5 mL solution. </p>
+<p>The other ingredients are glacial acetic acid, sodium hydroxide, sorbitol (E420), polysorbate and water for injections. See section 2  What you need to know before you use Grastofil . </p>
+<p>What Grastofil looks like and contents of the pack </p>
+<p>Grastofil is a clear colourless solution for injection or infusion. It is supplied in a pre-filled syringe 
+with an injection needle marked with 1/40 printed markings from 0.1 mL to 1 mL on the syringe 
+barrel. Each pre-filled syringe contains 0.5 mL of solution. </p>
+<p>Grastofil is available in packs containing 1 and 5 pre-filled syringes.  </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder<br />
+Accord Healthcare S.L.U.<br />
+World Trade Center<br />
+Moll de Barcelona 
+s/n, Edifici Est 6  planta 
+08039 Barcelona 
+Spain                                                                                                                                 </p>
+<p>Manufacturer 
+Apotex Nederland B.V. 
+Archimedesweg 2 
+2333 CN Leiden<br />
+Netherlands </p>
+<p>Accord Healthcare Polska Sp.z o.o., 
+ul. Lutomierska 50,95-200 Pabianice, Poland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>AT / BE / BG / CY / CZ / DE / DK / EE / ES / FI / FR / HR / HU / IE / IS / IT /  LT / LV / LX / MT / 
+NL / NO / PL / PT / RO / SE / SI / SK / UK(NI) 
+Accord Healthcare S.L.U. 
+Tel: +34 93 301 00 EL 
+Rafarm AEBE 
+  12,  .  , 15451, <br />
+ : +30/2106776This leaflet was last revised in MM/YYYY </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

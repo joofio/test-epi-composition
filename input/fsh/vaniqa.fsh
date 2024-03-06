@@ -4,7 +4,7 @@ Instance: composition-en-6054fe37439ac8bd57061a7fc8bca219
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaniqa Package Leaflet"
 Description:  "Composition for vaniqa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Vaniqa is and what it is used for 
 2. What you need to know before you use Vaniqa 
-3. How to use Vaniqa  
+3. How to use Vaniqa<br />
 4. Possible side effects 
 5. How to store Vaniqa 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,8 +97,8 @@ polycystic ovary syndrome (PCOS) or specific hormone producing tumours, or if yo
 that can induce hair growth, e.g. cyclosporine (following organ transplants), glucocorticoids (e.g. 
 against rheumatic or allergic diseases), minoxidil (against high blood pressure), phenobarbitone 
 (against seizures), phenytoin (against seizures) or hormone replacement therapy with male hormone 
-like effects. </p>
-<p>Children and adolescents </p>
+like effects. 
+Children and adolescents </p>
 <p>Vaniqa is not recommended for use in anyone younger than 18 years of age. </p>
 <p>Other medicines and Vaniqa </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
@@ -217,8 +216,7 @@ but not all pack sizes may be marketed. </p>
 <p>Almirall, S.A. 
 Ronda General Mitre, 08022 Barcelona 
 Spain.<br />
-Tel: + 34 93 291 30  </p>
-<p>Manufacturer </p>
+Tel: + 34 93 291 30 Manufacturer </p>
 <p>Almirall Hermal GmbH 
 Scholtzstrasse 3 
 D-21465 Reinbek 
@@ -227,23 +225,19 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgique/Belgi /Belgien 
 Almirall N.V. 
-T l/Tel: +32 (0)2 771 86<br />
-Ireland / United Kingdom (Northern Ireland) 
+T l/Tel: +32 (0)2 771 86 Ireland / United Kingdom (Northern Ireland) 
 Almirall, S.A. Tel: +353 (0) 1431 9  /  esk  republika / Hrvatska / Eesti 
 /   / Espa a /   / Latvija / Lietuva 
 / Magyarorsz g / Malta / Rom nia / Slovenija / 
 Slovensk  republika 
 Almirall, S.A. 
-Te ./Tel/T /: +34 93 291 30<br />
-Nederland 
+Te ./Tel/T /: +34 93 291 30 Nederland 
 Almirall BV 
 Tel: +31 (0) 307991Danmark /  sland / Norge / Sverige 
 Almirall ApS 
-Tlf/S mi/Tel: +45 70 25 75<br />
- sterreich 
+Tlf/S mi/Tel: +45 70 25 75  sterreich 
 Almirall GmbH 
-Tel: +43 01/595 39<br />
-Deutschland 
+Tel: +43 01/595 39 Deutschland 
 Luxembourg/Luxemburg 
 Almirall Hermal GmbH 
 Tel/T l: +49 (0)40 72704-0 </p>
@@ -251,15 +245,12 @@ Tel/T l: +49 (0)40 72704-0 </p>
 Almirall Sp. z o.o. 
 Tel.: +48 22 330 02 France 
 Almirall SAS 
-T l: +33(0)1 46 46 19  </p>
-<p>Portugal 
+T l: +33(0)1 46 46 19 Portugal 
 Almirall - Produtos Farmac uticos, Lda. 
-Tel: +351 21 415 57  </p>
-<p>Italia 
+Tel: +351 21 415 57 Italia 
 Almirall SpA 
 Tel: +39 02 346Suomi/Finland 
 Orion Pharma 
-Puh/Tel: +358 10 4 
-This leaflet was last revised in  </p>
+Puh/Tel: +358 10 4This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

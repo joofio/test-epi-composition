@@ -4,7 +4,7 @@ Instance: composition-en-b75c9cca851bae600c4e2cbce08a2816
 InstanceOf: CompositionUvEpi
 Title: "Composition for adcetris Package Leaflet"
 Description:  "Composition for adcetris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Adcetris is and what it is used for 
-2. What you need to know before you are given Adcetris 
-3. How Adcetris will be given 
-4. Possible side effects 
-5. How to store Adcetris 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Adcetris is and what it is used for </li>
+<li>What you need to know before you are given Adcetris </li>
+<li>How Adcetris will be given </li>
+<li>Possible side effects </li>
+<li>How to store Adcetris </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -408,8 +408,8 @@ dihydrate, and polysorbate 80 See section 2 for further information about sodium
 </ul>
 <p>What Adcetris looks like and contents of the pack </p>
 <p>Adcetris is a white to off-white cake or powder for concentrate for solution for infusion provided in a 
-glass vial.  </p>
-<p>Each pack of Adcetris consists of one vial.  </p>
+glass vial.<br />
+Each pack of Adcetris consists of one vial.  </p>
 <p>Marketing Authorisation Holder </p>
 <p>Takeda Pharma A/S 
 Delta Park 2665 Vallensbaek Strand 
@@ -432,8 +432,7 @@ Takeda Belgium NV
 T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o. 
-Tel: +420 234 722 722<br />
-medinfoEMEA@takeda.com </p>
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
 <p>Magyarorsz g 
 Takeda Pharma Kft. 
 Tel: +36 1 270 7medinfoEMEA@takeda.com  </p>
@@ -459,8 +458,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com  </p>
 T : +30 210 6387medinfoEMEA@takeda.com<br />
  sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com  </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com  </p>
 <p>Espa a 
 Takeda Farmac utica Espa a S.A. 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com<br />
@@ -526,5 +524,20 @@ reconstituted volume of 11 mL.
 1. Direct the stream toward the wall of the vial and not directly at the cake or powder.<br />
 2. Gently swirl the vial to aid dissolution. DO NOT SHAKE.<br />
 3. The reconstituted solution in the vial is a clear to slightly opalescent, colourless solution with a 
-final pH of 6.</p>         </div>"""      
+final pH of 6.6. 4. The reconstituted solution should be inspected visually for any foreign particulate matter and/or 
+discolouration. In the event of either being observed, discard the medicinal product. </p>
+<p>Preparation of Infusion Solution </p>
+<p>The appropriate amount of reconstituted Adcetris must be withdrawn from the vial(s) and added to an 
+infusion bag containing sodium chloride 9 mg/mL (0.9%) solution for injection in order to achieve a 
+final concentration of 0.4-1.2 mg/mL Adcetris. The recommended diluent volume is 150 mL. The 
+already reconstituted Adcetris can also be diluted into 5% dextrose for injection or Lactated Ringer's 
+for injection.  </p>
+<p>Gently invert the bag to mix the solution containing Adcetris. DO NOT SHAKE.  </p>
+<p>Any portion left in the vial, after withdrawal of the volume to be diluted, must be disposed of in 
+accordance with local requirements.  </p>
+<p>Do not add other medicinal products to the prepared Adcetris infusion solution or intravenous infusion 
+set. The infusion line should be flushed following administration with sodium chloride 9 mg/mL 
+(0.9%) solution for injection, 5% dextrose for injection, or Lactated Ringer's for injection.  </p>
+<p>Following dilution, infuse the Adcetris solution immediately at the recommended infusion rate.  </p>
+<p>Total storage time of the solution from reconstitution to infusion should not exceed 24 hours. </p>         </div>"""      
 

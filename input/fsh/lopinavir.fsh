@@ -4,7 +4,7 @@ Instance: composition-en-a0f6051c039253e4a1c573c85f53f945
 InstanceOf: CompositionUvEpi
 Title: "Composition for lopinavir Package Leaflet"
 Description:  "Composition for lopinavir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Lopinavir/Ritonavir Mylan is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Lopinavir/Ritonavir Mylan is and what it is used for<br />
 2. What you need to know before you or your child takes Lopinavir/Ritonavir Mylan 
 3. How to take Lopinavir/Ritonavir Mylan 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Lopinavir/Ritonavir Mylan 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -411,7 +410,89 @@ away medicines you no longer use. These measures will help protect the environme
 <ul>
 <li>The active substances are lopinavir and ritonavir </li>
 <li>The other ingredients are sorbitan laurate, colloidal anhydrous silica, copovidone, sodium stearyl 
-fumarate, hypromellose, titanium dioxide (E171), macrogol, hydroxypropylcellulose, talc, polysorbate 
-8</li>
-</ul>         </div>"""      
+fumarate, hypromellose, titanium dioxide (E171), macrogol, hydroxypropylcellulose, talc, polysorbate </li>
+<li>What Lopinavir/Ritonavir Mylan looks like and contents of the pack </li>
+</ul>
+<p>Lopinavir/Ritonavir Mylan 200 mg/50 mg film-coated tablets are white, film coated, ovaloid, biconvex 
+beveled edge tablets debossed with 'MLR3' on one side of the tablet and plain on the other side.  </p>
+<p>They are available in blister multipacks of 120, 120x1 (4 cartons of 30 or 30x1) or 360 (12 cartons of 30) 
+film-coated tablets and in plastic bottles (containing a desiccant, which should not be eaten) of 120 film-
+coated tablets and a multipack containing 360 (3 bottles of 120) film-coated tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Mylan Pharmaceuticals Limited 
+Damastown Industrial Park,<br />
+Mulhuddart, Dublin 15,<br />
+DUBLIN 
+Ireland </p>
+<p>Manufacturer </p>
+<p>Mylan Hungary Kft 
+H-2900 Kom rom, Mylan utca 1 
+Hungary </p>
+<p>McDermott Laboratories Limited trading as Gerard Laboratories 
+35/36 Baldoyle Industrial Estate, Grange Road, Dublin Ireland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Viatris<br />
+T l/Tel: + 32 (0)2 658 61 Lietuva 
+Viatris UAB<br />
+Tel: +370 5 205 1  </p>
+<p>: +359 2 44 55 Luxembourg/Luxemburg 
+Viatris  </p>
+<p>T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
+Viatris CZ s.r.o. 
+Tel: +420 222 004 Magyarorsz g 
+Viatris Healthcare Kft. 
+Tel.: + 36 1 465 2Danmark 
+Viatris ApS 
+Tlf: +45 28 11 69 Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01 Deutschland 
+Viatris Healthcare GmbH 
+Tel: +49 800 0700 Nederland 
+Mylan BV 
+Tel: + 31 (0)20 426 3Eesti 
+Viatris O <br />
+Tel: + 372 6363 Norge 
+Viatris AS 
+Tlf: + 47 66 75 33  <br />
+Viatris Hellas Ltd 
+ : +30 2100 100  sterreich 
+Arcana Arzneimittel GmbH 
+Tel: +43 1 416 2Espa a 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102 Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel: + 48 22 546 64 France 
+Viatris Sant<br />
+T l: +33 4 37 25 75 Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127 Hrvatska 
+Viatris Hrvatska d.o.o. 
+Tel: +385 1 23 50 Rom nia 
+BGP Products SRL 
+Tel: + 40 372 579 Ireland 
+Mylan Ireland Limited 
+Tel: +353 1 8711Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63  sland 
+Icepharma hf. 
+S mi: +354 540 8Slovensk  republika 
+Viatris Slovakia s.r.o. 
+Tel: +421 2 32 199 Italia 
+Viatris Italia S.r.l. 
+Tel: + 39 (0) 2 612 46Suomi/Finland 
+Viatris Oy 
+Puh/Tel: + 358 20 720 9<br />
+Varnavas Hadjipanayis Ltd 
+Sverige 
+Viatris AB  </p>
+<p>: +357 2220 7Tel: + 46 (0)8 630 19 Latvija 
+Viatris SIA 
+Tel: +371 676 055 United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel:  +353 18711This leaflet was last revised in . </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

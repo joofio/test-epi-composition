@@ -4,7 +4,7 @@ Instance: composition-en-1c1262aecbe28e7e1156f50a5c6d2fe6
 InstanceOf: CompositionUvEpi
 Title: "Composition for bekemv Package Leaflet"
 Description:  "Composition for bekemv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
- 
-1. What BEKEMV is and what it is used for 
-2. What you need to know before you use BEKEMV 
-3. How to use BEKEMV 
-4. Possible side effects 
-5. How to store BEKEMV 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+<ol>
+<li>What BEKEMV is and what it is used for </li>
+<li>What you need to know before you use BEKEMV </li>
+<li>How to use BEKEMV </li>
+<li>Possible side effects </li>
+<li>How to store BEKEMV </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -92,16 +93,14 @@ response, and its ability to attack and destroy its own vulnerable PNH blood cel
 - If you are allergic to eculizumab or any of the other ingredients of this medicine (listed in 
 section 6). 
 - If you have fructose intolerance, a quite rare genetic condition where the enzyme for breaking 
-down fructose is not produced.  </p>
-<ul>
-<li>Children below 2 years of age must not receive this medicine. This medicine contains sorbitol 
+down fructose is not produced.<br />
+- Children below 2 years of age must not receive this medicine. This medicine contains sorbitol 
 and sorbitol may be fatal in hereditary fructose intolerance (HFI). In babies and children below 
 2 years of age HFI may not yet be diagnosed. (See special warnings at the end of this section 
-under subtitle  BEKEMV contains sorbitol ). </li>
-<li>If you have not been vaccinated against meningococcal infection unless you take antibiotics to 
-reduce the risk of infection until 2 weeks after you have been vaccinated. </li>
-<li>If you have a meningococcal infection. </li>
-</ul>
+under subtitle  BEKEMV contains sorbitol ). 
+- If you have not been vaccinated against meningococcal infection unless you take antibiotics to 
+reduce the risk of infection until 2 weeks after you have been vaccinated. 
+- If you have a meningococcal infection. </p>
 <p>Warnings and precautions  </p>
 <p>Meningococcal and other Neisseria infections alert </p>
 <p>BEKEMV treatment may reduce your natural resistance to infections, especially against certain 
@@ -175,8 +174,8 @@ should take this into consideration if you are on a controlled sodium diet.
 Once diluted with sodium chloride 4.5 mg/mL (0.45%) solution for injection, this medicinal product 
 contains 0.18 g sodium (main component of cooking/table salt) per 180 mL at the maximal dose, 
 equivalent to 9.0% of the recommended maximum daily dietary intake of sodium for an adult. You 
-should take this into consideration if you are on a controlled sodium diet.  </p>
-<p>If your health care professional dilutes BEKEMV vials with 5% glucose solution, the medicinal 
+should take this into consideration if you are on a controlled sodium diet.<br />
+If your health care professional dilutes BEKEMV vials with 5% glucose solution, the medicinal 
 product is essentially  sodium free . </p>         </div>"""   
                     
 * section[=].section[+]
@@ -235,8 +234,8 @@ first 2 weeks
 10 to &lt; 20 kg 
 600 mg single dose at 
 week 1 
-300 mg at week 2; then 300 mg every 2 weeks </p>
-<p>Patient body 
+300 mg at week 2; then 300 mg every 2 weeks 
+Patient body 
 weight 
 Initial phase 
 Maintenance phase 
@@ -288,15 +287,13 @@ system (urinary tract infection)
 * low white blood cell count (leucopenia), reduction in red blood cells which can make the skin 
 pale and cause weakness or breathlessness 
 * inability to sleep 
-* dizziness, high blood pressure </p>
-<ul>
-<li>upper respiratory tract infection, cough, throat pain (oropharyngeal pain), bronchitis, cold sores 
-(herpes simplex) </li>
-<li>diarrhoea, vomiting, nausea, abdominal pain, rash, hair loss (alopecia), itchy skin (pruritus) </li>
-<li>pain in the joints (arms and legs), pain in the limbs (arms and legs) </li>
-<li>fever (pyrexia), feeling tired (fatigue), influenza like illness </li>
-<li>infusion related reaction </li>
-</ul>
+* dizziness, high blood pressure 
+* upper respiratory tract infection, cough, throat pain (oropharyngeal pain), bronchitis, cold sores 
+(herpes simplex) 
+* diarrhoea, vomiting, nausea, abdominal pain, rash, hair loss (alopecia), itchy skin (pruritus) 
+* pain in the joints (arms and legs), pain in the limbs (arms and legs) 
+* fever (pyrexia), feeling tired (fatigue), influenza like illness 
+* infusion related reaction </p>
 <p>Uncommon (may affect up to 1 in 100 people) 
 * severe infection (meningococcal infection), sepsis, septic shock, viral infection, lower 
 respiratory tract infection, stomach flu (gastrointestinal infection), cystitis 
@@ -342,8 +339,8 @@ abnormal blood clotting
 * spasm of mouth muscle, joint swelling 
 * menstrual disorder 
 * abnormal leakage of the infused drug out of the vein, infusion site abnormal sensation, feeling 
-hot </p>
-<p>Reporting of side effects  </p>
+hot 
+Reporting of side effects  </p>
 <p>If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
@@ -400,8 +397,8 @@ A96 F2A8 Ireland  </p>
 Amgen Technology (Ireland) UC 
 Pottery Road, Dun Laoghaire 
 Co. Dublin,<br />
-A96 F2A8 Ireland  </p>
-<p>Manufacturer<br />
+A96 F2A8 Ireland<br />
+Manufacturer<br />
 Amgen NV 
 Telecomlaan 5-7 
 1831 Diegem 
@@ -410,95 +407,67 @@ Belgium </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 s.a. Amgen n.v. 
-T l/Tel: +32 (0)2 7752 
-Lietuva 
+T l/Tel: +32 (0)2 7752Lietuva 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +370 5 219 7 </p>
-<p>.: +359 (0)2 424 7 
-Luxembourg/Luxemburg 
+Tel: +370 5 219 7  </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
 s.a. Amgen 
 Belgique/Belgien 
-T l/Tel: +32 (0)2 7752 
- esk  republika 
+T l/Tel: +32 (0)2 7752 esk  republika 
 Amgen s.r.o. 
-Tel: +420 221 773<br />
-Magyarorsz g 
+Tel: +420 221 773 Magyarorsz g 
 Amgen Kft. 
-Tel.: +36 1 35 44<br />
-Danmark 
+Tel.: +36 1 35 44 Danmark 
 Amgen, filial af Amgen AB, Sverige 
-Tlf: +45 39617 
-Malta 
+Tlf: +45 39617Malta 
 Amgen S.r.l. 
 Italy 
-Tel: +39 02 6241 
-Deutschland 
+Tel: +39 02 6241Deutschland 
 Amgen GmbH 
-Tel.: +49 89 1490 
-Nederland 
+Tel.: +49 89 1490Nederland 
 Amgen B.V. 
-Tel: +31 (0)76 5732 
-Eesti 
+Tel: +31 (0)76 5732Eesti 
 Amgen Switzerland AG Vilniaus filialas 
-Tel: +372 586 09 
-Norge 
+Tel: +372 586 09Norge 
 Amgen AB 
-Tlf: +47 23308 </p>
-<p>Amgen      . . . 
- : +30 210 3447 
- sterreich 
+Tlf: +47 23308<br />
+Amgen      . . . 
+ : +30 210 3447 sterreich 
 Amgen GmbH 
-Tel: +43 (0)1 50<br />
-Espa a 
+Tel: +43 (0)1 50 Espa a 
 Amgen S.A. 
-Tel: +34 93 600 18<br />
-Polska 
+Tel: +34 93 600 18 Polska 
 Amgen Biotechnologia Sp. z o.o. 
-Tel.: +48 22 581 3 
-France 
+Tel.: +48 22 581 3France 
 Amgen S.A.S. 
-T l: +33 (0)9 69 363<br />
-Portugal 
+T l: +33 (0)9 69 363 Portugal 
 Amgen Biofarmac utica, Lda. 
-Tel: +351 21 422 06<br />
-Hrvatska 
+Tel: +351 21 422 06 Hrvatska 
 Amgen d.o.o. 
-Tel: +385 (0)1 562 57<br />
-Rom nia 
+Tel: +385 (0)1 562 57 Rom nia 
 Amgen Rom nia SRL 
-Tel: +4021 527 3 
-Ireland 
+Tel: +4021 527 3Ireland 
 Amgen Ireland Limited 
-Tel: +353 1 8527 
-Slovenija 
+Tel: +353 1 8527Slovenija 
 AMGEN zdravila d.o.o. 
-Tel: +386 (0)1 585 1 </p>
-<p>sland 
+Tel: +386 (0)1 585 1 sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Amgen Slovakia s.r.o. 
-Tel: +421 2 321 114<br />
-Italia 
+Tel: +421 2 321 114 Italia 
 Amgen S.r.l. 
-Tel: +39 02 6241 
-Suomi/Finland 
+Tel: +39 02 6241Suomi/Finland 
 Amgen AB, sivuliike Suomessa/Amgen AB, filial 
 i Finland 
-Puh/Tel: +358 (0)9 54900 
-K<br />
+Puh/Tel: +358 (0)9 54900K<br />
 C.A. Papaellinas Ltd 
- : +357 22741<br />
-Sverige 
+ : +357 22741 Sverige 
 Amgen AB 
-Tel: +46 (0)8 6951 
-Latvija 
+Tel: +46 (0)8 6951Latvija 
 Amgen Switzerland AG R gas fili le 
-Tel: +371 257 25 
-United Kingdom (Northern Ireland) 
+Tel: +371 257 25United Kingdom (Northern Ireland) 
 Amgen Limited 
-Tel: +44 (0)1223 420 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 (0)1223 420This leaflet was last revised in  </p>
 <p>Other sources of information  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

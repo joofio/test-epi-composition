@@ -4,7 +4,7 @@ Instance: composition-en-2ec5cb8052ccbdb184e32cd4cc8c7dd4
 InstanceOf: CompositionUvEpi
 Title: "Composition for bronchitol Package Leaflet"
 Description:  "Composition for bronchitol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Bronchitol is and what it is used for 
 2. What you need to know before you use Bronchitol 
 3. How to use Bronchitol 
 4. Possible side effects 
 5. How to store Bronchitol 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -200,11 +199,13 @@ effects:</p>
 <ul>
 <li>Difficulty breathing, which may be due to narrowing of the airways, worsening of asthma 
 symptoms or wheezing. This happens commonly, which may affect up to 1 in 10 people. </li>
-<li>Coughing up blood or blood in your sputum. This happens commonly. </li>
-</ul>
-<p>Tell your doctor straight away if you notice any of the following side effects:</p>
-<ul>
-<li>Severe cough. This happens commonly. </li>
+<li>
+<p>Coughing up blood or blood in your sputum. This happens commonly. 
+Tell your doctor straight away if you notice any of the following side effects:</p>
+</li>
+<li>
+<p>Severe cough. This happens commonly. </p>
+</li>
 <li>Worsening of symptoms. This happens commonly. </li>
 </ul>
 <p>Other side effects include: </p>
@@ -294,87 +295,64 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Lietuva 
 Pharmaxis Europe Limited<br />
-T l/Tel: + 353 (0) 1431 9 
+T l/Tel: + 353 (0) 1431 9Pharmaxis Europe Limited<br />
+T l/Tel: + 353 (0) 1431 9<br />
+Pharmaxis Europe Limited 
+Te .: + 353 (0) 1431 9Luxembourg/Luxemburg 
 Pharmaxis Europe Limited<br />
-T l/Tel: + 353 (0) 1431 9 </p>
-<p>Pharmaxis Europe Limited 
-Te .: + 353 (0) 1431 9 
-Luxembourg/Luxemburg 
-Pharmaxis Europe Limited<br />
-T l/Tel: + 353 (0) 1431 9 
- esk  republika 
+T l/Tel: + 353 (0) 1431 9 esk  republika 
 4 Life Pharma CZ, s.r.o. 
-Tel: +420 244 403<br />
-Magyarorsz g 
+Tel: +420 244 403 Magyarorsz g 
 Pharmaxis Europe Limited<br />
 Tel.: + 353 (0) 1431 9Danmark 
 Chiesi Pharma AB 
-Tlf: + 46 8 753 35<br />
-Malta 
+Tlf: + 46 8 753 35 Malta 
 Pharmaxis Europe Limited<br />
 Tel: + 353 (0) 1431 9Deutschland 
 Chiesi GmbH 
-Tel: +49 (0) 40 897<br />
-Nederland 
+Tel: +49 (0) 40 897 Nederland 
 Pharmaxis Europe Limited<br />
-Tel: + 353 (0) 1431 9 
-Eesti 
+Tel: + 353 (0) 1431 9Eesti 
 Pharmaxis Europe Limited<br />
-T l/Tel: + 353 (0) 1431 9 
-Norge 
+T l/Tel: + 353 (0) 1431 9Norge 
 Chiesi Pharma AB 
 Tlf: + 46 8 753 35 <br />
 Chiesi Hellas A.E.B.E. 
- : +  30.210.617.97.  sterreich 
+ : +  30.210.617.97. sterreich 
 Pharmaxis Europe Limited<br />
-Tel: + 353 (0) 1431 9 
-Espa a 
+Tel: + 353 (0) 1431 9Espa a 
 Chiesi Espa a, S.A.U. 
 Tel: +34 93 494 8Polska 
 Pharmaxis Europe Limited<br />
-Tel: + 353 (0) 1431 9 
-France 
+Tel: + 353 (0) 1431 9France 
 Pharmaxis Europe Limited<br />
-T l: + 353 (0) 1431 9 
-Portugal 
+T l: + 353 (0) 1431 9Portugal 
 Pharmaxis Europe Limited<br />
-Tel: + 353 (0) 1431 9 
-Hrvatska 
+Tel: + 353 (0) 1431 9Hrvatska 
 Pharmaxis Europe Limited<br />
-T l/Tel: + 353 (0) 1431 9 
-Ireland 
+T l/Tel: + 353 (0) 1431 9Ireland 
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 
-Rom nia 
+Tel: + 39 0521 2Rom nia 
 Pharmaxis Europe Limited<br />
-Tel: + 353 (0) 1431 9 
-Slovenija 
+Tel: + 353 (0) 1431 9Slovenija 
    Pharmaxis Europe Limited<br />
-   T l/Tel: + 353 (0) 1431 9 
- sland 
+   T l/Tel: + 353 (0) 1431 9 sland 
 Pharmaxis Europe Limited<br />
-S mi: + 353 (0) 1431 9816                           <br />
-Slovensk  republika 
+S mi: + 353 (0) 1431 9Slovensk  republika 
 4 Life Pharma SK, s.r.o. 
-Tel: + 420 244 403<br />
-Italia 
+Tel: + 420 244 403 Italia 
 Chiesi Italia S.p.A. 
-Tel: +39 0521 2 </p>
-<p>Suomi/Finland 
+Tel: +39 0521 2Suomi/Finland 
    Chiesi Pharma AB 
    Puh/Tel: + 46 8 753 35 <br />
 Chiesi Hellas A.E.B.E. 
- : +  30.210.617.97.                                                                                          <br />
-Sverige 
+ : +  30.210.617.97.Sverige 
 Chiesi Pharma AB 
-Tel: + 46 8 753 35<br />
-Latvija 
+Tel: + 46 8 753 35 Latvija 
 Pharmaxis Europe Limited<br />
-T l/Tel: + 353 (0) 1431 9 
-United Kingdom (Northern Ireland) 
+T l/Tel: + 353 (0) 1431 9United Kingdom (Northern Ireland) 
 Chiesi Farmaceutici S.p.A. 
-Tel: + 39 0521 2 
-This leaflet was last revised in MM/YYYY. </p>
+Tel: + 39 0521 2This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

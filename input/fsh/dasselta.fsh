@@ -4,7 +4,7 @@ Instance: composition-en-b8e0f0c67dccb3d602a95a4f091082dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for dasselta Package Leaflet"
 Description:  "Composition for dasselta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Dasselta is and what it is used for 
 2. What you need to know before you take Dasselta 
 3. How to take Dasselta 
 4. Possible side effects 
 5. How to store Dasselta 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -263,8 +262,7 @@ TAD Pharma GmbH, Heinz-Lohmann-Stra e 5, 27472 Cuxhaven, Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 KRKA Belgium, SA. 
-T l/Tel: + 32 (0) 487 50 73<br />
-Lietuva 
+T l/Tel: + 32 (0) 487 50 73 Lietuva 
 UAB KRKA Lietuva 
 Tel: + 370 5 236 27   </p>
 <p>Te .: + 359 (02) 962 34 Luxembourg/Luxemburg 
@@ -272,8 +270,7 @@ KRKA Belgium, SA.
 T l/Tel: + 32 (0) 487 50 73 62 (BE) </p>
 <p>esk  republika 
 KRKA  R, s.r.o. 
-Tel: + 420 (0) 221 115<br />
-Magyarorsz g 
+Tel: + 420 (0) 221 115 Magyarorsz g 
 KRKA Magyarorsz g Kereskedelmi Kft. 
 Tel.: + 36 (1) 355 8Danmark 
 KRKA Sverige AB 
@@ -288,58 +285,45 @@ KRKA Belgium, SA.
 Tel: + 32 (0) 487 50 73 62 (BE) </p>
 <p>Eesti 
 KRKA, d.d., Novo mesto Eesti filiaal 
-Tel: + 372 (0) 6 671<br />
-Norge 
+Tel: + 372 (0) 6 671 Norge 
 KRKA Sverige AB 
 Tlf: + 46 (0)8 643 67 66 (SE) </p>
 <p>KRKA   <br />
- : + 30 2100101 
- sterreich 
+ : + 30 2100101 sterreich 
 KRKA Pharma GmbH, Wien 
-Tel: + 43 (0)1 66 24 300<br />
-Espa a 
+Tel: + 43 (0)1 66 24 Espa a 
 KRKA Farmac utica, S.L. 
-Tel: + 34 911 61 03<br />
-Polska 
+Tel: + 34 911 61 03 Polska 
 KRKA-POLSKA Sp. z o.o. 
 Tel.: + 48 (0)22 573 7France 
 KRKA France Eurl 
-T l: + 33 (0)1 57 40 82<br />
-Portugal 
+T l: + 33 (0)1 57 40 82 Portugal 
 KRKA Farmac utica, Sociedade Unipessoal Lda. 
 Tel: + 351 (0)21 46 43 Hrvatska 
 KRKA - FARMA d.o.o. 
-Tel: + 385 1 6312<br />
-Rom nia 
+Tel: + 385 1 6312 Rom nia 
 KRKA Romania S.R.L., Bucharest 
-Tel: + 4 021 310 66<br />
-Ireland 
+Tel: + 4 021 310 66 Ireland 
 KRKA Pharma Dublin, Ltd. 
-Tel: + 353 1 413 3 
-Slovenija 
+Tel: + 353 1 413 3Slovenija 
 KRKA, d.d., Novo mesto 
 Tel: + 386 (0) 1 47 51  sland 
 LYFIS ehf. 
 S mi: + 354 534 3Slovensk  republika 
 KRKA Slovensko, s.r.o. 
-Tel: + 421 (0) 2 571 04<br />
-Italia 
+Tel: + 421 (0) 2 571 04 Italia 
 KRKA Farmaceutici Milano S.r.l. 
-Tel: + 39 02 3300 8 
-Suomi/Finland 
+Tel: + 39 02 3300 8Suomi/Finland 
 KRKA Finland Oy 
-Puh/Tel: + 358 20 754 5 </p>
-<p>KI.PA. (PHARMACAL) LIMITED 
- : + 357 24 651<br />
-Sverige 
+Puh/Tel: + 358 20 754 5<br />
+KI.PA. (PHARMACAL) LIMITED 
+ : + 357 24 651 Sverige 
 KRKA Sverige AB 
 Tel: + 46 (0)8 643 67 66 (SE) 
 Latvija 
 KRKA Latvija SIA 
-Tel: + 371 6 733 86<br />
-United Kingdom (Northern Ireland) 
+Tel: + 371 6 733 86 United Kingdom (Northern Ireland) 
 KRKA Pharma Dublin, Ltd. 
-Tel: + 353 1 413 3 </p>
-<p>This leaflet was last revised in </p>
+Tel: + 353 1 413 3This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

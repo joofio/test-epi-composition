@@ -4,7 +4,7 @@ Instance: composition-en-79dc8b8b960a53a63fbf50f504aeec5f
 InstanceOf: CompositionUvEpi
 Title: "Composition for inhixa Package Leaflet"
 Description:  "Composition for inhixa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Inhixa is and what it is used for 
 2. What you need to know before you use Inhixa 
 3. How to use Inhixa 
 4. Possible side effects 
-5. How to store Inhixa  
-6. Contents of the pack and other information 
-         </div>"""   
+5. How to store Inhixa<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -243,8 +242,8 @@ painful. If so, talk to your doctor or nurse.
 from the right to the left side of your abdomen (belly). This medicine should be injected just under 
 the skin on your abdomen, but not too near the belly button or any scar tissue (at least 5 cm away 
 from these). 
-- The pre-filled syringe is intended for single use only. </p>
-<p>Instructions on injecting yourself with Inhixa 
+- The pre-filled syringe is intended for single use only. 
+Instructions on injecting yourself with Inhixa 
 1)<br />
 Wash your hands and the area that you will inject with soap and water. Dry them. 
 2)<br />
@@ -275,8 +274,8 @@ length of the needle into the skin fold. </p>
 Press down on the plunger with your thumb. This will inject the medicine into the fatty tissue of the 
 abdomen. Make sure you hold the skin fold throughout the injection. </p>
 <p>9)<br />
-Remove the needle by pulling it straight out. </p>
-<p>To avoid bruising, do not rub the injection site after you have injected yourself. </p>
+Remove the needle by pulling it straight out. 
+To avoid bruising, do not rub the injection site after you have injected yourself. </p>
 <p>10)<br />
 Drop the used syringe into the sharps container. Close the container lid tightly and place the 
 container out of reach of children. </p>
@@ -316,8 +315,8 @@ Remove the plastic blister containing the pre-filled syringe from the box. Open 
 remove the pre-filled syringe. 
 5)<br />
 Carefully pull off the needle cap from the syringe. Throw away the cap. The syringe is pre-filled and 
-ready to use. </p>
-<p>Do not press on the plunger before injecting yourself. Once you have removed the cap, do not allow the 
+ready to use. 
+Do not press on the plunger before injecting yourself. Once you have removed the cap, do not allow the 
 needle to touch anything. This is to make sure the needle stays clean (sterile). </p>
 <p>6)<br />
 Hold the syringe in the hand you write with (like a pencil) and with your other hand, gently pinch the 
@@ -459,13 +458,11 @@ Drop the used syringe into the sharps container. Close the container lid tightly
 container out of reach of children. </p>
 <p>When the container is full, dispose of it as your doctor or pharmacist has instructed. Do not put it in 
 the household rubbish. </p>
-<p>Changing anticoagulant treatment </p>
-<ul>
-<li>
-<p>Changing from Inhixa to blood thinners called vitamin-K antagonists (e.g. warfarin) 
+<p>Changing anticoagulant treatment 
+- Changing from Inhixa to blood thinners called vitamin-K antagonists (e.g. warfarin) 
 Your doctor will ask you to have performed blood tests called INR and tell you when to stop Inhixa 
 accordingly. </p>
-</li>
+<ul>
 <li>
 <p>Changing from  blood thinners called vitamin-K antagonists (e.g. warfarin) to Inhixa<br />
 Stop taking the vitamin-K antagonist. Your doctor will ask you to have performed blood tests called INR 
@@ -678,8 +675,7 @@ Passive needle guard. </li>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Techdow Pharma Netherlands B.V.<br />
-Strawinskylaan 1143, Toren C-11<br />
-1077XX Amsterdam<br />
+Strawinskylaan 1143, Toren C-1077XX Amsterdam<br />
 Netherlands </p>
 <p>Manufacturer </p>
 <p>SciencePharma sp ka z ograniczon  odpowiedzialno ci<br />
@@ -689,13 +685,11 @@ Poland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Techdow Pharma Netherlands B.V. 
-+31 (0)76 531 5 
-Lietuva 
++31 (0)76 531 5Lietuva 
 Techdow Pharma Netherlands B.V. 
- +37125892 </p>
-<p>Techdow Pharma Netherlands B.V. 
-+49 (0)30 220 13 6 
-Luxembourg/Luxemburg 
+ +37125892<br />
+Techdow Pharma Netherlands B.V. 
++49 (0)30 220 13 6Luxembourg/Luxemburg 
 Techdow Pharma Netherlands B.V. 
 +49 (0)30 220 13 6 esk  republika 
 Techdow Pharma Netherlands B.V. 
@@ -703,69 +697,54 @@ Techdow Pharma Netherlands B.V.
 Techdow Pharma Netherlands B.V. 
 +3618001Danmark 
 Techdow Pharma Netherlands B.V. 
-+4578774377<br />
-Malta 
++4578774Malta 
 Mint Health Ltd.<br />
-+356 2755 9 
-Deutschland 
++356 2755 9Deutschland 
 Mitvertrieb: Techdow Pharma Germany GmbH 
 Potsdamer Platz 1, 10785 Berlin 
-+49 (0)30 98 321 31<br />
-Nederland 
++49 (0)30 98 321 31 Nederland 
 Techdow Pharma Netherlands B.V. 
-+31208081 
-Eesti 
++31208081Eesti 
 Techdow Pharma Netherlands B.V. 
  +37125892Norge 
 Techdow Pharma Netherlands B.V. 
- +4721569 </p>
-<p>Techdow Pharma Netherlands B.V. 
+ +4721569<br />
+Techdow Pharma Netherlands B.V. 
 +49 (0)30 220 13 6 sterreich 
 Techdow Pharma Netherlands B.V. 
-+43720230 
-Espa a 
++43720230Espa a 
 TECHDOW PHARMA SPAIN, S.L. 
 Tel: +34 91 123 21 Polska 
 Techdow Pharma Netherlands B.V. 
-+49 (0)30 220 13 6 
-France 
++49 (0)30 220 13 6France 
 Viatris Sant<br />
-+33 4 37 25 75<br />
-Portugal 
++33 4 37 25 75 Portugal 
 Laborat rios Atral, S.A. 
 +351308801Hrvatska 
 Techdow Pharma Netherlands B.V. 
-+385 17776 
-Ireland 
++385 17776Ireland 
 Techdow Pharma Netherlands B.V. 
-+31208081 
-Rom nia 
++31208081Rom nia 
 Techdow Pharma Netherlands B.V. 
-+49 (0)30 220 13 6 
-Slovenija 
++49 (0)30 220 13 6Slovenija 
 Techdow Pharma Netherlands B.V. 
-+49 (0)30 220 13 6 
- sland 
++49 (0)30 220 13 6 sland 
 Techdow Pharma Netherlands B.V. 
 +49 (0)30 220 13 6Slovensk  republika 
 Techdow Pharma Netherlands B.V. 
-+421233331 
-Italia 
++421233331Italia 
 Techdow Pharma Italy S.R.L. 
-Tel: +39 0256569 
-Suomi/Finland 
+Tel: +39 0256569Suomi/Finland 
 Techdow Pharma Netherlands B.V. 
 +358942733<br />
 MA Pharmaceuticals Trading Ltd 
-+357 25 587 
-Sverige 
++357 25 587Sverige 
 Techdow Pharma Netherlands B.V. 
 +46184445Latvija 
 Techdow Pharma Netherlands B.V. 
  +37125892United Kingdom (Northern Ireland) 
 Techdow Pharma Netherlands B.V. 
-+44 28 9279 2 </p>
-<p>This leaflet was last revised in  </p>
++44 28 9279 2This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

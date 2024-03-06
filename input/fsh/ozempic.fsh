@@ -4,7 +4,7 @@ Instance: composition-en-d321e28009e316a0922b3b06c7400fef
 InstanceOf: CompositionUvEpi
 Title: "Composition for ozempic Package Leaflet"
 Description:  "Composition for ozempic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ozempic is and what it is used for  
-2. What you need to know before you use Ozempic 
-3. How to use Ozempic 
-4. Possible side effects 
-5. How to store Ozempic 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ozempic is and what it is used for  </li>
+<li>What you need to know before you use Ozempic </li>
+<li>How to use Ozempic </li>
+<li>Possible side effects </li>
+<li>How to store Ozempic </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -96,8 +96,8 @@ Talk to your doctor, pharmacist or nurse before using this medicine. </p>
 * you develop diabetic ketoacidosis   a complication of diabetes with high blood sugar, breathing 
 difficulty, confusion, excessive thirst, a sweet smell to the breath or a sweet or metallic taste in 
 the mouth.  </p>
-<p>Ozempic is not an insulin and should therefore not be used as a substitute for insulin.  </p>
-<p>Effects on the digestive system  </p>
+<p>Ozempic is not an insulin and should therefore not be used as a substitute for insulin.<br />
+Effects on the digestive system  </p>
 <p>During treatment with this medicine, you may feel sick (nausea) or be sick (vomiting), or have 
 diarrhoea. These side effects can cause dehydration (loss of fluids). It is important that you drink 
 plenty of fluids to prevent dehydration. This is especially important if you have kidney problems. Talk 

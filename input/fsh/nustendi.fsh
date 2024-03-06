@@ -4,7 +4,7 @@ Instance: composition-en-f38fd388d9d557d533fdef41848d682d
 InstanceOf: CompositionUvEpi
 Title: "Composition for nustendi Package Leaflet"
 Description:  "Composition for nustendi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Nustendi is and what it is used for 
-2. What you need to know before you take Nustendi 
-3. How to take Nustendi 
-4. Possible side effects 
-5. How to store Nustendi 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Nustendi is and what it is used for </li>
+<li>What you need to know before you take Nustendi </li>
+<li>How to take Nustendi </li>
+<li>Possible side effects </li>
+<li>How to store Nustendi </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -179,8 +179,8 @@ taking colestyramine. </p>
 * a dose late in a day, take the missed dose and take the next dose at your regular time the next 
 day. 
 * the previous day s dose, take your tablet at the regular time and do not make up for the forgotten 
-dose. </p>
-<p>If you stop taking Nustendi </p>
+dose. 
+If you stop taking Nustendi </p>
 <p>Do not stop taking Nustendi without your doctor s permission as your cholesterol may rise again. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
@@ -229,8 +229,8 @@ creatine kinase (a laboratory test of muscle damage), muscle weakness, joint pai
 <p>Not known (frequency cannot be estimated from available data) 
 * tingling sensation 
 * depression 
-* shortness of breath </p>
-<p>Reporting of side effects </p>
+* shortness of breath 
+Reporting of side effects </p>
 <p>If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
@@ -283,8 +283,8 @@ Aluminium Lake (E133) </li>
 Tablet dimensions: 15 mm   7 mm   5 mm. </p>
 <p>Nustendi is supplied in plastic/aluminium blisters in cartons of 10, 14, 28, 30, 84, 90, 98 or 100 film-
 coated tablets or unit dose blisters in cartons of 10 x 1, 50 x 1, or 100 x 1 film-coated tablets. </p>
-<p>Not all pack sizes may be marketed in your country. </p>
-<p>Marketing Authorisation Holder </p>
+<p>Not all pack sizes may be marketed in your country. 
+Marketing Authorisation Holder </p>
 <p>Daiichi Sankyo Europe GmbH 
 Zielstattstrasse 81379 Munich 
 Germany </p>

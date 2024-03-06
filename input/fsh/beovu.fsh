@@ -4,7 +4,7 @@ Instance: composition-en-8785831d8660f7dc500cb9e2633fcfc2
 InstanceOf: CompositionUvEpi
 Title: "Composition for beovu Package Leaflet"
 Description:  "Composition for beovu Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Beovu is and what it is used for 
-2. What you need to know before you are given Beovu 
-3. How Beovu is given 
-4. Possible side effects 
-5. How to store Beovu 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Beovu is and what it is used for </li>
+<li>What you need to know before you are given Beovu </li>
+<li>How Beovu is given </li>
+<li>Possible side effects </li>
+<li>How to store Beovu </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

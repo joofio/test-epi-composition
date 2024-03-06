@@ -4,7 +4,7 @@ Instance: composition-en-09457b67378eccc379f945623f721bcb
 InstanceOf: CompositionUvEpi
 Title: "Composition for inbrija Package Leaflet"
 Description:  "Composition for inbrija Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Inbrija is and what it is used for 
-2. What you need to know before you use Inbrija 
-3. How to use Inbrija 
-4. Possible side effects 
-5. How to store Inbrija 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Inbrija is and what it is used for </li>
+<li>What you need to know before you use Inbrija </li>
+<li>How to use Inbrija </li>
+<li>Possible side effects </li>
+<li>How to store Inbrija </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -104,14 +104,7 @@ rapidly. </li>
 <p>Warnings and precautions 
 Get urgent medical help if you have tremors, agitation, confusion, fever, rapid pulse, or dizziness 
 and fainting upon standing up, or you notice that your muscles get very rigid or jerk violently. These 
-may be symptoms of  withdrawal-emergent hyperpyrexia . For more information see section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take inbrija"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take inbrija"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Talk to your doctor or pharmacist before using Inbrija if you have, or have ever had, or you 
+may be symptoms of  withdrawal-emergent hyperpyrexia . For more information see section 4. Talk to your doctor or pharmacist before using Inbrija if you have, or have ever had, or you 
 develop:</p>
 <ul>
 <li>asthma, breathing difficulties like chronic obstructive pulmonary disease (COPD) or other long-
@@ -182,13 +175,12 @@ do not use contraception. </p>
 Inbrija can cause excessive drowsiness, dizziness and sudden sleep attacks. If this happens to you, 
 do not drive or use tools or machines. You must be sure that you do not get sudden sleep attacks, 
 dizziness and drowsiness before you drive again or use machines. You could put yourself or others at 
-risk of serious injury or death. </p>         </div>"""         
-
-        
+risk of serious injury or death. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take inbrija"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take inbrija"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -218,12 +210,13 @@ Use Inbrija only during an off period. If the off period has passed, do not use 
 period. </p>
 <p>If you stop using Inbrija 
 Do not stop using Inbrija without checking with your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store inbrija"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store inbrija"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Get urgent medical help if you have an allergic oedema with symptoms including hives (nettle rash), 
@@ -311,11 +304,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store inbrija"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store inbrija"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blisters and carton after EXP. The 
@@ -325,4 +317,51 @@ remove immediately before use. </p>
 <p>Do not use any capsule that looks crushed, damaged or wet. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Inbrija contains<br />
+- The active substance is levodopa. Each hard capsule contains 42 mg levodopa. The dose that 
+leaves the mouthpiece of the inhaler (delivered dose) is 33 mg of levodopa. 
+- The other ingredients comprising the powder and capsule are colfosceril palmitate (DPPC), 
+sodium chloride, hypromellose, titanium dioxide (E 171), carrageenan, potassium chloride, 
+carnauba wax, maize starch, shellac, black iron oxide (E 172), propylene glycol and potassium 
+hydroxide. </p>
+<p>What Inbrija looks like and contents of the pack 
+Inbrija inhalation powder, hard capsules consist of a white powder for inhalation filled into white 
+opaque hard capsules with  A42  printed in black on the cap of the caspule and two black bands 
+printed on the body of the capsule. </p>
+<p>In this pack, you will find an inhaler together with peel-off blisters containing 4 hard capsules each. </p>
+<p>The pack sizes are 
+- a carton containing 16 hard capsules (4 blister strips) and one inhaler 
+- a carton containing 32 hard capsules (8 blister strips) and one inhaler 
+- a carton containing 60 hard capsules (15 blister strips) and one inhaler 
+- a carton containing 92 hard capsules (23 blister strips) and one inhaler </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Acorda Therapeutics Ireland Limited 
+10 Earlsfort Terrace 
+Dublin 2, D02 TIreland 
+Tel: +353 (0)1 231 4Manufacturer 
+ADOH B.V. 
+Godfried Bomansstraat 6543 JA Nijmegen 
+Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: 
+BE, BG, CZ, DK, EE, IE, EL, FR, HR, IT, CY, LV, LT, LU, HU, MT, NL, AT, PL, PT, RO, SI, 
+SK, FI, SE, UK-NI: 
+Acorda Therapeutics Ireland Limited 
+ /Irsko/Irland/ /Iirimaa/Irlanti/Irlande/Irska/ rorsz g/ rland/Irlanda/Airija/ rija/L-
+Irlanda/Ierland/Irlandia/ rsko/Irska 
+T l/Tel/Tel./Te ./Tlf/ /S mi/Puh: +353 (0)1 231 4DE: 
+Esteve Pharmaceuticals GmbH 
+Tel.: +49 30 338427-0 </p>
+<p>ES: 
+ESTEVE PHARMACEUTICALS, S.A. 
+Tel: +34 93 446 60 This leaflet was last revised in 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

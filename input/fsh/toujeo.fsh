@@ -4,7 +4,7 @@ Instance: composition-en-81e391948edc377dc6e96a332e758543
 InstanceOf: CompositionUvEpi
 Title: "Composition for toujeo Package Leaflet"
 Description:  "Composition for toujeo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Toujeo is and what it is used for 
 2. What you need to know before you use Toujeo 
 3. How to use Toujeo 
 4. Possible side effects 
 5. How to store Toujeo 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -104,14 +103,7 @@ insulins.
 * Never use a syringe to remove Toujeo from your SoloStar pre-filled pen. This is to avoid dosing 
 errors and potential overdose which may lead to low blood sugar. Please, see also section 3. * If you are blind or have poor eyesight, do not use the pre-filled pen without help. This is 
 because you will not be able to read the dose window on the pen. Get help from a person with 
-good eyesight who is trained in using the pen. If you have poor eyesight, please see section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take toujeo"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take toujeo"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Skin changes at the injection site 
+good eyesight who is trained in using the pen. If you have poor eyesight, please see section 3. Skin changes at the injection site 
 The injection site should be rotated to prevent skin changes such as lumps under the skin. The insulin 
 may not work very well if you inject into a lumpy area (see How to use Toujeo). Contact your doctor 
 if you are currently injecting into a lumpy area before you start injecting in a different area. Your 
@@ -205,13 +197,12 @@ or machines. Your concentration may be affected. This could be dangerous to your
 * You find it hard to recognise when your blood sugar is too low. </p>
 <p>Important information about some of the ingredients of Toujeo 
 This medicine contains less than 1 mmol (23 mg) sodium per dose. This means it is essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take toujeo"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take toujeo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor, pharmacist or 
 nurse if you are not sure. </p>
@@ -239,8 +230,8 @@ the right action if your blood sugar level changes and help step it becoming too
 the box at the end of this leaflet for more information. </p>
 <p>Flexibility in time of administration 
 * Use Toujeo once a day, preferably at the same time every day. 
-* When needed, you can inject it up to 3 hours before or after the usual time that you use it. </p>
-<p>Use in elderly patients (65 years and over) 
+* When needed, you can inject it up to 3 hours before or after the usual time that you use it. 
+Use in elderly patients (65 years and over) 
 If you are 65 years or older, talk to your doctor as you may need a lower dose. </p>
 <p>If you have kidney or liver problems 
 If you have kidney or liver problems, talk to your doctor as you may need a lower dose. </p>
@@ -263,14 +254,7 @@ authority. </p>
 * In an insulin infusion pump. 
 * If there are particles in the insulin. The solution should be clear, colourless and water-like. </p>
 <p>Never use a syringe to remove Toujeo from your SoloStar pen or severe overdose can result. Please, 
-see also section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store toujeo"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store toujeo"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If the SoloStar pen is damaged, has not been stored correctly, if you are not sure that it is working 
+see also section 2. If the SoloStar pen is damaged, has not been stored correctly, if you are not sure that it is working 
 properly or you notice that your blood sugar control is unexpectedly getting worse: 
 * Throw the pen away and use a new one. 
 * Talk to your doctor, pharmacist or nurse if you think you have problem with your pen. </p>
@@ -287,14 +271,14 @@ may become too high (hyperglycaemia):
 * For information on the treatment of hyperglycaemia, see the box at the end of this leaflet. </p>
 <p>If you stop using Toujeo<br />
 Do not stop using this medicine without talking to your doctor. If you do, it could lead to very high 
-blood sugar and a build-up of acid in the blood (ketoacidosis). </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
-        
+blood sugar and a build-up of acid in the blood (ketoacidosis). 
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you notice signs of your blood sugar being too low (hypoglycaemia), take action to increase your 
@@ -336,4 +320,115 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store toujeo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store toujeo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and on the label of the pen 
+after  EXP . The expiry date refers to the last day of that month. </p>
+<p>Before first use 
+Store in a refrigerator (2 C-8 C).<br />
+Do not freeze or place next to the freezer compartment or a freezer pack. 
+Keep the pen in the outer carton in order to protect from light. </p>
+<p>After first use or if carried as a spare 
+Do not store the pen in a refrigerator. The pen may be stored for a maximum of 6 weeks below 30 C 
+and away from direct heat or direct light. Discard the pen after this time period. Do not leave your 
+insulin in a car on an exceptionally warm or cold day. Always keep the cap on the pen when you are 
+not using it in order to protect from light. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer used. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Toujeo contains<br />
+* The active substance is insulin glargine. Each ml of the solution contains 300 units of insulin 
+glargine (equivalent to 10.91 mg). Each pen contains 1.5 ml of solution for injection, equivalent 
+to 450 units. 
+* The other ingredients are: zinc chloride, metacresol, glycerol, water for injections, and sodium 
+hydroxide (see section 2  Important information about some of the ingredients of Toujeo ) and 
+hydrochloric acid (for pH adjustment). </p>
+<p>What Toujeo looks like and contents of the pack<br />
+Toujeo is a clear and colourless solution. 
+Each pen contains 1.5 ml of solution for injection (equivalent to 450 units). 
+Packs of 1, 3, 5 and 10 pre-filled pens. 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer<br />
+Sanofi-Aventis Deutschland GmbH, D-65926 Frankfurt am Main, Germany. </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Sanofi Belgium 
+T l/Tel: +32 (0)2 710 54 Lietuva 
+Swixx Biopharma UAB 
+Tel: +370 5 236 91 <br />
+Swixx Biopharma EOOD 
+ .: +359 (0)2 4942 Luxembourg/Luxemburg 
+Sanofi Belgium<br />
+T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
+<p>esk  republika 
+Sanofi s.r.o. 
+Tel: +420 233 086 Magyarorsz g 
+sanofi-aventis zrt., Magyarorsz g 
+Tel.: +36 1 505 0Danmark 
+Sanofi A/S 
+Tlf: +45 45 16 70 Malta 
+Sanofi S.r.l. 
+Tel: +39 02 39394Deutschland 
+Sanofi-Aventis Deutschland GmbH 
+Tel: 0800 52 52Tel : aus dem Ausland +49 69 305 21 Nederland 
+Sanofi B.V. 
+Tel: +31 20 245 4Eesti 
+Swixx Biopharma O<br />
+Tel: +372 640 10 Norge 
+sanofi-aventis Norge AS 
+Tlf: +47 67 10 71 <br />
+Sanofi-Aventis   AEBE 
+ : +30 210 900 16  sterreich 
+sanofi-aventis GmbH 
+Tel: +43 1 80 185   0 </p>
+<p>Espa a 
+sanofi-aventis, S.A. 
+Tel: +34 93 485 94 Polska 
+sanofi-aventis Sp. z o.o. 
+Tel.: +48 22 280 00 France 
+Sanofi Winthrop Industrie 
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23 Portugal 
+Sanofi - Produtos Farmac uticos, Lda 
+Tel: +351 21 35 89 Hrvatska 
+Swixx Biopharma d.o.o. 
+Tel: +385 1 2078 Rom nia 
+Sanofi Romania SRL 
+Tel: +40 (0) 21 317 31 Ireland 
+sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +353 (0) 1 403 56 Slovenija 
+Swixx Biopharma d.o.o. 
+Tel: +386 1 235 51  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Swixx Biopharma s.r.o. 
+Tel: +421 2 208 33 Italia 
+Sanofi S.r.l. 
+Tel: 800 13 12 12 (domande di tipo tecnico)<br />
++39 800 536389 (altre domande e chiamate 
+dall'estero) </p>
+<p>Suomi/Finland 
+Sanofi Oy 
+Puh/Tel: +358 (0) 201 200 <br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741Sverige 
+Sanofi AB 
+Tel: +46 (0)8 634 50 Latvija 
+Swixx Biopharma SIA 
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
+Sanofi-aventis Ireland Ltd. T/A SANOFI 
+Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
+<p>Other source of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

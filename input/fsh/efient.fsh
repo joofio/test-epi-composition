@@ -4,7 +4,7 @@ Instance: composition-en-2776bfb7e1f074708f890100ca32d64b
 InstanceOf: CompositionUvEpi
 Title: "Composition for efient Package Leaflet"
 Description:  "Composition for efient Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Efient is and what it is used for 
-2. What you need to know before you take Efient 
-3. How to take Efient 
-4. Possible side effects 
-5. How to store Efient 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Efient is and what it is used for </li>
+<li>What you need to know before you take Efient </li>
+<li>How to take Efient </li>
+<li>Possible side effects </li>
+<li>How to store Efient </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

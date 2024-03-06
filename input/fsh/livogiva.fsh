@@ -4,7 +4,7 @@ Instance: composition-en-c94b2bb5a2491f8b60f6777b6703f8a1
 InstanceOf: CompositionUvEpi
 Title: "Composition for livogiva Package Leaflet"
 Description:  "Composition for livogiva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Livogiva is and what it is used for  
-2. What you need to know before you use Livogiva 
-3. How to use Livogiva 
-4. Possible side effects  
-5. How to store Livogiva 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Livogiva is and what it is used for  </li>
+<li>What you need to know before you use Livogiva </li>
+<li>How to use Livogiva </li>
+<li>Possible side effects  </li>
+<li>How to store Livogiva </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -96,8 +96,8 @@ ask your doctor.<br />
 </em> if you have had radiation therapy involving your bones.<br />
 * if you are pregnant or breast-feeding.  </p>
 <p>Warnings and precautions<br />
-Livogiva may cause an increase in the amount of calcium in your blood or urine. </p>
-<p>Talk to your doctor or pharmacist before or while using Livogiva:<br />
+Livogiva may cause an increase in the amount of calcium in your blood or urine. 
+Talk to your doctor or pharmacist before or while using Livogiva:<br />
 <em> if you have continuing nausea, vomiting, constipation, low energy, or muscle weakness. These 
 may be signs there is too much calcium in your blood.<br />
 </em> if you suffer from kidney stones or have a history of kidney stones.<br />
@@ -245,5 +245,21 @@ throw away medicines you no longer use. These measures will help to protect the 
 250 micrograms of teriparatide. Each pre-filled pen of 2.7 mL contains 675 micrograms of 
 teriparatide (corresponding to 250 micrograms per mL). 
 - The other ingredients are glacial acetic acid, sodium acetate trihydrate, mannitol, metacresol, 
-and water for injections. See section </p>         </div>"""      
+and water for injections. See section 2. What Livogiva looks like and contents of the pack 
+Livogiva is a colourless and clear solution. It is supplied in a cartridge contained in a pre-filled 
+disposable pen. Each pen contains 2.7 mL of solution enough for 28 doses. Livogiva is available in 
+packs containing one or three pre-filled pens.  </p>
+<p>Not all pack sizes may be available. </p>
+<p>Marketing Authorisation Holder<br />
+Theramex Ireland Limited<br />
+3rd Floor Kilmore House, Park Lane, Spencer Dock<br />
+DO1 YE64 Dublin 1<br />
+Ireland  </p>
+<p>Manufacturer 
+Eurofins PROXY Laboratories (PRX) 
+Archimedesweg 25 2333 CM Leiden 
+Netherlands </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

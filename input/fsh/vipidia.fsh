@@ -4,7 +4,7 @@ Instance: composition-en-d0b40c63b26d00d8cd281b17148dcf97
 InstanceOf: CompositionUvEpi
 Title: "Composition for vipidia Package Leaflet"
 Description:  "Composition for vipidia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Vipidia is and what it is used for  
-2. What you need to know before you take Vipidia 
-3. How to take Vipidia 
-4. Possible side effects  
-5. How to store Vipidia 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Vipidia is and what it is used for  </li>
+<li>What you need to know before you take Vipidia </li>
+<li>How to take Vipidia </li>
+<li>Possible side effects  </li>
+<li>How to store Vipidia </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -149,8 +149,8 @@ free . </p>         </div>"""
 or pharmacist if you are not sure. </p>
 <p>Your doctor will prescribe Vipidia together with one or more other medicines to control your blood 
 sugar levels. Your doctor will tell you if you need to change the amount of other medicines you take. </p>
-<p>The recommended dose of Vipidia is 25 mg once a day. </p>
-<p>Patients with kidney disease 
+<p>The recommended dose of Vipidia is 25 mg once a day. 
+Patients with kidney disease 
 If you have kidney disease your doctor may prescribe you a reduced dose. This may be 12.5 mg or 
 6.25 mg once a day, depending on the severity of your kidney disease.  </p>
 <p>Patients with liver disease 
@@ -327,8 +327,7 @@ Takeda France SAS
 T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
 Tecnimede - Sociedade T cnico-Medicinal, S.A 
-Tel: +351 21 041 41 00<br />
-dmed.fv@tecnimede.pt  </p>
+Tel: +351 21 041 41 dmed.fv@tecnimede.pt  </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o 
 Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>

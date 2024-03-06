@@ -4,7 +4,7 @@ Instance: composition-en-68588d80929659cac3a8c39a378eb3f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for inductos Package Leaflet"
 Description:  "Composition for inductos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
- 
-1. What InductOs is and what it is used for 
-2. What you need to know before you receive  InductOs 
-3. How InductOs is given 
-4. Possible side effects 
-5. How to store InductOs 
-6. Contents of the pack and other information           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+<ol>
+<li>What InductOs is and what it is used for </li>
+<li>What you need to know before you receive  InductOs </li>
+<li>How InductOs is given </li>
+<li>Possible side effects </li>
+<li>How to store InductOs </li>
+<li>Contents of the pack and other information  </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -214,8 +215,7 @@ InductOs is supplied to your doctor as a kit for implanting during surgery.<br /
 * The sponge is white and it is presented in a plastic blister.  </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Medtronic BioPharma B.V. 
-Earl Bakkenstraat 10<br />
-6422 PJ Heerlen 
+Earl Bakkenstraat 6422 PJ Heerlen 
 The Netherlands </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site 

@@ -4,7 +4,7 @@ Instance: composition-en-02a1ba5129f4c436758a0bf386350823
 InstanceOf: CompositionUvEpi
 Title: "Composition for feraccru Package Leaflet"
 Description:  "Composition for feraccru Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Feraccru is and what it is used for. 
-2. What you need to know before you take Feraccru. 
-3. How to take Feraccru. 
-4. Possible side effects. 
-5. How to store Feraccru. 
-6. Contents of the pack and other information. 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Feraccru is and what it is used for. </li>
+<li>What you need to know before you take Feraccru. </li>
+<li>How to take Feraccru. </li>
+<li>Possible side effects. </li>
+<li>How to store Feraccru. </li>
+<li>Contents of the pack and other information. </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -100,21 +100,17 @@ studied in this age group. Too much iron is dangerous in children, infants and t
 be life-threatening. </p>
 <p>Other medicines and Feraccru 
 Tell your doctor or pharmacist if you are taking any other medicines. </p>
-<p>You should leave at least 2 hours between taking Feraccru and taking: </p>
-<ul>
-<li>Supplements or medicines that contain magnesium or calcium. </li>
-<li>Some antibiotics, such as ciprofloxacin, tetracycline, levofloxacin, moxifloxacin, norfloxacin 
-and ofloxacin. </li>
-<li>Bisphosphonates (used to treat bone diseases). </li>
-<li>Penicillamine (used to bind metals). </li>
-<li>
-<p>Some medicines used to treat Parkinson s disease (entacapone, levodopa) and thyroid problems 
+<p>You should leave at least 2 hours between taking Feraccru and taking: 
+* Supplements or medicines that contain magnesium or calcium. 
+* Some antibiotics, such as ciprofloxacin, tetracycline, levofloxacin, moxifloxacin, norfloxacin 
+and ofloxacin. 
+* Bisphosphonates (used to treat bone diseases). 
+* Penicillamine (used to bind metals). 
+* Some medicines used to treat Parkinson s disease (entacapone, levodopa) and thyroid problems 
 (levothyroxine)  </p>
-</li>
-<li>
-<p>Mycophenolate (used with other medicines to prevent the body rejecting transplanted organs). 
-You should not be given iron by injection or infusion (intravenously) while you are taking Feraccru. </p>
-</li>
+<ul>
+<li>Mycophenolate (used with other medicines to prevent the body rejecting transplanted organs). 
+You should not be given iron by injection or infusion (intravenously) while you are taking Feraccru. </li>
 </ul>
 <p>Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or planning to have a baby, ask 
@@ -214,12 +210,10 @@ The active substance is 30 mg of iron as ferric maltol. </p>
 * Allura Red AC (E 129) (see section 2) 
 * Titanium dioxide (E 171) 
 * Sunset Yellow FCF (E 110) (see section 2) 
-* Shellac glaze-45% (20 %esterfied) in Ethanol </p>
-<ul>
-<li>Iron oxide black </li>
-<li>Propylene glycol </li>
-<li>Ammonium hydroxide </li>
-</ul>
+* Shellac glaze-45% (20 %esterfied) in Ethanol 
+* Iron oxide black 
+* Propylene glycol 
+* Ammonium hydroxide </p>
 <p>What Feraccru looks like and contents of the pack 
 Feraccru is a red hard capsule printed  30  containing a 
 reddish-brown powder. Feraccru is available in packs, 
@@ -245,8 +239,7 @@ Norgine Pharma GmbH
 +43 1 8178Info@norgine.at </p>
 <p>BG\CZ\HR\HU\PL\RO\SI\SK 
 AOP Orphan Pharmaceuticals AG 
-+43-1-503-72-44<br />
-office@aoporphan.com </p>
++43-1-503-72-office@aoporphan.com </p>
 <p>DE 
 Norgine GmbH 
 +49 641984info@norgine.de 

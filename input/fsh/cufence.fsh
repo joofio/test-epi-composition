@@ -4,7 +4,7 @@ Instance: composition-en-a8827a69a4f2a8d5bccee719c4738936
 InstanceOf: CompositionUvEpi
 Title: "Composition for cufence Package Leaflet"
 Description:  "Composition for cufence Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Cufence is and what it is used for 
-2. What you need to know before you take Cufence 
-3. How to take Cufence 
-4. Possible side effects 
-5. How to store Cufence 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Cufence is and what it is used for </li>
+<li>What you need to know before you take Cufence </li>
+<li>How to take Cufence </li>
+<li>Possible side effects </li>
+<li>How to store Cufence </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -188,8 +188,8 @@ safety of this medicine. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use after the expiry date which is stated on the bottle label and outer carton.  The expiry date 
-refers to the last day of the month.   </p>
-<p>Use within 3 months after first opening the bottle. Keep the bottle tightly closed in order to protect 
+refers to the last day of the month. <br />
+Use within 3 months after first opening the bottle. Keep the bottle tightly closed in order to protect 
 from moisture. Do not use if the capsules become sticky or wet.  </p>
 <p>Medicines should not be disposed of via wastewater or household waste. Ask your pharmacist how to 
 dispose of medicines no longer required.  These measures will help to protect the environment. </p>         </div>"""      

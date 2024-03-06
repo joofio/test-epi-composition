@@ -4,7 +4,7 @@ Instance: composition-en-082e15b5bc22cfe8d68c67168679c322
 InstanceOf: CompositionUvEpi
 Title: "Composition for duavive Package Leaflet"
 Description:  "Composition for duavive Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What DUAVIVE is and what it is used for  
-2. What you need to know before you take DUAVIVE 
-3. How to take DUAVIVE 
-4. Possible side effects  
-5. How to store DUAVIVE 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What DUAVIVE is and what it is used for  </li>
+<li>What you need to know before you take DUAVIVE </li>
+<li>How to take DUAVIVE </li>
+<li>Possible side effects  </li>
+<li>How to store DUAVIVE </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -363,8 +363,8 @@ swelling of eye or eye lid)  </p>
 <p>Drowsiness </p>
 <p>Hives (urticaria) </p>
 <p>Rash </p>
-<p>Itching </p>
-<p>Uncommon: may affect up to 1 in 100 people </p>
+<p>Itching 
+Uncommon: may affect up to 1 in 100 people </p>
 <p>Vaginal inflammation </p>
 <p>Vaginal discharge  </p>
 <p>Cervical erosion found on medical examination  </p>
@@ -458,92 +458,67 @@ Authorisation Holder: </p>
 <p>Belgi  / Belgique / Belgien 
 Luxembourg / Luxemburg 
 Pfizer NV/SA 
-T l/Tel: +32 (0)2 554 62 11  </p>
-<p>Lietuva 
+T l/Tel: +32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel. + 370 52 51 4 </p>
-<pre><code> ,
-</code></pre>
-<p>Ten: +359 2 970 4 
-Magyarorsz g 
+Tel. + 370 52 51 4<br />
+     ,  </p>
+<p>Ten: +359 2 970 4Magyarorsz g 
 Pfizer Kft 
 Tel: +36 1 488 3 esk  Republika 
 Pfizer, spol. s r.o.<br />
-Tel: +420-283-004- Malta 
+Tel: +420-283-004-Malta 
 Vivian Corporation Ltd. 
-Tel: +35621 344 
-Danmark 
+Tel: +35621 344Danmark 
 Pfizer ApS<br />
-Tlf: +45 44 201 100  </p>
-<p>Nederland 
+Tlf: +45 44 201 Nederland 
 Pfizer BV 
-Tel: +31 (0)10 406 43<br />
-Deutschland 
+Tel: +31 (0)10 406 43 Deutschland 
 PFIZER PHARMA GmbH 
-Tel: +49 (0) 30 550055-51 
-Norge 
+Tel: +49 (0) 30 550055-51Norge 
 Pfizer AS 
-Tlf: +47 67 526 100  </p>
-<p>Eesti 
+Tlf: +47 67 526 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel.: +372 666 7 
- sterreich 
+Tel.: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>Pfizer Hellas A.E. 
- .: +30 210 6785<br />
-Polska 
+ .: +30 210 6785 Polska 
 Pfizer Polska Sp. z o.o.<br />
-Tel: +48 22 335 61 00  </p>
-<p>Espa a 
+Tel: +48 22 335 61 Espa a 
 Organon Salud, S.L. 
-Tel.: +34 91 591 12<br />
-Portugal 
+Tel.: +34 91 591 12 Portugal 
 Laborat rios Pfizer, Lda. 
-Tel: + 351 21 423 5 </p>
-<p>France 
+Tel: + 351 21 423 5France 
 Pfizer<br />
-Tel +33 (0)1 58 07 34<br />
-Rom nia 
+Tel +33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L 
-Tel: +40 (0) 21 207 28<br />
-Hrvatska 
+Tel: +40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: + 385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel.: + 386 (0) 1 52 11<br />
-Ireland 
+Tel.: + 386 (0) 1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
-+44 (0)1304 616 </p>
-<p>Slovensk  Republika 
++44 (0)1304 616Slovensk  Republika 
 Pfizer Luxembourg SARL,<br />
 organiza n  zlo ka<br />
-Tel: + 421 2 3355 5 
- sland 
+Tel: + 421 2 3355 5 sland 
 Icepharma hf 
-Simi: +354 540 8 
-Suomi/Finland 
+Simi: +354 540 8Suomi/Finland 
 Pfizer Oy<br />
-Puh/Tel: +358 (0)9 430<br />
-Italia 
+Puh/Tel: +358 (0)9 430 Italia 
 Organon Italia S.r.l. 
-Tel: +39 06 3336 
-Sverige<br />
+Tel: +39 06 3336Sverige<br />
 Pfizer AB<br />
-Tel: +46 (0)8 550 520 00<br />
-K<br />
+Tel: +46 (0)8 550 520 K<br />
 Pfizer Hellas (Cyprus Branch) A.E.<br />
- : +357 22 817 
-United Kingdom (Northern Ireland) 
+ : +357 22 817United Kingdom (Northern Ireland) 
 Pfizer Limited<br />
-Tel: +44 (0) 1304 616 
-Latvij<br />
+Tel: +44 (0) 1304 616Latvij<br />
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel.: + 371 670 35  </p>
-<p>This leaflet was last revised in  </p>
+Tel.: + 371 670 35 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

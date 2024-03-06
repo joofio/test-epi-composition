@@ -4,7 +4,7 @@ Instance: composition-en-5908d361fd5ea6267d242f3bbae1b944
 InstanceOf: CompositionUvEpi
 Title: "Composition for eurartesim Package Leaflet"
 Description:  "Composition for eurartesim Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Eurartesim is and what it is used for 
-2. What you need to know before you or your child takes Eurartesim  
-3. How to take Eurartesim  
-4. Possible side effects 
-5. How to store Eurartesim 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Eurartesim is and what it is used for </li>
+<li>What you need to know before you or your child takes Eurartesim  </li>
+<li>How to take Eurartesim  </li>
+<li>Possible side effects </li>
+<li>How to store Eurartesim </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -223,8 +224,7 @@ Half 160 mg/20 mg  tablet a day
 36 to less than Three 320 mg/40 mg tablets a day 
 9 tablets </p>
 <blockquote>
-<p>75<br />
-Four 320 mg/40 mg tablets a day 
+<p>Four 320 mg/40 mg tablets a day 
 12 tablets </p>
 </blockquote>
 <p>Vomiting when taking this medicine 
@@ -335,5 +335,55 @@ artenimol.  </p>
 <p>The other ingredients are: 
 Tablet core: pre-gelatinised starch, dextrin, hypromellose (E464), croscarmellose sodium, magnesium 
 stearate (E572). 
-Film coating: hypromellose, titanium dioxide (E171), macrogol 40</p>         </div>"""      
+Film coating: hypromellose, titanium dioxide (E171), macrogol 400. What Eurartesim looks like and contents of the pack 
+Eurartesim are white film-coated tablets, embossed and with a break line along the middle. </p>
+<p>The 160 mg/20 mg tablets have the letters  S  and  T  on one side and come in blisters containing 3 
+tablets. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Alfasigma S.p.A. 
+Via Ragazzi del  99, n. 5 
+40133 Bologna 
+Italy </p>
+<p>Tel: +39  051 6489Fax: +39  051 388Email:  antonietta.pazardjiklian@alfasigma.com </p>
+<p>Manufacturer </p>
+<p>Alfasigma S.p.A. 
+Via Pontina km. 30.00071 Pomezia (Rome) 
+Italy </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien<br />
+Luxembourg/Luxemburg 
+Alfasigma Belgium sprl/bvba<br />
+Tel: +32 (0)2 420 93 eurartesim.be@alfasigma.com </p>
+<p>Nederland  </p>
+<p>Deutschland 
+Alfasigma Nederland BV  </p>
+<p>Pharmore GmbH 
+Tel: +31 30 6702Tel: +49 (0) 5451 9690-0<br />
+ info.nl@alfasigma.com  </p>
+<p>service@pharmore.de </p>
+<p>Espa a </p>
+<p>Portugal 
+Alfasigma Espa a, S.L.  </p>
+<p>Alfasigma Portugal, Lda 
+Tel: +34 93 415 48 Tel: + 351 217 226 info.es@alfasigma.com   </p>
+<p>geral@alfasigma.com </p>
+<p>France </p>
+<p>Alfasigma France </p>
+<p>T l: +33 1 45 21 02 regulatory.fr@alfasigma.com </p>
+<p>A VIPharma International A.E. 
+ : +30 210-6194info@avipharma.gr </p>
+<p>Italy 
+Alfasigma S.p.A. 
+Tel: +39 051 6489antonietta.pazardjiklian@alfasigma.com </p>
+<p>ISANGEN PHARMA CYPRUS LTD 
+ : +357 24-638info@isangenpharma.com.cy </p>
+<p>,   esk  republika, Danmark, Eesti, Hrvatska, Ireland,  sland, Latvija, Lietuva, 
+Magyarorsz g, Malta, Norge,  sterreich, Polska, Rom nia, Slovenija, Slovensk  republika, 
+Suomi/Finland, Sverige, United Kingdom (Northern Ireland). </p>
+<p>Alfasigma S.p.A. 
+ , Olaszorsz g, It lie, Italja, Italien, Italia, Itaalia, W ochy, Italija,  tal a, taliansko, It lija </p>
+<p>Te /Tel/Tlf/S mi/Puh: +39  051 6489alfasigmaspa@legalmail.it </p>
+<p>This leaflet was last revised in month YYYY </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-4c889264e6df1e0383b0ef68358c4009
 InstanceOf: CompositionUvEpi
 Title: "Composition for sivextro Package Leaflet"
 Description:  "Composition for sivextro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Sivextro is and what it is used for
 2. What you need to know before you take Sivextro
 3. How to take Sivextro
 4. Possible side effects
 5. How to store Sivextro
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -356,5 +355,5 @@ important information for you.
 - Keep this leaflet. You may need to read it again.
 - If you have any further questions, ask your doctor or nurse.
 - If you get any side effects, talk to your doctor or nurse. This includes any possible side effects
-not listed in this leaflet. See section 4. </p>         </div>"""      
+not listed in this leaflet. See section 4.</p>         </div>"""      
 

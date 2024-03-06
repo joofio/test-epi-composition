@@ -4,7 +4,7 @@ Instance: composition-en-56dfb582fe4596bebf9f4c8e3931299d
 InstanceOf: CompositionUvEpi
 Title: "Composition for increlex Package Leaflet"
 Description:  "Composition for increlex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What INCRELEX is and what it is used for 
 2. What you need to know before you use INCRELEX
-3. How to use INCRELEX  
+3. How to use INCRELEX<br />
 4. Possible side effects 
 5. How to store INCRELEX
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -145,8 +144,8 @@ free . </p>         </div>"""
   * code.text = "3. How to take increlex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if 
-you are not sure. </p>
-<p>The typical dose is 0.04 to 0.12 mg/kg of patient weight administered twice a day. See the 
+you are not sure. 
+The typical dose is 0.04 to 0.12 mg/kg of patient weight administered twice a day. See the 
  Instructions for Use  at the end of this leaflet. </p>
 <p>Inject INCRELEX just under your skin shortly before or after a meal or snack because it may have 
 insulin-like hypoglycaemic effects and so it may decrease blood sugar levels (see hypoglycaemia in 
@@ -194,14 +193,7 @@ given for each event in the sections below.  </p>
 Cancerous and non-cancerous tumours 
 An increase in both cancerous and non-cancerous tumours has been reported in patients treated with 
 INCRELEX.  The risk of such tumours may be higher if INCRELEX is used for condition other than 
-what is stated in Section 1 or used at higher than recommended dose as per Section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store increlex"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store increlex"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Serious allergic reactions (anaphylaxis) 
+what is stated in Section 1 or used at higher than recommended dose as per Section 3. Serious allergic reactions (anaphylaxis) 
 Generalised hives, difficulty in breathing, dizziness, swelling of the face and/or throat have been 
 reported following mecasermin use. Stop INCRELEX immediately and seek urgent medical advice if 
 you develop a serious allergic reaction. 
@@ -299,11 +291,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store increlex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store increlex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and label after EXP. The 
@@ -313,4 +304,95 @@ Keep the vial in the outer carton in order to protect from light.<br />
 After first use, the vial may be stored for up to 30 days at 2 C to 8 C. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What INCRELEX contains<br />
+- The active substance is mecasermin. One ml contains 10 mg of mecasermin. Each vial contains 
+40 mg of mecasermin. 
+- The other ingredients are: benzyl alcohol, sodium chloride, polysorbate 20, glacial acetic acid, 
+sodium acetate and water for injections (see section 2 "INCRELEX contains benzyl alcohol and 
+sodium"). </p>
+<p>What INCRELEX looks like and contents of the pack </p>
+<p>INCRELEX is a colourless to slightly yellow and clear to slightly opalescent solution for injection 
+(injection) supplied in a glass vial closed with a stopper and a seal. The vial contains 4 ml of solution.  </p>
+<p>Pack size of 1 vial. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder: 
+Ipsen Pharma 
+65, quai Georges Gorse 
+92100 Boulogne-Billancourt<br />
+France  </p>
+<p>Manufacturer: 
+Beaufour Ipsen Industrie 
+Rue Eth  Virton 
+28100 Dreux 
+France  </p>
+<p>Tjoapack Netherlands B.V.<br />
+Nieuwe Donk 9<br />
+4879 AC Etten-Leur<br />
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien,<br />
+Luxembourg/Luxemburg 
+Ipsen NV 
+Belgi  /Belgique/Belgien<br />
+T l/Tel: + 32 9 243 96 Italia 
+Ipsen SpA 
+Tel: + 39 02 39 22 <br />
+Biomapas UAB 
+Tel: +370 37 366Latvija 
+Ipsen Pharma p rst vniec ba Latvij<br />
+Tel: +371 67622 esk  republika 
+Ipsen Pharma, s.r.o. 
+Tel: + 420 242 481 Hrvatska<br />
+Biomapas Zagreb d.o.o.,<br />
+Tel: +385 17 757 Lietuva 
+Ipsen Pharma Lietuvos filialas 
+Lietuva 
+Tel. + 370 37 337Danmark, Norge, Suomi/Finland, Sverige, 
+ sland 
+Institut Produits Synth se (IPSEN) AB 
+Sverige/Ruotsi/Sv j<br />
+Tlf/Puh/Tel/S mi: +46 8 451 60 Magyarorsz g 
+Ipsen Pharma SAS Magyarorsz gi<br />
+Tel.: + 36 1 555 5Deutschland,  sterreich 
+Ipsen Pharma GmbH 
+Deutschland 
+Tel.: +49 89 262043Nederland 
+Ipsen Farmaceutica B.V. 
+Tel: + 31 23 55 41 Eesti 
+Centralpharma Communications O<br />
+Tel: +372 6015Polska 
+Ipsen Poland Sp. z o.o. 
+Tel.: + 48 (0) 22 653 68  ,  , Malta 
+Ipsen   E   </p>
+<p>: + 30 210 984 3Portugal 
+Ipsen Portugal - Produtos Farmac uticos S.A. 
+Tel: + 351 21 412 3Espa a 
+Ipsen Pharma S.A. 
+Tel: + 34 936 858 Slovenija 
+Biomapas UAB 
+Tel: +370 37 366France 
+Ipsen Pharma 
+T l: + 33 1 58 33 50 Slovensk  republika 
+Ipsen Pharma, organiza n  zlo ka<br />
+Tel: + 420 242 481 Ireland, United Kingdom (Northern Ireland) 
+Ipsen Pharmaceuticals Limited 
+Ireland 
+Tel: + 44(0)1753 627Rom nia 
+Ipsen Pharma 
+Rom nia 
+Tel/ .: + 40 (021) 231 27 This leaflet was last revised in  </p>
+<p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
+rarity of this disease it has been impossible to get complete information on this medicine. 
+The European Medicines Agency will review any new information on this medicine every year and 
+this leaflet will be updated as necessary. </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-1fc6739ba81d50a7087579c92c2a7274
 InstanceOf: CompositionUvEpi
 Title: "Composition for mektovi Package Leaflet"
 Description:  "Composition for mektovi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Mektovi is and what it is used for  
-2. What you need to know before you take Mektovi  
-3. How to take Mektovi  
-4. Possible side effects  
-5. How to store Mektovi  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Mektovi is and what it is used for  </li>
+<li>What you need to know before you take Mektovi  </li>
+<li>How to take Mektovi  </li>
+<li>Possible side effects  </li>
+<li>How to store Mektovi  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

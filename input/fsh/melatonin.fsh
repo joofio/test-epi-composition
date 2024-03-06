@@ -4,7 +4,7 @@ Instance: composition-en-a1ae178fa1feba2157e2ad80fb8616d6
 InstanceOf: CompositionUvEpi
 Title: "Composition for melatonin Package Leaflet"
 Description:  "Composition for melatonin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Melatonin Neurim is and what it is used for 
 2. What you need to know before you take Melatonin Neurim 
 3. How to take Melatonin Neurim 
 4. Possible side effects 
 5. How to store Melatonin Neurim 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,13 +98,13 @@ Melatonin Neurim as its use is not recommended. </li>
 <li>Melatonin Neurim can make you feel drowsy, you should be careful if the drowsiness affects 
 you as it may impair your ability on tasks such as driving. </li>
 <li>Smoking may make Melatonin Neurim less effective, because the components of tobacco 
-smoke can increase the breakdown of melatonin by the liver. </li>
-</ul>
-<p>Children and adolescents 
+smoke can increase the breakdown of melatonin by the liver. 
+Children and adolescents 
 Do not give this medicine to children between the ages of 0 to 18 years as it has not been tested and its 
 effects are unknown. Another medicine containing melatonin may be more appropriate for 
 administration to children between the ages of 2 to 18 - please ask your doctor or pharmacist for 
-advice. </p>
+advice. </li>
+</ul>
 <p>Other medicines and Melatonin Neurim 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  These medicines include: </p>

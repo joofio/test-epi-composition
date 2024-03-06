@@ -4,7 +4,7 @@ Instance: composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for selincro Package Leaflet"
 Description:  "Composition for selincro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Selincro is and what it is used for  
-2. What you need to know before you take Selincro 
-3. How to take Selincro 
-4. Possible side effects  
-5. How to store Selincro 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Selincro is and what it is used for  </li>
+<li>What you need to know before you take Selincro </li>
+<li>How to take Selincro </li>
+<li>Possible side effects  </li>
+<li>How to store Selincro </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -283,8 +283,8 @@ Denmark </p>
 H. Lundbeck A/S 
 Ottiliavej 9 
 DK-2500 Valby 
-Denmark </p>
-<p>Elaiapharm 
+Denmark 
+Elaiapharm 
 2881, Route des Cr tes 
 Z.I. Les Bouillides 
 Sophia Antipolis 
@@ -294,89 +294,65 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Lundbeck S.A./N.V. 
-T l/Tel: +32 2 535 7 
-Lietuva 
+T l/Tel: +32 2 535 7Lietuva 
 H. Lundbeck A/S (Danija) 
-Tel: + 45 36301 </p>
-<p>Lundbeck Export A/S Representative Office 
-Te .: +359 2 962 4 
-Luxembourg/Luxemburg 
+Tel: + 45 36301<br />
+Lundbeck Export A/S Representative Office 
+Te .: +359 2 962 4Luxembourg/Luxemburg 
 Lundbeck S.A. 
-T l/Tel: +32 2 535 7 
- esk  republika 
+T l/Tel: +32 2 535 7 esk  republika 
 Lundbeck  esk  republika s.r.o. 
-Tel: +420 225 275<br />
-Magyarorsz g 
+Tel: +420 225 275 Magyarorsz g 
 Lundbeck Hung ria Kft. 
-Tel.: +36 1 436 9 
-Danmark 
+Tel.: +36 1 436 9Danmark 
 Lundbeck Pharma A/S 
-Tel: + 45 4371 4 
-Malta 
+Tel: + 45 4371 4Malta 
 Charles de Giorgio Ltd 
-Tel: +356 25600 
-Deutschland 
+Tel: +356 25600Deutschland 
 Lundbeck GmbH 
 Tel: +49 40 23649 0 </p>
 <p>Nederland 
 Lundbeck B.V. 
-Tel: +31 20 697 1 
-Eesti 
+Tel: +31 20 697 1Eesti 
 Lundbeck Eesti AS 
-Tel: + 372 605 9 
-Norge 
+Tel: + 372 605 9Norge 
 H. Lundbeck AS 
-Tlf: + 47 91 300  </p>
-<p>Lundbeck Hellas S.A. 
- : + 30 210 610 5 
- sterreich 
+Tlf: + 47 91 300 <br />
+Lundbeck Hellas S.A. 
+ : + 30 210 610 5 sterreich 
 Lundbeck Austria GmbH 
 Tel: +43 1 253 621 6Espa a 
 Lundbeck Espa a S.A. 
-Tel: +34 93 494 9 
-Polska 
+Tel: +34 93 494 9Polska 
 Lundbeck Poland Sp. z o. o. 
-Tel.: + 48 22 626 93<br />
-France 
+Tel.: + 48 22 626 93 France 
 Lundbeck SAS 
-T l: + 33 1 79 41 29<br />
-Portugal 
+T l: + 33 1 79 41 29 Portugal 
 Lundbeck Portugal Lda 
-Tel: +351 21 00 45<br />
-Hrvatska 
+Tel: +351 21 00 45 Hrvatska 
 Lundbeck Croatia d.o.o. 
 Tel: +385 1 644 8Rom nia 
 Lundbeck Romania SRL<br />
-Tel: +40 21319 88<br />
-Ireland 
+Tel: +40 21319 88 Ireland 
 Lundbeck (Ireland) Limited 
-Tel: +353 1 468 9 
-Slovenija 
+Tel: +353 1 468 9Slovenija 
 Lundbeck Pharma d.o.o. 
-Tel.: +386 2 229 4 
- sland 
+Tel.: +386 2 229 4 sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Lundbeck Slovensko s.r.o. 
-Tel: +421 2 5341 42<br />
-Italia 
+Tel: +421 2 5341 42 Italia 
 Lundbeck Italia S.p.A. 
-Tel: +39 02 677 4 
-Suomi/Finland 
+Tel: +39 02 677 4Suomi/Finland 
 Oy H. Lundbeck Ab 
-Puh/Tel: + 358 2 276 5 </p>
-<p>Lundbeck Hellas A.E 
- .: + 357 22490 
-Sverige 
+Puh/Tel: + 358 2 276 5<br />
+Lundbeck Hellas A.E 
+ .: + 357 22490Sverige 
 H. Lundbeck AB 
-Tel: +46 40 699 82<br />
-Latvija 
+Tel: +46 40 699 82 Latvija 
 H. Lundbeck A/S (D nija) 
-Tel: + 45 36301 
-United Kingdom (Northern Ireland) 
+Tel: + 45 36301United Kingdom (Northern Ireland) 
 Lundbeck (Ireland) Limited 
-Tel: +353 1 468 9 </p>
-<p>Other sources of information 
+Tel: +353 1 468 9Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-ce72f1be560e316230a31ee766305b8e
 InstanceOf: CompositionUvEpi
 Title: "Composition for tenofovir Package Leaflet"
 Description:  "Composition for tenofovir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -54,15 +54,15 @@ leaflet is addressed to your child (in this case please read  your child  instea
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tenofovir disoproxil Mylan is and what it is used for  
-2. What you need to know before you take Tenofovir disoproxil Mylan  
-3. How to take Tenofovir disoproxil Mylan  
-4. Possible side effects  
-5. How to store Tenofovir disoproxil Mylan  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tenofovir disoproxil Mylan is and what it is used for  </li>
+<li>What you need to know before you take Tenofovir disoproxil Mylan  </li>
+<li>How to take Tenofovir disoproxil Mylan  </li>
+<li>Possible side effects  </li>
+<li>How to store Tenofovir disoproxil Mylan  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -101,15 +101,8 @@ to others, so it is important to take precautions to avoid infecting other peopl
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Tenofovir disoproxil Mylan:</p>
 <ul>
 <li>If you are allergic to tenofovir, tenofovir disoproxil or any of the other ingredients of this 
-medicine listed in section </li>
-</ul>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take tenofovir"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take tenofovir"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If this applies to you, tell your doctor immediately and do not take Tenofovir disoproxil Mylan. </p>
+medicine listed in section 6. If this applies to you, tell your doctor immediately and do not take Tenofovir disoproxil Mylan. </li>
+</ul>
 <p>Warnings and precautions<br />
 Talk to your doctor or pharmacist before taking Tenofovir disoproxil Mylan </p>
 <ul>
@@ -150,22 +143,18 @@ risk in adult and paediatric patients are uncertain.  </p>
 <p>Tell your doctor if you know you suffer from osteoporosis. Patients with osteoporosis are 
 at a higher risk for fractures. </p>
 <ul>
-<li>
-<p>Talk to your doctor if you have a history of liver disease, including hepatitis. Patients with 
+<li>Talk to your doctor if you have a history of liver disease, including hepatitis. Patients with 
 liver disease including chronic hepatitis B or C, who are treated with antiretrovirals, have a 
 higher risk of severe and potentially fatal liver complications. If you have hepatitis B infection, 
 your doctor will carefully consider the best treatment for you. If you have a history of liver 
 disease or chronic hepatitis B infection your doctor may conduct blood tests to monitor your 
-liver function. </p>
-</li>
-<li>
-<p>Look out for infections. If you have advanced HIV infection (AIDS) and have an infection, 
+liver function. </li>
+<li>Look out for infections. If you have advanced HIV infection (AIDS) and have an infection, 
 you may develop symptoms of infection and inflammation or worsening of the symptoms of an 
 existing infection once treatment with Tenofovir disoproxil Mylan is started. These symptoms 
 may indicate that your body s improved immune system is fighting infection. Look out for 
 signs of inflammation or infection soon after you start taking Tenofovir disoproxil Mylan. If 
-you notice signs of inflammation or infection, tell your doctor at once. </p>
-</li>
+you notice signs of inflammation or infection, tell your doctor at once. </li>
 </ul>
 <p>In addition to the opportunistic infections, autoimmune disorders (a condition that occurs when 
 the immune system attacks healthy body tissue) may also occur after you start taking medicines 
@@ -208,9 +197,7 @@ your kidneys. </li>
 <li>foscarnet, ganciclovir, or cidofovir (for viral infection), </li>
 <li>interleukin-2 (to treat cancer), </li>
 <li>adefovir dipivoxil (for HBV), </li>
-<li>
-<p>tacrolimus (for suppression of the immune system), </p>
-</li>
+<li>tacrolimus (for suppression of the immune system), </li>
 <li>
 <p>non-steroidal anti-inflammatory drugs (NSAIDs, to relieve bone or muscle pains). </p>
 </li>
@@ -260,21 +247,20 @@ you should discuss it with your doctor as soon as possible. </p>
 do not drive or ride a bicycle and do not use any tools or machines. </p>
 <p>Tenofovir disoproxil Mylan contains lactose 
 Tell your doctor before taking Tenofovir disoproxil Mylan. If you have been told by your doctor 
-that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""         
-
-        
+that you have an intolerance to some sugars, contact your doctor before taking this medicine. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take tenofovir"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take tenofovir"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
 <p>The recommended dose is: 
 * Adults: 1 tablet each day with food (for example, a meal or a snack). 
 * Adolescents aged 12 to less than 18 years who weigh at least 35 kg: 1 tablet each day 
-with food (for example, a meal or a snack). </p>
-<p>If you have particular difficulty swallowing, you can use the tip of a spoon to crush the tablet. Then 
+with food (for example, a meal or a snack). 
+If you have particular difficulty swallowing, you can use the tip of a spoon to crush the tablet. Then 
 mix the powder with about 100 ml (half a glass) of water, orange juice or grape juice and drink 
 immediately </p>
 <ul>
@@ -334,16 +320,15 @@ particularly if you are experiencing any side effects or you have another illnes
 <p>Tell your doctor immediately about new or unusual symptoms after you stop treatment, 
 particularly symptoms you associate with hepatitis B infection. </p>
 </li>
-<li>
-<p>Contact your doctor before you restart taking Tenofovir disoproxil Mylan tablets. </p>
-</li>
+<li>Contact your doctor before you restart taking Tenofovir disoproxil Mylan tablets. </li>
 </ul>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store tenofovir"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tenofovir"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose. This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -397,11 +382,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store tenofovir"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store tenofovir"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the bottle and carton after {EXP}. 
@@ -410,4 +394,110 @@ The expiry date refers to the last day of that month. </p>
 For bottles: after first opening the bottle use within 90 days. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tenofovir disoproxil Mylan contains<br />
+- The active substance is tenofovir disoproxil. Each Tenofovir disoproxil Mylan tablet contains 
+245 mg of tenofovir disoproxil (as maleate). 
+- The other ingredients are microcrystalline cellulose, lactose monohydrate (see section 2, 
+Tenofovir disoproxil Mylan contains lactose), hydroxypropylcellulose, colloidal anhydrous 
+silica, magnesium stearate, hypromellose, titanium dioxide (E171), triacetin, indigo carmine 
+aluminium lake (E132). </p>
+<p>What Tenofovir disoproxil Mylan looks like and contents of the pack </p>
+<p>Tenofovir disoproxil Mylan 245 mg film-coated tablets are light blue, round, biconvex, debossed 
+with  TN245  on one side and  M  on other side. 
+This medicine is available in plastic bottles with a child resistant cap and wad containing 30 film-
+coated tablets and in multipacks of 90 film-coated tablets comprising 3 bottles, each containing 
+30 film-coated tablets. The bottles also contain desiccant. Do not eat the desiccant. </p>
+<p>The tablets are also available in blister packs containing 10, 30 or 30 x 1 (unit dose) tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Mylan Pharmaceuticals Limited 
+Damastown Industrial Park,<br />
+Mulhuddart, Dublin 15,<br />
+DUBLIN 
+Ireland </p>
+<p>Manufacturer 
+McDermott Laboratories Limited T/A Gerard Laboratories T/A Mylan Dublin 
+Unit 35/36 Baldoyle Industrial Estate, 
+Grange Road, Dublin 13, 
+Ireland  </p>
+<p>Mylan Hungary Kft 
+Mylan utca 1, 
+Komarom, H-2900, 
+Hungary </p>
+<p>Mylan Germany GmbH 
+Zweigniederlassung Bad Homburg v. d. Hoehe,<br />
+Benzstrasse 1, Bad Homburg v. d. Hoehe 
+Hessen, 61Germany  </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Mylan bvba/sprl 
+T l/Tel: + 32 (0)2 658 61 Lietuva 
+Mylan Healthcare UAB<br />
+Tel: + 370 5 205 1  </p>
+<p>: + 359 2 44 55 Luxembourg/Luxemburg 
+Mylan bvba/sprl 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
+<p>esk  republika 
+Viatris CZ s.r.o. 
+Tel: + 420 222 004 Magyarorsz g 
+Mylan EPD Kft 
+Tel: + 36 1 465 2Danmark 
+Viatris ApS 
+Tlf: + 45 28 11 69 Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01 Deutschland 
+Viatris Healthcare GmbH<br />
+Tel: + 49 800 0700 Nederland 
+Mylan BV 
+Tel: + 31 (0)20 426 3Eesti 
+BGP Products Switzerland GmbH<br />
+Eesti filiaal<br />
+Tel: + 372 6363 Norge 
+Viatris AS 
+Tlf: + 47 66 75 33  <br />
+Generics Pharma Hellas  <br />
+ :  + 30 210 993 6 sterreich 
+Arcana Arzneimittel GmbH 
+Tel: + 43 1 416 2Espa a 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102 Polska 
+Mylan Healthcare Sp. z o.o. 
+Tel: + 48 22 546 64 France 
+Viatris Sant<br />
+T l: + 33 4 37 25 75 Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127 Hrvatska 
+Viatris Hrvatska d.o.o<br />
+Tel: + 385 1 23 50 Rom nia 
+BGP Products  SRL 
+Tel: + 40 372 579 Ireland 
+Mylan Ireland Limited 
+Tel: + 353 1 8711Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63  sland 
+Icepharma hf.<br />
+S mi: + 354 540 8Slovensk  republika 
+Viatris Slovakia s.r.o. 
+Tel: + 421 2 32 199 Italia 
+Mylan Italia S.r.l. 
+Tel: + 39 02 612 46Suomi/Finland 
+Viatris Oy 
+Puh/Tel: + 358 20 720 9<br />
+Varnavas Hadjipanayis Ltd. 
+ : + 357 2220 7Sverige 
+Viatris AB<br />
+Tel: + 46 (0)8 630 19 Latvija 
+Mylan Healthcare SIA<br />
+Tel: + 371 676 055 United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: + 353 18711This leaflet was last revised in {MM/YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

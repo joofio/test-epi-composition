@@ -4,7 +4,7 @@ Instance: composition-en-be5ceff4154e41596bab87f1698ba47a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tabrecta Package Leaflet"
 Description:  "Composition for tabrecta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tabrecta is and what it is used for 
-2. What you need to know before you take Tabrecta 
-3. How to take Tabrecta 
-4. Possible side effects 
-5. How to store Tabrecta 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tabrecta is and what it is used for </li>
+<li>What you need to know before you take Tabrecta </li>
+<li>How to take Tabrecta </li>
+<li>Possible side effects </li>
+<li>How to store Tabrecta </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

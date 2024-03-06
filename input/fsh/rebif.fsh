@@ -4,7 +4,7 @@ Instance: composition-en-1e58e95d51201027f560781373a2f270
 InstanceOf: CompositionUvEpi
 Title: "Composition for rebif Package Leaflet"
 Description:  "Composition for rebif Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Rebif is and what it is used for 
-2. What you need to know before you use Rebif 
-3. How to use Rebif 
-4. Possible side effects 
-5. How to store Rebif 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Rebif is and what it is used for </li>
+<li>What you need to know before you use Rebif </li>
+<li>How to use Rebif </li>
+<li>Possible side effects </li>
+<li>How to store Rebif </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -411,5 +411,5 @@ important information for you. </p>
 <p>This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-a0d64103b1c8a608be4329399bf17c80
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyftor Package Leaflet"
 Description:  "Composition for hyftor Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Hyftor is and what it is used for  
-2. What you need to know before you use Hyftor  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Hyftor is and what it is used for<br />
+2. What you need to know before you use Hyftor<br />
 3. How to use Hyftor 
-4. Possible side effects  
-5. How to store Hyftor  
-6. Contents of the pack and other information 
-         </div>"""   
+4. Possible side effects<br />
+5. How to store Hyftor<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,8 +97,8 @@ In case of accidental contact it is recommended to immediately wash the gel off.
 <p>Avoid exposing skin treated with Hyftor to direct sunlight since it may cause side effects on the skin. 
 This includes both natural and artificial (for example in the solarium) sunlight. Your doctor will advise 
 you about appropriate sun protection, like the use of sunscreen and clothing to cover the skin or 
-wearing headgear. </p>
-<p>Children 
+wearing headgear. 
+Children 
 Hyftor is not recommended for children under 6 years since the product has not been sufficiently 
 studied in this age group.  </p>
 <p>Other medicines and Hyftor 

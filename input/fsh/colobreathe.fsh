@@ -4,7 +4,7 @@ Instance: composition-en-8fbc69d3de50a0eced9467159e7edfb2
 InstanceOf: CompositionUvEpi
 Title: "Composition for colobreathe Package Leaflet"
 Description:  "Composition for colobreathe Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Colobreathe is and what it is used for 
 2. What you need to know before you use Colobreathe 
 3. How to use Colobreathe 
 4. Possible side effects 
 5. How to store Colobreathe 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -96,8 +95,8 @@ porphyria
   blood in your sputum (the substance you cough up) </p>
 <p>After each inhalation of Colobreathe, the mouth should be rinsed with water. The rinse should not be 
 swallowed. Rinsing may reduce the risk of developing oral fungal super-infection during treatment 
-and may also reduce the unpleasant taste associated with colistimethate sodium. </p>
-<p>When you/your child start using Colobreathe, you/your child may find they have cough, 
+and may also reduce the unpleasant taste associated with colistimethate sodium. 
+When you/your child start using Colobreathe, you/your child may find they have cough, 
 breathlessness, tightness of chest or wheezing. The number of these side-effects may reduce as you 
 continue to use the inhaler or your doctor may prescribe a bronchodilator to use before or after taking 
 Colobreathe. If any of these effects become a problem, please contact your doctor who may change 
@@ -143,8 +142,8 @@ This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to s
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you/your 
 child are not sure. </p>
 <p>The first dose should be given under medical supervision. </p>
-<p>The recommended dose is </p>
-<p>Adults and children 6 years of age and older </p>
+<p>The recommended dose is 
+Adults and children 6 years of age and older </p>
 <p>The contents of one Colobreathe capsule should be inhaled twice a day using the Turbospin 
 inhaler. 
   There should be a 12 hour gap between doses. </p>
@@ -229,15 +228,7 @@ your airway into your lungs. </p>
 <em> If this happens, you may be able to feel these pieces on your tongue or in your airways.<br />
 </em> The capsule shell is made of gelatin, which is harmless to humans if swallowed or inhaled. 
 * The chances of the capsule breaking into pieces are increased if the capsule is pierced more than 
-once during Step </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Cleaning the Turbospin device </p>
+once during Step 6. Cleaning the Turbospin device </p>
 <p>Clean the Turbospin inhaler after each dose using the following procedure: 
 1. Deeply press the piston a few times whilst keeping the chamber turned upside down. 
 2. Clean the chamber using a tissue or cotton bud. Do not use water. 
@@ -252,12 +243,13 @@ Carry on from there as instructed. </p>
 <p>If you/your child stop using Colobreathe </p>
 <p>Do not stop your treatment early unless your doctor says you can. Your doctor will decide how long 
 you/your child s treatment should last. </p>
-<p>If you/your child have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
+<p>If you/your child have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store colobreathe"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store colobreathe"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines this medicine can cause side effects, although not everyone gets them. </p>
 <p>Allergic reactions 
@@ -308,11 +300,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store colobreathe"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store colobreathe"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
 <p>Do not use this medicine after the expiry date, which is stated on the outer carton and blister after 
@@ -324,4 +315,121 @@ these capsules. </p>
 <p>Discard the Turbospin inhaler after the completion of a treatment pack. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Colobreathe contains 
+The active substance is colistimethate sodium. Each capsule contains 1,662,500 IU (approximately 
+equivalent to 125 mg) colistimethate sodium. </p>
+<p>The other ingredients are: 
+Capsule Shell 
+Gelatin 
+polyethylene glycol 
+sodium lauryl sulfate 
+purified water </p>
+<p>What Colobreathe looks like and contents of the pack 
+Colobreathe inhalation powder, hard capsule (inhalation powder) is supplied as small, hard, 
+transparent gelatin capsules containing a fine white powder.  </p>
+<p>The Turbospin is an inspiratory flow driven dry powder inhaler made of polypropylene and stainless 
+steel. </p>
+<p>The capsules are packed in blister packs supplied in cartons containing: </p>
+<ul>
+<li>56 hard capsules and one Turbospin powder inhaler device sufficient for 4 weeks use. </li>
+<li>8 hard capsules and one Turbospin inhaler device sufficient for 4 days use. </li>
+</ul>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+The Netherlands </p>
+<p>Manufacturer </p>
+<p>Teva Pharmaceuticals Europe BV 
+Swensweg 5 
+2031 GA Haarlem 
+The Netherlands </p>
+<p>Millmount Healthcare Limited 
+Block 7, City North Business Campus 
+Stamullen 
+Co Meath 
+K32 YDIreland </p>
+<p>Merckle GmbH 
+Ludwig-Merckle-Str-3 
+89143 Blaubeuren 
+Germany </p>
+<p>Laboratorios Liconsa, S.A. 
+Avda. Miralcampo, 7, Pol. Ind. 
+Miralcampo 
+19200 Azuqueca de Henares (Guadalajara) 
+Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+T l/Tel: +32 38207 esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
+Tel: +36 12886Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+TEVA GmbH<br />
+Tel: +49 73140Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Norge 
+Teva Norway AS 
+Tlf: +47 66775<br />
+TEVA HELLAS  . . 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
+Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Teva Italia S.r.l 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+TEVA HELLAS  . . </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

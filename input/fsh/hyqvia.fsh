@@ -4,7 +4,7 @@ Instance: composition-en-9c8cbb392febab27edfe92cab530d10b
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyqvia Package Leaflet"
 Description:  "Composition for hyqvia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What HyQvia is and what it is used for 
-2. What you need to know before you use HyQvia 
-3. How to use HyQvia 
-4. Possible side effects 
-5. How to store HyQvia 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What HyQvia is and what it is used for </li>
+<li>What you need to know before you use HyQvia </li>
+<li>How to use HyQvia </li>
+<li>Possible side effects </li>
+<li>How to store HyQvia </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -186,14 +186,7 @@ plasma are used, the possibility of passing on infection cannot be totally exclu
 any unknown or emerging viruses or other types of infections. </p>
 <p>The measures taken for the manufacture of HyQvia are considered effective for enveloped viruses 
 such as human immunodeficiency virus (HIV), hepatitis B virus and hepatitis C virus and for the 
-non-enveloped hepatitis A virus and parvovirus B1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take hyqvia"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take hyqvia"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Immunoglobulins have not been associated with hepatitis A or parvovirus B19 infections possibly 
+non-enveloped hepatitis A virus and parvovirus B19. Immunoglobulins have not been associated with hepatitis A or parvovirus B19 infections possibly 
 because the antibodies against these infections, which are contained in HyQvia, are protective. </p>
 <p>It is strongly recommended that every time you use HyQvia, the following data are recorded in your 
 treatment diary:</p>
@@ -222,13 +215,12 @@ reactions have disappeared. </p>
 <p>This medicine contains 5.0   60.5 mg sodium (main component of cooking/table salt) in each 
 recombinant human hyaluronidase vial of HyQvia. This is equivalent to 0.25   3% of the 
 recommended maximum daily dietary intake of sodium for an adult. The IG 10% component is 
-essentially sodium-free.  </p>         </div>"""         
-
-        
+essentially sodium-free.  </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take hyqvia"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take hyqvia"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you are 
 not sure. </p>
@@ -288,16 +280,16 @@ site)
 10 minutes 
 10 minutes 
 Remainder 
-of infusion </p>
-<p>If you have an infusion site leakage </p>
+of infusion 
+If you have an infusion site leakage </p>
 <p>Ask your doctor or pharmacist or nurse if another needle size would be more appropriate for you. 
 Any change of needle size would have to be supervised by the treating physician. </p>
 <p>If you use more HyQvia than you should </p>
 <p>If you think that you used more HyQvia than you should, speak to your doctor as soon as possible. </p>
 <p>If you forget to use HyQvia </p>
 <p>Do not infuse a double dose of HyQvia to make up for a missed dose. If you think that you have 
-missed a dose speak to your doctor as soon as possible. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, or pharmacist or nurse. </p>
+missed a dose speak to your doctor as soon as possible. 
+If you have any further questions on the use of this medicine, ask your doctor, or pharmacist or nurse. </p>
 <p>Detailed Instructions for Use are provided in the section below. </p>
 <ol>
 <li>Remove HyQvia from the box: </li>
@@ -383,14 +375,10 @@ the needle set up to the needle wings with the recombinant
 human hyaluronidase. </p>
 <p>Note: Your healthcare professional may recommend 
 using a  Y  connector (for more than one site) or other 
-needle set configuration. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store hyqvia"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store hyqvia"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prepare human normal immunoglobulin 10% vial: </p>
+needle set configuration. </p>
+<ol>
+<li>Prepare human normal immunoglobulin 10% vial: </li>
+</ol>
 <p>Prepare to transfer the immunoglobulin 10% component of 
 HyQvia by wiping each vial stopper with an alcohol swab, if 
 directed and allow to air dry (at least 30 seconds). </p>
@@ -409,7 +397,175 @@ administered. </p>
 subsequent vials after the first vial has been fully 
 administered. </p>
 <pre><code>      (a)                (b)
-</code></pre>         </div>"""      
+</code></pre>
+<ol>
+<li>
+<p>Prepare the pump: 
+Follow the manufacturer s instructions for preparing the pump. </p>
+</li>
+<li>
+<p>Prepare the infusion site: </p>
+</li>
+</ol>
+<p>Choose an infusion site(s) in either the middle to upper 
+abdomen or thigh. See image for infusion site locations. * 
+Select sites on the opposite sides of the body if 
+instructed to infuse in two sites for doses 
+above 600 mL. </p>
+<p>Avoid bony areas, visible blood vessels, scars and any areas 
+of inflammation or infection. </p>
+<p>Rotate infusion sites by choosing opposite sides of the body 
+between future infusions. </p>
+<p>If instructed by your health care professional, clean the 
+infusion site(s) with an alcohol swab. Allow to dry (at 
+least 30 seconds). </p>
+<ol>
+<li>Insert the needle: </li>
+</ol>
+<p>Remove the needle cover. Firmly grasp and pinch at 
+least 2 to 2.5 cm of skin between two fingers. </p>
+<p>Insert needle completely to the wings of the needle with a 
+rapid motion straight into the skin at a 90-degree angle. 
+Wings of needle should lay flat on the skin. </p>
+<p>Secure needle in place with sterile tape. </p>
+<p>Repeat this step if you have a second infusion site. </p>
+<p>90-degree angle to skin 
+12. Check for proper needle placement before starting the infusion 
+if instructed by your healthcare professional. </p>
+<ol>
+<li>Secure the needle to the skin: </li>
+</ol>
+<p>Secure the needle(s) in place by putting a sterile clear 
+bandage over the needle. </p>
+<p>Check infusion site(s) occasionally throughout the infusion 
+for dislodgement or leaking. </p>
+<ol>
+<li>Administer the recombinant human hyaluronidase infusion 
+first: </li>
+</ol>
+<p>Slowly push the plunger of the smaller syringe with the 
+recombinant human hyaluronidase at an initial rate per 
+infusion site to approximately 1 to 2 mL per minute and 
+increase as tolerated. </p>
+<p>If using a pump, prepare the pump to infuse the recombinant 
+human hyaluronidase at an initial rate per infusion site 
+of 60 to 120 mL/hour and increase as tolerated. </p>
+<ol>
+<li>
+<p>Administer the human normal immunoglobulin 10%: 
+After infusing all of the content of the smaller syringe 
+(recombinant human hyaluronidase), remove the syringe from the 
+hub of the needle set. 
+Attach the pump tubing or, the larger syringe containing human 
+normal immunoglobulin 10% to the needle set. 
+Administer the human normal immunoglobulin 10% with a pump 
+at the rates prescribed by your healthcare professional and start the 
+infusion. </p>
+</li>
+<li>
+<p>Flush the pump tubing when the infusion is complete if 
+instructed by your healthcare professional: </p>
+</li>
+</ol>
+<p>If instructed by your healthcare professional, attach a saline 
+bag to the pump tubing/needle set to push the human normal 
+immunoglobulin 10% up to the needle wings. </p>
+<ol>
+<li>Remove needle set: </li>
+</ol>
+<p>Remove the needle set by loosening the dressing on all 
+edges. </p>
+<p>Pull the needle wings straight up and out. </p>
+<p>Gently press a small piece of gauze over the needle site and 
+cover with a protective dressing. </p>
+<p>Throw away the needle(s) into the sharps container. * 
+Dispose of the sharps container using instructions 
+provided with the container, or contact your healthcare 
+professional. </p>
+<ol>
+<li>Record the infusion: </li>
+</ol>
+<p>Remove the peel-off label from HyQvia vial, which has the 
+product lot number and expiration date, and place the label in 
+your treatment record/log book. </p>
+<p>Write down the date, time, dose, site(s) of infusion (to assist 
+in rotating sites) and any reactions after each infusion. </p>
+<p>Throw away any unused product in the vial and the 
+disposable supplies as recommended by your healthcare 
+professional. </p>
+<p>Follow up with physician as directed. </p>         </div>"""         
+
+        
+* section[=].section[+]
+  * title = "4. Possible side effects"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "4. Possible side effects"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can have side effects, although not everybody gets them. 
+Certain side effects, such as headache, chills, or body aches, may be reduced by slowing the 
+infusion rate. </p>
+<p>Serious side effects </p>
+<p>Infusions of medicines like HyQvia can occasionally result in serious, but rare, allergic reactions. You 
+may experience a sudden fall in blood pressure and, in isolated cases, anaphylactic shock. Doctors are 
+aware of these possible side effects and will monitor you during and after the initial infusions. 
+Typical signs or symptoms include: feeling light-headed, dizzy or faint, skin rash and itchiness, 
+swelling in the mouth or throat, difficulty breathing, wheezing, abnormal heart rate, chest pain, 
+blueness of lips or fingers and toes, blurred vision. </p>
+<p>Tell your doctor or nurse immediately if you notice any of these signs during the infusion. </p>
+<p>When using HyQvia at home, you must perform the infusion in the presence of an 
+assigned guardian person who will help you watch out for allergic reactions, stop the 
+infusion, and get help if necessary. </p>
+<p>Please also see section 2 of this leaflet about the risk of allergic reactions and using 
+HyQvia at home. </p>
+<p>Very common side effects (may affect more than 1 in 10 infusions): </p>
+<p>Infusion site pain, including mild to moderate discomfort and tenderness. These reactions usually go 
+away within a few days. </p>
+<p>Common side effects (may affect up to 1 in 10 infusions): </p>
+<p>Reactions at the infusion site: These include redness, swelling, itching, hardening, and rash at the site 
+of infusion. These reactions usually go away within a few days. Headache, tiredness, nausea, 
+vomiting, diarrhoea, abdominal pain, muscle or joint pain, chest pain, fever, feeling weak or unwell. </p>
+<p>Uncommon side effects (may affect up to 1 in 100 infusions): </p>
+<p>Chills, migraine, increasedblood pressure, dizziness, abdominal bloating, skin rash/allergic 
+rash/redness, itching, pain in chest, arms and/or legs, genital swelling (resulting from spread of 
+swelling from the infusion site), swelling of the legs, feet and ankles, positive blood tests for 
+antibodies. </p>
+<p>Frequency not known (cannot be estimated from the available data): </p>
+<p>Hypersensitivity, influenza-like illness, and infusion site leakage, inflammation of the layers lining the 
+brain (aseptic meningitis). </p>
+<p>Side effects seen with similar medicines </p>
+<p>The following side effects have been observed with infusion of medicines like human normal 
+immunoglobulin 10% given under the skin (subcutaneously). Although these side effects have 
+so far not been seen with HyQvia, it is possible that someone using HyQvia may get them: </p>
+<p>Trembling, oral tingling, fast heart beat, allergic reactions, flushing or pallor, coldness of hand or feet, 
+shortness of breath, swelling of face, excessive sweating, muscle stiffness, change in liver function 
+blood tests (alanine aminotransferase increased). </p>
+<p>The following rare side effects have been observed in patients using medicines like human normal 
+immunoglobulin 10% given into a vein (intravenously). These reactions have not been seen with 
+HyQvia, but there is a small possibility that someone using HyQvia may get them: </p>
+<p>Blood clots in blood vessels (thromboembolic reactions) leading to heart attack, stroke, blockage of 
+deep veins, or of blood vessels supplying the lung (pulmonary embolism), kidney disorder or failure, 
+destruction of red blood cells (haemolysis). </p>
+<p>Reporting of side effects </p>
+<p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects, you can help provide more information on 
+the safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store hyqvia"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store hyqvia"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. 
+The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2 C to 8 C). Do not freeze. </p>
+<p>Do not shake. </p>
+<p>Keep the vials in the outer carton in order to protect from light. </p>
+<p>Do not use this medicine if the solutions are cloudy or have particles or deposits. </p>
+<p>After opening, dispose of any unused solutions in the vials. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -417,7 +573,145 @@ administered. </p>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Prepare the pump: 
-Follow the manufacturer s instructions for preparing the pump. </p>
-<p>1</p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What HyQvia contains </p>
+<p>HyQvia is a dual vial unit containing:</p>
+<ul>
+<li>a solution of recombinant human hyaluronidase (Step 1 of HyQvia/Infuse first) and </li>
+<li>a solution of human normal immunoglobulin 10% (Step 2 of HyQvia/Infuse second). </li>
+</ul>
+<p>The contents of each vial are described below: </p>
+<ol>
+<li>Recombinant human hyaluronidase </li>
+</ol>
+<p>This vial contains recombinant human hyaluronidase. </p>
+<p>The other ingredients are sodium chloride, sodium phosphate, human albumin, 
+ethylenediaminetetraacetic acid (EDTA) disodium, calcium chloride and water for injections 
+(see also section 2,  HyQvia contains sodium ). </p>
+<ol>
+<li>Human normal immunoglobulin 10% </li>
+</ol>
+<p>One mL of the solution in this vial contains 100 mg of human normal immunoglobulin, of which 
+at least 98% is immunoglobulin G (IgG). </p>
+<p>The active substance of HyQvia is human normal immunoglobulin. This medicine contains trace 
+amounts of immunoglobulin A (IgA) (not more than 140 micrograms/mL, 37 micrograms on average). </p>
+<p>The other ingredients of this vial are glycine and water for injections. </p>
+<p>What HyQvia looks like and contents of the pack </p>
+<p>HyQvia is supplied as a pack containing:</p>
+<ul>
+<li>one glass vial of recombinant human hyaluronidase, and </li>
+<li>one glass vial of human normal immunoglobulin 10%. </li>
+</ul>
+<p>The recombinant human hyaluronidase is a clear and colourless solution. 
+The human normal immunoglobulin 10% is a clear and colourless or pale yellow solution. </p>
+<p>The following pack sizes are available: </p>
+<p>Recombinant human hyaluronidase 
+Human normal immunoglobulin 10% 
+Volume (mL) 
+Protein (grams) 
+Volume (mL) 
+1.2.5 
+2.5 
+5 
+5 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder: 
+Baxalta Innovations GmbH 
+Industriestrasse A-1221 Vienna 
+Austria </p>
+<p>Manufacturer: 
+Baxalta Belgium Manufacturing SA 
+Boulevard Ren  Branquart B-7860 Lessines 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Takeda Belgium NV 
+Tel/T l: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+Tel/T l: +32 2 464 06 medinfoEMEA@takeda.com  </p>
+<p>esk  republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com </p>
+<p>Magyarorsz g 
+Takeda Pharma Kft. 
+Tel: +36 1 270 7medinfoEMEA@takeda.com </p>
+<p>Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+ akeda HELLAS SA 
+Tel: +30 2106387medinfoEMEA@takeda.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma AS 
+Norge 
+Takeda AS 
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>akeda   <br />
+T : +30 210 6387medinfoEMEA@takeda.com 
+ sterreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
+<p>Espa a 
+Takeda Farmac utica Espa a S.A 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+tel: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+Tel. + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmac uticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>Rom nia 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>sland 
+Vistor hf. 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com 
+Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>akeda   <br />
+ .: +30 2106387medinfoEMEA@takeda.com 
+Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com </p>
+<p>United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
+<p>This leaflet was last revised in . </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-41399424be0ac355c8e0aa81bb4121d6
 InstanceOf: CompositionUvEpi
 Title: "Composition for veraseal Package Leaflet"
 Description:  "Composition for veraseal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What VeraSeal is and what it is used for  
-2. What you need to know before you are treated with VeraSeal  
-3. How VeraSeal is used 
-4. Possible side effects  
-5. How VeraSeal is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What VeraSeal is and what it is used for  </li>
+<li>What you need to know before you are treated with VeraSeal  </li>
+<li>How VeraSeal is used </li>
+<li>Possible side effects  </li>
+<li>How VeraSeal is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -306,29 +306,23 @@ Authorisation Holder: </p>
 <p>AT/BE/BG/CY/EE/EL/HR/HU/IE/LV/ 
 LT/LU/MT/NL/RO/SI/SK/UK(NI) 
 Instituto Grifols, S.A. 
-Tel: +34 93 571 01<br />
-CZ 
+Tel: +34 93 571 01 CZ 
 Grifols S.R.O. 
-Tel: +4202 2223 1 
-DE 
+Tel: +4202 2223 1DE 
 Grifols Deutschland GmbH 
-Tel: +49 69 660 593<br />
-DK/FI/IS/NO/SE 
+Tel: +49 69 660 593 DK/FI/IS/NO/SE 
 Grifols Nordic AB 
 Tel: +46 8 441 89 ES 
 Johnson &amp; Johnson, S.A. 
 Tel: +34 91 722 80 FR 
 Johnson &amp; Johnson Medical S.A.S. 
-T l: +33 (0)1 55 00 22<br />
-IT 
+T l: +33 (0)1 55 00 22 IT 
 Grifols Italia S.p.A. 
 Tel: +39 050 8755 PL 
 Grifols Polska Sp. z o. o. 
-Tel: +48 22 378 85<br />
-PT 
+Tel: +48 22 378 85 PT 
 Grifols Portugal, Lda. 
-Tel: +351 219 255  </p>
-<p>This leaflet was last revised in. </p>
+Tel: +351 219 255 This leaflet was last revised in. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-febe758b815af2dff26af1acacd31f32
 InstanceOf: CompositionUvEpi
 Title: "Composition for xarelto Package Leaflet"
 Description:  "Composition for xarelto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Xarelto is and what it is used for 
 2. What you need to know before you take Xarelto 
 3. How to take Xarelto 
 4. Possible side effects 
 5. How to store Xarelto 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -397,8 +396,7 @@ Kaiser-Wilhelm-Allee<br />
 Germany  </p>
 <p>If the first and second characters are IT, the manufacturer is<br />
 Bayer HealthCare Manufacturing Srl.<br />
-Via delle Groane, 126<br />
-20024 Garbagnate Milanese<br />
+Via delle Groane, 20024 Garbagnate Milanese<br />
 Italy  </p>
 <p>If the first and second characters are BT, the manufacturer is<br />
 Bayer Bitterfeld GmbH<br />
@@ -409,91 +407,65 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi  / Belgique / Belgien 
 Bayer SA-NV 
-T l/Tel: +32-(0)2-535 63<br />
-Lietuva 
+T l/Tel: +32-(0)2-535 63 Lietuva 
 UAB Bayer 
-Tel: +370-5-233 68  </p>
-<p>: +359-(0)2-424 72<br />
-Luxembourg / Luxemburg 
+Tel: +370-5-233 68   </p>
+<p>: +359-(0)2-424 72 Luxembourg / Luxemburg 
 Bayer SA-NV 
-T l/Tel: +32-(0)2-535 63<br />
- esk  republika 
+T l/Tel: +32-(0)2-535 63  esk  republika 
 Bayer s.r.o. 
-Tel: +420-266 101<br />
-Magyarorsz g 
+Tel: +420-266 101 Magyarorsz g 
 Bayer Hung ria KFT 
-Tel: +36-1-487 4 
-Danmark 
+Tel: +36-1-487 4Danmark 
 Bayer A/S 
-Tlf: +45-45 235<br />
-Malta 
+Tlf: +45-45 235 Malta 
 Alfred Gera and Sons Ltd. 
-Tel: +356-21 44 62<br />
-Deutschland 
+Tel: +356-21 44 62 Deutschland 
 Bayer Vital GmbH 
-Tel: +49-(0)214-30 513<br />
-Nederland 
+Tel: +49-(0)214-30 513 Nederland 
 Bayer B.V. 
-Tel: +31-23-799 1 
-Eesti 
+Tel: +31-23-799 1Eesti 
 Bayer O<br />
-Tel: +372-655 85<br />
-Norge 
+Tel: +372-655 85 Norge 
 Bayer AS 
-Tlf: +47-23 13 05  </p>
-<p>Bayer   <br />
- : +30-210-618 75<br />
- sterreich 
+Tlf: +47-23 13 05 <br />
+Bayer   <br />
+ : +30-210-618 75  sterreich 
 Bayer Austria Ges. m. b. H. 
-Tel: +43-(0)1-711<br />
-Espa a 
+Tel: +43-(0)1-711 Espa a 
 Bayer Hispania S.L. 
-Tel: +34-93-495 65<br />
-Polska 
+Tel: +34-93-495 65 Polska 
 Bayer Sp. z o.o. 
-Tel: +48-22-572 35<br />
-France 
+Tel: +48-22-572 35 France 
 Bayer HealthCare 
-T l (N  vert): +33-(0)800 87 54<br />
-Portugal 
+T l (N  vert): +33-(0)800 87 54 Portugal 
 Bayer Portugal, Lda. 
-Tel: +351-21-416 42<br />
-Hrvatska 
+Tel: +351-21-416 42 Hrvatska 
 Bayer d.o.o. 
-Tel: + 385-(0)1-6599<br />
-Rom nia 
+Tel: + 385-(0)1-6599 Rom nia 
 SC Bayer SRL<br />
-Tel: +40-(0)21-529 59<br />
-Ireland 
+Tel: +40-(0)21-529 59 Ireland 
 Bayer Limited 
-Tel: +353 1 216 3 
-Slovenija 
+Tel: +353 1 216 3Slovenija 
 Bayer d. o. o. 
-Tel: +386-(0)1-58 14<br />
- sland 
+Tel: +386-(0)1-58 14  sland 
 Icepharma hf. 
-S mi: +354-540 80<br />
-Slovensk  republika 
+S mi: +354-540 80 Slovensk  republika 
 Bayer, spol. s r.o. 
-Tel: +421-(0)2-59 21 31<br />
-Italia 
+Tel: +421-(0)2-59 21 31 Italia 
 Bayer S.p.A. 
 Tel: +39-02-3978 1 </p>
 <p>Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358-(0)20-78521  </p>
-<p>NOVAGEM Limited 
- : +357-22-48 38<br />
-Sverige 
+Puh/Tel: +358-(0)20-78<br />
+NOVAGEM Limited 
+ : +357-22-48 38 Sverige 
 Bayer AB 
-Tel: +46-(0)8-580 223 00  </p>
-<p>Latvija 
+Tel: +46-(0)8-580 223 Latvija 
 SIA Bayer 
-Tel: +371-67 84 55<br />
-United Kingdom (Northern Ireland) 
+Tel: +371-67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0) 118 206 3 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44-(0) 118 206 3This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>
 <p>Package leaflet: Information for the user </p>
@@ -506,5 +478,6 @@ important information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
-effects not listed in this leaflet. See section </p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p>
+<p>What is in this leaflet  </p>         </div>"""      
 

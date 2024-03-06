@@ -4,7 +4,7 @@ Instance: composition-en-6c515aae840296fe980507ee7ecb6244
 InstanceOf: CompositionUvEpi
 Title: "Composition for yargesa Package Leaflet"
 Description:  "Composition for yargesa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Yargesa is and what it is used for 
 2. What you need to know before you take Yargesa 
 3. How to take Yargesa 
 4. Possible side effects 
 5. How to store Yargesa 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,15 +98,14 @@ the first step in the synthesis of most glycosphingolipids. </p>         </div>"
 - if you are allergic to miglustat or any of the other ingredients of this medicine (listed in section 
 6) </p>
 <p>Warnings and precautions 
-Talk to your doctor or pharmacist before taking Yargesa </p>
-<ul>
-<li>if you suffer from kidney disease </li>
-<li>if you suffer from liver disease 
-Your doctor will perform the following tests before treatment and during treatment with Yargesa </li>
-<li>an examination to check the nerves in your arms and legs </li>
-<li>measurement of vitamin B12 levels </li>
-<li>monitoring growth if you are a child or adolescent with Niemann-Pick type C disease </li>
-<li>monitoring of blood platelet counts 
+Talk to your doctor or pharmacist before taking Yargesa 
+* if you suffer from kidney disease 
+* if you suffer from liver disease 
+Your doctor will perform the following tests before treatment and during treatment with Yargesa 
+* an examination to check the nerves in your arms and legs 
+* measurement of vitamin B12 levels 
+* monitoring growth if you are a child or adolescent with Niemann-Pick type C disease 
+* monitoring of blood platelet counts 
 The reason for these tests is that some patients have had tingling or numbness in the hands and feet, or 
 a decrease in body weight, while taking this medicine. The tests will help the doctor decide whether 
 these effects are due to your disease or other existing conditions, or due to side effects of Yargesa (see 
@@ -117,8 +115,7 @@ carbohydrate intake such as sucrose (cane sugar), or not to take Yargesa togethe
 temporarily reduce your dose. In some cases the doctor may prescribe anti-diarrhoeal medicines such 
 as loperamide. If your diarrhoea does not respond to these measures, or if you have any other 
 abdominal complaint, consult your doctor. In such case, your doctor may decide to conduct further 
-investigations. </li>
-</ul>
+investigations. </p>
 <p>Male patients should use reliable birth control methods during their treatment with Yargesa and for 3 
 months after finishing treatment. </p>
 <p>Children and adolescents 
@@ -149,8 +146,8 @@ essentially 'sodium-free'. </p>         </div>"""
   * code.text = "3. How to take yargesa"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if 
-you are not sure. </p>
-<p>Dose 
+you are not sure. 
+Dose 
 * For type 1 Gaucher disease: For adults, the usual dose is one capsule (100 mg) three times a 
 day(morning, afternoon and evening). This means a daily maximum of three capsules (300 mg). 
 * For Niemann-Pick type C disease: For adults and adolescents (over 12 years old), the usual 
@@ -169,24 +166,17 @@ water. </p>
 <p>If you take more Yargesa than you should 
 If you take more capsules than you were told to, consult your doctor immediately. Miglustat has been 
 used in clinical trials at doses up to 3000 mg : this caused decreases in white blood cells and other 
-side effects similar to those described in section </p>         </div>"""         
+side effects similar to those described in section 4. If you forget to take Yargesa </p>
+<p>Take the next capsule at the usual time. Do not take a double dose to make up for a forgotten dose. </p>
+<p>If you stop taking Yargesa 
+Do not stop taking this medicine without talking to your doctor. 
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take Yargesa </p>
-<p>Take the next capsule at the usual time. Do not take a double dose to make up for a forgotten dose. </p>
-<p>If you stop taking Yargesa 
-Do not stop taking this medicine without talking to your doctor. 
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store yargesa"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store yargesa"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Most serious side effects 
@@ -202,8 +192,8 @@ will need to reduce the dose or stop Yargesa treatment to stop the tremor. </p>
 <p>Very common effects (may affect more than 1 in 10 people) 
 The most common side effects are diarrhoea, flatulence (wind), abdominal (stomach) pain, weight loss 
 and decreased appetite. </p>
-<p>If you do lose some weight when you start treatment with Yargesa don t worry. People usually stop </p>
-<p>losing weight as treatment goes on. </p>
+<p>If you do lose some weight when you start treatment with Yargesa don t worry. People usually stop 
+losing weight as treatment goes on. </p>
 <p>Common effects (may affect up to 1 in 10 people) 
 Common side effects of treatment include headache, dizziness, paraesthesia (tingling or numbness), 
 abnormal coordination, hypoaesthesia (reduced sensation to touch), dyspepsia (heartburn), nausea 
@@ -222,11 +212,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 
 of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store yargesa"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store yargesa"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not take this medicine after the expiry date which is stated on the blister and carton after  EXP . 
@@ -234,4 +223,30 @@ The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer take. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Yargesa contains 
+- the active substance is miglustat. Each hard capsule contains 100 mg miglustat. 
+- the other ingredients are: 
+capsule content: sodium starch glycolate (type A), povidone (K-29/32), magnesium stearate 
+capsule shell: gelatin, titanium dioxide (E171) 
+printing ink: shellac, iron oxide black (E172),propylene glycol, concentrated ammonia solution </p>
+<p>What Yargesa looks like and contents of the pack 
+Yargesa is a white hard capsule that consists of an opaque white cap and body with  708  printed in 
+black on the body. Capsule size is 4 (14.3 mm x 5.3 mm). The capsules are presented in a PVC and 
+polychlorotrifluoroethylene (PCTFE) perforated unit dose blister sealed with aluminium foil. 
+Pack size of 84 x 1 hard capsules. 
+Marketing Authorisation Holder and Manufacturer 
+Piramal Critical Care B.V. 
+Rouboslaan 32 (ground floor) 
+2252 TR, Voorschoten 
+The Netherlands </p>
+<p>This leaflet was last revised in 
+Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

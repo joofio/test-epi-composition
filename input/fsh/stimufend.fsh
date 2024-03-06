@@ -4,7 +4,7 @@ Instance: composition-en-8bc140c4c39805aec0aad4cf6453fabf
 InstanceOf: CompositionUvEpi
 Title: "Composition for stimufend Package Leaflet"
 Description:  "Composition for stimufend Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Stimufend is and what it is used for  
-2. What you need to know before you use Stimufend  
-3. How to use Stimufend  
-4. Possible side effects  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Stimufend is and what it is used for<br />
+2. What you need to know before you use Stimufend<br />
+3. How to use Stimufend<br />
+4. Possible side effects<br />
 5. How to store Stimufend 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -105,14 +104,8 @@ Respiratory Distress Syndrome (ARDS). </p>
 difficulty breathing, abdominal swelling and feeling of fullness, and a general feeling of 
 tiredness. 
 These could be symptoms of a condition called  Capillary Leak Syndrome  which causes blood 
-to leak from the small blood vessels into your body. See section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take stimufend"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take stimufend"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>if you get left upper abdominal pain or pain at the tip of your shoulder. This may be a sign of a 
+to leak from the small blood vessels into your body. See section 4.<br />
+if you get left upper abdominal pain or pain at the tip of your shoulder. This may be a sign of a 
 problem with your spleen (splenomegaly). </p>
 <p>if you have recently had a serious lung infection (pneumonia), fluid in the lungs (pulmonary 
 oedema), inflammation of the lungs (interstitial lung disease) or an abnormal chest x-ray (lung 
@@ -159,13 +152,12 @@ Stimufend has no or negligible effect on the ability to drive or use machines.
 Stimufend contains sorbitol (E420) and sodium acetate 
 This medicine contains 30 mg sorbitol in each 6 mg dose, which is equivalent to 50 mg/ml.<br />
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take stimufend"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take stimufend"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Stimufend is for use in adults aged 18 and over. 
 Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
@@ -185,12 +177,13 @@ If you use more Stimufend than you should contact your doctor, pharmacist or nur
 If you forget to inject Stimufend
 If you are injecting yourself and have forgotten your dose of Stimufend, you should contact your 
 doctor to discuss when you should inject the next dose.<br />
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store stimufend"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store stimufend"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Please tell your doctor immediately if you have any of the following or combination of the following 
@@ -229,15 +222,8 @@ and neck with fever) has occurred but other factors may play a role.  </p>
 <p>blood disorders (myelodysplastic syndrome [MDS] or acute myeloid leukaemia [AML]).<br />
 Rare side effects (may affect up to 1 in 1,000 people): </p>
 <p>inflammation of aorta (the large blood vessel which transports blood from the heart to the 
-body), see section </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>bleeding from the lung (pulmonary haemorrhage). </p>
+body), see section 2.<br />
+bleeding from the lung (pulmonary haemorrhage). </p>
 <p>Stevens-Johnson syndrome, which can appear as reddish target-like or circular patches often 
 with central blisters on the trunk, skin peeling, ulcers of mouth, throat, nose, genitals and eyes 
 and can be preceded by fever and flu-like symptoms. Stop using Stimufend if you develop these 
@@ -246,4 +232,51 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store stimufend"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store stimufend"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the carton and on the syringe label 
+after EXP. The expiry date refers to the last day of that month. 
+Store in a refrigerator (2 C-8 C). 
+Stimufend may be exposed to room temperature (not above 30 C) for a maximum single period of up 
+to 72 hours. Stimufend left at room temperature for more than 72 hours should be discarded. For all 
+questions about storage, ask your doctor, nurse or pharmacist. 
+Do not freeze.<br />
+Keep the pre-filled syringe in the outer carton in order to protect from light. 
+Do not use this medicine if you notice it is cloudy or there are particles in it. 
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Stimufend contains</h2>
+<p>The active substance is pegfilgrastim. Each pre-filled syringe contains 6 mg of pegfilgrastim in 
+0.6 mL of solution.
+-
+The other ingredients are sodium acetate, sorbitol (E420), polysorbate 20, glacial acetic acid and 
+water for injections. See section 2  Stimufend contains sorbitol (E420) and sodium acetate .<br />
+What Stimufend looks like and contents of the pack 
+Stimufend is a clear, colourless solution for injection in a pre-filled syringe (6 mg/0.6 mL). Each pack 
+contains 1 glass pre-filled syringe with an attached stainless steel needle and needle cap. 
+The pre-filled syringe is provided with an automatic needle guard. 
+Marketing Authorisation Holder <br />
+Fresenius Kabi Deutschland GmbH 
+Else-Kroener Strasse 1 
+61352 Bad Homburg v.d.Hoehe 
+Germany 
+Manufacturer
+Fresenius Kabi Austria GmbH 
+Hafnerstrasse 8055 Graz 
+Austria 
+This leaflet was last revised in
+Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

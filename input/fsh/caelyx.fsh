@@ -4,7 +4,7 @@ Instance: composition-en-ba96fb9c0ed4979439bd80d6bde4ba94
 InstanceOf: CompositionUvEpi
 Title: "Composition for caelyx Package Leaflet"
 Description:  "Composition for caelyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Caelyx pegylated liposomal is and what it is used for 
 2. What you need to know before you use Caelyx pegylated liposomal 
 3. How to use Caelyx pegylated liposomal 
 4. Possible side effects 
 5. How to store Caelyx pegylated liposomal 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -364,5 +363,94 @@ contains 2 mg of doxorubicin hydrochloride in a pegylated liposomal formulation.
 methoxypoly(oxyethylen)-40 sodium salt (MPEG-DSPE), fully hydrogenated soy 
 phosphatidylcholine (HSPC), cholesterol, ammonium sulphate, sucrose, histidine, water for 
 injections, hydrochloric acid (for pH-adjustment) and sodium hydroxide (for pH-adjustment).<br />
-See section </p>         </div>"""      
+See section 2. Caelyx pegylated liposomal concentrate for solution for infusion: vials which provide 10 ml (20 mg) 
+or 25 ml (50 mg). </p>
+<p>What Caelyx pegylated liposomal looks like and contents of the pack 
+Caelyx pegylated liposomal is sterile, translucent and red. Caelyx pegylated liposomal is available in 
+glass vials as a single pack or packs of ten vials. 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Baxter Holding B.V. 
+Kobaltweg 49, 
+3542 CE Utrecht, 
+Netherlands </p>
+<p>Manufacturer 
+Janssen Pharmaceutica NV 
+Turnhoutseweg B-2340 Beerse 
+Belgium </p>
+<p>Baxter Oncology GmbH 
+Kantstrasse 2<br />
+33790 Halle/Westfalen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Baxter Belgium SPRL/BVBA 
+T l/Tel: +32 (0)2 386 80 braine_reception@baxter.com </p>
+<p>Lietuva 
+UAB  Baxter Lithuania<br />
+Tel: +37052527<br />
+Baxter Holding B.V. 
+Te .: +31 (0)30 2488 Luxembourg/Luxemburg 
+Baxter Belgium SPRL/BVBA 
+T l/Tel: +32 (0)2 386 80 braine_reception@baxter.com </p>
+<p>esk  republika 
+BAXTER CZECH spol. s r.o. 
+Tel: +420 225 774 Magyarorsz g 
+Baxter Hungary Kft. 
+Tel: +36 1 202 1Danmark 
+Baxter A/S 
+Tlf: +45 4816 6Malta 
+Baxter Holding B.V. 
+Tel: +44 (0)1635 206Deutschland 
+Baxter Deutschland GmbH 
+Tel: +49 (0)89 31701-0<br />
+info_de@baxter.com  </p>
+<p>Nederland 
+Baxter B.V. 
+Tel: +31 (0)30 2488 utrecht_reception@baxter.com </p>
+<p>Eesti 
+O  Baxter Estonia<br />
+Tel: +372 651 5Norge 
+Baxter AS 
+Tlf: +47 22 58 48 <br />
+Baxter (Hellas)  . . .,<br />
+ : +30 210 28 80  sterreich 
+Baxter Healthcare GmbH 
+Tel: +43 1 71120 0 
+austria_office_healthcare@baxter.com <br />
+Espa a 
+Baxter S.L. 
+Tel: +34 91 678 93 Polska 
+Baxter Polska Sp. z o.o. 
+Tel: +48 22 488 37 France 
+Baxter SAS 
+T l: +33 1 34 61 50 Portugal 
+Baxter M dico Farmac utica, Lda.<br />
+Tel: +351 21 925 25 Hrvatska 
+Baxter Healthcare d.o.o. 
+Tel: +385 1 6610Rom nia 
+BAXTER HEALTHCARE SRL 
+Tel: +40 372 302 Ireland 
+Baxter Holding B.V. 
+Tel: +44 (0)1635 206Slovenija 
+Baxter d.o.o.<br />
+Tel: +386 1 420 16  sland 
+Baxter Medical AB 
+S mi: +46 8 632 64 Slovensk  republika 
+Baxter Slovakia s.r.o.<br />
+Tel: +421 2 32 10 11 Italia 
+Baxter S.p.A.<br />
+Tel: +390632491Suomi/Finland 
+Baxter Oy 
+Puh/Tel: +358 (09) 862 <br />
+Baxter Holding B.V. 
+ : +31 (0)30 2488 Sverige 
+Baxter Medical AB 
+Tel: +46 (0)8 632 64 Latvija 
+Baxter Latvia SIA 
+Tel: +371 677 84United Kingdom (Northern Ireland) 
+Baxter Holding B.V. 
+Tel: +44 (0)1635 206This leaflet was last approved on </p>
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 

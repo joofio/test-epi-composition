@@ -4,7 +4,7 @@ Instance: composition-en-5723af3498c13864107ed05f36f04f5d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rasilez Package Leaflet"
 Description:  "Composition for rasilez Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Rasilez is and what it is used for 
 2. What you need to know before you take Rasilez 
 3. How to take Rasilez 
 4. Possible side effects 
 5. How to store Rasilez 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -315,8 +314,7 @@ Via Carnevale, 1,
 Segrate (MI), 
 20054, 
 Italy. </p>
-<p>This leaflet was last revised in 02/2 
-Other sources of information 
+<p>This leaflet was last revised in 02/2Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-f37dc8b0ce387c50af638cbc7ed30e60
 InstanceOf: CompositionUvEpi
 Title: "Composition for forsteo Package Leaflet"
 Description:  "Composition for forsteo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What FORSTEO is and what it is used for 
 2. What you need to know before you use FORSTEO 
 3. How to use FORSTEO 
 4. Possible side effects 
 5. How to store FORSTEO 
-6. Content of the pack and other information          </div>"""   
+6. Content of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -269,8 +269,7 @@ Tel: + 370 (5) 2649<br />
   "     "  . . - <br />
  : + 359 2 491 41 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
-T l/Tel: + 32 (0) 2 548 84 84<br />
- esk  republika 
+T l/Tel: + 32 (0) 2 548 84  esk  republika 
 Eli Lilly  R, s.r.o. 
 Tel: + 420 234 664 Magyarorsz g 
 Lilly Hung ria Kft. 
@@ -306,8 +305,7 @@ Tel: + 40 21 4023Ireland
 Eli Lilly and Company (Ireland) Limited 
 Tel: + 353 (0) 1 661 4Slovenija 
 Eli Lilly farmacevtska dru ba, d.o.o. 
-Tel: + 386 (0) 1 580 00  </p>
-<p>sland 
+Tel: + 386 (0) 1 580 00  sland 
 Icepharma hf. 
 S mi: + 354 540 8Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
@@ -323,7 +321,6 @@ Tel: + 46 (0) 8 7378Latvija
 Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
 Tel: + 371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 </p>
-<p>This leaflet was last revised in  </p>
+Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

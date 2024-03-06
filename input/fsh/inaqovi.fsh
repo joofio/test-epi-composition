@@ -4,7 +4,7 @@ Instance: composition-en-ed180dab6ee7a8f7affa18a1651de7e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for inaqovi Package Leaflet"
 Description:  "Composition for inaqovi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1.  What Inaqovi is and what it is used for  
-2.  What you need to know before you take Inaqovi 
-3.  How to take Inaqovi 
-4.  Possible side effects  
-5.  How to store Inaqovi  
-6.  Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Inaqovi is and what it is used for  </li>
+<li>What you need to know before you take Inaqovi </li>
+<li>How to take Inaqovi </li>
+<li>Possible side effects  </li>
+<li>How to store Inaqovi  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -178,8 +178,8 @@ cycles, depending on how you respond to the treatment. </p>
 If you vomit after taking a dose, do not take an additional dose that day. Take the next dose at the usual 
 time the following day. </p>
 <p>Your doctor may prescribe you additional medicine to take before each Inaqovi dose to avoid you feeling 
-sick or having to vomit during the treatment. </p>
-<p>If you take more Inaqovi than you should 
+sick or having to vomit during the treatment. 
+If you take more Inaqovi than you should 
 Overdose can result in myelosuppression, sepsis or pneumonia (see section 4, Possible side effects). If you 
 take more Inaqovi than you should, seek urgent medical attention. </p>
 <p>If you forget to take Inaqovi 
@@ -282,8 +282,7 @@ Herikerbergweg 1101 CT Amsterdam
 Netherlands </p>
 <p>Manufacturer 
 BSP Pharmaceuticals S.p.A. 
-Via Appia Km. 65,561<br />
-04013 Latina Scalo (LT) 
+Via Appia Km. 65,04013 Latina Scalo (LT) 
 Italy </p>
 <p>R-PHARM Germany GmbH 
 Heinrich-Mack-Stra e 89257 lllertissen 
@@ -293,75 +292,63 @@ Germany </p>
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Lietuva 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>Otsuka Pharmaceutical Netherlands B.V. 
+Tel: +31 (0) 20 85 46 <br />
+Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Luxembourg/Luxemburg 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>esk  republika 
+Tel: +31 (0) 20 85 46  esk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Magyarorsz g 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>Danmark 
+Tel: +31 (0) 20 85 46 Danmark 
 Otsuka Pharma Scandinavia AB 
 Tlf: +46 (0) 8 545 286 Malta 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>Deutschland 
+Tel: +31 (0) 20 85 46 Deutschland 
 Otsuka Pharma GmbH 
 Tel: +49 (0) 69 1700 Nederland 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>Eesti 
+Tel: +31 (0) 20 85 46 Eesti 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Norge 
 Otsuka Pharma Scandinavia AB 
-Tlf: +46 (0) 8 545 286  </p>
-<p>Otsuka Pharmaceutical Netherlands B.V. 
+Tlf: +46 (0) 8 545 286 <br />
+Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  sterreich 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>Espa a 
+Tel: +31 (0) 20 85 46 Espa a 
 Otsuka Pharmaceutical, S.A. 
 Tel: +34 93 550 01 Polska 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>France 
+Tel: +31 (0) 20 85 46 France 
 Otsuka Pharmaceutical France SAS 
 T l: +33 (0)1 47 08 00 Portugal 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>Hrvatska 
+Tel: +31 (0) 20 85 46 Hrvatska 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Rom nia 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>Ireland 
+Tel: +31 (0) 20 85 46 Ireland 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Slovenija 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>sland 
+Tel: +31 (0) 20 85 46  sland 
 Vistor hf. 
 S mi: +354 (0) 535 7Slovensk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>Italia 
+Tel: +31 (0) 20 85 46 Italia 
 Otsuka Pharmaceutical Italy S.r.l. 
 Tel: +39 (0) 2 0063 2Suomi/Finland 
 Otsuka Pharma Scandinavia AB 
-Tlf: +46 (0) 8 545 286  </p>
-<p>Otsuka Pharmaceutical Netherlands B.V. 
+Tlf: +46 (0) 8 545 286 <br />
+Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Sverige 
 Otsuka Pharma Scandinavia AB 
-Tlf: +46 (0) 8 545 286  </p>
-<p>Latvija 
+Tlf: +46 (0) 8 545 286 Latvija 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 United Kingdom (Northern Ireland) 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46  </p>
-<p>This leaflet was last revised in </p>
+Tel: +31 (0) 20 85 46 This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

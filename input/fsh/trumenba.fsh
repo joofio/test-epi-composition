@@ -4,7 +4,7 @@ Instance: composition-en-dda2c427548650874074bbc49aa90b54
 InstanceOf: CompositionUvEpi
 Title: "Composition for trumenba Package Leaflet"
 Description:  "Composition for trumenba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Trumenba is and what it is used for  
-2. What you need to know before you or your child receives Trumenba 
-3. How Trumenba is given  
-4. Possible side effects  
-5. How to store Trumenba  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Trumenba is and what it is used for  </li>
+<li>What you need to know before you or your child receives Trumenba </li>
+<li>How Trumenba is given  </li>
+<li>Possible side effects  </li>
+<li>How to store Trumenba  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -219,49 +219,39 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer S.A./N.V. 
-T l/Tel: + 32 (0)2 554 62<br />
-Lietuva 
+T l/Tel: + 32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 52 51 4 </p>
-<pre><code> ,
-</code></pre>
-<p>Te .: +359 2 970 4 
-Magyarorsz g 
+Tel: +370 52 51 4<br />
+     ,   </p>
+<p>Te .: +359 2 970 4Magyarorsz g 
 Pfizer Kft 
 Tel: +36 1 488 3 esk  republika 
 Pfizer, spol. s r.o. 
-Tel: + 420 283 004<br />
-Malta 
+Tel: + 420 283 004 Malta 
 Vivian Corporation Ltd. 
 Tel: + 35621 344Danmark 
 Pfizer ApS 
-Tlf: + 45 44 201<br />
-Nederland 
+Tlf: + 45 44 201 Nederland 
 Pfizer BV 
 Tel: +31 (0)800 63 34 Deutschland 
 Pfizer Pharma GmbH 
-Tel: + 49 (0)30 550055-51 
-Norge 
+Tel: + 49 (0)30 550055-51Norge 
 Pfizer AS 
 Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel.: +372 666 7 
- sterreich 
+Tel.: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H 
 Tel: + 43 (0)1 521 15-0 </p>
 <p>Pfizer   A.E. 
- .: +30 210 6785<br />
-Polska 
+ .: +30 210 6785 Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: +48 22 335 61 Espa a 
 Pfizer, S.L. 
-Tel+34914909 
-Portugal 
+Tel+34914909Portugal 
 Laborat rios Pfizer, Lda. 
 Tel: (+351) 21 423 55 France 
 Pfizer 
-T l +33 1 58 07 34<br />
-Rom nia 
+T l +33 1 58 07 34 Rom nia 
 Pfizer Romania S.R.L 
 Tel: +40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
@@ -269,33 +259,27 @@ Tel: + 385 1 3908 Slovenija
 Pfizer Luxembourg SARL Pfizer, podru nica za 
 svetovanje s podro ja farmacevtske dejavnosti,<br />
 Ljubljana 
-Tel.: + 386 (0)1 52 11<br />
-Ireland 
+Tel.: + 386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
-+44 (0)1304 616 
-Slovensk  republika 
++44 (0)1304 616Slovensk  republika 
 Pfizer Luxembourg SARL, 
 organiza n  zlo ka 
 Tel: + 421 2 3355 5 sland 
 Icepharma hf 
 Simi: + 354 540 8Suomi/Finland 
 Pfizer Oy 
-Puh/Tel: +358 (0)9 430<br />
-Italia 
+Puh/Tel: +358 (0)9 430 Italia 
 Pfizer s.r.1 
-Tel: +39 06 33 18<br />
-Sverige 
+Tel: +39 06 33 18 Sverige 
 Pfizer AB 
 Tel: +46 (0)8 550 520 <br />
 Pfizer    . . (Cyprus Branch) 
-T : +357 22 817 
-United Kingdom (Northern Ireland) 
+T : +357 22 817United Kingdom (Northern Ireland) 
 Pfizer Limited 
 Tel: +44 (0) 1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel.: + 371 670 35  </p>
-<p>This leaflet was last revised in  </p>
+Tel.: + 371 670 35 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu.  </p>

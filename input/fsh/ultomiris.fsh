@@ -4,7 +4,7 @@ Instance: composition-en-1d2f698bc3b19bc75adea93b8b5c0811
 InstanceOf: CompositionUvEpi
 Title: "Composition for ultomiris Package Leaflet"
 Description:  "Composition for ultomiris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ultomiris is and what it is used for  
-2. What you need to know before you use Ultomiris 
-3. How to use Ultomiris 
-4. Possible side effects  
-5. How to store Ultomiris 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ultomiris is and what it is used for  </li>
+<li>What you need to know before you use Ultomiris </li>
+<li>How to use Ultomiris </li>
+<li>Possible side effects  </li>
+<li>How to store Ultomiris </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -372,23 +372,18 @@ Dublin 15, D15 RIreland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Alexion Pharma Belgium 
-T l/Tel: +32 0 800 200<br />
-Lietuva 
+T l/Tel: +32 0 800 200 Lietuva 
 UAB AstraZeneca Lietuva 
-Tel: +370 5 2660 </p>
-<p>Te .: +359 24455 
-Luxembourg/Luxemburg 
+Tel: +370 5 2660  </p>
+<p>Te .: +359 24455Luxembourg/Luxemburg 
 Alexion Pharma Belgium 
-T l/Tel: +32 0 800 200<br />
- esk  republika 
+T l/Tel: +32 0 800 200  esk  republika 
 AstraZeneca Czech Republic s.r.o. 
 Tel: +420 222 807 Magyarorsz g 
 AstraZeneca Kft. 
-Tel.: +36 1 883 6 
-Danmark 
+Tel.: +36 1 883 6Danmark 
 Alexion Pharma Nordics AB 
-Tlf: +46 0 8 557 727<br />
-Malta 
+Tlf: +46 0 8 557 727 Malta 
 Alexion Europe SAS 
 Tel: +353 1 800 882 Deutschland 
 Alexion Pharma Germany GmbH 
@@ -396,63 +391,46 @@ Tel: +49 (0) 89 45 70 91 Nederland
 Alexion Pharma Netherlands B.V. 
 Tel: +32 (0)2 548 36 Eesti 
 AstraZeneca 
-Tel: +372 6549<br />
-Norge 
+Tel: +372 6549 Norge 
 Alexion Pharma Nordics AB 
-Tlf: +46 (0)8 557 727 50  </p>
-<p>AstraZeneca A.E. 
- : +30 210 6871 
- sterreich 
+Tlf: +46 (0)8 557 727 <br />
+AstraZeneca A.E. 
+ : +30 210 6871 sterreich 
 Alexion Pharma Austria GmbH 
-Tel: +41 44 457 40<br />
-Espa a 
+Tel: +41 44 457 40 Espa a 
 Alexion Pharma Spain, S.L. 
-Tel: +34 93 272 30<br />
-Polska 
+Tel: +34 93 272 30 Polska 
 AstraZeneca Pharma Poland Sp. z o.o. 
-Tel.: +48 22 245 73<br />
-France 
+Tel.: +48 22 245 73 France 
 Alexion Pharma France SAS 
-T l: +33 1 47 32 36<br />
-Portugal 
+T l: +33 1 47 32 36 Portugal 
 Alexion Pharma Spain, S.L. - Sucursal em 
 Portugal<br />
-Tel: +34 93 272 30<br />
-Hrvatska 
+Tel: +34 93 272 30 Hrvatska 
 AstraZeneca d.o.o. 
-Tel: +385 1 4628<br />
-Rom nia 
+Tel: +385 1 4628 Rom nia 
 AstraZeneca Pharma SRL 
-Tel: +40 21 317 60 41<br />
-Ireland 
+Tel: +40 21 317 60 Ireland 
 Alexion Europe SAS 
-Tel: +353 1 800 882<br />
-Slovenija 
+Tel: +353 1 800 882 Slovenija 
 AstraZeneca UK Limited 
-Tel: +386 1 51 35<br />
- sland 
+Tel: +386 1 51 35  sland 
 Alexion Pharma Nordics AB 
 S mi: +46 0 8 557 727 Slovensk  republika 
 AstraZeneca AB, o.z. 
-Tel: +421 2 5737 7 
-Italia 
+Tel: +421 2 5737 7Italia 
 Alexion Pharma Italy srl 
-Tel: +39 02 7767 9211  </p>
-<p>Suomi/Finland 
+Tel: +39 02 7767 9Suomi/Finland 
 Alexion Pharma Nordics AB 
-Puh/Tel: +46 0 8 557 727 50  </p>
-<p>Alexion Europe SAS 
- : +357 22490 
-Sverige 
-Alexion Pharma Nordics AB 
-Tel: +46 0 8 557 727<br />
-Latvija 
-SIA AstraZeneca Latvija 
-Tel: +371 67377 
-United Kingdom (Northern Ireland) 
+Puh/Tel: +46 0 8 557 727 <br />
 Alexion Europe SAS 
-Tel: +44 (0) 800 028 4 
-This leaflet was last revised in  </p>
+ : +357 22490Sverige 
+Alexion Pharma Nordics AB 
+Tel: +46 0 8 557 727 Latvija 
+SIA AstraZeneca Latvija 
+Tel: +371 67377United Kingdom (Northern Ireland) 
+Alexion Europe SAS 
+Tel: +44 (0) 800 028 4This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

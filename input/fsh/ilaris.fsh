@@ -4,7 +4,7 @@ Instance: composition-en-943ee66eb6c14bbfb08d263a24ef8bd8
 InstanceOf: CompositionUvEpi
 Title: "Composition for ilaris Package Leaflet"
 Description:  "Composition for ilaris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Ilaris is and what it is used for 
 2. What you need to know before you use Ilaris 
 3. How to use Ilaris 
 4. Possible side effects 
 5. How to store Ilaris 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -223,8 +223,8 @@ another dose of 150 mg or 2 mg/kg. </p>
 <p>If you do not respond well enough to the second dose, a third dose of Ilaris at 300 mg or 
 4 mg/kg may be given. </p>
 <p>If you respond well enough to the third dose, your treatment will be continued at 600 mg or 
-8 mg/kg every 8 weeks. </p>
-<p>For children given a starting dose of 4 mg/kg who have not responded well enough after 7 days, the 
+8 mg/kg every 8 weeks. 
+For children given a starting dose of 4 mg/kg who have not responded well enough after 7 days, the 
 doctor may give a second dose of 4 mg/kg. If the child responds well enough to this, treatment may be 
 continued with a dose of 8 mg/kg every 8 weeks. </p>
 <p>Tumour necrosis factor receptor associated periodic syndrome (TRAPS), hyperimmunoglobulin D 
@@ -386,5 +386,271 @@ environment. </p>
 <p>The active substance is canakinumab. One vial of powder contains 150 mg canakinumab. After 
 reconstitution, each ml of solution contains 150 mg canakinumab. </p>
 <p>The other ingredients are: sucrose, histidine, histidine hydrochloride monohydrate, polysorbate 
-8</p>         </div>"""      
+80. What Ilaris looks like and contents of the pack </p>
+<p>Ilaris is supplied as a powder for solution for injection (150 mg in a 6 ml glass vial). </p>
+<p>The powder is white. </p>
+<p>Ilaris is available in packs containing one vial or multipacks comprising four intermediate 
+packs, each containing one vial. Not all pack sizes may be marketed in your country. </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16 Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ .: +359 2 489 98 Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16  esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84 Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30 Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17  sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu </p>
+<p>Instructions for use of Ilaris powder for solution for injection </p>
+<p>Please note that the preparation of the injection takes about 30 minutes. 
+See also section 3,  Injecting Ilaris yourself or injecting a patient with Ilaris . </p>
+<p>Read these instructions all the way through before beginning. </p>
+<p>Essential preparation </p>
+<p>Find a clean place in which to prepare and administer the injection. </p>
+<p>Wash your hands with soap and water. </p>
+<p>Check the expiry dates on the vial and syringes. Do not use after the expiry date which is stated 
+on the label and carton. The expiry date refers to the last day of that month. </p>
+<p>Always use new, unopened needles and syringes. Avoid touching the needles and the tops of the 
+vials. </p>
+<p>Gather together the necessary items 
+Included in the pack 
+- one vial of Ilaris powder for solution for injection (keep refrigerated) </p>
+<p>Not included in the pack </p>
+<p>one vial (or ampoule) of sterile water for injections ( water ) (at room temperature) </p>
+<p>one 1.0 ml syringe </p>
+<p>one 18 G x 2 inch (50 mm) needle for reconstituting the powder ( transfer needle ) </p>
+<p>one 27 G x 0.5 inch (13 mm) needle for injecting ( injection needle ) </p>
+<p>alcohol swabs </p>
+<p>clean, dry cotton swabs </p>
+<p>an adhesive plaster </p>
+<p>a proper disposal container for used needles, syringe and vials (sharps container) </p>
+<p>Mixing Ilaris </p>
+<ol>
+<li>Remove the caps from the Ilaris and water vials. 
+Do not touch the vial stoppers. Clean the stoppers 
+with the alcohol swab. </li>
+<li>Open the wrappers containing the syringe and the 
+transfer needle (the 50 mm needle) and attach the 
+needle to the syringe. </li>
+<li>Carefully remove the cap from the transfer needle 
+and set the cap aside. Pull the plunger all the way 
+down to the 1.0 ml mark, filling the syringe with 
+air. Insert the needle into the water vial through the 
+centre of the rubber stopper. </li>
+<li>Gently push the plunger all the way down until air 
+is in the vial. </li>
+<li>Turn the vial and syringe upside down and bring to 
+eye level. </li>
+<li>Make sure the tip of the transfer needle is covered 
+by the water and slowly pull the syringe plunger 
+down to slightly past the 1.0 ml mark. If you see 
+bubbles in the syringe, remove bubbles as 
+instructed by your healthcare professional or 
+pharmacist. </li>
+<li>
+<p>Make sure 1.0 ml of water is in the syringe, then 
+take the needle out of the vial. (There will be water 
+remaining in the vial.) </p>
+</li>
+<li>
+<p>Insert the transfer needle through the centre of the 
+stopper of the vial of Ilaris powder, taking care not 
+to touch the needle or the stopper. Slowly inject the 
+water into the vial containing the Ilaris powder. </p>
+</li>
+<li>
+<p>Carefully remove the transfer needle from the vial 
+and recap the needle as instructed by your 
+healthcare provider or pharmacist. </p>
+</li>
+<li>
+<p>Without touching the rubber stopper, swirl (do not 
+shake) the vial slowly at an angle of about 
+45 degrees for about 1 minute. Allow to stand for 
+5 minutes. </p>
+</li>
+<li>Now, gently turn the vial upside down and back 
+again ten times, again taking care not to touch the 
+rubber stopper. </li>
+<li>Allow to stand for about 15 minutes at room 
+temperature to get a clear to opalescent solution. 
+Do not shake. Do not use if particles are present in 
+the solution. </li>
+<li>Make sure all of the solution is in the bottom of the 
+vial. If drops remain on the stopper, tap the side of 
+the vial to remove them. The solution should be 
+clear to opalescent and free of visible particles. The 
+solution should be colourless or may have a slight 
+brownish-yellow tint. </li>
+<li>If not used immediately after mixing, the 
+solution should be stored in the refrigerator 
+(2 C to 8 C) and used within 24 hours. </li>
+</ol>
+<p>Preparing the injection </p>
+<ol>
+<li>Clean the rubber stopper of the vial containing the 
+Ilaris solution with a new alcohol swab. </li>
+<li>
+<p>Uncap the transfer needle again. Pull the plunger of 
+the syringe all the way down to the 1.0 ml mark, 
+filling the syringe with air. Insert the syringe 
+needle into the vial of Ilaris solution through the 
+centre of the rubber stopper. The needle should not 
+be in the liquid at this point. Gently push the 
+plunger all the way down until all of the air is 
+injected into the vial. Do not inject air into the 
+liquid. </p>
+</li>
+<li>
+<p>Do not turn the vial and syringe upside down, the 
+vial should stay upright. Insert the needle all the 
+way into the vial until it reaches the bottom edge. </p>
+</li>
+<li>Tip the vial to ensure that the required amount of 
+solution can be drawn into the syringe </li>
+<li>NOTE: The required amount depends on the dose 
+to be administered. Your healthcare provider will 
+instruct you on the right amount for you. </li>
+<li>Slowly pull the syringe plunger up to the correct 
+mark (amount to be given), filling the syringe with 
+Ilaris solution. If there are air bubbles in the 
+syringe, remove bubbles as instructed by your 
+healthcare provider. Ensure that the correct amount 
+of solution is in the syringe. </li>
+<li>Remove the syringe and needle from the vial. 
+(There may be solution remaining in the vial.) 
+Recap the transfer needle as instructed by your 
+healthcare provider or pharmacist. Remove the 
+transfer needle from the syringe. Place the transfer 
+needle in the sharps container. </li>
+<li>Open the wrapper containing the injection needle 
+and attach the needle to the syringe. Set the syringe 
+aside. </li>
+</ol>
+<p>Giving the injection </p>
+<ol>
+<li>Choose an injection site on the upper thigh, 
+abdomen, upper arm or buttocks. Do not use an 
+area that has a rash or broken skin, or is bruised or 
+lumpy. Do not inject into scar-tissue as this may 
+mean you do not get all of your medicine. Avoid 
+injecting into a vein. </li>
+<li>Clean the injection site with a new alcohol swab. 
+Allow the area to dry. Uncap the injection needle. </li>
+<li>
+<p>Gently pinch the skin up at the injection site. Hold 
+the syringe at a 90-degree angle and in a single, 
+smooth motion, push the needle straight down 
+completely into the skin. </p>
+</li>
+<li>
+<p>Keep the needle all the way in the skin while 
+slowly pushing the syringe plunger down until the 
+barrel is empty. Release the pinched skin and pull 
+the needle straight out. Dispose of the needle and 
+syringe in the sharps container without recapping 
+or removing the needle. </p>
+</li>
+</ol>
+<p>After the injection </p>
+<ol>
+<li>
+<p>Do not rub the injection area. If bleeding occurs, 
+apply a clean, dry cotton swab over the area, and 
+press gently for 1 to 2 minutes, or until bleeding 
+stops. Then apply an adhesive plaster. </p>
+</li>
+<li>
+<p>Safely dispose of needles and syringe in the sharps 
+container or as directed by your healthcare provider 
+or pharmacist. Never re-use syringes or needles. </p>
+</li>
+<li>Properly dispose of vials containing remaining 
+water and Ilaris solution (if any) as directed by 
+your healthcare provider or pharmacist. Any 
+unused product or waste material should be 
+disposed of in accordance with local requirements. </li>
+</ol>
+<p>Keep the sharps container out of reach of children. </p>
+<p>Dispose of it as directed by your healthcare provider or 
+pharmacist. </p>
+<p>Package leaflet: Information for the user </p>
+<p>Ilaris 150 mg/ml solution for injection 
+canakinumab </p>
+<p>Read all of this leaflet carefully before you start using this medicine because it contains 
+important information for you. 
+- Keep this leaflet. You may need to read it again. 
+- If you have any further questions, ask your doctor, pharmacist or nurse. 
+- This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. 
+- If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

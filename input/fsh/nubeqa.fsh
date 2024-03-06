@@ -4,7 +4,7 @@ Instance: composition-en-1cafc851e1f0aed5863b6a73ba46d0f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for nubeqa Package Leaflet"
 Description:  "Composition for nubeqa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What NUBEQA is and what it is used for 
-2. What you need to know before you take NUBEQA 
-3. How to take NUBEQA 
-4. Possible side effects 
-5. How to store NUBEQA 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What NUBEQA is and what it is used for </li>
+<li>What you need to know before you take NUBEQA </li>
+<li>How to take NUBEQA </li>
+<li>Possible side effects </li>
+<li>How to store NUBEQA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -143,8 +143,8 @@ or pharmacist if you are not sure.  </p>
 <p>The recommended dose is 
 2 tablets 2 times daily </p>
 <p>Your doctor may reduce your dose to 1 tablet 2 times daily, if you have problems with your liver or 
-kidneys. </p>
-<p>Method of use 
+kidneys. 
+Method of use 
 Swallow the tablets whole, take them with food and a glass of water. </p>
 <p>Your doctor may also prescribe other medicines while you are taking NUBEQA. </p>
 <p>If you take more NUBEQA than you should 
@@ -250,8 +250,8 @@ Germany </p>
 <p>Manufacturer 
 Orion Corporation, Orion Pharma 
 24100 Salo 
-Finland </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing 
+Finland 
+For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Bayer SA-NV 
@@ -313,7 +313,6 @@ Tel: +46 (0) 8 580 223 Latvija
 SIA Bayer 
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0)118 206 3 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44-(0)118 206 3This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

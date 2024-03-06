@@ -4,7 +4,7 @@ Instance: composition-en-cef8236d2ba001c606577d8a44188d3e
 InstanceOf: CompositionUvEpi
 Title: "Composition for conbriza Package Leaflet"
 Description:  "Composition for conbriza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What CONBRIZA is and what it is used for 
-2. What you need to know before you take CONBRIZA 
-3. How to take CONBRIZA 
-4. Possible side effects 
-5. How to store CONBRIZA 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What CONBRIZA is and what it is used for </li>
+<li>What you need to know before you take CONBRIZA </li>
+<li>How to take CONBRIZA </li>
+<li>Possible side effects </li>
+<li>How to store CONBRIZA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -235,77 +236,58 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-T l/Tel: +32 (0)2 554 62 11  </p>
-<p>Latvij<br />
+T l/Tel: +32 (0)2 554 62 Latvij<br />
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel: +371 670 35  </p>
-<pre><code> ,
-</code></pre>
-<p>.: +359 2 970 4 
-Lietuva 
+Tel: +371 670 35  <br />
+     ,  </p>
+<p>.: +359 2 970 4Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 52 51 4 
- esk  republika 
+Tel: +370 52 51 4 esk  republika 
 Pfizer, spol. s r.o.<br />
-Tel: +420-283-004- Magyarorsz g 
+Tel: +420-283-004-Magyarorsz g 
 Pfizer Kft 
-Tel.: +36 1 488 3700  </p>
-<p>Danmark 
+Tel.: +36 1 488 3Danmark 
 Pfizer ApS<br />
-Tlf: +45 44 20 11 00  </p>
-<p>Malta 
+Tlf: +45 44 20 11 Malta 
 Vivian Corporation Ltd. 
-Tel: +356 21344 
-Deutschland 
+Tel: +356 21344Deutschland 
 PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055-51 
-Nederland 
+Tel: +49 (0)30 550055-51Nederland 
 Pfizer BV 
-Tel: +31 (0)10 406 43<br />
-Eesti 
+Tel: +31 (0)10 406 43 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
-Norge 
+Tel: +372 666 7Norge 
 Pfizer AS 
-Tlf: +47 67 526 100  </p>
-<p>Pfizer   A.E. 
- : +30 210 6785<br />
- sterreich 
+Tlf: +47 67 526 <br />
+Pfizer   A.E. 
+ : +30 210 6785  sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>Espa a 
 Pfizer, S.L. 
-Tel: +34 91 490 99<br />
-Polska 
+Tel: +34 91 490 99 Polska 
 Pfizer Polska Sp. z o.o.<br />
-Tel.: +48 22 335 61 00  </p>
-<p>France 
+Tel.: +48 22 335 61 France 
 Pfizer<br />
-T l: +33 (0)1 58 07 34 40  </p>
-<p>Portugal 
+T l: +33 (0)1 58 07 34 Portugal 
 Laborat rios Pfizer, Lda. 
-Tel: +351 21 423 5 
-Hrvatska 
+Tel: +351 21 423 5Hrvatska 
 Pfizer Croatia d.o.o. 
 Tel: +385 1 3908 Rom nia 
 Pfizer Romania S.R.L 
 Tel: +40 (0) 21 207 28 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
-+44 (0)1304 616 
-Slovenija 
++44 (0)1304 616Slovenija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel: +386 (0)1 52 11<br />
- sland 
+Tel: +386 (0)1 52 11  sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Pfizer Luxembourg SARL,<br />
 organiza n  zlo ka<br />
-Tel: +421 2 3355 5 
-Italia 
+Tel: +421 2 3355 5Italia 
 Pfizer S.r.l.<br />
 Tel: +39 06 33 18 Suomi/Finland 
 Pfizer Oy<br />

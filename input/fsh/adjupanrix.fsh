@@ -4,7 +4,7 @@ Instance: composition-en-21182c5873285a39663676519ff4bbab
 InstanceOf: CompositionUvEpi
 Title: "Composition for adjupanrix Package Leaflet"
 Description:  "Composition for adjupanrix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What Adjupanrix is and what it is used for 
 2. What you need to know before you receive  Adjupanrix 
 3. How Adjupanrix is given 
 4. Possible side effects 
 5. How to store Adjupanrix 
-6. Contents of the pack and otherinformation          </div>"""   
+6. Contents of the pack and otherinformation </p>         </div>"""   
           
 
 * section[=].section[+]

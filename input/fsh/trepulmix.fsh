@@ -4,7 +4,7 @@ Instance: composition-en-0e387e560fa6e1178c04c02876196a66
 InstanceOf: CompositionUvEpi
 Title: "Composition for trepulmix Package Leaflet"
 Description:  "Composition for trepulmix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Trepulmix is and what it is used for 
 2. What you need to know before you use Trepulmix 
 3. How to use Trepulmix 
 4. Possible side effects 
 5. How to store Trepulmix 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -248,8 +247,8 @@ hypertension to return with the potential for rapid and severe deterioration in 
 * joint pain (arthralgia) 
 * swelling of feet, ankles, legs or fluid retention 
 * hot flush 
-* pain in arms and / or legs </p>
-<p>Uncommon (may affect up to 1 in 100 people) 
+* pain in arms and / or legs 
+Uncommon (may affect up to 1 in 100 people) 
 * swollen eyelids (eyelid oedema) 
 * indigestions 
 * vomiting 
@@ -342,84 +341,62 @@ Authorisation Holder: </p>
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 T l/Tel: +43 1 5037Lietuva<br />
 AOP Orphan Pharmaceuticals GmbH (Austrija) 
-Tel: + 43 1 5037 </p>
-<p>AOP Orphan Pharmaceuticals GmbH ( ) 
-Te .: + 43 1 5037 </p>
-<p>Luxembourg/Luxemburg<br />
+Tel: + 43 1 5037 <br />
+AOP Orphan Pharmaceuticals GmbH ( ) 
+Te .: + 43 1 5037Luxembourg/Luxemburg<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) <br />
 T l/Tel: + 43 1 5037 esk  republika<br />
 AOP Orphan Pharmaceuticals GmbH (Rakousko) 
-Tel: + 43 1 5037 
-Magyarorsz g<br />
+Tel: + 43 1 5037Magyarorsz g<br />
 AOP Orphan Pharmaceuticals GmbH (Ausztria) 
-Tel.: + 43 1 5037 
-Danmark<br />
+Tel.: + 43 1 5037Danmark<br />
 AOP Orphan Pharmaceuticals GmbH ( strig) 
-Tlf: + 43 1 5037 
-Malta<br />
+Tlf: + 43 1 5037Malta<br />
 AOP Orphan Pharmaceuticals GmbH (L-Awstrija) 
-Tel: + 43 1 5037 
-Deutschland<br />
+Tel: + 43 1 5037Deutschland<br />
 AOP Orphan Pharmaceuticals Germany GmbH 
-Tel: + 49 89 99 740 7 
-Nederland<br />
+Tel: + 49 89 99 740 7Nederland<br />
 AOP Orphan Pharmaceuticals GmbH (Oostenrijk) 
-Tel: + 43 1 5037 
-Eesti<br />
+Tel: + 43 1 5037Eesti<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
-Tel: + 43 1 5037 
-Norge<br />
+Tel: + 43 1 5037Norge<br />
 AOP Orphan Pharmaceuticals GmbH ( sterrike) 
-Tlf: + 43 1 5037 </p>
-<p>AOP Orphan Pharmaceuticals GmbH ( ) 
- : + 43 1 5037 
- sterreich<br />
+Tlf: + 43 1 5037 <br />
+AOP Orphan Pharmaceuticals GmbH ( ) 
+ : + 43 1 5037 sterreich<br />
 AOP Orphan Pharmaceuticals GmbH 
-Tel: + 43 1 5037 
-Espa a<br />
+Tel: + 43 1 5037Espa a<br />
 AOP Orphan Pharmaceuticals Iberia S.L. <br />
-Tel: +34 91 395 40<br />
-Polska<br />
+Tel: +34 91 395 40 Polska<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
-Tel.: + 43 1 5037 
-France<br />
+Tel.: + 43 1 5037France<br />
 AOP Orphan Pharmaceuticals GmbH (Autriche) 
-T l: + 43 1 5037 
-Portugal<br />
+T l: + 43 1 5037Portugal<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
-Tel: + 43 1 5037244  </p>
-<p>Hrvatska<br />
+Tel: + 43 1 5037Hrvatska<br />
 AOP Orphan Pharmaceuticals GmbH (Austrija) 
 Tel: + 43 1 5037Rom nia<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
-Tel: + 43 1 5037 
-Ireland<br />
+Tel: + 43 1 5037Ireland<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
 Tel: + 43 1 5037Slovenija<br />
 AOP Orphan Pharmaceuticals GmbH (Avstrija) 
-Tel: + 43 1 5037 
- sland<br />
+Tel: + 43 1 5037 sland<br />
 AOP Orphan Pharmaceuticals GmbH (Austurr ki) 
 S mi: + 43 1 5037Slovensk  republika<br />
 AOP Orphan Pharmaceuticals GmbH (Rak sko) 
-Tel: + 43 1 5037 
-Italia<br />
+Tel: + 43 1 5037Italia<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
-Tel: + 43 1 5037 
-Suomi/Finland<br />
+Tel: + 43 1 5037Suomi/Finland<br />
 AOP Orphan Pharmaceuticals GmbH (It valta) 
-Puh/Tel: + 43 1 5037 </p>
-<p>AOP Orphan Pharmaceuticals GmbH ( ) 
- : + 43 1 5037244  </p>
-<p>Sverige<br />
+Puh/Tel: + 43 1 5037 <br />
+AOP Orphan Pharmaceuticals GmbH ( ) 
+ : + 43 1 5037Sverige<br />
 AOP Orphan Pharmaceuticals GmbH ( sterrike) 
-Tel: + 43 1 5037 
-Latvija<br />
+Tel: + 43 1 5037Latvija<br />
 AOP Orphan Pharmaceuticals GmbH (Austrija) 
-Tel: + 43 1 5037 
-United Kingdom (Northern Ireland)<br />
+Tel: + 43 1 5037United Kingdom (Northern Ireland)<br />
 AOP Orphan Pharmaceuticals GmbH (Austria) 
-Tel: + 43 1 5037 </p>
-<p>This leaflet was last revised in . </p>
+Tel: + 43 1 5037This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

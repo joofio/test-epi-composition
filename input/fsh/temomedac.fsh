@@ -4,7 +4,7 @@ Instance: composition-en-065d110b327b470e1ddc262836549605
 InstanceOf: CompositionUvEpi
 Title: "Composition for temomedac Package Leaflet"
 Description:  "Composition for temomedac Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Temomedac is and what it is used for 
 2. What you need to know before you take Temomedac 
 3. How to take Temomedac 
 4. Possible side effects 
 5. How to store Temomedac 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -97,34 +96,32 @@ blood cell count and platelet count. These blood cells are important for fightin
 for proper blood clotting. Your doctor will check your blood to make sure you have enough of 
 these cells before you begin treatment. </p>
 <p>Warnings and precautions 
-Talk to your doctor, pharmacist or nurse before taking Temomedac, </p>
-<ul>
-<li>as you should be observed closely for the development of a serious form of chest infection 
+Talk to your doctor, pharmacist or nurse before taking Temomedac, 
+- as you should be observed closely for the development of a serious form of chest infection 
 called Pneumocystis jirovecii pneumonia (PCP). If you are a newly-diagnosed patient 
 (glioblastoma multiforme) you may be receiving Temomedac for 42 days in combination with 
 radiotherapy. In this case, your doctor will also prescribe medicine to help you prevent this type 
-of pneumonia (PCP). </li>
-<li>if you have ever had or might now have a hepatitis B infection. This is because Temomedac 
+of pneumonia (PCP). 
+- if you have ever had or might now have a hepatitis B infection. This is because Temomedac 
 could cause hepatitis B to become active again, which can be fatal in some cases. Patients will 
-be carefully checked by their doctor for signs of this infection before treatment is started. </li>
-<li>if you have low counts of red blood cells (anaemia), white blood cells and platelets, or blood 
+be carefully checked by their doctor for signs of this infection before treatment is started. 
+- if you have low counts of red blood cells (anaemia), white blood cells and platelets, or blood 
 clotting problems before starting the treatment, or if you develop them during treatment. Your 
 doctor may decide to reduce the dose, interrupt, stop or change your treatment. You may also 
 need other treatments. In some cases, it may be necessary to stop treatment with Temomedac. 
 Your blood will be tested frequently during treatment to monitor the side effects of Temomedac 
-on your blood cells.  </li>
-<li>as you may have a small risk of other changes in blood cells, including leukaemia. </li>
-<li>if you have nausea (feeling sick in your stomach) and/or vomiting which are very common side 
+on your blood cells.<br />
+- as you may have a small risk of other changes in blood cells, including leukaemia. 
+- if you have nausea (feeling sick in your stomach) and/or vomiting which are very common side 
 effects of Temomedac (see section 4), your doctor may prescribe you a medicine (an anti-
-emetic) to help prevent vomiting. </li>
-<li>if you vomit frequently before or during treatment, ask your doctor about the best time to take 
+emetic) to help prevent vomiting. 
+- if you vomit frequently before or during treatment, ask your doctor about the best time to take 
 Temomedac until the vomiting is under control. If you vomit after taking your dose, do not take 
-a second dose on the same day. </li>
-<li>if you develop fever or symptoms of an infection, contact your doctor immediately. </li>
-<li>if you are older than 70 years of age, you might be more prone to infections, bruising or 
-bleeding. </li>
-<li>if you have liver or kidney problems, your dose of Temomedac may need to be adjusted. </li>
-</ul>
+a second dose on the same day. 
+- if you develop fever or symptoms of an infection, contact your doctor immediately. 
+- if you are older than 70 years of age, you might be more prone to infections, bruising or 
+bleeding. 
+- if you have liver or kidney problems, your dose of Temomedac may need to be adjusted. </p>
 <p>Children and adolescents 
 Do not give this medicine to children under the age of 3 years because it has not been studied. There is 
 limited information in patients over 3 years of age who have taken Temomedac.  </p>
@@ -311,12 +308,8 @@ some cases, your Temomedac dose will be reduced or treatment stopped. </p>
 </ul>
 <p>Uncommon side effects (may affect up to 1 in 100 people) are:</p>
 <ul>
-<li>
-<p>brain infections (meningoencephalitis herpetic) including fatal cases </p>
-</li>
-<li>
-<p>new or reactivated cytomegalovirus infections </p>
-</li>
+<li>brain infections (meningoencephalitis herpetic) including fatal cases </li>
+<li>new or reactivated cytomegalovirus infections </li>
 <li>wound infections </li>
 <li>reactivated hepatitis B virus infections </li>
 <li>secondary cancers including leukaemia </li>
@@ -369,16 +362,17 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Temomedac contains </p>
 <ul>
-<li>The active substance is temozolomide. 
-Temomedac 5 mg hard capsules: Each capsule contains 5 mg temozolomide. </li>
-</ul>
-<p>Temomedac 20 mg hard capsules: Each capsule contains 20 mg temozolomide. 
+<li>
+<p>The active substance is temozolomide. 
+Temomedac 5 mg hard capsules: Each capsule contains 5 mg temozolomide. 
+Temomedac 20 mg hard capsules: Each capsule contains 20 mg temozolomide. 
 Temomedac 100 mg hard capsules: Each capsule contains 100 mg temozolomide. 
 Temomedac 140 mg hard capsules: Each capsule contains 140 mg temozolomide. 
 Temomedac 180 mg hard capsules: Each capsule contains 180 mg temozolomide. 
 Temomedac 250 mg hard capsules: Each capsule contains 250 mg temozolomide. </p>
-<ul>
-<li>The other ingredients are: 
+</li>
+<li>
+<p>The other ingredients are: 
 capsule content: 
 anhydrous lactose, colloidal anhydrous silica, sodium starch glycolate type A, tartaric acid, 
 stearic acid (see section 2  Temomedac contains lactose ). 
@@ -394,7 +388,8 @@ indigo carmine (E 132) aluminium lake.
 Temomedac 180 mg hard capsules: gelatin, titanium dioxide (E 171), shellac, propylene glycol, 
 red iron oxide (E 172) 
 Temomedac 250 mg hard capsules: gelatin, titanium dioxide (E 171), shellac, propylene glycol, 
-black iron oxide (E 172). </li>
+black iron oxide (E 172). </p>
+</li>
 </ul>
 <p>What Temomedac looks like and contents of the pack </p>
 <p>Temomedac 5 mg hard capsules have a white opaque body and cap with two stripes in green ink on 
@@ -417,8 +412,8 @@ Gesellschaft f r klinische Spezialpr parate mbH
 Theaterstr. 6 
 22880 Wedel 
 Germany </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information 
+<p>This leaflet was last revised in 
+Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>         </div>"""      
 

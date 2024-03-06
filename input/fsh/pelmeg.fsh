@@ -4,7 +4,7 @@ Instance: composition-en-874f4746d25a4c3b8fa97e889d85be10
 InstanceOf: CompositionUvEpi
 Title: "Composition for pelmeg Package Leaflet"
 Description:  "Composition for pelmeg Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Pelmeg is and what it is used for 
-2. What you need to know before you use Pelmeg 
-3. How to use Pelmeg 
-4. Possible side effects 
-5. How to store Pelmeg 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Pelmeg is and what it is used for </li>
+<li>What you need to know before you use Pelmeg </li>
+<li>How to use Pelmeg </li>
+<li>Possible side effects </li>
+<li>How to store Pelmeg </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -136,14 +136,7 @@ inflammatory markers. Tell your doctor if you experience these symptoms. </li>
 kidneys (glomerulonephritis). </p>
 <p>Severe skin reactions (Stevens-Johnson syndrome) have been reported with the use of Pelmeg. Stop 
 using Pelmeg and seek medical attention immediately if you notice any of the symptoms described in 
-section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take pelmeg"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take pelmeg"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You should talk to your doctor about your risks of developing cancers of the blood. If you develop or 
+section 4. You should talk to your doctor about your risks of developing cancers of the blood. If you develop or 
 are likely to develop cancers of the blood, you should not use Pelmeg, unless instructed by your 
 doctor. </p>
 <p>Loss of response to pegfilgrastim </p>
@@ -166,13 +159,12 @@ pregnant women. It is important to tell your doctor if you:
 <p>Pelmeg contains sorbitol (E 420) and sodium acetate </p>
 <p>This medicine contains 30 mg sorbitol in each pre-filled syringe which is equivalent to 50 mg/mL. 
 This medicine contains less than 1 mmol (23 mg) sodium per 6 mg dose,  that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take pelmeg"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take pelmeg"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pelmeg is for use in adults aged 18 and over. </p>
 <p>Always use Pelmeg exactly as your doctor has told you. You should check with your doctor or 
@@ -191,12 +183,13 @@ this leaflet. </p>
 <p>If you forget to inject Pelmeg </p>
 <p>If you have forgotten a dose of Pelmeg, you should contact your doctor to discuss when you should 
 inject the next dose. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store pelmeg"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store pelmeg"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Please tell your doctor immediately if you have any of the following or combination of the following 
@@ -239,7 +232,30 @@ body), see section 2. * bleeding from the lung (pulmonary haemorrhage).
 * Stevens-Johnson syndrome, which can appear as reddish target-like or circular patches often 
 with central blisters on the trunk, skin peeling, ulcers of mouth, throat, nose, genitals and eyes 
 and can be preceded by fever and flu-like symptoms. Stop using Pelmeg if you develop these 
-symptoms and contact your doctor or seek medical attention immediately. See also section </p>         </div>"""      
+symptoms and contact your doctor or seek medical attention immediately. See also section 2. Reporting of side effects 
+If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store pelmeg"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store pelmeg"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the carton and on the syringe label 
+after EXP. The expiry date refers to the last day of that month. </p>
+<p>Store in a refrigerator (2  C - 8  C). </p>
+<p>You may take Pelmeg out of the refrigerator and keep it at room temperature (not above 30  C) for no 
+longer than 4 days. Once a syringe has been removed from the refrigerator and has reached room 
+temperature (not above 30  C) it must either be used within 4 days or disposed of. </p>
+<p>Do not freeze. Pelmeg may be used if it is accidentally frozen for two periods of less than 72 hours 
+each. </p>
+<p>Keep the container in the outer carton in order to protect from light. </p>
+<p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -247,9 +263,113 @@ symptoms and contact your doctor or seek medical attention immediately. See also
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reporting of side effects 
-If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
-effects not listed in this leaflet. You can also report side effects directly via the national reporting 
-system listed in Appendix V. By reporting side effects you can help provide more information on the 
-safety of this medicine. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Pelmeg contains 
+* The active substance is pegfilgrastim. Each pre-filled syringe contains 6 mg of pegfilgrastim in 
+0.6 mL of solution. 
+* The other ingredients are sodium acetate, sorbitol (E 420), polysorbate 20 and water for 
+injections. See section 2. What Pelmeg looks like and contents of the pack 
+Pelmeg is a clear, colourless solution for injection in a pre-filled syringe (6 mg/0.6 mL). </p>
+<p>Each pack contains 1 pre-filled glass syringe with an attached stainless steel needle and needle cap. 
+The syringe is provided with an automatic needle guard. </p>
+<p>Marketing Authorisation Holder 
+Mundipharma Corporation (Ireland) Limited,<br />
+United Drug House Magna Drive, Magna Business Park,<br />
+Citywest Road, Dublin 24,<br />
+Ireland </p>
+<p>Manufacturer 
+PharmaKorell GmbH 
+Georges-K hler-Str. 2, 
+D-79539 L rrach 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Mundipharma BV 
+T l/Tel: +32 2 358 54 info@mundipharma.be 
+Lietuva 
+EGIS Pharmaceuticals PLC atstovyb<br />
+Tel.:+ 370 5 231 4info@egis.lt </p>
+<pre><code> . . .
+</code></pre>
+<p>Te .: + 359 2 962 13 mundipharma@mundipharma.bg </p>
+<p>Luxembourg/Luxemburg 
+Mundipharma BV 
+T l/Tel: +32 2 358 54 info@mundipharma.be 
+ esk  republika 
+Mundipharma Gesellschaft m.b.H.,<br />
+organiza n  slo ka <br />
+Tel: + 420 296 188 office@mundipharma.cz 
+Magyarorsz g 
+Egis Gy gyszergy r Zrt. 
+Tel.: +36 1 803 5mailbox@egis.hu 
+Danmark 
+Mundipharma A/S 
+Tlf: + 45 45 17 48 nordics@mundipharma.dk 
+Malta 
+Mundipharma Corporation (Ireland) Limited 
+Tel: +353 1 206 3Deutschland 
+Mundipharma GmbH 
+Tel: +49 (0) 69 506029-info@mundipharma.de </p>
+<p>Nederland 
+Mundipharma Pharmaceuticals B.V. 
+Tel: + 31 (0)33 450 82 info@mundipharma.nl </p>
+<p>Eesti 
+Medis Pharma Lithuania 
+Tel: +37052512medis.lt@medis.com </p>
+<p>Norge 
+Mundipharma AS 
+Tlf: + 47 67 51 89 nordics@mundipharma.dk </p>
+<p>Mundipharma Corporation (Ireland) Limited 
+ : + 353 1 206 3 sterreich 
+Mundipharma Gesellschaft m.b.H. 
+Tel: +43 (0)1 523 25 05-0 
+info@mundipharma.at </p>
+<p>Espa a 
+Mundipharma Pharmaceuticals, S.L. 
+Tel: +34 91 3821infomed@mundipharma.es </p>
+<p>Polska 
+Mundipharma Polska Sp. z o.o. 
+Tel.: + (48 22) 866 87 biuro@mundipharma.pl </p>
+<p>France 
+MUNDIPHARMA SAS 
+T l: +33 1 40 65 29 infomed@mundipharma.fr </p>
+<p>Portugal 
+Mundipharma Farmac utica Lda 
+Tel: +351 21 901 31 med.info@mundipharma.pt 
+Hrvatska 
+Medis Adria d.o.o. 
+Tel: + 385 (0) 1 230 34 medis.hr@medis.com </p>
+<p>Ireland 
+Mundipharma Pharmaceuticals Limited 
+Tel: +353 1 206 3Rom nia 
+Egis Rompharma SRL 
+Tel: +40 21 412 00 office@egis.ro </p>
+<p>Slovenija 
+Medis, d.o.o. 
+Tel: +386 158969 medis.si@medis.com </p>
+<p>sland 
+Icepharma hf. 
+S mi: + 354 540 8icepharma@icepharma.is </p>
+<p>Slovensk  republika 
+Mundipharma Ges.m.b.H.-o.z. 
+Tel: + 4212 6381 1mundipharma@mundipharma.sk 
+Italia 
+Mundipharma Pharmaceuticals Srl 
+Tel: +39 02 3182infomedica@mundipharma.it 
+Suomi/Finland 
+Mundipharma Oy 
+Puh/Tel: + 358 (0)9 8520 2nordics@mundipharma.dk </p>
+<p>Mundipharma Pharmaceuticals Ltd 
+ : +357 22 815info@mundipharma.com.cy 
+Sverige 
+Mundipharma AB 
+Tel: + 46 (0)31 773 75 nordics@mundipharma.dk </p>
+<p>Latvija 
+EGIS Pharmaceuticals PLC parstavniecibas 
+Tel: + 371 676 13 info@egis.lv </p>
+<p>United Kingdom (Northern Ireland) 
+Mundipharma Pharmaceuticals Limited<br />
+Tel: +353 1 206 3This leaflet was last revised in . </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-2d41c9020db6e6ef74cf6c085116c0ad
 InstanceOf: CompositionUvEpi
 Title: "Composition for skyrizi Package Leaflet"
 Description:  "Composition for skyrizi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,7 +44,9 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instructions for use</li>
+</ol>         </div>"""   
 
 
 
@@ -53,29 +55,19 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Skyrizi is and what it is used for
 2. What you need to know before you use Skyrizi
 3. How to use Skyrizi
 4. Possible side effects 
 5. How to store Skyrizi
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
   * title =  "1. What skyrizi is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What skyrizi is and what it is used for"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use</p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take skyrizi"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take skyrizi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Skyrizi contains the active substance risankizumab.
 Skyrizi is used to treat the following inflammatory diseases:</p>
@@ -96,11 +88,13 @@ Skyrizi reduces inflammation and can therefore help to reduce pain, stiffness, a
 around your joints, pain and stiffness in your spine, psoriatic skin rash, psoriatic nail damage, and it 
 may slow down damage to the bone and cartilage in your joints. These effects can ease your normal 
 daily activities, reduce tiredness, and improve your quality of life.</p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take skyrizi"
+  * title = "2. What you need to know before you take skyrizi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take skyrizi"
+  * code.text = "2. What you need to know before you take skyrizi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Skyrizi</p>
 <p>if you are allergic to risankizumab or any of the other ingredients of this medicine (listed in 
@@ -141,13 +135,12 @@ Driving and using machines
 Skyrizi is not likely to affect your driving and use of machines.
 Skyrizi contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per pre-filled pen, that is to say essentially 
- sodium-free .</p>         </div>"""         
-
-        
+ sodium-free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take skyrizi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take skyrizi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.
@@ -168,12 +161,13 @@ sure what to do.
 If you stop using Skyrizi
 Do not stop using Skyrizi without talking to your doctor first. If you stop treatment, your symptoms 
 may come back.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist, or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store skyrizi"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store skyrizi"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Serious side effects
@@ -203,11 +197,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store skyrizi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store skyrizi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the pen label and outer carton after 
@@ -219,4 +212,94 @@ up to 24 hours in the original carton to protect from light.
 Do not use this medicine if the liquid is cloudy or contains flakes or large particles.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Skyrizi contains</h2>
+<p>The active substance is risankizumab. Each pre-filled pen contains 150 mg of risankizumab in 
+1 mL solution.
+-
+The other ingredients are sodium acetate trihydrate, acetic acid, trehalose dihydrate, polysorbate 
+20 and water for injections.
+What Skyrizi looks like and contents of the pack
+Skyrizi is a clear and colourless to yellow liquid in a pre-filled pen. The liquid may contain tiny white 
+or clear particles.
+Each pack contains 1 pre-filled pen.
+Marketing Authorisation Holder and Manufacturer
+AbbVie Deutschland GmbH &amp; Co. KG
+Knollstrasse
+67061 Ludwigshafen
+Germany
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+AbbVie SA
+T l/Tel: +32 10 477Lietuva
+AbbVie UAB 
+Tel: +370 5 205 3 </p>
+<p>: +359 2 90 30 Luxembourg/Luxemburg
+AbbVie SA
+Belgique/Belgien
+T l/Tel: +32 10 477 esk  republika
+AbbVie s.r.o. 
+Tel: +420 233 098 Magyarorsz g
+AbbVie Kft.
+Tel: +36 1 455 8Danmark
+AbbVie A/S
+Tlf: +45 72 30-20-Malta
+V.J.Salomone Pharma Limited 
+Tel: +356 22983Deutschland
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: 00800 222843 33 (geb hrenfrei)
+Tel: +49 (0) 611 / 1720-0
+Nederland
+AbbVie B.V.
+Tel: +31 (0)88 322 2Eesti
+AbbVie O 
+Tel: +372 623 1Norge
+AbbVie AS
+Tlf: +47 67 81 80<br />
+AbbVie    . .
+ : +30 214 4165  sterreich
+AbbVie GmbH 
+Tel: +43 1 20589-0
+Espa a
+AbbVie Spain, S.L.U.
+Tel: +34 91 384 09 Polska
+AbbVie Sp. z o.o.
+Tel: +48 22 372 78 France
+AbbVie
+T l: +33 (0) 1 45 60 13 Portugal
+AbbVie, Lda. 
+Tel: +351 (0)21 1908Hrvatska 
+AbbVie d.o.o.
+Tel: +385 (0)1 5625 Rom nia
+AbbVie S.R.L.
+Tel: +40 21 529 30 Ireland
+AbbVie Limited 
+Tel: +353 (0)1 4287Slovenija
+AbbVie Biofarmacevtska dru ba d.o.o.
+Tel: +386 (1)32 08  sland
+Vistor hf.
+Tel: +354 535 7Slovensk  republika
+AbbVie s.r.o.
+Tel: +421 2 5050 0Italia
+AbbVie S.r.l. 
+Tel: +39 06 928Suomi/Finland
+AbbVie Oy 
+Puh/Tel: +358 (0)10 2411<br />
+Lifepharma (Z.A.M.) Ltd
+Sverige
+AbbVie AB
+ : +357 22 34 74 Tel: +46 (0)8 684 44 Latvija
+AbbVie SIA 
+Tel: +371 67605United Kingdom (Northern Ireland)
+AbbVie Deutschland GmbH &amp; Co. KG
+Tel: +44 (0)1628 561This leaflet was last revised in
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

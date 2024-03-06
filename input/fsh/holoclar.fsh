@@ -4,7 +4,7 @@ Instance: composition-en-9435ec03e40e267b4ae7d35097656572
 InstanceOf: CompositionUvEpi
 Title: "Composition for holoclar Package Leaflet"
 Description:  "Composition for holoclar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Holoclar is and what it is used for 
-2. What you need to know before you are given Holoclar 
-3. How Holoclar is given 
-4. Possible side effects 
-5. How Holoclar is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Holoclar is and what it is used for </li>
+<li>What you need to know before you are given Holoclar </li>
+<li>How Holoclar is given </li>
+<li>Possible side effects </li>
+<li>How Holoclar is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -244,8 +244,7 @@ room temperature. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Holostem s.r.l. 
 Via Glauco Gottardi 100, Modena, 41125, Italy 
-Phone: +39 059 2058Fax: +39 059 2058 </p>
-<p>This leaflet was last revised in  </p>
+Phone: +39 059 2058Fax: +39 059 2058This leaflet was last revised in  </p>
 <p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 

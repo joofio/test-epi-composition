@@ -4,7 +4,7 @@ Instance: composition-en-734207024d8a0ccf4fa37b0614084df6
 InstanceOf: CompositionUvEpi
 Title: "Composition for yorvipath Package Leaflet"
 Description:  "Composition for yorvipath Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Yorvipath is and what it is used for 
-2. What you need to know before you use Yorvipath 
-3. How to use Yorvipath 
-4. Possible side effects 
-5. How to store Yorvipath 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Yorvipath is and what it is used for </li>
+<li>What you need to know before you use Yorvipath </li>
+<li>How to use Yorvipath </li>
+<li>Possible side effects </li>
+<li>How to store Yorvipath </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -356,8 +356,8 @@ Store in the original package with the pen cap on in order to protect from light
 <p>After first use: 
 Store below 30  C. 
 Keep the pen cap on the pre-filled pen in order to protect from light. 
-Discard each pen 14 days after first use. </p>
-<p>Do not use this medicine if you notice that the solution is cloudy, coloured, or has visible particles in 
+Discard each pen 14 days after first use. 
+Do not use this medicine if you notice that the solution is cloudy, coloured, or has visible particles in 
 it.  </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      

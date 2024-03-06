@@ -4,7 +4,7 @@ Instance: composition-en-47e609a7556335e73540caeda7f501b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for dapagliflozin Package Leaflet"
 Description:  "Composition for dapagliflozin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Dapagliflozin Viatris is and what it is used for 
-2. What you need to know before you take Dapagliflozin Viatris 
-3. How to take Dapagliflozin Viatris 
-4. Possible side effects 
-5. How to store Dapagliflozin Viatris 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Dapagliflozin Viatris is and what it is used for </li>
+<li>What you need to know before you take Dapagliflozin Viatris </li>
+<li>How to take Dapagliflozin Viatris </li>
+<li>Possible side effects </li>
+<li>How to store Dapagliflozin Viatris </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -430,91 +430,65 @@ Kom rom, 2900, Hungary </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-T l/Tel: + 32 (0)2 658 61<br />
-Lietuva 
+T l/Tel: + 32 (0)2 658 61 Lietuva 
 Mylan Healthcare UAB 
-Tel: +370 5 205 1 </p>
-<p>: +359 2 44 55<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 205 1  </p>
+<p>: +359 2 44 55 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
 Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
 <p>esk  republika 
 Mylan Healthcare CZ s.r.o. 
-Tel: +420 222 004<br />
-Magyarorsz g 
+Tel: +420 222 004 Magyarorsz g 
 Mylan EPD Kft 
-Tel: + 36 1 465 2 
-Danmark 
+Tel: + 36 1 465 2Danmark 
 Viatris ApS 
-Tlf: +45 28 11 69<br />
-Malta 
+Tlf: +45 28 11 69 Malta 
 V.J. Salomone Pharma Ltd 
-Tel: + 356 21 22 01<br />
-Deutschland 
+Tel: + 356 21 22 01 Deutschland 
 Mylan Healthcare GmbH 
-Tel: +49 800 0700<br />
-Nederland 
+Tel: +49 800 0700 Nederland 
 Mylan BV 
-Tel: +31 (0)20 426 3 
-Eesti 
+Tel: +31 (0)20 426 3Eesti 
 BGP Products Switzerland GmbH Eesti filiaal 
-Tel: + 372 6363<br />
-Norge 
+Tel: + 372 6363 Norge 
 Mylan Healthcare Norge AS 
-Tel: + 47 66 75 33  </p>
-<p>Generics Pharma Hellas <br />
- : +30 210 993 6 
- sterreich 
+Tel: + 47 66 75 33 <br />
+Generics Pharma Hellas <br />
+ : +30 210 993 6 sterreich 
 Arcana Arzneimittel GmbH 
-Tel: +43 1 416 2 
-Espa a 
+Tel: +43 1 416 2Espa a 
 Mylan Pharmaceuticals, S.L 
-Tel: + 34 900 102<br />
-Polska 
+Tel: + 34 900 102 Polska 
 Mylan Healthcare Sp. z o.o. 
-Tel: + 48 22 546 64<br />
-France 
+Tel: + 48 22 546 64 France 
 Mylan S.A.S 
-Tel: +33 4 37 25 75<br />
-Portugal 
+Tel: +33 4 37 25 75 Portugal 
 Mylan, Lda. 
-Tel: + 351 21 412 72<br />
-Hrvatska 
+Tel: + 351 21 412 72 Hrvatska 
 Mylan Hrvatska d.o.o. 
-Tel: +385 1 23 50<br />
-Rom nia 
+Tel: +385 1 23 50 Rom nia 
 BGP Products SRL 
-Tel: +40 372 579<br />
-Ireland 
+Tel: +40 372 579 Ireland 
 Mylan Ireland Limited 
-Tel: +353 1 8711 
-Slovenija 
+Tel: +353 1 8711Slovenija 
 Mylan Healthcare d.o.o. 
-Tel: + 386 1 23 63<br />
- sland 
+Tel: + 386 1 23 63  sland 
 Icepharma hf 
-S m : +354 540 8 
-Slovensk  republika 
+S m : +354 540 8Slovensk  republika 
 Mylan s.r.o. 
-Tel: +421 2 32 199<br />
-Italia 
+Tel: +421 2 32 199 Italia 
 Mylan Italia S.r.l. 
-Tel: + 39 02 612 46 
-Suomi/Finland 
+Tel: + 39 02 612 46Suomi/Finland 
 Mylan Finland OY 
-Puh/Tel: +358 20 720 9 </p>
-<p>Varnavas Hadjipanayis Ltd 
- : +357 2220 7 
-Sverige 
+Puh/Tel: +358 20 720 9<br />
+Varnavas Hadjipanayis Ltd 
+ : +357 2220 7Sverige 
 Mylan AB 
-Tel: + 46 855 522<br />
-Latvija 
+Tel: + 46 855 522 Latvija 
 Mylan Healthcare SIA 
-Tel: +371 676 055<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
-Tel: +353 18711 </p>
-<p>This leaflet was last revised in </p>
+Tel: +353 18711This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

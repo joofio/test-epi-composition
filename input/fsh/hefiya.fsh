@@ -4,7 +4,7 @@ Instance: composition-en-1cf3225341c0e6fa2558014a933b7feb
 InstanceOf: CompositionUvEpi
 Title: "Composition for hefiya Package Leaflet"
 Description:  "Composition for hefiya Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,7 +44,9 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instructions for use </li>
+</ol>         </div>"""   
 
 
 
@@ -53,29 +55,19 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Hefiya is and what it is used for
 2. What you need to know before your child uses Hefiya
 3. How to use Hefiya
 4. Possible side effects
 5. How to store Hefiya
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
   * title =  "1. What hefiya is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What hefiya is and what it is used for"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for use </p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take hefiya"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take hefiya"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Hefiya contains the active substance adalimumab, a medicine that acts on your body s immune 
 (defence) system. 
@@ -121,11 +113,13 @@ Hefiya is used to treat children from 2 years of age with chronic non-infectious
 inflammation affecting the front of the eye.
 Your child may first be given other medicines. If these medicines do not work well enough, your child 
 will be given Hefiya to reduce the signs and symptoms of his/her disease.</p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take hefiya"
+  * title = "2. What you need to know before you take hefiya"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take hefiya"
+  * code.text = "2. What you need to know before you take hefiya"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Hefiya</p>
 <p>if your child is allergic to adalimumab or any of the other ingredients of this medicine (listed in 
@@ -259,13 +253,12 @@ Hefiya may have a minor influence on the ability to drive, cycle or use machines
 sensation (vertigo) and vision disturbances may occur after taking Hefiya.
 Hefiya contains sodium
 This medicine contains less than 1 mmol of sodium (23 mg) per 0.4 ml dose, that is to say essentially 
- sodium-free .</p>         </div>"""         
-
-        
+ sodium-free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take hefiya"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take hefiya"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or 
 pharmacist if you are not sure.
@@ -408,12 +401,13 @@ you not forgotten a dose.
 If you stop using Hefiya
 The decision to stop using Hefiya should be discussed with your child s doctor. The symptoms may 
 return upon stopping treatment.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store hefiya"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store hefiya"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most side 
 effects are mild to moderate. However, some may be serious and require treatment. Side effects may 
@@ -586,11 +580,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects, you can help provide more information on 
 the safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store hefiya"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store hefiya"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the label/blister/carton after EXP. 
@@ -605,4 +598,245 @@ discarded, even if it is later returned to the refrigerator. You should record t
 filled syringe is first removed from the refrigerator, and the date after which it should be discarded.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Hefiya contains</p>
+<p>The active substance is adalimumab. Each pre-filled syringe contains 20 mg of adalimumab 
+in 0.4 ml of solution.</p>
+<p>The other ingredients are adipic acid, citric acid monohydrate, sodium chloride, mannitol 
+(E 421), polysorbate 80 (E 433), hydrochloric acid (E 507), sodium hydroxide (E 524) and 
+water for injections (see section 2  Hefiya contains sodium ).
+What Hefiya looks like and contents of the pack
+Hefiya 20 mg solution for injection (injection) in pre-filled syringe for paediatric use is supplied as a 
+0.4 ml clear to slightly opalescent, colourless or slightly yellowish solution.
+Hefiya is supplied in a single-use clear type I glass syringe with a stainless steel 29 gauge needle with 
+a needle guard with finger flange, rubber needle cap (thermoplastic elastomer) and plastic plunger rod, 
+containing 0.4 ml of solution. 
+Carton contains 2 pre-filled syringes of Hefiya.
+Not all pack sizes may be marketed. 
+Hefiya is available as a pre-filled syringe and a pre-filled pen.
+Marketing Authorisation Holder 
+Sandoz GmbH
+Biochemiestr. 6250 Kundl
+Austria
+Manufacturer
+Sandoz GmbH Schaftenau 
+Biochemiestr. 6336 Langkampfen 
+Austria
+Novartis Pharmaceutical Manufacturing GmbH
+Biochemiestrasse 6336 Langkampfen
+Austria
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Sandoz nv/sa
+T l/Tel: +32 2 722 97 Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636  </p>
+<p>.: +359 2 970 47 Luxembourg/Luxemburg
+Sandoz nv/sa
+T l/Tel.: +32 2 722 97  esk  republika
+Sandoz s.r.o.
+Tel:  +420 225 775 Magyarorsz g
+Sandoz Hung ria Kft.
+Tel.: +36 1 430 2Danmark/Norge/ sland/Sverige
+Sandoz A/S
+Tlf: +45 63 95 10 Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +356 99644Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2 sterreich
+Sandoz GmbH
+Tel: +43 5338 2 
+SANDOZ HELLAS    . .
+ : +30 216 600 5Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 Espa a
+Sandoz Farmac utica, S.A.
+Tel: +34 900 456 Portugal
+Sandoz Farmac utica Lda.
+Tel: +351 21 000 86 France
+Sandoz SAS
+T l: +33 1 49 64 48 Rom nia
+Terapia S.A.
+Tel: +40 264 50 15 Hrvatska
+Sandoz d.o.o.
+Tel:  +385 1 23 53 Slovenija
+Sandoz farmacevtska dru ba d.d.
+Tel: +386 1 580 29 Ireland
+Rowex Ltd.
+Tel: +353 27 50Slovensk  republika
+Sandoz d.d. - organiza n  zlo ka
+Tel: +421 2 50 70 6Italia
+Sandoz S.p.A.
+Tel:  +39 02 96Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133<br />
+Sandoz Pharmaceuticals d.d.
+ : +357 22 69 0United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2Latvija
+Sandoz d.d. Latvia fili le
+Tel: +371 67 892 This leaflet was last revised in
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site:
+http://www.ema.europa.eu.
+7. Instructions for use 
+To help avoid possible infections and to ensure that you use the medicine correctly, it is important that 
+you follow these instructions. 
+Be sure that you read, understand, and follow these Instructions for Use before injecting Hefiya. Your 
+healthcare provider should show you how to prepare and inject Hefiya properly using the pre-filled 
+syringe before you use it for the first time. Talk to your healthcare provider if you have any questions.
+Your Hefiya single-use pre-filled syringe with needle guard and add-on finger flange
+Figure A: Hefiya pre-filled syringe with needle guard and add-on finger flange
+It is important that you:</p>
+<p>do not open the outer box until you are ready to use the syringe.</p>
+<p>do not use the syringe if the seals of the blister are broken, as it may not be safe for you to use. </p>
+<p>never leave the syringe unattended where others might tamper with it. </p>
+<p>if you drop your syringe, do not use it if it looks damaged, or if you dropped it with the needle 
+cap removed.</p>
+<p>do not remove the needle cap until just before you give the injection.</p>
+<p>be careful not to touch the needle guard wings before use. Touching them may cause the needle 
+guard to be activated too early. Do not remove the finger flange before the injection.</p>
+<p>inject Hefiya 15 30 minutes after taking it out of the refrigerator for a more comfortable 
+injection.</p>
+<p>throw away the used syringe right away after use. Do not re-use a syringe. See  4. Disposing 
+of used syringes  at the end of these Instructions for Use.
+How should you store Hefiya?</p>
+<p>Store your outer carton of syringes in a refrigerator, between 2 C to 8 C.</p>
+<p>When needed (for example when you are travelling), Hefiya may be stored at room temperature 
+(up to 25 C) for a maximum period of 21 days   be sure to protect it from light. Once removed 
+from the refrigerator for room temperature storage, your pre-filled syringe must be used within 
+21 days or discarded, even if it is later returned to the refrigerator. You should record the date 
+when your pre-filled syringe is first removed from the refrigerator, and the date after which it 
+should be discarded. </p>
+<p>Keep the syringes in the original carton until ready to use to protect from light. </p>
+<p>Do not store the syringes in extreme heat or cold. </p>
+<p>Do not freeze the syringes.
+Keep Hefiya and all medicines out of the reach of children. 
+What do you need for your injection?
+Place the following items on a clean, flat surface.
+Included in your carton is: </p>
+<p>Hefiya pre-filled syringe/s (see Figure A). Each syringe contains 20 mg/0.4 ml of Hefiya. 
+Not included in your carton are (see Figure B):</p>
+<p>Alcohol wipe </p>
+<p>Cotton ball or gauze </p>
+<p>Sharps disposal container
+Figure B: items not included in the carton
+See  4. Disposing of used syringes  at the end of these Instructions for Use.
+Before your injection
+Figure C: needle guard is not activated   the 
+syringe is ready for use
+Figure D: needle guard is activated   do not 
+use<em> In this configuration the needle guard is 
+NOT ACTIVATED. * The syringe is ready for use (see 
+Figure C).</em> In this configuration the needle guard 
+is ACTIVATED.* DO NOT USE the syringe (see 
+Figure D).
+Preparing the syringe</p>
+<p>For a more comfortable injection, take the blister containing the syringe out of the refrigerator 
+and leave it unopened on your work surface for about 15 to 30 minutes so that it reaches room 
+temperature.</p>
+<p>Take the syringe out of the blister.</p>
+<p>Look through the viewing window. The solution should be colourless or slightly yellowish as 
+well as clear to slightly opalescent. Do not use if any particulates and/or discolorations are 
+observed. If you are concerned with the appearance of the solution, then contact your pharmacist 
+for assistance. </p>
+<p>Do not use the syringe if it is broken or the needle guard is activated. Return the syringe and the 
+package it came in to the pharmacy.</p>
+<p>Look at the expiry date (EXP) on your syringe. Do not use the syringe if the expiry date has 
+passed. 
+Contact your pharmacist if the syringe fails any of the above mentioned checks. 
+1. Choosing your injection site: </p>
+<p>The recommended injection site is the front of your thighs. 
+You may also use the lower abdomen, but not the area 5 cm 
+around your navel (belly button) (see Figure E). </p>
+<p>Choose a different site each time you give yourself an 
+injection. </p>
+<p>Do not inject into areas where the skin is tender, bruised, red, 
+scaly, or hard. Avoid areas with scars or stretch marks. If you 
+have psoriasis, you should NOT inject directly into areas with 
+psoriasis plaques.
+Figure E: choose your injection site
+2. Cleaning your injection site:</p>
+<p>Wash your hands well with soap and water. </p>
+<p>Using a circular motion, clean the injection site with an 
+alcohol wipe. Leave it to dry before injecting (see Figure F).</p>
+<p>Do not touch the cleaned area before injecting.
+Figure F: clean your injection site
+3. Giving your injection:</p>
+<p>Carefully pull the needle cap straight off to remove it from 
+the syringe (see Figure G).  </p>
+<p>Discard the needle cap. </p>
+<p>You may see a drop of liquid at the end of the needle. This is 
+normal. 
+Figure G: pull the needle cap off</p>
+<p>Gently pinch the skin at the injection site (see Figure H).</p>
+<p>Insert the needle into your skin as shown. </p>
+<p>Push the needle all the way in to ensure that the medication 
+can be fully administered. 
+Figure H: insert the needle</p>
+<p>Hold the syringe as shown (see Figure I).</p>
+<p>Slowly press down on the plunger as far as it will go, so that 
+the plunger head is completely between the needle guard 
+wings.</p>
+<p>Keep the plunger pressed fully down while you hold the 
+syringe in place for 5 seconds. 
+Figure I: hold the syringe</p>
+<p>Keep the plunger fully pressed down while you carefully 
+lift the needle straight out from the injection site and let go 
+of your skin (see Figure J). 
+Figure J: lift the needle straight out</p>
+<p>Slowly release the plunger and allow the needle safety guard 
+to automatically cover the exposed needle (see Figure K).</p>
+<p>There may be a small amount of blood at the injection site. 
+You can press a cotton ball or gauze onto the injection site 
+and hold it for 10 seconds. Do not rub the injection site. You 
+may cover the injection site with a small adhesive bandage, 
+if needed. 
+Figure K: slowly release the plunger
+4. Disposing of used syringes:</p>
+<p>Dispose of the used syringe in a sharps container (closable, 
+puncture-resistant container). For the safety and health of 
+you and others, needles and used syringes must never be 
+re-used.</p>
+<p>Do not throw away any medicines via wastewater or 
+household waste. Ask your doctor or pharmacist how to 
+throw away medicines you no longer use. These measures 
+will help protect the environment. Any unused product or 
+waste material should be disposed of in accordance with 
+local requirements.</p>
+<p>If you have any questions, please talk to a doctor, pharmacist or nurse who is familiar with 
+Hefiya.
+Package leaflet: Information for the patient
+Hefiya 20 mg solution for injection in pre-filled syringe
+adalimumab
+20 mg/0.2 ml
+Read all of this leaflet carefully before your child starts using this medicine because it contains 
+important information.
+-
+Keep this leaflet. You may need to read it again.
+-
+Your doctor will also give you a Patient Reminder Card, which contains important safety 
+information that you need to be aware of before your child begins using Hefiya and during 
+treatment with Hefiya. Keep this Patient Reminder Card with you or your child during your 
+treatment and for 4 months after your child s last injection of Hefiya.
+-
+If you have any further questions, please ask your doctor or pharmacist.
+-
+This medicine has been prescribed for your child only. Do not pass it on to others. It may harm 
+them, even if their signs of illness are the same as your child s.
+-
+If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible 
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

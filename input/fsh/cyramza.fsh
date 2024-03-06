@@ -4,7 +4,7 @@ Instance: composition-en-092a7f5395bb9583ad450174eeb4a512
 InstanceOf: CompositionUvEpi
 Title: "Composition for cyramza Package Leaflet"
 Description:  "Composition for cyramza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Cyramza is and what it is used for 
-2. What you need to know before you are given Cyramza 
-3. How you are given Cyramza 
-4. Possible side effects 
-5. How to store Cyramza 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Cyramza is and what it is used for </li>
+<li>What you need to know before you are given Cyramza </li>
+<li>How you are given Cyramza </li>
+<li>Possible side effects </li>
+<li>How to store Cyramza </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -324,8 +324,8 @@ once every week for 3 weeks followed by 1 week without treatment.  </p>
 once every 3 weeks. If you are of East Asian origin, you may receive a reduced docetaxel starting dose 
 of 60 mg per every m2 of your body s surface area once every 3 weeks. </p>
 <p>Prior to being given any paclitaxel infusion, you will have blood tests to check that your blood counts 
-are high enough and that your liver is functioning well. </p>
-<p>Read the paclitaxel or docetaxel package leaflet for further information. </p>
+are high enough and that your liver is functioning well. 
+Read the paclitaxel or docetaxel package leaflet for further information. </p>
 <p>When receiving Cyramza in combination with FOLFIRI 
 FOLFIRI chemotherapy is given by intravenous infusion, after the Cyramza infusion has finished. 
 Please read the package leaflets for the other medicines that are part of your treatment, to see if they 
@@ -381,11 +381,13 @@ of consciousness, with or without high blood pressure. </li>
 <li>abdominal pain </li>
 <li>protein in the urine (abnormal urine test) </li>
 <li>headache </li>
-<li>inflammation of mucous membranes, such as digestive and respiratory tracts </li>
-</ul>
-<p>Common side effects (may affect up to 1 in 10 people):</p>
-<ul>
-<li>fever accompanied by low white blood cell counts </li>
+<li>
+<p>inflammation of mucous membranes, such as digestive and respiratory tracts 
+Common side effects (may affect up to 1 in 10 people):</p>
+</li>
+<li>
+<p>fever accompanied by low white blood cell counts </p>
+</li>
 <li>low blood levels of a protein called albumin </li>
 <li>infusion-related reactions </li>
 <li>rash </li>
@@ -468,8 +470,7 @@ colourless to slightly yellow solution in a glass vial with a rubber stopper. </
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Eli Lilly Nederland B.V. 
-Papendorpseweg 83<br />
-3528 BJ Utrecht<br />
+Papendorpseweg 3528 BJ Utrecht<br />
 The Netherlands </p>
 <p>Manufacturer 
 Lilly, S.A. 
@@ -484,81 +485,65 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgique/Belgi /Belgien 
 Eli Lilly Benelux S.A./N.V. 
-T l/Tel: + 32-(0)2 548 84<br />
-Lietuva 
+T l/Tel: + 32-(0)2 548 84 Lietuva 
 Eli Lilly Lietuva 
-Tel. +370 (5) 2649 </p>
-<p>"     "  . . - <br />
- . + 359 2 491 41<br />
-Luxembourg/Luxemburg 
+Tel. +370 (5) 2649<br />
+  "     "  . . - <br />
+ . + 359 2 491 41 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
 T l/Tel: + 32-(0)2 548 84  esk  republika 
 ELI LILLY  R, s.r.o. 
-Tel: + 420 234 664<br />
-Magyarorsz g 
+Tel: + 420 234 664 Magyarorsz g 
 Lilly Hung ria Kft. 
 Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S<br />
-Tlf: +45 45 26 60<br />
-Malta 
+Tlf: +45 45 26 60 Malta 
 Charles de Giorgio Ltd. 
 Tel: + 356 25600 Deutschland 
 Lilly Deutschland GmbH 
-Tel. + 49-(0) 6172 273 2 
-Nederland 
+Tel. + 49-(0) 6172 273 2Nederland 
 Eli Lilly Nederland B.V.<br />
 Tel: + 31-(0) 30 60 25 Eesti 
 Eli Lilly Nederland B.V.<br />
-Tel: +372 6 817<br />
-Norge 
+Tel: +372 6 817 Norge 
 Eli Lilly Norge A.S.<br />
 Tlf: + 47 22 88 18 <br />
  -   . . . .<br />
- : +30 210 629 4 
- sterreich 
+ : +30 210 629 4 sterreich 
 Eli Lilly Ges.m.b.H.<br />
 Tel: + 43-(0) 1 711 Espa a 
 Lilly S.A. 
-Tel: + 34-91 663 50<br />
-Polska 
+Tel: + 34-91 663 50 Polska 
 Eli Lilly Polska Sp. z o.o. 
 Tel: +48 22 440 33 France 
 Lilly France 
-T l: +33-(0) 1 55 49 34<br />
-Portugal 
+T l: +33-(0) 1 55 49 34 Portugal 
 Lilly Portugal Produtos Farmac uticos, Lda 
 Tel: + 351-21-4126Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
-Tel: +385 1 2350<br />
-Rom nia 
+Tel: +385 1 2350 Rom nia 
 Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 
-Slovenija 
+Tel: + 353-(0) 1 661 4Slovenija 
 Eli Lilly farmacevtska dru ba, d.o.o. 
 Tel: +386 (0)1 580 00  sland 
 Icepharma hf. 
-S mi + 354 540 8 
-Slovensk  republika 
+S mi + 354 540 8Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
 Tel: + 421 220 663 Italia 
 Eli Lilly Italia S.p.A. 
-Tel: + 39- 055 42 
-Suomi/Finland 
+Tel: + 39- 055 42Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
 Puh/Tel: + 358-(0) 9 85 45 <br />
 Phadisco Ltd<br />
- : +357 22 715 
-Sverige 
+ : +357 22 715Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0) 8 7378Latvija 
 Eli Lilly (Suisse) S.A P rst vniec ba Latvij<br />
-Tel: +371 67364 </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 </p>
-<p>This leaflet was last revised in . </p>
-<p>Other sources of information </p>
+Tel: + 353-(0) 1 661 4This leaflet was last revised in . 
+Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

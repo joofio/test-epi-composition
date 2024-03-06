@@ -4,7 +4,7 @@ Instance: composition-en-9ef90a3b084c8b791046c3e0616188b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for sprycel Package Leaflet"
 Description:  "Composition for sprycel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What SPRYCEL is and what it is used for 
-2. What you need to know before you take SPRYCEL 
-3. How to take SPRYCEL 
-4. Possible side effects 
-5. How to store SPRYCEL 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What SPRYCEL is and what it is used for </li>
+<li>What you need to know before you take SPRYCEL </li>
+<li>How to take SPRYCEL </li>
+<li>Possible side effects </li>
+<li>How to store SPRYCEL </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -342,8 +342,7 @@ throw away medicines you no longer use. These measures will help protect the env
 * Tablet core: lactose monohydrate (see section 2 "SPRYCEL contains lactose"); 
 microcrystalline cellulose; croscarmellose sodium; hydroxypropylcellulose; magnesium 
 stearate 
-* Film-coating: hypromellose; titanium dioxide (E171); macrogol<br />
-What SPRYCEL looks like and contents of the pack 
+* Film-coating: hypromellose; titanium dioxide (E171); macrogol What SPRYCEL looks like and contents of the pack 
 SPRYCEL 20 mg: the film-coated tablet is white to off-white, biconvex, round with  BMS  debossed 
 on one side and  527  on the other side. </p>
 <p>SPRYCEL 50 mg: the film-coated tablet is white to off-white, biconvex, oval with  BMS  debossed 

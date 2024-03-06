@@ -4,7 +4,7 @@ Instance: composition-en-247338c6ac4af4d25ce31dba51e05ac4
 InstanceOf: CompositionUvEpi
 Title: "Composition for deltyba Package Leaflet"
 Description:  "Composition for deltyba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Deltyba is and what it is used for 
-2. What you need to know before you take Deltyba 
-3. How to take Deltyba 
-4. Possible side effects 
-5. How to store Deltyba 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Deltyba is and what it is used for </li>
+<li>What you need to know before you take Deltyba </li>
+<li>How to take Deltyba </li>
+<li>Possible side effects </li>
+<li>How to store Deltyba </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -153,8 +153,8 @@ before taking this medicinal product. </p>         </div>"""
   * code.text = "3. How to take deltyba"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
-if you are not sure. </p>
-<p>The recommended dose as advised by your doctor is: 
+if you are not sure. 
+The recommended dose as advised by your doctor is: 
 Adults, adolescents and children with a body weight of 50 kg or more: two 50 mg film-coated tablets 
 taken twice a day (morning and evening) for 24 weeks. 
 Children with a body weight of 30 kg or more and less than 50 kg: one 50 mg film-coated tablet taken 
@@ -259,8 +259,7 @@ Marketing Authorisation Holder:
 Otsuka Novel Products GmbH<br />
 Erika-Mann-Stra e 80636 M nchen 
 Germany 
-Tel: +49 (0)89 206020<br />
-Manufacturer: 
+Tel: +49 (0)89 206020 Manufacturer: 
 R-Pharm Germany GmbH 
 Heinrich-Mack-Stra e 89257 Illertissen 
 Germany </p>
@@ -300,8 +299,7 @@ Tel: +34 93 208 10 PL
 Otsuka Novel Products GmbH 
 Tel.: +49 (0)89 206020 FR 
 Otsuka Pharmaceutical France SAS 
-T l. : +33 (0)1 47 08 00 00<br />
-PT 
+T l. : +33 (0)1 47 08 00 PT 
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 HR 
 Otsuka Novel Products GmbH 
@@ -327,8 +325,7 @@ Tel: +49 (0)89 206020 LV
 Otsuka Novel Products GmbH 
 Tel: +49 (0)89 206020 UK (XI) 
 Otsuka Novel Products GmbH 
-Tel: +49 (0)89 206020  </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}</em>. </p>
+Tel: +49 (0)89 206020 This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
 <p>This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 

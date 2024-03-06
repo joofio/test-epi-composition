@@ -4,7 +4,7 @@ Instance: composition-en-9585e706c3b3ccee22d99123d376fe07
 InstanceOf: CompositionUvEpi
 Title: "Composition for mysildecard Package Leaflet"
 Description:  "Composition for mysildecard Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Mysildecard is and what it is used for  
-2. What you need to know before you take Mysildecard 
-3. How to take Mysildecard 
-4. Possible side effects  
-5. How to store Mysildecard 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Mysildecard is and what it is used for  </li>
+<li>What you need to know before you take Mysildecard </li>
+<li>How to take Mysildecard </li>
+<li>Possible side effects  </li>
+<li>How to store Mysildecard </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -293,8 +293,7 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Mylan bvba/sprl 
-T l/Tel: + 32 02 658 61<br />
-Lietuva 
+T l/Tel: + 32 02 658 61 Lietuva 
 UAB GL Pharma Vilnius 
 Tel.: +370 5 261 0  </p>
 <p>: +359 2 44 55 Luxembourg/Luxemburg 
@@ -306,23 +305,19 @@ Tel: + 420 222 004 Magyarorsz g
 Mylan EPD Kft 
 Tel: + 36 1 465 2Danmark 
 Viatris ApS 
-Tlf: +45 28 11 69<br />
-Malta 
+Tlf: +45 28 11 69 Malta 
 V.J. Salomone Pharma Ltd 
 Tel: + 356 21 22 01 Deutschland 
 Viatris Healthcare GmbH 
-Tel: +49 800 0700<br />
-Nederland 
+Tel: +49 800 0700 Nederland 
 Mylan BV 
-Tel: +31 (0)20 426 3 
-Eesti 
+Tel: +31 (0)20 426 3Eesti 
 G.L. Pharma Eesti O<br />
 Tel.: +372 50 87 Norge 
 Viatris AS 
 Tlf: + 47 66 75 33 <br />
 Generics Pharma Hellas <br />
- : +30 210 993 6 
- sterreich 
+ : +30 210 993 6 sterreich 
 Arcana Arzneimittel GmbH 
 Tel: +43 1 416 2Espa a 
 Viatris Pharmaceuticals, S.L.U. 
@@ -330,25 +325,19 @@ Tel: + 34 900 102 Polska
 Mylan Healthcare Sp. z.o.o. 
 Tel: + 48 22 546 64 France 
 Substipharm 
-T l : +33 1 43181 
-Portugal 
+T l : +33 1 43181Portugal 
 Mylan, Lda. 
 Tel: + 351 21 412 72 Hrvatska 
 Mylan Hrvatska d.o.o. <br />
-Tel: +385 1 23 50<br />
-Ireland 
+Tel: +385 1 23 50 Ireland 
 Mylan Ireland Limited 
-Tel:  +353 1 8711 
-Rom nia 
+Tel:  +353 1 8711Rom nia 
 Aurobindo Pharma Romania SRL 
-Tel: 004021 361 1 
-Slovenija 
+Tel: 004021 361 1Slovenija 
 Mylan Healthcare d.o.o. 
-Tel: + 386 1 23 63<br />
- sland 
+Tel: + 386 1 23 63  sland 
 Icepharma hf<br />
-S mi: +354 540 8000  </p>
-<p>Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: +421 2 32 199 Italia 
 Mylan Italia S.r.l. 
@@ -356,15 +345,13 @@ Suomi/Finland
 Viatris Oy</p>
 <p>Tel: + 39 02 612 46Puh/Tel: +358 20 720 9<br />
 Varnavas Hadjipanayis Ltd<br />
- : +357 2220 7 
-Sverige 
+ : +357 2220 7Sverige 
 Viatris AB 
 Tel: + 46 (0)8 630 19 Latvija 
 SIA G.L. Pharma Riga 
 Tel: +371 67887United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited<br />
-Tel:  +353 18711600  </p>
-<p>This leaflet was last revised in </p>
+Tel:  +353 18711This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

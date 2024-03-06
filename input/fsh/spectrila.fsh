@@ -4,7 +4,7 @@ Instance: composition-en-2440cbc7bcf5f09685459c4222f929e1
 InstanceOf: CompositionUvEpi
 Title: "Composition for spectrila Package Leaflet"
 Description:  "Composition for spectrila Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Spectrila is and what it is used for 
-2. What you need to know before you are given Spectrila 
-3. How to use Spectrila 
-4. Possible side effects 
-5. How to store Spectrila 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Spectrila is and what it is used for </li>
+<li>What you need to know before you are given Spectrila </li>
+<li>How to use Spectrila </li>
+<li>Possible side effects </li>
+<li>How to store Spectrila </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -149,8 +149,8 @@ with Spectrila. </p>
 There are no data on the use of asparaginase in pregnant women. Spectrila should not be used during 
 pregnancy unless the clinical condition of the woman requires treatment with asparaginase. 
 It is unknown whether asparaginase is present in human breast milk. Therefore, Spectrila must not be 
-used during breast-feeding.  </p>
-<p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
+used during breast-feeding.<br />
+If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before using this medicine. </p>
 <p>If you are a woman you must use contraceptives or remain abstinent during chemotherapy and for 7 
 months after the end of treatment. Since an indirect interaction between components of the oral 

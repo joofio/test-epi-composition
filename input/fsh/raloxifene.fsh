@@ -4,7 +4,7 @@ Instance: composition-en-e27db7be57c176c4d945aa1d06a95aa5
 InstanceOf: CompositionUvEpi
 Title: "Composition for raloxifene Package Leaflet"
 Description:  "Composition for raloxifene Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
- 
-1. What Raloxifene Teva is and what it is used for 
-2. What you need to know before you take Raloxifene Teva 
-3. How to take Raloxifene Teva 
-4. Possible side effects 
-5. How to store Raloxifene Teva 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+<ol>
+<li>What Raloxifene Teva is and what it is used for </li>
+<li>What you need to know before you take Raloxifene Teva </li>
+<li>How to take Raloxifene Teva </li>
+<li>Possible side effects </li>
+<li>How to store Raloxifene Teva </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -191,8 +192,8 @@ majority of side effects seen with Raloxifene Teva have been mild.   </p>
 * Skin around the vein is red and painful (superficial vein thrombophlebitis). <br />
 * Blood clot in an artery (for example stroke, including an increased risk of dying from stroke) 
 * Decrease in the number of  the platelets in the blood </p>
-<p>In rare cases, blood levels of liver enzymes may increase during treatment with Raloxifene Teva. </p>
-<p>Reporting of side effects<br />
+<p>In rare cases, blood levels of liver enzymes may increase during treatment with Raloxifene Teva. 
+Reporting of side effects<br />
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
@@ -224,6 +225,94 @@ raloxifene hydrochloride, equivalent to 56 mg raloxifene. </li>
 Tablet core: pregelatinized starch (maize), magnesium stearate, povidone (K30), colloidal 
 anhydrous silica and microcrystalline cellulose, silicified. <br />
 Tablet coating: polydextrose (E1200), titanium dioxide (E171), hypromellose (E464) and 
-macrogol 400</li>
-</ul>         </div>"""      
+macrogol 4000. What Raloxifene Teva looks like and contents of the pack </li>
+</ul>
+<p>The film-coated tablets are white to off-white, oval shaped and embossed with the number  60  on one 
+side and  N  on the other side. </p>
+<p>Raloxifene Teva 60 mg is available in pack sizes of 14, 28 and 84 film-coated tablets.  </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder: 
+Teva B.V. 
+Swensweg 5 
+2031GA Haarlem 
+The Netherlands </p>
+<p>Manufacturers: 
+Teva Pharmaceutical Works Private Limited Company 
+Pallagi  t Debrecen H-4Hungary </p>
+<p>Pharmachemie B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+The Netherlands </p>
+<p>Merckle GmbH<br />
+Ludwig-Merckle-Stra e 3 
+89143 Blaubeuren 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder </p>
+<p>Belgi /Belgique/Belgien<br />
+Teva Pharma Belgium N.V./S.A./AG<br />
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660   </p>
+<p>: +359 24899Luxembourg/Luxemburg<br />
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+T l/Tel: +32 38207 esk  republika<br />
+Teva Pharmaceuticals CR, s.r.o.<br />
+Tel: +420 251007Magyarorsz g<br />
+Teva Gy gyszergy r Zrt.<br />
+Tel: +36 12886Danmark<br />
+Teva Denmark A/S<br />
+Tlf: +45 44985Malta<br />
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+TEVA GmbH 
+Tel: +49 73140Nederland<br />
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Norge 
+Teva Norway AS 
+Tlf: +47 66775<br />
+Specifar A.B.E.E. 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, 
+Lda. 
+Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+Specifar A.B.E.E. </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last revised in MM/YYYY </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

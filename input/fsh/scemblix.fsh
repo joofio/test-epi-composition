@@ -4,7 +4,7 @@ Instance: composition-en-43a04579e02ef19c7380d883dba8b26f
 InstanceOf: CompositionUvEpi
 Title: "Composition for scemblix Package Leaflet"
 Description:  "Composition for scemblix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Scemblix is and what it is used for 
-2. What you need to know before you take Scemblix 
-3. How to take Scemblix 
-4. Possible side effects 
-5. How to store Scemblix 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Scemblix is and what it is used for </li>
+<li>What you need to know before you take Scemblix </li>
+<li>How to take Scemblix </li>
+<li>Possible side effects </li>
+<li>How to store Scemblix </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -161,14 +161,7 @@ medicine. </li>
 above. </p>
 <p>Scemblix with food and drink 
 Do not take this medicine with food. Take it at least 2 hours after and 1 hour before any food. For 
-more information, see  When to take Scemblix  in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take scemblix"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take scemblix"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pregnancy and breast-feeding 
+more information, see  When to take Scemblix  in section 3. Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Pregnancy 
@@ -194,21 +187,20 @@ activities until the effect has disappeared. </p>
 If you have been told by your doctor that you have an intolerance to some sugars, contact your doctor 
 before taking this medicine. </p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take scemblix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take scemblix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
 <p>How much Scemblix to take 
 Your doctor will tell you exactly how many tablets you should take per day, and how to take them. </p>
 <p>The recommended dose is 1 tablet of Scemblix 40 mg twice per day. Take 1 tablet, then take another 
-one approximately 12 hours later. </p>
-<p>Depending on how you respond to treatment and on possible side effects, your doctor may ask you to 
+one approximately 12 hours later. 
+Depending on how you respond to treatment and on possible side effects, your doctor may ask you to 
 change to a lower dose or to temporarily or permanently stop the treatment. </p>
 <p>When to take Scemblix 
 Take Scemblix:</p>
@@ -236,12 +228,13 @@ If there are more than 6 hours until your next dose, take the missed dose and th
 planned. </p>
 <p>If you stop taking Scemblix 
 Do not stop taking this medicine unless your doctor tells you to. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store scemblix"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store scemblix"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Some side effects could be serious 
@@ -308,11 +301,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store scemblix"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store scemblix"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blister and the carton after EXP. 
@@ -323,4 +315,113 @@ The expiry date refers to the last day of that month. </p>
 tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Scemblix contains 
+- The active substance is asciminib. 
+Each 20 mg film-coated tablet contains asciminib hydrochloride, equivalent to 20 mg asciminib. 
+Each 40 mg film-coated tablet contains asciminib hydrochloride, equivalent to 40 mg asciminib. 
+- The other ingredients are: 
+20 mg and 40 mg film-coated tablets: lactose monohydrate, microcrystalline cellulose (E460i), 
+hydroxypropylcellulose (E463), croscarmellose sodium (E468), polyvinyl alcohol (E1203), 
+titanium dioxide (E171), magnesium stearate, talc (E553b), colloidal silicon dioxide, lecithin 
+(E322), xanthan gum (E415), iron oxide red (E172). 
+20 mg film-coated tablets only: iron oxide yellow (E172) 
+40 mg film-coated tablets only: iron oxide black (E172). 
+See  Scemblix contains lactose and sodium  in section 2. What Scemblix looks like and contents of the pack 
+Scemblix 20 mg film-coated tablets (tablets): pale yellow, round, biconvex tablet with bevelled edges 
+of approximately 6 mm diameter, debossed with company logo on one side and  20  on the other side. </p>
+<p>Scemblix 40 mg film-coated tablets (tablets): violet white, round, biconvex tablet with bevelled edges 
+of approximately 8 mm diameter, debossed with company logo on one side and  40  on the other side. </p>
+<p>Scemblix is supplied in blisters containing 10 film-coated tablets. </p>
+<p>The following pack sizes are available: 
+Packs containing 20 or 60 film-coated tablets. </p>
+<p>Scemblix 40 mg film-coated tablets are also available in multipacks containing 180 (3 packs of 60) 
+film-coated tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Novartis Farmac utica S.A. 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spain </p>
+<p>Novartis Pharma GmbH 
+Roonstrasse 90429 Nuremberg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16 Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ .: +359 2 489 98 Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16  esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84 Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30 Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17  sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698This leaflet was last revised in </p>
+<p>Other sources of information 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

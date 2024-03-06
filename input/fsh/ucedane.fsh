@@ -4,7 +4,7 @@ Instance: composition-en-18d76b54ce97b530a72d79629f6d8b0a
 InstanceOf: CompositionUvEpi
 Title: "Composition for ucedane Package Leaflet"
 Description:  "Composition for ucedane Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ucedane is and what it is used for  
-2. What you need to know before you take Ucedane 
-3. How to take Ucedane  
-4. Possible side effects  
-5. How to store Ucedane  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ucedane is and what it is used for  </li>
+<li>What you need to know before you take Ucedane </li>
+<li>How to take Ucedane  </li>
+<li>Possible side effects  </li>
+<li>How to store Ucedane  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -197,8 +197,8 @@ copovidone K28, crospovidone type B. </p>
 Ucedane dispersible tablets are rod-shaped, white, and biconvex with three score lines on both sides 
 and engraving  L/L/L/L  on one side. 
 Approximate tablet dimensions are 17 mm in length and 6 mm in width. 
-The tablet can be divided into four equal doses. </p>
-<p>The tablets are presented in aluminium/aluminium blister packed in a carton. 
+The tablet can be divided into four equal doses. 
+The tablets are presented in aluminium/aluminium blister packed in a carton. 
 Pack size of 12 or 60 dispersible tablets. 
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder<br />
@@ -251,8 +251,7 @@ Tlf: +47 815 03 info@frostpharma.com </p>
 <p>Lucane Pharma 
  : + 33 153 868  sterreich 
 Lucane Pharma 
-Tel: + 33 153 868<br />
-info@lucanepharma.com </p>
+Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>info@lucanepharma.com 
 Espa a 
 Lucane Pharma 

@@ -4,7 +4,7 @@ Instance: composition-en-28badbaa1dfc6b119cb5212548687175
 InstanceOf: CompositionUvEpi
 Title: "Composition for mepact Package Leaflet"
 Description:  "Composition for mepact Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What MEPACT is and what it is used for 
 2. What you need to know before you use MEPACT 
 3. How to use MEPACT 
 4. Possible side effects 
 5. How to store MEPACT 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -113,14 +112,7 @@ may have a fever. A fever with a low white blood cell count (neutropenia) may be
 of serious infection.  </li>
 </ul>
 <p>Detailed information on warnings and precautions relating to side effects that could occur while you 
-are taking the medicine is presented in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take mepact"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take mepact"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children<br />
+are taking the medicine is presented in section 4. Children<br />
 It is not recommended to give this medicine to children below the age of 2 years because 
 information on how safe and how well this medicine works is not available for this age group. </p>
 <p>Other medicines and MEPACT 
@@ -152,13 +144,12 @@ Some very common and common side effects of MEPACT treatment (such as dizziness,
 fatigue and blurred vision) may affect your ability to drive and use machines. </p>
 <p>MEPACT contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take mepact"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take mepact"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Dose and duration of treatment 
 MEPACT will be administered only under the supervision of a specialist physician.<br />
@@ -184,12 +175,13 @@ your doctor or nearest hospital. </p>
 <p>If you stop using MEPACT 
 You should not stop treatment with MEPACT before finishing the course of treatment without 
 discussing with your doctor first. If you have any further questions on the use of this medicine, ask 
-your doctor. </p>         </div>"""      
+your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store mepact"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store mepact"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, MEPACT can cause side effects, although not everybody gets them.  </p>
 <p>The majority of patients experience chills, fever and fatigue especially during the first 
@@ -269,11 +261,10 @@ If you get any side effects, talk to your doctor. This includes any possible sid
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store mepact"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store mepact"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the vial label and the carton after 
@@ -286,4 +277,199 @@ Once reconstituted in sodium chloride 9 mg/mL (0.9%) solution, store at room tem
 (approximately 20 C - 25 C) and use within 6 hours. 
 Do not use this medicine if you notice any visible signs of deterioration. 
 Do not throw away any medicines via wastewater. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What MEPACT contains 
+- The active substance is mifamurtide. Each vial contains 4 mg of mifamurtide. After 
+reconstitution, each mL of suspension contains 0.08 mg of mifamurtide. 
+- The other ingredients are 1-Palmitoyl-2-oleoyl-sn-glycero-3-phosphocholine (POPC) and 
+1,2-Dioleoyl-sn-glycero-3-phospho-L-serine monosodium salt (OOPS). See section 2 
+ MEPACT contains sodium  </p>
+<p>What MEPACT looks like and contents of the pack 
+MEPACT is a white to off-white homogeneous cake or powder for concentrate for dispersion for 
+infusion. </p>
+<p>MEPACT is supplied in a carton that contains 
+- One 50 mL vial with a grey butyl stopper, aluminium seal and plastic flip-off cap. 
+- One sterile filter for MEPACT supplied in a blister. </p>
+<p>Marketing Authorisation Holder 
+Takeda France SAS 
+112 avenue Kl ber 
+75116 Paris 
+France </p>
+<p>Manufacturer 
+Takeda Austria GmbH 
+St. Peter-Stra e A-4020 Linz 
+Austria </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
+<p>Lietuva 
+Takeda, UAB 
+Tel: +370 521 09 medinfoEMEA@takeda.com </p>
+<p>.: +359 2 958 27 medinfoEMEA@takeda.com </p>
+<p>Luxembourg/Luxemburg 
+Takeda Belgium NV 
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com 
+ esk  republika 
+Takeda Pharmaceuticals Czech Republic s.r.o. 
+Tel: +420 234 722 medinfoEMEA@takeda.com 
+Magyarorsz g 
+Takeda Pharma Kft. 
+Tel.: +36 1 270 7medinfoEMEA@takeda.com 
+Danmark 
+Takeda Pharma A/S 
+Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
+<p>Malta 
+Drugsales Ltd<br />
+Tel: +356 21419safety@drugsalesltd.com </p>
+<p>Deutschland 
+Takeda GmbH 
+Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
+<p>Nederland 
+Takeda Nederland B.V. 
+Tel: +31 20 203 5medinfoEMEA@takeda.com </p>
+<p>Eesti 
+Takeda Pharma O<br />
+Tel: +372 6177 medinfoEMEA@takeda.com </p>
+<p>Norge 
+Takeda AS 
+Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
+<p>akeda    . . 
+T : +30 210 6387medinfoEMEA@takeda.com </p>
+<p>sterreich 
+Takeda Pharma Ges.m.b.H.<br />
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
+<p>Espa a 
+Takeda Farmac utica Espa a, S.A. 
+Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
+<p>Polska 
+Takeda Pharma Sp. z o.o. 
+Tel.: +48223062medinfoEMEA@takeda.com </p>
+<p>France 
+Takeda France SAS 
+T l: + 33 1 40 67 33 medinfoEMEA@takeda.com </p>
+<p>Portugal 
+Takeda Farmac uticos Portugal, Lda. 
+Tel: + 351 21 120 1medinfoEMEA@takeda.com </p>
+<p>Hrvatska 
+Takeda Pharmaceuticals Croatia d.o.o. 
+Tel: +385 1 377 88 medinfoEMEA@takeda.com </p>
+<p>Rom nia 
+Takeda Pharmaceuticals SRL 
+Tel: +40 21 335 03 medinfoEMEA@takeda.com </p>
+<p>Ireland 
+Takeda Products Ireland Ltd 
+Tel: 1800 937 medinfoEMEA@takeda.com </p>
+<p>Slovenija 
+Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
+<p>sland 
+Vistor hf. 
+S mi: +354 535 7medinfoEMEA@takeda.com </p>
+<p>Slovensk  republika 
+Takeda Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 (2) 20 602 medinfoEMEA@takeda.com </p>
+<p>Italia 
+Takeda Italia S.p.A. 
+Tel: +39 06 502medinfoEMEA@takeda.com </p>
+<p>Suomi/Finland 
+Takeda Oy 
+Puh/Tel: 0800 774 medinfoEMEA@takeda.com </p>
+<p>A.POTAMITIS MEDICARE LTD 
+ : +357 22583a.potamitismedicare@cytanet.com.cy </p>
+<p>Sverige 
+Takeda Pharma AB 
+Tel: 020 795 medinfoEMEA@takeda.com </p>
+<p>Latvija 
+Takeda Latvia SIA 
+Tel: +371 67840medinfoEMEA@takeda.com 
+United Kingdom (Northern Ireland) 
+Takeda UK Ltd 
+Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu. </p>
+<p>---------------------------------------------------------------------------------------------------------------------- The following information is intended for healthcare professionals only: </p>
+<p>Instructions for preparation of MEPACT for intravenous infusion </p>
+<p>Materials provided in each package - * 1 vial of MEPACT (mifamurtide) 
+* 1 Filter for MEPACT </p>
+<p>Materials required but not provided - * Sodium chloride 9 mg/mL (0.9%) solution for injection, 100 mL bag<br />
+* 1 single use 60 or 100 mL sterile syringe with luer lock 
+* 2 medium (18) gauge sterile injection needles </p>
+<p>It is recommended that the reconstitution of the liposomal suspension should be performed in a 
+laminar flow cabinet utilising sterile gloves using aseptic technique. </p>
+<p>The lyophilised powder should be allowed to reach a temperature between approximately 
+20  C-25  C prior to reconstitution, filtering using the filter provided and dilution. This should 
+take approximately 30 minutes.  </p>
+<ol>
+<li>The cap of the vial should be removed and the stopper cleaned using an alcohol pad. </li>
+<li>The filter should be removed from the blister pack, and the cap removed from the filter 
+spike.<br />
+The spike should then be inserted into the vial septum firmly until seated. The filter luer 
+connector cap should not be removed at this time. </li>
+<li>The 100 mL sodium chloride 9 mg/mL (0.9%) solution for injection bag, needle and syringe 
+should be unpacked (not provided in the pack). </li>
+<li>The site of the sodium chloride 9 mg/mL (0.9%) solution for injection bag where the needle 
+is going to be inserted should be swabbed with an alcohol pad. </li>
+<li>Using the needle and syringe, 50 mL of sodium chloride 9 mg/mL (0.9%) solution for 
+injection should be withdrawn from the bag. </li>
+<li>After removing the needle from the syringe, the syringe should be attached to the filter by 
+opening the filter luer connector cap (figure 1). </li>
+</ol>
+<p>Figure 1 </p>
+<ol>
+<li>The sodium chloride 9 mg/mL (0.9%) solution for injection is added to the vial by slow, 
+firm depression of the syringe plunger. The filter and syringe must not be removed from 
+the vial. </li>
+<li>The vial should be allowed to stand undisturbed for 1 minute to ensure thorough hydration 
+of the dry substance. </li>
+<li>The vial should then be shaken vigorously for 1 minute while keeping the filter and 
+syringe attached. During this time the liposomes are formed spontaneously (figure 2). </li>
+</ol>
+<p>Figure 2 </p>
+<ol>
+<li>The desired dose may be withdrawn from the vial by inverting the vial and slowly pulling 
+back on the syringe plunger (figure 3). Each mL reconstituted suspension contains 0.08 mg 
+mifamurtide. The volume of suspension to be withdrawn for dose quantities is calculated as 
+follows: </li>
+</ol>
+<p>Volume to withdraw = [12.5 x calculated dose (mg)] mL </p>
+<p>For convenience, the following table of concordance is provided: </p>
+<p>Dose 
+Volume 
+1.0 mg 
+12.5 mL 
+2.0 mg 
+25 mL 
+3.0 mg 
+37.5 mL 
+4.0 mg 
+50 mL 
+Figure 3 </p>
+<ol>
+<li>The syringe should then be removed from the filter and a new needle placed on the 
+suspension-filled syringe. The bag injection site should be wiped with an alcohol pad and 
+the suspension in the syringe should be injected into the original bag containing the 
+remaining 50 mL of sodium chloride 9 mg/mL (0.9%) solution for injection (figure 4). </li>
+</ol>
+<p>Figure 4 </p>
+<ol>
+<li>The bag should be gently swirled to mix the solution. </li>
+<li>Patient identification, time and date should be added to the label on the bag containing the 
+reconstituted, filtered and diluted liposomal suspension.  </li>
+<li>Chemical and physical in-use stability has been demonstrated for 6 hours at room 
+temperature (between approximately 20  C-25  C). </li>
+<li>From a microbiological point of view, the product should be used immediately. If not used 
+immediately, in-use storage times and conditions prior to use are the responsibility of the 
+user and would normally not be longer than 6 hours at room temperature. </li>
+</ol>
+<p>No special requirements for disposal. </p>         </div>"""      
 

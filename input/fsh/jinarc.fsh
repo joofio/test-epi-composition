@@ -4,7 +4,7 @@ Instance: composition-en-3441cbef7f1604451bb170e82be4a4ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for jinarc Package Leaflet"
 Description:  "Composition for jinarc Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Jinarc is and what it is used for 
 2. What you need to know before you take Jinarc 
 3. How to take Jinarc 
 4. Possible side effects 
 5. How to store Jinarc 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -376,13 +375,11 @@ Tel: +31 (0) 20 85 46 Magyarorsz g
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Danmark 
 Otsuka Pharma Scandinavia AB 
-Tlf: +46 (0) 8 545 286<br />
-Malta 
+Tlf: +46 (0) 8 545 286 Malta 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Deutschland 
 Otsuka Pharma GmbH 
-Tel: +49 (0) 69 1700<br />
-Nederland 
+Tel: +49 (0) 69 1700 Nederland 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Eesti 
 Otsuka Pharmaceutical Netherlands B.V. 
@@ -390,18 +387,15 @@ Tel: +31 (0) 20 85 46 Norge
 Otsuka Pharma Scandinavia AB 
 Tlf: +46 (0) 8 545 286 <br />
 Otsuka Pharmaceutical Netherlands B.V. 
-Th : +31 (0) 20 85 46<br />
- sterreich 
+Th : +31 (0) 20 85 46  sterreich 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Espa a 
 Otsuka Pharmaceutical S.A 
-Tel: +34 (0) 93 208 1 
-Polska 
+Tel: +34 (0) 93 208 1Polska 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 France 
 Otsuka Pharmaceutical France SAS 
-T l: +33 (0) 1 47 08 00<br />
-Portugal 
+T l: +33 (0) 1 47 08 00 Portugal 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Hrvatska 
 Otsuka Pharmaceutical Netherlands B.V. 
@@ -409,30 +403,25 @@ Tel: +31 (0) 20 85 46 Rom nia
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Ireland 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-Slovenija 
+Tel: +31 (0) 20 85 46 Slovenija 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46  sland 
 Otsuka Pharma Scandinavia AB 
-S mi: +46 (0) 8 545 286<br />
-Slovensk  republika 
+S mi: +46 (0) 8 545 286 Slovensk  republika 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 Italia 
 Otsuka Pharmaceutical Italy S.r.l. 
-Tel: +39 (0) 2 0063 2 
-Suomi/Finland 
+Tel: +39 (0) 2 0063 2Suomi/Finland 
 Otsuka Pharma Scandinavia AB 
 Puh/Tel: +46 (0) 8 545 286 <br />
 Otsuka Pharmaceutical Netherlands B.V. 
 Th : +31 (0) 20 85 46 Sverige 
 Otsuka Pharma Scandinavia AB 
-Tel: +46 (0) 8 545 286<br />
-Latvija 
+Tel: +46 (0) 8 545 286 Latvija 
 Otsuka Pharmaceutical Netherlands B.V. 
 Tel: +31 (0) 20 85 46 United Kingdom (Northern Ireland) 
 Otsuka Pharmaceutical Netherlands B.V. 
-Tel: +31 (0) 20 85 46<br />
-This leaflet was last revised in  </p>
+Tel: +31 (0) 20 85 46 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-987aff669508e9ccbe676197e17e96d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tibsovo Package Leaflet"
 Description:  "Composition for tibsovo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tibsovo is and what it is used for 
-2. What you need to know before you take Tibsovo 
-3. How to take Tibsovo 
-4. Possible side effects  
-5. How to store Tibsovo 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tibsovo is and what it is used for </li>
+<li>What you need to know before you take Tibsovo </li>
+<li>How to take Tibsovo </li>
+<li>Possible side effects  </li>
+<li>How to store Tibsovo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -373,85 +373,64 @@ France </p>
 Authorisation Holder:  </p>
 <p>Belgi /Belgique/Belgien 
 S.A. Servier Benelux N.V. 
-Tel: +32 (0)2 529 43<br />
-Lietuva 
+Tel: +32 (0)2 529 43 Lietuva 
 UAB  SERVIER PHARMA<br />
 Tel: +370 (5) 2 63 86   </p>
-<p>.: +359 2 921 57<br />
-Luxembourg/Luxemburg 
+<p>.: +359 2 921 57 Luxembourg/Luxemburg 
 S.A. Servier Benelux N.V. 
-Tel: +32 (0)2 529 43<br />
- esk  republika 
+Tel: +32 (0)2 529 43  esk  republika 
 Servier s.r.o. 
 Tel: +420 222 118 Magyarorsz g 
 Servier Hungaria Kft. 
-Tel: +36 1 238 7 
-Danmark 
+Tel: +36 1 238 7Danmark 
 Servier Danmark A/S 
-Tlf: +45 36 44 22<br />
-Malta 
+Tlf: +45 36 44 22 Malta 
 V.J. Salomone Pharma Ltd<br />
 Tel: + 356 21 22 01 Deutschland 
 Servier Deutschland GmbH 
-Tel: +49 (0)89 57095<br />
-Nederland 
+Tel: +49 (0)89 57095 Nederland 
 Servier Nederland Farma B.V. 
-Tel: +31 (0)71 5246 
-Eesti 
+Tel: +31 (0)71 5246Eesti 
 Servier Laboratories O <br />
-Tel:+ 372 664 5 
-Norge 
+Tel:+ 372 664 5Norge 
 Servier Danmark A/S 
-Tlf: +45 36 44 22<br />
-E  </p>
-<p>: +30 210 939 1 
- sterreich 
+Tlf: +45 36 44 22 E  </p>
+<p>: +30 210 939 1 sterreich 
 Servier Austria GmbH 
-Tel: +43 (1) 524 39<br />
-Espa a 
+Tel: +43 (1) 524 39 Espa a 
 Laboratorios Servier S.L. 
-Tel: +34 91 748 96<br />
-Polska 
+Tel: +34 91 748 96 Polska 
 Servier Polska Sp. z o.o. 
 Tel: +48 (0) 22 594 90 France 
 Les Laboratoires Servier 
-Tel: +33 (0)1 55 72 60<br />
-Portugal 
+Tel: +33 (0)1 55 72 60 Portugal 
 Servier Portugal, Lda 
 Tel.: +351 21 312 20 Hrvatska 
 Servier Pharma, d. o. o. 
-Tel.: +385 (0)1 3016<br />
-Rom nia 
+Tel.: +385 (0)1 3016 Rom nia 
 Servier Pharma SRL 
-Tel: +4 021 528 52<br />
-Ireland 
+Tel: +4 021 528 52 Ireland 
 Servier Laboratories (Ireland) Ltd. 
-Tel: +353 (0)1 663 8 
-Slovenija 
+Tel: +353 (0)1 663 8Slovenija 
 Servier Pharma d. o. o.<br />
 Tel.: +386 (0)1 563 48  sland 
 Servier Laboratories 
 c/o Icepharma hf 
-S mi: +354 540 8 
-Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Servier Slovensko spol. s r.o. 
 Tel.:+421 (0) 2 5920 41 Italia 
 Servier Italia S.p.A. 
 Tel: +39 06 669Suomi/Finland 
 Servier Finland Oy 
-P. /Tel: +358 (0)9 279 80  </p>
-<p>C.A. Papaellinas Ltd. 
- : +357 22741 
-Sverige 
+P. /Tel: +358 (0)9 279 80 <br />
+C.A. Papaellinas Ltd. 
+ : +357 22741Sverige 
 Servier Sverige AB 
-Tel : +46 (0)8 522 508<br />
-Latvija 
+Tel : +46 (0)8 522 508 Latvija 
 SIA Servier Latvia 
-Tel: +371 67502 
-United Kingdom (Northern Ireland) 
+Tel: +371 67502United Kingdom (Northern Ireland) 
 Servier Laboratories (Ireland) Ltd. 
-Tel: +44 (0)1753 666 
-This leaflet was last revised in  </p>
+Tel: +44 (0)1753 666This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

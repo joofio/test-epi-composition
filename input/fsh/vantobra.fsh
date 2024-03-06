@@ -4,7 +4,7 @@ Instance: composition-en-a2aa072350b7f0283a86de62e6b164d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for vantobra Package Leaflet"
 Description:  "Composition for vantobra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Vantobra is and what it is used for  
-2. What you need to know before you use Vantobra 
-3. How to use Vantobra 
-4. Possible side effects  
-5. How to store Vantobra 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Vantobra is and what it is used for  </li>
+<li>What you need to know before you use Vantobra </li>
+<li>How to use Vantobra </li>
+<li>Possible side effects  </li>
+<li>How to store Vantobra </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

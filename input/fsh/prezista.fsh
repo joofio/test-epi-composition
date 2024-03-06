@@ -4,7 +4,7 @@ Instance: composition-en-c73255ba16f112f8e9f93b50083ae06f
 InstanceOf: CompositionUvEpi
 Title: "Composition for prezista Package Leaflet"
 Description:  "Composition for prezista Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What PREZISTA is and what it is used for
 2. What you need to know before you take PREZISTA
 3. How to take PREZISTA
 4. Possible side effects
 5. How to store PREZISTA
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -481,23 +480,10 @@ your healthcare provider.
 5. Take the dose of PREZISTA. Place the tip of the oral dosing pipette in the mouth. Press on the 
 plunger of the pipette towards the mouth, then swallow.
 6. Close the bottle with the cap after use, and store PREZISTA oral suspension as directed in 
-section 5 below.</p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Remove the plunger from the barrel of the pipette, rinse both with water and allow to air dry 
-after each use.</p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store prezista"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store prezista"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Put the oral dosing pipette back together after air drying and store with the PREZISTA bottle.
+section 5 below.
+7. Remove the plunger from the barrel of the pipette, rinse both with water and allow to air dry 
+after each use.
+8. Put the oral dosing pipette back together after air drying and store with the PREZISTA bottle.
 Do not use the dosing pipette for any other medicines.
 If you take more PREZISTA than you should
 Contact your doctor, pharmacist or nurse immediately.
@@ -518,13 +504,13 @@ Contact your doctor if you are uncertain about what to do if you miss a dose or 
 Do not stop taking PREZISTA without talking to your doctor first
 Anti-HIV medicines may make you feel better. Even when you feel better, do not stop taking 
 PREZISTA. Talk to your doctor first.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""      
-        
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose. This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -623,4 +609,124 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store prezista"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store prezista"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
+Do not use this medicine after the expiry date which is stated on the carton and on the bottle after 
+EXP. The expiry date refers to the last day of that month.
+Do not store above 30 C.
+Do not refrigerate or freeze. Avoid exposure to excessive heat.
+Store in the original container.
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away any medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What PREZISTA contains</h2>
+<p>The active substance is darunavir. Each milliliter contains 100 milligram of darunavir (as 
+ethanolate).
+-
+The other ingredients are hydroxypropyl cellulose, microcrystalline cellulose and carmellose 
+sodium, citric acid monohydrate, sucralose, strawberry cream flavour, masking flavour, sodium 
+methyl parahydroxybenzoate (E219), hydrochloric acid (for pH adjustment), purified water.
+What PREZISTA looks like and contents of the pack
+White to off-white opaque oral suspension. Provided in a 200 ml amber glass bottle with 
+polypropylene child resistant closure and a 6 ml low density polyethylene (LDPE) oral dosing pipette 
+with 0.2 ml gradations. The bottle neck is filled with a low density polyethylene (LDPE) insert that 
+accommodates the dosing pipette. Do not use the oral dosing pipette for any other medicines.
+PREZISTA is also available as 75 milligram, 150 milligram, 400 milligram, 600 milligram and 
+800 milligram film-coated tablets.
+Marketing Authorisation Holder
+Janssen-Cilag International NV, Turnhoutseweg 30, B-2340 Beerse, Belgium
+Manufacturer
+Janssen Pharmaceutica NV, Turnhoutseweg 30, B-2340 Beerse, Belgium
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Janssen-Cilag NV
+Tel/T l: +32 14 64 94 janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 lt@its.jnj.com</p>
+<p>&amp;    <br />
+ .: +359 2 489 94 jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+T l/Tel: +32 14 64 94 janssen@jacbe.jnj.com
+ esk  republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 Magyarorsz g
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 jacno@its.jnj.com</p>
+<p>Janssen-Cilag    . . . .
+T : +30 210 80 90  sterreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 Espa a
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 France
+Janssen-Cilag
+T l: 0 800 25 50 75 / +33 1 55 00 40 medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmac utica, Lda.
+Tel: +351 214 368 Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 jjsafety@JNJCR.JNJ.com
+Rom nia
+Johnson &amp; Johnson Rom nia SRL
+Tel: +40 21 207 1Ireland
+Janssen Sciences Ireland UC
+Tel: +353 1 800 709 Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 Janssen_safety_slo@its.jnj.com
+ sland
+Janssen-Cilag AB
+c/o Vistor hf.
+S mi: +354 535 7janssen@vistor.is
+Slovensk  republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 jacfi@its.jnj.com</p>
+<p>: +357 22 207 Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" fili le Latvij 
+Tel: +371 678 93lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 This leaflet was last revised in {MM/YYYY}.
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

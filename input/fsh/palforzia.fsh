@@ -4,7 +4,7 @@ Instance: composition-en-2a5703f6da594e7a35f6df08af026e1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for palforzia Package Leaflet"
 Description:  "Composition for palforzia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What PALFORZIA is and what it is used for 
-2. What you need to know before you take PALFORZIA 
-3. How to take PALFORZIA 
-4. Possible side effects 
-5. How to store PALFORZIA  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What PALFORZIA is and what it is used for </li>
+<li>What you need to know before you take PALFORZIA </li>
+<li>How to take PALFORZIA </li>
+<li>Possible side effects </li>
+<li>How to store PALFORZIA  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -493,204 +493,180 @@ Northwood Crescent
 Northwood, Dublin 9 
 D09 C6X8 
 Irlande<br />
-Tel: +353 (0)1 5827 
-Lietuva 
+Tel: +353 (0)1 5827Lietuva 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Airija 
-Tel: +353 (0)1 5827 </p>
-<p>Aimmune Therapeutics Ireland Ltd. 
+Tel: +353 (0)1 5827<br />
+Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 </p>
-<p>Te .: +353 (0)1 5827 
-Luxembourg/Luxemburg 
+<p>Te .: +353 (0)1 5827Luxembourg/Luxemburg 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irlande/Irland 
-T l/Tel: +353 (0)1 5827 
- esk  republika 
+T l/Tel: +353 (0)1 5827 esk  republika 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irsko<br />
-Tel: +353 (0)1 5827 
-Magyarorsz g 
+Tel: +353 (0)1 5827Magyarorsz g 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
  rorsz g 
-Tel.: +353 (0)1 5827 
-Danmark 
+Tel.: +353 (0)1 5827Danmark 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irland 
-Tlf: +45 80 711 
-Malta 
+Tlf: +45 80 711Malta 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 L-Irlanda<br />
-Tel: +353 (0)1 5827 </p>
-<p>Deutschland 
+Tel: +353 (0)1 5827Deutschland 
 Aimmune Therapeutics Germany GmbH 
 Mies-van-der-Rohe-Stra e 6 
 80807 M nchen 
 Deutschland 
-Tel: +49 (0)800 00 09<br />
-Nederland 
+Tel: +49 (0)800 00 09 Nederland 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Ierland 
-Tel: +353 (0)1 5827 
-Eesti 
+Tel: +353 (0)1 5827Eesti 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Iirimaa<br />
-Tel: +353 (0)1 5827 
-Norge 
+Tel: +353 (0)1 5827Norge 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irland<br />
-Tlf: +47 800 60 </p>
-<p>Aimmune Therapeutics Ireland Ltd. 
+Tlf: +47 800 60<br />
+Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 </p>
-<p>: +353 (0)1 5827 
- sterreich </p>
+<p>: +353 (0)1 5827 sterreich </p>
 <p>Aimmune Therapeutics Germany GmbH 
 Mies-van-der-Rohe-Stra e 6 
 80807 M nchen 
 Deutschland 
-Tel: +43 (0)800 017 
-Espa a 
+Tel: +43 (0)800 017Espa a 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irlanda<br />
-Tel: +353 (0)1 5827 
-Polska 
+Tel: +353 (0)1 5827Polska 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irlandia<br />
-Tel.: +353 (0)1 5827 
-France 
+Tel.: +353 (0)1 5827France 
 Aimmune Therapeutics France S.A.S 
 34-40 Rue Guynemer 
 92130 Issy-les-Moulineaux 
 France 
-Tel: +33 (0)805 542<br />
-Portugal 
+Tel: +33 (0)805 542 Portugal 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irlanda<br />
-Tel: +353 (0)1 5827 
-Hrvatska 
+Tel: +353 (0)1 5827Hrvatska 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irska<br />
-Tel: +353 (0)1 5827 
-Rom nia 
+Tel: +353 (0)1 5827Rom nia 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irlanda 
-Tel: +353 (0)1 5827 </p>
-<p>Ireland 
+Tel: +353 (0)1 5827Ireland 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Ireland <br />
-Tel: (+353) 1800 816 
-Slovenija 
+Tel: (+353) 1800 816Slovenija 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irska<br />
-Tel: +353 (0)1 5827 
- sland 
+Tel: +353 (0)1 5827 sland 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
  rland<br />
-S mi: +353 (0)1 5827 
-Slovensk  republika 
+S mi: +353 (0)1 5827Slovensk  republika 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
  rsko<br />
-Tel: +353 (0)1 5827 
-Italia 
+Tel: +353 (0)1 5827Italia 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irlanda<br />
-Tel: +353 (0)1 5827 
-Suomi/Finland 
+Tel: +353 (0)1 5827Suomi/Finland 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 
 Irlanti<br />
-Puh/Tel: +358 (0)800 916 </p>
-<p>Aimmune Therapeutics Ireland Ltd. 
+Puh/Tel: +358 (0)800 916<br />
+Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
 Northwood, Dublin 9 
 D09 C6X8 </p>
-<p>: +353 (0)1 5827 
-Sverige 
+<p>: +353 (0)1 5827Sverige 
 Aimmune Therapeutics Ireland Ltd. 
 Block B, The Crescent Building 
 Northwood Crescent 
@@ -704,14 +680,12 @@ Northwood Crescent
 Northwood, Dublin 9 
 D09 C6X8 
  rija 
-Tel: +353 (0)1 5827 
-United Kingdom (Northern Ireland) 
+Tel: +353 (0)1 5827United Kingdom (Northern Ireland) 
 Aimmune Therapeutics UK Ltd. 
 10 Eastbourne Terrace<br />
 London, W2 6LG 
 United Kingdom <br />
-Tel: +44 (0)800 0487 217  </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 (0)800 0487 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

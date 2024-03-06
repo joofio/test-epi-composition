@@ -4,7 +4,7 @@ Instance: composition-en-c5a54b11d8107e662bc760b43da975c8
 InstanceOf: CompositionUvEpi
 Title: "Composition for benepali Package Leaflet"
 Description:  "Composition for benepali Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,15 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Benepali is and what it is used for  
-2. What you need to know before you use Benepali  
-3. How to use Benepali 
-4. Possible side effects  
-5. How to store Benepali  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Benepali is and what it is used for  </li>
+<li>What you need to know before you use Benepali  </li>
+<li>How to use Benepali </li>
+<li>Possible side effects  </li>
+<li>How to store Benepali  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -90,11 +90,9 @@ rheumatoid arthritis and improve your ability to do normal daily activities. </p
 do normal daily activities.  </p>
 <p>For patients with multiple symmetrical painful or swollen joints (e.g., hands, wrists and feet), 
 Benepali can slow down the structural damage to those joints caused by the disease.  </p>
-<p>Benepali is also prescribed for the treatment of the following diseases in children and adolescents. </p>
-<ul>
-<li>For the following types of juvenile idiopathic arthritis when treatment with methotrexate has not 
-worked well enough or is not suitable for them: </li>
-</ul>
+<p>Benepali is also prescribed for the treatment of the following diseases in children and adolescents. 
+* For the following types of juvenile idiopathic arthritis when treatment with methotrexate has not 
+worked well enough or is not suitable for them: </p>
 <p>Polyarthritis (rheumatoid factor positive or negative) and extended oligoarthritis in patients 
 from the age of 2 years and weighing 62.5 kg or more. </p>
 <p>Psoriatic arthritis in patients from the age of 12 years and weighing 62.5 kg or more. </p>
@@ -146,17 +144,13 @@ if you or the child have ever had tuberculosis, or have been in close contact wi
 has had tuberculosis. If symptoms of tuberculosis (such as persistent cough, weight loss, 
 listlessness, mild fever), or any other infection appear during or after therapy, tell your doctor 
 immediately. </li>
-<li>
-<p>Hepatitis B: Tell your doctor if you or the child have or have ever had hepatitis B. Your doctor 
+<li>Hepatitis B: Tell your doctor if you or the child have or have ever had hepatitis B. Your doctor 
 should test for the presence of hepatitis B infection before you or the child begin treatment with 
 Benepali. Treatment with Benepali may result in reactivation of hepatitis B in patients who have 
 previously been infected with the hepatitis B virus. If this occurs, you should stop using 
-Benepali. </p>
-</li>
-<li>
-<p>Hepatitis C: Tell your doctor if you or the child have hepatitis C. Your doctor may wish to 
-monitor the treatment with Benepali in case the infection worsens. </p>
-</li>
+Benepali. </li>
+<li>Hepatitis C: Tell your doctor if you or the child have hepatitis C. Your doctor may wish to 
+monitor the treatment with Benepali in case the infection worsens. </li>
 <li>Blood disorders: Seek medical advice immediately if you or the child have any signs or 
 symptoms such as persistent fever, sore throat, bruising, bleeding or paleness. Such symptoms 
 may point to the existence of potentially life-threatening blood disorders, which may require 
@@ -357,10 +351,8 @@ lymphoma (a type of blood cancer); leukaemia (cancer affecting the blood and bon
 melanoma (a type of skin cancer); combined low platelet, red, and white blood cell count; 
 nervous system disorders (with severe muscle weakness and signs and symptoms similar to 
 those of multiple sclerosis or inflammation of the nerves of the eyes or spinal cord); 
-tuberculosis; new onset congestive heart failure; seizures; lupus or lupus-like syndrome </p>
-</li>
-</ul>
-<p>(symptoms may include persistent rash, fever, joint pain, and tiredness); skin rash, which may 
+tuberculosis; new onset congestive heart failure; seizures; lupus or lupus-like syndrome 
+(symptoms may include persistent rash, fever, joint pain, and tiredness); skin rash, which may 
 lead to severe blistering and peeling of the skin; inflammation of the liver caused by the body's 
 own immune system (autoimmune hepatitis; in patients also receiving methotrexate treatment, 
 the frequency is uncommon); immune disorder that can affect the lungs, skin and lymph nodes 
@@ -372,7 +364,7 @@ when resistance to disease is lowered), erythema multiforme (inflammatory skin r
 cutaneous vasculitis (inflammation of blood vessels in the skin); damage to nerves, including 
 Guillain-Barr  syndrome (a serious condition which can affect breathing and damage body 
 organs). </p>
-<ul>
+</li>
 <li>
 <p>Very rare (may affect up to 1 in 10,000 people) 
 Failure of the bone marrow to produce crucial blood cells; toxic epidermal necrolysis (a life-
@@ -414,8 +406,8 @@ is then recommended. </p>
 <p>Benepali may be stored outside of the refrigerator at temperatures up to a maximum of 30 C for a 
 single period of up to 31 days; after which, it should not be refrigerated again. Benepali should be 
 discarded if not used within 31 days after removal from the refrigerator. It is recommended that you 
-record the date that Benepali is removed from the refrigerator and the date after which Benepali should </p>
-<p>be discarded (no more than 31 days following the removal from the refrigerator). </p>
+record the date that Benepali is removed from the refrigerator and the date after which Benepali should 
+be discarded (no more than 31 days following the removal from the refrigerator). </p>
 <p>Inspect the solution in the syringe. It should be clear to slightly opalescent, colourless or pale yellow, 
 and may contain small white or almost transparent particles of protein. This appearance is normal for 
 Benepali. Do not use this medicine if you notice the solution is discoloured, cloudy, or if particles 
@@ -458,86 +450,63 @@ Authorisation Holder: </p>
 Biogen Belgium NV/S.A<br />
 T l/Tel: + 32 (0)2 808 5Lietuva 
 Biogen Lithuania UAB 
-Tel: +370 52 07 91  </p>
-<p>Ewopharma AG Representative Office 
-Te .: + 359 249 176<br />
-Luxembourg/Luxemburg<br />
+Tel: +370 52 07 91  <br />
+Ewopharma AG Representative Office 
+Te .: + 359 249 176 Luxembourg/Luxemburg<br />
 Biogen Belgium NV/SA<br />
-T l/Tel: +35 227 772  </p>
-<p>esk  republika<br />
+T l/Tel: +35 227 772  esk  republika<br />
 Biogen (Czech Republic) s.r.o.<br />
-Tel: + 420 228 884<br />
-Magyarorsz g<br />
+Tel: + 420 228 884 Magyarorsz g<br />
 Biogen Hungary Kft.<br />
-Tel.: + 36 1 848 04<br />
-Danmark<br />
+Tel.: + 36 1 848 04 Danmark<br />
 Biogen (Denmark) A/S<br />
-Tlf: + 45 78 79 37<br />
-Malta<br />
+Tlf: + 45 78 79 37 Malta<br />
 Pharma.MT Ltd 
-Tel: + 356 27 78 15<br />
-Deutschland<br />
+Tel: + 356 27 78 15 Deutschland<br />
 Biogen GmbH<br />
 Tel: + 49 (0)89 996 177 Nederland<br />
 Biogen Netherlands B.V.<br />
-Tel: + 31 (0)20 808 02<br />
-Eesti<br />
+Tel: + 31 (0)20 808 02 Eesti<br />
 Biogen Estonia O<br />
-Tel: + 372 6 68 30<br />
-Norge<br />
+Tel: + 372 6 68 30 Norge<br />
 Biogen Norway AS<br />
-Tlf: + 47 21 93 95  </p>
-<p>Genesis Pharma S.A. 
+Tlf: + 47 21 93 95  <br />
+Genesis Pharma S.A. 
  : + 30 211 176 8 sterreich<br />
 Biogen Austria GmbH<br />
-Tel: + 43 (0)1 267 51<br />
-Espa a<br />
+Tel: + 43 (0)1 267 51 Espa a<br />
 Biogen Spain, S.L.<br />
-Tel: + 34 931 790<br />
-Polska<br />
+Tel: + 34 931 790 Polska<br />
 Biogen Poland Sp. z o.o.<br />
-Tel.: + 48 22 116 86<br />
-France<br />
+Tel.: + 48 22 116 86 France<br />
 Biogen France SAS<br />
-T l: + 33 (0)1 776 968<br />
-Portugal<br />
+T l: + 33 (0)1 776 968 Portugal<br />
 Biogen Portugal Sociedade Farmac utica,<br />
 Unipessoal, Lda<br />
-Tel: + 351 308 800<br />
-Hrvatska<br />
+Tel: + 351 308 800 Hrvatska<br />
 Ewopharma d.o.o<br />
-Tel: + 385 (0)1 777 64<br />
-Rom nia<br />
+Tel: + 385 (0)1 777 64 Rom nia<br />
 Ewopharma AG Representative Office<br />
-Tel: + 40 377 881<br />
-Ireland<br />
+Tel: + 40 377 881 Ireland<br />
 Biogen Idec (Ireland) Ltd.<br />
-Tel: +353 (0)1 513 33<br />
-Slovenija<br />
+Tel: +353 (0)1 513 33 Slovenija<br />
 Biogen Pharma d.o.o.<br />
-Tel: + 386 (0)1 888 81<br />
- sland<br />
+Tel: + 386 (0)1 888 81  sland<br />
 Icepharma hf. 
-S mi: + 354 800 9 
-Slovensk  republika<br />
+S mi: + 354 800 9Slovensk  republika<br />
 Biogen Slovakia s.r.o.<br />
-Tel: + 421 (0)2 333 257<br />
-Italia<br />
+Tel: + 421 (0)2 333 257 Italia<br />
 Biogen Italia s.r.l.<br />
-Tel: + 39 (0)6 899 701<br />
-Suomi/Finland<br />
+Tel: + 39 (0)6 899 701 Suomi/Finland<br />
 Biogen Finland Oy<br />
-Puh/Tel: + 358 (0)9 427 041  </p>
-<p>Genesis Pharma (Cyprus) Ltd 
- : + 357 22 00 04<br />
-Sverige<br />
+Puh/Tel: + 358 (0)9 427 041  <br />
+Genesis Pharma (Cyprus) Ltd 
+ : + 357 22 00 04 Sverige<br />
 Biogen Sweden AB<br />
 Tel: +46 (0)8 525 038 Latvija 
 Biogen Latvia SIA 
-Tel: + 371 66 16 40<br />
-United Kingdom (Northern Ireland) 
+Tel: + 371 66 16 40 United Kingdom (Northern Ireland) 
 Biogen Idec (Ireland) Ltd. 
-Tel: +44 (0)20 360 886<br />
-This leaflet was last revised in </p>
+Tel: +44 (0)20 360 886 This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

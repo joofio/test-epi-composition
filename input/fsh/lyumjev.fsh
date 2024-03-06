@@ -4,7 +4,7 @@ Instance: composition-en-932e6264a3aeb74aa58d141481e4d197
 InstanceOf: CompositionUvEpi
 Title: "Composition for lyumjev Package Leaflet"
 Description:  "Composition for lyumjev Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Lyumjev is and what it is used for 
 2. What you need to know before you use Lyumjev 
 3. How to use Lyumjev 
 4. Possible side effects 
 5. How to store Lyumjev 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -95,8 +94,8 @@ change your insulin unless your doctor tells you to.  </p>         </div>"""
 how to deal with low blood sugar (see section 3 under  If you use more Lyumjev than you 
 should ). 
 * if you are allergic to insulin lispro or any of the other ingredients of this medicine (listed in 
-section 6).  </p>
-<p>Warnings and precautions<br />
+section 6).<br />
+Warnings and precautions<br />
 Talk to your doctor, pharmacist or nurse before using Lyumjev. </p>
 <p>If you cannot see very well you will need help from someone who has been trained to give injections. </p>
 <ul>
@@ -249,19 +248,17 @@ needles and syringes.
 * Inject under the skin, as you were taught. After your injection, leave the needle in the skin for 5 
 seconds to make sure you receive the full dose.   </p>
 <p>Using Lyumjev in an insulin pump<br />
-* Only certain insulin infusion pumps may be used to infuse Lyumjev.  </p>
-<ul>
-<li>Carefully follow the instructions supplied with your infusion pump. </li>
-<li>Be sure to use the correct reservoir and catheter for your pump. It is important to use the correct 
-needle length on the filling system to avoid damaging the pump. </li>
-<li>Change the infusion set (tubing and needle) according to the instructions supplied with the 
-infusion set.  </li>
-<li>If repeated or severe low blood sugar levels occur, tell your doctor or nurse. </li>
-<li>A pump malfunction or obstruction of the infusion set can result in a rapid rise in sugar levels. 
+<em> Only certain insulin infusion pumps may be used to infuse Lyumjev.<br />
+</em> Carefully follow the instructions supplied with your infusion pump. 
+* Be sure to use the correct reservoir and catheter for your pump. It is important to use the correct 
+needle length on the filling system to avoid damaging the pump. 
+* Change the infusion set (tubing and needle) according to the instructions supplied with the 
+infusion set.<br />
+<em> If repeated or severe low blood sugar levels occur, tell your doctor or nurse. 
+* A pump malfunction or obstruction of the infusion set can result in a rapid rise in sugar levels. 
 If you think Lyumjev is not flowing, follow the pump instructions and if appropriate, notify 
-your doctor or nurse.  </li>
-<li>You may need to take an injection of Lyumjev if your pump does not work properly. </li>
-</ul>
+your doctor or nurse.<br />
+</em> You may need to take an injection of Lyumjev if your pump does not work properly. </p>
 <p>After injecting 
 If you are unsure how much you have injected then check your blood sugar levels before deciding if 
 you need another injection. </p>
@@ -346,13 +343,11 @@ this medicine. </p>
 Low blood sugar (hypoglycaemia) means there is not enough sugar in the blood. This can be caused if: 
 * you take too much Lyumjev or other insulin; 
 * you miss or delay meals or change your diet; 
-* you exercise or work too hard just before or after a meal; </p>
-<ul>
-<li>you have an infection or illness (especially diarrhoea or vomiting); </li>
-<li>there is a change in your need for insulin for example if you lose weight; or you have trouble 
+* you exercise or work too hard just before or after a meal; 
+* you have an infection or illness (especially diarrhoea or vomiting); 
+* there is a change in your need for insulin for example if you lose weight; or you have trouble 
 with your kidneys or liver which gets worse. 
-See section  If you use more Lyumjev than you should.  </li>
-</ul>
+See section  If you use more Lyumjev than you should.  </p>
 <p>The first symptoms of low blood sugar usually come on quickly and include the following: 
 * tiredness 
 * rapid heart beat 
@@ -432,85 +427,64 @@ Lilly France S.A.S., Rue du Colonel Lilly, 67640 Fegersheim, France. </p>
 Authorisation Holder: </p>
 <p>Belgique/Belgi /Belgien 
 Eli Lilly Benelux S.A./N.V. 
-T l/Tel: + 32-(0)2 548 84<br />
-Lietuva 
+T l/Tel: + 32-(0)2 548 84 Lietuva 
 Eli Lilly Lietuva<br />
-Tel. +370 (5) 2649 </p>
-<p>"     "  . . - <br />
- . + 359 2 491 41<br />
-Luxembourg/Luxemburg 
+Tel. +370 (5) 2649<br />
+  "     "  . . - <br />
+ . + 359 2 491 41 Luxembourg/Luxemburg 
 Eli Lilly Benelux S.A./N.V. 
 T l/Tel: + 32-(0)2 548 84  esk  republika 
 ELI LILLY  R, s.r.o. 
-Tel: + 420 234 664<br />
-Magyarorsz g 
+Tel: + 420 234 664 Magyarorsz g 
 Lilly Hung ria Kft. 
 Tel: + 36 1 328 5Danmark 
 Eli Lilly Danmark A/S<br />
-Tlf: +45 45 26 6 </p>
-<p>Malta 
+Tlf: +45 45 26 6Malta 
 Charles de Giorgio Ltd. 
-Tel: + 356 25600<br />
-Deutschland 
+Tel: + 356 25600 Deutschland 
 Lilly Deutschland GmbH 
-Tel. + 49-(0) 6172 273 2 
-Nederland 
+Tel. + 49-(0) 6172 273 2Nederland 
 Eli Lilly Nederland B.V.<br />
 Tel: + 31-(0) 30 60 25 Eesti 
 Eli Lilly Nederland B.V.<br />
-Tel: +372 6817<br />
-Norge 
+Tel: +372 6817 Norge 
 Eli Lilly Norge A.S.<br />
-Tlf: + 47 22 88 18  </p>
-<ul>
-<li>. . . .<br />
- : +30 210 629 4 
- sterreich 
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 sterreich 
 Eli Lilly Ges. m.b.H.<br />
 Tel: + 43-(0) 1 711 Espa a 
 Dista S.A. 
-Tel: + 34-91 663 50<br />
-Polska 
+Tel: + 34-91 663 50 Polska 
 Eli Lilly Polska Sp. z o.o. 
 Tel: +48 22 440 33 France 
 Lilly France 
-T l: +33-(0) 1 55 49 34<br />
-Portugal 
+T l: +33-(0) 1 55 49 34 Portugal 
 Lilly Portugal - Produtos Farmac uticos, Lda 
 Tel: + 351-21-4126Hrvatska 
 Eli Lilly Hrvatska d.o.o. 
-Tel: +385 1 2350<br />
-Rom nia 
+Tel: +385 1 2350 Rom nia 
 Eli Lilly Rom nia S.R.L. 
 Tel: + 40 21 4023Ireland 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 
-Slovenija 
+Tel: + 353-(0) 1 661 4Slovenija 
 Eli Lilly farmacevtska dru ba, d.o.o. 
-Tel: +386 (0) 1 580 00<br />
- sland 
+Tel: +386 (0) 1 580 00  sland 
 Icepharma hf.<br />
-S mi + 354 540 8 
-Slovensk  republika 
+S mi + 354 540 8Slovensk  republika 
 Eli Lilly Slovakia s.r.o. 
-Tel: + 421 220 663<br />
-Italia 
+Tel: + 421 220 663 Italia 
 Eli Lilly Italia S.p.A. 
-Tel: + 39- 055 42 
-Suomi/Finland 
+Tel: + 39- 055 42Suomi/Finland 
 Oy Eli Lilly Finland Ab<br />
-Puh/Tel: + 358-(0) 9 85 45  </li>
-</ul>
-<p>Phadisco Ltd<br />
- : +357 22 715 
-Sverige 
+Puh/Tel: + 358-(0) 9 85 45 <br />
+Phadisco Ltd<br />
+ : +357 22 715Sverige 
 Eli Lilly Sweden AB 
 Tel: + 46-(0) 8 7378Latvija 
 Eli Lilly (Suisse) S.A P rst vniec ba Latvij <br />
-Tel: +371 67364 
-United Kingdom (Northern Ireland) 
+Tel: +371 67364United Kingdom (Northern Ireland) 
 Eli Lilly and Company (Ireland) Limited 
-Tel: + 353-(0) 1 661 4 
-This leaflet was last revised in  </p>
+Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

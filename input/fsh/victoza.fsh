@@ -4,7 +4,7 @@ Instance: composition-en-141d929731a8da3daac9f9a16668bc62
 InstanceOf: CompositionUvEpi
 Title: "Composition for victoza Package Leaflet"
 Description:  "Composition for victoza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Victoza is and what it is used for 
-2. What you need to know before you use Victoza 
-3. How to use Victoza 
-4. Possible side effects 
-5. How to store Victoza 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Victoza is and what it is used for </li>
+<li>What you need to know before you use Victoza </li>
+<li>How to use Victoza </li>
+<li>Possible side effects </li>
+<li>How to store Victoza </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

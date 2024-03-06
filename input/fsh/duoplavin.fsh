@@ -4,7 +4,7 @@ Instance: composition-en-6ca82242cc83367d005ce7bfab740b2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for duoplavin Package Leaflet"
 Description:  "Composition for duoplavin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What DuoPlavin is and what it is used for 
-2. What you need to know before you take DuoPlavin 
-3. How to take DuoPlavin 
-4. Possible side effects 
-5. How to store DuoPlavin 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What DuoPlavin is and what it is used for </li>
+<li>What you need to know before you take DuoPlavin </li>
+<li>How to take DuoPlavin </li>
+<li>Possible side effects </li>
+<li>How to store DuoPlavin </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -133,8 +133,7 @@ yellowing of the skin or eyes (jaundice) (see section 4).
 * If you cut or injure yourself, it may take longer than usual for bleeding to stop. This is linked to 
 the way your medicine works as it prevents the ability of blood clots to form. For minor cuts and 
 injuries e.g., cutting yourself, shaving, this is usually of no concern. However, if you are 
-concerned by your bleeding, you should contact your doctor straightaway (see section 4 
- Possible side effects ). 
+concerned by your bleeding, you should contact your doctor straightaway (see section 4. Possible side effects ). 
 * Your doctor may order blood tests. 
 * You should tell your doctor immediately if you develop symptoms or signs of Drug Reaction 
 with Eosinophilia and Systemic Symptoms (DRESS) which may include flu-like symptoms and 
@@ -358,8 +357,7 @@ France </p>
 Authorisation Holder:  </p>
 <p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-T l/Tel: +32 (0)2 710 54<br />
-Lietuva 
+T l/Tel: +32 (0)2 710 54 Lietuva 
 Swixx Biopharma UAB 
 Tel: +370 5 236 91 <br />
 Swixx Biopharma EOOD 
@@ -368,76 +366,58 @@ Sanofi Belgium<br />
 T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
 <p>esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Magyarorsz g 
+Tel: +420 233 086 Magyarorsz g 
 SANOFI-AVENTIS Zrt.<br />
-Tel.: +36 1 505 0 
-Danmark 
+Tel.: +36 1 505 0Danmark 
 Sanofi  A/S 
-Tlf: +45 45 16 70<br />
-Malta 
+Tlf: +45 45 16 70 Malta 
 Sanofi S.r.l. 
-Tel: +39 02 39394 
-Deutschland 
+Tel: +39 02 39394Deutschland 
 Sanofi-Aventis Deutschland GmbH 
-Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
-Nederland 
+Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21 Nederland 
 Sanofi B.V. 
-Tel: +31 20 245 4 
-Eesti 
+Tel: +31 20 245 4Eesti 
 Swixx Biopharma O<br />
 Tel: +372 640 10 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71  </p>
-<p>Sanofi-Aventis   AEBE 
- : +30 210 900 16<br />
- sterreich 
+Tlf: +47 67 10 71 <br />
+Sanofi-Aventis   AEBE 
+ : +30 210 900 16  sterreich 
 sanofi-aventis GmbH 
 Tel: +43 1 80 185   0 </p>
 <p>Espa a 
 sanofi-aventis, S.A. 
-Tel: +34 93 485 94<br />
-Polska 
+Tel: +34 93 485 94 Polska 
 sanofi-aventis Sp. z o.o. 
-Tel: +48 22 280 00<br />
-France 
+Tel: +48 22 280 00 France 
 Sanofi Winthrop Industrie 
-T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
-Portugal 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23 Portugal 
 Sanofi - Produtos Farmac uticos, Lda 
-Tel: +351 21 35 89<br />
-Hrvatska 
+Tel: +351 21 35 89 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-Ireland 
+Tel: +40 (0) 21 317 31 Ireland 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Slovenija 
+Tel: +353 (0) 1 403 56 Slovenija 
 Swixx Biopharma d.o.o. 
 Tel: +386 1 235 51  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33<br />
-Italia 
+Tel: +421 2 208 33 Italia 
 Sanofi S.r.l. 
-Tel: 800 536<br />
-Suomi/Finland 
+Tel: 800 536 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200  </p>
-<p>C.A. Papaellinas Ltd. 
+Puh/Tel: +358 (0) 201 200 <br />
+C.A. Papaellinas Ltd. 
  : +357 22 741Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Latvija 
+Tel: +46 (0)8 634 50 Latvija 
 Swixx Biopharma SIA 
 Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in <em>Month YYYY</em>. </p>
+Tel: +44 (0) 800 035 2This leaflet was last revised in <em>Month YYYY</em>. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu/  </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-1d09f2cdb23b1c4baeb1be5a4de77a38
 InstanceOf: CompositionUvEpi
 Title: "Composition for sibnayal Package Leaflet"
 Description:  "Composition for sibnayal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Sibnayal is and what it is used for  
-2. What you need to know before you take Sibnayal  
-3. How to take Sibnayal 
-4. Possible side effects  
-5. How to store Sibnayal 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Sibnayal is and what it is used for  </li>
+<li>What you need to know before you take Sibnayal  </li>
+<li>How to take Sibnayal </li>
+<li>Possible side effects  </li>
+<li>How to store Sibnayal </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -308,8 +308,8 @@ Nederland
 T l/Tel: +31 348 71 24 e-mail: info@twinpharma.com </p>
 <p>Italia 
 SPA Societ  Prodotti Antibiotici S.p.A. 
-Tel: +39 02 891 </p>
-<p>ExCEEd Orphan s.r.o. 
+Tel: +39 02 891<br />
+ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Te .: +359 888 918 pv.global@exceedorphan.com </p>
 <p>Magyarorsz g 
@@ -331,22 +331,19 @@ Berga Backe 2
 Tlf/Puh/Tel: + 46 8 243regulatory@frostpharma.com </p>
 <p>Portugal 
 Prospa   Laborat rios Farmac uticos, S.A. 
-Tel: +351 214171 
-Deutschland - Eesti       France <br />
+Tel: +351 214171Deutschland - Eesti       France <br />
 Ireland    sland       Latvija - Lietuva - Malta    sterreich - United Kingdom 
 (Northern Ireland) 
 ADVICENNE 
 262 rue du Faubourg Saint Honor <br />
 75008 Paris, France 
-Tel : + 33 1 85 73 36<br />
-Rom nia 
+Tel : + 33 1 85 73 36 Rom nia 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel: +40 744 366 pv.global@exceedorphan.com 
 Espa a 
 SPA farma Ib rica<br />
-Tel: + 34 622 273  </p>
-<p>Slovenija 
+Tel: + 34 622 273 Slovenija 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel: +386 30 210 pv.global@exceedorphan.com </p>

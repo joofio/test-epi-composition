@@ -4,7 +4,7 @@ Instance: composition-en-08061c368f26d0bb40f900f8c777c70e
 InstanceOf: CompositionUvEpi
 Title: "Composition for icatibant Package Leaflet"
 Description:  "Composition for icatibant Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Icatibant Accord is and what it is used for  
-2. What you need to know before you use  Icatibant Accord 
-3. How to use  Icatibant Accord 
-4. Possible side effects 
-5. How to store  Icatibant Accord  
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Icatibant Accord is and what it is used for  </li>
+<li>What you need to know before you use  Icatibant Accord </li>
+<li>How to use  Icatibant Accord </li>
+<li>Possible side effects </li>
+<li>How to store  Icatibant Accord  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -93,8 +94,8 @@ ingredients of this medicine (listed in section 6). </p>
 </ul>
 <p>Some of the side effects connected with Icatibant Accord are similar to the symptoms of your disease. 
 Tell your doctor immediately if you notice that your symptoms of the attack get worse after you 
-received Icatibant Accord </p>
-<p>In addition:</p>
+received Icatibant Accord 
+In addition:</p>
 <ul>
 <li>
 <p>You or your caregiver must be trained on subcutaneous (under the skin) injection technique 
@@ -145,8 +146,8 @@ injection technique, you may be able to inject yourself with Icatibant Accord  o
 inject Icatibant Accord for you when you have an HAE attack. It is important that Icatibant Accord<br />
 is injected subcutaneously (under the skin) as soon as you notice an attack of angioedema. Your 
 healthcare provider will teach you and your caregiver how to safely inject Icatibant Accord  by 
-following the instructions in the Package Leaflet. </p>
-<p>When and how often should you use Icatibant Accord? </p>
+following the instructions in the Package Leaflet. 
+When and how often should you use Icatibant Accord? </p>
 <p>Your doctor has determined the exact dose of Icatibant Accord  and will tell you how often it should be 
 used. </p>
 <p>Adults </p>
@@ -208,8 +209,8 @@ Preparing the injection site
 4) 
 Injecting the solution 
 5) 
-Disposal of the injection material </p>
-<p>Step-by-Step Instructions for Injection </p>
+Disposal of the injection material 
+Step-by-Step Instructions for Injection </p>
 <p>1)   General Information 
 * Clean the work area (surface) to be used before beginning the process. </p>
 <ul>
@@ -239,8 +240,8 @@ appropriate dose (see below): </p>
 <p>b) Connector (adapter) </p>
 <p>c) 3 ml graduated syringe </p>
 <p>The required injection volume in ml should be drawn up in an empty 3 ml graduated syringe (see table 
-below). </p>
-<p>Table 1: Dosage regimen for children and adolescents </p>
+below). 
+Table 1: Dosage regimen for children and adolescents </p>
 <p>Body Weight 
 Injection Volume 
 12 kg to 25 kg 
@@ -261,8 +262,8 @@ or nurse </p>
 securely. </p>
 <p>Transferring the icatibant solution to the graduated syringe: </p>
 <p>1) To start transfer of icatibant solution, push the pre-filled syringe plunger (on far left of below 
-image). </p>
-<p>2) If the icatibant solution does not begin to transfer to the graduated syringe, pull slightly on the 
+image). 
+2) If the icatibant solution does not begin to transfer to the graduated syringe, pull slightly on the 
 graduated syringe plunger until the icatibant solution starts to flow into the graduated syringe (see 
 below image). </p>
 <p>3) Continue to push on the pre-filled syringe plunger until the required injection volume (dose) is 
@@ -277,10 +278,10 @@ transferred to the graduated syringe. Refer to table 1 for dosage information. <
 syringe (this step may need to be repeated several times). </p>
 </li>
 <li>
-<p>Withdraw the required volume of icatibant solution. </p>
+<p>Withdraw the required volume of icatibant solution. 
+4) Remove the pre-filled syringe and connector from the graduated syringe. </p>
 </li>
 </ul>
-<p>4) Remove the pre-filled syringe and connector from the graduated syringe. </p>
 <p>5) Discard the pre-filled syringe and connector into the sharps container. 
 2b) Preparing the syringe and needle for injection: 
 All patients (adults, adolescents and children) </p>
@@ -438,11 +439,9 @@ Authorisation Holder: </p>
 <p>AT / BE / BG / CY / CZ / DE / DK / EE / FI / FR / HR / HU / IE / IS / IT / LT / LV / LX / 
 MT / NL / NO / PT / PL / RO / SE / SI / SK / UK(NI) / ES 
 Accord Healthcare S.L.U. 
-Tel: +34 93 301 00<br />
-EL 
+Tel: +34 93 301 00 EL 
 Win Medica Pharmaceutical S.A.<br />
-Tel: +30 210 7488<br />
-This leaflet was last revised in  {MM/YYYY}. </p>
+Tel: +30 210 7488 This leaflet was last revised in  {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website:<br />
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
 

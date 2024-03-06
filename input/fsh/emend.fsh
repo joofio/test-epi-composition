@@ -4,7 +4,7 @@ Instance: composition-en-e4e2fe5de212dd30e27726e0694aae72
 InstanceOf: CompositionUvEpi
 Title: "Composition for emend Package Leaflet"
 Description:  "Composition for emend Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What EMEND is and what it is used for
 2. What you need to know before you take or give EMEND
 3. How to take EMEND
 4. Possible side effects
 5. How to store EMEND
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -408,5 +407,5 @@ medicine to the child - please read this information carefully.
 - This medicine has been prescribed for the child only. Do not pass it on to others. It may harm
 them, even if their signs of illness are the same.
 - If the child gets any side effects, talk to the doctor, pharmacist, or nurse. This includes any
-possible side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

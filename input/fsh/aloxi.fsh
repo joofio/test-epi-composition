@@ -4,7 +4,7 @@ Instance: composition-en-e32583165e64f7b46ac4a8e9d8029de8
 InstanceOf: CompositionUvEpi
 Title: "Composition for aloxi Package Leaflet"
 Description:  "Composition for aloxi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Aloxi is and what it is used for 
 2. What you need to know before you are given Aloxi 
 3. How you are given Aloxi 
 4. Possible side effects 
 5. How to store Aloxi 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -141,10 +140,8 @@ This medicine contains less than 1 mmol sodium (23 mg) per vial, that is to say 
 * It is given as an injection into a vein.  </p>
 <p>Children and young people (aged 1 month to 17 years) 
 * The doctor will work out the right dose based on bodyweight. 
-* The maximum dose is 1500 micrograms. </p>
-<ul>
-<li>Aloxi will be given as a drip (a slow infusion into a vein). </li>
-</ul>
+* The maximum dose is 1500 micrograms. 
+* Aloxi will be given as a drip (a slow infusion into a vein). </p>
 <p>It is not recommended you are given Aloxi in the days following chemotherapy unless you are going 
 to have another chemotherapy cycle. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
@@ -190,12 +187,10 @@ Common: may affect up to 1 in 10 people
 * abnormal heart rate or lack of blood flow to the heart 
 * abnormally high or low levels of potassium in the blood 
 * high levels of sugar in the blood or sugar in the urine 
-* low levels of calcium in the blood  </p>
-<ul>
-<li>high levels of the pigment bilirubin in the blood </li>
-<li>high levels of certain liver enzymes  </li>
-<li>ECG (electrocardiogram) abnormalities ( QT prolongation ). </li>
-</ul>
+* low levels of calcium in the blood<br />
+<em> high levels of the pigment bilirubin in the blood 
+* high levels of certain liver enzymes<br />
+</em> ECG (electrocardiogram) abnormalities ( QT prolongation ). </p>
 <p>Very rare:  may affect up to 1 in 10,000 people 
 * Burning, pain or redness at the injection site 
 . 
@@ -246,8 +241,8 @@ water for injections, sodium hydroxide and hydrochloric acid. </p>
 Aloxi solution for injection is a clear, colourless solution and is supplied in a pack of one Type I glass 
 vial with chlorobutyl siliconised rubber stopper and aluminium cap, which contains 5 ml of the 
 solution. Each vial contains one dose. </p>
-<p>Available in packs of 1 vial containing 5 ml of solution. </p>
-<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Available in packs of 1 vial containing 5 ml of solution. 
+Marketing Authorisation Holder and Manufacturer </p>
 <p>Helsinn Birex Pharmaceuticals Ltd.,<br />
 Damastown,<br />
 Mulhuddart,<br />

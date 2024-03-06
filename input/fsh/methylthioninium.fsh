@@ -4,7 +4,7 @@ Instance: composition-en-f7bd65adcf41880a5b8668a52603da99
 InstanceOf: CompositionUvEpi
 Title: "Composition for methylthioninium Package Leaflet"
 Description:  "Composition for methylthioninium Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Methylthioninium chloride Proveblue is and what it is used for 
-2. What you need to know before you are given Methylthioninium chloride Proveblue   
-3. How Methylthioninium chloride Proveblue is given   
-4. Possible side effects 
-5. How to store Methylthioninium chloride Proveblue   
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Methylthioninium chloride Proveblue is and what it is used for </li>
+<li>What you need to know before you are given Methylthioninium chloride Proveblue   </li>
+<li>How Methylthioninium chloride Proveblue is given   </li>
+<li>Possible side effects </li>
+<li>How to store Methylthioninium chloride Proveblue   </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -342,86 +342,64 @@ Authorisation Holder: </p>
 Pharmanovia Benelux B.V. 
 T l/Tel: + 31 (0) 76-5600Lietuva 
 Provepharm SAS 
-Tel: +33 (0)4 91 08 69  </p>
-<p>Provepharm SAS 
-Te .: + 33 (0)4 91 08 69<br />
-Luxembourg/Luxemburg 
+Tel: +33 (0)4 91 08 69 <br />
+Provepharm SAS 
+Te .: + 33 (0)4 91 08 69 Luxembourg/Luxemburg 
 Pharmanovia Benelux B.V. 
 T l/Tel: + 31 (0) 76-5600 esk  republika 
 LERAM pharmaceuticals s.r.o 
-Tel: +420 737 657 454<br />
-Magyarorsz g 
+Tel: +420 737 657 Magyarorsz g 
 Mediwings Pharma Kft. 
-Tel.: + 36 28 410<br />
-Danmark 
+Tel.: + 36 28 410 Danmark 
 Pharmanovia A/S 
-Tlf: + 45 33 33 76<br />
-Malta 
+Tlf: + 45 33 33 76 Malta 
 Provepharm SAS 
-Tel: + 33 (0)4 91 08 69<br />
-Deutschland 
+Tel: + 33 (0)4 91 08 69 Deutschland 
 Dr. Franz K hler Chemie GmbH 
 Tel: + 49 (0) 6251-1083-0 </p>
 <p>Nederland 
 Pharmanovia Benelux B.V. 
-Tel: + 31 (0) 76-5600 
-Eesti 
+Tel: + 31 (0) 76-5600Eesti 
 Provepharm SAS 
-Tel: + 33 (0)4 91 08 69<br />
-Norge 
+Tel: + 33 (0)4 91 08 69 Norge 
 Pharmanovia A/S 
-Tlf: + 45 33 33 76  </p>
-<p>a VIPharma International AE 
- : + 30-210-6194 
- sterreich 
+Tlf: + 45 33 33 76 <br />
+a VIPharma International AE 
+ : + 30-210-6194 sterreich 
 Dr. Franz K hler Chemie GmbH 
 Tel: + 49 (0) 6251-1083-0 </p>
 <p>Espa a 
 Fresenius Kabi Espa a, S.A.U.   <br />
-Tel: + 34 93 225 65<br />
-Polska 
+Tel: + 34 93 225 65 Polska 
 Apfel Pharm Sp. z o.o. 
-Tel: + 48 694 775 205  </p>
-<p>France 
+Tel: + 48 694 775 France 
 Provepharm SAS 
-T l: + 33 (0)4 91 08 69<br />
-Portugal 
+T l: + 33 (0)4 91 08 69 Portugal 
 Labesfal - Laborat rios Almiro 
-Tel: + 351 232 831 
-Hrvatska 
+Tel: + 351 232 831Hrvatska 
 Provepharm SAS 
-Tel: + 33 (0)4 91 08 69<br />
-Rom nia 
+Tel: + 33 (0)4 91 08 69 Rom nia 
 Dynamic Medical Solutions 
-Tel: + 40 (0)725596 </p>
-<p>Ireland 
+Tel: + 40 (0)725596Ireland 
 Laboratoires ETHYPHARM 
-Tel: + 33 1 41 12 65<br />
-Slovenija 
+Tel: + 33 1 41 12 65 Slovenija 
 Provepharm SAS 
-Tel: + 33 (0)4 91 08 69<br />
- sland 
+Tel: + 33 (0)4 91 08 69  sland 
 Pharmanovia A/S 
-S mi: + 45 33 33 76<br />
-Slovensk  republika 
+S mi: + 45 33 33 76 Slovensk  republika 
 LERAM pharmaceuticals s.r.o 
-Tel: +420 737 657 454<br />
-Italia 
+Tel: +420 737 657 Italia 
 Altais Pharma S.r.l 
-Tel: +39 06 97 79 70<br />
-Suomi/Finland 
+Tel: +39 06 97 79 70 Suomi/Finland 
 Pharmanovia A/S 
-Puh/Tel: + 45 33 33 76  </p>
-<p>Isangen Pharma Cyprus Ltd 
+Puh/Tel: + 45 33 33 76 <br />
+Isangen Pharma Cyprus Ltd 
  : + 357-24-638Sverige 
 Pharmanovia A/S 
-Tel: + 45 33 33 76<br />
-Latvija 
+Tel: + 45 33 33 76 Latvija 
 Provepharm SAS 
-Tel: + 33 (0)4 91 08 69<br />
-United Kingdom (Northern Ireland) 
+Tel: + 33 (0)4 91 08 69 United Kingdom (Northern Ireland) 
 Laboratoires ETHYPHARM 
-Tel: + 33 1 41 12 65<br />
-This leaflet was last revised in </p>
+Tel: + 33 1 41 12 65 This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

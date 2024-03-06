@@ -4,7 +4,7 @@ Instance: composition-en-a88819de549a51e3dd5eb81cc2cbcd10
 InstanceOf: CompositionUvEpi
 Title: "Composition for cystadrops Package Leaflet"
 Description:  "Composition for cystadrops Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Cystadrops is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Cystadrops is and what it is used for<br />
 2. What you need to know before you use Cystadrops 
 3. How to use Cystadrops 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Cystadrops 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -327,8 +326,7 @@ Recordati Rare Diseases
 T l: +33 (0)1 47 73 64 Franciaorsz g  </p>
 <p>Danmark 
 Recordati AB. 
-Tlf : +46 8 545 80 230<br />
-Sverige </p>
+Tlf : +46 8 545 80 Sverige </p>
 <p>Malta 
 Recordati Rare Diseases 
 Tel: +33 1 47 73 64 Franza </p>
@@ -340,8 +338,7 @@ Recordati
 Tel: +32 2 46101 Belgi  </p>
 <p>Eesti 
 Recordati AB. 
-Tel: + 46 8 545 80 230<br />
-Rootsi </p>
+Tel: + 46 8 545 80 Rootsi </p>
 <p>Norge 
 Recordati AB. 
 Tlf : +46 8 545 80 Sverige  </p>
@@ -358,11 +355,9 @@ Recordati Rare Diseases
 T l: +33 (0)1 47 73 64 Francja  </p>
 <p>France 
 Recordati Rare Diseases 
-T l: +33 (0)1 47 73 64<br />
-Portugal 
+T l: +33 (0)1 47 73 64 Portugal 
 Jaba Recordati S.A. 
-Tel: +351 21 432 95<br />
-Hrvatska 
+Tel: +351 21 432 95 Hrvatska 
 Recordati Rare Diseases 
 T l: +33 (0)1 47 73 64 Francuska </p>
 <p>Rom nia 
@@ -379,26 +374,22 @@ Recordati AB.
 Simi:+46 8 545 80 Sv j<br />
 Slovensk  republika 
 Recordati Rare Diseases 
-T l: +33 (0)1 47 73 64 Franc zsko  </p>
-<p>Italia 
+T l: +33 (0)1 47 73 64 Franc zsko<br />
+Italia 
 Recordati Rare Diseases Italy Srl 
-Tel: +39 02 487 87<br />
-Suomi/Finland 
+Tel: +39 02 487 87 Suomi/Finland 
 Recordati AB. 
 Puh/Tel : +46 8 545 80 Sverige </p>
 <p>Recordati Rare Diseases 
   : +33 1 47 73 64 <br />
 Sverige 
 Recordati AB. 
-Tel : +46 8 545 80  </p>
-<p>Latvija 
+Tel : +46 8 545 80 Latvija 
 Recordati AB. 
-Tel: + 46 8 545 80 230<br />
-Zviedrija 
+Tel: + 46 8 545 80 Zviedrija 
 United Kingdom (Northern Ireland) 
 Recordati Rare Diseases UK Ltd. 
-Tel: +44 (0)1491 414 
-This leaflet was last revised in  </p>
+Tel: +44 (0)1491 414This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

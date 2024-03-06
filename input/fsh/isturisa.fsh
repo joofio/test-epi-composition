@@ -4,7 +4,7 @@ Instance: composition-en-13bb467fc3daebcc72e614a634466540
 InstanceOf: CompositionUvEpi
 Title: "Composition for isturisa Package Leaflet"
 Description:  "Composition for isturisa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Isturisa is and what it is used for 
 2. What you need to know before you take Isturisa 
 3. How to take Isturisa 
 4. Possible side effects 
 5. How to store Isturisa 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -295,8 +294,7 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Recordati 
-T l/Tel: +32 2 46101<br />
-Lietuva 
+T l/Tel: +32 2 46101 Lietuva 
 Recordati AB. 
 Tel: + 46 8 545 80  vedija </p>
 <p>Recordati Rare Diseases 
@@ -329,21 +327,18 @@ Tel: + 46 8 545 80 Rootsi </p>
 Recordati AB. 
 Tlf: + 46 8 545 80 Sverige </p>
 <p>Recordati Hellas 
- : +30 210 6773 
- sterreich 
+ : +30 210 6773 sterreich 
 Recordati Rare Diseases Germany GmbH 
 Tel: +49 731 140 554 0 
 Deutschland </p>
 <p>Espa a 
 Recordati Rare Diseases Spain S.L.U. 
-Tel: + 34 91 659 28<br />
-Polska 
+Tel: + 34 91 659 28 Polska 
 Recordati Rare Diseases 
 Tel: +33 (0)1 47 73 64 Francja </p>
 <p>France 
 Recordati Rare Diseases 
-T l: +33 (0)1 47 73 64<br />
-Portugal 
+T l: +33 (0)1 47 73 64 Portugal 
 Jaba Recordati S.A. 
 Tel: +351 21 432 95 Hrvatska 
 Recordati Rare Diseases 
@@ -365,8 +360,7 @@ Recordati Rare Diseases
 Tel: +33 (0)1 47 73 64 Franc zsko 
 Italia 
 Recordati Rare Diseases Italy Srl 
-Tel: +39 02 487 87<br />
-Suomi/Finland 
+Tel: +39 02 487 87 Suomi/Finland 
 Recordati AB. 
 Puh/Tel : +46 8 545 80 Sverige </p>
 <p>Recordati Rare Diseases 
@@ -378,8 +372,7 @@ Recordati AB.
 Tel: + 46 8 545 80 Zviedrija 
 United Kingdom (Northern Ireland) 
 Recordati Rare Diseases UK Ltd. 
-Tel: +44 (0)1491 414 
-This leaflet was last revised in  </p>
+Tel: +44 (0)1491 414This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

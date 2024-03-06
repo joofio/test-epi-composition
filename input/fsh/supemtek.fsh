@@ -4,7 +4,7 @@ Instance: composition-en-06d503464480447969e787c60d8f32dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for supemtek Package Leaflet"
 Description:  "Composition for supemtek Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
-1. What Supemtek is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
+1. What Supemtek is and what it is used for<br />
 2. What you need to know before you receive  Supemtek 
 3. How Supemtek is given 
 4. Possible side effects 
 5. How to store Supemtek 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -224,8 +224,8 @@ A single syringe contains 0.5 mL of solution for injection.  </p>
 <p>Supemtek is available in packs containing 1, 5 or 10 pre-filled syringes without needle or with 
 separate needle. 
 Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder </p>
-<p>Sanofi Pasteur 
+<p>Marketing Authorisation Holder 
+Sanofi Pasteur 
 14 Espace Henry Vall e 
 69007 Lyon 
 France </p>
@@ -270,11 +270,9 @@ Tel: +34 93 485 94 Polska
 Sanofi Pasteur Sp. z o. o. 
 Tel.: +48 22 280 00 France 
 Sanofi Pasteur Europe 
-T l: 0800 222 Appel depuis l tranger : +33 1 57 63 23 23<br />
-Portugal 
+T l: 0800 222 Appel depuis l tranger : +33 1 57 63 23 Portugal 
 Sanofi   Produtos Farmac uticos, Lda. 
-Tel: + 351 21 35 89<br />
-Hrvatska 
+Tel: + 351 21 35 89 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
@@ -288,8 +286,7 @@ Tel : +354 535 7Slovensk  republika
 Swixx Biopharma s.r.o. 
 Tel: +421 2 208 33 Italia 
 Sanofi S.r.l. 
-Tel: 800536389  </p>
-<p>Suomi/Finland 
+Tel: 800536Suomi/Finland 
 Sanofi Oy 
 Tel: +358 (0) 201 200 <br />
 C.A. Papaellinas Ltd. 
@@ -299,8 +296,7 @@ Tel: +46 8-634 50 Latvija<br />
 Swixx Biopharma SIA<br />
 Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in {XX/YYYY}.  </p>
-<p>Other sources of information 
+Tel: +44 (0) 800 035 2This leaflet was last revised in {XX/YYYY}.<br />
+Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

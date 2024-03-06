@@ -4,7 +4,7 @@ Instance: composition-en-b4d9b93668736e17b1df580d2cd21bf6
 InstanceOf: CompositionUvEpi
 Title: "Composition for byooviz Package Leaflet"
 Description:  "Composition for byooviz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Byooviz is and what it is used for 
 2. What you need to know before you are given Byooviz 
 3. How Byooviz is given 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Byooviz 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -148,8 +147,8 @@ drive or use machines until this resolves. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Byooviz is administered as a single injection into your eye by your eye doctor under a local anaesthetic. 
 The usual dose of an injection is 0.05 ml (which contains 0.5 mg of active substance). The interval 
-between two doses injected into the same eye should be at least four weeks. All injections will be </p>
-<p>administered by your eye doctor. </p>
+between two doses injected into the same eye should be at least four weeks. All injections will be 
+administered by your eye doctor. </p>
 <p>Before the injection, your doctor will wash your eye carefully to prevent infection. Your doctor will 
 also give you a local anaesthetic to reduce or prevent any pain you might have with the injection. </p>
 <p>The treatment is started with one injection of Byooviz per month. Your doctor will monitor the 
@@ -197,8 +196,8 @@ vision, bleeding at the site of injection, bleeding in the eye, discharge from t
 and swelling (conjunctivitis), light sensitivity, eye discomfort, swelling of the eyelid, eyelid pain. 
 Non-visual side effects include: Urinary tract infection, low red blood cells count (with symptoms such 
 as tiredness, breathlessness, dizziness, pale skin), anxiety, cough, nausea, allergic reactions like rash, 
-hives, itching and skin reddening. </p>
-<p>Uncommon side effects 
+hives, itching and skin reddening. 
+Uncommon side effects 
 Visual side effects include: Inflammation and bleeding in the front part of the eye, sac of pus on the eye, 
 changes of the central part of the eye surface, pain or irritation at the site of injection, abnormal sensation in 
 the eye, irritation of the eyelid. </p>
@@ -251,91 +250,70 @@ Pack containing one glass vial of ranibizumab with chlorobutyl rubber stopper, o
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 2616 LR Delft 
 The Netherlands </p>
-<p>For any information about this medicine, please contact the local representative of the Marketing </p>
-<p>Authorisation Holder: </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Biogen Belgium NV/S.A 
 T l/Tel: + 32 (0)2 808 5Lietuva 
 Biogen Lithuania UAB 
-Tel: +370 52 07 91  </p>
-<p>Ewopharma AG Representative Office 
-Te .: + 359 249 176<br />
-Luxembourg/Luxemburg 
+Tel: +370 52 07 91 <br />
+Ewopharma AG Representative Office 
+Te .: + 359 249 176 Luxembourg/Luxemburg 
 Biogen Belgium NV/SA 
-T l/Tel: +35 227 772<br />
- esk  republika 
+T l/Tel: +35 227 772  esk  republika 
 Biogen (Czech Republic) s.r.o. 
-Tel: + 420 228 884<br />
-Magyarorsz g 
+Tel: + 420 228 884 Magyarorsz g 
 Biogen Hungary Kft. 
-Tel.: + 36 1 848 04<br />
-Danmark 
+Tel.: + 36 1 848 04 Danmark 
 Biogen (Denmark) A/S 
-Tlf: + 45 78 79 37<br />
-Malta 
+Tlf: + 45 78 79 37 Malta 
 Pharma.MT Ltd 
-Tel: + 356 27 78 15<br />
-Deutschland 
+Tel: + 356 27 78 15 Deutschland 
 Biogen GmbH<br />
 Tel: + 49 (0)89 996 177 Nederland 
 Biogen Netherlands B.V. 
-Tel: + 31 (0)20 808 02<br />
-Eesti 
+Tel: + 31 (0)20 808 02 Eesti 
 Biogen Estonia O<br />
-Tel: + 372 6 68 30<br />
-Norge 
+Tel: + 372 6 68 30 Norge 
 Biogen Norway AS 
-Tlf: + 47 21 93 95  </p>
-<p>Genesis Pharma S.A. 
+Tlf: + 47 21 93 95 <br />
+Genesis Pharma S.A. 
  : + 30 211 176 8 sterreich 
 Biogen Austria GmbH 
-Tel: + 43 (0)1 267 51<br />
-Espa a 
+Tel: + 43 (0)1 267 51 Espa a 
 Biogen Spain, S.L. 
-Tel: + 34 931 790<br />
-Polska 
+Tel: + 34 931 790 Polska 
 Biogen Poland Sp. z o.o. 
-Tel.: + 48 22 116 86<br />
-France 
+Tel.: + 48 22 116 86 France 
 Biogen France SAS 
-T l: + 33 (0)1 776 968  </p>
-<p>Portugal 
+T l: + 33 (0)1 776 968 Portugal 
 Biogen Portugal Sociedade Farmac utica, 
 Unipessoal, Lda 
-Tel: + 351 308 800<br />
-Hrvatska 
+Tel: + 351 308 800 Hrvatska 
 Ewopharma d.o.o 
 Tel: + 385 (0)1 777 64 Rom nia 
 Ewopharma AG Representative Office 
 Tel: + 40 377 881 Ireland 
 Biogen Idec (Ireland) Ltd. 
-Tel: +353 (0)1 513 33<br />
-Slovenija 
+Tel: +353 (0)1 513 33 Slovenija 
 Biogen Pharma d.o.o. 
-Tel: + 386 (0)1 888 81<br />
- sland 
+Tel: + 386 (0)1 888 81  sland 
 Icepharma hf. 
-S mi: + 354 800 9 
-Slovensk  republika 
+S mi: + 354 800 9Slovensk  republika 
 Biogen Slovakia s.r.o.<br />
-Tel: + 421 (0)2 333 257<br />
-Italia 
+Tel: + 421 (0)2 333 257 Italia 
 Biogen Italia s.r.l. 
-Tel: + 39 (0)6 899 701<br />
-Suomi/Finland 
+Tel: + 39 (0)6 899 701 Suomi/Finland 
 Biogen Finland Oy 
-Puh/Tel: + 358 (0)9 427 041  </p>
-<p>Genesis Pharma (Cyprus) Ltd 
+Puh/Tel: + 358 (0)9 427 041 <br />
+Genesis Pharma (Cyprus) Ltd 
  : + 357 22 00 04 Sverige 
 Biogen Sweden AB 
-Tel: +46 (0)8 525 038  </p>
-<p>Latvija 
+Tel: +46 (0)8 525 038 Latvija 
 Biogen Latvia SIA 
-Tel: + 371 66 16 40<br />
-United Kingdom (Northern Ireland) 
+Tel: + 371 66 16 40 United Kingdom (Northern Ireland) 
 Biogen Idec (Ireland) Ltd. 
-Tel: +44 (0)20 360 886  </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 (0)20 360 886 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

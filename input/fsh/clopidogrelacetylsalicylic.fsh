@@ -4,7 +4,7 @@ Instance: composition-en-0038e5833697485dc38d33d1305d9883
 InstanceOf: CompositionUvEpi
 Title: "Composition for clopidogrelacetylsalicylic Package Leaflet"
 Description:  "Composition for clopidogrelacetylsalicylic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Clopidogrel/Acetylsalicylic acid Zentiva is and what it is used for 
-2. What you need to know before you take Clopidogrel/Acetylsalicylic acid Zentiva 
-3. How to take Clopidogrel/Acetylsalicylic acid Zentiva 
-4. Possible side effects 
-5. How to store Clopidogrel/Acetylsalicylic acid Zentiva 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Clopidogrel/Acetylsalicylic acid Zentiva is and what it is used for </li>
+<li>What you need to know before you take Clopidogrel/Acetylsalicylic acid Zentiva </li>
+<li>How to take Clopidogrel/Acetylsalicylic acid Zentiva </li>
+<li>Possible side effects </li>
+<li>How to store Clopidogrel/Acetylsalicylic acid Zentiva </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -134,8 +134,7 @@ yellowing of the skin or eyes (jaundice) (see section 4). </p>
 <p>If you cut or injure yourself, it may take longer than usual for bleeding to stop. This is linked to 
 the way your medicine works as it prevents the ability of blood clots to form. For minor cuts and 
 injuries e.g., cutting yourself, shaving, this is usually of no concern. However, if you are 
-concerned by your bleeding, you should contact your doctor straightaway (see section 4 
- Possible side effects ). </p>
+concerned by your bleeding, you should contact your doctor straightaway (see section 4. Possible side effects ). </p>
 <p>Your doctor may order blood tests. </p>
 <p>Children and adolescents 
 Clopidogrel/Acetylsalicylic acid Zentiva is not intended for use in children or adolescents less than 
@@ -361,91 +360,67 @@ Sanofi Winthrop Industrie
 Authorisation Holder:  </p>
 <p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-T l/Tel: +32 (0)2 710 54<br />
-Lietuva 
+T l/Tel: +32 (0)2 710 54 Lietuva 
 UAB  SANOFI-AVENTIS LIETUVA<br />
-Tel: +370 5 2755 </p>
-<p>SANOFI BULGARIA EOOD 
- : +359 (0)2 970 53<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 2755<br />
+SANOFI BULGARIA EOOD 
+ : +359 (0)2 970 53 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
 T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
 <p>esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Magyarorsz g 
+Tel: +420 233 086 Magyarorsz g 
 SANOFI-AVENTIS Zrt.<br />
-Tel.: +36 1 505 0 
-Danmark 
+Tel.: +36 1 505 0Danmark 
 Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Malta 
+Tlf: +45 45 16 70 Malta 
 Sanofi Malta Ltd. 
-Tel: +356 21493 
-Deutschland 
+Tel: +356 21493Deutschland 
 Zentiva Pharma GmbH 
-Tel.: +49 (0)180 20 200<br />
-Nederland 
+Tel.: +49 (0)180 20 200 Nederland 
 sanofi-aventis Netherlands B.V. 
-Tel: +31 20 245 4 
-Eesti 
+Tel: +31 20 245 4Eesti 
 sanofi-aventis Estonia O<br />
-Tel: +372 627 3 
-Norge 
+Tel: +372 627 3Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71  </p>
-<p>sanofi-aventis AEBE 
- : +30 210 900 16<br />
- sterreich 
+Tlf: +47 67 10 71 <br />
+sanofi-aventis AEBE 
+ : +30 210 900 16  sterreich 
 sanofi-aventis GmbH 
 Tel: +43 1 80 185   0 </p>
 <p>Espa a 
 sanofi-aventis, S.A. 
-Tel: +34 93 485 94<br />
-Polska 
+Tel: +34 93 485 94 Polska 
 sanofi-aventis Sp. z o.o. 
-Tel: +48 22 280 00<br />
-France 
+Tel: +48 22 280 00 France 
 sanofi-aventis France 
-T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
-Portugal 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23 Portugal 
 Sanofi - Produtos Farmac uticos, Lda 
-Tel: +351 21 35 89<br />
-Hrvatska 
+Tel: +351 21 35 89 Hrvatska 
 sanofi-aventis Croatia d.o.o. 
 Tel: +385 1 600 34 Rom nia 
 Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-Ireland 
+Tel: +40 (0) 21 317 31 Ireland 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Slovenija 
+Tel: +353 (0) 1 403 56 Slovenija 
 sanofi-aventis d.o.o. 
-Tel: +386 1 560 48<br />
- sland 
+Tel: +386 1 560 48  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 sanofi-aventis Pharma Slovakia s.r.o. 
-Tel: +421 2 33 100<br />
-Italia 
+Tel: +421 2 33 100 Italia 
 Zentiva Italia S.r.l. 
-Tel: 800.536<br />
-Suomi/Finland 
+Tel: 800.536 Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200  </p>
-<p>sanofi-aventis Cyprus Ltd. 
- : +357 22 871 
-Sverige 
+Puh/Tel: +358 (0) 201 200 <br />
+sanofi-aventis Cyprus Ltd. 
+ : +357 22 871Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Latvija 
+Tel: +46 (0)8 634 50 Latvija 
 sanofi-aventis Latvia SIA 
-Tel: +371 67 33 24<br />
-United Kingdom 
+Tel: +371 67 33 24 United Kingdom 
 Sanofi 
-Tel: +44 (0) 845 372 7 </p>
-<p>This leaflet was last revised in <em>Month YYYY</em>. </p>
+Tel: +44 (0) 845 372 7This leaflet was last revised in <em>Month YYYY</em>. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu/  </p>         </div>"""      
 

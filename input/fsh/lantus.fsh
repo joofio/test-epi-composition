@@ -4,7 +4,7 @@ Instance: composition-en-06248bd6009a92ba547ad80d4d64eaf8
 InstanceOf: CompositionUvEpi
 Title: "Composition for lantus Package Leaflet"
 Description:  "Composition for lantus Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Lantus is and what it is used for 
 2. What you need to know before you use Lantus 
 3. How to use Lantus 
 4. Possible side effects 
 5. How to store Lantus 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -144,11 +143,13 @@ blood pressure),  </li>
 <li>monoamine oxidase (MAO) inhibitors (used to treat depression), </li>
 <li>pentoxifylline, propoxyphene, salicylates (such as acetylsalicylic acid, used to relieve pain and 
 lower fever),  </li>
-<li>sulfonamide antibiotics. </li>
-</ul>
-<p>Medicines that may cause your blood sugar level to rise (hyperglycaemia) include:</p>
-<ul>
-<li>corticosteroids (such as "cortisone" used to treat inflammation),  </li>
+<li>
+<p>sulfonamide antibiotics. 
+Medicines that may cause your blood sugar level to rise (hyperglycaemia) include:</p>
+</li>
+<li>
+<p>corticosteroids (such as "cortisone" used to treat inflammation),  </p>
+</li>
 <li>danazol (medicine acting on ovulation),  </li>
 <li>diazoxide (used to treat high blood pressure),  </li>
 <li>diuretics (used to treat high blood pressure or excessive fluid retention),  </li>
@@ -240,8 +241,8 @@ disinfectants or other substances contaminate the insulin. Do not mix Lantus wit
 medicines. Do not dilute it. Mixing or diluting may change the action of Lantus. </p>
 <p>Always use a new vial if you notice that your blood sugar control is unexpectedly getting worse. This 
 is because the insulin may have lost some of its effectiveness. If you think you may have a problem 
-with Lantus, have it checked by your doctor or pharmacist </p>
-<p>Insulin mix-ups </p>
+with Lantus, have it checked by your doctor or pharmacist 
+Insulin mix-ups </p>
 <p>You must always check the insulin label before each injection to avoid mix-ups between Lantus and 
 other insulins.  </p>
 <p>If you use more Lantus than you should </p>
@@ -363,90 +364,69 @@ Sanofi-Aventis Deutschland GmbH, D-65926 Frankfurt am Main, Germany. </p>
 Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Sanofi Belgium 
-T l/Tel: +32 (0)2 710 54<br />
-Lietuva 
+T l/Tel: +32 (0)2 710 54 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91  </p>
-<p>Swixx Biopharma EOOD 
- .: +359 (0)2 4942<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 236 91 <br />
+Swixx Biopharma EOOD 
+ .: +359 (0)2 4942 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
 T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
 <p>esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Magyarorsz g 
+Tel: +420 233 086 Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
-Tel.: +36 1 505 0 
-Danmark 
+Tel.: +36 1 505 0Danmark 
 Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Malta 
+Tlf: +45 45 16 70 Malta 
 Sanofi S.r.l. 
-Tel: +39 02 39394 
-Deutschland 
+Tel: +39 02 39394Deutschland 
 Sanofi-Aventis Deutschland GmbH 
 Tel.: 0800 52 52 Tel. aus dem Ausland: +49 69 305 21 Nederland 
 Sanofi B.V. 
-Tel: +31 20 245 4 </p>
-<p>Eesti 
+Tel: +31 20 245 4Eesti 
 Swixx Biopharma O <br />
-Tel: +372 640 10  </p>
-<p>Norge 
+Tel: +372 640 10 Norge 
 sanofi-aventis Norge AS 
-Tlf: +47 67 10 71  </p>
-<p>Sanofi-Aventis   AEBE<br />
- : +30 210 900 16<br />
- sterreich 
+Tlf: +47 67 10 71 <br />
+Sanofi-Aventis   AEBE<br />
+ : +30 210 900 16  sterreich 
 sanofi-aventis GmbH 
 Tel: +43 1 80 185   0 </p>
 <p>Espa a 
 sanofi-aventis, S.A 
-Tel: +34 93 485 94<br />
-Polska 
+Tel: +34 93 485 94 Polska 
 sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00<br />
-France 
+Tel.: +48 22 280 00 France 
 Sanofi Winthrop Industrie 
-T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
-Portugal 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23 Portugal 
 Sanofi - Produtos Farmac uticos, Lda. 
-Tel: +351 21 35 89<br />
-Hrvatska 
+Tel: +351 21 35 89 Hrvatska 
 Swixx Biopharma d.o.o. 
 Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-Ireland 
+Tel: +40 (0) 21 317 31 Ireland 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Slovenija 
+Tel: +353 (0) 1 403 56 Slovenija 
 Swixx Biopharma d.o.o. 
-Tel: +386 1 235 51<br />
- sland 
+Tel: +386 1 235 51  sland 
 Vistor hf. 
 S mi: +354 535 7Slovensk  republika 
 Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33<br />
-Italia 
+Tel: +421 2 208 33 Italia 
 Sanofi S.r.l. 
 Tel: 800 13 12 12 (domande di tipo tecnico)<br />
 800.536389 (altre domande) </p>
 <p>Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200  </p>
-<p>C.A. Papaellinas Ltd. 
- : +357 22 741 
-Sverige 
+Puh/Tel: +358 (0) 201 200 <br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Latvija 
+Tel: +46 (0)8 634 50 Latvija 
 Swixx Biopharma SIA 
-Tel: +371 6 616 47<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other source of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-cfcde91a66ec9c44e54756602bc42482
 InstanceOf: CompositionUvEpi
 Title: "Composition for libtayo Package Leaflet"
 Description:  "Composition for libtayo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What LIBTAYO is and what it is used for 
-2. What you need to know before you are given LIBTAYO  
-3. How you are given LIBTAYO 
-4. Possible side effects  
-5. How to store LIBTAYO  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What LIBTAYO is and what it is used for </li>
+<li>What you need to know before you are given LIBTAYO  </li>
+<li>How you are given LIBTAYO </li>
+<li>Possible side effects  </li>
+<li>How to store LIBTAYO  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -422,90 +422,64 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Regeneron Ireland DAC 
-T l/Tel: 0800 89 
-Lietuva 
+T l/Tel: 0800 89Lietuva 
 Medison Pharma Lithuania UAB 
-Tel: 8 800 33 </p>
-<p>Medison Pharma Bulgaria Ltd. 
- .: 8002100 
-Luxembourg/Luxemburg 
+Tel: 8 800 33<br />
+Medison Pharma Bulgaria Ltd. 
+ .: 8002100Luxembourg/Luxemburg 
 Regeneron Ireland DAC 
-T l/Tel: 8007-9 
- esk  republika 
+T l/Tel: 8007-9 esk  republika 
 Medison Pharma s.r.o. 
 Magyarorsz g 
 Medison Pharma Hungary Kft </p>
-<p>Tel: 800 050<br />
-Tel.: 06-809-93029  </p>
-<p>Danmark 
+<p>Tel: 800 050 Tel.: 06-809-93Danmark 
 Regeneron Ireland DAC 
-Tlf: 80 20 03<br />
-Malta 
+Tlf: 80 20 03 Malta 
 Genesis Pharma (Cyprus) Ltd 
-Tel: 080065169  </p>
-<p>Deutschland 
+Tel: 080065Deutschland 
 Regeneron GmbH 
-Tel.: 0800 330 4267  </p>
-<p>Nederland 
+Tel.: 0800 330 4Nederland 
 Regeneron Ireland DAC 
-Tel: 0800 020 0943<br />
-Eesti 
+Tel: 0800 020 0Eesti 
 Medison Pharma Estonia O<br />
-Tel: 800 004 4845  </p>
-<p>Norge 
+Tel: 800 004 4Norge 
 Regeneron Ireland DAC 
-Tlf: 8003 15 33  </p>
-<pre><code> . .
-</code></pre>
-<p>: 00800 44146336  </p>
-<p>sterreich 
+Tlf: 8003 15 <br />
+     . . 
+ : 00800 44146 sterreich 
 Regeneron Ireland DAC 
-Tel: 01206094 
-Espa a 
+Tel: 01206094Espa a 
 sanofi-aventis, S.A.<br />
-Tel: 0900031 
-Polska 
+Tel: 0900031Polska 
 Medison Pharma Sp. z o.o. 
-Tel.: 0800 080<br />
-France 
+Tel.: 0800 080 France 
 Regeneron France SAS 
-T l: 080 554 3 
-Portugal 
+T l: 080 554 3Portugal 
 Regeneron Ireland DAC 
-Tel: 800783 
-Hrvatska<br />
+Tel: 800783Hrvatska<br />
 Medison Pharma d.o.o. 
-Tel: 800 787 074  </p>
-<p>Rom nia 
+Tel: 800 787 Rom nia 
 Medison Pharma SRL 
 Tel: 0800 400Ireland 
 Regeneron Ireland DAC 
-Tel: 01800800 
-Slovenija 
+Tel: 01800800Slovenija 
 Medison Pharma d.o.o. 
-Tel: 386 800 83 
- sland 
+Tel: 386 800 83 sland 
 Regeneron Ireland DAC<br />
-S mi: 354 800 4 
-Slovensk  republika 
+S mi: 354 800 4Slovensk  republika 
 Medison Pharma s.r.o. 
 Tel: 0800 123 Italia 
 Regeneron Italy S.r.l. 
-Tel: 800180 
-Suomi/Finland 
+Tel: 800180Suomi/Finland 
 Regeneron Ireland DAC<br />
-Puh/Tel: 0800 772 </p>
-<p>Genesis Pharma (Cyprus) Ltd 
- : 0800 925<br />
-Sverige 
+Puh/Tel: 0800 772<br />
+Genesis Pharma (Cyprus) Ltd 
+ : 0800 925 Sverige 
 Regeneron Ireland DAC 
-Tel: 0201 604786  </p>
-<p>Latvija 
+Tel: 0201 604Latvija 
 Medison Pharma Latvia SIA 
-Tel: 371 8000 5 
-United Kingdom (Northern Ireland) 
+Tel: 371 8000 5United Kingdom (Northern Ireland) 
 Regeneron Ireland DAC<br />
-Tel: 0 800 917 7120  </p>
-<p>This leaflet was last revised in  </p>
+Tel: 0 800 917 7This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

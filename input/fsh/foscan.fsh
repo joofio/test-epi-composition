@@ -4,7 +4,7 @@ Instance: composition-en-395326013d549ebdb9d953865850ffcf
 InstanceOf: CompositionUvEpi
 Title: "Composition for foscan Package Leaflet"
 Description:  "Composition for foscan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,7 +44,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contents of the pack and other information </p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
 
 
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Foscan is and what it is used for 
-2. What you need to know before you use Foscan  
-3. How to use Foscan 
-4. Possible side effects 
-5. How to store Foscan 
-6.  
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Foscan is and what it is used for </li>
+<li>What you need to know before you use Foscan  </li>
+<li>How to use Foscan </li>
+<li>Possible side effects </li>
+<li>How to store Foscan </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -141,7 +141,7 @@ burning feeling on the skin. You must get out of the light immediately. </p>
 <p>Your eyes may be very sensitive to bright lights during this week. You may get 
 eye pain or headache when lights are switched on. If you have this problem, 
 wear dark glasses. </p>
-<p>Days 8- You can now begin to go outside during daylight hours. Stay in shaded areas or 
+<p>Days 8-You can now begin to go outside during daylight hours. Stay in shaded areas or 
 go out when it is cloudy. Continue to wear dark, closely woven clothing. </p>
 <p>Start on Day 8 with 10-15 minutes outdoors. If you do not see any skin redness 
 in the next 24 hours, you can gradually increase your time outdoors during the 
@@ -154,14 +154,7 @@ week. </p>
 should avoid direct sunlight for another 24 hours. You can then repeat the test. </p>
 <p>If there is no redness, you can gradually increase your exposure to sunlight day 
 by day. Do not stay in the sunlight for more than 15 minutes the first time. Most 
-people will be able to go back to their normal routine by Day 2</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take foscan"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take foscan"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>On the first day after the skin test, you can stay in direct sunlight for minutes. You can increase your exposure by another 15 minutes each day i.e. 
+people will be able to go back to their normal routine by Day 22. On the first day after the skin test, you can stay in direct sunlight for minutes. You can increase your exposure by another 15 minutes each day i.e. 
 second day 30 minutes, third day 45 minutes, fourth day 60 minutes and so on. 
 If at any time you notice a prickly or burning feeling or see skin reddening after 
 exposure to sun, wait until this disappears before exposing your skin to light for 
@@ -189,13 +182,12 @@ because of the recommended light exposure restrictions </p>
 of beer, 35 ml wine per dose. This product is also harmful for those suffering from alcoholism. 
 Pregnant or breast-feeding women, children and high-risk groups such as patients with liver 
 disease or epilepsy are also at risk. 
-The amount of alcohol in this product may alter the effects of other medicines. </p>         </div>"""         
-
-        
+The amount of alcohol in this product may alter the effects of other medicines. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take foscan"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take foscan"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor or nurse will give you Foscan by a slow injection into a vein, which will take 
 approximately 6 minutes. </p>
@@ -206,12 +198,13 @@ the cancer for about 5 minutes. The laser light is not hot and will not burn. </
 <p>You may not be given the laser treatment.  </p>
 <p>You may be sensitive to light for more than 15 days.  </p>
 <p>You must follow carefully the instructions on preventing skin burns. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse.  </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse.  </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store foscan"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store foscan"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Foscan can cause side effects.  </p>
 <p>Everyone who takes Foscan will become sensitive to light for about 15 days after injection. </p>
@@ -264,11 +257,10 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store foscan"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store foscan"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
 Do not use this medicine after the expiry date which is stated on the label and the carton. The expiry 
@@ -278,4 +270,27 @@ Do not store above 25 oC.
 Store in the original package in order to protect from light. Once removed from its package, this 
 medicine must be used immediately. 
 Each vial is a single dose and any unused medicine must be discarded. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Foscan contains </p>
+<ul>
+<li>The active substance is temoporfin. Each ml contains 1 mg of temoporfin. </li>
+<li>The other ingredients are ethanol anhydrous (E1510) and propylene glycol (E1520). </li>
+</ul>
+<p>What Foscan looks like and contents of the pack </p>
+<p>Foscan solution for injection is a dark purple solution in an amber glass vial, containing 1 ml, 3 ml or 
+6 ml of solution.<br />
+Each pack contains 1 glass vial and a filter. 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>biolitec Pharma Ltd. 
+Otto-Schott-Str. 07745 Jena 
+Germany 
+Tel.: +49 3641 5195Fax: +49 3641 5195This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

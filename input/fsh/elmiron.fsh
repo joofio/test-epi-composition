@@ -4,7 +4,7 @@ Instance: composition-en-5245a6b0f8b8592e9406a25ffe7ba2b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for elmiron Package Leaflet"
 Description:  "Composition for elmiron Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What elmiron is and what it is used for  
-2. What you need to know before you take elmiron   
-3. How to take elmiron   
-4. Possible side effects  
-5. How to store elmiron   
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What elmiron is and what it is used for<br />
+2. What you need to know before you take elmiron <br />
+3. How to take elmiron <br />
+4. Possible side effects<br />
+5. How to store elmiron <br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -267,20 +266,17 @@ T l: +33 (0)389 707660, info@inresa.fr </p>
 <p>HR<br />
 MEDICOPHARMACIA d.o.o., Pere Budmanija 5, 10000 Zagreb, 
 Hrvatska, 
-Tel: + 385 1 55 84<br />
-HU 
+Tel: + 385 1 55 84 HU 
 K ri Pharma Hungary Kft., 4032 Debrecen, Bartha B. u. 7,<br />
 Magyarorsz g, 
-Tel.: +36 52 431<br />
-IE 
+Tel.: +36 52 431 IE 
 Consilient Health, Block 2A Richview Office Park, Clonskeagh, Dublin 14, D14 Y0A5 
 Ireland, 
 Tel: +353 (0) 1 2057760, irishoffice@consilienthealth.com </p>
 <p>LT 
 UAB Norameda, Meistr  g. 8A, LT-02189 Vilnius, 
 Lietuva, 
-Tel. +370 5 2306 
-PL 
+Tel. +370 5 2306PL 
 Norameda Polska Sp. z o.o., Kili skiego 20, PL-05-500 Piaseczno, 
 Polska, 
 Tel.: +48 (0) 504 278 778, kontakt.pl@norameda.com </p>
@@ -290,8 +286,7 @@ Slovenija,
 Tel: +386(0) 1 235 07 00, info@lenis.si </p>
 <p>XI 
 Consilient Health Limited 
-Tel: +353 (0)1 205 7760  </p>
-<p>This leaflet was last revised in </p>
+Tel: +353 (0)1 205 7This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website 
 http://www.ema.europa.eu.  </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-5499c94597b7b7823625dbbed61c998f
 InstanceOf: CompositionUvEpi
 Title: "Composition for idelvion Package Leaflet"
 Description:  "Composition for idelvion Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What IDELVION is and what it is used for
 2. What you need to know before you use IDELVION
 3. How to use IDELVION
 4. Possible side effects
 5. How to store IDELVION
-6. Contents of the pack and other information         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -153,15 +153,8 @@ General Instructions</p>
 the medicine sterile (germ free). Your doctor will show you how to prepare the solution and 
 how to withdraw the solution from the vial correctly.</p>
 <p>IDELVION must not be mixed with other medicines or solvents except those mentioned in 
-section </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The solution should be clear or slightly opalescent, yellow to colourless, i.e. it might be 
+section 6.<br />
+The solution should be clear or slightly opalescent, yellow to colourless, i.e. it might be 
 sparkling when held up to the light but must not contain any obvious particles. After filtering or 
 withdrawal (see below) the solution should be visually checked, before it is used. Do not use the 
 solution if it is cloudy or if it contains flakes or particles.</p>
@@ -230,12 +223,13 @@ syringe containing the product.
 Check yourself for any side effects that might happen straight away. If you have any side effects that 
 might be related to the administration of IDELVION, the injection should be stopped (see also sections
 2 and 4).
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store idelvion"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store idelvion"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Please contact your doctor immediately:</p>
@@ -266,11 +260,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store idelvion"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store idelvion"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date, which is stated on the label and carton.</p>
@@ -280,4 +273,117 @@ safety of this medicine.</p>         </div>"""
 <p>The reconstituted product should preferably be used immediately. </p>
 <p>If the reconstituted product is not administered immediately, storage times and conditions prior 
 to use are in the responsibility of the user.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What IDELVION contains
+The active substance is:
+250 IU per vial; after reconstitution with 2.5 ml of water for injections the solution contains 100 IU/ml 
+of albutrepenonacog alfa.
+500 IU per vial; after reconstitution with 2.5 ml of water for injections the solution contains 200 IU/ml 
+of albutrepenonacog alfa.
+1000 IU per vial; after reconstitution with 2.5 ml of water for injections the solution contains 
+400 IU/ml of albutrepenonacog alfa.
+2000 IU per vial; after reconstitution with 5 ml of water for injections the solution contains 400 IU/ml 
+of albutrepenonacog alfa.
+3500 IU per vial; after reconstitution with 5 ml of water for injections the solution contains 700 IU/ml 
+of albutrepenonacog alfa.
+The other ingredients are:
+Sodium citrate, polysorbate 80, mannitol, sucrose, and hydrochloric acid (for pH adjustment)
+See last paragraph of section 2. Solvent: Water for injections
+What IDELVION looks like and contents of the pack
+IDELVION is presented as a pale yellow to white powder and is supplied with water for injections as 
+solvent.
+The reconstituted solution should be clear to slightly opalescent, yellow to colourless i.e. it might 
+sparkle when held up to the light but must not contain any obvious particles. 
+Presentations
+One pack with 250, 500 or 1000 IU containing:
+1 vial with powder
+1 vial with 2.5 ml water for injections
+1 filter transfer device 20/One inner box containing:
+1 disposable 5 ml syringe 
+1 venipuncture set
+2 alcohol swabs
+1 non-sterile plaster
+One pack with 2000 or 3500 IU containing:
+1 vial with powder
+1 vial with 5 ml water for injections
+1 filter transfer device 20/One inner box containing:
+1 disposable 10 ml syringe 
+1 venipuncture set
+2 alcohol swabs
+1 non-sterile plaster
+Not all pack sizes may be marketed.
+Marketing Authorization Holder and Manufacturer
+CSL Behring GmbH
+Emil-von-Behring-Stra e 35041 Marburg
+Germany
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+CSL Behring NV
+T l/Tel: +32 15 28 89 Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0 </p>
+<p>: +359 2 810 3Luxembourg/Luxemburg
+CSL Behring NV
+T l/Tel: +32 15 28 89  esk  republika
+CSL Behring s.r.o.
+Tel: + 420 702 137 Magyarorsz g
+CSL Behring Kft.
+Tel.: +36 1 213 4Danmark
+CSL Behring AB
+Tel: +46 8 544 966 Malta
+AM Mangion Ltd.
+Tel: +356 2397 6Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584Nederland
+CSL Behring BV
+Tel: + 31 85 111 96 Eesti
+CentralPharma Communications O<br />
+Tel: +3726015Norge
+CSL Behring AB
+Tlf: +46 8 544 966<br />
+CSL Behring<br />
+ : +30 210 7255  sterreich
+CSL Behring GmbH
+Tel: +43 1 80101 2Espa a
+CSL Behring S.A.
+Tel: +34 933 67 1Polska
+CSL Behring Sp.z o.o.
+Tel: +48 22 213 22 France
+CSL Behring S.A.
+T l: + 33  (0)-1 53 58 54 Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 Hrvatska
+Marti Farm d.o.o.
+Tel: +385 1 5588Rom nia
+Prisum Healthcare srl
+Tel: +40 21 322 0Ireland
+CSL Behring GmbH
+Tel: +49 69 30517Slovenija
+Emmes Biopharma Global s.r.o.-podru nica v 
+Sloveniji 
+Tel: + 386 41 42 0 sland
+CSL Behring AB
+S mi: +46 8 544 966 Slovensk  republika
+CSL Behring s.r.o.
+Tel: + 421 911 653 Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966<br />
+CSL Behring<br />
+ : +30 210 7255 Sverige
+CSL Behring AB
+Tel: +46 8 544 966 Latvija
+CentralPharma Communications SIA 
+Tel: +371 6 7450United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 305 17This leaflet was last revised in {MM/YYYY}.
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

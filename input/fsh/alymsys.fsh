@@ -4,7 +4,7 @@ Instance: composition-en-8ad222fa20f6122792e54d69414353b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for alymsys Package Leaflet"
 Description:  "Composition for alymsys Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Alymsys is and what it is used for  
-2. What you need to know before you use Alymsys 
-3. How to use Alymsys 
-4. Possible side effects  
-5. How to store Alymsys 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Alymsys is and what it is used for  </li>
+<li>What you need to know before you use Alymsys </li>
+<li>How to use Alymsys </li>
+<li>Possible side effects  </li>
+<li>How to store Alymsys </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -91,8 +91,8 @@ when cancer cells have specific mutations of a protein called epidermal growth f
 patients with kidney cancer, it will be administered with another type of medicine called interferon. </p>
 <p>Alymsys is also used for the treatment of adult patients with advanced epithelial ovarian, fallopian 
 tube, or primary peritoneal cancer. When used for patients with epithelial ovarian, fallopian tube, or 
-primary peritoneal cancer, it will be administered in combination with carboplatin and paclitaxel. </p>
-<p>When used for those adult patients with advanced epithelial ovarian, fallopian tube, or primary 
+primary peritoneal cancer, it will be administered in combination with carboplatin and paclitaxel. 
+When used for those adult patients with advanced epithelial ovarian, fallopian tube, or primary 
 peritoneal cancer whose disease has come back at least 6 months after the last time they were treated 
 with a chemotherapy regimen containing a platinum agent, Alymsys will be administered in 
 combination with carboplatin and gemcitabine or with carboplatin and paclitaxel. </p>
@@ -314,8 +314,8 @@ This does not necessarily mean that these side effects were strictly caused by A
 If you have an allergic reaction, tell your doctor or a member of the medical staff straight away. The 
 signs may include difficulty in breathing or chest pain. You could also experience redness or flushing 
 of the skin or a rash, chills and shivering, feeling sick (nausea) or being sick (vomiting), swelling, 
-lightheadedness, fast heartbeat and loss of consciousness. </p>
-<p>You should seek help immediately if you suffer from any of the below mentioned side effects. </p>
+lightheadedness, fast heartbeat and loss of consciousness. 
+You should seek help immediately if you suffer from any of the below mentioned side effects. </p>
 <p>Severe side effects, which may be very common (may affect more than 1 in 10 people), include: 
 * high blood pressure, 
 * feeling of numbness or tingling in hands or feet, 
@@ -479,91 +479,65 @@ Armunia, 24009 Le n, Spain </p>
 Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Mabxience Research SL 
-T l/Tel: +34 917 711<br />
-Lietuva 
+T l/Tel: +34 917 711 Lietuva 
 Zentiva, k.s. 
-Tel: +370 52152 </p>
-<p>Zentiva, k.s. 
-Te .: +35924417 
-Luxembourg/Luxemburg 
+Tel: +370 52152<br />
+Zentiva, k.s. 
+Te .: +35924417Luxembourg/Luxemburg 
 Mabxience Research SL 
-T l/Tel: +34 917 711<br />
- esk  republika 
+T l/Tel: +34 917 711  esk  republika 
 Zentiva, k.s. 
-Tel: +420 267 241<br />
-Magyarorsz g 
+Tel: +420 267 241 Magyarorsz g 
 Zentiva Pharma Kft. 
-Tel.: +36 1 299 1 
-Danmark 
+Tel.: +36 1 299 1Danmark 
 Medical Valley Invest AB 
-Tlf: +46 40 122 
-Malta 
+Tlf: +46 40 122Malta 
 Zentiva, k.s. 
-Tel: +356 277 80<br />
-Deutschland 
+Tel: +356 277 80 Deutschland 
 Zentiva Pharma GmbH<br />
-Tel: +49 (0) 800 53 53<br />
-Nederland 
+Tel: +49 (0) 800 53 53 Nederland 
 Medical Valley Invest AB 
-Tel.: +46 40 122 
-Eesti 
+Tel.: +46 40 122Eesti 
 Zentiva, k.s. 
-Tel: +372 52 70 
-Norge 
+Tel: +372 52 70Norge 
 Medical Valley Invest AB 
-Tlf: +46 40 122 </p>
-<p>Win Medica S.A. 
- : +30 210 7488<br />
- sterreich 
+Tlf: +46 40 122<br />
+Win Medica S.A. 
+ : +30 210 7488  sterreich 
 G.L. Pharma GmbH 
-Tel: +43 3136 82 
-Espa a 
+Tel: +43 3136 82Espa a 
 Cipla Europe NV Sucursal EN ESPANA 
 Tel: +34 91 534 16 Polska 
 Zentiva Polska Sp. z o.o. 
-Tel: +48 22 375 92<br />
-France 
+Tel: +48 22 375 92 France 
 Zentiva France 
-T l: +33 (0) 800 089<br />
-Portugal 
+T l: +33 (0) 800 089 Portugal 
 Zentiva Portugal, Lda 
-Tel: +351210601 
-Hrvatska 
+Tel: +351210601Hrvatska 
 Zentiva d.o.o. 
-Tel: +385 1 6641<br />
-Rom nia 
+Tel: +385 1 6641 Rom nia 
 ZENTIVA S.A. 
-Tel: +4 021 304 7 
-Ireland 
+Tel: +4 021 304 7Ireland 
 Zentiva, k.s. 
-Tel: +353 818 882<br />
-Slovenija 
+Tel: +353 818 882 Slovenija 
 Zentiva, k.s. 
-Tel: +386 360 00<br />
- sland 
+Tel: +386 360 00  sland 
 Alvogen ehf. 
-S mi: +354 522 2 
-Slovensk  republika 
+S mi: +354 522 2Slovensk  republika 
 Zentiva, a.s. 
-Tel: +421 2 3918 3 
-Italia 
+Tel: +421 2 3918 3Italia 
 Zentiva Italia S.r.l. 
-Tel: +39 02 38598 
-Suomi/Finland 
+Tel: +39 02 38598Suomi/Finland 
 Medical Valley Invest AB 
-Puh/Tel: +46 40 122 </p>
-<p>Win Medica S.A. 
- : +30 210 7488<br />
-Sverige 
+Puh/Tel: +46 40 122<br />
+Win Medica S.A. 
+ : +30 210 7488 Sverige 
 Medical Valley Invest AB 
-Tel: +46 40 122 
-Latvija 
+Tel: +46 40 122Latvija 
 Zentiva, k.s. 
-Tel: +371 67893 
-United Kingdom (Northern Ireland) 
+Tel: +371 67893United Kingdom (Northern Ireland) 
 Zentiva, k.s. 
-Tel: +44 (0) 800 090 2 </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
+Tel: +44 (0) 800 090 2This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

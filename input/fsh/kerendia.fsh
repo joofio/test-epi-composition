@@ -4,7 +4,7 @@ Instance: composition-en-ea2d9477557df2cb8572d829cd765247
 InstanceOf: CompositionUvEpi
 Title: "Composition for kerendia Package Leaflet"
 Description:  "Composition for kerendia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Kerendia is and what it is used for 
-2. What you need to know before you take Kerendia 
-3. How to take Kerendia 
-4. Possible side effects 
-5. How to store Kerendia 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Kerendia is and what it is used for </li>
+<li>What you need to know before you take Kerendia </li>
+<li>How to take Kerendia </li>
+<li>Possible side effects </li>
+<li>How to store Kerendia </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -149,8 +149,8 @@ your blood pressure. </p>
 <p>Kerendia with food and drink 
 Do not eat grapefruit or drink grapefruit juice as long as you take Kerendia. 
 If you do, you may get too much finerenone in your blood. You may have more side effects (possible 
-side effects are listed in section 4). </p>
-<p>Pregnancy and breast-feeding 
+side effects are listed in section 4). 
+Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Pregnancy 
@@ -249,8 +249,8 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store kerendia"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister, bottle label and carton 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date which is stated on the blister, bottle label and carton 
 after EXP. The expiry date refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
@@ -363,7 +363,6 @@ Tel: +46 (0) 8 580 223 Latvija
 SIA Bayer 
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0)118 206 3 
-This leaflet was last revised in  </p>
+Tel: +44-(0)118 206 3This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

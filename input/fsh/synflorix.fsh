@@ -4,7 +4,7 @@ Instance: composition-en-37418440f4ca23d5d0b03ff171fcb145
 InstanceOf: CompositionUvEpi
 Title: "Composition for synflorix Package Leaflet"
 Description:  "Composition for synflorix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Synflorix is and what it is used for 
 2. What you need to know before your child receives Synflorix 
 3. How Synflorix is given 
 4. Possible side effects 
 5. How to store Synflorix 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,8 +97,8 @@ such as a cold should not be a problem. However, talk to your doctor first. </li
 doctor or pharmacist before your child is given Synflorix. </p>
 <p>Warnings and precautions </p>
 <p>Check with your doctor or pharmacist before this vaccine is given if: 
-* your child has a bleeding problem or bruises easily. </p>
-<p>In children as of 2 years of age, fainting can occur following, or even before, any needle injection, 
+* your child has a bleeding problem or bruises easily. 
+In children as of 2 years of age, fainting can occur following, or even before, any needle injection, 
 therefore tell the doctor or nurse if your child fainted with a previous injection. </p>
 <p>As with all vaccines, Synflorix may not fully protect all children who are vaccinated.  </p>
 <p>Synflorix will only protect against infections caused by the bacteria for which the vaccine has been 
@@ -259,8 +258,8 @@ Pneumococcal polysaccharide serotype 23F1,2
 1 microgram  </p>
 <p>1 adsorbed on aluminium phosphate<br />
 0.5 milligram Al3+ in total </p>
-<p>2 conjugated to protein D (derived from non-typeable Haemophilus influenzae) carrier protein  </p>
-<p>9 16 micrograms </p>
+<p>2 conjugated to protein D (derived from non-typeable Haemophilus influenzae) carrier protein<br />
+9 16 micrograms </p>
 <p>3 conjugated to tetanus toxoid carrier protein 
 5 10 micrograms </p>
 <p>4 conjugated to diphtheria toxoid carrier protein 
@@ -279,7 +278,86 @@ injections  </li>
 </li>
 <li>
 <p>Synflorix is available in 1-dose pre-filled syringe, with or without separate needles, pack sizes 
-of 1, 10 and 5</p>
+of 1, 10 and 50. * Not all pack sizes may be marketed. </p>
 </li>
-</ul>         </div>"""      
+</ul>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>GlaxoSmithKline Biologicals s.a. 
+Rue de l Institut B-1330 Rixensart 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgique/Belgi /Belgien<br />
+GlaxoSmithKline Pharmaceuticals s.a./n.v.<br />
+T l/Tel: + 32 10 85 52 Lietuva 
+GlaxoSmithKline Biologicals SA<br />
+Tel: +370 80000<br />
+GlaxoSmithKline Biologicals SA 
+ .: +359 80018Luxembourg/Luxemburg<br />
+GlaxoSmithKline Pharmaceuticals s.a./n.v.<br />
+T l/Tel: + 32 10 85 52  esk  republika<br />
+GlaxoSmithKline s.r.o.<br />
+Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
+<p>Magyarorsz g 
+GlaxoSmithKline Biologicals SA 
+Tel.: +36 80088Danmark<br />
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GlaxoSmithKline Biologicals SA 
+Tel: +356 80065Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel: + 49 (0)89 360448produkt.info@gsk.com </p>
+<p>Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081Eesti 
+GlaxoSmithKline Biologicals SA <br />
+Tel: +372 8002Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E 
+T : + 30 210 68 82  sterreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>Espa a 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (22) 576 9France 
+Laboratoire GlaxoSmithKline 
+T l: + 33 (0) 1 39 17 84 diam@gsk.com </p>
+<p>Portugal 
+GlaxoSmithKline - Produtos Farmac uticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com </p>
+<p>Hrvatska 
+GlaxoSmithKline Biologicals SA 
+Tel.: +385 800787Rom nia 
+GlaxoSmithKline Biologicals SA 
+Tel: +40 800672Ireland 
+GlaxoSmithKline (Ireland) Ltd 
+Tel: + 353 (0)1 495 5Slovenija 
+GlaxoSmithKline Biologicals SA 
+Tel: +386 80688 sland 
+Vistor hf.<br />
+S mi: +354 535 7Slovensk  republika 
+GlaxoSmithKline Biologicals SA 
+Tel.: +421 800500Italia 
+GlaxoSmithKline S.p.A. 
+Tel:+ 39 (0)45 7741 Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 10 30 30 <br />
+GlaxoSmithKline Biologicals SA 
+ : +357 80070Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+GlaxoSmithKline Biologicals SA 
+Tel: +371 80205United Kingdom (Northern Ireland) 
+GlaxoSmithKline Biologicals SA 
+Tel: +44(0)800 221 customercontactuk@gsk.com </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

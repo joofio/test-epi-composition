@@ -4,7 +4,7 @@ Instance: composition-en-67197f446ece70b3d37301b0d5a7f6eb
 InstanceOf: CompositionUvEpi
 Title: "Composition for aerinaze Package Leaflet"
 Description:  "Composition for aerinaze Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What Aerinaze is and what it is used for 
 2. What you need to know before you take Aerinaze 
-3. How to take Aerinaze  
+3. How to take Aerinaze<br />
 4. Possible side effects 
 5. How to store Aerinaze 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -377,8 +377,7 @@ Organon Polska Sp. z o.o.
 Tel.: +48 22 105 50 organonpolska@organon.com </p>
 <p>France 
 Organon France 
-T l: +33 (0) 1 57 77 32<br />
-Portugal 
+T l: +33 (0) 1 57 77 32 Portugal 
 Organon Portugal, Sociedade Unipessoal Lda. 
 Tel: +351 218705geral_pt@organon.com </p>
 <p>Hrvatska 
@@ -396,8 +395,7 @@ Ljubljana
 Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
 <p>sland 
 Vistor hf. 
-S mi: +354 535 70<br />
-Slovensk  republika 
+S mi: +354 535 70 Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
 <p>Italia 

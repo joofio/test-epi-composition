@@ -4,7 +4,7 @@ Instance: composition-en-11587ff1554abe28faf73fc5e54ae7a8
 InstanceOf: CompositionUvEpi
 Title: "Composition for ximluci Package Leaflet"
 Description:  "Composition for ximluci Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Ximluci is and what it is used for
 2. What you need to know before you are given Ximluci
 3. How Ximluci is given
 4. Possible side effects
 5. How to store Ximluci
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -430,5 +429,22 @@ not be used for the intravitreal injection.
 6. Aseptically and firmly assemble 
 an injection needle (30G x  , 
 0.3 mm x 13 mm) onto the 
-syringe.</p>         </div>"""      
+syringe.
+7. Carefully remove the cap from 
+the injection needle without 
+disconnecting the injection 
+needle from the syringe.
+Note: Grip at the hub of the 
+injection needle while removing 
+the cap.
+8. Carefully expel the air along with the excess solution from 
+the syringe and adjust the dose to the 0.05 mL mark on the 
+syringe. The syringe is ready for injection.
+Note: Do not wipe the injection needle. Do not pull back on 
+the plunger.
+The injection needle should be inserted 3.5 4.0 mm posterior to the limbus into the vitreous cavity, 
+avoiding the horizontal meridian and aiming towards the centre of the globe. The injection volume of 
+0.05 mL is then delivered; a different scleral site should be used for subsequent injections.
+After injection, do not recap the needle or detach it from the syringe. Dispose of the used syringe 
+together with the needle in a sharps disposal container or in accordance with local requirements.</p>         </div>"""      
 

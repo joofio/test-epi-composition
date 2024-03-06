@@ -4,7 +4,7 @@ Instance: composition-en-c3bcf9603926d754cd4924142c795340
 InstanceOf: CompositionUvEpi
 Title: "Composition for twinrix Package Leaflet"
 Description:  "Composition for twinrix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Twinrix Adult is and what it is used for 
 2. What you need to know before you receive  Twinrix Adult 
 3. How Twinrix Adult is given 
 4. Possible side effects 
 5. How to store Twinrix Adult 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -68,8 +67,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What twinrix is and what it is used for"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Twinrix Adult is and what it is used for   </p>
-<p>Twinrix Adult is a vaccine used in adults and adolescents 16 years of age and above to prevent two 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Twinrix Adult is a vaccine used in adults and adolescents 16 years of age and above to prevent two 
 diseases: hepatitis A and hepatitis B. The vaccine works by causing the body to produce its own 
 protection (antibodies) against these diseases. </p>
 <p>Hepatitis A: Hepatitis A is an infectious disease, which can affect the liver.  This disease is caused 
@@ -105,13 +103,13 @@ face or tongue. </li>
 <li>you have previously had an allergic reaction to any vaccine against hepatitis A and hepatitis B 
 diseases. </li>
 <li>you have a severe infection with a high temperature (over 38 C).  A minor infection such as a 
-cold should not be a problem, but talk to your doctor first. </li>
+cold should not be a problem, but talk to your doctor first. 
+Warnings and precautions 
+Talk to your doctor or pharmacist before receiving Twinrix Adult if </li>
+<li>you have experienced any health problems after previous administration of a vaccine. </li>
+<li>you have a poor immune system due to illness or drug treatment. </li>
+<li>you have a bleeding problem or bruise easily. </li>
 </ul>
-<p>Warnings and precautions 
-Talk to your doctor or pharmacist before receiving Twinrix Adult if 
-* you have experienced any health problems after previous administration of a vaccine. 
-* you have a poor immune system due to illness or drug treatment. 
-* you have a bleeding problem or bruise easily. </p>
 <p>Fainting can occur (mostly in adolescents) following, or even before, any needle injection. Therefore 
 tell the doctor or nurse if you fainted with a previous injection. </p>
 <p>A poor response to the vaccine, possibly without achieving protection against hepatitis A, has been 
@@ -266,5 +264,84 @@ Hepatitis B surface antigen3,4
 <p>Suspension for injection in pre-filled syringe. </p>
 <p>Twinrix Adult is a white, slightly milky liquid.  </p>
 <p>Twinrix Adult is available in 1-dose pre-filled syringe with or without separate needles, pack sizes of 
-1, 10 and 2</p>         </div>"""      
+1, 10 and 25. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+GlaxoSmithKline Biologicals s.a. 
+Rue de l Institut B-1330 Rixensart 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+T l/Tel: + 32 10 85 52 Lietuva 
+GlaxoSmithKline Biologicals SA 
+Tel. +370 80000<br />
+GlaxoSmithKline Biologicals SA 
+ .: +359 80018Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+T l/Tel: + 32 10 85 52  esk  republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
+<p>Magyarorsz g 
+GlaxoSmithKline Biologicals SA 
+Tel.: +36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GlaxoSmithKline Biologicals SA<br />
+Tel: +356 80065Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel: + 49 (0)89 360448produkt.info@gsk.com </p>
+<p>Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081Eesti 
+GlaxoSmithKline Biologicals SA 
+Tel: +372 8002Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
+T : + 30 210 68 82  sterreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 970at.info@gsk.com  </p>
+<p>Espa a 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com  </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (22) 576 9France 
+Laboratoire GlaxoSmithKline 
+T l: + 33 (0) 1 39 17 84 diam@gsk.com </p>
+<p>Hrvatska 
+GlaxoSmithKline Biologicals SA 
+Tel.: +385 800787Portugal 
+Smith Kline &amp; French Portuguesa - Produtos 
+Farmac uticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com </p>
+<p>Rom nia 
+GlaxoSmithKline Biologicals SA 
+Tel: +40 800672Ireland 
+Slovenija 
+GlaxoSmithKline (Ireland) Ltd 
+Tel: + 353 (0)1 495 5GlaxoSmithKline Biologicals SA 
+Tel: +386 80688 sland 
+Vistor hf.<br />
+S mi: +354 535 7Slovensk  republika 
+GlaxoSmithKline Biologicals SA 
+Tel.: +421 800500Italia 
+GlaxoSmithKline S.p.A. 
+Tel: + 39 (0)45 7741 Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 10 30 30 <br />
+GlaxoSmithKline Biologicals SA 
+ : +357 80070Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+GlaxoSmithKline Biologicals SA 
+Tel: +371 80205United Kingdom (Northern Ireland) 
+GlaxoSmithKline Biologicals SA 
+Tel: +44(0)800 221customercontactuk@gsk.com </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

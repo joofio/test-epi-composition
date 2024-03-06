@@ -4,7 +4,7 @@ Instance: composition-en-234b7cd047275c814324a4fe38812d55
 InstanceOf: CompositionUvEpi
 Title: "Composition for nplate Package Leaflet"
 Description:  "Composition for nplate Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Nplate is and what it is used for 
-2. What you need to know before you use Nplate 
-3. How to use Nplate 
-4. Possible side effects 
-5. How to store Nplate 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Nplate is and what it is used for </li>
+<li>What you need to know before you use Nplate </li>
+<li>How to use Nplate </li>
+<li>Possible side effects </li>
+<li>How to store Nplate </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -376,6 +376,96 @@ throw away medicines you no longer use. These measures will help protect the env
 1 mL solution contains 500 micrograms of romiplostim (500 micrograms/mL). </p>
 <ul>
 <li>The other ingredients are mannitol (E421), sucrose, L-histidine, hydrochloric acid (for pH 
-adjustment) and polysorbate 2</li>
-</ul>         </div>"""      
+adjustment) and polysorbate 20. What Nplate looks like and contents of the pack </li>
+</ul>
+<p>Nplate is a white powder for solution for injection supplied in a single-dose glass vial. </p>
+<p>Carton containing 1 or 4 vials of either 125 micrograms (beige cap), 250 micrograms (red cap) or 
+500 micrograms of romiplostim (blue cap). </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+The Netherlands </p>
+<p>Marketing Authorisation Holder 
+Amgen Europe B.V. 
+Minervum 74817 ZK Breda 
+The Netherlands </p>
+<p>Manufacturer 
+Amgen Technology (Ireland) Unlimited Company 
+Pottery Road 
+Dun Laoghaire 
+Co Dublin 
+Ireland </p>
+<p>Manufacturer 
+Amgen NV 
+Telecomlaan 5-7 
+1831 Diegem 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+s.a. Amgen n.v. 
+Tel/T l: +32 (0)2 7752Lietuva 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +370 5 219 7  </p>
+<p>.: +359 (0)2 424 7Luxembourg/Luxemburg 
+s.a. Amgen 
+Belgique/Belgien 
+Tel/T l: +32 (0)2 7752 esk  republika 
+Amgen s.r.o. 
+Tel: +420 221 773 Magyarorsz g 
+Amgen Kft. 
+Tel.: +36 1 35 44 Danmark 
+Amgen, filial af Amgen AB, Sverige 
+Tlf: +45 39617Malta 
+Amgen B.V. 
+The Netherlands 
+Tel: +31 (0)76 5732Deutschland 
+AMGEN GmbH 
+Tel.: +49 89 1490Nederland 
+Amgen B.V. 
+Tel: +31 (0)76 5732Eesti 
+Amgen Switzerland AG Vilniaus filialas 
+Tel: +372 586 09Norge 
+Amgen AB 
+Tel: +47 23308<br />
+Amgen      . . . 
+ .: +30 210 3447 sterreich 
+Amgen GmbH 
+Tel: +43 (0)1 50 Espa a 
+Amgen S.A. 
+Tel: +34 93 600 18 Polska 
+Amgen Biotechnologia Sp. z o.o. 
+Tel.: +48 22 581 3France 
+Amgen S.A.S. 
+T l: +33 (0)9 69 363 Portugal 
+Amgen Biofarmac utica, Lda. 
+Tel: +351 21 4220Hrvatska 
+Amgen d.o.o. 
+Tel: +385 (0)1 562 57 Rom nia 
+Amgen Rom nia SRL 
+Tel: +4021 527 3Ireland 
+Amgen Ireland Limited 
+Tel: +353 1 8527Slovenija 
+AMGEN zdravila d.o.o. 
+Tel: +386 (0)1 585 1 sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Amgen Slovakia s.r.o. 
+Tel: +421 2 321 114 Italia 
+Amgen S.r.l. 
+Tel: +39 02 6241Suomi/Finland 
+Amgen AB, sivuliike Suomessa/Amgen AB, filial 
+i Finland 
+Puh/Tel: +358 (0)9 54900K<br />
+C.A. Papaellinas Ltd 
+ .: +357 22741 Sverige 
+Amgen AB 
+Tel: +46 (0)8 6951Latvija 
+Amgen Switzerland AG R gas fili le 
+Tel: +371 257 25United Kingdom (Northern Ireland) 
+Amgen Limited 
+Tel: +44 (0)1223 420This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

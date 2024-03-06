@@ -4,7 +4,7 @@ Instance: composition-en-512ab8ffe41d5df4e3eadcdfe3968ea9
 InstanceOf: CompositionUvEpi
 Title: "Composition for aybintio Package Leaflet"
 Description:  "Composition for aybintio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Aybintio is and what it is used for  
-2. What you need to know before you use Aybintio  
-3. How to use Aybintio 
-4. Possible side effects  
-5. How to store Aybintio  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Aybintio is and what it is used for  </li>
+<li>What you need to know before you use Aybintio  </li>
+<li>How to use Aybintio </li>
+<li>Possible side effects  </li>
+<li>How to store Aybintio  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -433,8 +433,8 @@ polysorbate 20, and water for injections (see section 2) </p>
 <p>What Aybintio looks like and contents of the pack 
 Aybintio is a concentrate for solution for infusion. The concentrate is a clear, colourless to pale brown 
 liquid in a glass vial with a rubber stopper. Each vial contains 100 mg bevacizumab in 4 ml of solution 
-or 400 mg bevacizumab in 16 ml of solution. Each pack of Aybintio contains one vial. </p>
-<p>Marketing Authorisation Holder<br />
+or 400 mg bevacizumab in 16 ml of solution. Each pack of Aybintio contains one vial. 
+Marketing Authorisation Holder<br />
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 2616 LR Delft 
 The Netherlands 
@@ -513,16 +513,14 @@ Niederlande
 bioepis.mi@medinformation.co.uk </p>
 <p>Espa a 
 Organon Salud, S.L. 
-Tel: +34 91 591 12<br />
-Polska 
+Tel: +34 91 591 12 Polska 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Holandia 
 bioepis.mi@medinformation.co.uk </p>
 <p>France 
 Organon France 
-T l: + 33 (0) 1 57 77 32<br />
-Portugal 
+T l: + 33 (0) 1 57 77 32 Portugal 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Pa ses Baixos 
@@ -559,8 +557,7 @@ Holandsko
 bioepis.mi@medinformation.co.uk </p>
 <p>Italia 
 Organon Italia S.r.l. 
-Tel: +39 06 90259 
-Suomi/Finland 
+Tel: +39 06 90259Suomi/Finland 
 Samsung Bioepis NL B.V. 
 Olof Palmestraat 10, 2616 LR Delft 
 Alankomaat/Nederl nderna<br />

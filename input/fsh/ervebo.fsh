@@ -4,7 +4,7 @@ Instance: composition-en-b1355bc14a128fa4430d01fced9887b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for ervebo Package Leaflet"
 Description:  "Composition for ervebo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Ervebo is and what it is used for
 2. What you need to know before you or your child receives Ervebo
 3. How Ervebo is given
 4. Possible side effects
 5. How to store Ervebo
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -429,7 +428,7 @@ Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu. 
 This leaflet is available in all EU/EEA languages on the European Medicines Agency website.
-<em>------------------------------------------------------------------------------------------------------------------------</em>
+&lt;------------------------------------------------------------------------------------------------------------------------&gt;
 The following information is intended for healthcare professionals only:
 Standard precautions when caring for patients with known or suspected Ebola disease
 Vaccination with Ervebo does not eliminate the necessity of standard precautions when caring for

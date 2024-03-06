@@ -4,7 +4,7 @@ Instance: composition-en-8e72e27852c8a54465539921267947b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for teriparatide Package Leaflet"
 Description:  "Composition for teriparatide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Teriparatide SUN is and what it is used for 
 2. What you need to know before you use Teriparatide SUN 
 3. How to use Teriparatide SUN 
 4. Possible side effects 
 5. How to store Teriparatide SUN 
-6. Content of the pack and other information 
-         </div>"""   
+6. Content of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -289,40 +288,32 @@ Nederlandene/ /Nizozemska/The Netherlands/Holland/
 Hollandia/L-Olanda/Nederland/Niederlande/Pa ses Baixos/ 
 Nizozemska/Holandsko/Alankomaat/Nederl nderna 
 Tel./ ./tlf./ ./S mi/ ./Tlf./Puh./ 
-+31 (0)23 568 5 </p>
-<p>Deutschland 
++31 (0)23 568 5Deutschland 
 Sun Pharmaceuticals Germany GmbH 
 Hemmelrather Weg 51377 Leverkusen 
 Deutschland </p>
-<p>tel. +49 214 403<br />
-Espa a 
+<p>tel. +49 214 403 Espa a 
 Sun Pharma Laboratorios, S.L.<br />
 Rambla de Catalunya 53-08007 Barcelona 
 Espa a 
-tel. +34 93 342 78<br />
-France 
+tel. +34 93 342 78 France 
 Sun Pharma France 
 11-15, Quai de Dion Bouton 
 92800 Puteaux 
 France 
-tel. +33 1 41 44 44<br />
-Italia 
+tel. +33 1 41 44 44 Italia 
 Sun Pharma Italia Srl 
 Viale Giulio Richard, 3 
 20143 Milano 
 Italia 
-tel. +39 02 33 49 07<br />
-Polska 
+tel. +39 02 33 49 07 Polska 
 Ranbaxy (Poland) Sp. Z. o. o. 
-ul. Kubickiego 11<br />
-02-954 Warszawa<br />
+ul. Kubickiego 02-954 Warszawa<br />
 Polska 
-tel. +48 22 642 07<br />
-Rom nia 
+tel. +48 22 642 07 Rom nia 
 Terapia S.A. 
 Str. Fabricii nr Cluj-Napoca, 400Rom nia 
-tel. +40 (264) 501  </p>
-<p>This leaflet was last revised in  </p>
+tel. +40 (264) 501 This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>

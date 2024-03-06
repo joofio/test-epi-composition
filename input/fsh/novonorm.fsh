@@ -4,7 +4,7 @@ Instance: composition-en-3d8be59753418e73dbd90a9360e898ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for novonorm Package Leaflet"
 Description:  "Composition for novonorm Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What NovoNorm is and what it is used for 
-2. What you need to know before you take NovoNorm 
-3. How to take NovoNorm 
-4. Possible side effects 
-5. How to store NovoNorm 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What NovoNorm is and what it is used for </li>
+<li>What you need to know before you take NovoNorm </li>
+<li>How to take NovoNorm </li>
+<li>Possible side effects </li>
+<li>How to store NovoNorm </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -241,8 +241,8 @@ Common (may affect up to 1 in 10 patients)
 * Severe liver problems, abnormal liver function such as increased liver enzymes in your blood. </p>
 <p>Frequency not known 
 * Hypersensitivity (such as rash, itchy skin, redening of the skin, swelling of the skin) 
-* Feeling sick (nausea). </p>
-<p>Reporting of side effects 
+* Feeling sick (nausea). 
+Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety 

@@ -4,7 +4,7 @@ Instance: composition-en-467d212176ff3f3172a5c049c6483dc0
 InstanceOf: CompositionUvEpi
 Title: "Composition for erelzi Package Leaflet"
 Description:  "Composition for erelzi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,7 +44,9 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ol>
+<li>Instructions for Use of the Erelzi pre-filled syringe</li>
+</ol>         </div>"""   
 
 
 
@@ -53,29 +55,19 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Erelzi is and what it is used for
 2. What you need to know before you use Erelzi
 3. How to use Erelzi
 4. Possible side effects
 5. How to store Erelzi
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
   * title =  "1. What erelzi is and what it is used for"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text =  "1. What erelzi is and what it is used for"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Instructions for Use of the Erelzi pre-filled syringe</p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take erelzi"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take erelzi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Erelzi is a medicine that is made from two human proteins. It blocks the activity of another protein in 
 the body that causes inflammation. Erelzi works by reducing the inflammation associated with certain 
@@ -102,11 +94,13 @@ from the age of 2 years and weighing 62.5 kg or more.</p>
 when other widely used treatments have not worked well enough or are not suitable for them.</p>
 <p>Severe psoriasis in patients from the age of 6 years and weighing 62.5 kg or more who have had 
 an inadequate response to (or are unable to take) phototherapies or other systemic therapies.</p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take erelzi"
+  * title = "2. What you need to know before you take erelzi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take erelzi"
+  * code.text = "2. What you need to know before you take erelzi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use Erelzi</p>
 <p>if you, or the child you are caring for, are allergic to etanercept or any of the other ingredients 
@@ -201,13 +195,12 @@ Driving and using machines
 The use of Erelzi is not expected to affect the ability to drive or use machines.
 Erelzi contains sodium
 This medicinal product contains less than 1 mmol sodium (23 mg) per 25 mg or 50 mg, that is to say 
-essentially  sodium-free .</p>         </div>"""         
-
-        
+essentially  sodium-free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take erelzi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take erelzi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor or pharmacist if 
 you are not sure.
@@ -255,12 +248,13 @@ usual day(s). If you do not remember until the day that the next injection is du
 dose (two doses on the same day) to make up for a forgotten dose.
 If you stop using Erelzi
 Your symptoms may return upon discontinuation.
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store erelzi"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store erelzi"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Allergic reactions
@@ -348,11 +342,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store erelzi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store erelzi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the carton and the label of the pre-filled 
@@ -374,4 +367,93 @@ described above are present. If you are concerned with the appearance of the sol
 pharmacist for assistance.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Erelzi contains
+The active substance is etanercept. 
+Each pre-filled syringe contains 25 mg of etanercept or 50 mg of etanercept.
+The other ingredients are citric acid anhydrous, sodium citrate dihydrate, sodium chloride, sucrose, 
+L-lysine hydrochloride, sodium hydroxide, hydrochloric acid and water for injections.
+What Erelzi looks like and contents of the pack
+Erelzi is supplied as a pre-filled syringe containing a clear or slightly opalescent, colourless to slightly 
+yellowish solution for injection (injection). The pre-filled syringes are made of type I glass, a rubber 
+plunger stopper (bromobutyl rubber), a plunger rod, an attached stainless steel 29 gauge needle and 
+needle cap (thermoplastic elastomer). The syringes are provided with an automatic needle guard. Each 
+pack contains 1, 2 or 4 pre-filled syringes with a needle guard, multipacks contain 12 (3 packs of 4) 
+25 mg or 50 mg pre-filled syringes with a needle guard or 8 (2 packs of 4) or 24 (6 packs of 4) 25 mg 
+pre-filled syringes with a needle guard. Not all pack sizes may be marketed.
+Marketing Authorisation Holder
+Sandoz GmbH
+Biochemiestrasse 6250 Kundl
+Austria
+Manufacturer
+Sandoz GmbH Schaftenau
+Biochemiestrasse 6336 Langkampfen
+Austria
+Novartis Pharmaceutical Manufacturing GmbH
+Biochemiestrasse 6336 Langkampfen
+Austria
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Sandoz nv/sa
+T l/Tel: +32 2 722 97 Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636  </p>
+<p>.: +359 2 970 47 Luxembourg/Luxemburg
+Sandoz nv/sa
+T l/Tel.: +32 2 722 97  esk  republika
+Sandoz s.r.o.
+Tel: +420 225 775 Magyarorsz g
+Sandoz Hung ria Kft.
+Tel.: +36 1 430 2Danmark/Norge/ sland/Sverige
+Sandoz A/S
+Tlf/S mi/Tel: +45 63 95 10 Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2 sterreich
+Sandoz GmbH
+Tel: +43 5338 2 
+SANDOZ HELLAS    . .
+ : +30 216 600 5Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 Espa a
+Sandoz Farmac utica, S.A.
+Tel: +34 900 456 Portugal
+Sandoz Farmac utica Lda.
+Tel: +351 21 000 86 France
+Sandoz SAS
+T l: +33 1 49 64 48 Rom nia
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska dru ba d.d.
+Tel: +386 1 580 29 Ireland
+Rowex Ltd.
+Tel: + 353 27 50Slovensk  republika
+Sandoz d.d. - organiza n  zlo ka
+Tel: +421 2 50 70 6Italia
+Sandoz S.p.A.
+Tel: +39 02 96Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133<br />
+Sandoz Pharmaceuticals d.d.
+ : +357 22 69 0United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2Latvija
+Sandoz d.d. Latvia fili le
+Tel: +371 67 892 This leaflet was last revised in {MM/YYYY}
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-d3bf47e7430f03a3543b0c027649dc7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for roteas Package Leaflet"
 Description:  "Composition for roteas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Roteas is and what it is used for  
-2. What you need to know before you take Roteas  
-3. How to take Roteas  
-4. Possible side effects  
-5. How to store Roteas  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Roteas is and what it is used for<br />
+2. What you need to know before you take Roteas<br />
+3. How to take Roteas<br />
+4. Possible side effects<br />
+5. How to store Roteas<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -152,8 +151,8 @@ you should be treated with Roteas and if you should be kept under observation. <
 <p>If you are taking any of the following: 
 * some medicines for treatment of epilepsy (e.g. phenytoin, carbamazepine, phenobarbital); 
 * St John s Wort, a herbal product used for anxiety and mild depression; 
-* rifampicin, an antibiotic medicine. </p>
-<p>If any of the above apply to you, tell your doctor before taking Roteas, because the effect of Roteas 
+* rifampicin, an antibiotic medicine. 
+If any of the above apply to you, tell your doctor before taking Roteas, because the effect of Roteas 
 may be reduced. Your doctor will decide if you should be treated with Roteas and if you should be 
 kept under observation. </p>
 <p>Pregnancy and breast-feeding </p>

@@ -4,7 +4,7 @@ Instance: composition-en-6921fe94b12d3679a96f1d5a8683a92f
 InstanceOf: CompositionUvEpi
 Title: "Composition for voncento Package Leaflet"
 Description:  "Composition for voncento Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Voncento is and what it is used for
 2. What you need to know before you use Voncento
 3. How to use Voncento
 4. Possible side effects
 5. How to store Voncento
-6. Contents of the pack and other information         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -191,15 +191,8 @@ General Instructions</p>
 <p>The powder must be mixed with the solvent (liquid) and withdrawn from the vial under aseptic 
 conditions.</p>
 <p>Voncento must not be mixed with other medicines, diluents or solvents except those mentioned 
-in section </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The solution should be clear or slightly opalescent, i.e. it might be sparkling when held up to the 
+in section 6.<br />
+The solution should be clear or slightly opalescent, i.e. it might be sparkling when held up to the 
 light but must not contain any obvious particles. After filtering or withdrawal (see below) the 
 solution should be checked by eye, before it is used. Do not use the solution if it is visibly 
 cloudy or if it contains flakes or particles.</p>
@@ -272,12 +265,13 @@ any further.
 Check yourself for any side effects that might happen straight away. If you have any side effects that 
 might be related to the administration of Voncento, the injection or infusion should be stopped (see 
 also section 2).
-If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store voncento"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store voncento"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Voncento can cause side effects, although not everybody gets them.
 Please contact your doctor immediately if:</p>
@@ -316,11 +310,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store voncento"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store voncento"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date, which is stated on the label and carton.</p>
@@ -334,4 +327,126 @@ to use are the responsibility of the user.</p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
 how to throw away medicines you no longer use. These measures will help protect the 
 environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Voncento contains
+The active substance is:
+250 IU FVIII and 600 IU VWF per vial; after reconstitution with 5 ml of water for injection approx. 
+50 IU/ml FVIII and 120 IU/ml VWF.
+500 IU FVIII and 1200 IU VWF per vial; after reconstitution with 10 ml of water for injection approx. 
+50 IU/ml FVIII and 120 IU/ml VWF.
+500 IU FVIII and 1200 IU VWF per vial; after reconstitution with 5 ml of water for injection approx. 
+100 IU/ml FVIII and 240 IU/ml VWF. 
+1000 IU FVIII and 2400 IU VWF per vial; after reconstitution with 10 ml of water for injection 
+approx. 100 IU/ml FVIII and 240 IU/ml VWF. 
+See section  The following information is intended for healthcare professionals only  for further 
+information.
+The other ingredients are:
+Calcium chloride, human albumin, sodium chloride, sodium citrate, sucrose, trometamol. 
+See section 2  Voncento contains sodium .
+Solvent: Water for injections
+What Voncento looks like and contents of the pack
+Voncento is supplied as a white powder and solvent for solution for injection/infusion.
+The reconstituted solution should be clear to slightly opalescent, i.e. it might sparkle when held up to 
+the light but must not contain any obvious particles. 
+The immediate container of product and solvent vial consists of glass vial with a rubber stopper, 
+plastic disc, and aluminium cap.
+Presentations
+One pack with 250 IU/600 IU or 500 IU/1200 IU containing:</p>
+<ul>
+<li>1 vial with powder</li>
+<li>1 vial with 5 ml water for injections</li>
+<li>
+<p>1 filter transfer device 20/- One inner box containing:
+1 disposable 10 ml syringe
+1 venipuncture set
+2 alcohol swabs
+1 non-sterile plaster
+One pack with 500 IU/1200 IU or 1000 IU/2400 IU containing:</p>
+</li>
+<li>
+<p>1 vial with powder</p>
+</li>
+<li>1 vial with 10 ml water for injections</li>
+<li>1 filter transfer device 20/- One inner box containing:
+1 disposable 10 ml syringe 
+1 venipuncture set
+2 alcohol swabs
+1 non-sterile plaster
+Not all pack sizes may be marketed.
+Marketing Authorization Holder and Manufacturer
+CSL Behring GmbH
+Emil-von-Behring-Stra e 35041 Marburg
+Germany
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+CSL Behring NV
+T l/Tel: +32 15 28 89 Lietuva
+CentralPharma Communications UAB
+Tel: +370 5 243 0 </li>
+</ul>
+<p>: +359 2 810 3Luxembourg/Luxemburg
+CSL Behring NV
+T l/Tel: +32 15 28 89 20 (BE)
+ esk  republika
+CSL Behring s.r.o.
+Tel: + 420 702 137 Magyarorsz g
+CSL Behring Kft.
+Tel.: +36 1 213 4Danmark
+CSL Behring AB
+Tel: +46 8 544 966 Malta
+AM Mangion Ltd.
+Tel: +356 2397 6Deutschland
+CSL Behring GmbH
+Tel: +49 69 30584Nederland
+CSL Behring BV
+Tel: + 31 85 111 96 Eesti
+CentralPharma Communications O<br />
+Tel: +3726015Norge
+CSL Behring AB
+Tlf: +46 8 544 966<br />
+CSL Behring<br />
+ : +30 210 7255  sterreich
+CSL Behring GmbH
+Tel: +43 1 80101 2Espa a
+CSL Behring S.A.
+Tel: +34 933 67 1Polska
+CSL Behring sp. z o.o.
+Tel: +48 22 213 22 France
+CSL Behring S.A.
+T l: + 33  (0)-1 53 58 54 Portugal
+CSL Behring Lda
+Tel: +351 21 782 62 Hrvatska 
+PharmaSwiss d.o.o. 
+Tel: +385 (1) 631-1Rom nia
+Prisum International Trading srl
+Tel: +40 21 322 0Ireland
+CSL Behring GmbH
+Tel: +49 69 30517Slovenija
+NEOX s.r.o.-podru nica v Sloveniji
+Tel:+ 386 41 42 0 sland
+CSL Behring AB
+S mi: +46 8 544 966 Slovensk  republika
+CSL Behring s.r.o.
+Tel: +421 911 653 Italia
+CSL Behring S.p.A.
+Tel: +39 02 34964 Suomi/Finland
+CSL Behring AB
+Puh/Tel: +46 8 544 966<br />
+CSL Behring<br />
+ : +30 210 7255 Sverige
+CSL Behring AB
+Tel: +46 8 544 966 Latvija
+CentralPharma Communications SIA 
+Tel: +371 6 7450United Kingdom (Northern Ireland)
+CSL Behring GmbH
+Tel: +49 69 30517254 (DE)
+This leaflet was last revised in
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

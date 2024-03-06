@@ -4,7 +4,7 @@ Instance: composition-en-fa81186e3e04e4ab1612e9604cd7ebca
 InstanceOf: CompositionUvEpi
 Title: "Composition for biopoin Package Leaflet"
 Description:  "Composition for biopoin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,14 +55,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Biopoin is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Biopoin is and what it is used for<br />
 2. What you need to know before you use Biopoin 
 3. How to use Biopoin 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Biopoin 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -93,8 +92,8 @@ are receiving chemotherapy (medicines to treat cancer). </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do NOT use Biopoin 
 - if you are allergic to epoetin theta, another epoetin or any of the other ingredients of this 
 medicine (listed in section 6); 
-- if you have high blood pressure that cannot be controlled. </p>
-<p>Warnings and precautions </p>
+- if you have high blood pressure that cannot be controlled. 
+Warnings and precautions </p>
 <p>General 
 This medicine may not be suitable for the following patients. Please speak with your doctor if you 
 belong to one of these patient groups:</p>
@@ -140,8 +139,8 @@ Biopoin if you are not responding to treatment may increase the risk of having a
 or the blood vessels and could increase risk of myocardial infarction, stroke and death. </p>
 <p>If you have hardening of the blood vessels in your kidneys (nephrosclerosis) but do not need to 
 undergo dialysis, your doctor will consider whether treatment is suitable for you. This is because one 
-cannot rule out a possible acceleration of progression of kidney disease with absolute certainty. </p>
-<p>If you are on dialysis, medicines that prevent blood coagulation are used. If you are being treated with 
+cannot rule out a possible acceleration of progression of kidney disease with absolute certainty. 
+If you are on dialysis, medicines that prevent blood coagulation are used. If you are being treated with 
 Biopoin, the dose of the anticoagulant medicine may have to be increased. Otherwise the increased 
 number of red blood cells may cause blocking of the arterio-venous fistula (an artificial connection 
 between an artery and a vein which is surgically prepared in dialysis patients). </p>
@@ -260,15 +259,8 @@ been reported in association with epoetin treatment. These can appear as reddish
 macules or circular patches often with central blisters on the trunk, skin peeling, ulcers of 
 mouth, throat, nose, genitals and eyes and can be preceded by fever and flu-like symptoms. Stop 
 using Biopoin if you develop these symptoms and contact your doctor or seek medical attention 
-immediately. See also section </li>
-</ul>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store biopoin"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store biopoin"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>You may experience the following additional side effects: </p>
+immediately. See also section 2. You may experience the following additional side effects: </li>
+</ul>
 <p>Common (may affect up to 1 in 10 people) 
 - Headache; 
 - High blood pressure; 
@@ -292,11 +284,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store biopoin"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store biopoin"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the pre-filled 
@@ -310,4 +301,125 @@ you must use it within this period or it must be discarded. </p>
 <p>Do not use this medicine if you notice it is cloudy or there are particles in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Biopoin contains 
+- The active substance is epoetin theta. 
+Biopoin 1,000 IU/0.5 ml: One pre-filled syringe contains 1,000 international units (IU) 
+(8.3 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
+2,000 international units (IU) (16.7 micrograms) per ml. 
+Biopoin 2,000 IU/0.5 ml: One pre-filled syringe contains 2,000 international units (IU) 
+(16.7 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
+4,000 international units (IU) (33.3 micrograms) per ml. 
+Biopoin 3,000 IU/0.5 ml: One pre-filled syringe contains 3,000 international units (IU) 
+(25 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
+6,000 international units (IU) (50 micrograms) per ml. 
+Biopoin 4,000 IU/0.5 ml: One pre-filled syringe contains 4,000 international units (IU) 
+(33.3 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
+8,000 international units (IU) (66.7 micrograms) per ml. 
+Biopoin 5,000 IU/0.5 ml: One pre-filled syringe contains 5,000 international units (IU) 
+(41.7 micrograms) epoetin theta in 0.5 ml solution for injection corresponding to 
+10,000 international units (IU) (83.3 micrograms) per ml.. 
+Biopoin 10,000 IU/1 ml: One pre-filled syringe contains 10,000 international units (IU) 
+(83.3 micrograms) epoetin theta in 1 ml solution for injection corresponding to 
+10,000 international units (IU) (83.3 micrograms) per ml. 
+Biopoin 20,000 IU/1 ml: One pre-filled syringe contains 20,000 international units (IU) 
+(166.7 micrograms) epoetin theta in 1 ml solution for injection corresponding to 
+20,000 international units (IU) (166.7 micrograms) per ml. 
+Biopoin 30,000 IU/1 ml: One pre-filled syringe contains 30,000 international units (IU) 
+(250 micrograms) epoetin theta in 1 ml solution for injection corresponding to 
+30,000 international units (IU) (250 micrograms) per ml. 
+- The other ingredients are sodium dihydrogen phosphate dihydrate, sodium chloride, polysorbate 
+20, trometamol, hydrochloric acid (6 M) (for pH adjustment) and water for injections. </p>
+<p>What Biopoin looks like and contents of the pack 
+Biopoin is a clear and colourless solution for injection in pre-filled syringe along with an injection 
+needle. </p>
+<p>Biopoin 1,000 IU/0.5 ml, Biopoin 2,000 IU/0.5 ml, Biopoin 3,000 IU/0.5 ml, Biopoin 4,000 IU/0.5 ml 
+and Biopoin 5,000 IU/0.5 ml: Each pre-filled syringe contains 0.5 ml of solution. Packs of 6 pre-filled 
+syringes; 6 pre-filled syringes with safety needle or 6 pre-filled syringes with safety device. </p>
+<p>Biopoin 10,000 IU/1 ml, Biopoin 20,000 IU/1 ml and Biopoin 30,000 IU/1 ml: Each pre-filled syringe 
+contains 1 ml of solution. Packs of 1, 4 and 6 pre-filled syringes; 1, 4 and 6 pre-filled syringes with 
+safety needle or 1, 4 and 6 pre-filled syringes with safety device. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+TEVA GmbH 
+Graf-Arco-Stra e 3 
+89079 Ulm 
+Germany </p>
+<p>Manufacturer 
+Merckle GmbH 
+Graf-Arco-Stra e 3 
+89079 Ulm 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+T l/Tel: +32 38207 esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
+Tel: +36 12886Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+TEVA GmbH 
+Tel: +49 73140Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Norge 
+Teva Norway AS 
+Tlf: +47 66775<br />
+TEVA HELLAS  . . 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
+Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+TEVA HELLAS  . . </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last approved in . </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

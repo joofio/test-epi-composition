@@ -4,7 +4,7 @@ Instance: composition-en-e3c8c4151821eafa3b8558a4b1967125
 InstanceOf: CompositionUvEpi
 Title: "Composition for evista Package Leaflet"
 Description:  "Composition for evista Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Evista is and what it is used for 
 2. What you need to know before you take Evista 
 3. How to take Evista 
 4. Possible side effects 
 5. How to store Evista 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -227,5 +226,75 @@ hydrochloride, which is equivalent to 56 mg raloxifene. </p>
 </ul>
 <p>Tablet Core: Povidone, polysorbate 80, anhydrous lactose, lactose monohydrate, crospovidone, 
 magnesium stearate.<br />
-Tablet coating: Titanium dioxide (E 171), polysorbate 80, hypromellose, macrogol 40</p>         </div>"""      
+Tablet coating: Titanium dioxide (E 171), polysorbate 80, hypromellose, macrogol 400. What Evista looks like and contents of the pack 
+Evista are white, oval, film coated tablets. They are packed in blisters or in plastic bottles. The blister 
+boxes contain 14, 28 or 84 tablets. The bottles contain 100 tablets. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+SUBSTIPHARM, 24 rue Erlanger, 75016 Paris, France. </p>
+<p>Manufacturer 
+- INPHARMASCI, ZI N 2 de Prouvy-Rouvignies, 1 rue de Nungesser, 59121 Prouvy, France. </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/ Belgien 
+SUBSTIPHARM 
+T l/Tel: 080077Lietuva 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 <br />
+SUBSTIPHARM 
+ .: +33 1 43 18 13 Luxembourg/Luxemburg 
+SUBSTIPHARM 
+T l/Tel: 80024 esk  republika 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Magyarorsz g 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Danmark 
+SUBSTIPHARM 
+Tlf: +33 1 43 18 13 Malta 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Deutschland 
+SUBSTIPHARM 
+Tel: 08001801Nederland 
+SUBSTIPHARM 
+Tel: 08000228Eesti 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Norge 
+SUBSTIPHARM 
+Tlf: +33 1 43 18 13   </p>
+<p>: +30 210 620 8 sterreich 
+SUBSTIPHARM 
+Tel: 0800298Espa a 
+SUBSTIPHARM 
+Tel: 900993Polska 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 France 
+SUBSTIPHARM 
+T l: +33 1 43 18 13 Portugal 
+SUBSTIPHARM 
+Tel: 800833Hrvatska 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Rom nia 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Ireland 
+SUBSTIPHARM 
+Tel: 1800300Slovenija 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13  sland 
+SUBSTIPHARM 
+Simi: +33 1 43 18 13 Slovensk  republika 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Italia 
+SUBSTIPHARM 
+Tel: 800780Suomi/Finland 
+SUBSTIPHARM 
+Puh./Tel: +33 1 43 18 13 <br />
+SUBSTIPHARM 
+ : +33 1 43 18 13 Sverige 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 Latvija 
+SUBSTIPHARM 
+Tel.: +33 1 43 18 13 United Kingdom (Northern Ireland) 
+SUBSTIPHARM 
+Tel: +33 1 43 18 13 This leaflet was last revised in month YYYY. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency (EMA) web 
+site: http://www.ema.europa.eu </p>         </div>"""      
 

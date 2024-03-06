@@ -4,7 +4,7 @@ Instance: composition-en-1938b3b2db3127440139b7029093a2b8
 InstanceOf: CompositionUvEpi
 Title: "Composition for myalepta Package Leaflet"
 Description:  "Composition for myalepta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Myalepta is and what it is used for 
-2. What you need to know before you use Myalepta 
-3. How to use Myalepta 
-4. Possible side effects 
-5. How to store Myalepta 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Myalepta is and what it is used for </li>
+<li>What you need to know before you use Myalepta </li>
+<li>How to use Myalepta </li>
+<li>Possible side effects </li>
+<li>How to store Myalepta </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

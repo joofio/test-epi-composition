@@ -4,7 +4,7 @@ Instance: composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1
 InstanceOf: CompositionUvEpi
 Title: "Composition for zolsketil Package Leaflet"
 Description:  "Composition for zolsketil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ZOLSKETIL pegylated liposomal is and what it is used for  
-2. What you need to know before you use ZOLSKETIL pegylated liposomal 
-3. How to use ZOLSKETIL pegylated liposomal 
-4. Possible side effects  
-5. How to store ZOLSKETIL pegylated liposomal 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ZOLSKETIL pegylated liposomal is and what it is used for  </li>
+<li>What you need to know before you use ZOLSKETIL pegylated liposomal </li>
+<li>How to use ZOLSKETIL pegylated liposomal </li>
+<li>Possible side effects  </li>
+<li>How to store ZOLSKETIL pegylated liposomal </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,12 +99,8 @@ You should tell your doctor about any of the following:</p>
 <li>if you are receiving any treatment for heart disease or liver disease; </li>
 <li>if you are diabetic, because ZOLSKETIL pegylated liposomal contains sugar which may require 
 an adjustment to the treatment of your diabetes; </li>
-<li>
-<p>if you have Kaposi s sarcoma and have had your spleen removed; </p>
-</li>
-<li>
-<p>if you notice sores, discolouration or any discomfort in your mouth. </p>
-</li>
+<li>if you have Kaposi s sarcoma and have had your spleen removed; </li>
+<li>if you notice sores, discolouration or any discomfort in your mouth. </li>
 <li>if you have bone marrow bone marrow is not making enough blood cells </li>
 <li>if you have cancer where bone marrow makes abnormal blood cells  </li>
 <li>if you have painful, macular reddening skin rash </li>
@@ -154,8 +150,8 @@ become pregnant. </p>
 breast-feeding before starting treatment with ZOLSKETIL pegylated liposomal. Health experts 
 recommend that HIV infected women do not breast-feed their infants under any circumstances in order 
 to avoid transmission of HIV. </p>
-<p>Driving and using machines </p>
-<p>Do not drive or use any tools or machines if you feel tired or sleepy from treatment with ZOLSKETIL 
+<p>Driving and using machines 
+Do not drive or use any tools or machines if you feel tired or sleepy from treatment with ZOLSKETIL 
 pegylated liposomal. </p>
 <p>ZOLSKETIL pegylated liposomal contains soya oil and sodium 
 ZOLSKETIL pegylated liposomal contains soya oil. If you are allergic to peanut or soya, do not use 
@@ -207,12 +203,8 @@ of mouth sores. </p>
 swallowing or breathing; itchy rash (hives) </li>
 <li>inflamed and narrowed airways in the lungs, causing coughing, wheezing and shortness of 
 breath (asthma) </li>
-<li>
-<p>flushing, sweating, chills or a fever </p>
-</li>
-<li>
-<p>chest pain or discomfort </p>
-</li>
+<li>flushing, sweating, chills or a fever </li>
+<li>chest pain or discomfort </li>
 <li>back pain </li>
 <li>high or low blood pressure </li>
 <li>fast heart beat </li>
@@ -263,8 +255,8 @@ blood tests.
 <p>Common side effects (may affect up to 1 in 10 people) 
 - infections, including severe infection throughout the body (sepsis), lung infections, herpes 
 zoster virus infections (shingles), a type of bacterial infection (mycobacterium avium complex 
-infection), urinary tract infection, fungal infections (including thrush and oral thrush in the </p>
-<p>mouth) infection of the hair roots, infected or irritated throat, infected nose, sinuses or throat 
+infection), urinary tract infection, fungal infections (including thrush and oral thrush in the 
+mouth) infection of the hair roots, infected or irritated throat, infected nose, sinuses or throat 
 (cold) 
 - low number of a type of white blood cell (neutrophils), with a fever 
 - severe weight loss and muscle wasting, not enough water in the body (dehydration), low level of 
@@ -370,12 +362,28 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ZOLSKETIL pegylated liposomal contains  </p>
-<ul>
-<li>The active substance is doxorubicin hydrochloride. One mL of ZOLSKETIL pegylated 
-liposomal contains 2 mg of doxorubicin hydrochloride in a pegylated liposomal formulation. </li>
-<li>The other ingredient(s) are hydrogenated soy phosphatidylcholine, N- carbonylmethoxypolyethylene glycol-2000)-1,2- distearoyl- sn-glycero-3- phosphoethanolamine, sodium salt (MPEG 2000-DSPE), cholesterol, ammonium sulphate, 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ZOLSKETIL pegylated liposomal contains<br />
+- The active substance is doxorubicin hydrochloride. One mL of ZOLSKETIL pegylated 
+liposomal contains 2 mg of doxorubicin hydrochloride in a pegylated liposomal formulation. 
+- The other ingredient(s) are hydrogenated soy phosphatidylcholine, N- carbonylmethoxypolyethylene glycol-2000)-1,2- distearoyl- sn-glycero-3- phosphoethanolamine, sodium salt (MPEG 2000-DSPE), cholesterol, ammonium sulphate, 
 histidine, sucrose, water for injections, hydrochloric acid, concentrated (for pH-adjustment), 
-sodium hydroxide (for pH-adjustment). See section </li>
-</ul>         </div>"""      
+sodium hydroxide (for pH-adjustment). See section 2. ZOLSKETIL pegylated liposomal: vials which provide 10 mL (20 mg) or 25 mL (50 mg). </p>
+<p>What ZOLSKETIL pegylated liposomal looks like and contents of the pack 
+This medicine is a translucent red coloured dispersion filled in a clear glass vial. ZOLSKETIL 
+pegylated liposomal is available in glass vials as a single pack or packs of ten vials. 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder<br />
+Accord Healthcare S.L.U.<br />
+World Trade Center, Moll de Barcelona, s/n,<br />
+Edifici Est 6  planta,<br />
+08039,Barcelona,<br />
+Spain </p>
+<p>Manufacturer 
+Accord Healthcare Polska Sp. z o.o. 
+ul. Lutomierska 50, Pabianice, 95-Poland </p>
+<p>Accord Healthcare B.V. 
+Winthontlaan 200, Utrecht, 3526KV ,<br />
+Netherlands </p>
+<p>This leaflet was last revised in {MM/YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

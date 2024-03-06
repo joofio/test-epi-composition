@@ -4,7 +4,7 @@ Instance: composition-en-9a812fa3e42e6b177fc77f392e7869b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for sylvant Package Leaflet"
 Description:  "Composition for sylvant Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What SYLVANT is and what it is used for 
 2. What you need to know before you are given SYLVANT 
 3. How SYLVANT is given 
 4. Possible side effects 
 5. How to store SYLVANT 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -146,8 +145,8 @@ benefit of taking SYLVANT for your health outweighs the possible risks to your u
 including increased risk of infection and use of certain vaccines in babies born to mothers 
 exposed to SYLVANT while pregnant. 
 * It is not known if. SYLVANT passes into breast milk. You and your doctor should decide if you 
-will continue to take SYLVANT, or breast-feed and discontinue SYLVANT. </p>
-<p>Driving and using machines 
+will continue to take SYLVANT, or breast-feed and discontinue SYLVANT. 
+Driving and using machines 
 SYLVANT is not likely to affect your ability to drive, cycle, or use any tools or machines. </p>         </div>"""   
                     
 * section[=].section[+]

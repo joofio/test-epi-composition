@@ -4,7 +4,7 @@ Instance: composition-en-5bd963731bd646c1cc4163d603257072
 InstanceOf: CompositionUvEpi
 Title: "Composition for evicel Package Leaflet"
 Description:  "Composition for evicel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
- 
-1. What EVICEL is and what it is used for 
-2. What you need to know before you use EVICEL 
-3. How to use EVICEL  
-4. Possible side effects 
-5. How to store EVICEL 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:  </p>
+<ol>
+<li>What EVICEL is and what it is used for </li>
+<li>What you need to know before you use EVICEL </li>
+<li>How to use EVICEL  </li>
+<li>Possible side effects </li>
+<li>How to store EVICEL </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -265,8 +266,7 @@ marketed in all countries </p>
 <p>Omrix Biopharmaceuticals N.V. 
 Leonardo Da Vinci Laan B-1831 Diegem 
 Belgium 
-Tel: + 32 2 746 30 Fax: + 32 2 746 30  </p>
-<p>This leaflet was last revised in  </p>
+Tel: + 32 2 746 30 Fax: + 32 2 746 30 This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

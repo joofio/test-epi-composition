@@ -4,7 +4,7 @@ Instance: composition-en-679477c5514d7363b207fd8b469b6b94
 InstanceOf: CompositionUvEpi
 Title: "Composition for imcivree Package Leaflet"
 Description:  "Composition for imcivree Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What IMCIVREE is and what it is used for 
-2.  What you need to know before you use IMCIVREE 
-3. How to use IMCIVREE 
-4. Possible side effects 
-5. How to store IMCIVREE 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What IMCIVREE is and what it is used for </li>
+<li>What you need to know before you use IMCIVREE </li>
+<li>How to use IMCIVREE </li>
+<li>Possible side effects </li>
+<li>How to store IMCIVREE </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

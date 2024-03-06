@@ -4,7 +4,7 @@ Instance: composition-en-0e3efb626fca0ac3e088a86a6d17c310
 InstanceOf: CompositionUvEpi
 Title: "Composition for suboxone Package Leaflet"
 Description:  "Composition for suboxone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Suboxone is and what it is used for 
 2. What you need to know before you take Suboxone 
 3. How to take Suboxone 
 4. Possible side effects 
 5. How to store Suboxone 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -108,18 +107,7 @@ of ingestion. </p>
 </li>
 <li>
 <p>Additional monitoring<br />
-You may be more closely monitored by your doctor if you are over the age of 6</p>
-</li>
-</ul>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take suboxone"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take suboxone"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
-<li>
-<p>Misuse and abuse<br />
+You may be more closely monitored by your doctor if you are over the age of 65. * Misuse and abuse<br />
 This medicine can be a target for people who abuse prescription medicines and should be kept 
 in a safe place to protect it from theft (see section 5). Do not give this medicine to anyone else. 
 It can cause death or otherwise harm them. </p>
@@ -261,13 +249,12 @@ Suboxone. </p>
 This medicine contains lactose. If you have been told by your doctor that you have an intolerance to 
 some sugars, contact your doctor before taking this medicine. 
 This medicine contains less than 1 mmol sodium (23 mg) tablet, that is to say essentially  sodium-
-free . </p>         </div>"""         
-
-        
+free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take suboxone"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take suboxone"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -277,8 +264,8 @@ dependence.  </p>
 dose, depending upon your response to treatment. </p>
 <p>Starting treatment </p>
 <p>The recommended starting dose for adults and adolescents over the age of 15 years is usually two 
-Suboxone 2 mg/0.5 mg sublingual tablets.  </p>
-<p>This dose may be repeated to twice on day 1 depending on your needs. </p>
+Suboxone 2 mg/0.5 mg sublingual tablets.<br />
+This dose may be repeated to twice on day 1 depending on your needs. </p>
 <p>You should be aware of the clear signs of withdrawal before taking your first dose of Suboxone. Your 
 doctor will tell you when to take your first dose. </p>
 <ul>
@@ -341,12 +328,13 @@ Tell your doctor as soon as possible if you miss a dose. </p>
 <p>If you stop taking Suboxone 
 Do not change the treatment in any way or stop treatment without the agreement of the doctor who is 
 treating you. Stopping treatment suddenly may cause withdrawal symptoms. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store suboxone"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store suboxone"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor immediately or seek urgent medical attention if you experience side effects, such 
@@ -397,11 +385,10 @@ not listed in this leaflet. You can also report side-effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store suboxone"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store suboxone"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children and other household members. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton. The expiry date refers to 
@@ -415,4 +402,133 @@ An emergency unit should be contacted immediately in case of accidental ingestio
 ingestion. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Suboxone contains </p>
+<ul>
+<li>
+<p>The active substances are buprenorphine and naloxone.<br />
+Each 2 mg/0.5 mg sublingual tablet contains 2 mg buprenorphine (as hydrochloride) and 0.5 mg 
+naloxone (as hydrochloride dihydrate).<br />
+Each 8 mg/2 mg sublingual tablet contains 8 mg buprenorphine (as hydrochloride) and 2 mg 
+naloxone (as hydrochloride dihydrate). 
+Each 16 mg/4 mg sublingual tablet contains 16 mg buprenorphine (as hydrochloride) and 4 mg 
+naloxone (as hydrochloride dihydrate).  </p>
+</li>
+<li>
+<p>The other ingredients are lactose monohydrate, mannitol, maize starch, povidone K30, citric 
+acid anhydrous, sodium citrate, magnesium stearate, acesulfame potassium and natural lemon 
+and lime flavour. </p>
+</li>
+</ul>
+<p>What Suboxone looks like and contents of the pack </p>
+<p>Suboxone 2 mg/0.5 mg sublingual tablets are white hexagonal biconvex tablets of 6.5 mm with  N2<br />
+debossed on one side. 
+Suboxone 8 mg/2 mg sublingual tablets are white hexagonal biconvex tablets of 11 mm with  N8<br />
+debossed on one side. 
+Suboxone 16 mg/4 mg sublingual tablets are white round biconvex tablets of 10.5 mm with   N16<br />
+debossed on one side. </p>
+<p>Packed in packs of 7 and 28 tablets. 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Indivior Europe Limited<br />
+27 Windsor Place 
+Dublin 2 
+D02 DKIreland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Indivior Europe Limited 
+T l/Tel: 0800 780 e-mail: PatientSafetyRow@indivior.com </p>
+<p>Lietuva 
+Indivior Europe Limited 
+Tel: 88003e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Indivior Europe Limited 
+Te .: 00800 110 4e-mail: PatientSafetyRoW@indivior.com 
+Luxembourg/Luxemburg 
+Indivior Europe Limited 
+T l/Tel: 800 245 e-mail: PatientSafetyRow@indivior.com 
+ esk  republika 
+Indivior Europe Limited 
+Tel: 800 143 e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Magyarorsz g 
+Indivior Europe Limited 
+Tel.: 6800 19e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Danmark 
+Indivior Europe Limited 
+Tlf: 80826e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Malta 
+Indivior Europe Limited 
+Tel: 80062e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Deutschland 
+Indivior Europe Limited 
+Tel: 0 800 181 3e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Nederland 
+Indivior Europe Limited 
+Tel: 0800 022 87 e-mail: PatientSafetyRow@indivior.com </p>
+<p>Eesti 
+Indivior Europe Limited 
+Tel: 8000041e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Norge 
+Indivior Europe Limited 
+Tlf: 80016e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Indivior Europe Limited 
+ : 800 206 281 e-mail: PatientSafetyRoW@indivior.com </p>
+<p>sterreich 
+Indivior Europe Limited 
+Tel: 800 296e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Espa a 
+Indivior Europe Limited 
+Tel: 900 978 e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Polska 
+Indivior Europe Limited 
+Tel.: 0800 4111e-mail: PatientSafetyRoW@indivior.com </p>
+<p>France 
+Indivior Europe Limited 
+T l: 0800 909 e-mail: PatientSafetyFrance@indivior.com 
+Portugal 
+Indivior Europe Limited 
+Tel: 800 841 e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Hrvatska 
+Indivior Europe Limited 
+Tel: 0800 222 e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Rom nia 
+Indivior Europe Limited 
+Tel: 800 477 e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Ireland 
+Indivior Europe Limited 
+Tel: 1800554e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Slovenija 
+Indivior Europe Limited 
+Tel: 080080e-mail: PatientSafetyRoW@indivior.com </p>
+<p>sland 
+Indivior Europe Limited 
+S mi: 8009Netfang: PatientSafetyRoW@indivior.com </p>
+<p>Slovensk  republika 
+Indivior Europe Limited 
+Tel: 800110e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Italia 
+Indivior Europe Limited 
+Tel: 800 789 e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Suomi/Finland 
+Indivior Europe Limited 
+Puh/Tel: 0800417e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Indivior Europe Limited 
+ : 80091e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Sverige 
+Indivior Europe Limited 
+Tel: 020791e-mail: PatientSafetyRoW@indivior.com </p>
+<p>Latvija 
+Indivior Europe Limited 
+Tel: 800 05e-mail: PatientSafetyRoW@indivior.com </p>
+<p>United Kingdom (Northern Ireland) 
+Indivior Europe Limited 
+Tel: 0808 234 9e-mail: PatientSafetyRoW@indivior.com </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 

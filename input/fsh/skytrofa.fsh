@@ -4,7 +4,7 @@ Instance: composition-en-274e38fd037e90bae4b20ed78bb2e359
 InstanceOf: CompositionUvEpi
 Title: "Composition for skytrofa Package Leaflet"
 Description:  "Composition for skytrofa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Skytrofa is and what it is used for 
-2. What you or your child need to know before you or your child use Skytrofa  
-3. How to use Skytrofa  
+2. What you or your child need to know before you or your child use Skytrofa<br />
+3. How to use Skytrofa<br />
 4. Possible side effects 
-5. How to store Skytrofa  
-6. Contents of the pack and other information 
-         </div>"""   
+5. How to store Skytrofa<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]

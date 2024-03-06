@@ -4,7 +4,7 @@ Instance: composition-en-5e5a65e1c335023d46902a7373e1d95f
 InstanceOf: CompositionUvEpi
 Title: "Composition for iclusig Package Leaflet"
 Description:  "Composition for iclusig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Iclusig is and what it is used for  
-2. What you need to know before you take Iclusig  
-3. How to take Iclusig  
-4. Possible side effects  
-5. How to store Iclusig 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Iclusig is and what it is used for  </li>
+<li>What you need to know before you take Iclusig  </li>
+<li>How to take Iclusig  </li>
+<li>Possible side effects  </li>
+<li>How to store Iclusig </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -195,8 +195,8 @@ or pharmacist if you are not sure.  </p>
 Your doctor may evaluate your response to the treatment at regular intervals. </p>
 <p>Method of use </p>
 <p>Swallow the tablets whole, with a glass of water. The tablets can be taken with or without food. Do not 
-crush or dissolve the tablets. </p>
-<p>Do not swallow the desiccant canister contained in the bottle. </p>
+crush or dissolve the tablets. 
+Do not swallow the desiccant canister contained in the bottle. </p>
 <p>Duration of use </p>
 <p>Make sure you take Iclusig daily for as long as it is prescribed. This is a long-term treatment.  </p>
 <p>If you take more Iclusig than you should </p>

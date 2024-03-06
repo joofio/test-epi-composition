@@ -4,7 +4,7 @@ Instance: composition-en-c4f905f197a0b095e7beed90273743e5
 InstanceOf: CompositionUvEpi
 Title: "Composition for lydisilka Package Leaflet"
 Description:  "Composition for lydisilka Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Lydisilka is and what it is used for 
-2. What you need to know before you take Lydisilka 
-3. How to take Lydisilka 
-4. Possible side effects 
-5. How to store Lydisilka 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Lydisilka is and what it is used for </li>
+<li>What you need to know before you take Lydisilka </li>
+<li>How to take Lydisilka </li>
+<li>Possible side effects </li>
+<li>How to store Lydisilka </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -520,12 +520,10 @@ same time. Continue taking the tablets at the usual time and use extra precautio
 condom, for the next 7 days while taking the tablets correctly. If you have had sex in the week before 
 forgetting the tablet you must realize that there is a risk of a pregnancy. In that case, contact your 
 doctor. </p>
-<p>One pink active  tablet forgotten between  days 8-17<br />
-Take the forgotten tablet as soon as possible, even if that means that you have to take two tablets at the 
+<p>One pink active  tablet forgotten between  days 8-Take the forgotten tablet as soon as possible, even if that means that you have to take two tablets at the 
 same time. Continue taking the tablets at the usual time. The protection against pregnancy is not 
 reduced, and you do not need to take extra precautions. </p>
-<p>One pink active tablet forgotten between days 18-24<br />
-You can choose between two possibilities: 
+<p>One pink active tablet forgotten between days 18-You can choose between two possibilities: 
 1. Take the forgotten tablet as soon as possible, even if that means that you have to take two 
 tablets at the same time. Continue taking the tablets at the usual time. Instead of taking the white 
 placebo tablets on this strip, throw them away, and start the next strip (the starting day will be 

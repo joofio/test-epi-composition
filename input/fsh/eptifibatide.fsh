@@ -4,7 +4,7 @@ Instance: composition-en-4e78538b495fe763304c16d92584575d
 InstanceOf: CompositionUvEpi
 Title: "Composition for eptifibatide Package Leaflet"
 Description:  "Composition for eptifibatide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What Eptifibatide Accord is and what it is used for 
 2. What you need to know before you are given Eptifibatide Accord 
 3. How to use Eptifibatide Accord 
 4. Possible side effects 
 5. How to store Eptifibatide Accord 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -221,6 +221,6 @@ Spain </p>
 <p>Manufacturer: </p>
 <p>Accord Healthcare Polska Sp.z o.o., 
 ul. Lutomierska 50,95-200 Pabianice, Poland </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}</em>. </p>
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

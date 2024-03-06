@@ -4,7 +4,7 @@ Instance: composition-en-a3cd214d19f3341c3aa081ac17f909d1
 InstanceOf: CompositionUvEpi
 Title: "Composition for sutent Package Leaflet"
 Description:  "Composition for sutent Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Sutent is and what it is used for 
-2. What you need to know before you take Sutent 
-3. How to take Sutent 
-4. Possible side effects 
-5. How to store Sutent 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Sutent is and what it is used for </li>
+<li>What you need to know before you take Sutent </li>
+<li>How to take Sutent </li>
+<li>Possible side effects </li>
+<li>How to store Sutent </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -164,9 +164,7 @@ to check your liver function before and during treatment with Sutent, and as cli
 way your wounds heal. You will usually be taken off Sutent if you are having an operation. 
 Your doctor will decide when to start Sutent again. </p>
 </li>
-<li>
-<p>You may be advised to have a dental check-up before you start treatment with Sutent. </p>
-</li>
+<li>You may be advised to have a dental check-up before you start treatment with Sutent. </li>
 <li>If you have or have had pain in the mouth, teeth and/or jaw, swelling or sores inside the 
 mouth, numbness or a feeling of heaviness in the jaw, or loosening of a tooth, tell your 
 doctor and dentist immediately. </li>
@@ -200,14 +198,7 @@ of low blood sugar (fatigue, palpitations, sweating, hunger and loss of consciou
 </li>
 </ul>
 <p>Children and adolescents </p>
-<p>Sutent is not recommended for people aged under 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take sutent"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take sutent"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Sutent </p>
+<p>Sutent is not recommended for people aged under 18. Other medicines and Sutent </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken, or might take any other 
 medicines, including medicines obtained without a prescription and even those not prescribed.  </p>
 <p>Some medicines can affect the levels of Sutent in your body. You should inform your doctor if you are 
@@ -234,13 +225,12 @@ Sutent. </p>
 machines. </p>
 <p>Sutent contains sodium </p>
 <p>This medicine contains less than 1 mmol (23 mg) sodium per capsule, that is to say essentially 
- sodium-free .  </p>         </div>"""         
-
-        
+ sodium-free .  </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take sutent"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take sutent"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. </p>
@@ -256,20 +246,21 @@ stop treatment with Sutent. </p>
 <p>If you have accidentally taken too many capsules, talk to your doctor straight away. You may require 
 medical attention. </p>
 <p>If you forget to take Sutent </p>
-<p>Do not take a double dose to make up for a forgotten dose. </p>         </div>"""      
+<p>Do not take a double dose to make up for a forgotten dose. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store sutent"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store sutent"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>You must immediately contact your doctor if you experience any of those serious side effects (see also 
 What you need to know before you take Sutent): </p>
 <p>Heart problems. Tell your doctor if you feel very tired, are short of breath, or have swollen feet and 
 ankles. These may be symptoms of heart problems that may include heart failure and heart muscle 
-problems (cardiomyopathy).  </p>
-<p>Lung or breathing problems. Tell your doctor if you develop cough, chest pain, sudden onset of 
+problems (cardiomyopathy).<br />
+Lung or breathing problems. Tell your doctor if you develop cough, chest pain, sudden onset of 
 shortness of breath, or coughing up blood. These may be symptoms of a condition called pulmonary 
 embolism that occurs when blood clots travel to your lungs. </p>
 <p>Kidney disorders. Tell your doctor if you experience altered frequency or absence of urination which 
@@ -347,15 +338,8 @@ discolouration, hair loss.  </p>
 <p>Abnormal tube like passage from one normal body cavity to another body cavity or the skin.  </p>
 <p>Pain in the mouth, teeth and/or jaw, swelling or sores inside the mouth, numbness or a feeling of 
 heaviness in the jaw, or loosening of a tooth. These could be signs and symptoms of bone 
-damage in the jaw (osteonecrosis), see section </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Overproduction of thyroid hormones which increases the amount of energy the body uses at rest.  </p>
+damage in the jaw (osteonecrosis), see section 2. <br />
+Overproduction of thyroid hormones which increases the amount of energy the body uses at rest.  </p>
 <p>Problems with wound healing after surgery.  </p>
 <p>Increased blood level of enzyme (creatine phosphokinase) from muscle.  </p>
 <p>Excessive reaction to an allergen including hay fever, skin rash, itchy skin, hives, swelling of 
@@ -384,4 +368,157 @@ Reporting of side effects
 If you get any side effects, talk to your doctor. This includes any possible side effects not listed in this 
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store sutent"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store sutent"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
+<li>Keep this medicine out of the sight and reach of children.</li>
+<li>Do not use this medicine after the expiry date which is stated on carton, bottle and blister foil
+after  EXP . The expiry date refers to the last day of that month.</li>
+<li>This medicine does not require any special storage conditions.</li>
+<li>Do not use this medicine if you notice that the pack is damaged or shows signs of tampering.
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </li>
+</ul>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Sutent contains 
+Sutent 12.5 mg hard capsules 
+The active substance is sunitinib. Each capsule contains sunitinib malate equivalent to 12.5 mg 
+sunitinib. The other ingredients are:</p>
+<ul>
+<li>Capsule content: mannitol (E421), croscarmellose sodium, povidone (K-25), and magnesium 
+stearate. </li>
+<li>Capsule shell: gelatin, red iron oxide (E172), and titanium dioxide (E171).  </li>
+<li>
+<p>Printing ink: shellac, propylene glycol, sodium hydroxide, povidone and titanium dioxide 
+(E171). 
+Sutent 25 mg hard capsules 
+The active substance is sunitinib. Each capsule contains sunitinib malate equivalent to 25 mg. 
+The other ingredients are:</p>
+</li>
+<li>
+<p>Capsule content: mannitol, croscarmellose sodium, povidone (K-25), and magnesium stearate. </p>
+</li>
+<li>Capsule shell: gelatin, titanium dioxide (E171), yellow iron oxide (E172), red iron oxide 
+(E172), black iron oxide (E172).  </li>
+<li>
+<p>Printing ink: shellac, propylene glycol, sodium hydroxide, povidone, and titanium dioxide 
+(E171). 
+Sutent 37.5 mg hard capsules 
+The active substance is sunitinib. Each capsule contains sunitinib malate equivalent to 37.5 mg. 
+The other ingredients are:</p>
+</li>
+<li>
+<p>Capsule content: mannitol, croscarmellose sodium, povidone (K-25), and magnesium stearate. </p>
+</li>
+<li>Capsule shell: gelatin, titanium dioxide (E171), yellow iron oxide (E172).  </li>
+<li>Printing ink: shellac, propylene glycol, potassium hydroxide, black iron oxide (E172). 
+Sutent 50 mg hard capsules </li>
+</ul>
+<p>The active substance is sunitinib. Each capsule contains sunitinib malate equivalent to 50 mg. 
+The other ingredients are:</p>
+<ul>
+<li>Capsule content: mannitol, croscarmellose sodium, povidone (K-25), and magnesium stearate. </li>
+<li>Capsule shell: gelatin, titanium dioxide (E171), yellow iron oxide (E172), red iron oxide 
+(E172), and black iron oxide (E172). </li>
+<li>Printing ink: shellac, propylene glycol, sodium hydroxide, povidone, and titanium dioxide 
+(E171). </li>
+</ul>
+<p>What Sutent looks like and contents of the pack </p>
+<p>Sutent 12.5 mg is supplied as hard gelatin capsules with orange cap and orange body, printed with 
+white ink  Pfizer  on the cap,  STN 12.5 mg  on the body, containing yellow to orange granules. </p>
+<p>Sutent 25 mg is supplied as hard gelatin capsules with caramel cap and orange body, printed with 
+white ink  Pfizer  on the cap,  STN 25 mg  on the body, containing yellow to orange granules. </p>
+<p>Sutent 37.5 mg is supplied as hard gelatin capsules with yellow cap and yellow body, printed with 
+black ink  Pfizer  on the cap,  STN 37.5 mg  on the body, containing yellow to orange granules. </p>
+<p>Sutent 50 mg is supplied as hard gelatin capsules with caramel cap and caramel body, printed with 
+white ink  Pfizer  on the cap,  STN 50 mg  on the body, containing yellow to orange granules. </p>
+<p>It is available in plastic bottles of 30 capsules and in perforated unit dose blisters containing 
+28 x 1 capsules. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Pfizer Europe MA EEIG 
+Boulevard de la Plaine 1050 Bruxelles 
+Belgium </p>
+<p>Manufacturer </p>
+<p>Pfizer Italia S.r.l. 
+Via del Commercio   Zona Industriale 
+63100 Marino del Tronto (Ascoli Piceno) 
+Italy </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Luxembourg/Luxemburg 
+Pfizer NV/SA 
+T l/Tel: +32 (0)2 554 62 Lietuva 
+Pfizer Luxembourg SARL filialas Lietuvoje 
+Tel. + 370 52 51 4<br />
+     ,   <br />
+ .: +359 2 970 4Magyarorsz g 
+Pfizer Kft. 
+Tel.: +36-1-488-37- esk  republika 
+Pfizer spol. s.r.o. <br />
+Tel.: +420 283 004 Malta 
+Vivian Corporation Ltd. 
+Tel: +356 21344Danmark 
+Pfizer ApS 
+Tlf: +45 44 20 11 Nederland 
+Pfizer BV 
+Tel: +31 (0)10 406 43 Deutschland 
+PFIZER PHARMA GmbH 
+Tel: +49 (0)30 550055-51Norge 
+Pfizer AS 
+Tlf: +47 67 52 61 Eesti 
+Pfizer Luxembourg SARL Eesti filiaal<br />
+Tel.: +372 666 7 sterreich 
+Pfizer Corporation Austria Ges.m.b.H. 
+Tel: +43 (0)1 521 15-0 </p>
+<p>Pfizer   A.E. 
+ : +30 210 6785 Polska 
+Pfizer Polska Sp. z o.o. 
+Tel.:+48 22 335 61 Espa a 
+Pfizer, S.L.<br />
+Tel: +34 91 490 99 Portugal 
+Laborat rios Pfizer, Lda. 
+Tel: +351 21 423 5France 
+Pfizer<br />
+T l: +33 (0)1 58 07 34 Rom nia 
+Pfizer Romania S.R.L. 
+Tel: +40 (0) 21 207 28 Hrvatska 
+Pfizer Croatia d.o.o. 
+Tel: + 385 1 3908 Slovenija 
+Pfizer Luxembourg SARL 
+Pfizer, podru nica za svetovanje s podro ja 
+farmacevtske dejavnosti, Ljubljana 
+Tel.: + 386 (0)1 52 11 Ireland 
+Pfizer Healthcare Ireland 
+Tel: 1800 633 363 (toll free) 
++44 (0)1304 616Slovensk  republika 
+Pfizer Luxembourg SARL, organiza n  zlo ka<br />
+Tel.: + 421 2 3355 5 sland 
+Icepharma hf. 
+S mi: +354 540 8Suomi/Finland 
+Pfizer Oy 
+Puh./Tel: +358 (0)9 43 00 Italia 
+Pfizer S.r.l. 
+Tel: +39 06 33 18 Sverige<br />
+Pfizer AB 
+Tel: +46 (0)8 550 520 K<br />
+Pfizer   A.E. (Cyprus Branch) <br />
+T .:+ 357 22 817United Kingdom (Northern Ireland) 
+Pfizer Limited 
+Tel: +44 (0) 1304 616Latvija 
+Pfizer Luxembourg SARL fili le Latvij<br />
+Tel.: + 371 670 35 This leaflet was last revised in {MM/YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicine Agency website: 
+http://www.ema.europa.eu.  </p>         </div>"""      
 

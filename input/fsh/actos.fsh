@@ -4,7 +4,7 @@ Instance: composition-en-5137745e381296dea05060d82180475d
 InstanceOf: CompositionUvEpi
 Title: "Composition for actos Package Leaflet"
 Description:  "Composition for actos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Actos is and what it is used for 
-2. What you need to know before you take Actos 
-3. How to take Actos 
-4. Possible side effects 
-5. How to store Actos 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Actos is and what it is used for </li>
+<li>What you need to know before you take Actos </li>
+<li>How to take Actos </li>
+<li>Possible side effects </li>
+<li>How to store Actos </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -237,8 +237,8 @@ antidiabetic medicines are: </p>
 - spinning sensation (vertigo) 
 - sweating 
 - tiredness 
-- increased appetite </p>
-<p>Reporting of side effects 
+- increased appetite 
+Reporting of side effects 
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
@@ -286,5 +286,6 @@ Manufacturer
 Takeda Ireland Limited, Bray Business Park, Kilruddery, County Wicklow, Ireland. 
 Lilly S.A, Avda. de la Industria 30, 28108 Alcobendas (Madrid), Spain 
 CHEPLAPHARM Arzneimittel GmbH, Ziegelhof 23-24, 17489 Greifswald, Germany.  </p>
-<p>This leaflet was last approved in August 202</p>         </div>"""      
+<p>This leaflet was last approved in August 2023. Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

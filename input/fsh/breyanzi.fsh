@@ -4,7 +4,7 @@ Instance: composition-en-0033e02023c8b1bd6906c2cf5f7b744d
 InstanceOf: CompositionUvEpi
 Title: "Composition for breyanzi Package Leaflet"
 Description:  "Composition for breyanzi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Breyanzi is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Breyanzi is and what it is used for<br />
 2. What you need to know before you are given Breyanzi 
 3. How Breyanzi is given 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Breyanzi 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -212,21 +211,14 @@ each of the 2 cell types. </p>
 * Stay close to the treatment centre where you received Breyanzi   for at least 4 weeks. 
 * During the first week after treatment, you will need to return to the treatment centre 2 to 3 times 
 so that your doctor can check that the treatment is working   and to help you with any side 
-effects. See sections 2 and </p>         </div>"""         
+effects. See sections 2 and 4. If you miss an appointment 
+Call your doctor or the treatment centre as soon as possible to make another appointment. </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you miss an appointment 
-Call your doctor or the treatment centre as soon as possible to make another appointment. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store breyanzi"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store breyanzi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects 
@@ -292,13 +284,47 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store breyanzi"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store breyanzi"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the cartons and vial label after  EXP .  </p>
+<p>Store frozen in the vapour phase of liquid nitrogen (  -130  C). </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the cartons and vial label after  EXP .  </p>
-<p>Store frozen in the vapour phase of liquid nitrogen (  -130  C). </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Breyanzi contains<br />
+* The active substance is lisocabtagene maraleucel. Each 4.6 mL vial contains a dispersion of 
+CAR-positive viable T cells (CD8 positive cell component or CD4 positive cell component) 
+with a strength of 1.1   106 to 70   106 CAR-positive viable T cells/mL for each cell 
+component. There may be up to 4 vials of each of the CD8 positive or CD4 positive cell 
+components, depending upon the concentration of cryopreserved medicine. </p>
+<ul>
+<li>The other ingredients (excipients) are Cryostor CS10 (contains dimethyl sulfoxide or DMSO), 
+sodium chloride, sodium gluconate, sodium acetate trihydrate, potassium chloride, magnesium 
+chloride, human albumin, N-acetyl-DL-tryptophan, caprylic acid, water for injections. See 
+section 2,  Breyanzi contains sodium, potassium and dimethyl sulfoxide (DMSO) . </li>
+</ul>
+<p>This medicine contains genetically modified human blood cells. </p>
+<p>What Breyanzi looks like and contents of the pack 
+Breyanzi is a cell dispersion for infusion. It is supplied as vials of slightly opaque to opaque, 
+colourless to yellow, or brownish-yellow dispersion. Each vial contains 4.6 mL cell dispersion of 
+either CD8 positive or CD4 positive cell component. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Bristol-Myers Squibb Pharma EEIG 
+Plaza Blanchardstown Corporate Park 2 
+Dublin 15, D15 TIreland </p>
+<p>Manufacturer 
+Celgene Distribution B.V. 
+Orteliuslaan 13528 BD Utrecht<br />
+Netherlands </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

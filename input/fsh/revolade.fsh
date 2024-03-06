@@ -4,7 +4,7 @@ Instance: composition-en-f34ab6116c3c4c0c8f28f2de9888b61e
 InstanceOf: CompositionUvEpi
 Title: "Composition for revolade Package Leaflet"
 Description:  "Composition for revolade Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Revolade is and what it is used for 
 2. What you need to know before you take Revolade 
 3. How to take Revolade 
 4. Possible side effects 
 5. How to store Revolade 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -199,17 +199,10 @@ necessary. </p>
 <p>If you are also taking medicines to prevent blood clots there is a greater risk of bleeding. Your doctor 
 will discuss this with you. </p>
 <p>If you are taking corticosteroids, danazol, and/or azathioprine you may need to take a lower dose or 
-to stop taking them while you are taking Revolade. </p>
-<p>Revolade with food and drink 
+to stop taking them while you are taking Revolade. 
+Revolade with food and drink 
 Do not take Revolade with dairy foods or drinks as the calcium in dairy products affects the absorption 
-of the medicine. For more information, see  When to take it  in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take revolade"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take revolade"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Pregnancy and breast-feeding 
+of the medicine. For more information, see  When to take it  in section 3. Pregnancy and breast-feeding 
 Don t use Revolade if you are pregnant unless your doctor specifically recommends it. The effect of 
 Revolade during pregnancy is not known. 
 * Tell your doctor if you are pregnant, think you may be pregnant, or are planning to have a 
@@ -224,13 +217,12 @@ Revolade can make you dizzy and have other side effects that make you less alert
 <p>Don t drive or use machines unless you are sure you re not affected. </p>
 <p>Revolade contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-
-free . </p>         </div>"""         
-
-        
+free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take revolade"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take revolade"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. Do not change the dose or schedule for taking Revolade unless your doctor or 
@@ -272,20 +264,13 @@ Take the next dose at the usual time. Do not take more than one dose of Revolade
 <p>If you stop taking Revolade 
 Don t stop taking Revolade without talking to your doctor. If your doctor advises you to stop 
 treatment, your platelet count will then be checked each week for four weeks. See also  Bleeding or 
-bruising after you stop treatment  in section </p>         </div>"""      
+bruising after you stop treatment  in section 4. If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store revolade"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store revolade"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Symptoms needing attention: see a doctor 
@@ -534,8 +519,8 @@ site of injection, chest pain and discomfort, build-up of fluid in the body or e
 swelling 
 * infection in the nose, sinuses, throat and upper airways, common cold (upper respiratory tract 
 infection), inflammation of mucous membrane lining the bronchi 
-* depression, anxiety, sleep problems, nervousness </p>
-<p>Common side effects that may show up in blood tests: 
+* depression, anxiety, sleep problems, nervousness 
+Common side effects that may show up in blood tests: 
 * increased blood sugar (glucose) 
 * decreased number of white blood cells 
 * decreased number of neutrophils 
@@ -622,4 +607,137 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store revolade"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store revolade"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and the blister. </p>
+<p>This medicine does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Revolade contains 
+The active substance in Revolade is eltrombopag. </p>
+<p>12.5 mg film-coated tablets 
+Each film-coated tablet contains eltrombopag olamine equivalent to 12.5 mg eltrombopag. </p>
+<p>25 mg film-coated tablets 
+Each film-coated tablet contains eltrombopag olamine equivalent to 25 mg eltrombopag. </p>
+<p>50 mg film-coated tablets 
+Each film-coated tablet contains eltrombopag olamine equivalent to 50 mg eltrombopag. </p>
+<p>75 mg film-coated tablets 
+Each film-coated tablet contains eltrombopag olamine equivalent to 75 mg eltrombopag. </p>
+<p>The other ingredients are: hypromellose, macrogol 400, magnesium stearate, mannitol (E421), 
+microcrystalline cellulose, povidone, sodium starch glycolate, titanium dioxide (E171). </p>
+<p>Revolade 12.5 mg and 25 mg film-coated tablets also contain polysorbate 80 (E433). </p>
+<p>Revolade 50 mg film-coated tablets also contain iron oxide red (E172) and iron oxide yellow (E172). </p>
+<p>Revolade 75 mg film-coated tablets also contain iron oxide red (E172) and iron oxide black (E172). </p>
+<p>What Revolade looks like and contents of the pack 
+Revolade 12.5 mg film-coated tablets are round, biconvex, white, debossed with  GS MZ1  and  12.5<br />
+on one side. </p>
+<p>Revolade 25 mg film-coated tablets are round, biconvex, white, debossed with  GS NX3  and  25  on 
+one side. </p>
+<p>Revolade 50 mg film-coated tablets are round, biconvex, brown, debossed with  GS UFU  and  50  on 
+one side. </p>
+<p>Revolade 75 mg film-coated tablets are round, biconvex, pink, debossed with  GS FFS  and  75  on 
+one side. </p>
+<p>They are supplied in aluminum blisters in a carton containing 14 or 28 film-coated tablets and 
+multipacks containg 84 (3 packs of 28) film-coated tablets). </p>
+<p>Not all pack sizes may be available in your country. </p>
+<p>Marketing authorisation holder 
+Novartis Europharm Limited 
+Vista Building 
+Elm Park, Merrion Road 
+Dublin 4 
+Ireland </p>
+<p>Manufacturer 
+Lek d.d 
+Verovskova Ulica Ljubljana 1Slovenia </p>
+<p>Novartis Pharmaceutical Manufacturing LLC 
+Verovskova Ulica Ljubljana 1Slovenia </p>
+<p>Novartis Farmac utica SA 
+Gran Via de les Corts Catalanes, 08013 Barcelona 
+Spain </p>
+<p>Novartis Pharma GmbH 
+Roonstra e D-90429 Nuremberg 
+Germany </p>
+<p>Glaxo Wellcome S.A. 
+Avenida de Extremadura 3 
+09400 Aranda de Duero 
+Burgos 
+Spain </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16 Lietuva 
+SIA Novartis Baltics Lietuvos filialas 
+Tel: +370 5 269 16 <br />
+Novartis Bulgaria EOOD 
+ : +359 2 489 98 Luxembourg/Luxemburg 
+Novartis Pharma N.V. 
+T l/Tel: +32 2 246 16  esk  republika 
+Novartis s.r.o. 
+Tel: +420 225 775 Magyarorsz g 
+Novartis Hung ria Kft. 
+Tel.: +36 1 457 65 Danmark 
+Novartis Healthcare A/S 
+Tlf: +45 39 16 84 Malta 
+Novartis Pharma Services Inc. 
+Tel: +356 2122 2Deutschland 
+Novartis Pharma GmbH 
+Tel: +49 911 273 0 </p>
+<p>Nederland 
+Novartis Pharma B.V. 
+Tel: +31 88 04 52 Eesti 
+SIA Novartis Baltics Eesti filiaal 
+Tel: +372 66 30 Norge 
+Novartis Norge AS 
+Tlf: +47 23 05 20 <br />
+Novartis (Hellas) A.E.B.E. 
+ : +30 210 281 17  sterreich 
+Novartis Pharma GmbH 
+Tel: +43 1 86 6Espa a 
+Novartis Farmac utica, S.A. 
+Tel: +34 93 306 42 Polska 
+Novartis Poland Sp. z o.o. 
+Tel.: +48 22 375 4France 
+Novartis Pharma S.A.S. 
+T l: +33 1 55 47 66 Portugal 
+Novartis Farma - Produtos Farmac uticos, S.A. 
+Tel: +351 21 000 8Hrvatska 
+Novartis Hrvatska d.o.o. 
+Tel. +385 1 6274 Rom nia 
+Novartis Pharma Services Romania SRL 
+Tel: +40 21 31299 Ireland 
+Novartis Ireland Limited 
+Tel: +353 1 260 12 Slovenija 
+Novartis Pharma Services Inc. 
+Tel: +386 1 300 75  sland 
+Vistor hf. 
+S mi: +354 535 7Slovensk  republika 
+Novartis Slovakia s.r.o. 
+Tel: +421 2 5542 5Italia 
+Novartis Farma S.p.A. 
+Tel: +39 02 96 54 1 
+Suomi/Finland 
+Novartis Finland Oy 
+Puh/Tel: +358 (0)10 6133 <br />
+Novartis Pharma Services Inc. 
+ : +357 22 690 Sverige 
+Novartis Sverige AB 
+Tel: +46 8 732 32 Latvija 
+SIA Novartis Baltics 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
+Novartis Ireland Limited 
+Tel: +44 1276 698This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

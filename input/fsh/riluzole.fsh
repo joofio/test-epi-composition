@@ -4,7 +4,7 @@ Instance: composition-en-9a27641c92c3b8f37c07af63ced02da9
 InstanceOf: CompositionUvEpi
 Title: "Composition for riluzole Package Leaflet"
 Description:  "Composition for riluzole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Riluzole Zentiva is and what it is used for 
 2. What you need to know before you take Riluzole Zentiva 
 3. How to take Riluzole Zentiva 
 4. Possible side effects 
 5. How to store Riluzole Zentiva 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -227,9 +226,7 @@ Riluzole Zentiva is available in a pack of 28, 56, 98, 112 or 168 tablets to be 
 Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder 
 Zentiva k.s.<br />
-U kabelovny 130<br />
-102 37 Prague 10<br />
-Czech Republic </p>
+U kabelovny 102 37 Prague Czech Republic </p>
 <p>Manufacturers 
 Opella Healthcare International SAS 
 56, Route de Choisy 
@@ -285,8 +282,7 @@ Zentiva Polska Sp. z o.o.
 Tel: + 48 22 375 92 PV-Poland@zentiva.com 
 France 
 Zentiva France 
-T l: +33 (0) 800 089 219<br />
-PV-France@zentiva.com </p>
+T l: +33 (0) 800 089 PV-France@zentiva.com </p>
 <p>Portugal 
 Zentiva Portugal, Lda 
 Tel: +351210601PV-Portugal@zentiva.com 

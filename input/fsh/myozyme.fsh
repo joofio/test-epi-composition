@@ -4,7 +4,7 @@ Instance: composition-en-dbdbf98ea44926c7f122d6f81a850a2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for myozyme Package Leaflet"
 Description:  "Composition for myozyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Myozyme is and what it is used for 
 2. What you need to know before you are given Myozyme 
 3. How Myozyme is given 
 4. Possible side effects 
 5. How to store Myozyme 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -300,85 +299,62 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien/ 
 Luxembourg/Luxemburg 
 Sanofi Belgium 
-T l/Tel: + 32 2 710 54<br />
-Lietuva 
+T l/Tel: + 32 2 710 54 Lietuva 
 Swixx Biopharma UAB<br />
-Tel. +370 5 236 91  </p>
-<p>Swixx Biopharma EOOD 
- .: +359 (0)2 4942<br />
-Magyarorsz g 
+Tel. +370 5 236 91 <br />
+Swixx Biopharma EOOD 
+ .: +359 (0)2 4942 Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel: +36 1 505 0 esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233086<br />
-Malta 
+Tel: +420 233086 Malta 
 Sanofi S.r.l. 
-Tel: +39 02 39394 
-Danmark 
+Tel: +39 02 39394Danmark 
 Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Nederland 
+Tlf: +45 45 16 70 Nederland 
 Sanofi B.V. 
 Tel: +31 20 245 4Deutschland 
 Sanofi-Aventis Deutschland GmbH 
-Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
-Norge 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70 Norge 
 sanofi-aventis Norge AS 
-Tlf: + 47 67 10 71<br />
-Eesti 
+Tlf: + 47 67 10 71 Eesti 
 Swixx Biopharma O<br />
-Tel. +372 640 10<br />
- sterreich 
+Tel. +372 640 10  sterreich 
 sanofi-aventis GmbH 
 Tel: + 43 1 80 185   0 </p>
 <p>Sanofi-Aventis   AEBE 
- : +30 210 900 1 
-Polska 
+ : +30 210 900 1Polska 
 sanofi-aventis Sp. z o.o. 
-Tel.: +48 22 280 00<br />
-Espa a 
+Tel.: +48 22 280 00 Espa a 
 sanofi-aventis, S.A. 
-Tel: +34 93 485 94 <br />
-Portugal 
+Tel: +34 93 485 94 Portugal 
 Sanofi   Produtos Farmac uticos, Lda. 
-Tel: +351 21 35 89<br />
-France 
+Tel: +351 21 35 89 France 
 Sanofi Winthrop Industrie<br />
-T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
-Rom nia 
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23 Rom nia 
 Sanofi Romania SRL 
-Tel: +40 (0) 21 317 31<br />
-Hrvatska 
+Tel: +40 (0) 21 317 31 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-Slovenija 
+Tel: +385 1 2078 Slovenija 
 Swixx Biopharma d.o.o. 
-Tel: +386 1 235 51<br />
-Ireland 
+Tel: +386 1 235 51 Ireland 
 Sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +353 (0) 1 403 56<br />
-Slovensk  republika 
+Tel: +353 (0) 1 403 56 Slovensk  republika 
 Swixx Biopharma s.r.o. 
-Tel.:  +421 2 208 33<br />
- sland 
+Tel.:  +421 2 208 33  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Suomi/Finland 
+S mi: +354 535 7Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: + 358 201 200<br />
-Italia 
+Puh/Tel: + 358 201 200 Italia 
 Sanofi S.r.l. 
 Tel: 800536Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50  </p>
-<p>C.A. Papaellinas Ltd. 
- : +357 22 741741  </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: +46 (0)8 634 50 <br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel +44 (0) 800 035 2 
-Latvija 
+Tel +44 (0) 800 035 2Latvija 
 Swixx Biopharma SIA 
-Tel: +371 6 616 47  </p>
-<p>This leaflet was last revised in  </p>
+Tel: +371 6 616 47 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-7e98051b7b877024b322905712140ea8
 InstanceOf: CompositionUvEpi
 Title: "Composition for abecma Package Leaflet"
 Description:  "Composition for abecma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Abecma is and what it is used for 
-2. What you need to know before you are given Abecma 
-3. How Abecma is given 
-4. Possible side effects 
-5. How to store Abecma 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Abecma is and what it is used for </li>
+<li>What you need to know before you are given Abecma </li>
+<li>How Abecma is given </li>
+<li>Possible side effects </li>
+<li>How to store Abecma </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -137,8 +137,8 @@ You must not be given certain vaccines called live vaccines:
 chemotherapy) to prepare your body for Abecma. 
 * during Abecma treatment. 
 * after treatment while the immune system is recovering. </p>
-<p>Talk to your doctor if you need to have any vaccinations. </p>
-<p>Pregnancy and breast-feeding 
+<p>Talk to your doctor if you need to have any vaccinations. 
+Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor for advice before being given this medicine. This is because the effects of Abecma in 
 pregnant or breast-feeding women are not known and it may harm your unborn baby or breast-fed 

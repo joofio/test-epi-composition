@@ -4,7 +4,7 @@ Instance: composition-en-b118a8011d0099eb4bb6c4b864ba44c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tevimbra Package Leaflet"
 Description:  "Composition for tevimbra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tevimbra is and what it is used for 
-2. What you need to know before you are given Tevimbra 
-3. How Tevimbra is given 
-4. Possible side effects 
-5. How to store Tevimbra 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tevimbra is and what it is used for </li>
+<li>What you need to know before you are given Tevimbra </li>
+<li>How Tevimbra is given </li>
+<li>Possible side effects </li>
+<li>How to store Tevimbra </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -306,8 +306,8 @@ product correctly. The following information is intended for healthcare professi
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
 The expiry date refers to the last day of that month. </p>
 <p>Store in a refrigerator (2 C to 8 C). </p>
-<p>Do not freeze. </p>
-<p>Store in the original carton in order to protect from light. </p>
+<p>Do not freeze. 
+Store in the original carton in order to protect from light. </p>
 <p>Tevimbra does not contain a preservative. Chemical and physical in-use stability has been 
 demonstrated for 24 hours at 2 C to 8 C. The 24 hours include storage of the diluted solution under 
 refrigeration (2 C to 8 C) for no more than 20 hours, time required for returning to room temperature 
@@ -349,7 +349,7 @@ Spain </p>
 <p>Novartis Pharma GmbH 
 Roonstrasse 90429 Nuremberg 
 Germany </p>
-<p>This leaflet was last revised in </p>
-<p>Other sources of information 
+<p>This leaflet was last revised in 
+Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

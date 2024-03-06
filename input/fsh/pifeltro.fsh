@@ -4,7 +4,7 @@ Instance: composition-en-d9e1f5caf32113b1e6722af1d88782c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for pifeltro Package Leaflet"
 Description:  "Composition for pifeltro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Pifeltro is and what it is used for
 2. What you need to know before you take Pifeltro
 3. How to take Pifeltro
 4. Possible side effects
 5. How to store Pifeltro
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -267,5 +266,111 @@ environment.</li>
 monohydrate; magnesium stearate E470b; microcrystalline cellulose E460; and silica, colloidal
 anhydrous E551. The tablets are film-coated with a coating material containing the following
 ingredients: carnauba wax E903; hypromellose E464; lactose monohydrate; titanium dioxide
-E171; and triacetin E151</p>         </div>"""      
+E171; and triacetin E1518. What Pifeltro looks like and contents of the pack
+Pifeltro is available as a white, oval-shaped, film-coated tablet, and is debossed with the corporate
+logo and 700 on one side and plain on the other side.
+The following pack sizes are available:
+* 1 bottle with 30 film-coated tablets
+* 90 film-coated tablets (3 bottles of 30 film-coated tablets)
+Not all pack sizes may be available in your country.
+Marketing Authorisation Holder and Manufacturer
+Merck Sharp &amp; Dohme B.V., Waarderweg 39, 2031 BN Haarlem, The Netherlands
+For any information about this medicine, please contact the local representative of the Marketing
+Authorisation Holder:
+Belgi /Belgique/Belgien
+MSD Belgium
+T l/Tel: +32(0)27766dpoc_belux@merck.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 msd_lietuva@merck.com</p>
+<p>.: +359 2 819 3info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+T l/Tel: +32(0)27766dpoc_belux@merck.com
+ esk  republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 dpoc_czechslovak@merck.com
+Magyarorsz g
+MSD Pharma Hungary Kft. 
+Tel.: +36 1 888 5hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme O 
+Tel.: +372 6144 msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 msdnorge@msd.no</p>
+<p>MSD  . . . . .
+ : +30 210 98 97 dpoc_greece@merck.com
+ sterreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 dpoc_austria@merck.com
+Espa a
+Merck Sharp &amp; Dohme de Espa a, S.A.
+Tel: +34 91 321 06 msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 msdpolska@merck.com
+France
+MSD France
+T l: + 33 (0) 1 80 46 40 Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465inform_pt@merck.com
+Hrvatska:
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 croatia_info@merck.com 
+Rom nia
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998medinfo_ireland@merck.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila
+d.o.o.
+Tel: +386 1 5204 msd.slovenia@merck.com
+ sland
+Vistor hf.
+S mi: + 354 535 7Slovensk  republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 info@msd.fi</p>
+<p>Merck Sharp &amp; Dohme Cyprus Limited
+ .: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371 67364msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998medinfoNI@msd.com
+This leaflet was last revised in {MM/YYYY}
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site:
+http://www.ema.europa.eu .</p>         </div>"""      
 

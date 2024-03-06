@@ -4,7 +4,7 @@ Instance: composition-en-eb8ec19effa25a547e158c24705b1a5c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebilfumin Package Leaflet"
 Description:  "Composition for ebilfumin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ebilfumin is and what it is used for  
-2. What you need to know before you take Ebilfumin 
-3. How to take Ebilfumin 
-4. Possible side effects  
-5. How to store Ebilfumin 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ebilfumin is and what it is used for  </li>
+<li>What you need to know before you take Ebilfumin </li>
+<li>How to take Ebilfumin </li>
+<li>Possible side effects  </li>
+<li>How to store Ebilfumin </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -100,8 +100,8 @@ epidemic periods, flu-like symptoms are usually caused by a different type of il
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Ebilfumin: 
 * if you are allergic to oseltamivir or any of the other ingredients of this medicine (listed in 
 section 6). 
-Talk to your doctor if this applies to you. Do not take Ebilfumin. </p>
-<p>Warnings and precautions 
+Talk to your doctor if this applies to you. Do not take Ebilfumin. 
+Warnings and precautions 
 Talk to your doctor or pharmacist before taking Ebilfumin. 
 Before you take Ebilfumin, make sure the prescribing doctor knows 
 * if you are allergic to other medicines 
@@ -222,8 +222,8 @@ daily
 weight</em><em>, twice daily 
 3 mg per kg</em>*,<br />
 once daily 
-* For infants with a weak immune system, treatment is for 10 days. </p>
-<p>** mg per kg = mg for each kilogram of the infant s body weight. For example: 
+* For infants with a weak immune system, treatment is for 10 days. 
+** mg per kg = mg for each kilogram of the infant s body weight. For example: 
 If a 6-month-old weighs 8 kg, the dose is8 kg x 3mg per kg = 24 mg </p>
 <p>Method of administration 
 Swallow the capsules whole with water. Do not break or chew the capsules. </p>
@@ -269,8 +269,8 @@ areas of skin, possible breathing difficulties and low blood pressure
 * Neuropsychiatric disorders, as described below. 
 If you notice any of these symptoms, get medical help immediately. </p>
 <p>The most frequently (very common and common) reported side effects of Ebilfumin are feeling or 
-being sick (nausea, vomiting), stomach ache, stomach upset, headache and pain. These side effects </p>
-<p>mostly occur after the first dose of the medicine and will usually stop as treatment continues. The 
+being sick (nausea, vomiting), stomach ache, stomach upset, headache and pain. These side effects 
+mostly occur after the first dose of the medicine and will usually stop as treatment continues. The 
 frequency of these effects is reduced if the medicinal product is taken with food. </p>
 <p>Rare but serious effects: get medical help at once 
 (These may affect up to 1 in 1,000 people) 
@@ -317,10 +317,8 @@ If you notice any of these symptoms, especially in younger people, get medical h
 * Skin reactions (inflammation of the skin, red and itchy rash, scaling skin). </p>
 <p>Rare side effects 
 (may affect up to 1 in 1,000 people) 
-* Thrombocytopenia (low platelet count) </p>
-<ul>
-<li>Visual disturbances. </li>
-</ul>
+* Thrombocytopenia (low platelet count) 
+* Visual disturbances. </p>
 <p>Children 1 to 12 years </p>
 <p>Very common side effects 
 (may affect more than 1 in 10 people) 
@@ -383,5 +381,79 @@ printing ink: shellac glaze-45% (20% esterified), black iron oxide (E172), propy
 (E1520), ammonium hydroxide 28% (E527) </p>
 <p>What Ebilfumin looks like and contents of the pack 
 The hard capsule consists of a rich yellow body and cap bearing the black imprint  OS 30 . Capsule 
-size: </p>         </div>"""      
+size: 4. Ebilfumin 30 mg hard capsules are available in blister packs or tablet containers of 10. Marketing Authorisation Holder 
+Actavis Group PTC ehf. 
+Dalshraun 1 
+220 Hafnarfj r ur 
+Iceland </p>
+<p>Manufacturer 
+Balkanpharma-Dupnitsa AD 
+3 Samokovsko Shosse Str. 
+Dupnitsa 2Bulgaria </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
+TEVA GmbH 
+Tel: +49 73140 esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
+Tel: +36 12886Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+TEVA GmbH 
+Tel: +49 73140Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Norge 
+Teva Norway AS 
+Tlf: +47 66775<br />
+Specifar  . . . . 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, 
+Lda. 
+Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+Specifar A.B.E.E. </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last revised in {MM/YYYY} {month YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

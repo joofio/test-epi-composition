@@ -4,7 +4,7 @@ Instance: composition-en-f2aa2b90d380444519f71c2efd9d6e1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sycrest Package Leaflet"
 Description:  "Composition for sycrest Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Sycrest is and what it is used for 
 2. What you need to know before you take Sycrest 
 3. How to take Sycrest 
 4. Possible side effects 
 5. How to store Sycrest 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -140,8 +139,8 @@ the brain could occur due to an additive effect on brain function. </p>
 medicines that lower blood pressure. </p>
 <p>Sycrest with food, drink and alcohol 
 Do not eat or drink for 10 minutes after taking this medicine. 
-You should avoid drinking alcohol when taking this medicine. </p>
-<p>Pregnancy and breast-feeding 
+You should avoid drinking alcohol when taking this medicine. 
+Pregnancy and breast-feeding 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Do not take Sycrest while you are pregnant, unless your doctor tells you so. If you are taking this 
@@ -366,8 +365,7 @@ Organon Polska Sp. z o.o.
 Tel.: +48 22 105 50 organonpolska@organon.com </p>
 <p>France 
 Organon France 
-T l: +33 (0) 1 57 77 32<br />
-Portugal 
+T l: +33 (0) 1 57 77 32 Portugal 
 Organon Portugal, Sociedade Unipessoal Lda. 
 Tel: +351 218705geral_pt@organon.com </p>
 <p>Hrvatska 
@@ -385,8 +383,7 @@ Ljubljana
 Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
 <p>sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
 <p>Italia 

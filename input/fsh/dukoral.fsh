@@ -4,7 +4,7 @@ Instance: composition-en-a651c9ffaada5f4880461c8764acc607
 InstanceOf: CompositionUvEpi
 Title: "Composition for dukoral Package Leaflet"
 Description:  "Composition for dukoral Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What Dukoral is and what it is used for 
 2. What you need to know before you use Dukoral 
 3. How to use Dukoral 
 4. Possible side effects 
 5. How to store Dukoral 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -96,8 +96,8 @@ Do not give this vaccine to children younger than 2 years since the protection h
 this group. </p>
 <p>Other medicines and Dukoral 
 Please tell your doctor if you are taking or have recently taken any other medicines. 
-Do not take other medicine starting 1 hour before until 1 hour after taking the vaccine.  </p>
-<p>Using Dukoral with food and drink 
+Do not take other medicine starting 1 hour before until 1 hour after taking the vaccine.<br />
+Using Dukoral with food and drink 
 Avoid food and drink starting 1 hour before until 1 hour after the vaccination. </p>
 <p>Pregnancy and breast-feeding 
 If you are pregnant, think you may be pregnant or are planning to have a baby or are breast-feeding, 
@@ -138,8 +138,8 @@ sachet package that contains a white effervescent powder of sodium hydrogen carb
 effervescent powder should be dissolved in a glass of cool water, and the resulting buffer solution 
 should be mixed with the suspension. It is important to use the buffer solution, as it protects the 
 vaccine from the gastric acid. </p>
-<p>Drink the entire mixture within 2 hours after mixing with the buffer solution. </p>
-<p>Instructions for use: </p>
+<p>Drink the entire mixture within 2 hours after mixing with the buffer solution. 
+Instructions for use: </p>
 <ol>
 <li>
 <p>To prepare the buffer solution, dissolve the effervescent powder in a glass of cool water 
@@ -186,8 +186,8 @@ general stomach discomfort<br />
 <p>Rare side effects (may affect up to 1 in a 1,000 people) 
   Fever 
   Generally feeling unwell, feeling dizzy<br />
-  Nausea (feeling sick), vomiting, loss of /or poor appetite </p>
-<p>Swelling irritation inside the nose, and cough. </p>
+  Nausea (feeling sick), vomiting, loss of /or poor appetite 
+   Swelling irritation inside the nose, and cough. </p>
 <p>Very rare side effects (may affect up to 1 in a 10,000 people)<br />
   Rash<br />
   Sore throat, reduced sense of taste 
@@ -244,8 +244,8 @@ hydrogen phosphate, sodium chloride and water for injections. </p>
 saccharin sodium, sodium citrate and raspberry flavour. </p>
 </li>
 </ul>
-<p>What Dukoral looks like and contents of the pack </p>
-<p>Dukoral is presented as a suspension and effervescent powder for oral suspension. The suspension is a 
+<p>What Dukoral looks like and contents of the pack 
+Dukoral is presented as a suspension and effervescent powder for oral suspension. The suspension is a 
 whitish suspension supplied in a vial. The effervescent powder is white with a raspberry flavour and 
 is supplied in a sachet. </p>
 <p>Dukoral is available in packs of 1, 2 and 20 doses. Not all pack sizes may be marketed. </p>

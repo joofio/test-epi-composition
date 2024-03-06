@@ -4,7 +4,7 @@ Instance: composition-en-85f7c08e568d2cd0fc2ac32155c57714
 InstanceOf: CompositionUvEpi
 Title: "Composition for novothirteen Package Leaflet"
 Description:  "Composition for novothirteen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What NovoThirteen is and what it is used for 
 2. What you need to know before you use NovoThirteen 
 3. How to use NovoThirteen 
 4. Possible side effects 
 5. How to store NovoThirteen 
-6. Contents of the pack and other information.          </div>"""   
+6. Contents of the pack and other information. </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -212,5 +212,12 @@ for the solvent water for injections. </p>
 <p>What NovoThirteen looks like and contents of the pack 
 NovoThirteen is supplied as a powder and solvent for solution for injection (2500 IU powder in a vial 
 and 3.2 ml solvent in a vial, with a vial adapter). 
-Pack size of </p>         </div>"""      
+Pack size of 1. The powder is white and the solvent is clear and colourless. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Novo Nordisk A/S 
+Novo All<br />
+DK-2880 Bagsv rd 
+Denmark </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

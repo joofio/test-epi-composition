@@ -4,7 +4,7 @@ Instance: composition-en-ded378039327f28c36307d251503f7d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for izba Package Leaflet"
 Description:  "Composition for izba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What IZBA is and what it is used for 
-2. What you need to know before you use IZBA 
-3. How to use IZBA 
-4. Possible side effects 
-5. How to store IZBA 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What IZBA is and what it is used for </li>
+<li>What you need to know before you use IZBA </li>
+<li>How to use IZBA </li>
+<li>Possible side effects </li>
+<li>How to store IZBA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -270,82 +270,67 @@ Belgium </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
-Lietuva 
+T l/Tel: +32 2 246 16 Lietuva 
 SIA Novartis Baltics Lietuvos filialas 
 Tel: +370 5 269 16 <br />
 Novartis Bulgaria EOOD 
- .: +359 2 489 98<br />
-Luxembourg/Luxemburg 
+ .: +359 2 489 98 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
- esk  republika 
+T l/Tel: +32 2 246 16  esk  republika 
 Novartis s.r.o. 
 Tel: +420 225 775 Magyarorsz g 
 Novartis Hung ria Kft. 
 Tel.: +36 1 457 65 Danmark 
 Novartis Healthcare A/S 
-Tlf: +45 39 16 84<br />
-Malta 
+Tlf: +45 39 16 84 Malta 
 Novartis Pharma Services Inc. 
 Tel: +356 2122 2Deutschland 
 Novartis Pharma GmbH 
 Tel: +49 911 273 0 
 Nederland 
 Novartis Pharma B.V. 
-Tel: +31 88 04 52<br />
-Eesti 
+Tel: +31 88 04 52 Eesti 
 SIA Novartis Baltics Eesti filiaal 
-Tel: +372 66 30<br />
-Norge 
+Tel: +372 66 30 Norge 
 Novartis Norge AS 
 Tlf: +47 23 05 20 <br />
 Novartis (Hellas) A.E.B.E. 
- : +30 210 281 17<br />
- sterreich 
+ : +30 210 281 17  sterreich 
 Novartis Pharma GmbH 
 Tel: +43 1 86 6Espa a 
 Novartis Farmac utica, S.A. 
 Tel: +34 93 306 42 Polska 
 Novartis Poland Sp. z o.o. 
-Tel.: +48 22 375 4 
-France 
+Tel.: +48 22 375 4France 
 Novartis Pharma S.A.S. 
 T l: +33 1 55 47 66 Portugal 
 Novartis Farma - Produtos Farmac uticos, S.A. 
-Tel: +351 21 000 8 
-Hrvatska 
+Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
 Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
-Tel: +40 21 31299<br />
-Ireland 
+Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12 Slovenija 
 Novartis Pharma Services Inc. 
-Tel: +386 1 300 75<br />
- sland 
+Tel: +386 1 300 75  sland 
 Vistor hf. 
 S mi: +354 535 7Slovensk  republika 
 Novartis Slovakia s.r.o. 
-Tel: + 421 2 5542 5 
-Italia 
+Tel: + 421 2 5542 5Italia 
 Novartis Farma S.p.A. 
 Tel: +39 02 96 54 1 </p>
 <p>Suomi/Finland 
 Novartis Finland Oy 
 Puh/Tel: +358 (0)10 6133 <br />
 Novartis Pharma Services Inc. 
- : +357 22 690<br />
-Sverige 
+ : +357 22 690 Sverige 
 Novartis Sverige AB 
 Tel: +46 8 732 32 Latvija 
 SIA Novartis Baltics 
-Tel: +371 67 887<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 67 887 United Kingdom (Northern Ireland) 
 Novartis Ireland Limited 
-Tel: +44 1276 698 
-This leaflet was last revised in </p>
+Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

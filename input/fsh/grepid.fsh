@@ -4,7 +4,7 @@ Instance: composition-en-744dd2d849c3e92fc852e3f500b2711e
 InstanceOf: CompositionUvEpi
 Title: "Composition for grepid Package Leaflet"
 Description:  "Composition for grepid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Grepid is and what it is used for 
-2. What you need to know before you take Grepid  
-3. How to take Grepid  
+2. What you need to know before you take Grepid<br />
+3. How to take Grepid<br />
 4. Possible side effects 
 5. How to store Grepid 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -139,8 +138,7 @@ confusion, yellowing of the skin or eyes (jaundice) (see section 4  Possible sid
 * If you cut or injure yourself, it may take longer than usual for bleeding to stop. This is linked 
 to the way your medicine works as it prevents the ability of blood clots to form. For minor 
 cuts and injuries e.g., cutting yourself, shaving, this is usually of no concern. However, if you 
-are concerned by your bleeding, you should contact your doctor straightaway (see section 4 
- Possible side effects ). 
+are concerned by your bleeding, you should contact your doctor straightaway (see section 4. Possible side effects ). 
 * Your doctor may order blood tests. </p>
 <p>Children and adolescents 
 Do not give this medicine to children because it does not work. </p>
@@ -329,82 +327,65 @@ Denmark </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Pharmathen S.A. 
-T l/Tel: +30 210 66 04<br />
-Lietuva 
+T l/Tel: +30 210 66 04 Lietuva 
 SIA ELVIM 
-Tel: +371 67808 </p>
-<p>Pharmathen S.A. 
+Tel: +371 67808 <br />
+Pharmathen S.A. 
 Te .: +30 210 66 04 Luxembourg/Luxemburg 
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
- esk  republika 
+Tel: +30 210 66 04  esk  republika 
 Pharmathen S.A. 
 Puh/Tel: +30 210 66 04 Magyarorsz g<br />
 Pharmathen S.A. 
-Tel.: +30 210 66 04<br />
-Danmark 
+Tel.: +30 210 66 04 Danmark 
 Orifarm Generics A/S 
-Tlf: +45 63 95 27<br />
-Malta 
+Tlf: +45 63 95 27 Malta 
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
-Deutschland 
+Tel: +30 210 66 04 Deutschland 
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
-Nederland 
+Tel: +30 210 66 04 Nederland 
 Glenmark Pharmaceuticals B.V. 
 Tel: +31 (0)8003355Eesti (Estonia) 
 Pharmathen S.A. 
 Tel: +30 210 66 04 Norge 
 Orifarm Generics AS 
-Tlf: + 47 21 69 69  </p>
-<p>INNOVIS PHARMA <br />
- : +30 210 6664805-  sterreich<br />
+Tlf: + 47 21 69 69 <br />
+INNOVIS PHARMA <br />
+ : +30 210 6664805- sterreich<br />
 Pharmathen S.A. 
 Tel: +30 210 66 04 Espa a 
 Pharmathen S.A. 
-Tel: +30 210 66 04<br />
-Polska 
+Tel: +30 210 66 04 Polska 
 Symphar Sp. z o.o. 
-Tel.: +48 22 822 93<br />
-France 
+Tel.: +48 22 822 93 France 
 Pharmathen S.A. 
 T l: +30 210 66 04 Portugal 
 Pharmathen S.A. 
-Tel: +30 210 66  04<br />
-Hrvatska 
+Tel: +30 210 66  04 Hrvatska 
 Pharmathen S.A. 
-Tel: +30 210 66  04<br />
-Rom nia 
+Tel: +30 210 66  04 Rom nia 
 Neola Pharma SRL 
 Tel: +40-(0)21-233 17 Ireland 
 Pinewood Healthcare 
-Tel: + 353 52 6186 
-Slovenija 
+Tel: + 353 52 6186Slovenija 
 Pharmathen S.A. 
 Tel: +30 210 66  04  sland 
 Alvogen ehf. 
-S mi: +354 522 2 
-Slovensk  republika<br />
+S mi: +354 522 2Slovensk  republika<br />
 Valeant Slovakia s.r.o.<br />
-Tel: + 421 2 6920 3 
-Italia 
+Tel: + 421 2 6920 3Italia 
 Pharmathen S.A. 
-Tel:+30 210 66 04<br />
-Suomi/Finland 
+Tel:+30 210 66 04 Suomi/Finland 
 Ailon Pharma Oy<br />
 Puh/Tel: +358 40 702 4<br />
 The Star Medicines Importers Co. Ltd<br />
- : +357 25371 
-Sverige<br />
+ : +357 25371Sverige<br />
 Orifarm Generics AB 
 Tel: +46 40 680 02 Latvija<br />
 SIA ELVIM 
-Tel: +371 67808 
-United Kingdom (Northern Ireland) 
+Tel: +371 67808United Kingdom (Northern Ireland) 
 Athlone Pharmaceuticals 
-Tel: +44 (0) 845 4375 
-This leaflet was last revised in <em>Month YYYY</em>.  </p>
+Tel: +44 (0) 845 4375This leaflet was last revised in <em>Month YYYY</em>.  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu/  </p>         </div>"""      
 

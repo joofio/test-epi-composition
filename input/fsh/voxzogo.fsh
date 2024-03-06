@@ -4,7 +4,7 @@ Instance: composition-en-e6fbce999498edd4c95f0774e58fd4a0
 InstanceOf: CompositionUvEpi
 Title: "Composition for voxzogo Package Leaflet"
 Description:  "Composition for voxzogo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Voxzogo is and what it is used for 
-2. What you need to know before you use Voxzogo 
-3. How to use Voxzogo 
-4. Possible side effects 
-5. How to store Voxzogo 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Voxzogo is and what it is used for </li>
+<li>What you need to know before you use Voxzogo </li>
+<li>How to use Voxzogo </li>
+<li>Possible side effects </li>
+<li>How to store Voxzogo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -303,7 +303,6 @@ BioMarin International Limited
 Shanbally, Ringaskiddy 
 County Cork 
 Ireland 
-P43 R 
-This leaflet was last revised in MM/YYYY. </p>
+P43 RThis leaflet was last revised in MM/YYYY. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

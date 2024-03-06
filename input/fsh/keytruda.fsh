@@ -4,7 +4,7 @@ Instance: composition-en-695d88815041ea7bd60c45e1ac4b79d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for keytruda Package Leaflet"
 Description:  "Composition for keytruda Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What KEYTRUDA is and what it is used for 
 2. What you need to know before you are given KEYTRUDA
 3. How you are given KEYTRUDA
 4. Possible side effects 
 5. How to store KEYTRUDA
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -499,5 +498,139 @@ One vial of 4 mL contains 100 mg of pembrolizumab.
 Each mL of concentrate contains 25 mg of pembrolizumab.
 The other ingredients are L-histidine, L-histidine hydrochloride monohydrate, sucrose, polysorbate and water for injections.
 What KEYTRUDA looks like and contents of the pack
-KEYTRUDA is a clear to slightly opalescent, colourless to slightly yellow solution, pH 5.2   5.</p>         </div>"""      
+KEYTRUDA is a clear to slightly opalescent, colourless to slightly yellow solution, pH 5.2   5.8. It is available in cartons containing one glass vial. 
+Marketing Authorisation Holder
+Merck Sharp &amp; Dohme B.V.
+Waarderweg 2031 BN Haarlem
+The Netherlands
+Manufacturer
+Organon Heist bv
+Industriepark 2220 Heist-op-den-Berg
+Belgium
+Merck Sharp &amp; Dohme B.V. 
+Waarderweg 2031 BN Haarlem
+The Netherlands 
+For any information about this medicine, please contact the local representative of the Marketing
+Authorisation Holder:
+Belgi /Belgique/Belgien
+MSD Belgium
+T l/Tel: +32(0)27766dpoc_belux@msd.com
+Lietuva
+UAB Merck Sharp &amp; Dohme
+Tel. + 370 5 278 02 msd_lietuva@merck.com</p>
+<p>.: +359 2 819 3info-msdbg@merck.com
+Luxembourg/Luxemburg
+MSD Belgium
+T l/Tel: +32(0)27766dpoc_belux@msd.com
+ esk  republika
+Merck Sharp &amp; Dohme s.r.o.
+Tel: +420 233 010 dpoc_czechslovak@merck.com
+Magyarorsz g
+MSD Pharma Hungary Kft.
+Tel.: +36 1 888 5hungary_msd@merck.com
+Danmark
+MSD Danmark ApS
+Tlf: + 45 4482 4dkmail@merck.com
+Malta
+Merck Sharp &amp; Dohme Cyprus Limited
+Tel: 8007 4433 (+356 99917558)
+malta_info@merck.com
+Deutschland
+MSD Sharp &amp; Dohme GmbH
+Tel: 0800 673 673 673 (+49 (0) 89 4561 0)
+e-mail@msd.de
+Nederland
+Merck Sharp &amp; Dohme B.V.
+Tel: 0800 9999(+31 23 5153153)
+medicalinfo.nl@merck.com
+Eesti
+Merck Sharp &amp; Dohme O 
+Tel.: +372 6144 msdeesti@merck.com
+Norge
+MSD (Norge) AS
+Tlf: +47 32 20 73 msdnorge@msd.no</p>
+<p>MSD  . . . . .
+ : +30 210 98 97 dpoc_greece@merck.com
+ sterreich
+Merck Sharp &amp; Dohme Ges.m.b.H.
+Tel: +43 (0) 1 26 dpoc_austria@merck.com
+Espa a
+Merck Sharp &amp; Dohme de Espa a, S.A.
+Tel: +34 91 321 06 msd_info@merck.com
+Polska
+MSD Polska Sp. z o.o.
+Tel: +48 22 549 51 msdpolska@merck.com
+France
+MSD France
+T l: + 33 (0) 1 80 46 40 Portugal
+Merck Sharp &amp; Dohme, Lda
+Tel: +351 21 4465inform_pt@merck.com
+Hrvatska
+Merck Sharp &amp; Dohme d.o.o. 
+Tel: + 385 1 6611 croatia_info@merck.com
+Rom nia
+Merck Sharp &amp; Dohme Romania S.R.L.
+Tel: +40 21 529 29 msdromania@merck.com
+Ireland
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998medinfo_ireland@msd.com
+Slovenija
+Merck Sharp &amp; Dohme, inovativna zdravila d.o.o.
+Tel: +386 1 5204 msd.slovenia@merck.com
+ sland
+Vistor hf.
+S mi: + 354 535 7Slovensk  republika
+Merck Sharp &amp; Dohme, s. r. o.
+Tel: +421 2 58282dpoc_czechslovak@merck.com
+Italia
+MSD Italia S.r.l. 
+Tel: 800 23 99 89 (+39 06 361911)
+medicalinformation.it@msd.com
+Suomi/Finland
+MSD Finland Oy
+Puh/Tel: +358 (0)9 804 info@msd.fi</p>
+<p>Merck Sharp &amp; Dohme Cyprus Limited
+ .: 800 00 673 (+357 22866700)
+cyprus_info@merck.com
+Sverige
+Merck Sharp &amp; Dohme (Sweden) AB
+Tel: +46 77 5700medicinskinfo@merck.com
+Latvija
+SIA Merck Sharp &amp; Dohme Latvija
+Tel: + 371 67364msd_lv@merck.com
+United Kingdom (Northern Ireland)
+Merck Sharp &amp; Dohme Ireland (Human Health)
+Limited
+Tel: +353 (0)1 2998medinfoNI@msd.com
+This leaflet was last revised in 
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site:
+http://www.ema.europa.eu.</p>
+<p>The following information is intended for healthcare professionals only:
+Preparation and administration of the infusion
+* Do not shake the vial. 
+* Equilibrate the vial to room temperature (at or below 25  C).
+* Prior to dilution, the vial of liquid can be out of refrigeration (temperatures at or below 25  C)
+for up to 24 hours.
+* Parenteral medicinal products should be inspected visually for particulate matter and
+discolouration prior to administration. The concentrate is a clear to slightly opalescent,
+colourless to slightly yellow solution. Discard the vial if visible particles are observed.
+* Withdraw the required volume up to 4 mL (100 mg) of concentrate and transfer into an
+intravenous bag containing sodium chloride 9 mg/mL (0.9%) or glucose 50 mg/mL (5%) to
+prepare a diluted solution with a final concentration ranging from 1 to 10 mg/mL. Each vial
+contains an excess fill of 0.25 mL (total content per vial 4.25 mL) to ensure the recovery of
+4 mL of concentrate. Mix diluted solution by gentle inversion.
+* From a microbiological point of view, the product, once diluted, should be used immediately.
+The diluted solution must not be frozen. If not used immediately, chemical and physical in-use
+stability of KEYTRUDA has been demonstrated for 96 hours at 2  C to 8  C. This 96-hour hold
+may include up to 6 hours at room temperature (at or below 25  C). If refrigerated, the vials
+and/or intravenous bags must be allowed to come to room temperature prior to use. Translucent
+to white proteinaceous particles may be seen in diluted solution. Administer the infusion
+solution intravenously over 30 minutes using a sterile, non-pyrogenic, low-protein binding 0.2
+to 5  m in-line or add-on filter.
+* Do not co-administer other medicinal products through the same infusion line.
+* KEYTRUDA is for single use only. Discard any unused portion left in the vial.
+Any unused medicinal product or waste material should be disposed of in accordance with local
+requirements.</p>         </div>"""      
 

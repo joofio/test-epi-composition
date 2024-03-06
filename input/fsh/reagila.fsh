@@ -4,7 +4,7 @@ Instance: composition-en-cbc8bd303ae5e6a2b05a1e976deb4928
 InstanceOf: CompositionUvEpi
 Title: "Composition for reagila Package Leaflet"
 Description:  "Composition for reagila Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Reagila is and what it is used for 
 2. What you need to know before you take Reagila 
 3. How to take Reagila 
 4. Possible side effects 
 5. How to store Reagila 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -413,21 +412,17 @@ Hungary </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Recordati BV 
-T l/Tel: +32 2 461 01<br />
-Lietuva 
+T l/Tel: +32 2 461 01 Lietuva 
 Gedeon Richter Plc. atstovyb  Lietuvoje 
-Tel: +370 5 261 01  </p>
-<p>Te .: + 359 2 8129 
-Luxembourg/Luxemburg 
+Tel: +370 5 261 01   </p>
+<p>Te .: + 359 2 8129Luxembourg/Luxemburg 
 Recordati BV 
 T l/Tel: + 32 2 461 01 36 (Belgique/Belgien) </p>
 <p>esk  republika 
 Gedeon Richter Marketing  R, s.r.o. 
-Tel: +420 261 141<br />
-Magyarorsz g 
+Tel: +420 261 141 Magyarorsz g 
 Richter Gedeon Nyrt. 
-Tel.: +36 1 505 7 
-Danmark 
+Tel.: +36 1 505 7Danmark 
 Recordati AB 
 Tlf: +46 8 545 80 230 (Sverige) </p>
 <p>Malta 
@@ -435,69 +430,51 @@ Recordati Ireland Limited
 Tel: + 353 21 4379400 (Ireland) </p>
 <p>Deutschland 
 Recordati Pharma GMBH 
-Tel: + 49 731 70 
-Nederland 
+Tel: + 49 731 70Nederland 
 Recordati BV 
 Tel: + 32 2 461 01 36 (Belgi ) </p>
 <p>Eesti 
 Richter Gedeon Eesti filiaal 
-Tel: +372 608 5 
-Norge 
+Tel: +372 608 5Norge 
 Recordati AB 
 Tlf: + 46 8 545 80 230 (Sverige) </p>
 <p>Recordati Hellas Pharmaceuticals S.A. 
  sterreich 
 Recordati Austria GmbH </p>
-<p>: + 30 210-6773 
-Tel: + 43 676 353 0<br />
-Espa a 
+<p>: + 30 210-6773Tel: + 43 676 353 0 Espa a 
 Casen Recordati S.L. 
-Tel: + 34 91 659 15<br />
-Polska 
+Tel: + 34 91 659 15 Polska 
 GEDEON RICHTER POLSKA Sp. z o.o. 
-Tel.: + 48 (22)755 96<br />
-France 
+Tel.: + 48 (22)755 96 France 
 Bouchara-Recordati S.A.S. 
-T l: + 33 1 45 19 10<br />
-Portugal 
+T l: + 33 1 45 19 10 Portugal 
 Jaba Recordati S.A. 
-Tel: + 351 21 432 95<br />
-Hrvatska 
+Tel: + 351 21 432 95 Hrvatska 
 Gedeon Richter Croatia d.o.o. 
-Tel: + 385 1 5625<br />
-Ireland 
+Tel: + 385 1 5625 Ireland 
 Recordati Ireland Limited 
-Tel: + 353 21 4379 
-Rom nia 
+Tel: + 353 21 4379Rom nia 
 Gedeon Richter Rom nia S.A. 
-Tel: +40-265-257<br />
-Slovenija 
+Tel: +40-265-257 Slovenija 
 Gedeon Richter d.o.o. 
-Tel: + +386 8 205 68<br />
- sland 
+Tel: + +386 8 205 68  sland 
 Recordati AB 
 S mi: +46 8 545 80 230 (Sv j ) </p>
 <p>Slovensk  republika 
 Gedeon Richter Slovakia, s.r.o. 
-Tel: +421 2 5020 5 
-Italia 
+Tel: +421 2 5020 5Italia 
 RECORDATI S.p.A. 
-Tel: + 39 02 487 
-Suomi/Finland 
+Tel: + 39 02 487Suomi/Finland 
 Recordati AB 
 Puh/Tel: +46 8 545 80 230 (Ruotsi/Sverige) </p>
 <p>C.G. PAPALOISOU LTD. 
- : + 357 22 490 
-Sverige 
+ : + 357 22 490Sverige 
 Recordati AB 
-Tel: +46 8 545 80<br />
-Latvija 
+Tel: +46 8 545 80 Latvija 
 Gedeon Richter Plc. p rst vniec ba Latvij<br />
-Tel: +371 67845 
-United Kingdom (Northern Ireland) 
+Tel: +371 67845United Kingdom (Northern Ireland) 
 Recordati Pharmaceuticals Ltd. 
-Tel: + 44 1491 576 </p>
-<p>This leaflet was last revised in  </p>
+Tel: + 44 1491 576This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed and updated information on this medicine is available by scanning the QR code below and 
 the outer carton with a smartphone. 

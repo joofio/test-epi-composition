@@ -4,7 +4,7 @@ Instance: composition-en-3309175bd74a8d4a368db89c295b9d95
 InstanceOf: CompositionUvEpi
 Title: "Composition for zyllt Package Leaflet"
 Description:  "Composition for zyllt Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Zyllt is and what it is used for
 2. What you need to know before you take Zyllt
 3. How to take Zyllt
 4. Possible side effects
 5. How to store Zyllt
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -139,8 +138,7 @@ yellowing of the skin or eyes (jaundice) (see section 4  Possible side effects )
 <p>If you cut or injure yourself, it may take longer than usual for bleeding to stop. This is linked to 
 the way your medicine works as it prevents the ability of blood clots to form. For minor cuts 
 and injuries e.g., cutting yourself, shaving, this is usually of no concern. However, if you are 
-concerned by your bleeding, you should contact your doctor straightaway (see section 4 
- Possible side effects ).</p>
+concerned by your bleeding, you should contact your doctor straightaway (see section 4. Possible side effects ).</p>
 <p>Your doctor may order blood tests.
 Children and adolescents
 Do not give this medicine to children because it does not work.

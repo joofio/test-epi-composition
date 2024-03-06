@@ -4,7 +4,7 @@ Instance: composition-en-74e50e4505c090a88581d2832252680c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vfend Package Leaflet"
 Description:  "Composition for vfend Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What VFEND is and what it is used for  
-2. What you need to know before you take VFEND  
-3. How to take VFEND  
-4. Possible side effects  
-5. How to store VFEND  
-6. Content of the pack and other information  
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What VFEND is and what it is used for<br />
+2. What you need to know before you take VFEND<br />
+3. How to take VFEND<br />
+4. Possible side effects<br />
+5. How to store VFEND<br />
+6. Content of the pack and other information  </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -456,5 +455,83 @@ marked on one side and VOR50 on the reverse.  </p>
 <p>VFEND 200 mg film-coated tablets are supplied as white to off-white capsule shaped film-coated tablets 
 with Pfizer marked on one side and VOR200 on the reverse.  </p>
 <p>VFEND 50 mg film-coated tablets and 200 mg film-coated tablets are available as packs of 2, 10, 14, 20, 28, 
-30, 50, 56 and 10</p>         </div>"""      
+30, 50, 56 and 100. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder<br />
+Pfizer Europe MA EEIG, Boulevard de la Plaine 17, 1050 Bruxelles, Belgium.  </p>
+<p>Manufacturers<br />
+R-Pharm Germany GmbH<br />
+Heinrich-Mack-Str. 35, 89257 Illertissen<br />
+Germany  </p>
+<p>Pfizer Italia S.r.l. 
+Localit  Marino del Tronto 
+63100 Ascoli Piceno (AP) 
+Italy </p>
+<p>For any information about this medicine, please contact the local representative of the<br />
+Marketing Authorisation Holder:  </p>
+<p>Belgi  /Belgique/Belgien / 
+Luxembourg/Luxemburg 
+Pfizer NV/SA<br />
+T l/Tel: +32 (0)2 554 62 Lietuva<br />
+Pfizer Luxembourg SARL<br />
+Filialas Lietuvoje<br />
+Tel. +3705 2514 <br />
+     ,    <br />
+ .: +359 2 970 4Magyarorsz g<br />
+Pfizer Kft.<br />
+Tel. + 36 1 488 37  esk  republika<br />
+Pfizer, spol. s.r.o. 
+Tel: +420-283-004-Malta<br />
+Vivian Corporation Ltd.<br />
+Tel : +356 21344Danmark<br />
+Pfizer ApS Tlf:<br />
++45 44 20 11 Nederland<br />
+Pfizer bv<br />
+Tel: +31 (0)800 63 34 Deutschland<br />
+PFIZER PHARMA GmbH<br />
+Tel: +49 (0)30 550055-51Norge<br />
+Pfizer AS<br />
+Tlf: +47 67 52 61 Eesti<br />
+Pfizer Luxembourg SARL Eesti filiaal<br />
+Tel: +372 666 7 sterreich<br />
+Pfizer Corporation Austria Ges.m.b.H. Tel: 
++43 (0)1 521 15-0 </p>
+<p>Pfizer   A.E. 
+ .: +30 210 6785 Polska<br />
+Pfizer Polska Sp. z o.o.,<br />
+Tel.: +48 22 335 61 Espa a<br />
+Pfizer, S.L. 
+Tel: +34 91 490 99 Portugal<br />
+Laborat rios Pfizer, Lda.<br />
+Tel: + 351 214 235 France 
+Pfizer 
+T l: +33 (0)1 58 07 34 Rom nia<br />
+Pfizer Rom nia S.R.L<br />
+Tel: +40 (0)21 207 28 Hrvatska 
+Pfizer Croatia d.o.o. 
+Tel: + 385 1 3908 Slovenija<br />
+Pfizer Luxembourg SARL<br />
+Pfizer, podru nica za svetovanje s podro ja 
+farmacevtske dejavnosti, Ljubljana<br />
+Tel: + 386 (0)152 11 Ireland<br />
+Pfizer Healthcare Ireland<br />
+Tel: 1800 633 363 (toll free) 
++44 (0)1304 616Slovensk  republika<br />
+Pfizer Luxembourg SARL, organiza n  zlo ka 
+Tel: +421-2-3355 5 sland<br />
+Icepharma hf.,<br />
+S mi: + 354 540 8Suomi/Finland<br />
+Pfizer Oy<br />
+Puh/Tel: +358(0)9 43 00 Italia<br />
+Pfizer S.r.l.<br />
+Tel: +39 06 33 18 Sverige <br />
+Pfizer AB<br />
+Tel: +46 (0)8 5505 2K<br />
+Pfizer    . . (Cyprus Branch)<br />
+ : +357 22 817United Kingdom (Northern Ireland) 
+Pfizer Limited<br />
+Tel: +44 (0)1304 616Latvija<br />
+Pfizer Luxembourg SARL<br />
+Fili le Latvij <br />
+Tel: +371 670 35 This leaflet was last approved in {MM/YYYY}. 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

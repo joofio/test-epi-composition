@@ -4,7 +4,7 @@ Instance: composition-en-06f9b891f2158becb7dcf14e44abf883
 InstanceOf: CompositionUvEpi
 Title: "Composition for roactemra Package Leaflet"
 Description:  "Composition for roactemra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What RoActemra is and what it is used for 
 2. What you need to know before you are given RoActemra 
 3. How RoActemra is given 
 4. Possible side effects 
 5. How to store RoActemra 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -359,8 +359,8 @@ dihydrogen phosphate dihydrate and water for injections. </li>
 RoActemra is a concentrate for solution for infusion. The concentrate is a clear to opalescent, 
 colourless to pale yellow liquid. 
 RoActemra is supplied as vials containing 4 mL, 10 mL and 20 mL concentrate for solution for 
-infusion. Pack size of 1 and 4 vials. Not all pack sizes may be marketed. </p>
-<p>Marketing Authorisation Holder 
+infusion. Pack size of 1 and 4 vials. Not all pack sizes may be marketed. 
+Marketing Authorisation Holder 
 Roche Registration GmbH<br />
 Emil-Barell-Strasse 1 
 79639 Grenzach-Wyhlen 
@@ -374,96 +374,72 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 N.V. Roche S.A. 
-T l/Tel: +32 (0) 2 525 82<br />
-Luxembourg/Luxemburg 
+T l/Tel: +32 (0) 2 525 82 Luxembourg/Luxemburg 
 (Voir/siehe Belgique/Belgien) </p>
-<p>: +359 2 818 44<br />
-Magyarorsz g 
+<p>: +359 2 818 44 Magyarorsz g 
 Roche (Magyarorsz g) Kft. 
-Tel: +36 - 1 279 4 
- esk  republika 
+Tel: +36 - 1 279 4 esk  republika 
 Roche s. r. o. 
 Tel: +420 - 2 20382Malta<br />
 (See Ireland)  </p>
 <p>Danmark 
 Roche Pharmaceuticals A/S 
-Tlf: +45 - 36 39 99<br />
-Nederland 
+Tlf: +45 - 36 39 99 Nederland 
 Roche Nederland B.V. 
-Tel: +31 (0) 348 438 
-Deutschland 
+Tel: +31 (0) 348 438Deutschland 
 Roche Pharma AG 
-Tel: +49 (0) 7624 140<br />
-oder 
+Tel: +49 (0) 7624 oder 
 Chugai Pharma Europe<br />
 Zweigniederlassung Deutschland 
 Tel: +49 (0) 69 663000 0 </p>
 <p>Norge 
 Roche Norge AS 
-Tlf: +47 - 22 78 90<br />
-Eesti 
+Tlf: +47 - 22 78 90 Eesti 
 Roche Eesti O<br />
-Tel: + 372 - 6 177<br />
- sterreich 
+Tel: + 372 - 6 177  sterreich 
 Roche Austria GmbH 
-Tel: +43 (0) 1 27 </p>
-<p>Roche (Hellas) A.E.<br />
- : +30 210 61 66<br />
-Polska 
+Tel: +43 (0) 1 27<br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66 Polska 
 Roche Polska Sp.z o.o. 
-Tel: +48 - 22 345 18<br />
-Espa a 
+Tel: +48 - 22 345 18 Espa a 
 Roche Farma S.A. 
-Tel: +34 - 91 324 81<br />
-Portugal 
+Tel: +34 - 91 324 81 Portugal 
 Roche Farmac utica Qu mica, Lda 
-Tel: +351 - 21 425 70<br />
-France 
+Tel: +351 - 21 425 70 France 
 Roche 
 T l: +33 (0) 1 47 61 40 ou 
 Chugai Pharma France 
-T l: +33 (0) 1 56 37 05<br />
-Hrvatska 
+T l: +33 (0) 1 56 37 05 Hrvatska 
 Roche d.o.o 
 Tel: +385 1 47 22 Rom nia 
 Roche Rom nia S.R.L. 
-Tel: +40 21 206 47  </p>
-<p>Ireland 
+Tel: +40 21 206 47 Ireland 
 Roche Products (Ireland) Ltd. 
-Tel: +353 (0) 1 469 0 </p>
-<p>Slovenija 
+Tel: +353 (0) 1 469 0Slovenija 
 Roche farmacevtska dru ba d.o.o. 
-Tel: +386 - 1 360 26<br />
- sland<br />
+Tel: +386 - 1 360 26  sland<br />
 Roche Pharmaceuticals A/S 
 c/o Icepharma hf 
-S mi: +354 540 8 
-Slovensk  republika<br />
+S mi: +354 540 8Slovensk  republika<br />
 Roche Slovensko, s.r.o. 
-Tel: +421 - 2 52638 
-Italia 
+Tel: +421 - 2 52638Italia 
 Roche S.p.A. 
 Tel: +39 - 039 2Suomi/Finland 
 Roche Oy<br />
-Puh/Tel: +358 (0) 10 554<br />
-K <br />
+Puh/Tel: +358 (0) 10 554 K <br />
  . .  &amp;    . 
- : +357 - 22 76 62<br />
-Sverige 
+ : +357 - 22 76 62 Sverige 
 Roche AB 
-Tel: +46 (0) 8 726 1 
-Latvija 
+Tel: +46 (0) 8 726 1Latvija 
 Roche Latvija SIA 
-Tel: +371 - 6 7039 
-United Kingdom (Northern Ireland) 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd. 
-Tel: +44 (0) 1707 366000<br />
-or 
+Tel: +44 (0) 1707 366or 
 Chugai Pharma UK Ltd. 
 Tel: +44 (0) 208 987 5Lietuva 
 UAB  Roche Lietuva<br />
-Tel: +370 5 2546 </p>
-<p>This leaflet was last revised in </p>
+Tel: +370 5 2546This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu/.  </p>
@@ -510,6 +486,7 @@ important information for you. </p>
 <li>This medicine has been prescribed for you only. Do not pass it onto others. It may harm them 
 even if their signs of illness are the same as yours. </li>
 <li>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
-side effects not listed in this leaflet. See section </li>
+side effects not listed in this leaflet. See section 4. In addition to this leaflet, you will be given a Patient Alert Card, which contains important safety 
+information that you need to be aware of before and during treatment with RoActemra. </li>
 </ul>         </div>"""      
 

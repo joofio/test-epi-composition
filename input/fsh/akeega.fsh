@@ -4,7 +4,7 @@ Instance: composition-en-5caa393121d9756e15d948c90dc0e334
 InstanceOf: CompositionUvEpi
 Title: "Composition for akeega Package Leaflet"
 Description:  "Composition for akeega Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Akeega is and what it is used for
 2. What you need to know before you take Akeega
 3. How to take Akeega
 4. Possible side effects
 5. How to store Akeega
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -91,14 +90,8 @@ your body (fluid retention), or having reduced levels of a chemical known as pot
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not take Akeega:</p>
 <p>if you are allergic to niraparib or abiraterone acetate or any of the other ingredients of this 
-medicine - listed in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take akeega"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take akeega"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>if you are a woman who is or can become pregnant.</p>
+medicine - listed in section 6.<br />
+if you are a woman who is or can become pregnant.</p>
 <p>if you have severe liver damage.</p>
 <p>in combination with Ra-223 treatment (which is used to treat prostate cancer). This is because 
 of a possible increase in the risk of bone fracture or death.
@@ -172,13 +165,12 @@ Akeega contains lactose and sodium</p>
 <p>Akeega contains lactose. If you have been told by your doctor that you have an intolerance to 
 some sugars, contact your doctor before taking this medicine.</p>
 <p>This medicine contains less than 1 mmol sodium (23 mg) per dose, that is to say essentially 
- sodium-free .</p>         </div>"""         
-
-        
+ sodium-free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take akeega"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take akeega"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure.
@@ -208,12 +200,13 @@ Do not take a double dose to make up for a forgotten dose.
 If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.
 If you stop taking Akeega
 Do not stop taking Akeega or prednisone or prednisolone unless your doctor tells you to.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store akeega"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store akeega"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Serious side effects
@@ -319,11 +312,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects, you can help provide more information on the safety 
 of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store akeega"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store akeega"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the container (blister foil, inner 
@@ -331,4 +323,116 @@ wallet, outer wallet, and carton) after EXP. The expiry date refers to the last 
 This medicine does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Akeega contains</p>
+<p>The active substances are niraparib and abiraterone acetate. Each film-coated tablet contains 
+50 mg niraparib and 500 mg abiraterone acetate.</p>
+<p>The other ingredients of the tablet core are colloidal anhydrous silica, crospovidone, 
+hypromellose, lactose monohydrate, magnesium stearate, microcrystalline cellulose, sodium 
+lauryl sulfate. The film-coating contains iron oxide black (E172), iron oxide red (E172), iron 
+oxide yellow (E172), sodium lauryl sulphate, glycerol monocaprylocaprate, polyvinyl alcohol, 
+talc, and titanium dioxide (E171) (see section 2, Akeega contains lactose and sodium).
+What Akeega looks like and contents of the pack
+Akeega film-coated tablets are yellowish orange to yellowish brown oval tablet, debossed with  N A  on one side and plain on the other side.
+Each 28-day carton contains 56 film-coated tablets in two cardboard wallet packs of 28 film-coated 
+tablets each.
+Marketing Authorisation Holder
+Janssen-Cilag International NV
+Turnhoutseweg B-2340 Beerse
+Belgium
+Manufacturer
+Janssen Cilag SpA
+Via C. Janssen,
+Borgo San Michele
+Latina 04Italy
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Janssen-Cilag NV
+Tel/T l: +32 14 64 94 janssen@jacbe.jnj.com
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 lt@its.jnj.com</p>
+<p>&amp;    <br />
+ .: +359 2 489 94 jjsafety@its.jnj.com
+Luxembourg/Luxemburg
+Janssen-Cilag NV
+T l/Tel: +32 14 64 94 janssen@jacbe.jnj.com
+ esk  republika
+Janssen-Cilag s.r.o.
+Tel: +420 227 012 Magyarorsz g
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2janssenhu@its.jnj.com
+Danmark
+Janssen-Cilag A/S
+Tlf: +45 4594 8jacdk@its.jnj.com
+Malta
+AM MANGION LTD
+Tel: +356 2397 6Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955 jancil@its.jnj.com
+Nederland
+Janssen-Cilag B.V.
+Tel: +31 76 711 1janssen@jacnl.jnj.com
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7ee@its.jnj.com
+Norge
+Janssen-Cilag AS
+Tlf: +47 24 12 65 jacno@its.jnj.com</p>
+<p>Janssen-Cilag    . . . .
+T : +30 210 80 90  sterreich
+Janssen-Cilag Pharma GmbH
+Tel: +43 1 610 Espa a
+Janssen-Cilag, S.A.
+Tel: +34 91 722 81 contacto@its.jnj.com
+Polska
+Janssen-Cilag Polska Sp. z o.o.
+Tel.: +48 22 237 60 France
+Janssen-Cilag
+T l: 0 800 25 50 75 / +33 1 55 00 40 medisource@its.jnj.com
+Portugal
+Janssen-Cilag Farmac utica, Lda.
+Tel: +351 214 368 Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 jjsafety@JNJCR.JNJ.com
+Rom nia
+Johnson &amp; Johnson Rom nia SRL
+Tel: +40 21 207 1Ireland
+Janssen Sciences Ireland UC
+Tel: 1 800 709 medinfo@its.jnj.com
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 Janssen_safety_slo@its.jnj.com
+ sland
+Janssen-Cilag AB
+c/o Vistor hf.
+S mi: +354 535 7janssen@vistor.is
+Slovensk  republika
+Johnson &amp; Johnson, s.r.o.
+Tel: +421 232 408 Italia
+Janssen-Cilag SpA
+Tel: 800.688.777 / +39 02 2510 1
+janssenita@its.jnj.com
+Suomi/Finland
+Janssen-Cilag Oy
+Puh/Tel: +358 207 531 jacfi@its.jnj.com</p>
+<p>: +357 22 207 Sverige
+Janssen-Cilag AB
+Tfn: +46 8 626 50 jacse@its.jnj.com
+Latvija
+UAB "JOHNSON &amp; JOHNSON" fili le Latvij 
+Tel: +371 678 93lv@its.jnj.com
+United Kingdom (Northern Ireland)
+Janssen Sciences Ireland UC
+Tel: +44 1 494 567 medinfo@its.jnj.com
+This leaflet was last revised in MM/YYYY.
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

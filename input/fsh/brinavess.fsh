@@ -4,7 +4,7 @@ Instance: composition-en-d4694a613bca8c68b89018731c6d00bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for brinavess Package Leaflet"
 Description:  "Composition for brinavess Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What BRINAVESS is and what it is used for 
 2. What you need to know before you use BRINAVESS 
-3. How to use BRINAVESS  
+3. How to use BRINAVESS<br />
 4. Possible side effects 
 5. How to store BRINAVESS 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,12 +98,10 @@ doctor before you use this medicine. </p>
 Talk to your doctor before using BRINAVESS if you have: 
 * heart failure<br />
 * certain heart diseases involving the heart muscle, lining that surrounds the heart and a severe 
-narrowing of the heart valves </p>
-<ul>
-<li>a disease of the heart valves </li>
-<li>liver problems </li>
-<li>you are taking other rhythm control medicines </li>
-</ul>
+narrowing of the heart valves 
+* a disease of the heart valves 
+* liver problems 
+* you are taking other rhythm control medicines </p>
 <p>If you have very low blood pressure or slow heart rate or certain changes in your ECG while using this 
 medicine, your doctor will stop your treatment. 
 Your doctor will consider if you need additional rhythm control medicine 4 hours after using 
@@ -113,14 +110,7 @@ BRINAVESS may not work in treating some other kinds of abnormal heart rhythms, h
 doctor will be familiar with these. 
 Tell your doctor if you have a pacemaker. </p>
 <p>If any of the above apply to you (or you are not sure), talk to your doctor. Detailed information on 
-warnings and precautions relating to side effects that could occur are presented in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take brinavess"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take brinavess"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Blood tests 
+warnings and precautions relating to side effects that could occur are presented in section 4. Blood tests 
 Before giving you this medicine, your doctor will decide whether to test your blood to see how well it 
 clots and also to see your potassium level.  </p>
 <p>Children and adolescents 
@@ -144,13 +134,12 @@ This medicine contains 32 mg sodium (main component of cooking/table salt) in ea
 This is equivalent to 1.6 % of the recommended maximum daily dietary intake of sodium for an adult. 
 This medicine contains 80 mg of sodium (main component of cooking/table salt) in each vial of 
 500 mg. This is equivalent to 4 % of the recommended maximum daily dietary intake of sodium for an 
-adult. </p>         </div>"""         
-
-        
+adult. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take brinavess"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take brinavess"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The amount of BRINAVESS you may be given will depend on your weight. The recommended initial 
 dose is 3 mg/kg, with a maximum calculated dose based upon 113 kg. If you weigh more than 113 kg, 
@@ -165,12 +154,13 @@ being given to you. Information on how to prepare the solution is available at t
 <p>It will be given to you into your vein over 10 minutes. </p>
 <p>If you are given more BRINAVESS than you should 
 If you think that you may have been given too much BRINAVESS, tell your doctor straight away. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store brinavess"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store brinavess"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>Your doctor may decide to stop the infusion if he observes any of the following abnormal changes of: 
@@ -196,26 +186,24 @@ beat (uncommon), or a short pause in the normal activity of your heart (uncommon
 * certain kinds of heart beat problems, (such as an awareness of your heart beating (palpitations) 
 or an extra heart beat) 
 * decreased feeling or sensitivity<br />
-* eye irritation, watery eyes or changes in your vision 
+<em> eye irritation, watery eyes or changes in your vision 
 * a change in your sense of smell 
 * pain in your fingers and toes, a burning feeling 
 * cold sweats, hot flush 
 * urgency to have a bowel movement, diarrhoea 
 * shortness of breath or a tightness in the chest 
 * choking sensation 
-* pain in your mouth or throat </p>
-<ul>
-<li>irritation, itching at the infusion site  </li>
-<li>high blood pressure </li>
-<li>feeling light-headed or fainting, generally feeling unwell, feeling drowsy or sleepy </li>
-<li>runny nose, sore throat </li>
-<li>stuffy nose </li>
-<li>dry mouth </li>
-<li>pale skin </li>
-<li>generalised itching </li>
-<li>fatigue </li>
-<li>decreased feeling or sensitivity of the mouth </li>
-</ul>
+* pain in your mouth or throat 
+* irritation, itching at the infusion site<br />
+</em> high blood pressure 
+* feeling light-headed or fainting, generally feeling unwell, feeling drowsy or sleepy 
+* runny nose, sore throat 
+* stuffy nose 
+* dry mouth 
+* pale skin 
+* generalised itching 
+* fatigue 
+* decreased feeling or sensitivity of the mouth </p>
 <p>These effects, seen within 24 hours of being given BRINAVESS, should pass quickly, however, if 
 they do not you should consult your doctor. </p>
 <p>Reporting of side effects<br />
@@ -223,11 +211,10 @@ If you get any side effects, talk to your doctor. This includes any possible sid
 leaflet. You can also report side effects directly via the national reporting system listed in Appendix V. 
 By reporting side effects you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store brinavess"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store brinavess"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and vial label after EXP. 
@@ -242,4 +229,124 @@ controlled and validated aseptic conditions. </p>
 <p>Do not use this medicine if you notice particulate matter or discolouration. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What BRINAVESS contains 
+* The active substance is vernakalant hydrochloride. Each ml of concentrate contains 20 mg 
+vernakalant hydrochloride equivalent to 18.1 mg vernakalant. 
+Each vial of 200 mg vernakalant hydrochloride is equivalent to 181 mg vernakalant.<br />
+Each vial of 500 mg of vernakalant hydrochloride is equivalent to 452.5 mg of vernakalant. 
+* The other ingredients are citric acid, sodium chloride, sodium hydroxide (E524) and water for 
+injections (see section 2   BRINAVESS contains sodium ). </p>
+<p>What BRINAVESS looks like and contents of the pack 
+BRINAVESS is a concentrate for solution for infusion (sterile concentrate) which is clear and 
+colourless to pale yellow. 
+BRINAVESS is available in pack of 1 vial containing 200 mg or 500 mg of vernakalant 
+hydrochloride.  </p>
+<p>Marketing Authorisation Holder: 
+Correvio<br />
+15 rue du Bicentenaire 
+92800 Puteaux 
+France<br />
+Manufacturer: 
+Geodis CL Netherlands B.V. 
+Columbusweg 5928 LC Venlo 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. 
+Belgi /Belgique/Belgien 
+Correvio 
+T l/Tel: +32 (0)800 78 medicalinformation@advanzpharma.com </p>
+<p>Lietuva 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Correvio 
+ .: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Luxembourg/Luxemburg 
+Correvio 
+T l/Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>esk  republika 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Magyarorsz g 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com  </p>
+<p>Danmark 
+Correvio 
+Tlf: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Malta 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Deutschland 
+Correvio 
+Tel: +49 (0)800 180 20 medicalinformation@advanzpharma.com </p>
+<p>Nederland 
+Correvio 
+Tel: +31 (0)800 022 93 medicalinformation@advanzpharma.com </p>
+<p>Eesti 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Norge 
+Correvio 
+Tlf: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Correvio 
+ : +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>sterreich 
+Correvio 
+Tel: +43 (0)800 298 medicalinformation@advanzpharma.com </p>
+<p>Espa a 
+Advanz Pharma Spain S.L.U<br />
+Tel: +34 900 834 medicalinformation@advanzpharma.com </p>
+<p>Polska 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>France 
+Correvio 
+T l: +33 1 77 68 89 medicalinformation@advanzpharma.com </p>
+<p>Portugal 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Hrvatska 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Ireland 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Rom nia 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Slovenija 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>sland 
+Correvio 
+S mi: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Slovensk  republika 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Italia 
+Correvio 
+Tel: +39 800 909 medicalinformation@advanzpharma.com </p>
+<p>Suomi/Finland 
+Correvio 
+Puh/Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Correvio 
+ : +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>Sverige 
+Correvio 
+Tel: +46 (0)20 088 02 medicalinformation@advanzpharma.com </p>
+<p>Latvija 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>United Kingdom (Northern Ireland) 
+Correvio 
+Tel: +44 (0) 208 588 9medicalinformation@advanzpharma.com </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information<br />
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

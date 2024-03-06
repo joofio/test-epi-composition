@@ -4,7 +4,7 @@ Instance: composition-en-5ece204fb467afd463b8fdf826e34a14
 InstanceOf: CompositionUvEpi
 Title: "Composition for xyrem Package Leaflet"
 Description:  "Composition for xyrem Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What Xyrem is and what it is used for 
 2. What you need to know before you take Xyrem 
 3. How to take Xyrem 
 4. Possible side effects 
 5. How to store Xyrem 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -380,8 +380,8 @@ of this medicine.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store xyrem"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date stated on the bottle after (EXP). The expiry date refers 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. 
+Do not use this medicine after the expiry date stated on the bottle after (EXP). The expiry date refers 
 to the last day of that month. </p>
 <p>After dilution in the dosing cups, the preparation should be used within 24 hours. </p>
 <p>Once you open a bottle of Xyrem, any contents that you have not used with 90 days of opening should 
@@ -415,86 +415,66 @@ alert card.  </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 UCB Pharma SA/NV 
-Tel/T l: +32 / (0)2 559 92<br />
-Lietuva 
+Tel/T l: +32 / (0)2 559 92 Lietuva 
 UCB Pharma Oy Finland 
 Tel: + 358 9 2514 4221 (Suomija) </p>
 <p>Te .: + 359 (0) 2 962 30 Luxembourg/Luxemburg 
 UCB Pharma SA/NV 
-T l/Tel: +32 / (0)2 559 92<br />
- esk  republika 
+T l/Tel: +32 / (0)2 559 92  esk  republika 
 UCB s.r.o. 
-Tel: + 420 221 773<br />
-Magyarorsz g 
+Tel: + 420 221 773 Magyarorsz g 
 UCB Magyarorsz g Kft. 
-Tel.: + 36-(1) 391 0 
-Danmark 
+Tel.: + 36-(1) 391 0Danmark 
 UCB Nordic A/S 
-Tlf: + 45 / 32 46 24<br />
-Malta 
+Tlf: + 45 / 32 46 24 Malta 
 Pharmasud Ltd. 
-Tel: +356 / 21 37 64<br />
-Deutschland 
+Tel: +356 / 21 37 64 Deutschland 
 UCB Pharma GmbH 
-Tel: + 49 /(0) 2173 48 4 
-Nederland 
+Tel: + 49 /(0) 2173 48 4Nederland 
 UCB Pharma B.V. 
-Tel.: +31 / (0)76-573 11<br />
-Eesti 
+Tel.: +31 / (0)76-573 11 Eesti 
 UCB Pharma Oy Finland 
 Tel: + 358 9 2514 4221 (Soome) </p>
 <p>Norge 
 UCB Nordic A/S 
-Tel: +45 / 32 46 24  </p>
-<p>UCB  . .<br />
- : +30 / 2109974 
- sterreich 
+Tel: +45 / 32 46 24 <br />
+UCB  . .<br />
+ : +30 / 2109974 sterreich 
 UCB Pharma GmbH 
 Tel: +43 (0) 1 291 80 Espa a 
 UCB Pharma, S.A. 
-Tel: + 34 / 91 570 34<br />
-Polska 
+Tel: + 34 / 91 570 34 Polska 
 UCB Pharma Sp. z o.o. 
-Tel.: + 48 22 696 99<br />
-France 
+Tel.: + 48 22 696 99 France 
 UCB Pharma S.A. 
 T l: + 33 / (0)1 47 29 44 Portugal 
 UCB Pharma (Produtos Farmac uticos), Lda 
-Tel: + 351 / 21 302 5 
-Hrvatska 
+Tel: + 351 / 21 302 5Hrvatska 
 Medis Adria d.o.o. 
-Tel: +385 (0) 1 230 34<br />
-Rom nia 
+Tel: +385 (0) 1 230 34 Rom nia 
 UCB Pharma Romania S.R.L. 
-Tel: +40 21 300 29<br />
-Ireland 
+Tel: +40 21 300 29 Ireland 
 UCB (Pharma) Ireland Ltd. 
-Tel: + 353 / (0)1-46 37 395  </p>
-<p>Slovenija 
+Tel: + 353 / (0)1-46 37 Slovenija 
 Medis, d.o.o. 
-Tel: + 386 1 589 69<br />
- sland 
+Tel: + 386 1 589 69  sland 
 Vistor hf. 
-Tel: +354 535 7 
-Slovensk  republika 
+Tel: +354 535 7Slovensk  republika 
 UCB s.r.o., organiza n  zlo ka 
-Tel: + 421 (0) 2 5920 2 
-Italia 
+Tel: + 421 (0) 2 5920 2Italia 
 UCB Pharma S.p.A. 
 Tel: + 39 / 02 300 Suomi/Finland 
 UCB Pharma Oy Finland 
-Puh/ Tel: + 358 9 2514 4 </p>
-<p>Lifepharma (Z.A.M.) Ltd 
- : + 357 22 34 74 40  </p>
-<p>Sverige 
+Puh/ Tel: + 358 9 2514 4<br />
+Lifepharma (Z.A.M.) Ltd 
+ : + 357 22 34 74 Sverige 
 UCB Nordic A/S 
 Tel: + 46 / (0) 40 29 49 Latvija 
 UCB Pharma Oy Finland 
 Tel: + 358 9 2514 4221 (Somija) </p>
 <p>United Kingdom (Northern Ireland) 
 UCB (Pharma) Ireland Ltd. 
-Tel: + 353 / (0)1-46 37  </p>
-<p>This leaflet was last revised in  </p>
+Tel: + 353 / (0)1-46 37 This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

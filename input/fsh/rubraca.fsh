@@ -4,7 +4,7 @@ Instance: composition-en-9d9c8b92be64dfdc684568f33262fbab
 InstanceOf: CompositionUvEpi
 Title: "Composition for rubraca Package Leaflet"
 Description:  "Composition for rubraca Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Rubraca is and what it is used for 
-2. What you need to know before you take Rubraca 
-3. How to take Rubraca 
-4. Possible side effects 
-5. How to store Rubraca 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Rubraca is and what it is used for </li>
+<li>What you need to know before you take Rubraca </li>
+<li>How to take Rubraca </li>
+<li>Possible side effects </li>
+<li>How to store Rubraca </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -92,8 +92,8 @@ section 6)
 * if you are breast-feeding </p>
 <p>If you are not sure, talk to your doctor, pharmacist or nurse before taking Rubraca. </p>
 <p>Warnings and precautions<br />
-Talk to your doctor, pharmacist or nurse before or during taking Rubraca. </p>
-<p>Blood tests 
+Talk to your doctor, pharmacist or nurse before or during taking Rubraca. 
+Blood tests 
 Your doctor or nurse will perform blood tests to check your blood cell-counts: 
 * before treatment with Rubraca 
 * every month during treatment with Rubraca </p>
@@ -314,28 +314,18 @@ Ireland </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
-Tel: +32 (0)80070 
-Deutschland 
-Tel: +49 (0)8005892 
-Espa a 
-Tel: +34 913756 
-France 
-T l: +33 (0)149116 
-Ireland 
-Tel: +353 1800800 
-Italia 
-Tel: +39 800194 
-Nederland<br />
-Tel: +31 (0)8000227 
- sterreich 
-Tel: +43 (0)800005924  </p>
-<p>United Kingdom (Northern Ireland) 
-Tel: +44 (0)800 0093 
- ,  esk  republika, Danmark, Eesti,  , Hrvatska,  sland,  , Latvija, 
+Tel: +32 (0)80070Deutschland 
+Tel: +49 (0)8005892Espa a 
+Tel: +34 913756France 
+T l: +33 (0)149116Ireland 
+Tel: +353 1800800Italia 
+Tel: +39 800194Nederland<br />
+Tel: +31 (0)8000227 sterreich 
+Tel: +43 (0)800005United Kingdom (Northern Ireland) 
+Tel: +44 (0)800 0093 ,  esk  republika, Danmark, Eesti,  , Hrvatska,  sland,  , Latvija, 
 Lietuva, Luxembourg/Luxemburg, Magyarorsz g, Malta, Norge, Polska, Portugal, Rom nia, 
 Slovenija, Slovensk  republika, Suomi/Finland, Sverige: 
-Tel: +353 16950 
-This leaflet was last revised in  </p>
+Tel: +353 16950This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-2879bea9059649bf46970484a32311c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for ryeqo Package Leaflet"
 Description:  "Composition for ryeqo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ryeqo is and what it is used for  
-2. What you need to know before you take Ryeqo 
-3. How to take Ryeqo 
-4. Possible side effects  
-5. How to store Ryeqo 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ryeqo is and what it is used for  </li>
+<li>What you need to know before you take Ryeqo </li>
+<li>How to take Ryeqo </li>
+<li>Possible side effects  </li>
+<li>How to store Ryeqo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -237,8 +237,8 @@ disorders (gallstones or inflammation of your gallbladder). If you experience un
 below your rib cage or in your upper abdomen contact your doctor for medical advice. </p>
 <p>Children and adolescents 
 Ryeqo should not be taken by children under 18 years of age since the safety and efficacy of Ryeqo 
-has not been established in this age group.  </p>
-<p>Other medicines and Ryeqo 
+has not been established in this age group.<br />
+Other medicines and Ryeqo 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  </p>
 <p>Talk to your doctor if you are taking any of the medicines listed below, as these medicines can affect 
@@ -287,8 +287,8 @@ before taking this medicine.  </p>         </div>"""
   * code.text = "3. How to take ryeqo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
-if you are not sure.  </p>
-<p>The recommended dose is one tablet per day.  </p>
+if you are not sure.<br />
+The recommended dose is one tablet per day.  </p>
 <p>The tablet must be taken orally every day, at about the same time, with or without food with a 
 little liquid. </p>
 <p>It is recommended that you start taking Ryeqo within the first 5 days after the start of bleeding due to 

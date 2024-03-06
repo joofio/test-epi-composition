@@ -4,7 +4,7 @@ Instance: composition-en-1f037c7eeed99a83d34b7e97df29f3bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for faslodex Package Leaflet"
 Description:  "Composition for faslodex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Faslodex is and what it is used for
 2. What you need to know before you use Faslodex
 3. How to use Faslodex
 4. Possible side effects
 5. How to store Faslodex
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]

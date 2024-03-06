@@ -4,7 +4,7 @@ Instance: composition-en-fbf95ea541cd91a60587ad0005d0c1b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for cometriq Package Leaflet"
 Description:  "Composition for cometriq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What COMETRIQ is and what it is used for  
-2. What you need to know before you take COMETRIQ 
-3. How to take COMETRIQ 
-4. Possible side effects  
-5. How to store COMETRIQ 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What COMETRIQ is and what it is used for  </li>
+<li>What you need to know before you take COMETRIQ </li>
+<li>How to take COMETRIQ </li>
+<li>Possible side effects  </li>
+<li>How to store COMETRIQ </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -152,14 +152,7 @@ increase the levels of COMETRIQ in your blood. </p>
 <p>Avoid becoming pregnant while being treated with COMETRIQ. If you or your partner could become 
 pregnant, use adequate contraception during treatment and for at least 4 months after treatment has finished. 
 Talk to your doctor about which methods of contraception are appropriate while you are taking COMETRIQ. 
-See section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take cometriq"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take cometriq"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor if you or your partner become pregnant or plan to become pregnant while you are being 
+See section 2. Tell your doctor if you or your partner become pregnant or plan to become pregnant while you are being 
 treated with COMETRIQ.  </p>
 <p>Talk to your doctor BEFORE taking COMETRIQ if you or your partner are considering or planning to 
 have a baby after your treatment has finished.  There is a possibility your fertility could be affected by 
@@ -172,13 +165,12 @@ child. </p>
 feel tired or weak. </p>
 <p>COMETRIQ contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially  sodium-
-free . </p>         </div>"""         
-
-        
+free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take cometriq"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take cometriq"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor or 
 pharmacist if you are not sure. </p>
@@ -222,12 +214,13 @@ your next dose at the normal time.  </p>
 <p>If you stop using COMETRIQ 
 Stopping your treatment may stop the effect of the medicine. Do not stop treatment with COMETRIQ unless 
 you have discussed this with your doctor. If you have any further questions on the use of this medicine, ask 
-your doctor. </p>         </div>"""      
+your doctor. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store cometriq"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store cometriq"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. If you get side 
 effects, your doctor may tell you to take COMETRIQ at a lower dose. Your doctor may also prescribe other 
@@ -246,8 +239,8 @@ heaviness in the jaw, or loosening of a tooth. These could be signs of bone dama
 </em> Seizures, headaches, confusion, or finding it difficult to concentrate. These may be signs of a 
 condition called posterior reversible encephalopathy syndrome (PRES). PRES is uncommon (it 
 affects less than 1 in 100 people). 
-* Diarrhoea that is severe and does not seem to be settling. </p>
-<p>Other side effects include: </p>
+* Diarrhoea that is severe and does not seem to be settling. 
+Other side effects include: </p>
 <p>Very common side effects (may affect more than 1 in 10 people)  </p>
 <ul>
 <li>Stomach upset, including diarrhoea, nausea, vomiting, constipation, indigestion, and abdominal pain </li>
@@ -340,11 +333,10 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects, you can help provide more information on the safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store cometriq"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store cometriq"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the blister card after EXP. The expiry date 
@@ -352,4 +344,112 @@ refers to the last day of that month. </p>
 <p>Do not store above 25 C. Store in the original package in order to protect from moisture. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to throw 
 away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What COMETRIQ contains  </p>
+<p>The active substance is cabozantinib (S)-malate.  </p>
+<p>The COMETRIQ 20 mg hard capsules contain cabozantinib (S)-malate equivalent to 20 mg of cabozantinib. 
+The COMETRIQ 80 mg hard capsules contain cabozantinib (S)-malate equivalent to 80 mg of cabozantinib. </p>
+<p>The other ingredients are:</p>
+<ul>
+<li>Capsule contents: microcrystalline cellulose, croscarmellose sodium, sodium starch glycolate, silica 
+colloidal anhydrous, and stearic acid  </li>
+<li>Capsule shell: gelatin, and titanium dioxide (E171) </li>
+<li>The 20 mg capsules also contain black iron oxide (E172) </li>
+<li>The 80 mg capsules also contain red iron oxide (E172) </li>
+<li>Printing ink: shellac glaze, black iron oxide (E172), and propylene glycol </li>
+</ul>
+<p>What COMETRIQ looks like and contents of the pack 
+COMETRIQ 20 mg hard capsules are grey and have  XL184 20mg  printed on one side. 
+COMETRIQ 80 mg hard capsules are orange and have  XL184 80mg  printed on one side. </p>
+<p>COMETRIQ hard capsules are packaged in blister cards organised by prescribed dose. Each blister card 
+contains enough medicine for 7 days. Each row of the blister card contains the daily dose.  </p>
+<p>The 60 mg daily dose blister card contains twenty-one 20 mg capsules as 7 daily doses in total.  Each 
+daily dose is given in one row and contains three 20 mg capsules: </p>
+<p>three grey 20 mg  </p>
+<p>The 100 mg daily dose blister card contains seven 80 mg capsules and seven 20 mg capsules as 
+7 daily doses in total.  Each daily dose is provided in one row and contains one 80 mg capsule and 
+one 20 mg capsule: </p>
+<p>one orange 80 mg + one grey 20 mg  </p>
+<p>The 140 mg daily dose blister card contains seven 80 mg capsules and twenty one 20 mg capsules as 
+7 doses in total. Each daily dose is provided in one row and contains one 80 mg capsule and three 
+20 mg capsules: </p>
+<p>one orange 80 mg + three grey 20 mg 
+= 60 mg 
+= 100 mg 
+= 140 mg 
+COMETRIQ hard capsules are also available in 28 day packs: </p>
+<p>84 capsules (4 blister cards of 21 x 20 mg) (60 mg/day dose) </p>
+<p>56 capsules (4 blister cards of 7 x 20 mg and 7 x 80 mg) (100 mg/day dose) </p>
+<p>112 capsules (4 blister cards of 21 x 20 mg and 7 x 80 mg) (140 mg/day dose) </p>
+<p>Each 28 day pack contains enough medicine for 28 days. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Ipsen Pharma 
+65 quai Georges Gorse 
+92100 Boulogne-Billancourt<br />
+France </p>
+<p>Manufacturer </p>
+<p>Catalent Germany Schorndorf GmbH 
+Steinbeisstr. 1 und 2 
+73614 Schorndorf 
+Germany </p>
+<p>Tjoapack Netherlands B.V. 
+Nieuwe Donk 9 
+4879 AC Etten-Leur 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien, Luxembourg/Luxemburg 
+Italia 
+Ipsen NV<br />
+Ipsen SpA 
+Belgi  /Belgique/Belgien 
+Tel: + 39 02 39 22 T l/Tel: + 32 9 243 96 France<br />
+Latvija<br />
+Ipsen Pharma 
+Ipsen Pharma representative office 
+T l: + 33 1 58 33 50 Tel: +371 67622 , Slovenija 
+Hrvatska <br />
+Biomapas UAB <br />
+Biomapas Zagreb d.o.o. 
+ , Litva <br />
+Tel: +385 17 757 Tel: +370 37 366 esk  republika 
+Lietuva 
+Ipsen Pharma, s.r.o.<br />
+Ipsen Pharma SAS Lietuvos filialas<br />
+Tel: + 420 242 481 Tel. + 370 700 33Danmark, Norge, Suomi/Finland, Sverige,  sland 
+Magyarorsz g 
+Institut Produits Synth se (IPSEN) AB 
+IPSEN Pharma Hungary Kft. 
+Sverige/Ruotsi/Sv j <br />
+Tel.: +361 555 5Tlf/Puh/Tel/S mi: +46 8 451 60 Deutschland,  sterreich 
+Nederland 
+Ipsen Pharma GmbH<br />
+Ipsen Farmaceutica B.V.<br />
+Deutschland 
+Tel: + 31 (0) 23 554 1Tel.: +49 89 2620 432 Eesti 
+Polska 
+Centralpharma Communications O<br />
+Ipsen Poland Sp. z o.o.<br />
+Tel: +372 60 15 Tel.: + 48 (0) 22 653 68  ,  , Malta 
+Portugal 
+Ipsen   E<br />
+Ipsen Portugal - Produtos Farmac uticos S.A.  </p>
+<p>Tel: + 351 21 412 3 /Greece 
+Rom nia 
+ : + 30 210 984 3Ipsen Pharma Rom nia SRL </p>
+<p>Tel: + 40 21 231 27 Espa a 
+Slovensk  republika 
+Ipsen Pharma, S.A. 
+Ipsen Pharma 
+Tel: + 34 936 858 Tel: + 420 242 481 Ireland, United Kingdom (Northern Ireland) </p>
+<p>Ipsen Pharmaceuticals Limited  </p>
+<p>Tel: + 44 (0)1753 62 77 This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

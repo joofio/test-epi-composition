@@ -4,7 +4,7 @@ Instance: composition-en-c035528dfd6d4e6a78efce6dbdfc502c
 InstanceOf: CompositionUvEpi
 Title: "Composition for neupro Package Leaflet"
 Description:  "Composition for neupro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Neupro is and what it is used for 
 2. What you need to know before you use Neupro 
 3. How to use Neupro 
 4. Possible side effects 
 5. How to store Neupro 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -237,38 +236,29 @@ have removed any old patch.
 * Stick the Neupro patch onto your skin as soon as you have opened the sachet and removed the 
 release liner. </p>
 <ol>
-<li>To open the sachet, hold the sachet 
-in both hands. </li>
-</ol>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store neupro"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store neupro"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Peel apart the foil. </p>
-<ol>
+<li>
+<p>To open the sachet, hold the sachet 
+in both hands. </p>
+</li>
+<li>
+<p>Peel apart the foil. </p>
+</li>
 <li>
 <p>Open the sachet. </p>
 </li>
 <li>
 <p>Take the patch out of the sachet. </p>
 </li>
-</ol>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>The sticky side of the patch is 
+<li>
+<p>The sticky side of the patch is 
 covered by a transparent release 
-liner.<br />
-* Hold the patch in both hands 
+liner.  </p>
+</li>
+<li>
+<p>Hold the patch in both hands 
 with the release liner facing 
 you. </p>
-<ol>
+</li>
 <li>
 <ul>
 <li>Bend the patch in half.<br />
@@ -345,8 +335,146 @@ make up for a forgotten dose. </p>
 Do not stop using Neupro without talking to your doctor. A sudden stop could lead to a medical 
 condition called  neuroleptic malignant syndrome  which could be life-threatening. The signs include: 
 loss of muscle movement (akinesia), rigid muscles, fever, unstable blood pressure, increased heart rate 
-(tachycardia), confusion, low level of consciousness (such as a coma).  </p>
-<p>If your doctor says you should stop Neupro, the daily dose should be lowered gradually: 
+(tachycardia), confusion, low level of consciousness (such as a coma).<br />
+If your doctor says you should stop Neupro, the daily dose should be lowered gradually: 
 * Restless Legs Syndrome   lowered by 1 mg every other day. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist or nurse. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store neupro"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store neupro"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Tell your 
+doctor or pharmacist or nurse if you notice any side effects. </p>
+<p>Side effects more likely at the start of treatment<br />
+You may feel sick (nausea) and vomit at the start of treatment. These effects are usually mild or 
+moderate and only last for a short time. Talk to your doctor if they last for a long time or if you are 
+worried about them. </p>
+<p>Skin problems caused by the patch 
+* You may get redness and itching on the skin where the patch has been   these reactions are 
+usually mild or moderate.<br />
+<em> The reactions normally go away after a few hours   once you remove the patch. 
+* Talk to your doctor if you have a skin reaction that lasts longer than a few days or is severe. 
+Also do this if it spreads outside the area of skin that was covered by the patch. 
+* Avoid sunlight and solarium exposure on areas of skin showing any kind of skin reaction caused 
+by the patch.<br />
+</em> To help avoid the skin reactions, you should put the patch on a different area of skin every day, 
+and only use the same area again after 14 days. </p>
+<p>Loss of consciousness can occur 
+Neupro can cause loss of consciousness. This can happen especially when you start using Neupro or 
+when your dose is increased. Tell your doctor if you lose consciousness or feel dizzy. </p>
+<p>Changes in behaviour and abnormal thinking 
+Tell your doctor if you notice any changes in behaviour, thinking or both, that are listed below. 
+They will discuss ways of managing or reducing symptoms.  </p>
+<p>You may find it helpful to also tell a member of your family or carer that you are using this medicine 
+and ask them to read this leaflet. This is so that your family or carer can tell you, or your doctor, if 
+they are worried about any changes in your behaviour. Neupro can cause unusual urges or cravings 
+which you cannot resist such as the impulse, drive or temptation to do things that could harm yourself 
+or others.  </p>
+<p>These may include: 
+* strong impulse to gamble too much   even if this seriously affects you or your family 
+* altered or increased sexual interest and behaviour which causes significant concern to you or 
+others   for example, an increased sex drive 
+* uncontrolled shopping or spending too much 
+* binge eating (eating large amounts of food in a short period of time) or compulsive eating 
+(eating more food than normal and more than is needed to satisfy your hunger). </p>
+<p>Neupro may cause other behaviours and abnormal thinking. These may include: 
+* abnormal thoughts about reality 
+* delusions and hallucinations (seeing or hearing things that are not real) 
+* confusion 
+* disorientation 
+* aggressive behaviour 
+* agitation 
+* delirium. </p>
+<p>Tell your doctor if you notice any changes in behaviour, thinking or both that are listed above. 
+They will discuss ways of managing or reducing symptoms.  </p>
+<p>Allergic reactions 
+Contact your doctor if you notice signs of an allergic reaction   these can include swelling of the face, 
+tongue or lips. </p>
+<p>Side effects when using Neupro for Restless Legs Syndrome 
+Tell your doctor or pharmacist if you get any of the following side effects: </p>
+<p>Very common: may affect more than 1 in 10 people 
+* headache<br />
+* feeling sick (nausea) 
+* feeling weak (fatigue) 
+* skin irritations under the patch such as redness and itching </p>
+<p>Common: may affect up to 1 in 10 people<br />
+<em> itching 
+* feeling irritable 
+* allergic reaction 
+* increased sex drive 
+* high blood pressure 
+* vomiting, heartburn 
+* swelling of legs and feet<br />
+</em> feeling sleepy, falling asleep suddenly without warning, difficulty in sleeping, sleep problems, 
+having unusual dreams<br />
+* unable to resist the impulse to perform an action that is harmful involving excessive gambling, 
+repetitive meaningless actions, uncontrolled shopping or spending too much 
+* binge eating (eating large amount of food in a short period of time) or compulsive eating (eating 
+more food than normal and more than needed to satisfy hunger) </p>
+<p>Uncommon: may affect up to 1 in 100 people<br />
+* feeling agitated 
+* feeling dizzy when standing up because of a fall in blood pressure </p>
+<p>Rare: may affect up to 1 in 1,000 people 
+* being aggressive 
+* disorientation </p>
+<p>Not known: it is not known how often these happen 
+* craving large doses of medicines like Neupro   more than needed for the illness. This is known 
+as  dopamine dysregulation syndrome  and can lead to use of too much Neupro 
+* seeing or hearing things that are not real (hallucinations) 
+* nightmares 
+* paranoia 
+* confusion 
+* psychotic disorders 
+* delusion 
+* delirium 
+* feeling dizzy 
+* loss of consciousness, involuntary movements (dyskinesia) 
+* involuntary muscle spasms (convulsion) 
+* blurry vision 
+* visual disturbances such as seeing colours or lights 
+* vertigo (sensation of whirling motion) 
+* feeling of heartbeat (palpitation) 
+* abnormal heart rhythm 
+* low blood pressure 
+* hiccups 
+* constipation, dry mouth 
+* stomach discomfort and pain 
+* diarrhoea 
+* redness, increased sweating 
+* generalised itching, skin irritation 
+* generalised rash 
+* unable to achieve or maintain an erection 
+* weight loss, weight increase 
+* increased or abnormal liver function test results 
+* increased heart rate 
+* increased levels of creatine phosphokinase (CPK) (CPK is an enzyme found mainly in skeletal 
+muscles) 
+* falling 
+* rhabdomyolysis (a rare severe muscle disorder which causes pain, tenderness and weakness of 
+the muscles and may lead to kidney problems) </p>
+<p>Talk to your doctor or pharmacist if you notice any of the side effects listed above. </p>
+<p>Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist or nurse. This includes any possible side 
+effects not listed in this leaflet. You can also report side effects directly via the national reporting 
+system listed in Appendix V. By reporting side effects you can help provide more information on the 
+safety of this medicine. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label and box. </p>
+<p>Do not store above 30 C. </p>
+<p>What to do with the used and unused patches 
+* Used patches still contain the active substance  rotigotine , which may be harmful to others. 
+Fold the used patch with the sticky side inwards. Put the patch in the original sachet and then 
+throw it away safely, out of the reach of children. 
+* Do not throw away any medicines via wastewater or household waste. Ask your pharmacist 
+how to throw away medicines you no longer use. These measures will help protect the 
+environment. </p>         </div>"""      
 

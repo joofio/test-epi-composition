@@ -4,7 +4,7 @@ Instance: composition-en-0efb4276dbc7ad1d850b741a6d2cdac5
 InstanceOf: CompositionUvEpi
 Title: "Composition for tremfya Package Leaflet"
 Description:  "Composition for tremfya Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Tremfya is and what it is used for
 2. What you need to know before you use Tremfya
 3. How to use Tremfya
 4. Possible side effects
 5. How to store Tremfya
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]

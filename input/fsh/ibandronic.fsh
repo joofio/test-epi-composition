@@ -4,7 +4,7 @@ Instance: composition-en-3b1ab70efa7458a20495ebc38b1c3fc7
 InstanceOf: CompositionUvEpi
 Title: "Composition for ibandronic Package Leaflet"
 Description:  "Composition for ibandronic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What  Ibandronic Acid Teva is and what it is used for 
-2. What you need to know before you take Ibandronic Acid Teva 
-3. How to take Ibandronic Acid Teva 
-4. Possible side effects 
-5. How to store Ibandronic Acid Teva 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What  Ibandronic Acid Teva is and what it is used for </li>
+<li>What you need to know before you take Ibandronic Acid Teva </li>
+<li>How to take Ibandronic Acid Teva </li>
+<li>Possible side effects </li>
+<li>How to store Ibandronic Acid Teva </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,8 +99,8 @@ pharmacist before taking Ibandronic Acid Teva. </p>
 <p>Warnings and precautions 
 A side effect called osteonecrosis of the jaw (ONJ) (bone damage in the jaw) has been reported very 
 rarely in the post-marketing setting in patients receiving Ibandronic Acid Teva for cancer-related 
-conditions. ONJ can also occur after stopping treatment. </p>
-<p>It is important to try and prevent ONJ developing as it is a painful condition that can be difficult to 
+conditions. ONJ can also occur after stopping treatment. 
+It is important to try and prevent ONJ developing as it is a painful condition that can be difficult to 
 treat. In order to reduce the risk of developing osteonecrosis of the jaw, there are some precautions 
 you should take. </p>
 <p>Before receiving treatment, tell your doctor/nurse (health care professional) if:</p>
@@ -149,8 +149,8 @@ stomach and gut </li>
 aminoglycosides and Ibandronic Acid Teva can both lower the amount of calcium in your blood. </li>
 </ul>
 <p>Taking medicines that reduce stomach acid such as cimetidine and ranitidine, may slightly increase the 
-effects of Ibandronic Acid Teva. </p>
-<p>Ibandronic Acid Teva with food and drink 
+effects of Ibandronic Acid Teva. 
+Ibandronic Acid Teva with food and drink 
 Do not take Ibandronic Acid Teva with food or any other drinks except water as Ibandronic Acid Teva 
 is less effective if it is taken with food or drink (see section 3).  </p>
 <p>Take Ibandronic Acid Teva with at least 6 hours after you had last had anything to eat, drink or any 
@@ -204,13 +204,13 @@ and take any medicines or supplements. </p>
 </li>
 <li>
 <p>Stay upright (sitting or standing) while taking your tablet and for the next hour (60 minutes). 
-Otherwise, some of the medicine could leak back into your food pipe/gullet (oesophagus). </p>
-</li>
-</ul>
-<p>How much to take 
+Otherwise, some of the medicine could leak back into your food pipe/gullet (oesophagus). 
+How much to take 
 The usual dose of Ibandronic Acid Teva is one tablet each day. If you have moderate kidney problems, 
 your doctor may reduce your dose to one tablet every other day. If you have severe kidney problems, 
 your doctor may reduce your dose to one tablet each week. </p>
+</li>
+</ul>
 <p>If you take more Ibandronic Acid Teva than you should 
 If you take too many tablets talk to a doctor or go to hospital straight away. Drink a full glass of milk 
 before you go. Do not make yourself sick. Do not lie down. </p>
@@ -293,5 +293,97 @@ throw away medicines you no longer use. These measures will help protect the env
 The other ingredients are: 
 * tablet core: cellulose microcrystalline, povidone K-30, crospovidone (type A), silica colloidal 
 anhydrous, stearic acid; 
-* tablet coating: titanium dioxide (E 171), hypromellose, macrogol 400, polysorbate 8</p>         </div>"""      
+* tablet coating: titanium dioxide (E 171), hypromellose, macrogol 400, polysorbate 80. What Ibandronic Acid Teva looks like and contents of the pack 
+The Ibandronic Acid Teva film-coated tablets are white, biconvex, capsule-shaped, engraved  50  on 
+one side and plain on the other. </p>
+<p>Ibandronic Acid Teva comes in blisters (PVC/Aclar/PVC   Aluminium) in cartons of 28 or 84 tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>Marketing Authorisation Holder: 
+Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+The Netherlands  </p>
+<p>Manufacturer: 
+Teva Pharmaceutical Works Private Limited Company 
+Pallagi  t 13, 
+4042 Debrecen 
+Hungary </p>
+<p>Pharmachemie B.V. 
+Swensweg 5, 
+2031 GA Haarlem 
+The Netherlands </p>
+<p>Teva Czech Industries s.r.o 
+Ostravska 29/305, 
+747 70 Opava-Komarov 
+Czech Republic </p>
+<p>Teva Operations Poland Sp.z.o.o 
+ul. Mogilska 31-546 Krakow 
+Poland </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+T l/Tel: +32 38207 esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
+Tel: +36 12886Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+TEVA GmbH 
+Tel: +49 73140Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Norge 
+Teva Norway AS 
+Tlf: +47 66775<br />
+Specifar A.B.E.E. 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
+Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Teva Pharma Iceland ehf. 
+S mi: +354 5503Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Teva Italia S.r.l. 
+Tel: +39 028917Suomi/Finland 
+Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+Specifar A.B.E.E. </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

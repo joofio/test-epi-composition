@@ -4,7 +4,7 @@ Instance: composition-en-f671edcc4f8d6bccb96aa87657eaa0a4
 InstanceOf: CompositionUvEpi
 Title: "Composition for lutathera Package Leaflet"
 Description:  "Composition for lutathera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Lutathera is and what it is used for 
-2. What you need to know before Lutathera is used 
-3. How Lutathera is used 
-4. Possible side effects 
-5. How Lutathera is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Lutathera is and what it is used for </li>
+<li>What you need to know before Lutathera is used </li>
+<li>How Lutathera is used </li>
+<li>Possible side effects </li>
+<li>How Lutathera is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -100,15 +100,17 @@ pregnant.
 <p>Warnings and precautions 
 Talk to your doctor before you are given Lutathera as it may cause:</p>
 <ul>
-<li>secondary blood cancer (myelodysplastic syndrome or acute leukaemia), which can occur in 
-rare cases several years after completion of Lutathera treatment. </li>
-</ul>
-<p>If any of these apply to you before or during treatment with Lutathera, tell your doctor or other 
+<li>
+<p>secondary blood cancer (myelodysplastic syndrome or acute leukaemia), which can occur in 
+rare cases several years after completion of Lutathera treatment. 
+If any of these apply to you before or during treatment with Lutathera, tell your doctor or other 
 healthcare professional:</p>
-<ul>
-<li>if you have or have had weakness, tiredness, shortness of breath, poor concentration, infections, 
+</li>
+<li>
+<p>if you have or have had weakness, tiredness, shortness of breath, poor concentration, infections, 
 fever, bleeding or bruising more easily than normal or difficulty to stop bleeding (signs and 
-symptoms of myelosuppression). </li>
+symptoms of myelosuppression). </p>
+</li>
 <li>if you have had any other type of cancer in the last 5 years, bone metastasis, or previous 
 anti-cancer treatment (chemotherapy) or radiation therapy. </li>
 <li>if you have or have had swollen feet and ankles, too much urine or not enough urine, itching or 
@@ -159,8 +161,8 @@ Tell your doctor or nuclear medicine doctor if you are taking, have recently tak
 other medicines including medicines obtained without a prescription, since they may interfere with 
 your treatment. This includes in particular somatostatin analogues or glucocorticoids (also called 
 corticosteroids). If you are taking somatostatin analogues you might be asked to stop and/or adapt your 
-treatment for a short period of time. </p>
-<p>Ask your doctor or pharmacist if you are not sure whether your medicine is one of the medicines 
+treatment for a short period of time. 
+Ask your doctor or pharmacist if you are not sure whether your medicine is one of the medicines 
 mentioned above. </p>
 <p>Pregnancy, breast-feeding and fertility 
 If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
@@ -599,95 +601,73 @@ Italy </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
-Lietuva 
+T l/Tel: +32 2 246 16 Lietuva 
 SAM Nordic 
  vedija 
-Tel: +46 8 720 58  </p>
-<p>Novartis Bulgaria EOOD 
- : +359 2 489 98<br />
-Luxembourg/Luxemburg 
+Tel: +46 8 720 58 <br />
+Novartis Bulgaria EOOD 
+ : +359 2 489 98 Luxembourg/Luxemburg 
 Novartis Pharma N.V. 
-T l/Tel: +32 2 246 16<br />
- esk  republika 
+T l/Tel: +32 2 246 16  esk  republika 
 M.G.P. spol. s r.o. 
-Tel: +420 602 303<br />
-Magyarorsz g 
+Tel: +420 602 303 Magyarorsz g 
 Novartis Hung ria Kft. 
-Tel.: +36 1 457 65<br />
-Danmark 
+Tel.: +36 1 457 65 Danmark 
 SAM Nordic 
 Sverige 
-Tel: +46 8 720 58<br />
-Malta 
+Tel: +46 8 720 58 Malta 
 Novartis Pharma Services Inc. 
 Tel: +356 2122 2Deutschland 
 Novartis Radiopharmaceuticals GmbH 
-Tel: +49 911 2 
-Nederland 
+Tel: +49 911 2Nederland 
 Novartis Pharma B.V. 
 Tel: +31 88 04 52 Eesti 
 SAM Nordic 
 Rootsi 
-Tel: +46 8 720 58<br />
-Norge 
+Tel: +46 8 720 58 Norge 
 SAM Nordic 
 Sverige 
-Tlf: +46 8 720 58  </p>
-<p>: +30 22920 63 
- sterreich 
+Tlf: +46 8 720 58   </p>
+<p>: +30 22920 63 sterreich 
 Novartis Pharma GmbH 
 Tel: +43 1 86 6Espa a 
 Advanced Accelerator Applications Ib rica, 
 S.L.U. 
-Tel: +34 97 6600<br />
-Polska 
+Tel: +34 97 6600 Polska 
 Advanced Accelerator Applications Polska Sp. z 
 o.o. 
-Tel.: +48 22 275 56<br />
-France 
+Tel.: +48 22 275 56 France 
 Advanced Accelerator Applications 
-T l: +33 1 55 47 63<br />
-Portugal 
+T l: +33 1 55 47 63 Portugal 
 Novartis Farma - Produtos Farmac uticos, S.A. 
-Tel: +351 21 000 8 
-Hrvatska 
+Tel: +351 21 000 8Hrvatska 
 Novartis Hrvatska d.o.o. 
-Tel. +385 1 6274<br />
-Rom nia 
+Tel. +385 1 6274 Rom nia 
 Novartis Pharma Services Romania SRL 
 Tel: +40 21 31299 Ireland 
 Novartis Ireland Limited 
 Tel: +353 1 260 12 Slovenija 
 Advanced Accelerator Applications 
 Francija 
-Tel: +33 1 55 47 63<br />
- sland 
+Tel: +33 1 55 47 63  sland 
 SAM Nordic 
 Sv j<br />
-S mi: +46 8 720 58<br />
-Slovensk  republika 
+S mi: +46 8 720 58 Slovensk  republika 
 MGP, spol. s r.o. 
-Tel: +421 254 654<br />
-Italia 
+Tel: +421 254 654 Italia 
 Advanced Accelerator Applications (Italy) S.r.l 
-Tel: +39 0125 561 
-Suomi/Finland 
+Tel: +39 0125 561Suomi/Finland 
 SAM Nordic 
 Ruotsi/Sverige 
-Puh/Tel: +46 8 720 58  </p>
-<p>: +30 22920 63 
-Sverige 
+Puh/Tel: +46 8 720 58   </p>
+<p>: +30 22920 63Sverige 
 SAM Nordic 
-Tel: +46 8 720 58<br />
-Latvija 
+Tel: +46 8 720 58 Latvija 
 SAM Nordic 
 Zviedrija 
-Tel: +46 8 720 58<br />
-United Kingdom (Northern Ireland) 
+Tel: +46 8 720 58 United Kingdom (Northern Ireland) 
 Novartis Ireland Limited 
-Tel: +44 1276 698 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

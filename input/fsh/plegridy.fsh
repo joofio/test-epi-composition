@@ -4,7 +4,7 @@ Instance: composition-en-065940950f1dbb7c281e0e49d5dfc752
 InstanceOf: CompositionUvEpi
 Title: "Composition for plegridy Package Leaflet"
 Description:  "Composition for plegridy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,15 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Plegridy is and what it is used for  
-2. What you need to know before you use Plegridy  
-3. How to use Plegridy  
-4. Possible side effects  
-5. How to store Plegridy  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Plegridy is and what it is used for  </li>
+<li>What you need to know before you use Plegridy  </li>
+<li>How to use Plegridy  </li>
+<li>Possible side effects  </li>
+<li>How to store Plegridy  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -387,10 +387,8 @@ must be kept away from light.  </p>
 need to. </li>
 <li>Make sure the time the syringes spend out of a fridge is no more than 30 days in total.   </li>
 <li>Throw away any syringe that is kept out of the fridge for more than 30 days.   </li>
-<li>
-<p>If you are unsure of the number of days you have kept a syringe out of the fridge, throw 
-the syringe away.   </p>
-</li>
+<li>If you are unsure of the number of days you have kept a syringe out of the fridge, throw 
+the syringe away.   </li>
 <li>
 <p>Do not use this medicine if you notice any of the following:</p>
 </li>
@@ -449,83 +447,65 @@ The Netherlands </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Biogen Belgium NV/SA 
-  +32 2 2191 
-Lietuva 
+  +32 2 2191Lietuva 
 Biogen Lithuania UAB 
-  +370 5 259 6 </p>
-<p>+359 2 962 12<br />
-Luxembourg/Luxemburg 
+  +370 5 259 6  </p>
+<p>+359 2 962 12 Luxembourg/Luxemburg 
 Biogen Belgium NV/SA 
-  +32 2 2191 
- esk  republika 
+  +32 2 2191 esk  republika 
 Biogen (Czech Republic) s.r.o. 
   +420 255 706 Magyarorsz g 
 Biogen Hungary Kft. 
   +36 1 899 9Danmark 
 Biogen Denmark A/S 
-  +45 77 41 57<br />
-Malta 
+  +45 77 41 57 Malta 
 Pharma. MT Ltd.. 
   +356 21337Deutschland 
 Biogen GmbH 
-  +49 (0) 89 99 6 
-Nederland 
+  +49 (0) 89 99 6Nederland 
 Biogen Netherlands B.V. 
-  +31 20 542 2 
-Eesti 
+  +31 20 542 2Eesti 
 Biogen Estonia O<br />
-  +372 618 9 
-Norge 
+  +372 618 9Norge 
 Biogen Norway AS 
   +47 23 40 01 <br />
 Genesis Pharma SA 
-  +30 210 8771 
- sterreich 
+  +30 210 8771 sterreich 
 Biogen Austria GmbH 
   +43 1 484 46 Espa a 
 Biogen Spain S.L. 
-  +34 91 310 7 
-Polska 
+  +34 91 310 7Polska 
 Biogen Poland Sp. z o.o. 
-  +48 22 351 51<br />
-France 
+  +48 22 351 51 France 
 Biogen France SAS 
-  +33 (0)1 41 37 9 
-Portugal 
+  +33 (0)1 41 37 9Portugal 
 Biogen Portugal<br />
 Sociedade Farmac utica, Unipessoal Lda. 
-  +351 21 318 8 
-Hrvatska 
+  +351 21 318 8Hrvatska 
 Biogen Pharma d.o.o. 
-  +385 1 775 73<br />
-Rom nia 
+  +385 1 775 73 Rom nia 
 Johnson &amp; Johnson Romania S.R.L.<br />
   +40 21 207 18 Ireland 
 Biogen Idec (Ireland) Ltd. 
-  +353 (0)1 463 7 
-Slovenija 
+  +353 (0)1 463 7Slovenija 
 Biogen Pharma d.o.o. 
   +386 1 511 02  sland 
 Icepharma hf 
   +354 540 8Slovensk  republika 
 Biogen Slovakia s.r.o. 
-  +421 2 323 34 
-Italia 
+  +421 2 323 34Italia 
 Biogen Italia s.r.l. 
   +39 02 584 9Suomi/Finland 
 Biogen Finland Oy 
-  +358 207 401  </p>
-<p>Genesis Pharma Cyprus Ltd 
-  +357 22 76 57  </p>
-<p>Sverige 
+  +358 207 401 <br />
+Genesis Pharma Cyprus Ltd 
+  +357 22 76 57 Sverige 
 Biogen Sweden AB 
   +46 8 594 113 Latvija 
 Biogen Latvia SIA 
-  +371 68 688<br />
-United Kingdom (Northern Ireland) 
+  +371 68 688 United Kingdom (Northern Ireland) 
 Biogen Idec (Ireland) Limited 
-  +44 (0) 1628 50 1 </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}&gt; &lt;{month YYYY}</em>. </p>
+  +44 (0) 1628 50 1This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt;. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

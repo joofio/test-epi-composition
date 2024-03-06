@@ -4,7 +4,7 @@ Instance: composition-en-2a6f62e1d5ad7fde088bdbbe5ee1875e
 InstanceOf: CompositionUvEpi
 Title: "Composition for lenvima Package Leaflet"
 Description:  "Composition for lenvima Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What LENVIMA is and what it is used for  
-2. What you need to know before you take LENVIMA  
-3. How to take LENVIMA 
-4. Possible side effects  
-5. How to store LENVIMA 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What LENVIMA is and what it is used for  </li>
+<li>What you need to know before you take LENVIMA  </li>
+<li>How to take LENVIMA </li>
+<li>Possible side effects  </li>
+<li>How to store LENVIMA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -444,71 +445,55 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Eisai SA/NV 
-T l/Tel: + 32 (0) 2 502 58<br />
-Lietuva 
+T l/Tel: + 32 (0) 2 502 58 Lietuva 
 Ewopharma AG atstovyb<br />
-Tel: +370 5 2430 </p>
-<p>Ewopharma AG 
-Te .: +359 2 962 12<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 2430<br />
+Ewopharma AG 
+Te .: +359 2 962 12 Luxembourg/Luxemburg 
 Eisai SA/NV 
 T l/Tel: + 32 (0) 2 502 58 (Belgique/Belgien) </p>
 <p>esk  republika 
 Eisai GesmbH organiza ni slo ka 
-Tel.: + 420 242 485<br />
-Magyarorsz g 
+Tel.: + 420 242 485 Magyarorsz g 
 Ewopharma Hungary Ltd. 
-Tel.: +36 1 200 46<br />
-Danmark 
+Tel.: +36 1 200 46 Danmark 
 Eisai AB 
 Tlf: + 46 (0) 8 501 01 (Sverige) </p>
 <p>Malta 
 Cherubino LTD 
-Tel: +356 21343270<br />
-pharmacovigilance@cherubino.com.mt </p>
+Tel: +356 21343pharmacovigilance@cherubino.com.mt </p>
 <p>Deutschland 
 Eisai GmbH 
-Tel: + 49 (0) 69 66 58<br />
-Nederland 
+Tel: + 49 (0) 69 66 58 Nederland 
 Eisai B.V. 
-Tel: + 31 (0) 900 575 3 
-Eesti 
+Tel: + 31 (0) 900 575 3Eesti 
 Ewopharma AG Eesti filiaal 
-Tel: +372 6015 
-Norge 
+Tel: +372 6015Norge 
 Eisai AB 
 Tlf: + 46 (0) 8 501 01 (Sverige) </p>
 <p>Arriani Pharmaceutical S.A. 
- : + 30 210 668 3 
- sterreich 
+ : + 30 210 668 3 sterreich 
 Eisai GesmbH 
 Tel: + 43 (0) 1 535 1980-0 </p>
 <p>Espa a 
 Eisai Farmac utica, S.A. 
-Tel: + (34) 91 455 94<br />
-Polska 
+Tel: + (34) 91 455 94 Polska 
 Ewopharma AG Sp. z o.o 
-Tel.: +48 (22) 620 11<br />
-France 
+Tel.: +48 (22) 620 11 France 
 Eisai SAS 
-T l: + (33) 1 47 67 00<br />
-Portugal 
+T l: + (33) 1 47 67 00 Portugal 
 Eisai Farmac utica, Unipessoal Lda 
-Tel: + 351 214 875<br />
-Hrvatska 
+Tel: + 351 214 875 Hrvatska 
 Ewopharma d.o.o 
 info@ewopharma.hr 
-Tel: +385 (0) 1 6646<br />
-Rom nia 
+Tel: +385 (0) 1 6646 Rom nia 
 Ewopharma AG 
-Tel: +40 21 260 13<br />
-Ireland 
+Tel: +40 21 260 13 Ireland 
 Eisai GmbH 
 Tel: + 49 (0) 69 66 58 (Germany) </p>
 <p>Slovenija 
 Ewopharma d.o.o. 
-Tel: +386 590 848<br />
- sland 
+Tel: +386 590 848  sland 
 Eisai AB 
 S mi: + 46 (0) 8 501 01 (Sv j ) </p>
 <p>Slovensk  republika 
@@ -516,19 +501,16 @@ Eisai GesmbH organiza n  slo ka
 Tel.: +420 242 485 ( esk  republika) </p>
 <p>Italia 
 Eisai S.r.l. 
-Tel: + 39 02 5181 
-Suomi/Finland 
+Tel: + 39 02 5181Suomi/Finland 
 Eisai AB 
 Puh/Tel: + 46 (0) 8 501 01 (Ruotsi/Sverige) </p>
 <p>Arriani Pharmaceuticals S.A. 
  : + 30 210 668 3( ) </p>
 <p>Sverige 
 Eisai AB 
-Tel: + 46 (0) 8 501 01<br />
-Latvija 
+Tel: + 46 (0) 8 501 01 Latvija 
 Ewopharma AG P rst vniec ba 
-Tel: +371 67450 
-United Kingdom (Northern Ireland) 
+Tel: +371 67450United Kingdom (Northern Ireland) 
 Eisai GmbH 
 Tel: + 49 (0) 69 66 58 (Germany) </p>
 <p>This leaflet was last revised in </p>

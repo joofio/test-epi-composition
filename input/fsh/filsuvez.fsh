@@ -4,7 +4,7 @@ Instance: composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627
 InstanceOf: CompositionUvEpi
 Title: "Composition for filsuvez Package Leaflet"
 Description:  "Composition for filsuvez Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Filsuvez is and what it is used for  
-2. What you need to know before you use Filsuvez  
-3. How to use Filsuvez  
-4. Possible side effects  
-5. How to store Filsuvez  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Filsuvez is and what it is used for<br />
+2. What you need to know before you use Filsuvez<br />
+3. How to use Filsuvez<br />
+4. Possible side effects<br />
+5. How to store Filsuvez<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -224,8 +223,8 @@ The active substance is a dry extract from birch bark.
 pubescens Ehrh. as well as hybrids of both species, cortex (equivalent to 0.5-1.0 g birch bark), 
 including 84-95 mg triterpenes calculated as the sum of betulin, betulinic acid, erythrodiol, lupeol and 
 oleanolic acid. Extraction solvent: n-Heptane. </p>
-<p>The other ingredient is refined sunflower oil. </p>
-<p>What Filsuvez looks like and contents of the pack 
+<p>The other ingredient is refined sunflower oil. 
+What Filsuvez looks like and contents of the pack 
 Filsuvez is a colourless to slightly yellowish, opalescent non-aqueous gel. </p>
 <p>Filsuvez gel is packed in white collapsible aluminium tubes. The tubes are closed with a 
 tamper-evident aluminium membrane and fitted with a white polypropylene screw cap.<br />
@@ -249,8 +248,7 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Chiesi sa/nv<br />
-T l/Tel: + 32 (0)2 788 42  </p>
-<p>Lietuva 
+T l/Tel: + 32 (0)2 788 42 Lietuva 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel.: +370 661 663 pv.global@exceedorphan.com </p>
@@ -259,20 +257,17 @@ Bucharova 2657/12, Prague 5, 158 Czech republic
 Te .: +359 888 918 pv.global@exceedorphan.com </p>
 <p>Luxembourg/Luxemburg 
 Chiesi sa/nv<br />
-T l/Tel: + 32 (0)2 788 42<br />
- esk  republika 
+T l/Tel: + 32 (0)2 788 42  esk  republika 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel: +420 724 321 pv.global@exceedorphan.com </p>
 <p>Magyarorsz g 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
-Tel.: +36 20 399 4269<br />
-pv.global@exceedorphan.com 
+Tel.: +36 20 399 4pv.global@exceedorphan.com 
 Danmark 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35<br />
-Malta 
+Tlf: + 46 8 753 35 Malta 
 Amryt Pharmaceuticals DAC 
 Tel: +44 1604 549medinfo@amrytpharma.com </p>
 <p>Deutschland 
@@ -280,33 +275,28 @@ Chiesi GmbH<br />
 Tel: + 49 40 89724-0 </p>
 <p>Nederland 
 Chiesi Pharmaceuticals B.V.<br />
-Tel: + 31 88 501 64<br />
-Eesti 
+Tel: + 31 88 501 64 Eesti 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel.: +370 661 663 pv.global@exceedorphan.com </p>
 <p>Norge 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35  </p>
-<p>Amryt Pharmaceuticals DAC 
+Tlf: + 46 8 753 35 <br />
+Amryt Pharmaceuticals DAC 
 T : +800 44 474T : +44 1604 549medinfo@amrytpharma.com </p>
 <p>sterreich 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-Espa a 
+Tel: + 43 1 4073Espa a 
 Chiesi Espa a, S.A.U.<br />
-Tel: + 34 93 494 8 
-Polska 
+Tel: + 34 93 494 8Polska 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel.: +48 502 188 pv.global@exceedorphan.com </p>
 <p>France 
 Chiesi S.A.S.<br />
-T l: + 33 1 47688 
-Portugal 
+T l: + 33 1 47688Portugal 
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2 
-Hrvatska 
+Tel: + 39 0521 2Hrvatska 
 ExCEEd Orphan Distribution d.o.o. 
 Savska cesta 32, Zagreb, 100 Croatia<br />
 Tel: +385 99 320 0pv.global@exceedorphan.com </p>
@@ -316,36 +306,31 @@ Bucharova 2657/12, Prague 5, 158 Czech republic
 Tel: +40 744 366 pv.global@exceedorphan.com </p>
 <p>Ireland 
 Chiesi Farmaceutici S.p.A. <br />
-Tel: + 39 0521 2 
-Slovenija 
+Tel: + 39 0521 2Slovenija 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel: +386 30 210 pv.global@exceedorphan.com </p>
 <p>sland 
 Chiesi Pharma AB<br />
-S mi: +46 8 753 35<br />
-Slovensk  republika 
+S mi: +46 8 753 35 Slovensk  republika 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel: +420 608 076 pv.global@exceedorphan.com </p>
 <p>Italia 
 Chiesi Italia S.p.A.<br />
-Tel: + 39 0521 2 
-Suomi/Finland 
+Tel: + 39 0521 2Suomi/Finland 
 Chiesi Pharma AB<br />
-Puh/Tel: +46 8 753 35  </p>
-<p>Amryt Pharmaceuticals DAC 
+Puh/Tel: +46 8 753 35 <br />
+Amryt Pharmaceuticals DAC 
 T : +800 44 474T : +44 1604 549medinfo@amrytpharma.com </p>
 <p>Sverige 
 Chiesi Pharma AB<br />
-Tel: +46 8 753 35<br />
-Latvija 
+Tel: +46 8 753 35 Latvija 
 ExCEEd Orphan s.r.o. 
 Bucharova 2657/12, Prague 5, 158 Czech republic 
 Tel.: +370 661 663 pv.global@exceedorphan.com </p>
 <p>United Kingdom (Northern Ireland) 
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2 
-This leaflet was last revised in </p>
+Tel: + 39 0521 2This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

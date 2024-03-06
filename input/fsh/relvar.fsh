@@ -4,7 +4,7 @@ Instance: composition-en-40f1959ef0b924c372a2c6eb95894c6a
 InstanceOf: CompositionUvEpi
 Title: "Composition for relvar Package Leaflet"
 Description:  "Composition for relvar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Relvar Ellipta is and what it is used for 
-2. What you need to know before you use Relvar Ellipta 
-3. How to use Relvar Ellipta 
-4. Possible side effects 
-5. How to store Relvar Ellipta 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Relvar Ellipta is and what it is used for </li>
+<li>What you need to know before you use Relvar Ellipta </li>
+<li>How to use Relvar Ellipta </li>
+<li>Possible side effects </li>
+<li>How to store Relvar Ellipta </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -139,8 +139,8 @@ the lungs known as pneumonia. See section 4 for information on symptoms to look 
 are using this medicine. Tell your doctor as soon as possible if you develop any of these symptoms. </p>
 <p>Children and adolescents 
 Do not give this medicine to children under the age of 12 years for the treatment of asthma, or in 
-children and adolescents of any age for the treatment of COPD. </p>
-<p>Other medicines and Relvar Ellipta 
+children and adolescents of any age for the treatment of COPD. 
+Other medicines and Relvar Ellipta 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines. If you are not sure what your medicine contains talk to your doctor or pharmacist. </p>
 <p>Some medicines may affect how this medicine works, or make it more likely that you will have side 
@@ -355,8 +355,7 @@ Te .: +359 2 454 0bcsofia@berlin-chemie.com </li>
 <p>Luxembourg/Luxemburg 
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 52<br />
- esk  republika 
+T l/Tel: + 32 (0) 10 85 52  esk  republika 
 GlaxoSmithKline s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
 Magyarorsz g 
@@ -371,14 +370,13 @@ Tel: +356 80065Deutschland
 BERLIN-CHEMIE AG 
 Tel: +49 (0) 30 67Nederland 
 GlaxoSmithKline BV 
-Tel: + 31 (0) 33 2081 
-Eesti 
+Tel: + 31 (0) 33 2081Eesti 
 O  Berlin-Chemie Menarini Eesti 
 Tel: +372 667 5ee@berlin-chemie.com </p>
 <p>Norge 
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>Menarini Hellas A.E. 
+Tlf: + 47 22 70 20 <br />
+Menarini Hellas A.E. 
  : +30 210 83161 11- sterreich 
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
@@ -388,8 +386,7 @@ GlaxoSmithKline, S.A.
 Tel: + 34 900 202 es-ci@gsk.com </p>
 <p>Polska 
 GSK Services Sp. z o.o. 
-Tel.: + 48 (0)22 576 9 
-France 
+Tel.: + 48 (0)22 576 9France 
 Laboratoire GlaxoSmithKline 
 T l.: + 33 (0)1 39 17 84 diam@gsk.com </p>
 <p>Portugal 
@@ -402,27 +399,23 @@ Tel: +385 1 4821 office-croatia@berlin-chemie.com </p>
 GlaxoSmithKline (Ireland) Limited<br />
 Tel: +40 800672Ireland 
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija 
+Tel: + 353 (0)1 4955Slovenija 
 Berlin-Chemie / A. Menarini Distribution 
 Ljubljana d.o.o. 
 Tel: +386 (0)1 300 2slovenia@berlin-chemie.com </p>
 <p>sland 
 Vistor hf. 
-S mi: + 354 535 7 
-Slovensk  republika 
+S mi: + 354 535 7Slovensk  republika 
 Berlin-Chemie / A. Menarini Distribution 
 Slovakia s.r.o. 
 Tel: +421 2 544 30 slovakia@berlin-chemie.com </p>
 <p>Italia 
 GlaxoSmithKline S.p.A. 
-Tel: + 39 (0)45 7741 
-Suomi/Finland 
+Tel: + 39 (0)45 7741Suomi/Finland 
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline (Ireland) Limited<br />
- : +357 80070 
-Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline (Ireland) Limited<br />
+ : +357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 
@@ -431,7 +424,7 @@ Tel: +371 67103lv@berlin-chemie.com
 United Kingdom (Northern Ireland) 
 GlaxoSmithKline (Ireland) Limited 
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}</em>  </p>
+<p>This leaflet was last revised in &lt;{MM/YYYY}&gt;  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

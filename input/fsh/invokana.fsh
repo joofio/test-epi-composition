@@ -4,7 +4,7 @@ Instance: composition-en-b0ec338c010ecf0f95bd7dc099830384
 InstanceOf: CompositionUvEpi
 Title: "Composition for invokana Package Leaflet"
 Description:  "Composition for invokana Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Invokana is and what it is used for
 2. What you need to know before you take Invokana
 3. How to take Invokana
 4. Possible side effects
 5. How to store Invokana
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -153,14 +152,8 @@ low (hypoglycaemia)</p>
 <p>medicines used to lower your blood pressure (anti-hypertensives), including diuretics 
 (medicines used to remove levels of excess water in the body, also known as water tablets) since 
 this medicine can also lower your blood pressure by removing levels of excess water in the 
-body. Possible signs of losing too much fluid from your body are listed in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take invokana"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take invokana"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>St. John s wort (an herbal medicine to treat depression)</p>
+body. Possible signs of losing too much fluid from your body are listed in section 4.<br />
+St. John s wort (an herbal medicine to treat depression)</p>
 <p>carbamazepine, phenytoin, or phenobarbital (medicines used to control seizures)</p>
 <p>lithium (a medicine used to treat bipolar disorder)</p>
 <p>efavirenz or ritonavir (a medicine used to treat HIV infection)</p>
@@ -191,13 +184,12 @@ If you have been told by your doctor that you have an intolerance to some sugars
 before taking this medicine.
 Invokana contains sodium
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium 
-free .</p>         </div>"""         
-
-        
+free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take invokana"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take invokana"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure.
@@ -230,12 +222,13 @@ the next dose, skip the missed dose.</p>
 If you stop taking Invokana
 Your blood sugar levels may rise if you stop taking this medicine. Do not stop taking this medicine 
 without talking to your doctor first.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store invokana"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store invokana"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Stop taking Invokana and talk to a doctor or go to the nearest hospital immediately if you have 
@@ -328,11 +321,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store invokana"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store invokana"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
 Do not use this medicine after the expiry date which is stated on the blister and carton after EXP. The 
@@ -341,4 +333,134 @@ This medicine does not require any special storage conditions.
 Do not use Invokana if the packaging is damaged or shows signs of tampering.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Invokana contains</p>
+<h2>The active substance is canagliflozin.</h2>
+<p>Each tablet contains canagliflozin hemihydrate, equivalent to 100 mg or 300 mg of 
+canagliflozin.</p>
+<h2>The other ingredients are:</h2>
+<p>tablet core: lactose (see section 2  Invokana contains lactose ), microcrystalline cellulose, 
+hydroxypropylcellulose, croscarmellose sodium and magnesium stearate.
+-
+film-coating: poly(vinyl alcohol), titanium dioxide (E171), macrogol 3350 and talc. The
+100 mg tablet also contains iron oxide yellow (E172).
+What Invokana looks like and contents of the pack</p>
+<p>Invokana 100 mg film-coated tablets (tablets) are yellow, capsule-shaped, 11 mm long, with 
+ CFZ  on one side and  100  on the other side.</p>
+<p>Invokana 300 mg film-coated tablets (tablets) are white, capsule-shaped, 17 mm long, with 
+ CFZ  on one side and  300  on the other side.
+Invokana is available in PVC/aluminium perforated unit dose blisters. The pack sizes are cartons of 
+10 x 1, 30 x 1, 90 x 1, or 100 x 1 tablets.
+Not all pack sizes may be marketed.
+Marketing Authorisation Holder
+Janssen-Cilag International NV
+Turnhoutseweg B-2340 Beerse
+Belgium
+Manufacturer
+Janssen-Cilag SpA
+Via C. Janssen
+Borgo San Michele
+04100 Latina
+Italy
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Menarini Benelux NV/SA
+T l/Tel: +32 (0)2 721 4medical@menarini.be
+Lietuva
+UAB "JOHNSON &amp; JOHNSON"
+Tel: +370 5 278 68 lt@its.jnj.com</p>
+<ul>
+<li>/ .   <br />
+E 
+ .: +359 2 454 0bcsofia@berlin-chemie.com
+Luxembourg/Luxemburg
+Menarini Benelux NV/SA
+T l/Tel: +32 (0)2 721 4medical@menarini.be
+ esk  republika
+Berlin-Chemie/A.Menarini Ceska republika 
+s.r.o.
+Tel: +420 267 199 office@berlin-chemie.cz
+Magyarorsz g
+Janssen-Cilag Kft.
+Tel.: +36 1 884 2janssenhu@its.jnj.com
+Danmark
+Berlin-Chemie AG
+Tlf: +45 78 71 31 Malta
+AM MANGION LTD.
+Tel: +356 2397 6Deutschland
+Janssen-Cilag GmbH
+Tel: +49 2137 955-jancil@its.jnj.com
+Nederland
+Menarini Benelux NV/SA
+Tel: +32 (0)2 721 4medical@menarini.be
+Eesti
+UAB "JOHNSON &amp; JOHNSON" Eesti filiaal
+Tel: +372 617 7ee@its.jnj.com
+Norge
+Berlin-Chemie AG
+Tlf: +45 78 71 31<br />
+MENARINI HELLAS AE
+T : +30 210 8316111-info@menarini.gr
+ sterreich
+A. Menarini Pharma GmbH
+Tel: +43 1 879 95 85-0
+office@menarini.at
+Espa a
+Laboratorios Menarini, S.A.
+Tel: +34 93 462 88 info@menarini.es
+Polska
+Berlin-Chemie/Menarini Polska Sp. z o.o.
+Tel.: +48 22 566 21 biuro@berlin-chemie.com
+France
+MENARINI France
+T l: +33 (0)1 45 60 77 im@menarini.fr
+Portugal
+A. Menarini Portugal   Farmac utica, S.A.
+Tel: +351 210 935 menporfarma@menarini.pt
+Hrvatska
+Johnson &amp; Johnson S.E. d.o.o.
+Tel: +385 1 6610 jjsafety@JNJCR.JNJ.com
+Rom nia
+Johnson &amp; Johnson Rom nia SRL
+Tel: +40 21 207 1Ireland
+A. Menarini Pharmaceuticals Ireland Ltd
+Tel: +353 1 284 6medinfo@menarini.ie
+Slovenija
+Johnson &amp; Johnson d.o.o.
+Tel: +386 1 401 18 Janssen_safety_slo@its.jnj.com
+ sland
+Janssen-Cilag AB
+c/o Vistor hf.
+S mi: +354 535 7janssen@vistor.is
+Slovensk  republika
+Berlin-Chemie / A. Menarini Distribution 
+Slovakia s.r.o
+Tel: +421 2 544 30 slovakia@berlin-chemie.com
+Italia
+Laboratori Guidotti S.p.A.
+Tel: +39 050 971contatti@labguidotti.it
+Suomi/Finland
+Berlin-Chemie/A. Menarini Suomi Oy
+Puh/Tel: +358 403 000 fi@berlin-chemie.com</li>
+</ul>
+<p>MENARINI HELLAS AE
+ : +30 210 8316111-info@menarini.gr
+Sverige
+Berlin-Chemie AG
+Tfn: +45 78 71 31 Latvija
+UAB "JOHNSON &amp; JOHNSON" fili le Latvij 
+Tel: +371 678 93lv@its.jnj.com
+United Kingdom (Northern Ireland)
+A. Menarini Farmaceutica Internazionale S.R.L.
+Tel: +44 (0)1628 856menarini@medinformation.co.uk
+This leaflet was approved in
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

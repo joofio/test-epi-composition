@@ -4,7 +4,7 @@ Instance: composition-en-f8c80c0dde1cf12a2344c36d8be291f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for fycompa Package Leaflet"
 Description:  "Composition for fycompa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Fycompa is and what it is used for 
-2. What you need to know before you take Fycompa 
-3. How to take Fycompa 
-4. Possible side effects 
-5. How to store Fycompa 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Fycompa is and what it is used for </li>
+<li>What you need to know before you take Fycompa </li>
+<li>How to take Fycompa </li>
+<li>Possible side effects </li>
+<li>How to store Fycompa </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -102,15 +103,13 @@ problems.
 Before taking this medicine you should tell your doctor if you have a history of alcoholism or drug 
 dependence. 
 Cases of increased liver enzymes have been reported in some patients taking Fycompa in combination 
-with other antiepileptic drugs. </p>
-<ul>
-<li>Fycompa may make you feel dizzy or sleepy, particularly at the beginning of treatment. </li>
-<li>Fycompa may make you more likely to fall over, particularly if you are an older person; this 
-might be due to your illness. </li>
-<li>Fycompa may make you aggressive, angry or violent. It may also cause you to have unusual or 
+with other antiepileptic drugs. 
+- Fycompa may make you feel dizzy or sleepy, particularly at the beginning of treatment. 
+- Fycompa may make you more likely to fall over, particularly if you are an older person; this 
+might be due to your illness. 
+- Fycompa may make you aggressive, angry or violent. It may also cause you to have unusual or 
 extreme changes in behaviour or mood, abnormal thinking and/or loss of touch with reality. 
-If you or your family and/or friends notice any of these reactions, talk to your doctor or pharmacist. </li>
-</ul>
+If you or your family and/or friends notice any of these reactions, talk to your doctor or pharmacist. </p>
 <p>A small number of people being treated with anti-epileptics have had thoughts of harming or killing 
 themselves. If at any time you have these thoughts, contact your doctor straight away. </p>
 <p>Serious skin reactions including drug reaction with eosinophilia and systemic symptoms (DRESS) and 
@@ -332,7 +331,11 @@ involvement. </li>
 macules or circular patches often with central blisters on the trunk, skin peeling, ulcers of 
 mouth, throat, nose, genitals and eyes and can be preceded by fever and flu-like symptoms. 
 Stop using perampanel if you develop these symptoms and contact your doctor or seek medical 
-attention immediately. See also section </li>
+attention immediately. See also section 2. Reporting of side effects 
+If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
+not listed in this leaflet. You can also report side effects directly via the national reporting system 
+listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
+this medicine. </li>
 </ul>         </div>"""      
         
 * section[=].section[+]
@@ -340,11 +343,12 @@ attention immediately. See also section </li>
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "5. How to store fycompa"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Reporting of side effects 
-If you get any side effects, talk to your doctor or pharmacist. This includes any possible side effects 
-not listed in this leaflet. You can also report side effects directly via the national reporting system 
-listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
-this medicine. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the carton and blister. The expiry date 
+refers to the last day of the month. </p>
+<p>This medicinal product does not require any special storage conditions. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
         
         
 * section[=].section[+]
@@ -352,10 +356,123 @@ this medicine. </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the carton and blister. The expiry date 
-refers to the last day of the month. </p>
-<p>This medicinal product does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Fycompa contains 
+The active substance is perampanel. Each film-coated tablet contains 2 mg, 4 mg, 6 mg, 8 mg, 10 mg, 
+or 12 mg perampanel. </p>
+<p>The other ingredients are: 
+Tablet core (2 mg and 4 mg tablets): 
+Lactose monohydrate, low-substituted hydroxypropyl cellulose, povidone, magnesium stearate 
+(E470b) </p>
+<p>Tablet core (6 mg, 8 mg, 10 mg and 12 mg tablets) 
+Lactose monohydrate, low-substituted hydroxypropyl cellulose, povidone, microcrystalline cellulose, 
+magnesium stearate (E470b) </p>
+<p>Film coating (2 mg, 4 mg, 6 mg, 8 mg, 10 mg and 12 mg tablets) 
+Hypromellose 2910, talc, Macrogol 8000, titanium dioxide (E171), colourants* </p>
+<p>*The colourants are: 
+2 mg tablet: Ferric Oxide, Yellow (E172), Ferric Oxide, Red (E172) 
+4 mg tablet: Ferric Oxide, Red (E172) 
+6 mg tablet: Ferric Oxide, Red (E172) 
+8 mg tablet: Ferric Oxide, Red (E172), Ferric Oxide, Black (E172) 
+10 mg tablet: Ferric Oxide, Yellow (E172), FD&amp;C Blue #2 Indigo carmine aluminium lake (E132) 
+12 mg tablet: FD&amp;C Blue #2 Indigo carmine aluminium lake (E132) </p>
+<p>What Fycompa looks like and contents of the pack 
+All strengths of Fycompa are round, biconvex film-coated tablets 
+2 mg: orange, marked with E275 on one side and 2 on other side 
+4 mg: red, marked with E277 on one side and 4 on other side 
+6 mg: pink, marked with E294 on one side and 6 on other side 
+8 mg: purple, marked with E295 on one side and 8 on other side 
+10 mg: green, marked with E296 on one side and 10 on other side 
+12 mg: blue, marked with E297 on one side and 12 on other side </p>
+<p>Fycompa is available in packs of: 
+2 mg tablet   pack of 7, 28 and 4 mg, 6 mg, 8 mg, 10 mg, 12 mg tablets   packs of 7, 28, 84 and Not all pack sizes may be marketed </p>
+<p>Marketing Authorisation Holder </p>
+<p>Eisai GmbH 
+Edmund-Rumpler-Stra e 3 
+60549 Frankfurt am Main 
+Germany 
+e-mail: medinfo_de@eisai.net </p>
+<p>Manufacturer 
+Eisai GmbH 
+Edmund-Rumpler-Stra e 3 
+60549 Frankfurt am Main 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Eisai SA/NV 
+T l/Tel: +32 (0)800 158 Lietuva 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Vokietija) </p>
+<p>Eisai GmbH 
+Te .: + 49 (0) 69 66 58 ( ) </p>
+<p>Luxembourg/Luxemburg 
+Eisai SA/NV 
+T l/Tel: +32 (0)800 158 (Belgique/Belgien) </p>
+<p>esk  republika 
+Eisai GesmbH organiza ni slo ka 
+Tel: + 420 242 485 Magyarorsz g 
+Ewopharma Hungary Kft.<br />
+Tel.: + 36 1 200 46 Danmark 
+Eisai AB 
+Tlf: + 46 (0) 8 501 01 (Sverige) </p>
+<p>Malta 
+Cherubino LTD 
+Tel: +356 21343Deutschland 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 Nederland 
+Eisai B.V. 
+Tel: + 31 (0) 900 575 3Eesti 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Saksamaa) </p>
+<p>Norge 
+Eisai AB 
+Tlf: + 46 (0) 8 501 01 (Sverige) </p>
+<p>Arriani Pharmaceutical S.A. 
+ : + 30 210 668 3 sterreich 
+Eisai GesmbH 
+Tel: + 43 (0) 1 535 1980-0 </p>
+<p>Espa a 
+Eisai Farmac utica, S.A. 
+Tel: + (34) 91 455 94 Polska 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Niemcy) </p>
+<p>France 
+Eisai SAS 
+T l: + (33) 1 47 67 00 Portugal 
+Eisai Farmac tica, Unipessoal Lda 
+Tel: + 351 214 875 Hrvatska 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Njema ka) 
+Rom nia 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Germania) </p>
+<p>Ireland 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Germany) 
+Slovenija 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Nem ija) </p>
+<p>sland 
+Eisai AB 
+S mi: + 46 (0)8 501 01 (Sv j ) </p>
+<p>Slovensk  republika 
+Eisai GesmbH organiza ni slo ka 
+Tel.: + 420 242 485 ( esk  republika) </p>
+<p>Italia 
+Eisai S.r.l. 
+Tel: + 39 02 5181Suomi/Finland 
+Eisai AB 
+Puh/Tel: + 46 (0) 8 501 01 (Ruotsi) </p>
+<p>Arriani Pharmaceuticals S.A. 
+ : + 30 210 668 3( ) </p>
+<p>Sverige 
+Eisai AB 
+Tel: + 46 (0) 8 501 01 Latvija 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (V cija) </p>
+<p>United Kingdom (Northern Ireland) 
+Eisai GmbH 
+Tel: + 49 (0) 69 66 58 (Germany) </p>
+<p>This leaflet was last revised in {MM/YYYY} </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

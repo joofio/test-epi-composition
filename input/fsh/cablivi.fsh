@@ -4,7 +4,7 @@ Instance: composition-en-2d5ce8dc4824b4100ae659aba75ae904
 InstanceOf: CompositionUvEpi
 Title: "Composition for cablivi Package Leaflet"
 Description:  "Composition for cablivi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
-1. What Cablivi is and what it is used for  
-2. What you need to know before you use Cablivi  
-3. How to use Cablivi  
-4. Possible side effects  
-5. How to store Cablivi  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
+1. What Cablivi is and what it is used for<br />
+2. What you need to know before you use Cablivi<br />
+3. How to use Cablivi<br />
+4. Possible side effects<br />
+5. How to store Cablivi<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,8 +98,8 @@ blood clots). Your doctor will decide how you should be treated.<br />
 treated. 
 * have severely reduced liver function. Your doctor will decide how you should be treated. 
 * are going to have an operation or dental treatment. Your doctor will decide if it can be 
-postponed or if you should stop Cablivi before your surgery or dental treatment.  </p>
-<p>Children and adolescents 
+postponed or if you should stop Cablivi before your surgery or dental treatment.<br />
+Children and adolescents 
 Cablivi is not recommended for children under 12 years and below 40 kg body weight.  </p>
 <p>Other medicines and Cablivi 
 Tell your doctor or pharmacist if you are using, have recently used, or might use any other medicines. </p>
@@ -147,8 +146,8 @@ The first injection of Cablivi into your vein must be given by a healthcare prof
 for healthcare professionals on how to inject Cablivi into your vein are at the end of the leaflet. </p>
 <p>For each injection, use a fresh kit package to prepare the injection solution. Do not try to inject Cablivi 
 until you have been taught how to do so by a healthcare professional. Never use the kit for another 
-injection. </p>
-<p>Step 1 - Cleaning<br />
+injection. 
+Step 1 - Cleaning<br />
 * Wash your hands thoroughly with soap and water. 
 * Prepare a clean flat surface for placing the kit package. 
 * Make sure you have a disposal container at hand. </p>
@@ -238,22 +237,18 @@ previous day to help the skin to recover after the injection.' </li>
 <li>Use the second alcohol pad to clean the injection site you have chosen. </li>
 </ul>
 <p>Step 12 - Administration<br />
-* Carefully remove the needle protection cap from the needle and throw it away. Make sure the 
+<em> Carefully remove the needle protection cap from the needle and throw it away. Make sure the 
 needle does not touch anything before the injection. 
 * Hold the syringe at eye level with the needle pointing upwards. 
 * Remove any air bubbles by tapping the side of the syringe with your finger to make the bubbles 
 rise towards the tip. Then, slowly push the plunger until a small amount of liquid comes out of 
 the needle. 
-* Gently pinch the cleaned skin between your thumb and forefinger to make a fold.  </p>
+* Gently pinch the cleaned skin between your thumb and forefinger to make a fold.<br />
+</em> Hold this skin fold during the entire injection. 
+* Insert the full length of the needle into the skin fold at an angle as shown in the illustration. 
+* Press the plunger down as far as it goes. </p>
 <ul>
-<li>Hold this skin fold during the entire injection. </li>
-<li>Insert the full length of the needle into the skin fold at an angle as shown in the illustration. </li>
-<li>
-<p>Press the plunger down as far as it goes. </p>
-</li>
-<li>
-<p>Pull out the needle at the same angle you inserted it. Do not rub the injection site. </p>
-</li>
+<li>Pull out the needle at the same angle you inserted it. Do not rub the injection site. </li>
 </ul>
 <p>Step 13 - After administration<br />
 * Immediately after the injection, move the needle safety shield over the needle, until it clicks into 
@@ -282,8 +277,8 @@ stopping it too early can cause your condition to come back. </p>
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Contact your doctor immediately if any of the following serious side effects occur.<br />
 Long or excessive bleeding.<br />
-Your doctor may decide to keep you under closer observation or change your treatment.  </p>
-<p>Side effects in a clinical study were reported with the following frequencies: </p>
+Your doctor may decide to keep you under closer observation or change your treatment.<br />
+Side effects in a clinical study were reported with the following frequencies: </p>
 <p>Very common, may affect more than 1 in 10 people 
 * bleeding gums 
 * fever 
@@ -362,8 +357,7 @@ solvent, 7 vial adapters, 7 needles and 14 alcohol swabs.  </p>
 <p>Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 Ablynx NV 
-Technologiepark 21<br />
-9052 Zwijnaarde<br />
+Technologiepark 9052 Zwijnaarde<br />
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
@@ -371,31 +365,26 @@ Authorisation Holder. </p>
 Sanofi Belgium 
 T l/Tel: +32 (0)2 710 54 Lietuva 
 Swixx Biopharma UAB 
-Tel: +370 5 236 91  </p>
-<p>Swixx Biopharma EOOD 
- .: +359 (0)2 4942<br />
-Luxembourg/Luxemburg 
+Tel: +370 5 236 91 <br />
+Swixx Biopharma EOOD 
+ .: +359 (0)2 4942 Luxembourg/Luxemburg 
 Sanofi Belgium<br />
 T l/Tel: +32 (0)2 710 54 00 (Belgique/Belgien) </p>
 <p>esk  republika 
 sanofi-aventis, s.r.o. 
-Tel: +420 233 086<br />
-Magyarorsz g 
+Tel: +420 233 086 Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
 Tel.: +36 1 505 0Danmark 
 Sanofi A/S 
 Tlf: +45 45 16 70 Malta 
 Sanofi S.r.l. 
-Tel: +39 02 39394 
-Deutschland 
+Tel: +39 02 39394Deutschland 
 Sanofi-Aventis Deutschland GmbH 
-Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70<br />
-Nederland 
+Tel.: 0800 04 36 Tel. aus dem Ausland: +49 69 305 70 Nederland 
 Genzyme Europe B.V. 
 Tel: +31 20 245 4Eesti 
 Swixx Biopharma O <br />
-Tel: +372 640 10<br />
-Norge 
+Tel: +372 640 10 Norge 
 sanofi-aventis Norge AS 
 Tlf: +47 67 10 71 <br />
 sanofi-aventis   AEBE 
@@ -404,46 +393,36 @@ sanofi-aventis GmbH
 Tel: +43 1 80 185   0 </p>
 <p>Espa a 
 sanofi-aventis, S.A. 
-Tel: +34 93 485 94<br />
-Polska 
+Tel: +34 93 485 94 Polska 
 sanofi-aventis Sp. z o.o. 
 Tel.: +48 22 280 00 France 
 sanofi-aventis France 
-T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23<br />
-Portugal 
+T l: 0 800 222 Appel depuis l tranger : +33 1 57 63 23 Portugal 
 Sanofi - Produtos Farmac uticos, Lda. 
 Tel: +351 21 35 89 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-Rom nia 
+Tel: +385 1 2078 Rom nia 
 Sanofi Romania SRL 
 Tel: +40 (0) 21 317 31 Ireland 
 sanofi-aventis Ireland Ltd.  T/A SANOFI 
 Tel: +353 (0) 1 403 56 Slovenija 
 Swixx Biopharma d.o.o.<br />
-Tel: +386 1 235 51<br />
- sland 
+Tel: +386 1 235 51  sland 
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika 
+S mi: +354 535 7Slovensk  republika 
 Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33<br />
-Italia 
+Tel: +421 2 208 33 Italia 
 Sanofi S.r.l. 
 Tel: 800 536Suomi/Finland 
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200  </p>
-<p>C.A. Papaellinas Ltd. 
- : +357 22 741 
-Sverige 
+Puh/Tel: +358 (0) 201 200 <br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741Sverige 
 Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Latvija<br />
+Tel: +46 (0)8 634 50 Latvija<br />
 Swixx Biopharma SIA<br />
-Tel: +371 6 616 47<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 
-This leaflet was last revised in. </p>
+Tel: +44 (0) 800 035 2This leaflet was last revised in. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-66d5e6df1989e0692bced127abe8781a
 InstanceOf: CompositionUvEpi
 Title: "Composition for lumark Package Leaflet"
 Description:  "Composition for lumark Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Lumark is and what it is used for  
-2. What you need to know before the medicine radiolabelled with Lumark is used  
-3. How to use the medicine radiolabelled with Lumark  
-4. Possible side effects  
-5. How to store Lumark   
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Lumark is and what it is used for  </li>
+<li>What you need to know before the medicine radiolabelled with Lumark is used  </li>
+<li>How to use the medicine radiolabelled with Lumark  </li>
+<li>Possible side effects  </li>
+<li>How to store Lumark   </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -248,8 +248,7 @@ administration by the nuclear medicine doctor. </p>
 <p>Each pack contains 1 glass vial in a lead cannister placed in a plastic jar. </p>
 <p>Marketing Authorisation Holder and Manufacturer 
 I.D.B. Holland B.V. 
-Weverstraat 17<br />
-5111 PV Baarle-Nassau 
+Weverstraat 5111 PV Baarle-Nassau 
 The Netherlands 
 Tel:  +31(0)13 5079 Fax: +31(0)13 5079 Email: quality@idb-radiopharmacy.com </p>
 <p>This leaflet was last revised in </p>

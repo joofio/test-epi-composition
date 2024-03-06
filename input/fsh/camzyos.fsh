@@ -4,7 +4,7 @@ Instance: composition-en-39ac69c93b0288d89a0cb9d145b02fcc
 InstanceOf: CompositionUvEpi
 Title: "Composition for camzyos Package Leaflet"
 Description:  "Composition for camzyos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What CAMZYOS is and what it is used for 
-2. What you need to know before you take CAMZYOS 
-3. How to take CAMZYOS 
-4. Possible side effects 
-5. How to store CAMZYOS 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What CAMZYOS is and what it is used for </li>
+<li>What you need to know before you take CAMZYOS </li>
+<li>How to take CAMZYOS </li>
+<li>Possible side effects </li>
+<li>How to store CAMZYOS </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -241,8 +241,8 @@ with you. </p>
 <p>If you forget to take CAMZYOS 
 If you forget to take CAMZYOS at the usual time, take your dose as soon as you remember on the 
 same day and take your next dose at the usual time the next day. Do not take a double dose to make up 
-for a forgotten capsule. </p>
-<p>If you stop taking CAMZYOS 
+for a forgotten capsule. 
+If you stop taking CAMZYOS 
 Do not stop taking CAMZYOS unless your doctor tells you to. If you wish to stop taking CAMZYOS, 
 notify your doctor to discuss the best way to do so. </p>
 <p>If you have any further questions on the use of this medicine, ask your doctor. </p>         </div>"""         

@@ -4,7 +4,7 @@ Instance: composition-en-703c0707f76711c32684f846cc20b14e
 InstanceOf: CompositionUvEpi
 Title: "Composition for potactasol Package Leaflet"
 Description:  "Composition for potactasol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Potactasol is and what it is used for 
 2. What you need to know before you use Potactasol 
 3. How to use Potactasol 
 4. Possible side effects 
 5. How to store Potactasol 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -104,8 +103,8 @@ severe bleeding from relatively small injuries such as a small cut. Rarely, it c
 bleeding (haemorrhage). Talk to your doctor for advice on how to minimize the risk of bleeding. </p>
 <p>The incidence of side effects is more frequent in patients who are in poor general health. The doctor 
 will evaluate your general health during the treatment and you should tell him/her in case you have 
-fever, infection or are in some ways feeling unwell. </p>
-<p>Use in children and adolescents 
+fever, infection or are in some ways feeling unwell. 
+Use in children and adolescents 
 The experience in children and adolescents is limited and treatment is therefore not recommended. </p>
 <p>Other medicines and Potactasol 
 Tell your doctor if you are taking, have recently taken or might take any other medicines. </p>
@@ -300,89 +299,64 @@ Authorisation Holder: </p>
 Teva Pharma Belgium N.V./S.A./AG 
 T l/Tel: +32 38207Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 </p>
-<p>Te : +359 24899 
-Luxembourg/Luxemburg 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-T l/Tel: +32 38207 
- esk  republika 
+T l/Tel: +32 38207 esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarorsz g 
+Tel: +420 251007Magyarorsz g 
 Teva Gy gyszergy r Zrt. 
-Tel: +36 12886 
-Danmark 
+Tel: +36 12886Danmark 
 Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
+Tlf: +45 44985Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
-Tel: +44 2075407 
-Deutschland 
+Tel: +44 2075407Deutschland 
 ratiopharm GmbH 
-Tel: +49 73140 
-Nederland 
+Tel: +49 73140Nederland 
 Teva Nederland B.V. 
 Tel: +31 8000228Eesti 
 UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
+Tel: +372 6610Norge 
 Teva Norway AS 
-Tlf: +47 66775 </p>
-<p>Specifar A.B.E.E. 
- : +30 2118805 
- sterreich 
+Tlf: +47 66775<br />
+Specifar A.B.E.E. 
+ : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-Espa a 
+Tel: +43 1970Espa a 
 Teva Pharma, S.L.U. 
-Tel: +34 913873 
-Polska 
+Tel: +34 913873Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 
-France 
+Tel: +48 223459France 
 Teva Sant<br />
-T l: +33 155917 
-Portugal 
+T l: +33 155917Portugal 
 Teva Pharma - Produtos Farmac uticos, Lda. 
-Tel: +351 214767 
-Hrvatska 
+Tel: +351 214767Hrvatska 
 Pliva Hrvatska d.o.o.<br />
-Tel: +385 13720000  </p>
-<p>Rom nia 
+Tel: +385 13720Rom nia 
 Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
+Tel: +40 212306Ireland 
 Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
+Tel: +44 2075407Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
- sland 
+Tel: +386 15890 sland 
 Teva Pharma Iceland ehf. 
-S mi: +354 5503 
-Slovensk  republika 
+S mi: +354 5503Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
+Tel: +421 257267Italia 
 Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
+Tel: +39 028917Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 </p>
-<p>Specifar A.B.E.E.  </p>
-<p>: +30 2118805 
-Sverige 
+Puh/Tel: +358 201805<br />
+Specifar A.B.E.E.  </p>
+<p>: +30 2118805Sverige 
 Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
+Tel: +46 42121Latvija 
 UAB Teva Baltics fili le Latvij <br />
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
+Tel: +371 67323United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 
-Tel: +44 2075407 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

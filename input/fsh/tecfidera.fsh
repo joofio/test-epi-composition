@@ -4,7 +4,7 @@ Instance: composition-en-eb26fa1671149a9a84afe4c1bb85528a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tecfidera Package Leaflet"
 Description:  "Composition for tecfidera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tecfidera is and what it is used for  
-2. What you need to know before you take Tecfidera  
-3. How to take Tecfidera 
-4. Possible side effects  
-5. How to store Tecfidera  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tecfidera is and what it is used for  </li>
+<li>What you need to know before you take Tecfidera  </li>
+<li>How to take Tecfidera </li>
+<li>Possible side effects  </li>
+<li>How to store Tecfidera  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -143,8 +143,8 @@ live vaccines) should be given.  </li>
 <p>Consumption of more than a small amount (more than 50 ml) of strong alcoholic drinks (more than 
 30% alcohol by volume, e.g. spirits) should be avoided within an hour of taking Tecfidera, as alcohol 
 can interact with this medicine. This could cause inflammation of the stomach (gastritis), especially in 
-people already prone to gastritis. </p>
-<p>Pregnancy and breast-feeding  </p>
+people already prone to gastritis. 
+Pregnancy and breast-feeding  </p>
 <p>If you are pregnant or breast-feeding, think you may be pregnant or are planning to have a baby, ask 
 your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Pregnancy </p>
@@ -178,24 +178,17 @@ capsule as this may increase some side effects. </p>
 section 4). </p>
 <p>If you take more Tecfidera than you should </p>
 <p>If you have taken too many capsules, talk to your doctor straight away. You may experience side 
-effects similar to those described below in section </p>         </div>"""         
+effects similar to those described below in section 4. If you forget to take Tecfidera </p>
+<p>If you forget or miss a dose, do not take a double dose.  </p>
+<p>You may take the missed dose if you leave at least 4 hours between the doses. Otherwise wait until 
+your next planned dose.<br />
+If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
   * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you forget to take Tecfidera </p>
-<p>If you forget or miss a dose, do not take a double dose.  </p>
-<p>You may take the missed dose if you leave at least 4 hours between the doses. Otherwise wait until 
-your next planned dose.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store tecfidera"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store tecfidera"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects </p>
@@ -276,17 +269,114 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store tecfidera"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store tecfidera"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after  EXP . 
+The expiry date refers to the last day of that month. </p>
+<p>Do not store above 30 C. 
+Keep the blisters in the outer carton in order to protect from light. 
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use this medicine after the expiry date which is stated on the blister and the carton after  EXP . 
-The expiry date refers to the last day of that month. </p>
-<p>Do not store above 30 C. 
-Keep the blisters in the outer carton in order to protect from light. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-dispose of medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Tecfidera contains  </p>
+<p>The active substance is dimethyl fumarate.<br />
+Tecfidera 120 mg: Each capsule contains 120 mg of dimethyl fumarate. 
+Tecfidera 240 mg: Each capsule contains 240 mg of dimethyl fumarate. </p>
+<p>The other ingredients are microcrystalline cellulose, croscarmellose sodium, talc, silica colloidal 
+anhydrous, magnesium stearate, triethyl citrate, methacrylic acid   methyl methacrylate copolymer 
+(1:1), methacrylic acid   ethyl acrylate copolymer (1:1) dispersion 30%, simeticone, sodium 
+laurilsulfate, polysorbate 80, gelatin, titanium dioxide (E171), brilliant blue FCF (E133), yellow iron 
+oxide (E172), shellac, potassium hydroxide and black iron oxide (E172). </p>
+<p>What Tecfidera looks like and contents of the pack </p>
+<p>Tecfidera 120 mg gastro-resistant hard capsules are green and white and printed with  BG-12 120 mg<br />
+and are available in packs containing 14 capsules. </p>
+<p>Tecfidera 240 mg gastro-resistant hard capsules are green and printed with  BG-12 240 mg  and are 
+available in packs containing 56 or 168 capsules.  </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+The Netherlands </p>
+<p>Manufacturer </p>
+<p>FUJIFILM Diosynth Biotechnologies Denmark ApS 
+Biotek All  1 
+DK-3400 Hiller d 
+Denmark  </p>
+<p>Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder </p>
+<p>Belgi /Belgique/Belgien 
+Biogen Belgium NV/SA 
+T l/Tel: +32 2 2191Lietuva 
+Biogen Lithuania UAB 
+Tel: +370 5 259 6  </p>
+<p>Te : +359 2 962 12 Luxembourg/Luxemburg 
+Biogen Belgium NV/SA 
+T l/Tel: +32 2 2191 esk  republika 
+Biogen (Czech Republic) s.r.o. 
+Tel: +420 255 706 Magyarorsz g 
+Biogen Hungary Kft. 
+Tel: + 36 1 899 9Danmark 
+Biogen (Denmark) A/S 
+Tlf: +45 77 41 57 Malta 
+Pharma. MT Ltd.<br />
+Tel: +356 21337Deutschland 
+Biogen GmbH 
+Tel: +49 (0) 89 99 6Nederland 
+Biogen Netherlands B.V. 
+Tel: +31 20 542 2Eesti 
+Biogen Estonia O<br />
+Tel: +372 618 9Norge 
+Biogen Norway AS 
+Tlf: +47 23 40 01 <br />
+Genesis Pharma SA<br />
+T : +30 210 8771 sterreich 
+Biogen Austria GmbH 
+Tel: +43 1 484 46 Espa a 
+Biogen Spain, S.L. 
+Tel: +34 91 310 7Polska 
+Biogen Poland Sp. z o.o.<br />
+Tel: +48 22 351 51 France 
+Biogen France SAS 
+T l: +33 (0)1 41 37 95 Portugal 
+Biogen Portugal Sociedade Farmac utica, 
+Unipessoal, Lda. 
+Tel: +351 21 318 8Hrvatska 
+Biogen Pharma d.o.o<br />
+Tel: +385 (0) 1 775 73 Rom nia 
+Johnson &amp; Johnson Romania S.R.L.<br />
+Tel: +40 21 207 18 Ireland 
+Biogen Idec (Ireland) Ltd. 
+Tel: +353 (0)1 463 7Slovenija 
+Biogen Pharma d.o.o. 
+Tel: +386 1 511 02  sland 
+Icepharma hf 
+S mi: +354 540 8Slovensk  republika 
+Biogen Slovakia s.r.o. 
+Tel: +421 2 323 340 Italia 
+Biogen Italia s.r.l. 
+Tel: +39 02 5849Suomi/Finland 
+Biogen Finland Oy 
+Puh/Tel: +358 207 401 <br />
+Genesis Pharma Cyprus Ltd<br />
+T : +3572 2 765Sverige 
+Biogen Sweden AB 
+Tel: +46 8 594 113 Latvija 
+Biogen Latvia SIA 
+Tel: +371 68 688 United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Limited 
+Tel: +44 (0) 1628 50 1This leaflet was last revised in {MM YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

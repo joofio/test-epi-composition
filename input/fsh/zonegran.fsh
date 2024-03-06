@@ -4,7 +4,7 @@ Instance: composition-en-5d598acaa06e1793f466dd362946add4
 InstanceOf: CompositionUvEpi
 Title: "Composition for zonegran Package Leaflet"
 Description:  "Composition for zonegran Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
-1. What Zonegran is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
+1. What Zonegran is and what it is used for<br />
 2. What you need to know before you take Zonegran 
 3. How to take Zonegran 
 4. Possible side effects 
 5. How to store Zonegran 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -401,8 +401,7 @@ Amdipharm Limited
 Amdipharm Limited 
 Tel: +49 (0) 800 1840 Nederland 
 Amdipharm Limited 
-Tel: +31 (0) 208 08 3 </p>
-<p>Eesti 
+Tel: +31 (0) 208 08 3Eesti 
 Amdipharm Limited 
 Tel: +44 (0) 208 588 9Norge 
 Amdipharm Limited 
@@ -412,16 +411,14 @@ Amdipharm Limited
 Amdipharm Limited 
 Tel: +43 (0) 800 298 Espa a 
  Ferrer Internacional, S.A. 
-Tel: +34 93 600 37 00<br />
-Polska 
+Tel: +34 93 600 37 Polska 
 Amdipharm Limited 
 Tel: +44 (0) 208 588 9France 
 CENTRE SPECIALITES 
 PHARMACEUTIQUES 
 T l: 01.47.04.80.Portugal 
 Amdipharm Limited 
-Tel: +44 (0) 208 588 9 
-Hrvatska 
+Tel: +44 (0) 208 588 9Hrvatska 
  Amdipharm Limited 
 Tel: +44 (0) 208 588 9Rom nia 
 Amdipharm Limited 
@@ -445,8 +442,7 @@ Tel: +46 (0)8 408 38 Latvija
 Amdipharm Limited 
 Tel: +44 (0) 208 588 9United Kingdom (Northern Ireland) 
 Amdipharm Limited 
-Tel: +44 (0) 208 588 9 
-This leaflet was last revised in  </p>
+Tel: +44 (0) 208 588 9This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu </p>
 <p>Annex IV 

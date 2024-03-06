@@ -4,7 +4,7 @@ Instance: composition-en-d32ad2b352bb6245babc6f24db3ed9fa
 InstanceOf: CompositionUvEpi
 Title: "Composition for ziextenzo Package Leaflet"
 Description:  "Composition for ziextenzo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Ziextenzo is and what it is used for
 2. What you need to know before you use Ziextenzo
 3. How to use Ziextenzo
 4. Possible side effects
 5. How to store Ziextenzo
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -103,14 +102,8 @@ Distress Syndrome (ARDS).</p>
 difficulty breathing, abdominal swelling and feeling of fullness, and a general feeling of 
 tiredness
 These could be symptoms of condition called  Capillary Leak Syndrome  which causes blood to 
-leak from the small blood vessels into your body. See section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take ziextenzo"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ziextenzo"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>if you get left upper abdominal pain or pain at the tip of your shoulder. This may be a sign of a 
+leak from the small blood vessels into your body. See section 4.<br />
+if you get left upper abdominal pain or pain at the tip of your shoulder. This may be a sign of a 
 problem with your spleen (splenomegaly).</p>
 <p>if you have recently had a serious lung infection (pneumonia), fluid in the lungs (pulmonary 
 oedema), inflammation of the lungs (interstitial lung disease) or an abnormal chest x-ray (lung 
@@ -157,13 +150,12 @@ Ziextenzo has no or negligible effect on the ability to drive or use machines.
 Ziextenzo contains sorbitol (E420) and sodium
 This medicine contains 30 mg sorbitol in each pre-filled syringe which is equivalent to 50 mg/mL.
 This medicine contains less than 1 mmol sodium (23 mg) per 6 mg dose, that is to say essentially 
- sodium-free .</p>         </div>"""         
-
-        
+ sodium-free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take ziextenzo"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take ziextenzo"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Ziextenzo is for use in adults aged 18 and over.
 Always use Ziextenzo exactly as your doctor has told you. You should check with your doctor or 
@@ -182,12 +174,13 @@ If you use more Ziextenzo than you should contact your doctor, pharmacist or nur
 If you forget to inject Ziextenzo
 If you are injecting yourself and have forgotten a dose of Ziextenzo, you should contact your doctor to 
 discuss when you should inject the next dose.
-If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""      
+If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store ziextenzo"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ziextenzo"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Please tell your doctor immediately if you have any of the following or combination of the following 
@@ -226,15 +219,8 @@ and neck with fever) has occurred but other factors may play a role.</p>
 <p>blood disorders (myelodysplastic syndrome [MDS] or acute myeloid leukaemia [AML]).
 Rare side effects (may affect up to 1 in 1 000 people):</p>
 <p>inflammation of the aorta (the large blood vessel which transports blood from the heart to the 
-body), see section </p>         </div>"""      
-        
-        
-* section[=].section[+]
-  * title = "6. Contents of the pack and other information"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>bleeding from the lung (pulmonary haemorrhage).</p>
+body), see section 2.<br />
+bleeding from the lung (pulmonary haemorrhage).</p>
 <p>Stevens-Johnson syndrome, which can appear as reddish target-like or circular patches often with 
 central blisters on the trunk, skin peeling, ulcers of mouth, throat, nose, genitals and eyes and can 
 be preceded by fever and flu-like symptoms. Stop using Ziextenzo if you develop these symptoms 
@@ -243,4 +229,111 @@ If you get any side effects, talk to your doctor, pharmacist or nurse. This incl
 effects not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine.</p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store ziextenzo"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ziextenzo"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.
+Do not use this medicine after the expiry date which is stated on the carton and on the syringe label after 
+EXP. The expiry date refers to the last day of that month.
+Store in a refrigerator (2  C   8  C).
+You may take Ziextenzo out of the refrigerator and keep it at room temperature (not above 35  C) for no 
+longer than 120 hours. Once a syringe has been removed from the refrigerator and has reached room 
+temperature (not above 35  C) it must either be used within 120 hours or disposed of.
+Do not freeze. Ziextenzo may be used if it is accidentally frozen for a single period of less than hours.
+Keep the container in the outer carton in order to protect from light.
+Do not use this medicine if you notice it is cloudy or there are particles in it.
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Ziextenzo contains</h2>
+<p>The active substance is pegfilgrastim. Each pre-filled syringe contains 6 mg of pegfilgrastim in 
+0.6 mL of solution.
+-
+The other ingredients are glacial acetic acid, sorbitol (E420), polysorbate 20, sodium hydroxide 
+and water for injections. See section 2  Ziextenzo contains sorbitol (E420) and sodium .
+What Ziextenzo looks like and contents of the pack
+Ziextenzo is a clear, colourless to slightly yellowish solution for injection (injection) in a pre-filled 
+syringe (6 mg/0.6 mL).
+Each pack contains 1 glass pre-filled syringe with a rubber plunger stopper (bromobutyl rubber, latex-
+free), a plunger rod, an attached stainless steel 29 gauge needle and needle cap (thermoplastic elastomer, 
+latex-free). The syringes are provided with an automatic needle guard.
+Marketing Authorisation Holder 
+Sandoz GmbH
+Biochemiestr. 6250 Kundl
+Austria
+Manufacturer
+Sandoz GmbH
+Biochemiestr. 6336 Langkampfen
+Austria
+Novartis Pharmaceutical Manufacturing GmbH
+Biochemiestrasse 6336 Langkampfen
+Austria
+For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder:
+Belgi /Belgique/Belgien
+Sandoz nv/sa
+T l/Tel: +32 2 722 97 Lietuva
+Sandoz Pharmaceuticals d.d filialas
+Tel: +370 5 2636  </p>
+<p>.: +359 2 970 47 Luxembourg/Luxemburg
+Sandoz nv/sa
+T l/Tel.: +32 2 722 97  esk  republika
+Sandoz s.r.o.
+Tel: +420 225 775 Magyarorsz g
+Sandoz Hung ria Kft.
+Tel.: +36 1 430 2Danmark/Norge/ sland/Sverige
+Sandoz A/S
+Tlf: +45 63 95 10 Malta
+Sandoz Pharmaceuticals d.d.
+Tel: +35699644Deutschland
+Hexal AG
+Tel: +49 8024 908 0
+Nederland
+Sandoz B.V.
+Tel: +31 36 52 41 Eesti
+Sandoz d.d. Eesti filiaal
+Tel: +372 665 2 sterreich
+Sandoz GmbH
+Tel: +43 5338 2 
+SANDOZ HELLAS    . .
+ : +30 216 600 5Polska
+Sandoz Polska Sp. z o.o.
+Tel.: +48 22 209 70 Espa a
+Sandoz Farmac utica, S.A.
+Tel: +34 900 456 Portugal
+Sandoz Farmac utica Lda.
+Tel: +351 21 000 86 France
+Sandoz SAS
+T l: +33 1 49 64 48 Rom nia
+Sandoz Pharmaceuticals SRL
+Tel: +40 21 407 51 Hrvatska
+Sandoz d.o.o.
+Tel: +385 1 23 53 Slovenija
+Sandoz farmacevtska dru ba d.d.
+Tel: +386 1 580 29 Ireland
+Rowex Ltd.
+Tel: + 353 27 50Slovensk  republika
+Sandoz d.d. - organiza n  zlo ka
+Tel: +421 2 48 20 0Italia
+Sandoz S.p.A.
+Tel: +39 02 96Suomi/Finland
+Sandoz A/S
+Puh/Tel: +358 10 6133<br />
+Sandoz Pharmaceuticals d.d.
+ : +357 22 69 0United Kingdom (Northern Ireland)
+Sandoz GmbH
+Tel: +43 5338 2Latvija
+Sandoz d.d. Latvia fili le
+Tel: +371 67 892 This leaflet was last revised in.
+Other sources of information
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

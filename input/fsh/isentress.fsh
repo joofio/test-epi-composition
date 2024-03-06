@@ -4,7 +4,7 @@ Instance: composition-en-240cb856767cdf385c31b86b973619ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for isentress Package Leaflet"
 Description:  "Composition for isentress Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Isentress is and what it is used for
 2. What you need to know before you take Isentress
 3. How to take Isentress
 4. Possible side effects
 5. How to store Isentress
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -414,7 +413,7 @@ United Kingdom (Northern Ireland)
 Merck Sharp &amp; Dohme Ireland (Human Health)
 Limited
 Tel: +353 (0)1 2998medinfoNI@msd.com
-This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>.
+This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;.
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu.
 Package leaflet: Information for the user
@@ -429,5 +428,5 @@ child.</p>
 <p>This medicine has been prescribed for you or your child only. Do not pass it on to others. It may
 harm them, even if their signs of illness are the same as yours.</p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
-side effects not listed in this leaflet. See section 4. </p>         </div>"""      
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

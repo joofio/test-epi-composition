@@ -4,7 +4,7 @@ Instance: composition-en-92909816e3fb20d8a0e9b31b0e2db7d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for kuvan Package Leaflet"
 Description:  "Composition for kuvan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Kuvan is and what it is used for 
-2. What do you need to know before you take Kuvan  
-3. How to take Kuvan  
-4. Possible side effects 
-5. How to store Kuvan  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Kuvan is and what it is used for </li>
+<li>What do you need to know before you take Kuvan  </li>
+<li>How to take Kuvan  </li>
+<li>Possible side effects </li>
+<li>How to store Kuvan  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -161,8 +161,8 @@ Number of 100 mg tablets
 6 
 4 
 8 
-5 </p>
-<p>Method of administration 
+5 
+Method of administration 
 For PKU patients, the total daily dose is taken once a day at the same time each day, preferably in the 
 morning.  </p>
 <p>For BH4 deficiency patients, the total daily dose is divided into 2 or 3 doses over the day. </p>

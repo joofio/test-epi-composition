@@ -4,7 +4,7 @@ Instance: composition-en-f8e8c83bf775a0a91c665d5fc646c400
 InstanceOf: CompositionUvEpi
 Title: "Composition for mircera Package Leaflet"
 Description:  "Composition for mircera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What MIRCERA is and what it is used for 
 2. What you need to know before you use MIRCERA 
 3. How to use MIRCERA 
 4. Possible side effects 
 5. How to store MIRCERA 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -135,8 +135,8 @@ and death.<br />
 that your MIRCERA treatment is not effective. Your doctor will check that you do not have 
 other causes of anaemia and may perform blood tests or examine your bone marrow. If you 
 have developed PRCA, your MIRCERA treatment will be discontinued. You will not receive 
-another ESA and your doctor will treat you for this condition. </p>
-<p>Children and adolescents 
+another ESA and your doctor will treat you for this condition. 
+Children and adolescents 
 MIRCERA can be used for the treatment of children and adolescents, 3 months of age to less than years, with anaemia associated with chronic kidney disease. They should be stabilised on ESA 
 maintenance treatment prior to switching to MIRCERA and may or may not be receiving dialysis. 
 Talk to your doctor, pharmacist or nurse before you are given this medicine if you, or your child, are 
@@ -182,8 +182,8 @@ This medicine contains less than 1 mmol sodium (23 mg) per ml, that is to say it
 you are not sure.  </p>
 <p>Your doctor will use the lowest effective dose to control the symptoms of your anaemia. </p>
 <p>If you do not respond adequately to MIRCERA, your doctor will check your dose and will inform you 
-if you need to change doses of MIRCERA. </p>
-<p>Treatment with MIRCERA must be started under the supervision of a healthcare professional. 
+if you need to change doses of MIRCERA. 
+Treatment with MIRCERA must be started under the supervision of a healthcare professional. 
 Further injections can be given by a healthcare professional or, after you have been trained, as an 
 adult, you can inject MIRCERA yourself. Children and adolescents less than 18 years should not self-
 inject MIRCERA, the administration should be performed by a healthcare professional or trained adult 
@@ -261,14 +261,7 @@ Stevens-Johnson syndrome (SJS) and toxic epidermal necrolysis have been reported
 with epoetin treatment. These can appear as reddish target-like macules or circular patches often with 
 central blisters on the trunk, skin peeling, ulcers of mouth, throat, nose, genitals and eyes and can be 
 preceded by fever and flu-like symptoms. Stop using Mircera if you develop these symptoms and 
-contact your doctor or seek medical attention immediately, see also section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store mircera"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store mircera"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>As with other ESAs, cases of thrombosis, including pulmonary embolism, have been reported in the 
+contact your doctor or seek medical attention immediately, see also section 2. As with other ESAs, cases of thrombosis, including pulmonary embolism, have been reported in the 
 post-marketing setting. </p>
 <p>A condition called Pure Red Cell Aplasia (PRCA, stopped or reduced production of red blood cells) 
 due to anti-erythropoietin antibodies was observed in some patients treated with ESAs, including 
@@ -279,11 +272,10 @@ not listed in this leaflet.You can also report side effects directly via the nat
 in Appendix V*. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store mircera"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store mircera"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and pre-filled syringe 
@@ -300,4 +292,101 @@ injected. </p>
 <p>Do not throw away any medicines via wastewater or household waste. 
 Ask your pharmacist how to throw away medicines you no longer use. These measures will help 
 protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What MIRCERA contains </p>
+<ul>
+<li>The active substance is methoxy polyethylene glycol-epoetin beta. One pre-filled syringe 
+contains: </li>
+</ul>
+<p>30, 40, 50, 60, 75, 100, 120, 150, 200 or 250  micrograms in 0.3 ml and 360 micrograms in 
+0.6 ml.<br />
+* The other ingredients are sodium dihydrogen phosphate monohydrate, sodium sulphate, 
+mannitol (E421), methionine, poloxamer 188 and water for injections. </p>
+<p>What MIRCERA looks like and contents of the pack 
+MIRCERA is a solution for injection in pre-filled syringe. 
+The solution is clear, colourless to slightly yellowish and free of visible particles. </p>
+<p>MIRCERA comes in pre-filled syringes with laminated plunger stopper and tip cap with one needle 
+27G1/2. Each pre-filled syringe contains 0.3 ml or 0.6 ml. Pre-filled syringes are not designed for 
+administration of partial doses. MIRCERA is available, for all strengths, in pack sizes of 1 and also 
+packsize of 3 for the strengths 30, 50, 75 micrograms/0.3ml.  Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Manufacturer 
+Roche Pharma AG 
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>For any information about this medicinal product, please contact the local representative of the 
+Marketing Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546  </p>
+<p>: +359 2 474 5Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) 
+ esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36   1 279 4Danmark 
+Roche Pharmaceuticals A/S<br />
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland) 
+Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O<br />
+Tel: + 372 - 6 177 Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 France 
+Roche 
+T l: +33 (0) 1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o. 
+Tel: +385 1 4722 Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371   6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

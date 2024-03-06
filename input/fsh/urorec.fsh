@@ -4,7 +4,7 @@ Instance: composition-en-152ace144461681a6f02306435b8f1dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for urorec Package Leaflet"
 Description:  "Composition for urorec Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Urorec is and what it is used for 
-2. What you need to know before you take Urorec 
-3. How to take Urorec 
-4. Possible side effects 
-5. How to store Urorec 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Urorec is and what it is used for </li>
+<li>What you need to know before you take Urorec </li>
+<li>How to take Urorec </li>
+<li>Possible side effects </li>
+<li>How to store Urorec </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -291,92 +291,65 @@ France </p>
 Authorisation Holder:  </p>
 <p>Belgi /Belgique/Belgien 
 Recordati Ireland Ltd. 
-T l/Tel: + 353 21 4379 
-Lietuva 
+T l/Tel: + 353 21 4379Lietuva 
 Recordati Polska sp. z o.o.<br />
-Tel: +48 22 206 84  </p>
-<p>Recordati Bulgaria Ltd. 
- .: + 359 2 829 39<br />
-Luxembourg/Luxemburg 
+Tel: +48 22 206 84 <br />
+Recordati Bulgaria Ltd. 
+ .: + 359 2 829 39 Luxembourg/Luxemburg 
 Recordati Ireland Ltd. 
-T l/Tel: + 353 21 4379 
- esk  republika 
+T l/Tel: + 353 21 4379 esk  republika 
 Herbacos Recordati s.r.o. 
-Tel: + 420 466 741<br />
-Magyarorsz g 
+Tel: + 420 466 741 Magyarorsz g 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Danmark 
+Tel: + 353 21 4379Danmark 
 Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 
-Malta 
+Tlf: + 353 21 4379Malta 
 Focused Pharma Ltd. 
-Tel: + 356 79426 
-Deutschland 
+Tel: + 356 79426Deutschland 
 Recordati Pharma GmbH 
-Tel: + 49 731 70 
-Nederland 
+Tel: + 49 731 70Nederland 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Eesti 
+Tel: + 353 21 4379Eesti 
 Recordati Polska sp. z o.o.<br />
-Tel: +48 22 206 84<br />
-Norge 
+Tel: +48 22 206 84 Norge 
 Recordati Ireland Ltd. 
-Tlf: + 353 21 4379 </p>
-<p>Recordati Hellas Pharmaceuticals A.E. 
- : + 30 210-6773 
- sterreich 
+Tlf: + 353 21 4379<br />
+Recordati Hellas Pharmaceuticals A.E. 
+ : + 30 210-6773 sterreich 
 Recordati Austria GmbH 
-Tel: + 43 676 353 0<br />
-Espa a 
+Tel: + 43 676 353 0 Espa a 
 Casen Recordati, S.L. 
-Tel: + 34 91 659 15<br />
-Polska 
+Tel: + 34 91 659 15 Polska 
 Recordati Polska sp. z o.o. 
-Tel: + 48 22 206 84<br />
-France 
+Tel: + 48 22 206 84 France 
 Laboratoires Bouchara-Recordati 
-T l: + 33 1 45 19 10<br />
-Portugal 
+T l: + 33 1 45 19 10 Portugal 
 Jaba Recordati, S.A. 
-Tel: + 351 21 432 95<br />
-Hrvatska 
+Tel: + 351 21 432 95 Hrvatska 
 PharmaSwiss d.o.o. 
-Tel: +385 1 63 11<br />
-Rom nia 
+Tel: +385 1 63 11 Rom nia 
 Recordati Rom nia S.R.L. 
-Tel: + 40 21 667 17<br />
-Ireland 
+Tel: + 40 21 667 17 Ireland 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Slovenija 
+Tel: + 353 21 4379Slovenija 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
- sland 
+Tel: + 353 21 4379 sland 
 Recordati Ireland Ltd. 
-S mi: + 353 21 4379 
-Slovensk  republika 
+S mi: + 353 21 4379Slovensk  republika 
 Herbacos Recordati s.r.o. 
-Tel: + 420 466 741<br />
-Italia 
+Tel: + 420 466 741 Italia 
 Recordati Industria Chimica e Farmaceutica S.p.A. 
-Tel: + 39 02 487 
-Suomi/Finland 
+Tel: + 39 02 487Suomi/Finland 
 SwanMedica Oy<br />
 Puh/Tel: +358 17 3690<br />
 G.C. Papaloisou Ltd. 
- : + 357 22 49 03<br />
-Sverige 
+ : + 357 22 49 03 Sverige 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 
-Latvija 
+Tel: + 353 21 4379Latvija 
 Recordati Polska sp. z o.o.<br />
-Tel: +48 22 206 84<br />
-United Kingdom (Northern Ireland) 
+Tel: +48 22 206 84 United Kingdom (Northern Ireland) 
 Recordati Ireland Ltd. 
-Tel: + 353 21 4379 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: + 353 21 4379This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-ce47e28e6dc466e32ff754112a937d33
 InstanceOf: CompositionUvEpi
 Title: "Composition for ruxience Package Leaflet"
 Description:  "Composition for ruxience Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Ruxience is and what it is used for 
 2. What you need to know before you use Ruxience 
 3. How to use Ruxience 
 4. Possible side effects 
 5. How to store Ruxience 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -248,8 +247,8 @@ may be started at any time by your doctor to treat your condition. </p>
 <p>If you are 18 years of age and older and respond well to treatment, you may be given Ruxience as a 
 maintenance treatment. This will be administered as 2 separate infusions which are given 2 weeks 
 apart, followed by 1 infusion every 6 months for at least 2 years. Your doctor may decide to treat you 
-longer with Ruxience (up to 5 years), depending on how you respond to the medicine.  </p>
-<p>e) 
+longer with Ruxience (up to 5 years), depending on how you respond to the medicine.<br />
+e) 
 If you are being treated for pemphigus vulgaris<br />
 Each course of treatment is made up of two separate infusions which are given 2 weeks apart. If you 
 respond well to treatment, you may be given Ruxience as a maintenance treatment. This will be 
@@ -301,8 +300,8 @@ experience any of these symptoms. </p>
 <p>Other side effects include: 
 a) 
 If you or your child are being treated for non-Hodgkin s lymphoma or chronic 
-lymphocytic leukaemia </p>
-<p>Very common side effects (may affect more than 1 in 10 people): 
+lymphocytic leukaemia 
+Very common side effects (may affect more than 1 in 10 people): 
 * bacterial or viral infections, bronchitis 
 * low number of white blood cells, with or without fever or blood cells called  platelets<br />
 * feeling sick (nausea) 
@@ -520,8 +519,7 @@ concentrate for solution for infusion [sterile concentrate].<br />
 50 mL vial   Pack of 1 vial  </p>
 <p>Marketing Authorisation Holder </p>
 <p>Pfizer Europe MA EEIG<br />
-Boulevard de la Plaine 17<br />
-1050 Bruxelles<br />
+Boulevard de la Plaine 1050 Bruxelles<br />
 Belgium </p>
 <p>Manufacturer </p>
 <p>Pfizer Manufacturing Belgium NV 
@@ -532,93 +530,66 @@ Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-T l/Tel: +32 (0)2 554 62<br />
-K<br />
+T l/Tel: +32 (0)2 554 62 K<br />
 Pfizer E  A.E. (Cyprus Branch) 
-T : +357 22817 
- esk  republika 
+T : +357 22817 esk  republika 
 Pfizer, spol. s r.o. 
-Tel: +420 283 004<br />
-Magyarorsz g 
+Tel: +420 283 004 Magyarorsz g 
 Pfizer Kft. 
-Tel.: + 36 1 488 37<br />
-Danmark 
+Tel.: + 36 1 488 37 Danmark 
 Pfizer ApS 
-Tlf: +45 44 20 11<br />
-Malta 
+Tlf: +45 44 20 11 Malta 
 Vivian Corporation Ltd.<br />
-Tel: +356 21344 
-Deutschland 
+Tel: +356 21344Deutschland 
 PFIZER PHARMA GmbH 
-Tel: +49 (0)30 550055-51 
-Nederland 
+Tel: +49 (0)30 550055-51Nederland 
 Pfizer bv 
-Tel: +31 (0)800 63 34  </p>
-<pre><code> ,
-</code></pre>
-<p>Te .: +359 2 970 4 
-Norge 
+Tel: +31 (0)800 63 34 <br />
+     , </p>
+<p>Te .: +359 2 970 4Norge 
 Pfizer AS 
-Tlf: +47 67 52 61<br />
-Eesti 
+Tlf: +47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel: +372 666 7 
- sterreich 
+Tel: +372 666 7 sterreich 
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>Pfizer E  A.E. 
- : +30 210 6785 
-Polska 
+ : +30 210 6785Polska 
 Pfizer Polska Sp. z o.o. 
-Tel.: +48 22 335 61<br />
-Espa a 
+Tel.: +48 22 335 61 Espa a 
 Pfizer, S.L. 
-Tel: +34 91 490 99<br />
-Portugal 
+Tel: +34 91 490 99 Portugal 
 Laborat rios Pfizer, Lda. 
 Tel: +351 21 423 5France 
 Pfizer<br />
-T l: +33 (0)1 58 07 34<br />
-Rom nia 
+T l: +33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L. 
-Tel: +40 (0) 21 207 28<br />
-Hrvatska 
+Tel: +40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
-Tel: +385 1 3908<br />
-Slovenija 
+Tel: +385 1 3908 Slovenija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel: +386 (0)1 52 11<br />
-Ireland 
+Tel: +386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: +1800 633 363 (toll free) 
-Tel: +44 (0)1304 616 
-Slovensk  republika 
+Tel: +44 (0)1304 616Slovensk  republika 
 Pfizer Luxembourg SARL, organiza n  zlo ka 
-Tel: + 421 2 3355 5 
- sland 
+Tel: + 421 2 3355 5 sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Suomi/Finland 
+S mi: +354 540 8Suomi/Finland 
 Pfizer Oy 
-Puh/Tel: +358 (0)9 430<br />
-Italia 
+Puh/Tel: +358 (0)9 430 Italia 
 Pfizer S.r.l.<br />
-Tel: +39 06 33 18<br />
-Sverige 
+Tel: +39 06 33 18 Sverige 
 Pfizer AB 
-Tel: +46 (0)8 550 520<br />
-Latvija 
+Tel: +46 (0)8 550 520 Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel: + 371 670 35<br />
-United Kingdom (Northern Ireland) 
+Tel: + 371 670 35 United Kingdom (Northern Ireland) 
 Pfizer Limited 
-Tel: +44 (0)1304 616 
-Lietuva 
+Tel: +44 (0)1304 616Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: +370 5 251 4 </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}&gt;&lt;{month YYYY}</em>. </p>
+Tel: +370 5 251 4This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

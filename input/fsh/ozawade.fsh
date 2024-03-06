@@ -4,7 +4,7 @@ Instance: composition-en-531eb8ae17db2e55096165b0d4052b52
 InstanceOf: CompositionUvEpi
 Title: "Composition for ozawade Package Leaflet"
 Description:  "Composition for ozawade Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ozawade is and what it is used for 
-2. What you need to know before you take Ozawade 
-3. How to take Ozawade 
-4. Possible side effects 
-5. How to store Ozawade 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ozawade is and what it is used for </li>
+<li>What you need to know before you take Ozawade </li>
+<li>How to take Ozawade </li>
+<li>Possible side effects </li>
+<li>How to store Ozawade </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,8 +99,7 @@ may build up in patients whose liver function is severely reduced. </li>
 <li>You have ever had anxiety or depression with suicidal thoughts. </li>
 <li>You have liver problems, as your dose may need to be adjusted. </li>
 <li>You have a gastric ulcer or you take medicines that can irritate your stomach such as medicines 
-to reduce inflammation, since gastric reactions can occur with Ozawade. 
-29   </li>
+to reduce inflammation, since gastric reactions can occur with Ozawade. </li>
 <li>You are very overweight or underweight, as your weight may increase or decrease while you 
 are taking Ozawade. </li>
 <li>You have heart problems. Your doctor will need to check this regularly while you are taking 
@@ -149,7 +148,6 @@ ask your doctor or pharmacist for advice before taking this medicine. </p>
 <p>Pregnancy </p>
 <p>You should not take Ozawade during pregnancy unless you and your doctor decide that you need to 
 take it. There is not enough information on the risk of taking Ozawade during pregnancy. If you are a 
-30 <br />
 woman, you have to use effective birth control during your treatment with Ozawade and for at least days after stopping treatment. As Ozawade may reduce the effectiveness of a hormonal contraceptive 
 (birth control medicine), an alternative method of effective contraception has to be used. </p>
 <p>Breast-feeding </p>
@@ -189,8 +187,7 @@ make up for the forgotten one. </p>
 <p>If you stop taking Ozawade </p>
 <p>You should continue to take Ozawade for as long as instructed by your doctor. Do not stop taking 
 Ozawade suddenly on your own. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>
-<p>31   </p>         </div>"""         
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
 
         
 * section[=].section[+]
@@ -252,8 +249,7 @@ of this medicine. </p>         </div>"""
 <p>Do not use this medicine after the expiry date which is stated on the carton after EXP. The expiry date 
 refers to the last day of that month. </p>
 <p>This medicine does not require any special storage conditions. </p>
-<p>32 <br />
-Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         
@@ -269,5 +265,127 @@ Each tablet contains pitolisant hydrochloride, equivalent to 4.45 mg of pitolisa
 <p>Ozawade 18 mg tablet 
 Each tablet contains pitolisant hydrochloride, equivalent to 17.8 mg of pitolisant. </p>
 <p>The other ingredients are microcrystalline cellulose, crospovidone, talc, magnesium stearate, colloidal 
-anhydrous silica, poly(vinyl alcohol), titanium dioxide, macrogol 335</p>         </div>"""      
+anhydrous silica, poly(vinyl alcohol), titanium dioxide, macrogol 3350. What Ozawade looks like and contents of the pack </p>
+<p>Ozawade 4.5 mg comes in a white, round, film-coated tablet of 3.7 mm, biconvex marked with  5  on 
+one side. 
+Ozawade 18 mg comes in a white, round, film-coated tablet of 7.5 mm, biconvex marked with  20  on 
+one side. </p>
+<p>Ozawade is available in a bottle of 30 tablets or 90 tablets. 
+Ozawade 4.5 mg: Available in packs containing 1 bottle of 30 tablets or packs containing 1 bottle of 
+90 tablets. 
+Ozawade 18 mg: Available in packs containing 1 bottle of 30 tablets or packs containing 1 bottle of tablets. 
+Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Bioprojet Pharma 
+9, rue Rameau 
+75002 Paris 
+France </p>
+<p>Manufacturer </p>
+<p>Ozawade 18 mg 
+Inpharmasci 
+ZI N 2 de Prouvy-Rouvignies 
+1 rue Nungesser 
+59121 Prouvy 
+France </p>
+<p>Ozawade 4.5 mg 
+Patheon 
+40 Boulevard de Champaret 
+38300 Bourgoin-Jallieu 
+France </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: 
+Belgi /Belgique/Belgien 
+Bioprojet Benelux 
+0032(0)78050info@bioprojet.be 
+Lietuva 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com  </p>
+<p>Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com </p>
+<p>Luxembourg/Luxemburg 
+Bioprojet Benelux 
+0032(0)78050info@bioprojet.be </p>
+<p>esk  republika 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com 
+Magyarorsz g 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com 
+Danmark 
+Zambon Sweden, filial of Zambon Nederland 
+B.V. 
++46 (0)10 33 50 contact@zambongroup.com </p>
+<p>Malta 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com </p>
+<p>Deutschland 
+Bioprojet Deutschland GmbH 
+030/3465 5460-0 
+info@bioprojet.de </p>
+<p>Nederland 
+Bioprojet Benelux N.V. 
+088 34 34 info@bioprojet.nl 
+Eesti 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com 
+Norge 
+Zambon Sweden, filial of Zambon Nederland 
+B.V. 
++46 (0)10 33 50 contact@zambongroup.com </p>
+<p>Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com 
+ sterreich 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com  </p>
+<p>Espa a 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com 
+Polska 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com  </p>
+<p>France 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com 
+Portugal 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com </p>
+<p>Hrvatska 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com </p>
+<p>Ireland 
+Bioprojet Pharma 
+Rom nia 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com </p>
+<p>Slovenija 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com 
+0033 (0)1 47 03 66 contact@bioprojet.com </p>
+<p>sland 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com 
+Slovensk  republika 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com  </p>
+<p>Italia 
+Bioprojet Italia srl 
++39 02 84254info@bioprojet.it.it 
+Suomi/Finland 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com  </p>
+<p>Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com </p>
+<p>Sverige 
+Zambon Sweden, filial of Zambon Nederland 
+B.V. 
++46 (0)10 33 50 contact@zambongroup.com </p>
+<p>Latvija 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com </p>
+<p>United Kingdom (Northern Ireland) 
+Bioprojet Pharma 
+0033 (0)1 47 03 66 contact@bioprojet.com </p>
+<p>This leaflet was last revised in </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:   </p>         </div>"""      
 

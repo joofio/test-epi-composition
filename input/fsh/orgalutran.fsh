@@ -4,7 +4,7 @@ Instance: composition-en-cb749713573713170146b8dc947ab1a6
 InstanceOf: CompositionUvEpi
 Title: "Composition for orgalutran Package Leaflet"
 Description:  "Composition for orgalutran Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Orgalutran is and what it is used for 
-2. What you need to know before you use Orgalutran 
-3. How to use Orgalutran 
-4. Possible side effects 
-5. How to store Orgalutran 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Orgalutran is and what it is used for </li>
+<li>What you need to know before you use Orgalutran </li>
+<li>How to use Orgalutran </li>
+<li>Possible side effects </li>
+<li>How to store Orgalutran </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -337,8 +337,7 @@ Organon Polska Sp. z o.o.
 Tel.: +48 22 105 50 organonpolska@organon.com </p>
 <p>France 
 Organon France 
-T l: +33 (0) 1 57 77 32<br />
-Portugal 
+T l: +33 (0) 1 57 77 32 Portugal 
 Organon Portugal, Sociedade Unipessoal Lda. 
 Tel: +351 218705geral_pt@organon.com </p>
 <p>Hrvatska 
@@ -355,8 +354,7 @@ Organon Pharma B.V., Oss, podru nica Ljubljana
 Tel: +386 1 300 10 dpoc.slovenia@organon.com </p>
 <p>sland 
 Vistor hf. 
-S mi: + 354 535 7 
-Slovensk  republika 
+S mi: + 354 535 7Slovensk  republika 
 Organon Slovakia s. r. o. 
 Tel: +421 2 44 88 98 dpoc.slovakia@organon.com </p>
 <p>Italia 

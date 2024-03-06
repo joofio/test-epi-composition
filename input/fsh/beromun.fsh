@@ -4,7 +4,7 @@ Instance: composition-en-a321c1bbb3d0ca5c622bbbc9c0607a43
 InstanceOf: CompositionUvEpi
 Title: "Composition for beromun Package Leaflet"
 Description:  "Composition for beromun Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Beromun is and what it is used for 
 2. What you need to know before you use Beromun 
 3. How to use Beromun 
 4. Possible side effects 
 5. How to store Beromun 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]

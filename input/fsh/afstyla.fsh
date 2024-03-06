@@ -4,7 +4,7 @@ Instance: composition-en-c832a88299d92f8a87ef0072aef518b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for afstyla Package Leaflet"
 Description:  "Composition for afstyla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet:  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet:<br />
 1. What AFSTYLA is and what it is used for 
 2. What you need to know before you or your child use AFSTYLA 
 3. How to use AFSTYLA 
 4. Possible side effects 
 5. How to store AFSTYLA 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -140,8 +140,8 @@ The amount of AFSTYLA you or your child need to take and the duration of treatme
 * the site and intensity of the bleeding 
 * your clinical condition and response 
 * your body weight </p>
-<p>Follow the directions given to you by your doctor. </p>
-<p>Reconstitution and administration </p>
+<p>Follow the directions given to you by your doctor. 
+Reconstitution and administration </p>
 <p>General instructions 
 * The powder must be mixed with the solvent (liquid) and withdrawn from the vial under aseptic 
 conditions. 
@@ -213,8 +213,8 @@ the vein following the instructions given to you by your doctor. Take care not t
 syringe containing the product.  </p>
 <p>Check yourself for any side effects that might happen straight away. If you have any side effects that 
 might be related to the administration of AFSTYLA, the injection should be stopped (see also section 
-2). </p>
-<p>Use in children and adolescents 
+2). 
+Use in children and adolescents 
 AFSTYLA can be used in children and adolescents of all ages. In children below the age of 12 higher 
 doses or more frequent injections may be needed. Children above 12 years of age can use the same 
 dose as adults. </p>
@@ -361,85 +361,63 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 CSL Behring NV 
-T l/Tel: +32 15 28 89<br />
-Luxembourg/Luxemburg 
+T l/Tel: +32 15 28 89 Luxembourg/Luxemburg 
 CSL Behring NV 
-T l/Tel: +32 15 28 89  </p>
+T l/Tel: +32 15 28 89   </p>
 <p>: +359 2 810 3Magyarorsz g 
 CSL Behring Kft. 
-Tel.: +36 1 213 4 
- esk  republika 
+Tel.: +36 1 213 4 esk  republika 
 Malta 
 CSL Behring s.r.o. 
-Tel: + 420 702 137<br />
-AM Mangion Ltd. 
-Tel: +356 2397 6 
-Danmark 
+Tel: + 420 702 137 AM Mangion Ltd. 
+Tel: +356 2397 6Danmark 
 CSL Behring AB 
-Tel: +46 8 544 966<br />
-Nederland 
+Tel: +46 8 544 966 Nederland 
 CSL Behring BV 
-Tel: + 31 85 111 96<br />
-Deutschland 
+Tel: + 31 85 111 96 Deutschland 
 CSL Behring GmbH 
-Tel: +49 69 30584 </p>
-<p>Eesti 
+Tel: +49 69 30584Eesti 
 CentralPharma Communications O <br />
-Tel: +3726015540<br />
-Norge 
+Tel: +3726015Norge 
 CSL Behring AB 
 Tlf: +46 8 544 966 <br />
 CSL Behring <br />
- : +30 210 7255<br />
- sterreich 
+ : +30 210 7255  sterreich 
 CSL Behring GmbH 
-Tel: +43 1 80101 2 
-Espa a 
+Tel: +43 1 80101 2Espa a 
 CSL Behring S.A. 
-Tel: +34 933 67 1 
-Polska 
+Tel: +34 933 67 1Polska 
 CSL Behring Sp.z o.o. 
-Tel: +48 22 213 22<br />
-France 
+Tel: +48 22 213 22 France 
 CSL Behring S.A. 
-T l: + 33  (0)-1 53 58 54<br />
-Portugal 
+T l: + 33  (0)-1 53 58 54 Portugal 
 CSL Behring Lda 
-Tel: +351 21 782 62<br />
-Hrvatska<br />
+Tel: +351 21 782 62 Hrvatska<br />
 Marti Farm d.o.o. 
-Tel: +385 1 5588 
-Rom nia 
+Tel: +385 1 5588Rom nia 
 Prisum Healthcare S.R.L. 
-Tel: +40 21 322 0 
-Ireland 
+Tel: +40 21 322 0Ireland 
 CSL Behring GmbH 
-Tel: +49 69 30517 
-Slovenija 
+Tel: +49 69 30517Slovenija 
 NEOX s.r.o.-podru nica v Sloveniji<br />
 Tel:+ 386 41 42 0 sland 
 CSL Behring AB 
-S mi: +46 8 544 966<br />
-Slovensk  republika 
+S mi: +46 8 544 966 Slovensk  republika 
 CSL Behring s.r.o. 
 Tel: +421 911 653 Italia 
 CSL Behring S.p.A. 
-Tel: +39 02 34964<br />
-Suomi/Finland 
+Tel: +39 02 34964 Suomi/Finland 
 CSL Behring AB 
-Puh/Tel: +46 8 544 966  </p>
-<p>CSL Behring <br />
- : +30 210 7255<br />
-Sverige 
+Puh/Tel: +46 8 544 966 <br />
+CSL Behring <br />
+ : +30 210 7255 Sverige 
 CSL Behring AB 
-Tel: +46 8 544 966<br />
-Latvija 
+Tel: +46 8 544 966 Latvija 
 CentralPharma Communications SIA<br />
 Tel: +371 6 7450United Kingdom (Northern Ireland) 
 CSL Behring GmbH 
 Tel: +49 69 305 17Lietuva 
 CentralPharma Communications UAB 
-Tel: +370 5 243 0 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +370 5 243 0This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

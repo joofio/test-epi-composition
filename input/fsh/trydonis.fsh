@@ -4,7 +4,7 @@ Instance: composition-en-8c380d27bbc2d53daf7f5dedc85cca7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for trydonis Package Leaflet"
 Description:  "Composition for trydonis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Trydonis is and what it is used for 
 2. What you need to know before you use Trydonis 
 3. How to use Trydonis 
 4. Possible side effects 
 5. How to store Trydonis 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -306,24 +305,9 @@ breathe out slowly. Do not breathe out into the inhaler. </li>
 (180 puffs) has rotated by a small amount. </li>
 </ol>
 <p>For the second puff, keep the inhaler in the upright position for about half a minute, then repeat steps 2 
-to </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you see 'mist' coming from the top of the inhaler or the sides of your mouth, this means that 
+to 5. If you see 'mist' coming from the top of the inhaler or the sides of your mouth, this means that 
 Trydonis will not be getting into your lungs as it should. Take another puff, following the instructions 
-starting again from step </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store trydonis"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store trydonis"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>After use, replace the protective cap. </p>
+starting again from step 2. After use, replace the protective cap. </p>
 <p>To prevent a fungal infection in the mouth and throat, rinse your mouth or gargle with water without 
 swallowing it or brush your teeth after each use of your inhaler. </p>
 <p>When to get a new inhaler 
@@ -356,13 +340,13 @@ missed, but just take the next dose at the correct time. Do not double the dose.
 <p>If you stop using Trydonis 
 It is important to use Trydonis every day. Do not stop using Trydonis or lower the dose, even if you are 
 feeling better or you have no symptoms. If you want to do this, talk to your doctor. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.  </p>
 <p>There is a risk of worsening shortness of breath and wheezing immediately after using Trydonis and 
@@ -485,4 +469,149 @@ If you get any side effects talk to your doctor or pharmacist. This includes any
 listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store trydonis"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store trydonis"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP. The 
+expiry date refers to the last day of that month.  </p>
+<p>Do not freeze.<br />
+Do not expose to temperatures higher than 50 C.<br />
+Do not pierce the pressurised container. </p>
+<p>Prior to dispensing: 
+Store in a refrigerator (2 C-8 C). </p>
+<p>After dispensing (receiving this medicine from your pharmacist): 
+60 actuation pressurised container:<br />
+Store the inhaler below 25 C for a maximum of 
+2 months.<br />
+120 (from a single or multipack) and<br />
+180 actuation pressurised container:<br />
+Store the inhaler below 25 C for a maximum of 
+4 months.  </p>
+<p>Do not throw away any medicine via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Trydonis contains 
+The active substances are: beclometasone dipropionate, formoterol fumarate dihydrate and 
+glycopyrronium. </p>
+<p>Each delivered dose (the dose leaving the mouthpiece) contains 87 micrograms of beclometasone 
+dipropionate, 5 micrograms of formoterol fumarate dihydrate and 9 micrograms of glycopyrronium (as 
+11 micrograms glycopyrronium bromide). </p>
+<p>Each metered dose (the dose leaving the valve) contains 100 micrograms of beclometasone 
+dipropionate, 6 micrograms of formoterol fumarate dihydrate and 10 micrograms of glycopyrronium 
+(as 12.5 micrograms of glycopyrronium bromide). </p>
+<p>The other ingredients are: ethanol anhydrous (see section 2), hydrochloric acid, propellant: norflurane. </p>
+<p>What Trydonis looks like and contents of the pack 
+Trydonis is a pressurised inhalation, solution. </p>
+<p>Trydonis comes in a pressurised container (coated aluminium), with a metering valve. The pressurised 
+container is inserted in a plastic inhaler. This incorporates a mouthpiece provided with a plastic 
+protective cap, and either a dose counter (containers with 60 and 120 puffs) or a dose indicator 
+(containers with 180 puffs). </p>
+<p>Each pack contains one pressurised container either providing 60 puffs, 120 puffs or 180 puffs. 
+Additional there are multipacks containing either 240 puffs (2 pressurised containers with 120 puffs, 
+each) or 360 puffs (3 pressurised containers with 120 puffs, each). </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Chiesi Farmaceutici S.p.A. 
+Via Palermo 26/A 
+43122 Parma 
+Italy </p>
+<p>Manufacturer 
+Chiesi Farmaceutici S.p.A. 
+Via San Leonardo 43122 Parma 
+Italy </p>
+<p>Chiesi SAS 
+2 rue des Docteurs Alberto et Paolo Chiesi 
+41260 La Chauss e Saint Victor 
+France </p>
+<p>Chiesi Pharmaceuticals GmbH 
+Gonzagagasse 16/1010 Wien<br />
+Austria </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Chiesi sa/nv 
+T l/Tel: + 32 (0)2 788 42 Lietuva 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073<br />
+Chiesi Bulgaria EOOD 
+Te .: + 359 29201Luxembourg/Luxemburg 
+Chiesi sa/nv 
+T l/Tel: + 32 (0)2 788 42  esk  republika 
+Chiesi CZ s.r.o. 
+Tel: + 420 261221Magyarorsz g 
+Chiesi Hungary Kft. 
+Tel.: + 36-1-429 1Danmark 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35 Malta 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2Deutschland 
+Chiesi GmbH 
+Tel: + 49 40 89724-0 </p>
+<p>Nederland 
+Chiesi Pharmaceuticals B.V. 
+Tel: + 31 88 501 64 Eesti 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073Norge 
+Chiesi Pharma AB 
+Tlf: + 46 8 753 35 <br />
+Chiesi Hellas AEBE 
+ : + 30 210 6179 sterreich 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073Espa a 
+Laboratorios BIAL, S.A. 
+Tel: + 34 91 562 41 Polska 
+Chiesi Poland Sp. z.o.o. 
+Tel.: + 48 22 620 1France 
+Chiesi S.A.S. 
+T l: + 33 1 47688Portugal 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2Hrvatska 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073Rom nia 
+Chiesi Romania S.R.L. 
+Tel: + 40 212023Ireland 
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2Slovenija 
+CHIESI SLOVENIJA, d.o.o. 
+Tel: + 386-1-43 00  sland 
+Chiesi Pharma AB 
+S mi: +46 8 753 35 Slovensk  republika 
+Chiesi Slovakia s.r.o. 
+Tel: + 421 259300Italia 
+Chiesi Italia S.p.A. 
+Tel: + 39 0521 2Suomi/Finland 
+Chiesi Pharma AB 
+Puh/Tel: +46 8 753 35 <br />
+Chiesi Farmaceutici S.p.A. 
+ : + 39 0521 2Sverige 
+Chiesi Pharma AB 
+Tel: +46 8 753 35 Latvija 
+Chiesi Pharmaceuticals GmbH 
+Tel: + 43 1 4073United Kingdom (Northern Ireland) 
+Chiesi Farmaceutici S.p.A. 
+Tel: + 39 0521 2This leaflet was last revised in . </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu.  </p>
+<p>Package leaflet: Information for the user </p>
+<p>Trydonis 88 micrograms/5 micrograms/9 micrograms inhalation powder 
+beclometasone dipropionate/formoterol fumarate dihydrate/glycopyrronium </p>
+<p>Read all of this leaflet carefully before you start using this medicine because it contains 
+important information for you. 
+- Keep this leaflet. You may need to read it again. 
+- If you have any further questions, ask your doctor or pharmacist. 
+- This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. 
+- If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
+effects not listed in this leaflet. See section 4.</p>         </div>"""      
 

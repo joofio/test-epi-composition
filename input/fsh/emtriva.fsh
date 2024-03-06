@@ -4,7 +4,7 @@ Instance: composition-en-3aba64fb4580bb12883e3dc4b001f74a
 InstanceOf: CompositionUvEpi
 Title: "Composition for emtriva Package Leaflet"
 Description:  "Composition for emtriva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Emtriva is and what it is used for 
-2. What you need to know before you take Emtriva 
-3. How to take Emtriva 
-4. Possible side effects 
-5. How to store Emtriva 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Emtriva is and what it is used for </li>
+<li>What you need to know before you take Emtriva </li>
+<li>How to take Emtriva </li>
+<li>Possible side effects </li>
+<li>How to store Emtriva </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -97,12 +97,10 @@ section 6). </li>
 <p>If this applies to you, tell your doctor immediately. </p>
 <p>Warnings and precautions </p>
 <ul>
-<li>
-<p>Tell your doctor if you have had kidney disease, or if tests have shown problems with your 
+<li>Tell your doctor if you have had kidney disease, or if tests have shown problems with your 
 kidneys.  Before starting treatment, your doctor may order blood tests to assess kidney function 
 and may advise you to take the capsules less often or prescribe Emtriva oral solution.  Your 
-doctor may also order blood tests during treatment to monitor your kidneys. </p>
-</li>
+doctor may also order blood tests during treatment to monitor your kidneys. </li>
 <li>
 <p>Talk to your doctor if you are over 65.  Emtriva has not been studied in patients over 65 years 
 of age.  If you are older than this and are prescribed Emtriva, your doctor will monitor you 
@@ -154,8 +152,8 @@ your doctor or pharmacist for advice before taking this medicine. </p>
 <p>If you have taken Emtriva during your pregnancy, your doctor may request regular blood tests and 
 other diagnostic tests to monitor the development of your child.  In children whose mothers took 
 NRTIs during pregnancy, the benefit from the protection against HIV outweighed the risk of side 
-effects. </p>
-<p>Do not breast-feed if you are taking Emtriva.  This is because the active substance in this medicine 
+effects. 
+Do not breast-feed if you are taking Emtriva.  This is because the active substance in this medicine 
 passes into human breast milk.   </p>
 <p>Breast-feeding is not recommended in women living with HIV because HIV infection can be passed 
 on to the baby in breast milk. </p>
@@ -208,8 +206,8 @@ department for advice.  Keep the carton with you so that you can easily describe
 can, and then take your next dose at its regular time. </p>
 <p>If it is almost time (less than 12 hours) for your next dose anyway, forget about the missed dose.<br />
 Wait and take the next dose at the regular time.  Do not take a double dose to make up for a forgotten 
-hard capsule. </p>
-<p>If you are sick (vomit) </p>
+hard capsule. 
+If you are sick (vomit) </p>
 <p>If it s less than an hour since you took Emtriva, take another capsule.  You do not need to take 
 another capsule if you were sick more than an hour after taking Emtriva. </p>
 <p>If you stop taking Emtriva </p>
@@ -260,8 +258,8 @@ in patches
 * low white blood cell count (a reduced white blood cell count can make you more prone to 
 infection) 
 * increased triglycerides (fatty acids), bile or sugar in the blood 
-* liver and pancreas problems </p>
-<p>The following side effects are uncommon (these can affect up to 1 in every 100 patients): 
+* liver and pancreas problems 
+The following side effects are uncommon (these can affect up to 1 in every 100 patients): 
 * anaemia (low red blood cell count) 
 * swelling of the face, lips, tongue or throat </p>
 <p>Other possible effects </p>
@@ -312,8 +310,8 @@ with  200 mg  on the cap and  GILEAD  and [Gilead logo] on the body in black ink
 in bottles or blister packs containing 30 capsules. </p>
 <p>Emtriva is also available as an oral solution for use in children and infants aged 4 months and over, 
 patients who have difficulty in swallowing and patients with kidney problems.  There is a separate 
-Package Leaflet for Emtriva 10 mg/mL oral solution. </p>
-<p>Marketing Authorisation Holder </p>
+Package Leaflet for Emtriva 10 mg/mL oral solution. 
+Marketing Authorisation Holder </p>
 <p>Gilead Sciences Ireland UC 
 Carrigtohill 
 County Cork, T45 DPIreland </p>
@@ -327,91 +325,65 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-T l/Tel: + 32 (0) 24 01 35<br />
-Lietuva 
+T l/Tel: + 32 (0) 24 01 35 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 </p>
-<p>Gilead Sciences Ireland UC 
- .: + 353 (0) 1 686 1 
-Luxembourg/Luxemburg 
+Tel: + 353 (0) 1 686 1<br />
+Gilead Sciences Ireland UC 
+ .: + 353 (0) 1 686 1Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-T l/Tel: + 32 (0) 24 01 35<br />
- esk  republika 
+T l/Tel: + 32 (0) 24 01 35  esk  republika 
 Gilead Sciences s.r.o. 
-Tel: + 420 910 871<br />
-Magyarorsz g 
+Tel: + 420 910 871 Magyarorsz g 
 Gilead Sciences Ireland UC 
-Tel.: + 353 (0) 1 686 1 
-Danmark 
+Tel.: + 353 (0) 1 686 1Danmark 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Malta 
+Tlf: + 46 (0) 8 5057 1Malta 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Deutschland 
+Tel: + 353 (0) 1 686 1Deutschland 
 Gilead Sciences GmbH 
 Tel: + 49 (0) 89 899890-0 </p>
 <p>Nederland 
 Gilead Sciences Netherlands B.V. 
-Tel: + 31 (0) 20 718 36<br />
-Eesti 
+Tel: + 31 (0) 20 718 36 Eesti 
 Gilead Sciences Ireland UC. 
-Tel: + 353 (0) 1 686 1 
-Norge 
+Tel: + 353 (0) 1 686 1Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 </p>
-<p>Gilead Sciences    . . 
- : + 30 210 8930<br />
- sterreich 
+Tlf: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930  sterreich 
 Gilead Sciences GesmbH 
-Tel: + 43 1 260<br />
-Espa a 
+Tel: + 43 1 260 Espa a 
 Gilead Sciences, S.L. 
-Tel: + 34 91 378 98<br />
-Polska 
+Tel: + 34 91 378 98 Polska 
 Gilead Sciences Poland Sp. z o.o. 
-Tel.: + 48 22 262 8 
-France 
+Tel.: + 48 22 262 8France 
 Gilead Sciences 
-T l: + 33 (0) 1 46 09 41<br />
-Portugal 
+T l: + 33 (0) 1 46 09 41 Portugal 
 Gilead Sciences, Lda. 
-Tel: + 351 21 7928 
-Hrvatska 
+Tel: + 351 21 7928Hrvatska 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Rom nia 
+Tel: + 353 (0) 1 686 1Rom nia 
 Gilead Sciences (GSR) S.R.L. 
-Tel: + 40 31 631 18<br />
-Ireland 
+Tel: + 40 31 631 18 Ireland 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 214 825<br />
-Slovenija 
+Tel: + 353 (0) 214 825 Slovenija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
- sland 
+Tel: + 353 (0) 1 686 1 sland 
 Gilead Sciences Sweden AB 
-S mi: + 46 (0) 8 5057 1 
-Slovensk  republika 
+S mi: + 46 (0) 8 5057 1Slovensk  republika 
 Gilead Sciences Slovakia s.r.o. 
-Tel: + 421 232 121<br />
-Italia 
+Tel: + 421 232 121 Italia 
 Gilead Sciences S.r.l. 
-Tel: + 39 02 439 
-Suomi/Finland 
+Tel: + 39 02 439Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 </p>
-<p>Gilead Sciences    . . 
- : + 30 210 8930<br />
-Sverige 
+Puh/Tel: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930 Sverige 
 Gilead Sciences Sweden AB 
-Tel: + 46 (0) 8 5057 1 
-Latvija 
+Tel: + 46 (0) 8 5057 1Latvija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-United Kingdom (Northern Ireland) 
+Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
-Tel: + 44 (0) 8000 113  </p>
-<p>This leaflet was last revised in . </p>
+Tel: + 44 (0) 8000 113 This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

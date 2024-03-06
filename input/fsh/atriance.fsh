@@ -4,7 +4,7 @@ Instance: composition-en-a02a33fb6a7ba9862e8f1f45d0ac3e13
 InstanceOf: CompositionUvEpi
 Title: "Composition for atriance Package Leaflet"
 Description:  "Composition for atriance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Atriance is and what it is used for 
-2. What you need to know before you are given Atriance 
-3. How Atriance is given 
-4. Possible side effects 
-5. How to store Atriance 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Atriance is and what it is used for </li>
+<li>What you need to know before you are given Atriance </li>
+<li>How Atriance is given </li>
+<li>Possible side effects </li>
+<li>How to store Atriance </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -298,19 +299,17 @@ Authorisation Holder: </p>
 Sandoz N.V. 
 Telecom Gardens 
 Medialaan B-1800 Vilvoorde 
-T l/Tel: +32 (0)2 722 97<br />
-Lietuva 
+T l/Tel: +32 (0)2 722 97 Lietuva 
 Sandoz Pharmaceuticals d.d 
 Branch Office Lithuania 
 Seimyniskiu 3A 
 LT   09312 Vilnius 
-Tel: +370 5 2636  </p>
+Tel: +370 5 2636   </p>
 <p>Te .: +359 2 970 47 Luxembourg/Luxemburg 
 Sandoz N.V. 
 Telecom Gardens 
 Medialaan B-1800 Vilvoorde 
-T l/Tel: +32 (0)2 722 97<br />
- esk  republika 
+T l/Tel: +32 (0)2 722 97  esk  republika 
 Sandoz s.r.o. 
 Na Pankr ci 1724/CZ-140 00, Praha 4 
 Tel: +420 225 775 office.cz@ sandoz.com </p>
@@ -326,8 +325,7 @@ Tlf: +45 6395 1info.danmark@sandoz.com </p>
 Sandoz Pharmaceuticals d.d. 
 Verovskova SI-1000 Ljubljana 
 Slovenia 
-Tel: +356 21222 
-Deutschland 
+Tel: +356 21222Deutschland 
 Hexal AG 
 Industriestr. D-83607 Holzkirchen 
 Tel: +49 8024 908-0 
@@ -339,8 +337,7 @@ Tel: +31 (0)36 5241info.sandoz-nl@sandoz.com </p>
 <p>Eesti 
 Sandoz d.d. Eesti filiaal 
 P rnu mnt EE   11312 Tallinn 
-Tel: +372 6652 
-Norge 
+Tel: +372 6652Norge 
 Sandoz A/S 
 Edvard Thomsens Vej DK-2300 K benhavn S 
 Danmark 
@@ -356,8 +353,7 @@ Bexal Farmac utica, S.A.
 Centro Empresarial Parque Norte 
 Edificio Roble 
 C/ Serrano Galvache, 28033 Madrid 
-Tel: +34 900 456<br />
-Polska 
+Tel: +34 900 456 Polska 
 Sandoz Polska Sp. z o.o. 
 ul. Domaniewska 50 C 
 02 672 Warszawa 
@@ -366,8 +362,7 @@ Tel.: +48 22 209 7maintenance.pl@sandoz.com </p>
 Sandoz SAS 
 49, avenue Georges Pompidou 
 F-92300 Levallois-Perret 
-T l: +33 1 49 64 48<br />
-Portugal 
+T l: +33 1 49 64 48 Portugal 
 Sandoz Farmac utica Lda. 
 Avenida Professor Doutor Cavaco Silva, n. 10E 
 Taguspark 
@@ -381,8 +376,7 @@ Tel : +385 1 235 3upit.croatia@sandoz.com </p>
 Sandoz S.R.L. 
 Strada Livezeni Nr. 7a 
 540472 T rgu Mure<br />
-Tel: +40 21 407 51<br />
-Ireland 
+Tel: +40 21 407 51 Ireland 
 Sandoz Pharmaceuticals d.d. 
 Verov kova ulica 1000 Ljubljana 
 Slovenia 
@@ -413,8 +407,7 @@ Tanska
 Puh: + 358 010 6133 info.suomi@sandoz.com </p>
 <p>Sandoz Pharmaceuticals d.d. 
 Verovskova SI-1000 Ljubljana </p>
-<p>: +357 22 69 0 
-Sverige 
+<p>: +357 22 69 0Sverige 
 Sandoz A/S 
 Edvard Thomsens Vej DK-2300 K penhamn S 
 Danmark 
@@ -422,13 +415,11 @@ Tel: +45 6395 1info.sverige@sandoz.com </p>
 <p>Latvija 
 Sandoz d.d. Latvia fili le 
 K.Valdem ra 33   LV-1010 R ga 
-Tel: +371 67892 
-United Kingdom (Northern Ireland) 
+Tel: +371 67892United Kingdom (Northern Ireland) 
 Sandoz Pharmaceuticals d.d. 
 Verovskova SI-1000 Ljubljana 
 Slovenia 
-Tel: +43 5338 2 </p>
-<p>This leaflet was last approved in </p>
+Tel: +43 5338 2This leaflet was last approved in </p>
 <p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on the medicine every year and 

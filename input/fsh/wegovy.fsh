@@ -4,7 +4,7 @@ Instance: composition-en-0234c86891baf768298474181745e97d
 InstanceOf: CompositionUvEpi
 Title: "Composition for wegovy Package Leaflet"
 Description:  "Composition for wegovy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Wegovy is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Wegovy is and what it is used for<br />
 2. What you need to know before you use Wegovy 
-3. How to use Wegovy  
-4. Possible side effects  
+3. How to use Wegovy<br />
+4. Possible side effects<br />
 5. How to store Wegovy 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -86,8 +85,8 @@ blood vessel problems). </p>
 <p>Wegovy is used together with diet and physical activity for weight management in adolescents ages 
 12 years and above, who have 
 * obesity and 
-* body weight &gt;60 kg. </p>
-<p>As an adolescent patient, you should only continue using Wegovy if you have lost at least 5% of your 
+* body weight &gt;60 kg. 
+As an adolescent patient, you should only continue using Wegovy if you have lost at least 5% of your 
 BMI after 12 weeks on the 2.4 mg dose or maximum tolerated dose (see section 3). Consult your 
 doctor before you continue. </p>         </div>"""   
           
@@ -148,12 +147,12 @@ blood sugar. </p>
 If you have diabetic eye disease and are using insulin, this medicine may lead to a worsening of 
 your vision, and this may require treatment. Fast improvements in blood sugar control may lead 
 to a temporary worsening of diabetic eye disease. If you have diabetic eye disease and 
-experience eye problems while taking this medicine, talk to your doctor. </p>
-</li>
-</ul>
-<p>Children and adolescents 
+experience eye problems while taking this medicine, talk to your doctor. 
+Children and adolescents 
 The safety and efficacy of Wegovy in children below 12 years of age have not been studied and are 
 not recommended for use in this population. </p>
+</li>
+</ul>
 <p>Other medicines and Wegovy 
 Tell your doctor, pharmacist or nurse if you are using, have recently used or might use any other 
 medicines. </p>
@@ -200,8 +199,8 @@ recommended dose of 2.4 mg once weekly.
 * Once you reach the recommended dose of 2.4 mg, do not increase this dose further. 
 * In case you are feeling very bothered by sickness (nausea) or by being sick (vomiting) talk with 
 your doctor about delaying dose escalation or lowering to the previous dose until symptoms 
-have improved. </p>
-<p>Usually, you will be told to follow the table below. </p>
+have improved. 
+Usually, you will be told to follow the table below. </p>
 <p>Dose escalation 
 Weekly dose 
 Week 1 4 
@@ -210,8 +209,7 @@ Week 5 8
 0.5 mg 
 Week 9 1 mg 
 Week 13 1.7 mg 
-From week 17<br />
-2.4 mg </p>
+From week 2.4 mg </p>
 <p>Your doctor will assess your treatment on a regular basis. </p>
 <p>Adolescents (above 12 years of age) 
 For adolescents, the same dose escalation schedule as for adults should be applied (see above). The 

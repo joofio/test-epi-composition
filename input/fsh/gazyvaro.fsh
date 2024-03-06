@@ -4,7 +4,7 @@ Instance: composition-en-985079625d2aba49dd068d4442f9f43b
 InstanceOf: CompositionUvEpi
 Title: "Composition for gazyvaro Package Leaflet"
 Description:  "Composition for gazyvaro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Gazyvaro is and what it is used for  
-2. What you need to know before you are given Gazyvaro 
-3. How Gazyvaro is given 
-4. Possible side effects  
-5. How to store Gazyvaro 
-6. Content of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Gazyvaro is and what it is used for  </li>
+<li>What you need to know before you are given Gazyvaro </li>
+<li>How Gazyvaro is given </li>
+<li>Possible side effects  </li>
+<li>How to store Gazyvaro </li>
+<li>Content of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -94,15 +94,11 @@ cancer.  </li>
 </ul>
 <p>How Gazyvaro works </p>
 <ul>
-<li>
-<p>CLL and FL are types of cancer that affect white blood cells called  B-lymphocytes . The 
+<li>CLL and FL are types of cancer that affect white blood cells called  B-lymphocytes . The 
 affected  B-lymphocytes  multiply too quickly and live too long. Gazyvaro binds to targets on 
-the surface of the affected  B-lymphocyte  cells and causes them to die.   </p>
-</li>
-<li>
-<p>When Gazyvaro is given to patients with CLL or FL together with other medicines for<br />
-cancer - this slows down the time it takes for their disease to get worse. </p>
-</li>
+the surface of the affected  B-lymphocyte  cells and causes them to die.   </li>
+<li>When Gazyvaro is given to patients with CLL or FL together with other medicines for<br />
+cancer - this slows down the time it takes for their disease to get worse. </li>
 </ul>         </div>"""   
           
 
@@ -202,8 +198,8 @@ until the reaction stops. </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>How Gazyvaro is given </p>
 <p>Gazyvaro is given under the supervision of a doctor experienced in such treatment. It is given into a 
-vein as a drip (intravenous infusion) over several hours. </p>
-<p>The Gazyvaro treatment </p>
+vein as a drip (intravenous infusion) over several hours. 
+The Gazyvaro treatment </p>
 <p>Chronic lymphocytic leukaemia </p>
 <ul>
 <li>You will be given 6 treatment cycles of Gazyvaro in combination with another medicine for 
@@ -213,21 +209,13 @@ reactions.  </li>
 <li>If you do not have an infusion related reaction following the small part of your first dose, you 
 may be given the rest of your first dose (900 mg) on the same day.  </li>
 <li>If you do have an infusion related reaction following the small part of your first dose, you will 
-be given the rest of your first dose on Day </li>
-</ul>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>A typical schedule is shown below.<br />
-Cycle 1 - this will include three doses of Gazyvaro in the 28 days: 
-* Day 1   part of your first dose (100 mg) 
-* Day 2 or Day 1 (continued)   remainder of first dose 900 mg 
-* Day 8   full dose (1,000 mg) 
-* Day 15   full dose (1,000 mg) </p>
+be given the rest of your first dose on Day 2. A typical schedule is shown below.<br />
+Cycle 1 - this will include three doses of Gazyvaro in the 28 days: </li>
+<li>Day 1   part of your first dose (100 mg) </li>
+<li>Day 2 or Day 1 (continued)   remainder of first dose 900 mg </li>
+<li>Day 8   full dose (1,000 mg) </li>
+<li>Day 15   full dose (1,000 mg) </li>
+</ul>
 <p>Cycles 2, 3, 4, 5 and 6  this will be just one dose of Gazyvaro in the 28 days: 
 * Day 1   full dose (1,000 mg). </p>
 <p>Follicular lymphoma </p>
@@ -273,12 +261,13 @@ related reactions or tumour lysis syndrome. These may include: </p>
 <p>If you miss a Gazyvaro treatment </p>
 <p>If you miss your appointment, make another one as soon as possible. This is because for this medicine 
 to be as effective as possible, it is important to follow the dosing schedule.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store gazyvaro"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store gazyvaro"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. The 
 following side effects have been reported with this medicine: </p>
@@ -350,12 +339,8 @@ it. </p>
 <p>anaemia (low levels of red blood cells) </p>
 </li>
 <li>low levels of all types of white blood cell (combined)  </li>
-<li>
-<p>low levels of neutrophils (a type of white blood cell)  </p>
-</li>
-<li>
-<p>low level of platelets (a type of blood cell that helps your blood to clot) </p>
-</li>
+<li>low levels of neutrophils (a type of white blood cell)  </li>
+<li>low level of platelets (a type of blood cell that helps your blood to clot) </li>
 <li>infection of upper airways (infection of nose, pharynx, larynx and sinuses), cough </li>
 </ul>
 <p>Common (may affect up to 1 in 10 people) </p>
@@ -397,11 +382,10 @@ listed in this leaflet. You can also report side effects directly via the nation
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store gazyvaro"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store gazyvaro"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Gazyvaro will be stored by the healthcare professionals at the hospital or clinic. The storage details are 
 as follows: 
@@ -413,4 +397,100 @@ expiry date refers to the last day of that month.
 <p>Medicines should not be disposed of via wastewater or household waste. Your healthcare professional 
 will throw away any medicines that are no longer being used. These measures will help protect the 
 environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Gazyvaro contains  </p>
+<ul>
+<li>
+<p>The active substance is obinutuzumab: 1,000 mg/40 mL per vial corresponding to a 
+concentration before dilution of 25 mg/mL.  </p>
+</li>
+<li>
+<p>The other ingredients are histidine, histidine hydrochloride monohydrate, trehalose dihydrate, 
+poloxamer 188 and water for injections. </p>
+</li>
+</ul>
+<p>What Gazyvaro looks like and contents of the pack </p>
+<p>Gazyvaro is a concentrate for solution for infusion and is a colourless to slightly brown liquid. 
+Gazyvaro is available in a pack containing 1 glass vial.  </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Manufacturer </p>
+<p>Roche Pharma AG 
+Emil-Barell-Strasse 1 
+D-79639 Grenzach-Wyhlen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546  </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36 -1 279 4Danmark 
+Roche a/s 
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland) 
+Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O<br />
+Tel: + 372 - 6 177 Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 France 
+Roche 
+T l: +33  (0)1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o. 
+Tel: + 385 1 47 22 Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland<br />
+Roche a/s 
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland)<br />
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

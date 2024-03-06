@@ -4,7 +4,7 @@ Instance: composition-en-25519bb07426cab26500e5ad89df90b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for yuflyma Package Leaflet"
 Description:  "Composition for yuflyma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,14 +55,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Yuflyma is and what it is used for 
 2. What you need to know before you use Yuflyma 
 3. How to use Yuflyma 
 4. Possible side effects 
 5. How to store Yuflyma 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -86,8 +85,8 @@ system. </p>
 * Non-infectious uveitis </p>
 <p>The active ingredient in Yuflyma, adalimumab, is a human monoclonal antibody. Monoclonal antibodies are 
 proteins that attach to a specific target in the body. </p>
-<p>The target of adalimumab is a protein called tumour necrosis factor (TNF ), which is involved in the </p>
-<p>immune (defence) system and is present at increased levels in the inflammatory diseases listed above. By 
+<p>The target of adalimumab is a protein called tumour necrosis factor (TNF ), which is involved in the 
+immune (defence) system and is present at increased levels in the inflammatory diseases listed above. By 
 attaching to TNF , Yuflyma decreases the process of inflammation in these diseases. </p>
 <p>Rheumatoid arthritis </p>
 <p>Rheumatoid arthritis is an inflammatory disease of the joints. </p>
@@ -121,8 +120,8 @@ well enough to these medicines, you will be given Yuflyma. </p>
 <p>Psoriatic arthritis </p>
 <p>Psoriatic arthritis is an inflammatory disease of the joints that is usually associated with psoriasis. </p>
 <p>Yuflyma is used to treat psoriatic arthritis in adults. Yuflyma can slow down the damage to the joints caused 
-by the disease and can help them move more freely. You may first be given other medicines. If you do not </p>
-<p>respond well enough to these medicines, you will be given Yuflyma. </p>
+by the disease and can help them move more freely. You may first be given other medicines. If you do not 
+respond well enough to these medicines, you will be given Yuflyma. </p>
 <p>Plaque psoriasis </p>
 <p>Plaque psoriasis is a skin condition that causes red, flaky, crusty patches of skin covered with silvery scales. 
 Plaque psoriasis can also affect the nails, causing them to crumble, become thickened and lift away from the 
@@ -216,10 +215,8 @@ increase if you have problems with your lungs. These infections may be serious a
 symptoms such as fever, wounds, feeling tired or dental problems. Your doctor may tell you to stop 
 using Yuflyma for some time. </p>
 <ul>
-<li>
-<p>Tell your doctor if you live or travel in regions where fungal infections (for example, histoplasmosis, 
-coccidioidomycosis or blastomycosis) are very common. </p>
-</li>
+<li>Tell your doctor if you live or travel in regions where fungal infections (for example, histoplasmosis, 
+coccidioidomycosis or blastomycosis) are very common. </li>
 <li>
 <p>Tell your doctor if you have had infections which keep coming back or other conditions that increase 
 the risk of infections. </p>
@@ -279,11 +276,11 @@ vision, weakness in your arms or legs or numbness or tingling in any part of you
 <li>It is recommended that children, if possible, be given all the scheduled vaccinations for their age 
 before they start treatment with Yuflyma. </li>
 <li>If you received Yuflyma while you were pregnant, your baby may be at higher risk for getting 
-such an infection for up to approximately five months after the last Yuflyma dose you received </li>
-</ul>
-<p>during pregnancy. It is important that you tell your baby's doctors and other health care 
+such an infection for up to approximately five months after the last Yuflyma dose you received 
+during pregnancy. It is important that you tell your baby's doctors and other health care 
 professionals about your Yuflyma use during your pregnancy so they can decide when your baby 
-should receive any vaccine. </p>
+should receive any vaccine. </li>
+</ul>
 <p>Heart failure </p>
 <ul>
 <li>If you have mild heart failure and are being treated with Yuflyma, your heart failure status must be 
@@ -448,8 +445,8 @@ If you have an inadequate
 response, your doctor may 
 increase the dosage to 40 mg 
 every week or 80 mg every 
-other week. </p>
-<p>Children and adolescents 
+other week. 
+Children and adolescents 
 from 4 to 17 years of age 
 weighing 30 kg or more 
 First dose of 40 mg, followed by 
@@ -521,8 +518,8 @@ one day) two weeks later. </p>
 every other week. 
 Your doctor may increase the 
 dosage to 40 mg every week 
-or 80 mg every other week. </p>
-<p>Children and adolescents 
+or 80 mg every other week. 
+Children and adolescents 
 from 6 to 17 years of age 
 weighing less than 40 kg 
 First dose of 40 mg, followed by 
@@ -594,8 +591,8 @@ immune system may be
 continued while using 
 Yuflyma. 
 Yuflyma can also be given 
-alone. </p>
-<p>Children and adolescents 
+alone. 
+Children and adolescents 
 from 2 years of age 
 weighing less than 30 kg 
 20 mg every other week 
@@ -648,12 +645,8 @@ up to 4 months after the last Yuflyma injection. </p>
 <ul>
 <li>severe rash, hives or other signs of allergic reaction </li>
 <li>swollen face, hands, feet </li>
-<li>
-<p>trouble breathing, swallowing </p>
-</li>
-<li>
-<p>shortness of breath with physical activity or upon lying down or swelling of the feet </p>
-</li>
+<li>trouble breathing, swallowing </li>
+<li>shortness of breath with physical activity or upon lying down or swelling of the feet </li>
 </ul>
 <p>Tell your doctor as soon as possible if you notice any of the following </p>
 <ul>
@@ -703,12 +696,8 @@ Yuflyma. </p>
 <li>nerve root compression (including low back pain and leg pain) </li>
 <li>vision disturbances </li>
 <li>eye inflammation </li>
-<li>
-<p>inflammation of the eye lid and eye swelling </p>
-</li>
-<li>
-<p>vertigo (feeling of dizziness or spinning) </p>
-</li>
+<li>inflammation of the eye lid and eye swelling </li>
+<li>vertigo (feeling of dizziness or spinning) </li>
 <li>sensation of heart beating rapidly </li>
 <li>high blood pressure </li>
 <li>flushing </li>
@@ -758,12 +747,8 @@ sarcoidosis) </li>
 <li>sensation of heart beating irregularly such as skipped beats </li>
 <li>heart problems that can cause shortness of breath or ankle swelling </li>
 <li>heart attack </li>
-<li>
-<p>a sac in the wall of a major artery, inflammation and clot of a vein, blockage of a blood vessel </p>
-</li>
-<li>
-<p>lung diseases causing shortness of breath (including inflammation) </p>
-</li>
+<li>a sac in the wall of a major artery, inflammation and clot of a vein, blockage of a blood vessel </li>
+<li>lung diseases causing shortness of breath (including inflammation) </li>
 <li>pulmonary embolism (blockage in an artery of the lung) </li>
 <li>pleural effusion (abnormal collection of fluid in the pleural space) </li>
 <li>inflammation of the pancreas which causes severe pain in the abdomen and back </li>
@@ -862,8 +847,8 @@ medicine. </p>         </div>"""
 may be stored at room temperature (up to 25 C) for a maximum period of 31 days   be sure to protect it 
 from light. Once removed from the refrigerator for room temperature storage, the syringe must be used 
 within 31 days or discarded, even if it is returned to the refrigerator. </p>
-<p>You should record the date when the syringe is first removed from refrigerator and the date after which it </p>
-<p>should be discarded. </p>
+<p>You should record the date when the syringe is first removed from refrigerator and the date after which it 
+should be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your doctor or pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
@@ -904,8 +889,8 @@ Wegenerstrasse 13,<br />
 Germany </p>
 <p>Nuvisan France SARL 
 2400, Route des Colles,<br />
-06410, Biot,  </p>
-<p>France </p>
+06410, Biot,<br />
+France </p>
 <p>Midas Pharma GmbH 
 Rheinstr. 49,<br />
 55218 Ingelheim, 
@@ -921,86 +906,65 @@ Authorisation Holder: </p>
 Celltrion Healthcare Belgium BVBA 
 T l/Tel: + 32 1528 7Lietuva 
 Celltrion Healthcare Hungary Kft. 
-Tel.: +36 1 231 0 </p>
-<p>Celltrion Healthcare Hungary Kft. 
-Te .: +36 1 231 0 
-Luxembourg/Luxemburg 
+Tel.: +36 1 231 0<br />
+Celltrion Healthcare Hungary Kft. 
+Te .: +36 1 231 0Luxembourg/Luxemburg 
 Celltrion Healthcare Belgium BVBA 
 T l/Tel: + 32 1528 7 esk  republika 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Magyarorsz g 
+Tel: +36 1 231 0Magyarorsz g 
 Celltrion Healthcare Hungary Kft. 
-Tel.: +36 1 231 0 
-Danmark 
+Tel.: +36 1 231 0Danmark 
 Celltrion Healthcare Hungary Kft. 
 Tlf: +36 1 231 0Malta 
 Mint Health Ltd. 
-Tel: +356 2093 9 
-Deutschland 
+Tel: +356 2093 9Deutschland 
 Celltrion Healthcare Deutschland GmbH 
 T l.: +49 (0)30 346494infoDE@celltrionhc.com </p>
 <p>Nederland 
 Celltrion Healthcare Netherlands B.V. 
-Tel: + 31 20 888 7 
-Eesti 
+Tel: + 31 20 888 7Eesti 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Norge 
+Tel: +36 1 231 0Norge 
 Celltrion Healthcare Hungary Kft. 
-Tlf: +36 1 231 0 
-Espa a 
+Tlf: +36 1 231 0Espa a 
 Kern Pharma, S.L. 
-Tel: +34 93 700 2 
- sterreich 
+Tel: +34 93 700 2 sterreich 
 Astro-Pharma GmbH 
-Tel: +43 1 97 99  </p>
-<p>. . 
- : +30 210 8009 
-Polska 
+Tel: +43 1 97 99 <br />
+   . . 
+ : +30 210 8009Polska 
 Celltrion Healthcare Hungary Kft. 
-Tel.: +36 1 231 0 
-France 
+Tel.: +36 1 231 0France 
 Celltrion Healthcare France SAS 
-T l.: +33 (0)1 71 25 27<br />
-Portugal 
+T l.: +33 (0)1 71 25 27 Portugal 
 PharmaKERN Portugal - Produtos Farmac uticos, 
 Sociedade Unipessoal, Lda. 
-Tel: +351 214 200  </p>
-<p>Hrvatska 
+Tel: +351 214 200 Hrvatska 
 Oktal Pharma d.o.o. 
-Tel: +385 1 6595<br />
-Rom nia 
+Tel: +385 1 6595 Rom nia 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Ireland 
+Tel: +36 1 231 0Ireland 
 Celltrion Healthcare Ireland Limited 
-Tel: +353 1 223 4 
-Slovenija 
+Tel: +353 1 223 4Slovenija 
 OPH Oktal Pharma d.o.o. 
-Tel.: +386 1 519 29<br />
- sland 
+Tel.: +386 1 519 29  sland 
 Celltrion Healthcare Hungary Kft. 
 S mi: +36 1 231 0Slovensk  republika 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Italia 
+Tel: +36 1 231 0Italia 
 Celltrion Healthcare Italy S.r.l. 
-Tel: +39 0247927 
-Suomi/Finland 
+Tel: +39 0247927Suomi/Finland 
 Celltrion Healthcare Finland Oy.<br />
-Puh/Tel: +358 29 170 7 </p>
-<p>C.A. Papaellinas Ltd 
- : +357 22741 
-Sverige 
+Puh/Tel: +358 29 170 7<br />
+C.A. Papaellinas Ltd 
+ : +357 22741Sverige 
 Celltrion Healthcare Hungary Kft. 
 Tel: +36 1 231 0Latvija 
 Celltrion Healthcare Hungary Kft. 
-T lr.: +36 1 231 0 
-United Kingdom (Northern Ireland) 
+T lr.: +36 1 231 0United Kingdom (Northern Ireland) 
 Celltrion Healthcare Ireland Limited 
-Tel: +353 1 223 4026  </p>
-<p>This leaflet was last revised in . </p>
+Tel: +353 1 223 4This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

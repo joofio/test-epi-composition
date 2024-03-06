@@ -4,7 +4,7 @@ Instance: composition-en-d1ac9f4f2138f35170941f82d23b13ed
 InstanceOf: CompositionUvEpi
 Title: "Composition for ecalta Package Leaflet"
 Description:  "Composition for ecalta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What ECALTA is and what it is used for 
-2. What you need to know before you or your child use ECALTA 
-3. How to use ECALTA 
-4. Possible side effects 
-5. How to store ECALTA 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What ECALTA is and what it is used for </li>
+<li>What you need to know before you or your child use ECALTA </li>
+<li>How to use ECALTA </li>
+<li>Possible side effects </li>
+<li>How to store ECALTA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -269,8 +270,7 @@ Tel. + 36 1 488 37  esk  republika
 Pfizer, spol. s r.o. 
 Tel: +420-283-004-Malta 
 Vivian Corporation Ltd. 
-Tel : +356 21344 
-Danmark 
+Tel : +356 21344Danmark 
 Pfizer ApS 
 Tlf: +45 44 20 11 Nederland 
 Pfizer bv 
@@ -284,8 +284,7 @@ Tel: +372 666 7 sterreich
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: +43 (0)1 521 15-0 </p>
 <p>Pfizer   A.E. 
- .: +30 210 6785<br />
-Polska 
+ .: +30 210 6785 Polska 
 Pfizer Polska Sp. z o.o., 
 Tel.: +48 22 335 61 Espa a 
 Pfizer, S.L. 
@@ -301,8 +300,7 @@ Tel: + 385 1 3908 Slovenija
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
-Tel: + 386 (0)152 11<br />
-Ireland 
+Tel: + 386 (0)152 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: 1800 633 363 (toll free) 
 Tel: +44 (0)1304 616Slovensk  republika 
@@ -317,14 +315,11 @@ Tel: +39 06 33 18 Sverige
 Pfizer AB 
 Tel: +46 (0)8 5505 2K<br />
 Pfizer    . . (Cyprus Branch)<br />
- : +357 22 817 
-United Kingdom (Northern Ireland) 
+ : +357 22 817United Kingdom (Northern Ireland) 
 Pfizer Limited 
-Tel: +44 (0)1304 616 
-Latvija 
+Tel: +44 (0)1304 616Latvija 
 Pfizer Luxembourg SARL 
 Fili le Latvij<br />
-Tel: +371 670 35  </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +371 670 35 This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

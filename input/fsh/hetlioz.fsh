@@ -4,7 +4,7 @@ Instance: composition-en-7957aafe253d586bcd1a37e5702661ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for hetlioz Package Leaflet"
 Description:  "Composition for hetlioz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What HETLIOZ is and what it is used for  
-2. What you need to know before you take HETLIOZ  
-3. How to take HETLIOZ  
-4. Possible side effects  
-5. How to store HETLIOZ 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What HETLIOZ is and what it is used for  </li>
+<li>What you need to know before you take HETLIOZ  </li>
+<li>How to take HETLIOZ  </li>
+<li>Possible side effects  </li>
+<li>How to store HETLIOZ </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -243,10 +243,9 @@ Authorisation Holder: </p>
 Vanda Pharmaceuticals Netherlands B.V. 
 T l/Tel: +49 (0)30 800 98Lietuva 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel. +49 (0)30 800 98 </p>
-<p>Vanda Pharmaceuticals Netherlands B.V. 
-Te : +49 (0)30 800 98 
-Luxembourg/Luxemburg 
+Tel. +49 (0)30 800 98<br />
+Vanda Pharmaceuticals Netherlands B.V. 
+Te : +49 (0)30 800 98Luxembourg/Luxemburg 
 Vanda Pharmaceuticals Netherlands B.V. 
 T l/Tel: +49 (0)30 800 98 esk  republika 
 Vanda Pharmaceuticals Netherlands B.V. 
@@ -256,63 +255,51 @@ Tel.: +49 (0)30 800 98Danmark
 Vanda Pharmaceuticals Netherlands B.V. 
 Tlf: +49 (0)30 800 98Malta 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
-Deutschland 
+Tel: +49 (0)30 800 98Deutschland 
 Nederland 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
-Vanda Pharmaceuticals Netherlands B.V. 
+Tel: +49 (0)30 800 98Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98Eesti 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98Norge 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tlf: +49 (0)30 800 98 </p>
-<p>Vanda Pharmaceuticals Netherlands B.V. 
+Tlf: +49 (0)30 800 98<br />
+Vanda Pharmaceuticals Netherlands B.V. 
 T : +49 (0)30 800 98 sterreich 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
-Espa a 
+Tel: +49 (0)30 800 98Espa a 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98Polska 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel.: +49 (0)30 800 98 
-France 
+Tel.: +49 (0)30 800 98France 
 Vanda Pharmaceuticals Netherlands B.V. 
 T l: +49 (0)30 800 98Portugal 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
-Hrvatska 
+Tel: +49 (0)30 800 98Hrvatska 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
-Rom nia 
+Tel: +49 (0)30 800 98Rom nia 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
-Ireland 
+Tel: +49 (0)30 800 98Ireland 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
-Slovenija 
+Tel: +49 (0)30 800 98Slovenija 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
- sland 
+Tel: +49 (0)30 800 98 sland 
 Vanda Pharmaceuticals Netherlands B.V. 
 S mi: +49 (0)30 800 98Slovensk  republika 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
-Italia 
+Tel: +49 (0)30 800 98Italia 
 Vanda Pharmaceuticals Netherlands B.V. 
 Tel: +49 (0)30 800 98Suomi/Finland 
 Vanda Pharmaceuticals Netherlands B.V. 
-Puh/Tel: +49 (0)30 800 98 </p>
-<p>Vanda Pharmaceuticals Netherlands B.V. 
+Puh/Tel: +49 (0)30 800 98<br />
+Vanda Pharmaceuticals Netherlands B.V. 
 T : +49 (0)30 800 98Sverige 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 
-Latvija 
+Tel: +49 (0)30 800 98Latvija 
 Vanda Pharmaceuticals Netherlands B.V. 
 +49 (0)30 800 98United Kingdom (Northern Ireland) 
 Vanda Pharmaceuticals Netherlands B.V. 
-Tel: +49 (0)30 800 98 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +49 (0)30 800 98This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

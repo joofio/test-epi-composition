@@ -4,7 +4,7 @@ Instance: composition-en-8d5db30b44b1b19f76cd82de873a34e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for entecavir Package Leaflet"
 Description:  "Composition for entecavir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Entecavir Viatris is and what it is used for 
 2. What you need to know before you take Entecavir Viatris 
 3. How to take Entecavir Viatris 
 4. Possible side effects 
 5. How to store Entecavir Viatris 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -251,5 +250,97 @@ to 1 mg entecavir.  </p>
 <p>The other ingredients are: 
 Tablet core: microcrystalline cellulose, crospovidone, lactose monohydrate (see section 2,  Entacavir 
 Viatris contains lactose ), magnesium stearate 
-Tablet coating: titanium dioxide (E171), hypromellose, macrogol 400, polysorbate 8</p>         </div>"""      
+Tablet coating: titanium dioxide (E171), hypromellose, macrogol 400, polysorbate 80. What Entecavir Viatris looks like and contents of the pack </p>
+<p>Entecavir Viatris 0.5 mg film-coated tablets 
+The film-coated tablets (tablets) are white, film-coated, round, biconvex, beveled edge tablet debossed 
+with  M  on one side and  EA  on the other side. </p>
+<p>Entecavir Viatris 1 mg film-coated tablets 
+The film-coated tablets (tablets) are white, film-coated, round, biconvex, beveled edge tablet debossed 
+with  M  on one side and  EB  on the other side. </p>
+<p>Entecavir Viatris film-coated tablets are supplied in blisters packs containing 30 tablets, perforated 
+blister packs containing 30 x 1 or 90 x 1 tablets, and in bottles containing 30 or 90 tablets. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder<br />
+Mylan Pharmaceuticals Limited 
+Damastown Industrial Park,<br />
+Mulhuddart, Dublin 15,<br />
+DUBLIN 
+Ireland </p>
+<p>Manufacturer 
+McDermott Laboratories Limited t/a Gerard Laboratories 
+Unit 35/36 Baldoyle Industrial Estate, 
+Grange Road, Dublin Ireland </p>
+<p>Mylan Hungary Kft. 
+Mylan utca 1, 
+Kom rom - 2Hungary </p>
+<p>Mylan Germany GmbH<br />
+Zweigniederlassung Bad Homburg v. d. Hoehe, Benzstrasse 1<br />
+Bad Homburg v. d. Hoehe<br />
+Hessen, 61352,<br />
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Mylan bvba/sprl 
+T l/Tel: + 32 (0)2 658 61 Lietuva 
+Mylan Healthcare UAB 
+Tel: + 370 5 205 1  </p>
+<p>Te .: + 359 2 44 55 Luxembourg/Luxemburg 
+Mylan bvba/sprl 
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) 
+ esk  republika 
+Viatris CZ s.r.o. 
+Tel: + 420 222 004 Magyarorsz g 
+Mylan EPD Kft. 
+Tel.: + 36 1 465 2Danmark 
+Viatris ApS 
+Tlf: + 45 28 11 69 Malta 
+V.J. Salomone Pharma Ltd 
+Tel: + 356 21 22 01 Deutschland 
+Viatris Healthcare GmbH<br />
+Tel: + 49 800 0700 Nederland 
+Mylan BV 
+Tel: + 31 (0)20 426 3Eesti 
+BGP Products Switzerland GmbH Eesti filiaal<br />
+Tel: + 372 6363 Norge 
+Viatris AS 
+Tlf: + 47 66 75 33  <br />
+Generics Pharma Hellas  <br />
+ : + 30 210 993 6 sterreich 
+Arcana Arzneimittel GmbH 
+Tel: + 43 1 416 2Espa a 
+Viatris Pharmaceuticals, S.L.U. 
+Tel: + 34 900 102 Polska 
+Mylan Healthcare Sp. z.o.o. 
+Tel.: + 48 22 546 64 France 
+Viatris Sant<br />
+T l: + 33 4 37 25 75 Portugal 
+Mylan, Lda. 
+Tel: + 351 214 127 Hrvatska 
+Viatris Hrvatska d.o.o.<br />
+Tel: + 385 1 23 50 Rom nia 
+BGP Products SRL 
+Tel: + 40 372 579 Ireland 
+Mylan Ireland Limited 
+Tel: + 353 1 8711Slovenija 
+Viatris d.o.o. 
+Tel: + 386 1 23 63  sland 
+Icepharma hf. 
+S mi: + 354 540 8Slovensk  republika 
+Viatris Slovakia s.r.o. 
+Tel: + 421 2 32 199 Italia 
+Mylan Italia S.r.l. 
+Tel: + 39 02 612 46Suomi/Finland 
+Viatris Oy 
+Puh/Tel: + 358 20 720 9<br />
+Varnavas Hadjipanayis Ltd<br />
+ : + 357 2220 7Sverige 
+Viatris AB<br />
+Tel: + 46 (0)8 630 19 Latvija 
+Mylan Healthcare SIA<br />
+Tel: + 371 676 055 United Kingdom (Northern Ireland) 
+Mylan IRE Healthcare Limited 
+Tel: + 353 18711This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

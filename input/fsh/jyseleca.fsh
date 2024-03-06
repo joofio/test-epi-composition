@@ -4,7 +4,7 @@ Instance: composition-en-86797ea5a5b2ca41d08f535ddec98397
 InstanceOf: CompositionUvEpi
 Title: "Composition for jyseleca Package Leaflet"
 Description:  "Composition for jyseleca Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Jyseleca is and what it is used for 
-2. What you need to know before you take Jyseleca 
-3. How to take Jyseleca 
-4. Possible side effects 
-5. How to store Jyseleca 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Jyseleca is and what it is used for </li>
+<li>What you need to know before you take Jyseleca </li>
+<li>How to take Jyseleca </li>
+<li>Possible side effects </li>
+<li>How to store Jyseleca </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -279,89 +279,66 @@ Belgium </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Galapagos Biopharma Belgium BV 
-T l/Tel: 00800 7878 1 
-Lietuva 
+T l/Tel: 00800 7878 1Lietuva 
 Oy Swedish Orphan Biovitrum Ab 
-Tel: +358 201 558  </p>
-<p>Swedish Orphan Biovitrum s.r.o. 
+Tel: +358 201 558 <br />
+Swedish Orphan Biovitrum s.r.o. 
  .: +359 2 437 4Luxembourg/Luxemburg 
 Galapagos Biopharma Belgium BV 
-T l/Tel: 00800 7878 1 
- esk  republika 
+T l/Tel: 00800 7878 1 esk  republika 
 Swedish Orphan Biovitrum s.r.o. 
-Tel: + 420 296 183<br />
-Magyarorsz g 
+Tel: + 420 296 183 Magyarorsz g 
 Swedish Orphan Biovitrum s.r.o.<br />
 Magyarorsz gi fi ktelepe<br />
-Tel.: +36 1 998 9 </p>
-<p>Danmark 
+Tel.: +36 1 998 9Danmark 
 Galapagos Biopharma Denmark ApS 
-Tlf: 00800 7878 1 
-Malta 
+Tlf: 00800 7878 1Malta 
 Sobi Single Member IKE 
-Tel: +30 210 700 81<br />
-Deutschland 
+Tel: +30 210 700 81 Deutschland 
 Galapagos Biopharma Germany GmbH 
-Tel: 00800 7878 1 
-Nederland 
+Tel: 00800 7878 1Nederland 
 Galapagos Biopharma Netherlands B.V. 
-Tel: 00800 7878 1 
-Eesti 
+Tel: 00800 7878 1Eesti 
 Oy Swedish Orphan Biovitrum Ab 
 Tel: +358 201 558 Norge 
 Galapagos Biopharma Norway AS 
-Tlf: 00800 7878 1 </p>
-<p>Sobi Single Member IKE 
- : +30 210 700 81<br />
- sterreich 
+Tlf: 00800 7878 1<br />
+Sobi Single Member IKE 
+ : +30 210 700 81  sterreich 
 Galapagos Biopharma Austria GmbH 
 Tel: 00800 7878 1Espa a 
 Galapagos Biopharma Spain, SLU. 
-Tel: 00800 7878 1 
-Polska 
+Tel: 00800 7878 1Polska 
 Swedish Orphan Biovitrum Sp.z o.o., Oddzia  w 
 Polsce 
-Tel.: +48 22 206 98 63  </p>
-<p>France 
+Tel.: +48 22 206 98 France 
 Galapagos SASU 
-T l: 00800 7878 1 
-Portugal 
+T l: 00800 7878 1Portugal 
 Swedish Orphan Biovitrum S.L. 
-Tel: +34 913913 
-Hrvatska 
+Tel: +34 913913Hrvatska 
 Swedish Orphan Biovitrum s.r.o.<br />
-Tel: +385 1 79 00 196  </p>
-<p>Rom nia 
+Tel: +385 1 79 00 Rom nia 
 Swedish Orphan Biovitrum<br />
-Tel: +40 31 229 51 96  </p>
-<p>Ireland 
+Tel: +40 31 229 51 Ireland 
 Galapagos Biopharma Ireland Ltd 
-Tel: 00800 7878 1 
-Slovenija 
+Tel: 00800 7878 1Slovenija 
 Swedish Orphan Biovitrum Podru nica v Sloveniji 
-Tel: +386 1 828 0538  </p>
-<p>sland 
+Tel: +386 1 828 0 sland 
 Galapagos Biopharma Denmark ApS 
-S mi: T: 00800 7878 1 
-Slovensk  republika 
+S mi: T: 00800 7878 1Slovensk  republika 
 Swedish Orphan Biovitrum o.z.<br />
-Tel: +421 2 3211 1540  </p>
-<p>Italia 
+Tel: +421 2 3211 1Italia 
 Galapagos Biopharma Italy S.r.l. 
-Tel: 00800 7878 1 
-Suomi/Finland 
+Tel: 00800 7878 1Suomi/Finland 
 Galapagos Biopharma Finland Oy 
-Puh/Tel: 00800 7878 1 </p>
-<p>Sobi Single Member IKE 
- : +30 210 700 81<br />
-Sverige 
+Puh/Tel: 00800 7878 1<br />
+Sobi Single Member IKE 
+ : +30 210 700 81 Sverige 
 Galapagos Biopharma Sweden AB 
 Tel: 00800 7878 1Latvija 
 Oy Swedish Orphan Biovitrum Ab 
-Tel: +358 201 558<br />
-United Kingdom (Northern Ireland) 
+Tel: +358 201 558 United Kingdom (Northern Ireland) 
 Galapagos Biotech Limited 
-Tel: 0800 072 7 </p>
-<p>This leaflet was last revised in </p>
+Tel: 0800 072 7This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

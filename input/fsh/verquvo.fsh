@@ -4,7 +4,7 @@ Instance: composition-en-866524cdcbf3627a203df3c620ecce50
 InstanceOf: CompositionUvEpi
 Title: "Composition for verquvo Package Leaflet"
 Description:  "Composition for verquvo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Verquvo is and what it is used for 
-2. What you need to know before you take Verquvo 
-3. How to take Verquvo 
-4. Possible side effects 
-5. How to store Verquvo 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Verquvo is and what it is used for </li>
+<li>What you need to know before you take Verquvo </li>
+<li>How to take Verquvo </li>
+<li>Possible side effects </li>
+<li>How to store Verquvo </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -225,90 +225,66 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Bayer SA-NV 
-T l/Tel: +32-(0)2-535 63<br />
-Lietuva 
+T l/Tel: +32-(0)2-535 63 Lietuva 
 UAB Bayer 
-Tel. +37 05 23 36  </p>
-<p>T .: +359 02 4247 
-Luxembourg/Luxemburg 
+Tel. +37 05 23 36   </p>
+<p>T .: +359 02 4247Luxembourg/Luxemburg 
 Bayer SA-NV 
-T l/Tel: +32-(0)2-535 63<br />
- esk  republika 
+T l/Tel: +32-(0)2-535 63  esk  republika 
 Bayer s.r.o. 
-Tel: +420 266 101<br />
-Magyarorsz g 
+Tel: +420 266 101 Magyarorsz g 
 Bayer Hung ria KFT 
-Tel: +36 14 87-41<br />
-Danmark 
+Tel: +36 14 87-41 Danmark 
 Bayer A/S 
-Tlf: +45 45 23 50<br />
-Malta 
+Tlf: +45 45 23 50 Malta 
 Alfred Gera and Sons Ltd. 
-Tel: +35 621 44 62<br />
-Deutschland 
+Tel: +35 621 44 62 Deutschland 
 Bayer Vital GmbH 
-Tel: +49 (0)214-30 513<br />
-Nederland 
+Tel: +49 (0)214-30 513 Nederland 
 Bayer B.V. 
-Tel: +31-(0)297-28 06<br />
-Eesti 
+Tel: +31-(0)297-28 06 Eesti 
 Bayer O<br />
-Tel: +372 655 8 
-Norge 
+Tel: +372 655 8Norge 
 Bayer AS 
-Tlf: +47 23 13 05  </p>
-<p>Bayer   <br />
- : +30-210-61 87<br />
- sterreich 
+Tlf: +47 23 13 05 <br />
+Bayer   <br />
+ : +30-210-61 87  sterreich 
 Bayer Austria Ges.m.b.H. 
 Tel: +43-(0)1-711 46-0 </p>
 <p>Espa a 
 Bayer Hispania S.L. 
-Tel: +34-93-495 65<br />
-Polska 
+Tel: +34-93-495 65 Polska 
 Bayer Sp. z o.o. 
-Tel: +48 22 572 35<br />
-France 
+Tel: +48 22 572 35 France 
 Bayer HealthCare 
-T l (N  vert): +33-(0)800 87 54<br />
-Portugal 
+T l (N  vert): +33-(0)800 87 54 Portugal 
 Bayer Portugal, Lda. 
-Tel: +351 21 416 42<br />
-Hrvatska 
+Tel: +351 21 416 42 Hrvatska 
 Bayer d.o.o. 
-Tel: +385-(0)1-6599<br />
-Rom nia 
+Tel: +385-(0)1-6599 Rom nia 
 SC Bayer SRL 
-Tel: +40 21 529 59<br />
-Ireland 
+Tel: +40 21 529 59 Ireland 
 Bayer Limited 
-Tel: +353 1 216 3 
-Slovenija 
+Tel: +353 1 216 3Slovenija 
 Bayer d. o. o. 
-Tel: +386 (0)1 58 14<br />
- sland 
+Tel: +386 (0)1 58 14  sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Slovensk  republika 
+S mi: +354 540 8Slovensk  republika 
 Bayer spol. s r.o. 
-Tel. +421 2 59 21 31<br />
-Italia 
+Tel. +421 2 59 21 31 Italia 
 Bayer S.p.A. 
 Tel: +39 02 397 8 1 </p>
 <p>Suomi/Finland 
 Bayer Oy 
-Puh/Tel: +358- 20 785  </p>
-<p>NOVAGEM Limited 
-T : +357 22 48 38<br />
-Sverige 
+Puh/Tel: +358- 20 785 <br />
+NOVAGEM Limited 
+T : +357 22 48 38 Sverige 
 Bayer AB 
-Tel: +46 (0) 8 580 223<br />
-Latvija 
+Tel: +46 (0) 8 580 223 Latvija 
 SIA Bayer 
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0)118 206 3 
-This leaflet was last revised in  </p>
+Tel: +44-(0)118 206 3This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-4d2adb2d9d068c3e716247867c7eb868
 InstanceOf: CompositionUvEpi
 Title: "Composition for insuman Package Leaflet"
 Description:  "Composition for insuman Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Insuman Rapid is and what it is used for 
 2. What you need to know before you use Insuman Rapid 
 3. How to use Insuman Rapid 
 4. Possible side effects 
 5. How to store Insuman Rapid 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -94,8 +93,8 @@ Follow closely the instructions for dose, monitoring (blood and urine tests), di
 If you are allergic to this medicine or to animal insulins, talk to your doctor. 
 Special patient groups 
 If you have liver or kidneys problems or if you are elderly, speak to your doctor as you may need a 
-lower dose. </p>
-<p>Skin changes at the injection site 
+lower dose. 
+Skin changes at the injection site 
 The injection site should be rotated to prevent skin changes such as lumps under the skin. The insulin may 
 not work very well if you inject into a lumpy area (see How to use Insuman Rapid). Contact your doctor if 
 you are currently injecting into a lumpy area before you start injecting in a different area. Your doctor may 
@@ -148,13 +147,9 @@ blood pressure), </li>
 <li>corticosteroids (such as "cortisone" used to treat inflammation), </li>
 <li>danazol (medicine acting on ovulation), </li>
 <li>diazoxide (used to treat high blood pressure), </li>
-<li>
-<p>diuretics (used to treat high blood pressure or excessive fluid retention), </p>
-</li>
-<li>
-<p>glucagon (pancreas hormone used to treat severe hypoglycaemia), 
-isoniazid (used to treat tuberculosis), </p>
-</li>
+<li>diuretics (used to treat high blood pressure or excessive fluid retention), </li>
+<li>glucagon (pancreas hormone used to treat severe hypoglycaemia), 
+isoniazid (used to treat tuberculosis), </li>
 <li>oestrogens and progestogens (such as in the contraceptive pill used for birth control), </li>
 <li>phenothiazine derivatives (used to treat psychiatric disorders), </li>
 <li>somatropin (growth hormone), </li>
@@ -243,8 +238,8 @@ measure the correct dose. </p>
 other substances contaminate the insulin. Do not mix insulin with any other medicines except with 
 insulin human preparations as detailed below. </p>
 <p>Insuman Rapid may be mixed with all insulin human preparations, EXCEPT those specially designed 
-for use in insulin pumps. Also, it must NOT be mixed with animal source insulins or insulin analogues. </p>
-<p>Your doctor will tell you if you have to mix insulin human preparations. If you need to inject a 
+for use in insulin pumps. Also, it must NOT be mixed with animal source insulins or insulin analogues. 
+Your doctor will tell you if you have to mix insulin human preparations. If you need to inject a 
 mixture, draw Insuman Rapid into the injection syringe before the other insulin. Inject as soon as you 
 have mixed them. Do not mix insulins of different strengths (for example 100 IU per ml and 40 IU per 
 ml). </p>
@@ -290,8 +285,8 @@ Side effects reported commonly (may affect up to 1 in 10 people)
 * Oedema 
 Insulin treatment may cause temporary build-up of water in the body with swelling in the calves and 
 ankles. 
-* Injection site reactions </p>
-<p>Side effects reported uncommonly<br />
+* Injection site reactions 
+Side effects reported uncommonly<br />
 * Injection site urticaria (itchy rash) </p>
 <p>Side effects reported with a frequency not known<br />
 * Sodium retention 
@@ -346,12 +341,10 @@ throw away medicines you no longer use. These measures will help protect the env
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Insuman Rapid contains<br />
 - The active substance is insulin human. One ml of Insuman Rapid contains 100 IU (International 
-Units) of the active substance insulin human. </p>
-<ul>
-<li>The other ingredients are: metacresol, sodium dihydrogen phosphate dihydrate, glycerol, sodium 
+Units) of the active substance insulin human. 
+- The other ingredients are: metacresol, sodium dihydrogen phosphate dihydrate, glycerol, sodium 
 hydroxide (see section 2 under  Important information about some of the ingredients of Insuman 
-Rapid ), hydrochloric acid (for pH adjustment) and water for injections. </li>
-</ul>
+Rapid ), hydrochloric acid (for pH adjustment) and water for injections. </p>
 <p>What Insuman Rapid looks like and contents of the pack<br />
 Insuman Rapid is a clear, colourless solution for injection, with no solid particles visible, and of a 
 water-like consistency. </p>
@@ -366,93 +359,69 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien<br />
 Sanofi Belgium 
-T l/Tel: +32 (0)2 710 54<br />
-Lietuva<br />
+T l/Tel: +32 (0)2 710 54 Lietuva<br />
 Swixx Biopharma UAB 
-Tel: +370 5 236 91  </p>
-<p>Swixx Biopharma EOOD 
- .: +359 (0)2 4942<br />
-Luxembourg/Luxemburg<br />
+Tel: +370 5 236 91  <br />
+Swixx Biopharma EOOD 
+ .: +359 (0)2 4942 Luxembourg/Luxemburg<br />
 Sanofi Belgium 
 T l/Tel: +32 (0)2 710 54 (Belgique/Belgien) </p>
 <p>esk  republika<br />
 sanofi-aventis, s.r.o.<br />
-Tel: +420 233 086<br />
-Magyarorsz g 
+Tel: +420 233 086 Magyarorsz g 
 SANOFI-AVENTIS Zrt. 
-Tel.: +36 1 505 0 
-Danmark<br />
+Tel.: +36 1 505 0Danmark<br />
 Sanofi A/S 
-Tlf: +45 45 16 70<br />
-Malta<br />
+Tlf: +45 45 16 70 Malta<br />
 Sanofi S.r.l. 
-Tel: +39 02 39394 
-Deutschland<br />
+Tel: +39 02 39394Deutschland<br />
 Sanofi-Aventis Deutschland GmbH Tel: 
-0800 52 52 Tel. aus dem Ausland: +49 69 305 21<br />
-Nederland<br />
+0800 52 52 Tel. aus dem Ausland: +49 69 305 21 Nederland<br />
 Sanofi B.V.<br />
-Tel: +31 20 245 4 
-Eesti<br />
+Tel: +31 20 245 4Eesti<br />
 Swixx Biopharma O <br />
-Tel: +372 640 10<br />
-Norge<br />
+Tel: +372 640 10 Norge<br />
 sanofi-aventis Norge AS<br />
-Tlf: +47 67 10 71  </p>
-<p>Sanofi-Aventis   AEBE<br />
- : +30 210 900 16<br />
- sterreich<br />
+Tlf: +47 67 10 71  <br />
+Sanofi-Aventis   AEBE<br />
+ : +30 210 900 16  sterreich<br />
 sanofi-aventis GmbH<br />
 Tel: +43 1 80 185   0 </p>
 <p>Espa a<br />
 sanofi-aventis, S.A.<br />
-Tel: +34 93 485 94<br />
-Polska<br />
+Tel: +34 93 485 94 Polska<br />
 sanofi-aventis Sp. z o.o.<br />
-Tel.: +48 22 280 00  </p>
-<p>France<br />
+Tel.: +48 22 280 00 France<br />
 Sanofi Winthrop Industrie<br />
-T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23<br />
-Portugal<br />
+T l: 0 800 222 Appel depuis l tranger: +33 1 57 63 23 Portugal<br />
 Sanofi - Produtos Farmac uticos, Lda.<br />
-Tel: +351 21 35 89<br />
-Hrvatska<br />
+Tel: +351 21 35 89 Hrvatska<br />
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-Rom nia<br />
+Tel: +385 1 2078 Rom nia<br />
 Sanofi Romania SRL<br />
-Tel: +40 (0) 21 317 31<br />
-Ireland<br />
+Tel: +40 (0) 21 317 31 Ireland<br />
 sanofi-aventis Ireland Ltd. T/A SANOFI<br />
-Tel: +353 (0) 1 403 56<br />
-Slovenija<br />
+Tel: +353 (0) 1 403 56 Slovenija<br />
 Swixx Biopharma d.o.o.<br />
-Tel: +386 1 235 51<br />
- sland<br />
+Tel: +386 1 235 51  sland<br />
 Vistor hf. 
-S mi: +354 535 7 
-Slovensk  republika<br />
+S mi: +354 535 7Slovensk  republika<br />
 Swixx Biopharma s.r.o. 
-Tel: +421 2 208 33<br />
-Italia<br />
+Tel: +421 2 208 33 Italia<br />
 Sanofi S.r.l. 
 Tel: 800 13 12 12 (domande di tipo tecnico) 
 800 536389 (altre domande) </p>
 <p>Suomi/Finland<br />
 Sanofi Oy 
-Puh/Tel: +358 (0) 201 200  </p>
-<p>C.A. Papaellinas Ltd. 
- : +357 22 741 
-Sverige<br />
+Puh/Tel: +358 (0) 201 200  <br />
+C.A. Papaellinas Ltd. 
+ : +357 22 741Sverige<br />
 Sanofi AB 
-Tel: +46 (0)8 634 50<br />
-Latvija<br />
+Tel: +46 (0)8 634 50 Latvija<br />
 Swixx Biopharma SIA<br />
-Tel: +371 6 616 47<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 6 616 47 United Kingdom (Northern Ireland) 
 sanofi-aventis Ireland Ltd. T/A SANOFI 
-Tel: +44 (0) 800 035 2 </p>
-<p>This leaflet was last revised in {date}  </p>
+Tel: +44 (0) 800 035 2This leaflet was last revised in {date}  </p>
 <p>Other source of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

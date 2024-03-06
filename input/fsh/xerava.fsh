@@ -4,7 +4,7 @@ Instance: composition-en-b6aaef38fe85ec54174ec8e0149fcca6
 InstanceOf: CompositionUvEpi
 Title: "Composition for xerava Package Leaflet"
 Description:  "Composition for xerava Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Xerava is and what it is used for  
-2. What you need to know before you are given Xerava  
-3. How you will be given Xerava 
-4. Possible side effects  
-5. How to store Xerava 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Xerava is and what it is used for  </li>
+<li>What you need to know before you are given Xerava  </li>
+<li>How you will be given Xerava </li>
+<li>Possible side effects  </li>
+<li>How to store Xerava </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -261,7 +261,7 @@ Te .: + 49 800 4453 4Luxembourg/Luxemburg<br />
 PAION Deutschland GmbH<br />
 T l/Tel: + 49 800 4453 4 esk  republika 
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4453<em>{e-mail}</em> 
+Tel: + 49 800 4453 4453&lt;{e-mail}&gt; 
 Magyarorsz g<br />
 PAION Deutschland GmbH<br />
 Tel.: + 49 800 4453 4Danmark<br />
@@ -298,8 +298,7 @@ PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4 sland 
 PAION Deutschland GmbH<br />
-S mi: + 49 800 4453 4453<br />
-Slovensk  republika<br />
+S mi: + 49 800 4453 4Slovensk  republika<br />
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4Italia 
 Mylan Italia S.r.l. 
@@ -313,7 +312,6 @@ Tel: + 49 800 4453 4Latvija<br />
 PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4United Kingdom (Northern Ireland) 
 PAION Deutschland GmbH<br />
-Tel: + 49 800 4453 4 </p>
-<p>This leaflet was last revised in. </p>
+Tel: + 49 800 4453 4This leaflet was last revised in. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

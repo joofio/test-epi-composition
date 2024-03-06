@@ -4,7 +4,7 @@ Instance: composition-en-92b31dfcd94fef6128e5d86cc210fa3f
 InstanceOf: CompositionUvEpi
 Title: "Composition for pazenir Package Leaflet"
 Description:  "Composition for pazenir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What Pazenir is and what it is used for 
-2. What you need to know before you are given Pazenir 
-3. How to use Pazenir 
-4. Possible side effects 
-5. How to store Pazenir 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What Pazenir is and what it is used for </li>
+<li>What you need to know before you are given Pazenir </li>
+<li>How to use Pazenir </li>
+<li>Possible side effects </li>
+<li>How to store Pazenir </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -90,8 +91,8 @@ albumin where another therapy had failed, were more likely to experience a reduc
 size, and lived longer than people who took an alternative therapy. </p>
 <p>Pancreatic cancer 
 * Pazenir is used together with a medicine called gemcitabine if you have metastatic cancer of the 
-pancreas. People with metastatic pancreatic cancer (pancreatic cancer that has spread to other </p>
-<p>parts of the body) who received paclitaxel attached to the human protein albumin with 
+pancreas. People with metastatic pancreatic cancer (pancreatic cancer that has spread to other 
+parts of the body) who received paclitaxel attached to the human protein albumin with 
 gemcitabine in a clinical trial lived longer than people who had only received gemcitabine. </p>
 <p>Lung cancer 
 * Pazenir is also used together with a medicine called carboplatin if you have the most common 
@@ -140,10 +141,8 @@ antibiotic), and including medicines for treating fungal infections (e.g. ketoco
 * medicines used to help you lower blood lipid levels (e.g. gemfibrozil) 
 * medicine used for heartburn or stomach ulcers (e.g. cimetidine) 
 * medicines used to treat HIV and AIDS (e.g. ritonavir, saquinavir, indinavir, nelfinavir, 
-efavirenz, nevirapine) </p>
-<ul>
-<li>a medicine called clopidogrel used to prevent blood clots </li>
-</ul>
+efavirenz, nevirapine) 
+* a medicine called clopidogrel used to prevent blood clots </p>
 <p>Pregnancy, breast-feeding and fertility 
 Paclitaxel may cause serious birth defects and should therefore not be used if you are pregnant. Your 
 doctor will arrange a pregnancy test before starting treatment with Pazenir. </p>
@@ -235,15 +234,13 @@ eyelashes
 * Anxiety 
 * Infection in the lungs 
 * Infection in the urinary tract 
-* Obstruction in the gut, inflammation of the large bowel, inflammation of the bile duct </p>
-<ul>
-<li>Acute kidney failure </li>
-<li>Increased bilirubin in the blood </li>
-<li>Coughing up blood </li>
-<li>Dry mouth, difficulty in swallowing </li>
-<li>Muscle weakness </li>
-<li>Blurred vision </li>
-</ul>
+* Obstruction in the gut, inflammation of the large bowel, inflammation of the bile duct 
+* Acute kidney failure 
+* Increased bilirubin in the blood 
+* Coughing up blood 
+* Dry mouth, difficulty in swallowing 
+* Muscle weakness 
+* Blurred vision </p>
 <p>The uncommon side effects may affect up to 1 in 100 people: 
 * Increased weight, increased lactate dehydrogenase in the blood, decreased kidney function, 
 increased blood sugar, increased phosphorus in the blood 
@@ -284,8 +281,8 @@ toxic epidermal necrolysis) </p>
 <p>Not known side effects (frequency cannot be estimated from the available data): 
 * Hardening/thickening of the skin (scleroderma).  </p>
 <p>Reporting of side effects 
-If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not </p>
-<p>listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
+If you get any side effects, talk to your doctor or nurse. This includes any possible side effects not 
+listed in this leaflet. You can also report side effects directly via the national reporting system listed in 
 Appendix V. By reporting side effects you can help provide more information on the safety of this 
 medicine. </p>         </div>"""      
         
@@ -331,8 +328,8 @@ Germany </p>
 <p>Merckle GmbH 
 Ludwig-Merckle-Stra e 3 
 89143 Blaubeuren 
-Germany </p>
-<p>Pharmachemie B.V. 
+Germany 
+Pharmachemie B.V. 
 Swensweg 5 
 Haarlem 
 2031 GA 
@@ -349,94 +346,67 @@ The Netherlands </p>
 Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Teva Pharma Belgium N.V./S.A./AG 
-T l/Tel: +32 38207 
-Lietuva 
+T l/Tel: +32 38207Lietuva 
 UAB Teva Baltics 
-Tel: +370 52660 </p>
-<p>: +359 24899 
-Luxembourg/Luxemburg 
+Tel: +370 52660  </p>
+<p>: +359 24899Luxembourg/Luxemburg 
 Teva Pharma Belgium N.V./S.A./AG 
 Belgique/Belgien 
-T l/Tel: +32 38207 
- esk  republika 
+T l/Tel: +32 38207 esk  republika 
 Teva Pharmaceuticals CR, s.r.o. 
-Tel: +420 251007 
-Magyarorsz g 
+Tel: +420 251007Magyarorsz g 
 Teva Gy gyszergy r Zrt. 
-Tel: +36 12886 
-Danmark 
+Tel: +36 12886Danmark 
 Teva Denmark A/S 
-Tlf: +45 44985 
-Malta 
+Tlf: +45 44985Malta 
 Teva Pharmaceuticals Ireland 
 L-Irlanda 
- el: +44 2075407 
-Deutschland 
+ el: +44 2075407Deutschland 
 ratiopharm GmbH 
-Tel: +49 73140 
-Nederland 
+Tel: +49 73140Nederland 
 Teva Nederland B.V. 
-Tel: +31 8000228 
-Eesti 
+Tel: +31 8000228Eesti 
 UAB Teva Baltics Eesti filiaal 
-Tel: +372 6610 
-Norge 
+Tel: +372 6610Norge 
 Teva Norway AS 
-Tlf: +47 66775 </p>
-<p>TEVA HELLAS  . . 
- : +30 2118805 
- sterreich 
+Tlf: +47 66775<br />
+TEVA HELLAS  . . 
+ : +30 2118805 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1970 
-Espa a 
+Tel: +43 1970Espa a 
 Teva Pharma, S.L.U. 
-Tel: +34 913873 
-Polska 
+Tel: +34 913873Polska 
 Teva Pharmaceuticals Polska Sp. z o.o. 
-Tel: +48 223459 </p>
-<p>France 
+Tel: +48 223459France 
 Teva Sant<br />
-T l: +33 155917 
-Portugal 
+T l: +33 155917Portugal 
 Teva Pharma - Produtos Farmac uticos, 
 Lda. 
-Tel: +351 214767 
-Hrvatska 
+Tel: +351 214767Hrvatska 
 Pliva Hrvatska d.o.o. 
-Tel: +385 13720 
-Rom nia 
+Tel: +385 13720Rom nia 
 Teva Pharmaceuticals S.R.L. 
-Tel: +40 212306 
-Ireland 
+Tel: +40 212306Ireland 
 Teva Pharmaceuticals Ireland 
-Tel: +44 2075407 
-Slovenija 
+Tel: +44 2075407Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 15890 
- sland 
+Tel: +386 15890 sland 
 Teva Pharma Iceland ehf. 
-S mi: +354 5503 
-Slovensk  republika 
+S mi: +354 5503Slovensk  republika 
 TEVA Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 257267 
-Italia 
+Tel: +421 257267Italia 
 Teva Italia S.r.l. 
-Tel: +39 028917 
-Suomi/Finland 
+Tel: +39 028917Suomi/Finland 
 Teva Finland Oy 
-Puh/Tel: +358 201805 </p>
-<p>TEVA HELLAS  . . </p>
-<p>: +30 2118805 
-Sverige 
+Puh/Tel: +358 201805<br />
+TEVA HELLAS  . . </p>
+<p>: +30 2118805Sverige 
 Teva Sweden AB 
-Tel: +46 42121 
-Latvija 
+Tel: +46 42121Latvija 
 UAB Teva Baltics fili le Latvij <br />
-Tel: +371 67323 
-United Kingdom (Northern Ireland) 
+Tel: +371 67323United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
 Ireland 
-Tel: +44 2075407 </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 2075407This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

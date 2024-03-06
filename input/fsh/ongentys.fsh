@@ -4,7 +4,7 @@ Instance: composition-en-26fc1cee47caf5fc75936515be80e67b
 InstanceOf: CompositionUvEpi
 Title: "Composition for ongentys Package Leaflet"
 Description:  "Composition for ongentys Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Ongentys is and what it is used for 
 2. What you need to know before you take Ongentys 
 3. How to take Ongentys 
 4. Possible side effects 
 5. How to store Ongentys 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -289,43 +288,31 @@ Luxembourg/Luxemburg/
 Malta/Nederland/  sterreich/Polska/Portugal/ 
 Rom nia/ United Kingdom (Northern Ireland) 
 BIAL - Portela &amp; C , S.A. 
-T l/Tel/Tlf/ : + 351 22 986 61<br />
-Espa a 
+T l/Tel/Tlf/ : + 351 22 986 61 Espa a 
 Laboratorios BIAL, S.A. 
-Tel: + 34 91 562 41  </p>
-<p>Medis Pharma Bulgaria EOOD 
-Te .: +359(0)24274 
- esk  republika 
+Tel: + 34 91 562 41 <br />
+Medis Pharma Bulgaria EOOD 
+Te .: +359(0)24274 esk  republika 
 Medis Pharma s.r.o. 
-Tel: +386(0)15896 
-Danmark 
+Tel: +386(0)15896Danmark 
 Nordicinfu Care AB 
-Tlf: +45 (0) 70 28 10<br />
-Eesti / Latvija/ Lietuva 
+Tlf: +45 (0) 70 28 10 Eesti / Latvija/ Lietuva 
 Medis Pharma Lithuania UAB 
-Tel: +386(0)15896 
-Hrvatska 
+Tel: +386(0)15896Hrvatska 
 Medis Adria d.o.o. 
-Tel.: +385(0)12303 
-Suomi/Finland 
+Tel.: +385(0)12303Suomi/Finland 
 Nordicinfu Care AB 
-Puh/Tel: +358 (0) 207 348<br />
-Magyarorsz g 
+Puh/Tel: +358 (0) 207 348 Magyarorsz g 
 Medis Hungary Kft 
-Tel: +36(0)23801 
- sland / Sverige<br />
+Tel: +36(0)23801 sland / Sverige<br />
 Nordicinfu Care AB 
-Tel / S mi: +46 (0) 8 601 24<br />
-Norge 
+Tel / S mi: +46 (0) 8 601 24 Norge 
 Nordicinfu Care AB 
-Tlf: +47 (0) 22 20 60<br />
-Slovenija 
+Tlf: +47 (0) 22 20 60 Slovenija 
 Medis d.o.o.<br />
-Tel: +386(0)15896 
-Slovensk  republika 
+Tel: +386(0)15896Slovensk  republika 
 Medis Pharma Slovakia s.r.o. 
-Tel: +42(1)232393 </p>
-<p>This leaflet was last revised in {MM/YYYY}. </p>
+Tel: +42(1)232393This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

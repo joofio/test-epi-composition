@@ -4,7 +4,7 @@ Instance: composition-en-02998b2db7fd4b184d980a78d8dee404
 InstanceOf: CompositionUvEpi
 Title: "Composition for adynovi Package Leaflet"
 Description:  "Composition for adynovi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ADYNOVI is and what it is used for  
-2. What you need to know before you use ADYNOVI 
-3. How to use ADYNOVI 
-4. Possible side effects  
-5. How to store ADYNOVI 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ADYNOVI is and what it is used for  </li>
+<li>What you need to know before you use ADYNOVI </li>
+<li>How to use ADYNOVI </li>
+<li>Possible side effects  </li>
+<li>How to store ADYNOVI </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -271,8 +271,7 @@ Belgium </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-T l/Tel: +32 2 464 06 11<br />
-medinfoEMEA@takeda.com </p>
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
@@ -291,8 +290,7 @@ Takeda Pharma A/S
 Tlf: +45 46 77 10 medinfoEMEA@takeda.com </p>
 <p>Malta 
  akeda HELLAS S.A. 
-Tel: +30 210 6387800<br />
-medinfoEMEA@takeda.com </p>
+Tel: +30 210 6387medinfoEMEA@takeda.com </p>
 <p>Deutschland 
 Takeda GmbH 
 Tel: +49 (0)800 825 3medinfoEMEA@takeda.com </p>
@@ -309,8 +307,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
 T : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
 <p>Espa a 
 Takeda Farmac utica Espa a S.A. 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>

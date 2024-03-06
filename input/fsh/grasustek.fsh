@@ -4,7 +4,7 @@ Instance: composition-en-7d1bb12ba6240a71a9360f68b8249137
 InstanceOf: CompositionUvEpi
 Title: "Composition for grasustek Package Leaflet"
 Description:  "Composition for grasustek Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Grasustek is and what it is used for 
-2. What you need to know before you use Grasustek 
-3. How to use Grasustek 
-4. Possible side effects 
-5. How to store Grasustek 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Grasustek is and what it is used for </li>
+<li>What you need to know before you use Grasustek </li>
+<li>How to use Grasustek </li>
+<li>Possible side effects </li>
+<li>How to store Grasustek </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

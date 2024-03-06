@@ -4,7 +4,7 @@ Instance: composition-en-fc79b24fd8d9aad3e2636eda8908eb2a
 InstanceOf: CompositionUvEpi
 Title: "Composition for aldara Package Leaflet"
 Description:  "Composition for aldara Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1.   What Aldara cream is and what it is used for 
-2.   What you need to know before you use Aldara cream 
-3.   How to use Aldara cream 
-4.   Possible side effects 
-5.   How to store Aldara cream  
-6.   Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Aldara cream is and what it is used for </li>
+<li>What you need to know before you use Aldara cream </li>
+<li>How to use Aldara cream </li>
+<li>Possible side effects </li>
+<li>How to store Aldara cream  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -387,106 +387,82 @@ Germany </p>
 Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Viatris<br />
-T l/Tel: +32 2 658 61<br />
-Luxembourg/Luxemburg 
+T l/Tel: +32 2 658 61 Luxembourg/Luxemburg 
 Viatris<br />
 T l/Tel: +32 2 658 61 (Belgique/Belgien) </p>
-<p>.: +359 2 44 55<br />
-Magyarorsz g 
+<p>.: +359 2 44 55 Magyarorsz g 
 Viatris Healthcare Kft. 
 1138 Budapest 
-V ci  t 150. Tel: +36 1 465 2 
- esk  republika 
+V ci  t 150. Tel: +36 1 465 2 esk  republika 
 Viatris CZ s.r.o. 
-Tel: +420 222 004<br />
-Malta 
+Tel: +420 222 004 Malta 
 V.J. Salomone Pharma Limited 
 Upper Cross Road 
-Marsa, MRS 1Tel: +356 21 22 01<br />
-Danmark 
+Marsa, MRS 1Tel: +356 21 22 01 Danmark 
 Viatris ApS 
-Tlf: +45 28 11 69<br />
-Nederland 
+Tlf: +45 28 11 69 Nederland 
 Mylan Healthcare B.V. 
 Krijgsman 1186 DM Amstelveen 
-Tel: +31 (0)20 426 3 
-Deutschland 
+Tel: +31 (0)20 426 3Deutschland 
 Viatris Healthcare GmbH 
 Tel: +49 800 0700 Norge 
 Viatris AS<br />
 Hagal kkveien 1383 Asker 
-Tlf: +47 66 75 33<br />
-Eesti 
+Tlf: +47 66 75 33 Eesti 
 Viatris O <br />
-Tel: +372 63 63<br />
- sterreich 
+Tel: +372 63 63  sterreich 
 Viatris Austria GmbH 
 Guglgasse 1110 Wien 
-Tel: + 43 (0)1 86 390  </p>
-<p>Viatris Hellas Ltd 
- : +30 210 010 0 
-Polska 
+Tel: + 43 (0)1 86 <br />
+Viatris Hellas Ltd 
+ : +30 210 010 0Polska 
 Viatris Healthcare Sp. z o.o. 
 ul. Post pu 21B 
 02-676 Warszawa 
-Tel: +48 22 546 6 
-Espa a 
+Tel: +48 22 546 6Espa a 
 Viatris Pharmaceuticals, S.L. 
 Tel: +34 900 102 Portugal 
 Viatris Healthcare, Lda. 
 Av. D. Jo o II,<br />
 Edif cio Atlantis, n  44C   7.3 e 7.4 
 1990-095 Lisboa 
-Tel: +351 214 127<br />
-France 
+Tel: +351 214 127 France 
 Viatris Sant <br />
 1 bis place de la D fense   Tour Trinity 
 92400 Courbevoie 
-T l: +33 (0)1 40 80 15 55  </p>
-<p>Rom nia 
+T l: +33 (0)1 40 80 15 Rom nia 
 BGP PRODUCTS SRL 
-Tel.: +40372 579<br />
-Hrvatska 
+Tel.: +40372 579 Hrvatska 
 Viatris Hrvatska d.o.o. 
 Koranska 2 
 10 000  Zagreb 
 Tel: +385 1 2350 Slovenija 
 Viatris d.o.o. 
-Tel: +386 1 23 63  </p>
-<p>Ireland 
+Tel: +386 1 23 63 Ireland 
 Mylan Ireland Limited 
-Tel: +353 1 8711 
-Slovensk  republika 
+Tel: +353 1 8711Slovensk  republika 
 Viatris Slovakia s.r.o. 
-Tel: +421 2 32 199<br />
- sland 
+Tel: +421 2 32 199  sland 
 Icepharma hf. 
-S mi: +354 540 8 
-Suomi/Finland 
+S mi: +354 540 8Suomi/Finland 
 Viatris Oy 
 Vaisalantie 2-8/Vaisalav gen 2-8 
 02130 Espoo/Esbo 
-Puh/Tel: +358 20 720 9 
-Italia 
+Puh/Tel: +358 20 720 9Italia 
 Viatris Italia 
 Via Vittor Pisani, 20124 Milano 
-Tel: +39 0261246 
-Sverige 
+Tel: +39 0261246Sverige 
 Viatris AB 
 Box 23104 35 Stockholm 
-+46 (0) 8 630 19  </p>
-<p>GPA Pharmaceuticals Ltd 
- : +357 22863 
-United Kingdom (Northern Ireland) 
++46 (0) 8 630 19 <br />
+GPA Pharmaceuticals Ltd 
+ : +357 22863United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited 
 Tel: +353 18711Latvija 
 Viatris SIA 
 101 M kusalas str. 
-R ga LV 1T lr: +371 67616 </p>
-<p>Lietuva 
+R ga LV 1T lr: +371 67616Lietuva 
 Viatris UAB 
- algirio str. 90-Vilnius LT-09303<br />
-Tel. + 370 52051 </p>
-<p>This leaflet was last revised in (MM/YYYY). </p>
+ algirio str. 90-Vilnius LT-09Tel. + 370 52051This leaflet was last revised in (MM/YYYY). </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

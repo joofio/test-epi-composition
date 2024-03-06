@@ -4,7 +4,7 @@ Instance: composition-en-08bd32995710017e5d1be3af6c537328
 InstanceOf: CompositionUvEpi
 Title: "Composition for daptomycin Package Leaflet"
 Description:  "Composition for daptomycin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
-1. What Daptomycin Hospira is and what it is used for  
-2. What you need to know before you are given Daptomycin Hospira  
-3. How Daptomycin Hospira is given  
-4. Possible side effects  
-5. How to store Daptomycin Hospira  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
+1. What Daptomycin Hospira is and what it is used for<br />
+2. What you need to know before you are given Daptomycin Hospira<br />
+3. How Daptomycin Hospira is given<br />
+4. Possible side effects<br />
+5. How to store Daptomycin Hospira<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -94,17 +93,13 @@ for advice. </p>
 <p>Warnings and precautions<br />
 Talk to your doctor or nurse before you are given Daptomycin Hospira:</p>
 <ul>
-<li>
-<p>If you have, or have previously had kidney problems. Your doctor may need to change the dose of 
-Daptomycin Hospira (see section 3 of this leaflet).  </p>
-</li>
-<li>
-<p>Occasionally, patients receiving Daptomycin Hospira may develop tender or aching muscles or 
+<li>If you have, or have previously had kidney problems. Your doctor may need to change the dose of 
+Daptomycin Hospira (see section 3 of this leaflet).  </li>
+<li>Occasionally, patients receiving Daptomycin Hospira may develop tender or aching muscles or 
 muscle weakness (see section 4 of this leaflet for more information). If this happens tell your doctor. 
 Your doctor will make sure you have a blood test and will advise whether or not to continue with 
 Daptomycin Hospira. The symptoms generally go away within a few days of stopping Daptomycin 
-Hospira.  </p>
-</li>
+Hospira.  </li>
 <li>If you have ever developed a severe skin rash or skin peeling, blistering and/or mouth sores, or 
 serious kidney problems after taking daptomycin. </li>
 <li>If you are very overweight. There is a possibility that your blood levels of Daptomycin Hospira 
@@ -258,15 +253,13 @@ additional tests to make a diagnosis. </li>
 - Fever, weakness (asthenia),<br />
 - High or low blood pressure,<br />
 - Constipation, abdominal pain,<br />
-- Diarrhoea, feeling sick (nausea) or being sick (vomiting),  </p>
-<ul>
-<li>Flatulence,  </li>
-<li>Abdominal swelling or bloating,  </li>
-<li>Skin rash or itching,  </li>
-<li>Pain, itchiness or redness at the site of infusion,  </li>
-<li>Pain in arms or legs,  </li>
-<li>Blood testing showing higher levels of liver enzymes or creatine phosphokinase (CPK).  </li>
-</ul>
+- Diarrhoea, feeling sick (nausea) or being sick (vomiting),<br />
+- Flatulence,<br />
+- Abdominal swelling or bloating,<br />
+- Skin rash or itching,<br />
+- Pain, itchiness or redness at the site of infusion,<br />
+- Pain in arms or legs,<br />
+- Blood testing showing higher levels of liver enzymes or creatine phosphokinase (CPK).  </p>
 <p>Other side effects which may occur following daptomycin treatment are described below:  </p>
 <p>Uncommon: may affect up to 1 in 100 people<br />
 - Blood disorders (e.g. increased number of small blood particles called platelets, which may increase 
@@ -329,96 +322,73 @@ Boulevard de la Plaine 1050 Bruxelles
 Belgium </p>
 <p>Manufacturer<br />
 Pfizer Service Company BV 
-Hoge Wei 10<br />
-1930 Zaventem<br />
+Hoge Wei 1930 Zaventem<br />
 Belgium </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder. </p>
 <p>Belgi /Belgique/Belgien 
 Luxembourg/Luxemburg 
 Pfizer NV/SA 
-T l/Tel: + 32 (0)2 554 62<br />
-Lietuva 
+T l/Tel: + 32 (0)2 554 62 Lietuva 
 Pfizer Luxembourg SARL filialas Lietuvoje 
-Tel: + 370 5 251 4 </p>
-<pre><code> ,
-</code></pre>
-<p>.: + 359 2 970 4 
-Magyarorsz g 
+Tel: + 370 5 251 4<br />
+     ,   <br />
+ .: + 359 2 970 4Magyarorsz g 
 Pfizer Kft. 
-Tel.: + 36 1 488 37<br />
- esk  republika 
+Tel.: + 36 1 488 37  esk  republika 
 Pfizer, spol. s r.o. 
-Tel: +420 283 004<br />
-Malta 
+Tel: +420 283 004 Malta 
 Drugsales Ltd 
 Tel: + 356 21419070/1/2 </p>
 <p>Danmark 
 Pfizer ApS 
-Tlf: + 45 44 20 11<br />
-Nederland 
+Tlf: + 45 44 20 11 Nederland 
 Pfizer bv 
-Tel: + 31 (0)800 63 34<br />
-Deutschland 
+Tel: + 31 (0)800 63 34 Deutschland 
 PFIZER PHARMA GmbH 
-Tel: + 49 (0)30 550055-51 
-Norge 
+Tel: + 49 (0)30 550055-51Norge 
 Pfizer AS 
 Tlf: + 47 67 52 61 Eesti 
 Pfizer Luxembourg SARL Eesti filiaal 
-Tel: + 372 666 7 
- sterreich<br />
+Tel: + 372 666 7 sterreich<br />
 Pfizer Corporation Austria Ges.m.b.H. 
 Tel: + 43 (0)1 521 15-0 </p>
 <p>Pfizer   A.E. 
- .: + 30 210 6785 
-Polska 
+ .: + 30 210 6785Polska 
 Pfizer Polska Sp. z o.o. 
 Tel.: + 48 22 335 61 Espa a 
 Pfizer, S.L. <br />
-Tel: + 34 91 490 99<br />
-Portugal 
+Tel: + 34 91 490 99 Portugal 
 Laborat rios Pfizer, Lda. 
-Tel: + 351 21 423 5 
-France 
+Tel: + 351 21 423 5France 
 Pfizer<br />
-T l: + 33 (0)1 58 07 34<br />
-Rom nia 
+T l: + 33 (0)1 58 07 34 Rom nia 
 Pfizer Romania S.R.L. 
-Tel: + 40 (0) 21 207 28<br />
-Hrvatska 
+Tel: + 40 (0) 21 207 28 Hrvatska 
 Pfizer Croatia d.o.o. 
-Tel: + 385 1 3908<br />
-Slovanija 
+Tel: + 385 1 3908 Slovanija 
 Pfizer Luxembourg SARL 
 Pfizer, podru nica za svetovanje s podro ja 
 farmacevtske dejavnosti, Ljubljana 
 Tel: + 386 (0)1 52 11 Ireland 
 Pfizer Healthcare Ireland 
 Tel: + 1800 633 363 (toll free) 
-Tel: + 44 (0)1304 616 
-Slovensk  republika 
+Tel: + 44 (0)1304 616Slovensk  republika 
 Pfizer Luxembourg SARL, organiza n  zlo ka 
-Tel: + 421 2 3355 5 
- sland 
+Tel: + 421 2 3355 5 sland 
 Icepharma hf. 
-S mi: + 354 540 8 
-Suomi/Finland 
+S mi: + 354 540 8Suomi/Finland 
 Pfizer Oy 
 Puh/Tel: +358 (0)9 430 Italia 
 Pfizer S.r.l.<br />
-Tel: + 39 06 33 18<br />
-Sverige 
+Tel: + 39 06 33 18 Sverige 
 Pfizer AB 
-Tel: + 46 (0)8 550 520  </p>
-<p>Pharmaceutical Trading Co Ltd<br />
- : + 357 24656 
-United Kingdom (Northern Ireland) 
+Tel: + 46 (0)8 550 520  <br />
+Pharmaceutical Trading Co Ltd<br />
+ : + 357 24656United Kingdom (Northern Ireland) 
 Pfizer Limited<br />
-Tel: + 44 (0) 1304 616 
-Latvija 
+Tel: + 44 (0) 1304 616Latvija 
 Pfizer Luxembourg SARL fili le Latvij<br />
-Tel: + 371 670 35  </p>
-<p>This leaflet was last revised in  </p>
+Tel: + 371 670 35 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

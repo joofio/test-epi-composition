@@ -4,7 +4,7 @@ Instance: composition-en-b84f73de4fe7a1b440cc28651d9b5407
 InstanceOf: CompositionUvEpi
 Title: "Composition for fendrix Package Leaflet"
 Description:  "Composition for fendrix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Fendrix is and what it is used for 
-2. What you need to know before you receive  Fendrix  
+2. What you need to know before you receive  Fendrix<br />
 3. How Fendrix is given 
 4. Possible side effects 
 5. How to store Fendrix 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -93,12 +93,8 @@ mean the person might need treatment in hospital. Most people fully recover from
 antibodies will protect you against the disease. </li>
 <li>Fendrix contains two things called  MPL  (a non-toxic purified fat derivative from bacteria) and 
  aluminium phosphate . These make the vaccine work quicker, better and last for longer. </li>
-<li>
-<p>As with all vaccines, a course of Fendrix cannot fully protect all people that are vaccinated. </p>
-</li>
-<li>
-<p>Fendrix may not protect you from being ill if you have already caught the hepatitis B virus. </p>
-</li>
+<li>As with all vaccines, a course of Fendrix cannot fully protect all people that are vaccinated. </li>
+<li>Fendrix may not protect you from being ill if you have already caught the hepatitis B virus. </li>
 <li>Fendrix can only help to protect you against infection with the hepatitis B virus. It cannot protect 
 you against other infections that can affect the liver - even though these infections might have 
 signs similar to those caused by the hepatitis B virus. </li>
@@ -211,8 +207,8 @@ feeling thirsty, feeling nervous, infection caused by a virus, back pain, swelli
 <p>Very rare (these may occur with up to 1 in 10,000 doses of the vaccine): fits, fainting, problems with 
 the nerves of your eye (optic neuritis), multiple sclerosis, loss of feeling or problems moving some 
 parts of your body, severe headache with a stiff neck, numbness or weakness of the arms and legs 
-(neuropathy), inflammation of nerves (neuritis), weakness and paralysis in the extremities and often </p>
-<p>progressing to the chest and face (Guillain-Barr  syndrome), swelling or infection of the brain 
+(neuropathy), inflammation of nerves (neuritis), weakness and paralysis in the extremities and often 
+ progressing to the chest and face (Guillain-Barr  syndrome), swelling or infection of the brain 
 (encephalitis, encephalopathy).<br />
 Allergic reactions, including anaphylactoid reactions, may also occur very rarely (with up to 1 in 
 10,000 doses of the vaccine). These may be local or widespread rashes that may be itchy or blistering, 
@@ -276,5 +272,85 @@ to throw away medicines you no longer use. These measures will help to protect t
 <p>What Fendrix looks like and contents of the pack </p>
 <p>Fendrix is a white and milky suspension.  </p>
 <p>Fendrix is available in 1-dose pre-filled syringe with or without separate needles, pack sizes of 1 and 
-1</p>         </div>"""      
+10. Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder and Manufacturer: 
+ GlaxoSmithKline Biologicals s.a. 
+Rue de l Institut B-1330 Rixensart 
+Belgium </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation holder. </p>
+<p>Belgi /Belgique/Belgien 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+T l/Tel: + 32 10 85 52 Lietuva 
+GlaxoSmithKline Biologicals SA 
+Tel. +370 80000<br />
+GlaxoSmithKline Biologicals SA 
+ . +359 80018Luxembourg/Luxemburg 
+GlaxoSmithKline Pharmaceuticals SA/NV 
+T l/Tel: + 32 10 85 52  esk  republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 2 22 00 11 cz.info@gsk.com </p>
+<p>Magyarorsz g 
+GlaxoSmithKline Biologicals SA 
+Tel.: +36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+GlaxoSmithKline Biologicals SA 
+Tel: +356 80065Deutschland 
+GlaxoSmithKline GmbH &amp; Co. KG 
+Tel: + 49 (0)89 360448produkt.info@gsk.com </p>
+<p>Nederland 
+GlaxoSmithKline BV 
+Tel: + 31 (0)33 2081Eesti 
+GlaxoSmithKline Biologicals SA 
+Tel: +372 8002Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 <br />
+GlaxoSmithKline   A.E.B.E. 
+T : + 30 210 68 82  sterreich 
+GlaxoSmithKline Pharma GmbH. 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>Espa a 
+GlaxoSmithKline, S.A. 
+Tel: + 34 900 202 es-ci@gsk.com  </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (22) 576 9France 
+Laboratoire GlaxoSmithKline 
+T l: + 33 (0) 1 39 17 84 diam@gsk.com </p>
+<p>Hrvatska 
+GlaxoSmithKline Biologicals SA 
+Tel.: +385 800787Portugal 
+Smith Kline &amp; French Portuguesa - Produtos 
+Farmac uticos, Lda. 
+Tel: + 351 21 412 95 FI.PT@gsk.com </p>
+<p>Rom nia 
+GlaxoSmithKline Biologicals SA 
+Tel: +40 800672 Ireland 
+GlaxoSmithKline (Ireland) Ltd 
+Tel: + 353 (0)1 495 5Slovenija 
+GlaxoSmithKline Biologicals SA 
+Tel: +386 80688 sland 
+Vistor hf.<br />
+S mi: +354 535 7Slovensk  republika 
+GlaxoSmithKline Biologicals SA 
+Tel: +421 800500Italia 
+GlaxoSmithKline S.p.A. 
+Tel: + 39 (0)45 7741 Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 10 30 30 <br />
+GlaxoSmithKline Biologicals SA 
+ : +357 80070Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+GlaxoSmithKline Biologicals SA 
+Tel: +371 80205United Kingdom (Northern Ireland)<br />
+GlaxoSmithKline Biologicals SA 
+Tel: +44(0)800 221customercontactuk@gsk.com </p>
+<p>This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
 

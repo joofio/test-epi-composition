@@ -4,7 +4,7 @@ Instance: composition-en-3a7989268aa40003bfe0c300bbb6b42f
 InstanceOf: CompositionUvEpi
 Title: "Composition for minjuvi Package Leaflet"
 Description:  "Composition for minjuvi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What MINJUVI is and what it is used for  
-2. What you need to know before you use MINJUVI 
-3. How to use MINJUVI 
-4. Possible side effects 
-5. How to store MINJUVI 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What MINJUVI is and what it is used for  </li>
+<li>What you need to know before you use MINJUVI </li>
+<li>How to use MINJUVI </li>
+<li>Possible side effects </li>
+<li>How to store MINJUVI </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -307,8 +307,8 @@ Each carton contains 1 vial. </p>
 Incyte Biosciences Distribution B.V. 
 Paasheuvelweg 1105 BP Amsterdam 
 Netherlands  </p>
-<p>This leaflet was last revised in MM/YYYY. </p>
-<p>This medicine has been given  conditional approval . This means that there is more evidence to come 
+<p>This leaflet was last revised in MM/YYYY. 
+This medicine has been given  conditional approval . This means that there is more evidence to come 
 about this medicine. 
 The European Medicines Agency will review new information on this medicine at least every year and 
 this leaflet will be updated as necessary. </p>

@@ -4,7 +4,7 @@ Instance: composition-en-70c37efbcc66b94190d4774fa8f2fb33
 InstanceOf: CompositionUvEpi
 Title: "Composition for vegzelma Package Leaflet"
 Description:  "Composition for vegzelma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What VEGZELMA is and what it is used for  
-2. What you need to know before you are given VEGZELMA  
-3. How to use VEGZELMA  
-4. Possible side effects  
-5. How to store VEGZELMA  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What VEGZELMA is and what it is used for  </li>
+<li>What you need to know before you are given VEGZELMA  </li>
+<li>How to use VEGZELMA  </li>
+<li>Possible side effects  </li>
+<li>How to store VEGZELMA  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -178,8 +178,8 @@ have received an injection of bisphosphonate into your blood.  </p>
 <p>VEGZELMA use is not recommended in children and adolescents under the age of 18 years because 
 the safety and benefit have not been established in these patient populations. </p>
 <p>Death of bone tissue (osteonecrosis) in bones other than the jaw have been reported in patients under 
-18 years old when treated with bevacizumab.  </p>
-<p>Other medicines and VEGZELMA </p>
+18 years old when treated with bevacizumab.<br />
+Other medicines and VEGZELMA </p>
 <p>Tell your doctor, pharmacist or nurse if you are taking, have recently taken or might take any other 
 medicines. </p>
 <p>Combinations of VEGZELMA with another medicine called sunitinib malate (prescribed for renal and 
@@ -465,88 +465,65 @@ Authorisation Holder: </p>
 Celltrion Healthcare Belgium BVBA<br />
 Lietuva 
 Celltrion Healthcare Hungary Kft. 
-T l/Tel: + 32 1528 7 
-Tel.: +36 1 231 0 </p>
-<p>Celltrion Healthcare Hungary Kft. 
-Te .: +36 1 231 0 
-Luxembourg/Luxemburg 
+T l/Tel: + 32 1528 7Tel.: +36 1 231 0<br />
+Celltrion Healthcare Hungary Kft. 
+Te .: +36 1 231 0Luxembourg/Luxemburg 
 Celltrion Healthcare Belgium BVBA<br />
-T l/Tel: + 32 1528 7<br />
- esk  republika 
+T l/Tel: + 32 1528 7 esk  republika 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Magyarorsz g 
+Tel: +36 1 231 0Magyarorsz g 
 Celltrion Healthcare Hungary Kft. 
-Tel.: +36 1 231 0 
-Danmark 
+Tel.: +36 1 231 0Danmark 
 Celltrion Healthcare Hungary Kft.<br />
-Tlf: +36 1 231 0<br />
-Malta 
+Tlf: +36 1 231 0Malta 
 Mint Health Ltd. 
 Tel: +356 2093 9Deutschland 
 Celltrion Healthcare Deutschland GmbH<br />
 Tel: +49 (0)30 346494infoDE@celltrionhc.com </p>
 <p>Nederland 
 Celltrion Healthcare Netherlands B.V.<br />
-Tel: + 31 20 888 7 
-Eesti 
+Tel: + 31 20 888 7Eesti 
 Celltrion Healthcare Hungary Kft.<br />
-Tel: +36 1 231 0<br />
-Norge 
+Tel: +36 1 231 0Norge 
 Celltrion Healthcare Hungary Kft.<br />
 Tlf: +36 1 231 0Espa a 
 Kern Pharma, S.L. 
-Tel: +34 93 700 2 
- sterreich 
+Tel: +34 93 700 2 sterreich 
 Astro-Pharma GmbH 
-Tel: +43 1 97 99  </p>
-<p>. . 
- : +30 210 8009111 -<br />
-Polska 
+Tel: +43 1 97 99 <br />
+   . . 
+ : +30 210 8009111 - Polska 
 Celltrion Healthcare Hungary Kft. 
-Tel.: +36 1 231 0 
-France 
+Tel.: +36 1 231 0France 
 CELLTRION HEALTHCARE FRANCE SAS 
-T l.: +33 (0)1 71 25 27<br />
-Portugal 
+T l.: +33 (0)1 71 25 27 Portugal 
 PharmaKERN Portugal - Produtos 
 Farmac uticos, Sociedade Unipessoal, Lda. 
-Tel: +351 214 200<br />
-Hrvatska 
+Tel: +351 214 200 Hrvatska 
 Oktal Pharma d.o.o. 
-Tel: +385 1 6595<br />
-Rom nia 
+Tel: +385 1 6595 Rom nia 
 Celltrion Healthcare Hungary Kft.<br />
-Tel: +36 1 231 0 
-Ireland 
+Tel: +36 1 231 0Ireland 
 Celltrion Healthcare Ireland Limited<br />
-Tel: +353 1 223 4 
-Slovenija 
+Tel: +353 1 223 4Slovenija 
 OPH Oktal Pharma d.o.o. 
-Tel.: +386 1 519 29<br />
- sland 
+Tel.: +386 1 519 29  sland 
 Celltrion Healthcare Hungary Kft.<br />
-S mi: +36 1 231 0 
-Slovensk  republika 
+S mi: +36 1 231 0Slovensk  republika 
 Celltrion Healthcare Hungary Kft. 
-Tel: +36 1 231 0 
-Italia 
+Tel: +36 1 231 0Italia 
 Celltrion Healthcare Italy S.R.L.<br />
-Tel: +39 0247927 
-Suomi/Finland 
+Tel: +39 0247927Suomi/Finland 
 Celltrion Healthcare Finland Oy. 
 Puh/Tel: +358 29 170 7<br />
 C.A. Papaellinas Ltd 
- : +357 22741 
-Sverige 
+ : +357 22741Sverige 
 Celltrion Healthcare Hungary Kft.<br />
-Tel: +36 1 231 0 
-Latvija 
+Tel: +36 1 231 0Latvija 
 United Kingdom (Northern Ireland) 
 Celltrion Healthcare Hungary Kft. 
 T lr.: +36 1 231 0Celltrion Healthcare Ireland Limited<br />
-Tel: +353 1 223 4 </p>
-<p>This leaflet was last revised in <em>{MM/YYYY}</em>. </p>
+Tel: +353 1 223 4This leaflet was last revised in &lt;{MM/YYYY}&gt;. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

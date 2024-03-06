@@ -4,7 +4,7 @@ Instance: composition-en-dac9f5296bbae6c42cca031529e9fd3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for elocta Package Leaflet"
 Description:  "Composition for elocta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What ELOCTA is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What ELOCTA is and what it is used for<br />
 2. What you need to know before you use ELOCTA 
-3. How to use ELOCTA  
-4. Possible side effects  
+3. How to use ELOCTA<br />
+4. Possible side effects<br />
 5. How to store ELOCTA 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -225,6 +224,17 @@ Each vial of ELOCTA contains nominally 250, 500, 750, 1000, 1500, 2000, 3000 or 
 efmoroctocog alfa. </li>
 <li>The other ingredients are sucrose, sodium chloride, histidine, calcium chloride dihydrate, polysorbate 
 20, sodium hydroxide, hydrochloric acid and water for injections. If you are on a controlled sodium 
-diet, see section </li>
-</ul>         </div>"""      
+diet, see section 2. What ELOCTA looks like and contents of the pack </li>
+</ul>
+<p>ELOCTA is provided as a powder and solvent for solution for injection. The powder is a white to off-white 
+powder or cake. The solvent provided for preparation of the solution to inject, is a clear, colourless solution. 
+After preparation, the solution to inject is clear to slightly opalescent and colourless. </p>
+<p>Each pack of ELOCTA contains 1 powder vial, 3 mL solvent in pre-filled syringe, 1 plunger rod, 1 vial 
+adapter, 1 infusion set, 2 alcohol swabs, 2 plasters and 1 gauze pad. </p>
+<p>Marketing Authorisation Holder and Manufacturer 
+Swedish Orphan Biovitrum AB (publ)<br />
+SE-112 76 Stockholm 
+Sweden </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

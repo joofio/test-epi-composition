@@ -4,7 +4,7 @@ Instance: composition-en-42901eb273bd1fa1c559a078fd30641d
 InstanceOf: CompositionUvEpi
 Title: "Composition for dectova Package Leaflet"
 Description:  "Composition for dectova Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Dectova is and what it is used for 
 2. What you need to know before you are given Dectova 
 3. How Dectova is given 
 4. Possible side effects 
 5. How to store Dectova 
-6.  Contents of the pack and other information 
-         </div>"""   
+6.  Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -137,8 +136,8 @@ your doctor or nurse immediately.  </p>         </div>"""
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "4. Possible side effects"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Dectova can cause side effects, although not everybody gets them. </p>
-<p>Serious skin and allergic reactions may occur with Dectova, but there isn t enough information to 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, Dectova can cause side effects, although not everybody gets them. 
+Serious skin and allergic reactions may occur with Dectova, but there isn t enough information to 
 estimate how likely they are. Contact your doctor or nurse straight away if you notice any of the following 
 serious side effects: 
 * very severe skin reactions such as: * a skin rash, which may blister, and looks like small targets (erythema multiforme) * a widespread rash with blisters and peeling skin, particularly occurring around the mouth, 
@@ -185,8 +184,8 @@ By reporting side effects you can help provide more information on the safety of
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Dectova contains 
-The active substance is zanamivir. </p>
-<p>Each mL of Dectova contains 10 mg of zanamivir (as hydrate). Each vial contains 200 mg of zanamivir (as 
+The active substance is zanamivir. 
+Each mL of Dectova contains 10 mg of zanamivir (as hydrate). Each vial contains 200 mg of zanamivir (as 
 hydrate) in 20 mL. 
 Other ingredients are sodium chloride and water for injections. </p>
 <p>What Dectova looks like and contents of the pack 
@@ -207,23 +206,19 @@ Italy </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
-T l/Tel: + 32 (0) 10 85 52<br />
-Lietuva<br />
+T l/Tel: + 32 (0) 10 85 52 Lietuva<br />
 GlaxoSmithKline Trading Services Limited<br />
 Tel: +370 80000 <br />
 GlaxoSmithKline Trading Services Limited<br />
-Te .: +359 80018 
-Luxembourg/Luxemburg<br />
+Te .: +359 80018Luxembourg/Luxemburg<br />
 GlaxoSmithKline Pharmaceuticals s.a./n.v. 
 Belgique/Belgien 
-T l/Tel: + 32 (0) 10 85 52<br />
- esk  republika<br />
+T l/Tel: + 32 (0) 10 85 52  esk  republika<br />
 GlaxoSmithKline, s.r.o. 
 Tel: + 420 222 001 cz.info@gsk.com 
 Magyarorsz g<br />
 GlaxoSmithKline Trading Services Limited<br />
-Tel.: +36 80088 
-Danmark<br />
+Tel.: +36 80088Danmark<br />
 GlaxoSmithKline Pharma A/S 
 Tlf: + 45 36 35 91 dk-info@gsk.com </p>
 <p>Malta<br />
@@ -233,16 +228,13 @@ GlaxoSmithKline GmbH &amp; Co. KG
 Tel.: + 49 (0)89 36044 8produkt.info@gsk.com </p>
 <p>Nederland<br />
 GlaxoSmithKline BV 
-Tel: + 31 (0)33 2081 
-Eesti<br />
+Tel: + 31 (0)33 2081Eesti<br />
 GlaxoSmithKline Trading Services Limited<br />
-Tel: +372 8002 
-Norge<br />
+Tel: +372 8002Norge<br />
 GlaxoSmithKline AS 
-Tlf: + 47 22 70 20  </p>
-<p>GlaxoSmithKline   A.E.B.E. 
- : + 30 210 68 82<br />
- sterreich<br />
+Tlf: + 47 22 70 20  <br />
+GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich<br />
 GlaxoSmithKline Pharma GmbH 
 Tel: + 43 (0)1 97075 0 
 at.info@gsk.com </p>
@@ -259,35 +251,28 @@ GlaxoSmithKline   Produtos Farmac uticos, Lda.
 Tel: + 351 21 412 95 FI.PT@gsk.com 
 Hrvatska 
 GlaxoSmithKline Trading Services Limited<br />
-Tel: +385 800787 
-Rom nia<br />
+Tel: +385 800787Rom nia<br />
 GlaxoSmithKline Trading Services Limited<br />
 Tel: +40 800672Ireland<br />
 GlaxoSmithKline (Ireland) Limited 
-Tel: + 353 (0)1 4955 
-Slovenija<br />
+Tel: + 353 (0)1 4955Slovenija<br />
 GlaxoSmithKline Trading Services Limited 
-Tel: +386 80688 
- sland<br />
+Tel: +386 80688 sland<br />
 Vistor hf. 
-S mi:  +354 535 7 
-Slovensk  republika<br />
+S mi:  +354 535 7Slovensk  republika<br />
 GlaxoSmithKline Trading Services Limited 
-Tel: +421 800500 
-Italia<br />
+Tel: +421 800500Italia<br />
 GlaxoSmithKline S.p.A. 
 Tel: + 39 (0)45 7741 Suomi/Finland<br />
 GlaxoSmithKline Oy 
-Puh/Tel: + 358 (0)10 30 30  </p>
-<p>GlaxoSmithKline Trading Services Limited<br />
- : +357 80070 </p>
-<p>Sverige 
+Puh/Tel: + 358 (0)10 30 30 <br />
+GlaxoSmithKline Trading Services Limited<br />
+ : +357 80070Sverige 
 GlaxoSmithKline AB 
 Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
 <p>Latvija 
 GlaxoSmithKline Trading Services Limited<br />
-Tel: +371 80205 
-United Kingdom (Northern Ireland) 
+Tel: +371 80205United Kingdom (Northern Ireland) 
 GlaxoSmithKline Trading Services Limited 
 Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in {month YYYY}.  </p>

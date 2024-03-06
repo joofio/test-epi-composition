@@ -4,7 +4,7 @@ Instance: composition-en-918183ebe8d737590835d2d1ada752f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for azacitidine Package Leaflet"
 Description:  "Composition for azacitidine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Azacitidine betapharm is and what it is used for 
-2. What you need to know before you use Azacitidine betapharm 
-3. How to use Azacitidine betapharm 
-4. Possible side effects 
-5. How to store Azacitidine betapharm 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Azacitidine betapharm is and what it is used for </li>
+<li>What you need to know before you use Azacitidine betapharm </li>
+<li>How to use Azacitidine betapharm </li>
+<li>Possible side effects </li>
+<li>How to store Azacitidine betapharm </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -114,14 +114,7 @@ You will have blood tests before you begin treatment with Azacitidine betapharm 
 each period of treatment (called a  cycle ). This is to check that you have enough blood cells and that 
 your liver and kidneys are working properly. </p>
 <p>Children and adolescents 
-Azacitidine betapharm is not recommended for use in children and adolescents below the age of 1</p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take azacitidine"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take azacitidine"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Azacitidine betapharm 
+Azacitidine betapharm is not recommended for use in children and adolescents below the age of 18. Other medicines and Azacitidine betapharm 
 Tell your doctor or pharmacist if you are using, have recently used or might use any other medicines. 
 This is because Azacitidine betapharm may affect the way some other medicines work. Also, some 
 other medicines may affect the way Azacitidine betapharm works. </p>
@@ -142,13 +135,12 @@ an effective method of contraception while taking Azacitidine betapharm and for 
 stopping treatment with Azacitidine betapharm. </p>
 <p>Talk to your doctor if you wish to conserve your sperm before starting this treatment. </p>
 <p>Driving and using machines 
-Do not drive or use any tools or machines if you experience side effects, such as tiredness. </p>         </div>"""         
-
-        
+Do not drive or use any tools or machines if you experience side effects, such as tiredness. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take azacitidine"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take azacitidine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Before giving you Azacitidine betapharm, your doctor will give you another medicine to prevent 
 nausea and vomiting at the start of each treatment cycle. </p>
@@ -166,12 +158,13 @@ This  treatment cycle  will be repeated every 4 weeks. You will usually receive 
 </ul>
 <p>This medicine will be given to you as an injection under the skin (subcutaneously) by a doctor or 
 nurse. It may be given under the skin on your thigh, tummy or upper arm. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store azacitidine"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store azacitidine"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Tell your doctor straight away if you notice any of the following side effects: 
@@ -291,11 +284,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store azacitidine"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store azacitidine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor, pharmacist or nurse are responsible for storing Azacitidine betapharm. They are also 
 responsible for preparing and disposing of any unused Azacitidine betapharm correctly. </p>
@@ -315,4 +307,146 @@ immediately after it is prepared and kept refrigerated for up to a maximum of 22
 <p>The suspension should be allowed to reach room temperature (20  C to 25  C) up to 30 minutes prior 
 to administration. </p>
 <p>If large particles are present in the suspension it should be discarded. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Azacitidine betapharm contains 
+- The active substance is azacitidine. One vial contains 100 mg azacitidine. After reconstitution 
+with 4 mL of water for injections, the reconstituted suspension contains 25 mg/mL azacitidine. 
+- The other ingredient is mannitol (E 421). </p>
+<p>What Azacitidine betapharm looks like and contents of the pack 
+Azacitidine betapharm is a white to off-white powder for suspension for injection and is supplied in a 
+glass vial containing 100 mg of azacitidine. Each pack contains one vial. </p>
+<p>Marketing Authorisation Holder and Manufacturer </p>
+<p>betapharm Arzneimittel GmbH 
+Kobelweg 86156 Augsburg 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+betapharm Arzneimittel GmbH 
+T l/Tel: + 49 821 74881 0 
+info@betapharm.de 
+Lietuva 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de </p>
+<p>betapharm Arzneimittel GmbH 
+Te .: +49 821 74881 0 
+info@betapharm.de </p>
+<p>Luxembourg/Luxemburg 
+betapharm Arzneimittel GmbH 
+T l/Tel: + 49 821 74881 0 
+info@betapharm.de 
+ esk  republika 
+betapharm Arzneimittel GmbH 
+Tel: +49 821 74881 0 
+info@betapharm.de 
+Magyarorsz g 
+betapharm Arzneimittel GmbH 
+Tel.: + 49 821 74881 0 
+info@betapharm.de 
+Danmark 
+betapharm Arzneimittel GmbH 
+Tlf: + 49 821 74881 0 
+info@betapharm.de </p>
+<p>Malta 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de 
+Deutschland 
+betapharm Arzneimittel GmbH 
+Kobelweg 86156 Augsburg 
+Tel: + 49 821 74881 0 
+info@betapharm.de </p>
+<p>Nederland 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de 
+Eesti 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de </p>
+<p>Norge 
+betapharm Arzneimittel GmbH 
+Tlf: + 49 821 74881 0 
+info@betapharm.de </p>
+<p>betapharm Arzneimittel GmbH 
+ : + 49 821 74881 0 
+info@betapharm.de </p>
+<p>sterreich 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de 
+Espa a 
+Reddy Pharma Iberia S.A.U. 
+Avenida Josep Tarradellas n  E-08029 Barcelona 
+Tel: + 34 93 355 49 spain@drreddys.com 
+Polska 
+betapharm Arzneimittel GmbH 
+Tel.: + 49 821 74881 0 
+info@betapharm.de </p>
+<p>France 
+Reddy Pharma SAS 
+9 avenue Edouard Belin 
+F-92500 Rueil-Malmaison 
+T l: + 33 1 85 78 17 pv-infomedfrance@drreddys.com </p>
+<p>Portugal 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de 
+Hrvatska 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de 
+Rom nia 
+Dr. Reddy s Laboratories Romania SRL 
+Tel: + 4021 224 0office@drreddys.ro </p>
+<p>Ireland 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de 
+Slovenija 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de </p>
+<p>sland 
+betapharm Arzneimittel GmbH 
+S mi: + 49 821 74881 0 
+info@betapharm.de 
+Slovensk  republika 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de </p>
+<p>Italia 
+Dr. Reddy s S.r.l. 
+Piazza Santa Maria Beltrade, 1 
+I-20123 Milano 
+Tel: + 39(0)2 70106infoitaly@drreddys.com </p>
+<p>Suomi/Finland 
+betapharm Arzneimittel GmbH 
+Puh/Tel: + 49 821 74881 0 
+info@betapharm.de </p>
+<p>betapharm Arzneimittel GmbH 
+ : + 49 821 74881 0 
+info@betapharm.de </p>
+<p>Sverige 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de 
+Latvija 
+betapharm Arzneimittel GmbH 
+Tel: + 49 821 74881 0 
+info@betapharm.de 
+United Kingdom (Northern Ireland) 
+Dr. Reddy's Laboratories (UK) Limited 
+6 Riverview Road, East Riding Of Yorkshire 
+HU17 0LD Beverley 
+Tel: + 44(0)1482 389customerseviceuk@drrredys.com  </p>
+<p>This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-e03871853d4da5dc011fec7c683b275d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ziagen Package Leaflet"
 Description:  "Composition for ziagen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet<br />
 1. What Ziagen is and what it is used for 
 2. What you need to know before you take Ziagen 
 3. How to take Ziagen 
 4. Possible side effects 
-5. How to store Ziagen  
-6. Contents of the pack and other information 
-         </div>"""   
+5. How to store Ziagen<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -88,14 +87,7 @@ effectiveness of your treatment. </p>         </div>"""
 if you are allergic (hypersensitive) to abacavir (or any other medicine containing abacavir  such 
 as Trizivir, Triumeq or Kivexa) or any of the other ingredients of this medicine (listed in Section 
 6) 
-Carefully read all the information about hypersensitivity reactions in Section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take ziagen"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take ziagen"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Check with your doctor if you think   this applies to you.  </p>
+Carefully read all the information about hypersensitivity reactions in Section 4. Check with your doctor if you think   this applies to you.  </p>
 <p>Take special care with Ziagen<br />
 Some people taking Ziagen for HIV are more at risk of serious side effects. You need to be aware of 
 the extra risks: 
@@ -160,13 +152,12 @@ soon as possible.  </p>
 Do not drive or operate machines unless you are feeling well.  </p>
 <p>Important information about some of the other ingredients of Ziagen tablets. 
 This medicine contains less than 1 mmol sodium (23 mg) per dosage unit, that is to say essentially 
- sodium-free . </p>         </div>"""         
-
-        
+ sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take ziagen"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take ziagen"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor has told you. Check with your doctor or pharmacist 
 if you are not sure. 
@@ -210,12 +201,13 @@ symptoms were related to a hypersensitivity reaction. If the doctor thinks they 
 related, you will be told never again to take Ziagen, or any other medicine containing abacavir 
 (e.g. Triumeq,Trizivir or Kivexa). It is important that you follow this advice. </p>
 <p>If your doctor advises that you can start taking Ziagen again, you may be asked to take your first doses 
-in a place where you will have ready access to medical care if you need it. </p>         </div>"""      
+in a place where you will have ready access to medical care if you need it. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store ziagen"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store ziagen"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>During HIV therapy there may be an increase in weight and in levels of blood lipids and glucose. This 
 is partly linked to restored health and life style, and in the case of blood lipids sometimes to the HIV 
@@ -370,16 +362,109 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
+* section[=].section[+]
+  * title = "5. How to store ziagen"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store ziagen"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
+<p>Do not take this medicine after the expiry date which is stated on the carton. The expiry date refers to 
+the last day of that month. </p>
+<p>Do not store above 30 C.<br />
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures help protect the environment.  </p>         </div>"""      
+        
         
 * section[=].section[+]
   * title = "6. Contents of the pack and other information"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.  </p>
-<p>Do not take this medicine after the expiry date which is stated on the carton. The expiry date refers to 
-the last day of that month. </p>
-<p>Do not store above 30 C.  </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
-throw away medicines you no longer use. These measures help protect the environment.  </p>         </div>"""      
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Ziagen contains<br />
+The active substance in each Ziagen film-coated, scored tablet is 300 mg of abacavir (as sulfate).  </p>
+<p>The other ingredients are microcrystalline cellulose, sodium starch glycollate, magnesium stearate and 
+colloidal anhydrous silica in the core of the tablet. The tablet coating contains triacetin, 
+methylhydroxypropylcellulose, titanium dioxide, polysorbate 80 and iron oxide yellow. </p>
+<p>What Ziagen looks like and contents of the pack<br />
+Ziagen film-coated tablets are engraved with  GX 623  on both sides. The scored tablets are yellow 
+and capsule-shaped and are provided in blister packs containing 60 tablets.  </p>
+<p>Marketing Authorisation Holder:<br />
+ViiV Healthcare BV, Van Asch van Wijckstraat 55H, 3811 LP Amersfoort, Netherlands </p>
+<p>Manufacturer:<br />
+Delpharm Pozna  Sp ka Akcyjna, ul., Grunwaldzka 189, 60-322 Poznan, Poland.  </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder. </p>
+<p>Belgi /Belgique/Belgien 
+ViiV Healthcare srl/bv 
+T l/Tel: + 32 (0) 10 85 65 Lietuva 
+ViiV Healthcare BV 
+Tel: + 370 80000<br />
+ViiV Healthcare BV 
+Te .: + 359 80018Luxembourg/Luxemburg 
+ViiV Healthcare srl/bv 
+Belgique/Belgien 
+T l/Tel: + 32 (0) 10 85 65  esk  republika 
+GlaxoSmithKline s.r.o. 
+Tel: + 420 222 001 cz.info@gsk.com </p>
+<p>Magyarorsz g 
+ViiV Healthcare BV 
+Tel.: + 36 80088Danmark 
+GlaxoSmithKline Pharma A/S 
+Tlf: + 45 36 35 91 dk-info@gsk.com </p>
+<p>Malta 
+ViiV Healthcare BV 
+Tel: + 356 80065Deutschland 
+ViiV Healthcare GmbH<br />
+Tel.: + 49 (0)89 203 0038-viiv.med.info@viivhealthcare.com </p>
+<p>Nederland 
+ViiV Healthcare BV<br />
+Tel: + 31 (0) 33 2081Eesti 
+ViiV Healthcare BV 
+Tel: + 372 8002Norge 
+GlaxoSmithKline AS 
+Tlf: + 47 22 70 20 firmapost@gsk.no </p>
+<p>GlaxoSmithKline   A.E.B.E. 
+ : + 30 210 68 82  sterreich 
+GlaxoSmithKline Pharma GmbH 
+Tel: + 43 (0)1 97075 0 
+at.info@gsk.com </p>
+<p>Espa a 
+Laboratorios ViiV Healthcare, S.L. 
+Tel: +34 900 923 es-ci@viivhealthcare.com </p>
+<p>Polska 
+GSK Services Sp. z o.o. 
+Tel.: + 48 (0)22 576 9France 
+ViiV Healthcare SAS<br />
+T l.: + 33 (0)1 39 17 6Infomed@viivhealthcare.com </p>
+<p>Hrvatska 
+ViiV Healthcare BV 
+Tel: + 385 800787Portugal 
+VIIVHIV HEALTHCARE, UNIPESSOAL, LDA<br />
+Tel: + 351 21 094 08 viiv.fi.pt@viivhealthcare.com </p>
+<p>Rom nia 
+ViiV Healthcare BV 
+Tel: + 40 800672Ireland 
+GlaxoSmithKline (Ireland) Limited 
+Tel: + 353 (0)1 4955Slovenija 
+ViiV Healthcare BV 
+Tel: + 386 80688 sland 
+Vistor hf.<br />
+S mi: +354 535 7Slovensk  republika 
+ViiV Healthcare BV 
+Tel: + 421 800500Italia 
+ViiV Healthcare S.r.l<br />
+Tel: + 39 (0)45 7741Suomi/Finland 
+GlaxoSmithKline Oy 
+Puh/Tel: + 358 (0)10 30 30 <br />
+ViiV Healthcare BV 
+ : + 357 80070Sverige 
+GlaxoSmithKline AB 
+Tel: + 46 (0)8 638 93 info.produkt@gsk.com </p>
+<p>Latvija 
+ViiV Healthcare BV 
+Tel: + 371 80205United Kingdom (Northern Ireland) 
+ViiV Healthcare BV<br />
+Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
+<p>This leaflet was last revised in {MM/YYYY}  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

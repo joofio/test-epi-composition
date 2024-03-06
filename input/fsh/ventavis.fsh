@@ -4,7 +4,7 @@ Instance: composition-en-98160787700fadf62b9414cbc5c47ad3
 InstanceOf: CompositionUvEpi
 Title: "Composition for ventavis Package Leaflet"
 Description:  "Composition for ventavis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ventavis is and what it is used for 
-2. What you need to know before you use Ventavis 
-3. How to use Ventavis 
-4. Possible side effects 
-5. How to store Ventavis 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ventavis is and what it is used for </li>
+<li>What you need to know before you use Ventavis </li>
+<li>How to use Ventavis </li>
+<li>Possible side effects </li>
+<li>How to store Ventavis </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -585,8 +585,7 @@ Tel: +46 (0) 8 580 223 Latvija
 SIA Bayer 
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0)118 206 3 
-This leaflet was last revised in  </p>
+Tel: +44-(0)118 206 3This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>
 <hr />
@@ -697,5 +696,6 @@ information for you.
 - This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
 even if their signs of illness are the same as yours. 
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
-effects not listed in this leaflet. See section </p>         </div>"""      
+effects not listed in this leaflet. See section 4.</p>
+<p>What is in this leaflet  </p>         </div>"""      
 

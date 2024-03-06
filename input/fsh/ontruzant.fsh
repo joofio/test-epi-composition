@@ -4,7 +4,7 @@ Instance: composition-en-b685aeea2bdf7a0921a22706f03b5a68
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontruzant Package Leaflet"
 Description:  "Composition for ontruzant Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ontruzant is and what it is used for 
-2. What you need to know before you are given Ontruzant 
-3. How Ontruzant is given 
-4. Possible side effects 
-5. How to store Ontruzant 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ontruzant is and what it is used for </li>
+<li>What you need to know before you are given Ontruzant </li>
+<li>How Ontruzant is given </li>
+<li>Possible side effects </li>
+<li>How to store Ontruzant </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -152,8 +152,8 @@ resulting in foetal death. </p>
 <p>Breast-feeding 
 Do not breast-feed your baby during Ontruzant therapy and for 7 months after the last dose, as 
 Ontruzant may pass to your baby through your breast milk. </p>
-<p>Ask your doctor or pharmacist for advice before taking any medicine. </p>
-<p>Driving and using machines 
+<p>Ask your doctor or pharmacist for advice before taking any medicine. 
+Driving and using machines 
 Ontruzant may affect your ability to drive a car or operate machines. If during treatment you 
 experience symptoms such as dizziness, sleepiness, chills or fever, you should not drive or use 
 machines until these symptoms disappear. </p>
@@ -384,6 +384,111 @@ environment. </li>
 <li>420 mg trastuzumab that has to be dissolved in 20 mL of water for injection. </li>
 <li>The resulting solution contains approximately 21 mg/mL trastuzumab. </li>
 <li>The other ingredient(s) are L-histidine hydrochloride monohydrate, L-histidine,  , -trehalose 
-dihydrate, polysorbate 2</li>
-</ul>         </div>"""      
+dihydrate, polysorbate 20. What Ontruzant looks like and contents of the pack </li>
+</ul>
+<p>Ontruzant is a powder for concentrate for solution for intravenous infusion, which is supplied in a glass 
+vial with a rubber stopper containing either 150 mg or 420 mg of trastuzumab. The powder is a white 
+to pale yellow pellet. Each carton contains 1 vial of powder. </p>
+<p>Marketing Authorisation Holder </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+The Netherlands </p>
+<p>Manufacturer </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 10, 
+2616 LR Delft 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Organon Belgium<br />
+Tel/T l:  0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com 
+Lietuva 
+Organon Pharma B.V. Lithuania atstovyb<br />
+Tel.: + 370 52041dpoc.lithuania@organon.com  </p>
+<p>( . .)  . . -   <br />
+ .: +359 2 806 3dpoc.bulgaria@organon.com 
+Luxembourg/Luxemburg 
+Organon Belgium<br />
+Tel/T l:  0080066550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>esk  republika 
+Organon Czech Republic s.r.o. 
+Tel.: +420 233 010 dpoc.czech@organon.com </p>
+<p>Magyarorsz g 
+Organon Hungary Kft. 
+Tel.: +36 1 766 1dpoc.hungary@organon.com </p>
+<p>Danmark 
+Organon Denmark ApS<br />
+Tlf: + 45 44 84 68 info.denmark@organon.com 
+Malta 
+Organon Pharma B.V., Cyprus branch 
+Tel.: +356 22778dpoc.cyprus@organon.com </p>
+<p>Deutschland 
+Organon Healthcare GmbH 
+Tel: 0800 3384 726 (+49 (0) 89 2040022 10) 
+dpoc.germany@organon.com </p>
+<p>Nederland 
+N.V. Organon 
+Tel.: 00800 66550123 (+32 2 2418100) 
+dpoc.benelux@organon.com </p>
+<p>Eesti 
+Organon Pharma B.V. Estonian RO 
+Tel: +372 66 61 dpoc.estonia@organon.com </p>
+<p>Norge 
+Organon Norway AS 
+Tlf: +47 24 14 56 info.norway@organon.com </p>
+<p>BIANE   .<br />
+ : +30 210 80091 Mailbox@vianex.gr  </p>
+<p>sterreich 
+Organon Austria GmbH 
+Tel: +43 (0) 1  263 28 dpoc.austria@organon.com </p>
+<p>Espa a 
+Organon Salud, S.L. 
+Tel: +34 91 591 12 Polska 
+Organon Polska Sp. z o.o.<br />
+Tel: +48 22 105 50 organonpolska@organon.com   </p>
+<p>France 
+Organon France<br />
+T l: + 33 (0) 1 57 77 32 Portugal 
+Organon Portugal, Sociedade Unipessoal Lda. 
+Tel: +351 218705geral_pt@organon.com  </p>
+<p>Hrvatska 
+Organon Pharma d.o.o. 
+Tel: + 385 1 638 4dpoc.croatia@organon.com </p>
+<p>Rom nia 
+Organon Biosciences S.R.L. 
+Tel: + 40 21 527 29 dpoc.romania@organon.com<br />
+Ireland 
+Organon Pharma (Ireland) Limited 
+Tel: +353 15828medinfo.ROI@organon.com </p>
+<p>Slovenija 
+Organon Pharma B.V., Oss, podru nica Ljubljana 
+Tel: + 386 1 300 10 dpoc.slovenia@organon.com </p>
+<p>sland 
+Vistor hf. 
+S mi: + 354 535 7Slovensk  republika 
+Organon Slovakia s. r. o. 
+Tel: +421 2 44 88 98 dpoc.slovakia@organon.com  </p>
+<p>Italia 
+Organon Italia S.r.l. 
+Tel: +39 06 90259dpoc.italy@organon.com </p>
+<p>Suomi/Finland 
+Organon Finland Oy 
+Puh/Tel: +358 (0) 29 170 3dpoc.finland@organon.com </p>
+<p>Organon Pharma B.V., Cyprus branch 
+ .: +357 22866dpoc.cyprus@organon.com </p>
+<p>Sverige 
+Organon Sweden AB 
+Tel: +46 8 502 597 dpoc.sweden@organon.com<br />
+Latvija 
+ rvalsts komersanta  Organon Pharma B.V.<br />
+p rst vniec ba 
+Tel: + 371 66968dpoc.latvia@organon.com  </p>
+<p>United Kingdom (Northern Ireland) 
+Organon Pharma (UK) Limited 
+Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
+<p>This leaflet was last revised in </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

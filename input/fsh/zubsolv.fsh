@@ -4,7 +4,7 @@ Instance: composition-en-cfd694ab9fea1a901bb7d3272079545a
 InstanceOf: CompositionUvEpi
 Title: "Composition for zubsolv Package Leaflet"
 Description:  "Composition for zubsolv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Zubsolv is and what it is used for 
-2. What you need to know before you take Zubsolv 
-3. How to take Zubsolv 
-4. Possible side effects 
-5. How to store Zubsolv 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Zubsolv is and what it is used for </li>
+<li>What you need to know before you take Zubsolv </li>
+<li>How to take Zubsolv </li>
+<li>Possible side effects </li>
+<li>How to store Zubsolv </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -160,11 +160,11 @@ You may be more closely monitored by your doctor if you are below the age of 18.
 should not be taken by those under 15 years of age. </p>
 </li>
 <li>
-<p>Diagnosis of unrelated medical conditions </p>
+<p>Diagnosis of unrelated medical conditions 
+This medicine may mask pain symptoms that could assist in the diagnosis of some diseases. Do not 
+forget to advise your doctor if you take this medicine. </p>
 </li>
 </ul>
-<p>This medicine may mask pain symptoms that could assist in the diagnosis of some diseases. Do not 
-forget to advise your doctor if you take this medicine. </p>
 <p>Talk to your doctor before taking Zubsolv if you: 
 * have a depression or other conditions that are treated with antidepressants. 
 The use of these medicines together with Zubsolv can lead to serotonin syndrome, a 
@@ -216,12 +216,8 @@ selegiline, tranylcypromine, valproate and monoamine oxidase inhibitors (MAOIs) 
 increase the effects of this medicine </li>
 <li>sedative H  receptor antagonists (used to treat allergic reactions) such as 
 diphenhydramine and chlorphenamine </li>
-<li>
-<p>barbiturates (used to cause sleep or sedation) such as phenobarbital, secobarbital </p>
-</li>
-<li>
-<p>tranquilisers (used to cause sleep or sedation) such as chloral hydrate </p>
-</li>
+<li>barbiturates (used to cause sleep or sedation) such as phenobarbital, secobarbital </li>
+<li>tranquilisers (used to cause sleep or sedation) such as chloral hydrate </li>
 <li>clonidine (used to treat high blood pressure) and related medicines may extend the 
 effects of this medicine </li>
 <li>anti-retrovirals (used to treat HIV) such as ritonavir, nelfinavir, indinavir may increase 
@@ -275,8 +271,8 @@ The recommended starting dose for adults and adolescents over the age of 15 year
 <p>one tablet of Zubsolv 2.9 mg/0.71 mg each day </p>
 </li>
 </ul>
-<p>An additional tablet of the Zubsolv 1.4 mg/0.36 mg or 2.9 mg/0.71 mg may be administered on Day </p>
-<p>1 depending on your needs. </p>
+<p>An additional tablet of the Zubsolv 1.4 mg/0.36 mg or 2.9 mg/0.71 mg may be administered on Day 
+1 depending on your needs. </p>
 <p>There are other strengths that are available to be used by your doctor who will decide what is the 
 best treatment for you. This may involve taking a combination of different strengths, but your daily 
 dose should not exceed 17.2 mg of buprenorphine. </p>
@@ -413,8 +409,8 @@ hostility
 * pain and sores in mouth, tongue discolouration 
 * acne, hair loss, dry or scaling skin, skin nodule 
 * inflammation of joints 
-* protein in your urine, urinary tract infection, difficulty urinating, painful or difficult </p>
-<p>urination, blood in urine, kidney stone 
+* protein in your urine, urinary tract infection, difficulty urinating, painful or difficult 
+urination, blood in urine, kidney stone 
 * menstrual or vaginal problems, abnormal ejaculation 
 * sensitivity to heat or cold 
 * heat stroke 
@@ -462,8 +458,8 @@ throw away medicines you no longer use. These measures will help protect the env
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "6. Contents of the pack and other information"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zubsolv contains </p>
-<p>The active substances are buprenorphine and naloxone. </p>
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Zubsolv contains 
+The active substances are buprenorphine and naloxone. </p>
 <p>Each 0.7 mg/0.18 mg sublingual tablet contains 0.7 mg buprenorphine (as hydrochloride) and 
 0.18 mg naloxone (as hydrochloride dihydrate). </p>
 <p>Each 1.4 mg/0.36 mg sublingual tablet contains 1.4 mg buprenorphine (as hydrochloride) and 
@@ -530,8 +526,7 @@ Spain </p>
 <p>Manufacturer<br />
 Orexo AB<br />
 Virdings all  32 A<br />
-Uppsala 754 50<br />
-Sweden </p>
+Uppsala 754 Sweden </p>
 <p>This leaflet was last revised in MM/YYYY. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

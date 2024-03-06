@@ -4,7 +4,7 @@ Instance: composition-en-fba0a8367a83300af2a00b0c6fd0b172
 InstanceOf: CompositionUvEpi
 Title: "Composition for fotivda Package Leaflet"
 Description:  "Composition for fotivda Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Fotivda is and what it is used for  
-2. What you need to know before you take Fotivda  
-3. How to take Fotivda  
-4. Possible side effects  
-5. How to store Fotivda  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Fotivda is and what it is used for  </li>
+<li>What you need to know before you take Fotivda  </li>
+<li>How to take Fotivda  </li>
+<li>Possible side effects  </li>
+<li>How to store Fotivda  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,10 +98,8 @@ or to stop treatment with Fotivda. If you are already taking a medicine to treat
 pressure, and your doctor reduces the dose of Fotivda or interrupts or stops treatment, you will 
 be regularly checked for low blood pressure.  </p>
 <ul>
-<li>
-<p>if you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a 
-tear in a blood vessel wall. </p>
-</li>
+<li>if you have or have had an aneurysm (enlargement and weakening of a blood vessel wall) or a 
+tear in a blood vessel wall. </li>
 <li>
 <p>if you have had problems with blood clots<br />
 Treatment with Fotivda may raise the risk of developing a blood clot (thrombus) in your blood 
@@ -369,8 +367,8 @@ caused by fluid build-up </p>
 lack of energy, confusion, blindness or other visual and neurologic disturbances </p>
 <p>Not known (cannot be estimated from available data). 
 * An enlargement and weakening of a blood vessel wall or a tear in a blood vessel wall 
-(aneurysms and artery dissections). </p>
-<p>Reporting of side effects 
+(aneurysms and artery dissections). 
+Reporting of side effects 
 If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible side 
 effects not listed in this leaflet. You can also report side effects directly via the national reporting 
 system listed in Appendix V. By reporting side effects you can help provide more information on the 

@@ -4,7 +4,7 @@ Instance: composition-en-ef587583f9868c465778255848bcb8dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for imraldi Package Leaflet"
 Description:  "Composition for imraldi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -55,15 +55,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Imraldi is and what it is used for  
-2. What you need to know before you use Imraldi 
-3. How to use Imraldi  
-4. Possible side effects  
-5. How to store Imraldi  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Imraldi is and what it is used for  </li>
+<li>What you need to know before you use Imraldi </li>
+<li>How to use Imraldi  </li>
+<li>Possible side effects  </li>
+<li>How to store Imraldi  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -91,8 +91,8 @@ proteins that attach to a specific target. </p>
 increased levels in the inflammatory diseases listed above. By attaching to TNF , Imraldi decreases 
 the process of inflammation in these diseases. </p>
 <p>Rheumatoid arthritis </p>
-<p>Rheumatoid arthritis is an inflammatory disease of the joints. </p>
-<p>Imraldi is used to treat rheumatoid arthritis in adults. If you have moderate to severe active rheumatoid 
+<p>Rheumatoid arthritis is an inflammatory disease of the joints. 
+Imraldi is used to treat rheumatoid arthritis in adults. If you have moderate to severe active rheumatoid 
 arthritis, you may first be given other disease-modifying medicines, such as methotrexate. If these 
 medicines do not work well enough, you will be given Imraldi to treat your rheumatoid arthritis. </p>
 <p>Imraldi can also be used to treat severe, active and progressive rheumatoid arthritis without previous 
@@ -131,8 +131,8 @@ cells. </p>
 <p>Imraldi is used to treat moderate to severe plaque psoriasis in adults. Imraldi is also used to treat 
 severe plaque psoriasis in children and adolescents weighing 30 kg or greater for whom topical 
 therapy and phototherapies have either not worked very well or are not suitable. </p>
-<p>Hidradenitis suppurativa in adults and adolescents </p>
-<p>Hidradenitis suppurativa (sometimes called acne inversa) is a long-term and often painful 
+<p>Hidradenitis suppurativa in adults and adolescents 
+Hidradenitis suppurativa (sometimes called acne inversa) is a long-term and often painful 
 inflammatory skin disease. Symptoms may include tender nodules (lumps) and abscesses (boils) that 
 may leak pus. It most commonly affects specific areas of the skin, such as under the breasts, the 
 armpits, inner thighs, groin and buttocks. Scarring may also occur in affected areas. </p>
@@ -443,31 +443,24 @@ prior to the start of the usual dose. </p>
 the start of the usual dose. </p>
 <p>Method and route of administration </p>
 <p>Imraldi is given by injection under the skin (by subcutaneous injection). For instructions for use, refer 
-to section </p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>If you use more Imraldi than you should </p>
+to section 7. If you use more Imraldi than you should </p>
 <p>If you accidentally inject Imraldi more frequently than you should, call your doctor or pharmacist and 
 explain that you have taken more than required. Always take the outer carton of the medicine with 
-you, even if it is empty. </p>
-<p>If you forget to use Imraldi </p>
+you, even if it is empty. 
+If you forget to use Imraldi </p>
 <p>If you forget to give yourself an injection, you should inject the next dose of Imraldi as soon as you 
 remember. Then take your next dose as you would have on your originally scheduled day, had you not 
 forgotten a dose. </p>
 <p>If you stop using Imraldi </p>
 <p>The decision to stop using Imraldi should be discussed with your doctor. Your symptoms may return 
 upon stopping treatment. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store imraldi"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store imraldi"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. Most side 
 effects are mild to moderate. However, some may be serious and require treatment. Side effects may 
@@ -611,11 +604,13 @@ arms and upper body); </li>
 <li>erythema multiforme (inflammatory skin rash); </li>
 <li>lupus-like syndrome; </li>
 <li>angioedema (localised swelling of the skin);  </li>
-<li>lichenoid skin reaction (itchy reddish-purple skin rash). </li>
-</ul>
-<p>Not known (frequency cannot be estimated from available data): </p>
-<ul>
-<li>hepatosplenic T-cell lymphoma (a rare blood cancer that is often fatal); </li>
+<li>
+<p>lichenoid skin reaction (itchy reddish-purple skin rash). 
+Not known (frequency cannot be estimated from available data): </p>
+</li>
+<li>
+<p>hepatosplenic T-cell lymphoma (a rare blood cancer that is often fatal); </p>
+</li>
 <li>Merkel cell carcinoma (a type of skin cancer); </li>
 <li>Kaposi s sarcoma, a rare cancer related to infection with human herpes virus 8. Kaposi s 
 sarcoma most commonly appears as purple lesions on the skin. </li>
@@ -660,11 +655,10 @@ not listed in this leaflet. You can also report side effects directly via the na
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store imraldi"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store imraldi"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the label of the carton after EXP. The 
@@ -680,4 +674,100 @@ You should record the date when the syringe is first removed from refrigerator, 
 which it should be discarded. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Imraldi contains  </p>
+<ul>
+<li>The active substance is adalimumab. </li>
+<li>The other ingredients are sodium citrate, citric acid monohydrate, histidine, histidine 
+hydrochloride monohydrate, sorbitol, polysorbate 20 and water for injections. </li>
+</ul>
+<p>What Imraldi looks like and contents of the pack </p>
+<p>Imraldi 40 mg solution for injection in pre-filled syringe is supplied as a 0.8 ml clear to opalescent and 
+colourless to pale brown solution. </p>
+<p>Imraldi is available in packs containing 1, 2, 4 or 6 pre-filled syringe(s) (type I glass) with a stainless 
+steel needle, a rigid needle shield, a rubber plunger, a plunger rod, a safe-shield body, a finger flange 
+for patient use and 2, 2, 4 or 6 alcohol pads enclosed in packs respectively. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+The Netherlands </p>
+<p>Manufacturer 
+Biogen Netherlands B.V. 
+Prins Mauritslaan 1171 LP Badhoevedorp 
+The Netherlands </p>
+<p>Samsung Bioepis NL B.V. 
+Olof Palmestraat 2616 LR Delft 
+The Netherlands </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien<br />
+Biogen Belgium NV/S.A<br />
+T l/Tel: + 32 (0)2 808 5Lietuva<br />
+Biogen Lithuania UAB 
+Tel: +370 52 07 91  <br />
+Ewopharma AG Representative Office 
+Te .: + 359 249 176 Luxembourg/Luxemburg<br />
+Biogen Belgium NV/SA<br />
+T l/Tel: +35 227 772  esk  republika<br />
+Biogen (Czech Republic) s.r.o.<br />
+Tel: + 420 228 884 Magyarorsz g<br />
+Biogen Hungary Kft.<br />
+Tel.: + 36 1 848 04 Danmark<br />
+Biogen (Denmark) A/S<br />
+Tlf: + 45 78 79 37 Malta<br />
+Pharma.MT Ltd 
+Tel: + 356 27 78 15 Deutschland<br />
+Biogen GmbH<br />
+Tel: + 49 (0)89 996 177 Nederland<br />
+Biogen Netherlands B.V.<br />
+Tel: + 31 (0)20 808 02 Eesti<br />
+Biogen Estonia O<br />
+Tel: + 372 6 68 30 Norge<br />
+Biogen Norway AS<br />
+Tlf: + 47 21 93 95  <br />
+Genesis Pharma S.A. 
+ : + 30 211 176 8 sterreich<br />
+Biogen Austria GmbH<br />
+Tel: + 43 (0)1 267 51 Espa a<br />
+Biogen Spain, S.L.<br />
+Tel: + 34 931 790 Polska<br />
+Biogen Poland Sp. z o.o.<br />
+Tel.: + 48 22 116 86 France<br />
+Biogen France SAS<br />
+T l: + 33 (0)1 776 968 Portugal<br />
+Biogen Portugal Sociedade Farmac utica,<br />
+Unipessoal, Lda<br />
+Tel: + 351 308 800 Hrvatska<br />
+Ewopharma d.o.o 
+Tel: + 385 (0)1 777 64 Rom nia<br />
+Ewopharma AG Representative Office 
+Tel: + 40 377 881 Ireland<br />
+Biogen Idec (Ireland) Ltd.<br />
+Tel: +353 (0)1 513 33 Slovenija<br />
+Biogen Pharma d.o.o.<br />
+Tel: + 386 (0)1 888 81  sland<br />
+Icepharma hf. 
+S mi: + 354 800 9Slovensk  republika<br />
+Biogen Slovakia s.r.o.<br />
+Tel: + 421 (0)2 333 257 Italia<br />
+Biogen Italia s.r.l.<br />
+Tel: + 39 (0)6 899 701 Suomi/Finland<br />
+Biogen Finland Oy<br />
+Puh/Tel: + 358 (0)9 427 041  <br />
+Genesis Pharma (Cyprus) Ltd 
+ : + 357 22 00 04 Sverige<br />
+Biogen Sweden AB<br />
+Tel: +46 (0)8 525 038 Latvija 
+Biogen Latvia SIA 
+Tel: + 371 66 16 40 United Kingdom (Northern Ireland) 
+Biogen Idec (Ireland) Ltd. 
+Tel: +44 (0)20 360 886 This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

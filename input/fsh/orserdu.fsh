@@ -4,7 +4,7 @@ Instance: composition-en-8fdef97116c9e46e3458e3dc3216f0d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for orserdu Package Leaflet"
 Description:  "Composition for orserdu Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ORSERDU is and what it is used for 
-2. What you need to know before you take ORSERDU 
-3. How to take ORSERDU 
-4. Possible side effects 
-5. How to store ORSERDU 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ORSERDU is and what it is used for </li>
+<li>What you need to know before you take ORSERDU </li>
+<li>How to take ORSERDU </li>
+<li>Possible side effects </li>
+<li>How to store ORSERDU </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -80,16 +80,7 @@ for the hormone oestrogen on their surface, and that is human epidermal growth f
 (HER2)-negative, meaning that cancer cells have no or only a small amount of this receptor on their 
 surface. ORSERDU is used as monotherapy (used on its own) in patients whose cancer has not 
 responded to or progressed further following at least one line of hormonal treatment including a 
-CDK 4/6 inhibitor and who have certain changes (mutations) in a gene called ESR</p>         </div>"""   
-          
-
-             
-* section[=].section[+]
-  * title = "2. What you need to know before you take orserdu"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "2. What you need to know before you take orserdu"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Your doctor will take a sample of your blood, which will be tested for these ESR1 mutations. A 
+CDK 4/6 inhibitor and who have certain changes (mutations) in a gene called ESR1. Your doctor will take a sample of your blood, which will be tested for these ESR1 mutations. A 
 positive result is required for initiation of treatment with ORSERDU. </p>
 <p>How ORSERDU works </p>
 <p>Oestrogen receptors are a group of proteins found inside the cells. They are activated when the 
@@ -100,11 +91,13 @@ destroying oestrogen receptors, ORSERDU can reduce the growth and spread of brea
 help to kill cancer cells. </p>
 <p>If you have any questions about how ORSERDU works or why this medicine has been prescribed for 
 you, ask your doctor, pharmacist, or nurse. </p>         </div>"""   
-                    
+          
+
+             
 * section[=].section[+]
-  * title =  "3. How to take orserdu"
+  * title = "2. What you need to know before you take orserdu"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take orserdu"
+  * code.text = "2. What you need to know before you take orserdu"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Do not use ORSERDU if:</p>
 <ul>
@@ -175,13 +168,12 @@ ORSERDU may impair fertility in women and men. </p>
 ORSERDU has no or negligible influence on the ability to drive and use machines. However, since 
 fatigue, weakness, and difficulty sleeping have been reported in some patients taking elacestrant, 
 caution should be observed by patients who experience those adverse reactions when driving or 
-operating machinery. </p>         </div>"""         
-
-        
+operating machinery. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take orserdu"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take orserdu"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you. Check with your doctor 
 or pharmacist if you are not sure. </p>
@@ -208,12 +200,13 @@ time the next day. Do not take a double dose to make up for the one that you mis
 <p>If you stop taking ORSERDU 
 Do not stop using this medicine without talking to your doctor or pharmacist. If treatment with 
 ORSERDU is stopped, your condition may worsen. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store orserdu"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store orserdu"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
 Tell your doctor or nurse if you notice any of the following side effects: </p>
@@ -263,11 +256,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store orserdu"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store orserdu"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and blister pack after EXP. 
@@ -277,4 +269,83 @@ The expiry date refers to the last day of that month. </p>
 tampering. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What ORSERDU contains 
+- The active substance is elacestrant. 
+* 
+Each 86 mg ORSERDU film-coated tablet contains 86.3 mg of elacestrant. 
+* 
+Each 345 mg ORSERDU film-coated tablet contains 345 mg of elacestrant </p>
+<ul>
+<li>The other ingredients are: </li>
+</ul>
+<p>Tablet core 
+Microcrystalline cellulose [E460] 
+Silicified microcrystalline cellulose 
+Crospovidone [E1202] 
+Magnesium stearate [E470b] 
+Colloidal silicon dioxide [E551] </p>
+<p>Film-coating 
+Opadry II 85F105080 Blue containing polyvinyl alcohol [E1203], titanium dioxide [E171], 
+macrogol [E1521], talc [E553b] and brilliant blue FCF aluminium lake [E133] </p>
+<p>What ORSERDU looks like and contents of the pack </p>
+<p>ORSERDU is supplied as film-coated tablets in aluminium blisters. </p>
+<p>ORSERDU 86 mg film-coated tablets 
+Blue to light blue, biconvex round shaped film-coated tablet with  ME  debossed on one side and 
+plain face on the opposite side. Approximate diameter: 8.8 mm. </p>
+<p>ORSERDU 345 mg film-coated tablets 
+Blue to light blue, biconvex, oval shaped film-coated tablet with  MH  debossed on one side and plain 
+face on the opposite side. Approximate size: 19.2 mm (length), 10.8 mm (width). </p>
+<p>Each pack contains 28 film-coated tablets (4 blisters with 7 tablets each). </p>
+<p>Marketing Authorisation Holder 
+Stemline Therapeutics B.V.<br />
+Basisweg 1043 AP Amsterdam<br />
+The Netherlands </p>
+<p>Manufacturer 
+Stemline Therapeutics B.V. 
+Basisweg 1043 AP Amsterdam<br />
+The Netherlands </p>
+<p>or </p>
+<p>Berlin Chemie AG 
+Glienicker Weg 12489 Berlin 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien;  ; 
+ esk  republika; Danmark; Eesti; 
+ ; Hrvatska; Ireland;  sland; 
+ ; Latvija; Lietuva; 
+Luxembourg/Luxemburg; 
+Magyarorsz g; Malta; Nederland; 
+Norge; Polska; Portugal; Rom nia; 
+Slovenija; Slovensk  republika; 
+Suomi/Finland; Sverige 
+Stemline Therapeutics B.V. 
+Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
+<p>Italia 
+Menarini Stemline Italia S.r.l. 
+Tel: +39 800776EUmedinfo@menarinistemline.com </p>
+<p>Deutschland 
+Menarini Stemline Deutschland GmbH 
+Tel: +49 (0)800 0008EUmedinfo@menarinistemline.com </p>
+<p>sterreich 
+Stemline Therapeutics B.V. 
+Tel: +43 (0)800 297 EUmedinfo@menarinistemline.com 
+Espa a 
+Menarini Stemline Espa a, S.L.U. 
+Tel: +34919490EUmedinfo@menarinistemline.com </p>
+<p>United Kingdom (Northern Ireland) 
+Stemline Therapeutics B.V. 
+Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
+<p>France 
+Stemline Therapeutics B.V. 
+T l: +33 (0)800 991EUmedinfo@menarinistemline.com </p>
+<p>This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-111cffde6ab225ef6f9090cd3d257fe8
 InstanceOf: CompositionUvEpi
 Title: "Composition for fasturtec Package Leaflet"
 Description:  "Composition for fasturtec Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Fasturtec is and what it is used for  
-2. What you need to know before you are given Fasturtec 
-3. How to use Fasturtec 
-4. Possible side effects  
-5. How to store Fasturtec 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Fasturtec is and what it is used for  </li>
+<li>What you need to know before you are given Fasturtec </li>
+<li>How to use Fasturtec </li>
+<li>Possible side effects  </li>
+<li>How to store Fasturtec </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

@@ -4,7 +4,7 @@ Instance: composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690
 InstanceOf: CompositionUvEpi
 Title: "Composition for vildagliptin Package Leaflet"
 Description:  "Composition for vildagliptin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Vildagliptin/Metformin hydrochloride Accord is and what it is used for 
-2. What you need to know before you take Vildagliptin/Metformin hydrochloride Accord  
-3. How to take Vildagliptin/Metformin hydrochloride Accord  
-4. Possible side effects 
-5. How to store Vildagliptin/Metformin hydrochloride Accord  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Vildagliptin/Metformin hydrochloride Accord is and what it is used for </li>
+<li>What you need to know before you take Vildagliptin/Metformin hydrochloride Accord  </li>
+<li>How to take Vildagliptin/Metformin hydrochloride Accord  </li>
+<li>Possible side effects </li>
+<li>How to store Vildagliptin/Metformin hydrochloride Accord  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -148,8 +148,8 @@ if you are taking an anti-diabetic medicine known as a sulphonylurea. Your docto
 your dose of the sulphonylurea when you take it together with Vildagliptin/Metformin hydrochloride 
 Accord  in order to avoid low blood glucose (hypoglycaemia). </p>
 <p>If you have previously taken vildagliptin but had to stop taking it because of liver disease, you should 
-not take this medicine. </p>
-<p>Diabetic skin lesions are a common complication of diabetes. You are advised to follow the 
+not take this medicine. 
+Diabetic skin lesions are a common complication of diabetes. You are advised to follow the 
 recommendations for skin and foot care that you are given by your doctor or nurse. You are also 
 advised to pay particular attention to new onset of blisters or ulcers while taking 
 Vildagliptin/Metformin hydrochloride Accord. Should these occur, you should promptly consult 

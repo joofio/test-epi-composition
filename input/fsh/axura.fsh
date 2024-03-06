@@ -4,7 +4,7 @@ Instance: composition-en-dec3a1f5841f1029014aecf2cec0d0c8
 InstanceOf: CompositionUvEpi
 Title: "Composition for axura Package Leaflet"
 Description:  "Composition for axura Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Axura is and what it is used for 
 2. What you need to know before you take Axura 
 3. How to take Axura 
 4. Possible side effects 
 5. How to store Axura 
-6. Content of the pack and other information 
-         </div>"""   
+6. Content of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]

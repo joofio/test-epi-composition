@@ -4,7 +4,7 @@ Instance: composition-en-b8f579293abab7be62522da4567f714e
 InstanceOf: CompositionUvEpi
 Title: "Composition for kadcyla Package Leaflet"
 Description:  "Composition for kadcyla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Kadcyla is and what it is used for 
-2. What you need to know before you are given Kadcyla 
-3. How you are given Kadcyla  
-4. Possible side effects 
-5. How to store Kadcyla 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Kadcyla is and what it is used for </li>
+<li>What you need to know before you are given Kadcyla </li>
+<li>How you are given Kadcyla  </li>
+<li>Possible side effects </li>
+<li>How to store Kadcyla </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -305,8 +305,8 @@ your doctor or nurse immediately.  </p>
 * difficulty in remembering 
 * hair loss 
 * hand-and-foot skin reaction (Palmar-plantar erythrodysaesthesia syndrome) 
-* nail disorder </p>
-<p>Uncommon: 
+* nail disorder 
+Uncommon: 
 * Another abnormality that can be caused by Kadcyla is a condition known as nodular 
 regenerative hyperplasia of the liver. This abnormality causes the structure of the liver to 
 change. Patients develop multiple nodules in the liver that can change how the liver functions. 
@@ -348,12 +348,90 @@ environment. </li>
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Kadcyla contains 
 * The active substance is trastuzumab emtansine.<br />
-* Kadcyla 100mg: One vial of powder for concentrate for solution for infusion contains 100 mg of 
+<em> Kadcyla 100mg: One vial of powder for concentrate for solution for infusion contains 100 mg of 
 trastuzumab emtansine. After reconstitution one vial of 5 mL solution contains 20 mg/mL of 
 trastuzumab emtansine. 
 * Kadcyla 160mg: One vial of powder for concentrate for solution for infusion contains 160 mg of 
 trastuzumab emtansine. After reconstitution one vial of 8 mL solution contains 20 mg/mL of 
 trastuzumab emtansine. 
 * The other ingredients are succinic acid, sodium hydroxide (see section 2 under  Important 
-information about some of the ingredients of Kadcyla ), sucrose, and polysorbate 2</p>         </div>"""      
+information about some of the ingredients of Kadcyla ), sucrose, and polysorbate 20. What Kadcyla looks like and contents of the pack 
+* Kadcyla is a white to off-white lyophilised powder for concentrate for solution for infusion 
+supplied in glass vials.<br />
+</em> Kadcyla is available in packs containing 1 vial. </p>
+<p>Marketing Authorisation Holder 
+Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Manufacturer 
+Roche Pharma AG 
+Emil-Barell-Strasse 1 
+D-79639 Grenzach-Wyhlen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A. 
+T l/Tel: +32 (0) 2 525 82   </p>
+<p>: +359 2 818 44 Lietuva 
+UAB  Roche Lietuva<br />
+Tel: +370 5 2546Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>esk  republika 
+Roche s. r. o. 
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft. 
+Tel: +36 1 279 4Danmark 
+Roche Pharmaceuticals A/S <br />
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland) 
+Deutschland 
+Roche Pharma AG 
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V. 
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O<br />
+Tel: + 372 - 6 177 Norge 
+Roche Norge AS 
+Tlf: +47 - 22 78 90 <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH 
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A. 
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o. 
+Tel: +48 - 22 345 18 France 
+Roche 
+T l: +33 (0)1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda 
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o 
+Tel:  +385 1 4722 Rom nia 
+Roche Rom nia S.R.L. 
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd. 
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o. 
+Tel: +386 - 1 360 26  sland<br />
+Roche Pharmaceuticals A/S 
+c/o Icepharma hf 
+S mi: +354 540 8Slovensk  republika<br />
+Roche Slovensko, s.r.o. 
+Tel: +421 - 2 52638Italia 
+Roche S.p.A. 
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554 K <br />
+ . .  &amp;    . 
+ : +357 - 22 76 62 Sverige 
+Roche AB 
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd. 
+Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

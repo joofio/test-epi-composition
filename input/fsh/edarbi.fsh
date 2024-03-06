@@ -4,7 +4,7 @@ Instance: composition-en-677da093025fb13fce454a07c6f80e9f
 InstanceOf: CompositionUvEpi
 Title: "Composition for edarbi Package Leaflet"
 Description:  "Composition for edarbi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Edarbi is and what it is used for 
 2. What you need to know before you take Edarbi 
 3. How to take Edarbi 
 4. Possible side effects 
 5. How to store Edarbi 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -289,24 +288,19 @@ Takeda Belgium
 T l/Tel: +32 2 464 06 takeda-belgium@takeda.com </p>
 <p>Lietuva 
 Takeda UAB 
-Tel: +370 521 09  </p>
-<p>.: +359 2 958 27 36; +359 2 958 15<br />
-Luxembourg/Luxemburg 
+Tel: +370 521 09   </p>
+<p>.: +359 2 958 27 36; +359 2 958 15 Luxembourg/Luxemburg 
 Takeda Belgium 
 T l/Tel: +32 2 464 06 takeda-belgium@takeda.com </p>
 <p>esk  republika 
 Takeda Pharmaceuticals Czech Republic s.r.o 
-Tel: +420 234 722<br />
-Magyarorsz g 
+Tel: +420 234 722 Magyarorsz g 
 Takeda Pharma Kft. 
-Tel.: +361 2707 
-Danmark 
+Tel.: +361 2707Danmark 
 Takeda Pharma A/S 
-Tlf: +45 46 77 11<br />
-Malta 
+Tlf: +45 46 77 11 Malta 
 Takeda Italia S.p.A. 
-Tel: +39 06 5026<br />
-Deutschland 
+Tel: +39 06 5026 Deutschland 
 Takeda GmbH 
 Tel: +49 (0) 800 825 3medinfoEMEA@takeda.com </p>
 <p>Nederland 
@@ -314,21 +308,18 @@ Takeda Nederland B.V.
 Tel: +31 20 203 5medinfoEMEA@takeda.com 
 Eesti 
 Takeda Pharma AS 
-Tel: +372 6177<br />
-Norge 
+Tel: +372 6177 Norge 
 Takeda AS 
 Tlf: + 47 6676 3infonorge@takeda.com </p>
 <p>. . 
- : +30 210 80 09 111  </p>
-<p>sterreich 
+ : +30 210 80 09 111  sterreich 
 Takeda Pharma Ges.m.b.H. 
 Tel: +43 (0) 800-20 80 Espa a 
 Takeda Farmac utica Espa a S.A 
 Tel: +34 917 90 42 spain@takeda.com 
 Polska 
 Takeda Pharma sp. z o.o. 
-Tel.: +48 22 608 13  </p>
-<p>France 
+Tel.: +48 22 608 13 France 
 Takeda France SAS 
 T l: +33 1 40 67 33 medinfoEMEA@takeda.com </p>
 <p>Portugal 
@@ -336,8 +327,7 @@ Tecnimede - Sociedade T cnico-Medicinal, S.A
 Tel: +351 21 041 41 dmed.fv@tecnimede.pt </p>
 <p>Hrvatska 
 Takeda Pharmaceuticals Croatia d.o.o. 
-Tel: +385 1 377 88<br />
-Rom nia 
+Tel: +385 1 377 88 Rom nia 
 Takeda Pharmaceuticals SRL 
 Tel: +40 21 335 03 Ireland 
 Takeda Products Ireland Limited 
@@ -345,27 +335,23 @@ Tel: 1800 937 medinfoEMEA@takeda.com </p>
 <p>Slovenija 
 Takeda Pharmaceuticals farmacevtska dru ba 
 d.o.o. 
-Tel: +386 (0) 59 082<br />
- sland 
+Tel: +386 (0) 59 082  sland 
 Vistor hf. 
 S mi: +354 535 7vistor@vistor.is </p>
 <p>Slovensk  republika 
 Takeda Pharmaceuticals Slovakia s.r.o 
-Tel: +421 (2) 20 602<br />
-Italia 
+Tel: +421 (2) 20 602 Italia 
 Takeda Italia S.p.A. 
 Tel: +39 06 5026 Suomi/Finland 
 Takeda Oy 
-Puh/Tel: +358 20 746 5 </p>
-<p>Takeda Pharma A/S 
- : +45 46 77 11<br />
-Sverige 
+Puh/Tel: +358 20 746 5<br />
+Takeda Pharma A/S 
+ : +45 46 77 11 Sverige 
 Takeda Pharma AB 
 Tel: + 46 8 731 28 infosweden@takeda.com </p>
 <p>Latvija 
 Takeda Latvia SIA 
-Tel: +371 67840 </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: +371 67840United Kingdom (Northern Ireland) 
 Takeda UK Ltd 
 Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>

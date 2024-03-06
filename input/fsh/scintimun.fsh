@@ -4,7 +4,7 @@ Instance: composition-en-3a63bcdb9de3ae0f0c08bbb2137c5dc9
 InstanceOf: CompositionUvEpi
 Title: "Composition for scintimun Package Leaflet"
 Description:  "Composition for scintimun Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Scintimun is and what it is used for  
-2. What you need to know before you are given Scintimun 
-3. How Scintimun is given 
-4. Possible side effects  
-5. How Scintimun is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Scintimun is and what it is used for  </li>
+<li>What you need to know before you are given Scintimun </li>
+<li>How Scintimun is given </li>
+<li>Possible side effects  </li>
+<li>How Scintimun is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -231,8 +231,7 @@ origin).  </p>
 <p>Scintimun </p>
 <p>Sodium dihydrogen phosphate, anhydrous </p>
 <p>Disodium monohydrogen phosphate, anhydrous </p>
-<p>Sorbitol E 
-Under nitrogen atmosphere </p>
+<p>Sorbitol EUnder nitrogen atmosphere </p>
 <p>Solvent for Scintimun </p>
 <p>1, 1, 3, 3-propane tetraphosphonic acid, tetrasodium salt, dihydrate (PTP) </p>
 <p>Stannous chloride dihydrate </p>

@@ -4,7 +4,7 @@ Instance: composition-en-af7ada14ad8929ea357c14ec95ee08dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for nityr Package Leaflet"
 Description:  "Composition for nityr Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Nityr is and what it is used for  
-2. What you need to know before you take Nityr  
-3. How to take Nityr 
-4. Possible side effects  
-5. How to store Nityr 
-6. Contents of the pack and other information  
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Nityr is and what it is used for  </li>
+<li>What you need to know before you take Nityr  </li>
+<li>How to take Nityr </li>
+<li>Possible side effects  </li>
+<li>How to store Nityr </li>
+<li>Contents of the pack and other information  </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -228,8 +228,7 @@ Block-7, City North Business Campus
 Stamullen, Co. Meath,<br />
 K32 YD60, Ireland </p>
 <p>Sciensus International B.V. 
-Bijsterhuizen 3142<br />
-6604 LV Wijchen 
+Bijsterhuizen 36604 LV Wijchen 
 Netherlands </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website:<br />

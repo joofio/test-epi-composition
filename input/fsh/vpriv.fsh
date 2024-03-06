@@ -4,7 +4,7 @@ Instance: composition-en-c8101444f2f0d633367049eeed05567a
 InstanceOf: CompositionUvEpi
 Title: "Composition for vpriv Package Leaflet"
 Description:  "Composition for vpriv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What VPRIV is and what it is used for 
-2. What you need to know before VPRIV is used 
-3. How VPRIV is used 
-4. Possible side effects 
-5. How to store VPRIV 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What VPRIV is and what it is used for </li>
+<li>What you need to know before VPRIV is used </li>
+<li>How VPRIV is used </li>
+<li>Possible side effects </li>
+<li>How to store VPRIV </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -251,8 +251,7 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-T l/Tel: +32 2 464 06 11<br />
-medinfoEMEA@takeda.com </p>
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
@@ -288,8 +287,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
 T : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
 <p>Espa a 
 Takeda Farmac utica Espa a S.A 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>
@@ -313,8 +311,8 @@ Takeda Products Ireland Ltd
 Tel: 1800 937 medinfoEMEA@takeda.com 
 Slovenija 
 Takeda Pharmaceuticals farmacevtska dru ba d.o.o. 
-Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com </p>
-<p>sland 
+Tel: + 386 (0) 59 082 medinfoEMEA@takeda.com 
+ sland 
 Vistor hf. 
 S mi: +354 535 7medinfoEMEA@takeda.com </p>
 <p>Slovensk  republika 

@@ -4,7 +4,7 @@ Instance: composition-en-840beeb8abda55f48f21ddfba1d52ce3
 InstanceOf: CompositionUvEpi
 Title: "Composition for orfadin Package Leaflet"
 Description:  "Composition for orfadin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Orfadin is and what it is used for 
-2. What you need to know before you take Orfadin 
-3. How to take Orfadin 
-4. Possible side effects 
-5. How to store Orfadin 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Orfadin is and what it is used for </li>
+<li>What you need to know before you take Orfadin </li>
+<li>How to take Orfadin </li>
+<li>Possible side effects </li>
+<li>How to store Orfadin </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -146,8 +146,8 @@ this patient population. </p>
 with a small amount of water or formula diet just before you take it. </p>
 <p>If you take more Orfadin than you should 
 If you have taken more of this medicine than you should, contact your doctor or pharmacist as soon as 
-possible.  </p>
-<p>If you forget to take Orfadin 
+possible.<br />
+If you forget to take Orfadin 
 Do not take a double dose to make up for a forgotten dose. If you forget to take a dose, contact your 
 doctor or pharmacist. </p>
 <p>If you stop taking Orfadin 
@@ -236,6 +236,5 @@ Apotek Produktion &amp; Laboratorier AB
 Prismav gen 2 
 SE-141 75 Kungens Kurva 
 Sweden </p>
-<p>This leaflet was last revised in 10/2 </p>
-<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
+<p>This leaflet was last revised in 10/2Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-69a419ce456cf797ccfe1cc7135a3fc4
 InstanceOf: CompositionUvEpi
 Title: "Composition for betaferon Package Leaflet"
 Description:  "Composition for betaferon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Betaferon is and what it is used for 
-2. What you need to know before you use Betaferon 
-3. How to use Betaferon 
-4. Possible side effects 
-5. How to store Betaferon 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Betaferon is and what it is used for </li>
+<li>What you need to know before you use Betaferon </li>
+<li>How to use Betaferon </li>
+<li>Possible side effects </li>
+<li>How to store Betaferon </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -465,8 +465,8 @@ safety of this medicine. </p>         </div>"""
 last day of that month. </p>
 <p>Do not store above 25 C. Do not freeze.  </p>
 <p>After preparing the solution you should use it immediately. However, if you are not able to do so, it 
-will be suitable for use for 3 hours, if kept at 2-8  C (in a refrigerator). </p>
-<p>Do not use Betaferon if you notice it contains particles or is discoloured. </p>
+will be suitable for use for 3 hours, if kept at 2-8  C (in a refrigerator). 
+Do not use Betaferon if you notice it contains particles or is discoloured. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-1d04d08431237504735e48c47e138afc
 InstanceOf: CompositionUvEpi
 Title: "Composition for pheburane Package Leaflet"
 Description:  "Composition for pheburane Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
- 
-1. What PHEBURANE is and what it is used for 
-2. What you need to know before you take PHEBURANE 
-3. How to take PHEBURANE 
-4. Possible side effects 
-5. How to store PHEBURANE 
-6. Contents of the pack and other information          </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: </p>
+<ol>
+<li>What PHEBURANE is and what it is used for </li>
+<li>What you need to know before you take PHEBURANE </li>
+<li>How to take PHEBURANE </li>
+<li>Possible side effects </li>
+<li>How to store PHEBURANE </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

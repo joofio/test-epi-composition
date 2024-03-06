@@ -4,7 +4,7 @@ Instance: composition-en-1725e26bb7cb4ad5c29cb26127be8f47
 InstanceOf: CompositionUvEpi
 Title: "Composition for stivarga Package Leaflet"
 Description:  "Composition for stivarga Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Stivarga is and what it is used for 
-2. What you need to know before you take Stivarga 
-3. How to take Stivarga 
-4. Possible side effects 
-5. How to store Stivarga 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Stivarga is and what it is used for </li>
+<li>What you need to know before you take Stivarga </li>
+<li>How to take Stivarga </li>
+<li>Possible side effects </li>
+<li>How to store Stivarga </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

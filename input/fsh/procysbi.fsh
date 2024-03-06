@@ -4,7 +4,7 @@ Instance: composition-en-8fe556bb25526e379f33fd00eb2af422
 InstanceOf: CompositionUvEpi
 Title: "Composition for procysbi Package Leaflet"
 Description:  "Composition for procysbi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What PROCYSBI is and what it is used for 
-2. What you need to know before you take PROCYSBI  
-3. How to take PROCYSBI  
-4. Possible side effects  
-5. How to store PROCYSBI 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What PROCYSBI is and what it is used for </li>
+<li>What you need to know before you take PROCYSBI  </li>
+<li>How to take PROCYSBI  </li>
+<li>Possible side effects  </li>
+<li>How to store PROCYSBI </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -367,91 +367,65 @@ Italy </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Chiesi sa/nv<br />
-T l/Tel: + 32 (0)2 788 42<br />
-Lietuva 
+T l/Tel: + 32 (0)2 788 42 Lietuva 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 </p>
-<p>Chiesi Bulgaria EOOD<br />
-Te .: + 359 29201 
-Luxembourg/Luxemburg 
+Tel: + 43 1 4073<br />
+Chiesi Bulgaria EOOD<br />
+Te .: + 359 29201Luxembourg/Luxemburg 
 Chiesi sa/nv<br />
-T l/Tel: + 32 (0)2 788 42<br />
- esk  republika 
+T l/Tel: + 32 (0)2 788 42  esk  republika 
 Chiesi CZ s.r.o.<br />
-Tel: + 420 261221 
-Magyarorsz g 
+Tel: + 420 261221Magyarorsz g 
 Chiesi Hungary Kft.<br />
-Tel.: + 36-1-429 1 
-Danmark 
+Tel.: + 36-1-429 1Danmark 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35<br />
-Malta 
+Tlf: + 46 8 753 35 Malta 
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2 
-Deutschland 
+Tel: + 39 0521 2Deutschland 
 Chiesi GmbH<br />
 Tel: + 49 40 89724-0 </p>
 <p>Nederland 
 Chiesi Pharmaceuticals B.V.<br />
-Tel: + 31 88 501 64<br />
-Eesti 
+Tel: + 31 88 501 64 Eesti 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-Norge 
+Tel: + 43 1 4073Norge 
 Chiesi Pharma AB<br />
-Tlf: + 46 8 753 35  </p>
-<p>Chiesi Hellas AEBE<br />
- : + 30 210 6179 
- sterreich 
+Tlf: + 46 8 753 35 <br />
+Chiesi Hellas AEBE<br />
+ : + 30 210 6179 sterreich 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-Espa a 
+Tel: + 43 1 4073Espa a 
 Chiesi Espa a, S.A.U.<br />
-Tel: + 34 93 494 8 
-Polska 
+Tel: + 34 93 494 8Polska 
 Chiesi Poland Sp. z.o.o.<br />
-Tel.: + 48 22 620 1 
-France 
+Tel.: + 48 22 620 1France 
 Chiesi S.A.S.<br />
-T l: + 33 1 47688 
-Portugal 
+T l: + 33 1 47688Portugal 
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2 
-Hrvatska 
+Tel: + 39 0521 2Hrvatska 
 Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-Rom nia 
+Tel: + 43 1 4073Rom nia 
 Chiesi Romania S.R.L.<br />
-Tel: + 40 212023 
-Ireland 
+Tel: + 40 212023Ireland 
 Chiesi Farmaceutici S.p.A. <br />
-Tel: + 39 0521 2 
-Slovenija 
+Tel: + 39 0521 2Slovenija 
 Chiesi Slovenija d.o.o.<br />
-Tel: + 386-1-43 00<br />
- sland 
+Tel: + 386-1-43 00  sland 
 Chiesi Pharma AB<br />
-S mi: +46 8 753 35<br />
-Slovensk  republika 
+S mi: +46 8 753 35 Slovensk  republika 
 Chiesi Slovakia s.r.o.<br />
-Tel: + 421 259300 
-Italia 
+Tel: + 421 259300Italia 
 Chiesi Italia S.p.A.<br />
-Tel: + 39 0521 2 
-Suomi/Finland 
+Tel: + 39 0521 2Suomi/Finland 
 Chiesi Pharma AB<br />
-Puh/Tel: +46 8 753 35  </p>
-<p>Chiesi Farmaceutici S.p.A.<br />
- : + 39 0521 2 
-Sverige 
-Chiesi Pharma AB<br />
-Tel: +46 8 753 35<br />
-Latvija 
-Chiesi Pharmaceuticals GmbH<br />
-Tel: + 43 1 4073 
-United Kingdom (Northern Ireland)<br />
+Puh/Tel: +46 8 753 35 <br />
 Chiesi Farmaceutici S.p.A.<br />
-Tel: + 39 0521 2 </p>
-<p>This leaflet was last revised in  </p>
+ : + 39 0521 2Sverige 
+Chiesi Pharma AB<br />
+Tel: +46 8 753 35 Latvija 
+Chiesi Pharmaceuticals GmbH<br />
+Tel: + 43 1 4073United Kingdom (Northern Ireland)<br />
+Chiesi Farmaceutici S.p.A.<br />
+Tel: + 39 0521 2This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-9cfa53e5a31a6544aeb83b303f96813f
 InstanceOf: CompositionUvEpi
 Title: "Composition for zyprexa Package Leaflet"
 Description:  "Composition for zyprexa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What ZYPREXA is and what it is used for 
-2. What you need to know before you take ZYPREXA 
-3. How to take ZYPREXA 
-4. Possible side effects 
-5. How to store ZYPREXA 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What ZYPREXA is and what it is used for </li>
+<li>What you need to know before you take ZYPREXA </li>
+<li>How to take ZYPREXA </li>
+<li>Possible side effects </li>
+<li>How to store ZYPREXA </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

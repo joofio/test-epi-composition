@@ -4,7 +4,7 @@ Instance: composition-en-a911acdcc16d3ea6bdce7272ad3df51a
 InstanceOf: CompositionUvEpi
 Title: "Composition for veyvondi Package Leaflet"
 Description:  "Composition for veyvondi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What VEYVONDI is and what it is used for  
-2. What you need to know before you use VEYVONDI  
-3. How to use VEYVONDI  
-4. Possible side effects  
-5. How to store VEYVONDI  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What VEYVONDI is and what it is used for  </li>
+<li>What you need to know before you use VEYVONDI  </li>
+<li>How to use VEYVONDI  </li>
+<li>Possible side effects  </li>
+<li>How to store VEYVONDI  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -190,8 +190,8 @@ that is most appropriate for you, how often you should receive VEYVONDI and for 
 VEYVONDI is usually infused into a vein (intravenously) by your doctor or nurse. Detailed 
 instructions for reconstitution and admnistration are given at the end of this package leaflet. </p>
 <p>Use in children and adolescents 
-VEYVONDI is not approved for use in children and adolescents below 18 years.  </p>
-<p>If you use more VEYVONDI than you should 
+VEYVONDI is not approved for use in children and adolescents below 18 years.<br />
+If you use more VEYVONDI than you should 
 Always use this medicine exactly as your doctor has told you. Check with your doctor if you are not 
 sure. If you infuse more VEYVONDI than recommended, tell your doctor as soon as possible. There 
 may be a risk of developing blood clots (thrombosis) in case of an accidental high dose. </p>
@@ -310,8 +310,7 @@ Austria </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Takeda Belgium NV 
-T l/Tel: +32 2 464 06 11<br />
-medinfoEMEA@takeda.com </p>
+T l/Tel: +32 2 464 06 medinfoEMEA@takeda.com </p>
 <p>Lietuva 
 Takeda, UAB 
 Tel: +370 521 09 medinfoEMEA@takeda.com </p>
@@ -347,8 +346,7 @@ Tlf: +47 800 800 medinfoEMEA@takeda.com </p>
 T : +30 210 6387medinfoEMEA@takeda.com </p>
 <p>sterreich 
 Takeda Pharma Ges.m.b.H.<br />
-Tel: +43 (0) 800-20 80 50<br />
-medinfoEMEA@takeda.com </p>
+Tel: +43 (0) 800-20 80 medinfoEMEA@takeda.com </p>
 <p>Espa a 
 Takeda Farmac utica Espa a, S.A. 
 Tel: +34 917 90 42 medinfoEMEA@takeda.com </p>

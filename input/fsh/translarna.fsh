@@ -4,7 +4,7 @@ Instance: composition-en-9c1ad55578ad6de333b716cfcc4a7d73
 InstanceOf: CompositionUvEpi
 Title: "Composition for translarna Package Leaflet"
 Description:  "Composition for translarna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Translarna is and what it is used for 
-2. What you need to know before you take Translarna 
-3. How to take Translarna 
-4. Possible side effects  
-5. How to store Translarna 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Translarna is and what it is used for </li>
+<li>What you need to know before you take Translarna </li>
+<li>How to take Translarna </li>
+<li>Possible side effects  </li>
+<li>How to store Translarna </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

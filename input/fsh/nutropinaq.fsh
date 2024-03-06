@@ -4,7 +4,7 @@ Instance: composition-en-72e43cd2bff034f1d9129ee8db99e248
 InstanceOf: CompositionUvEpi
 Title: "Composition for nutropinaq Package Leaflet"
 Description:  "Composition for nutropinaq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What NutropinAq is and what it is used for 
 2. What you need to know before you use NutropinAq 
 3. How to use NutropinAq 
 4. Possible side effects 
 5. How to store NutropinAq 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -101,11 +100,9 @@ section 6).
 * in children if the bones have already stopped growing. 
 * if you have an active tumour (cancer). Tell your doctor if you have or have had an active 
 tumour. Tumours must be inactive and you must have finished your anti-tumour treatment 
-before you start treatment with NutropinAq. </p>
-<ul>
-<li>if you have complications after a major surgery (open-heart or abdominal surgery), a multiple 
-trauma, acute respiratory failure, or similar conditions. </li>
-</ul>
+before you start treatment with NutropinAq. 
+* if you have complications after a major surgery (open-heart or abdominal surgery), a multiple 
+trauma, acute respiratory failure, or similar conditions. </p>
 <p>Warning and Precautions </p>
 <p>Talk to you doctor or pharmacist before using NutropinAq. </p>
 <ul>
@@ -210,8 +207,8 @@ the protein. </p>
 sterile injection needle. Read all the instructions for use carefully (on the reverse) before you start 
 using NutropinAq Pen. At the start of therapy, it is recommended that a doctor or a nurse give you 
 the injection and train you with the NutropinAq Pen. After this training, you will be able to inject 
-yourself or be injected by a trained care-giver. </p>
-<p>If you use more NutropinAq than you should </p>
+yourself or be injected by a trained care-giver. 
+If you use more NutropinAq than you should </p>
 <p>If you have injected more NutropinAq than you should have, contact your doctor for advice. If you 
 inject too much NutropinAq, your blood sugar level may decrease and become too low and then rise 
 too high (hyperglycaemia). </p>
@@ -255,8 +252,8 @@ thyroid function periodically and if necessary prescribe adequate treatment. </p
 <p>Reduced ability to absorb sugar (glucose) from your blood leading to high blood sugar levels 
 (hyperglycemia). Your doctor should monitor you for signs of this during treatment with NutropinAq. 
 If you are treated with insulin, your doctor may need to adjust your insulin dose. </p>
-<p>Feeling of weakness (asthenia) and increased muscle tension (hypertonia) </p>
-<p>Pain, bleeding, bruising, rash and itching at the site of injection. These can be avoided by using the 
+<p>Feeling of weakness (asthenia) and increased muscle tension (hypertonia) 
+Pain, bleeding, bruising, rash and itching at the site of injection. These can be avoided by using the 
 correct injection technique and changing the sites of injection. </p>
 <p>Some patients may develop antibodies (a type of protein produced by the body) to somatropin. When 
 these antibodies were found in patients, it did not prevent them from growing. </p>
@@ -294,8 +291,8 @@ particularly troublesome, you should discuss it with your doctor. </p>
 <p>Abnormal sensations of tingling, pricking or numbness (paraesthesia), abnormal bone development, 
 disease affecting progress of bone growth (osteochondrosis) and muscle weakness. </p>
 <p>Other rare side effects seen with NutropinAq treatment include itching over the whole body, rash, 
-blurred vision, increased weight, dizziness, diarrhoea, swelling of the face, fatigue, pain, fever, </p>
-<p>depression and difficulty to sleep (insomnia). </p>
+blurred vision, increased weight, dizziness, diarrhoea, swelling of the face, fatigue, pain, fever, 
+depression and difficulty to sleep (insomnia). </p>
 <p>Indication specific side effects seen during clinical trials </p>
 <p>In children with growth hormone deficiency brain (central nervous system) tumours were commonly 
 reported. From the 236 patients enrolled into the clinical studies 3 patients had a central nervous 
@@ -344,8 +341,8 @@ throw away medicines you no longer use. These measures will help to protect the 
 <p>The active substance of NutropinAq is somatropin*. 
 * Somatropin is a human growth hormone produced in Escherichia coli cells by recombinant DNA 
 technology. </p>
-<p>The other ingredients are sodium chloride, liquefied phenol, polysorbate 20, sodium citrate dihydrate, </p>
-<p>citric acid anhydrous and water for injections. </p>
+<p>The other ingredients are sodium chloride, liquefied phenol, polysorbate 20, sodium citrate dihydrate, 
+citric acid anhydrous and water for injections. </p>
 <p>What NutropinAq looks like and contents of the pack </p>
 <p>NutropinAq is a solution for injection (in a cartridge (10 mg/2 ml) - pack size of 1, 3 and 6). The 
 solution for multidose use is clear and colourless. </p>
@@ -361,64 +358,46 @@ Marketing Authorisation Holder. </p>
 Luxembourg/Luxemburg<br />
 Ipsen NVT l/Tel: + 32 - 9 - 243 96 Latvija<br />
 Ipsen Pharma p rst vniec ba 
-Tel: +371 676 22 </p>
-<p>Biomapas UAB 
- .: + 370 37 366 
- esk  republika<br />
+Tel: +371 676 22<br />
+Biomapas UAB 
+ .: + 370 37 366 esk  republika<br />
 Ipsen Pharma, s.r.o.<br />
-Tel: + 420 242 481  </p>
-<p>Lietuva 
+Tel: + 420 242 481 Lietuva 
 Ipsen Pharma SAS Lietuvos filialas<br />
-Tel. +370 700 33 
-Danmark, Norge, Suomi/Finland, Sverige, 
+Tel. +370 700 33Danmark, Norge, Suomi/Finland, Sverige, 
  sland 
 Institut Produits Synth se (IPSEN) AB 
-Tlf/Puh/Tel/S mi: +46 8 451 60<br />
-Magyarorsz g 
+Tlf/Puh/Tel/S mi: +46 8 451 60 Magyarorsz g 
 Ipsen Pharma Hungary Kft. 
-Tel.: + 36-1-555-5 
-Deutschland,  sterreich<br />
+Tel.: + 36-1-555-5Deutschland,  sterreich<br />
 Ipsen Pharma GmbH<br />
-Tel: + 49 89 2620 432<br />
-Nederland 
+Tel: + 49 89 2620 432 Nederland 
 Ipsen Farmaceutica B.V.<br />
-Tel: + 31 (0) 23 55 41  </p>
-<p>Eesti 
+Tel: + 31 (0) 23 55 41 Eesti 
 CentralPharma Communications O<br />
-Tel: +372 601 5 </p>
-<p>Polska 
+Tel: +372 601 5Polska 
 Ipsen Poland Sp. z o.o.<br />
-Tel.: + 48 (0) 22 653 6 
- ,  , Malta 
+Tel.: + 48 (0) 22 653 6 ,  , Malta 
 Ipsen   E  </p>
-<p>: + 30 - 210 - 984 3 </p>
-<p>Portugal 
+<p>: + 30 - 210 - 984 3Portugal 
 Ipsen Portugal   Produtos Farmac uticos, S.A.<br />
 Portugal 
-Tel: + 351 - 21 - 412 3 
-Espa a 
+Tel: + 351 - 21 - 412 3Espa a 
 Ipsen Pharma S.A.U. 
-Tel: + 34 - 936 - 858<br />
-Rom nia<br />
+Tel: + 34 - 936 - 858 Rom nia<br />
 Ipsen Pharma Rom nia SRL 
-Tel: + 40 (021) 231 27  </p>
-<p>France 
+Tel: + 40 (021) 231 27 France 
 Ipsen Pharma 
 T l : + 33 - 1 - 58 33 50 Slovenija 
 Biomapas UAB 
-Tel: + 370 37 366 
-Ireland, United Kingdom (Northern Ireland)<br />
+Tel: + 370 37 366Ireland, United Kingdom (Northern Ireland)<br />
 Ipsen Pharmaceuticals Limited <br />
-Tel: + 44 (0)1753 62 77 77  </p>
-<p>Slovensk  republika 
+Tel: + 44 (0)1753 62 77 Slovensk  republika 
 Ipsen Pharma, organiza n  zlo ka 
-Tel: + 420 242 481  </p>
-<p>Italia 
+Tel: + 420 242 481 Italia 
 Ipsen SpA 
-Tel: + 39 - 02 - 39 22<br />
-Hrvatska 
+Tel: + 39 - 02 - 39 22 Hrvatska 
 Biomapas Zagreb d.o.o. 
-Tel: + 385 17 757  </p>
-<p>This leaflet was last revised in <em>{Month/YYYY}</em> </p>
+Tel: + 385 17 757 This leaflet was last revised in &lt;{Month/YYYY}&gt; </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

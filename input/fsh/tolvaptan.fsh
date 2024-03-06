@@ -4,7 +4,7 @@ Instance: composition-en-2fe9007bb20986bb15e710aca341907a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tolvaptan Package Leaflet"
 Description:  "Composition for tolvaptan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Tolvaptan Accord is and what it is used for 
-2. What you need to know before you take Tolvaptan Accord 
-3. How to take Tolvaptan Accord 
-4. Possible side effects 
-5. How to store Tolvaptan Accord 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Tolvaptan Accord is and what it is used for </li>
+<li>What you need to know before you take Tolvaptan Accord </li>
+<li>How to take Tolvaptan Accord </li>
+<li>Possible side effects </li>
+<li>How to store Tolvaptan Accord </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -246,8 +246,8 @@ this medicine. </p>         </div>"""
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the carton and on each blister after 
 EXP. The expiry date refers to the last day of that month. </p>
-<p>This medicinal product does not require any special storage conditions. </p>
-<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+<p>This medicinal product does not require any special storage conditions. 
+Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
         
         

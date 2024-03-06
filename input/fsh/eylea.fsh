@@ -4,7 +4,7 @@ Instance: composition-en-448b528bf3d067b64074ee9859a8f881
 InstanceOf: CompositionUvEpi
 Title: "Composition for eylea Package Leaflet"
 Description:  "Composition for eylea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Eylea is and what it is used for  
-2. What you need to know before you receive  Eylea  
-3. How Eylea will be given  
-4. Possible side effects  
-5. How to store Eylea  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Eylea is and what it is used for  </li>
+<li>What you need to know before you receive  Eylea  </li>
+<li>How Eylea will be given  </li>
+<li>Possible side effects  </li>
+<li>How to store Eylea  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -305,8 +305,7 @@ Tel: +35 621 44 62 Deutschland
 Bayer Vital GmbH 
 Tel: +49 (0)214-30 513 Nederland 
 Bayer B.V. 
-Tel: +31-23   799 1000<br />
-Eesti 
+Tel: +31-23   799 1Eesti 
 Bayer O<br />
 Tel: +372 655 8Norge 
 Bayer AS 
@@ -348,7 +347,6 @@ Tel: +46 (0) 8 580 223 Latvija
 SIA Bayer 
 Tel: +371 67 84 55 United Kingdom (Northern Ireland) 
 Bayer AG 
-Tel: +44-(0)118 206 3 
-This leaflet was last revised in </p>
+Tel: +44-(0)118 206 3This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

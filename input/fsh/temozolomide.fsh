@@ -4,7 +4,7 @@ Instance: composition-en-3303bb5898bc0c0c96b4a3e7898ece7b
 InstanceOf: CompositionUvEpi
 Title: "Composition for temozolomide Package Leaflet"
 Description:  "Composition for temozolomide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Temozolomide SUN is and what it is used for 
-2. What you need to know before you take Temozolomide SUN 
-3. How to take Temozolomide SUN 
-4. Possible side effects 
-5. How to store Temozolomide SUN 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Temozolomide SUN is and what it is used for </li>
+<li>What you need to know before you take Temozolomide SUN </li>
+<li>How to take Temozolomide SUN </li>
+<li>Possible side effects </li>
+<li>How to store Temozolomide SUN </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -94,8 +94,8 @@ section 6).
 <p>DTIC). Signs of allergic reaction include itchiness, breathlessness or wheezing, or swelling of </p>
 <p>the face, lips, tongue or throat. 
 - if the numbers of certain kinds of blood cells, such as your white blood cells or platelets are 
-severely reduced (known as myelosuppression). These blood cells are important for fighting </p>
-<p>infection and for proper blood clotting. Your doctor will check your blood to make sure you 
+severely reduced (known as myelosuppression). These blood cells are important for fighting 
+infection and for proper blood clotting. Your doctor will check your blood to make sure you 
 have enough of these cells before you begin treatment. </p>
 <p>Warnings and precautions 
 Talk to your doctor, pharmacist or nurse before taking Temozolomide SUN, </p>
@@ -187,8 +187,8 @@ delayed or stopped depending on your blood counts and how you tolerate your medi
 treatment cycle. </p>
 <p>Patients with tumours that have returned or worsened (malignant glioma, such as glioblastoma 
 multiforme or anaplastic astrocytoma) taking Temozolomide SUN only </p>
-<p>A treatment cycle with Temozolomide SUN lasts 28 days. </p>
-<p>You will take Temozolomide SUN only once daily for the first 5 days. This daily dose depends on 
+<p>A treatment cycle with Temozolomide SUN lasts 28 days. 
+You will take Temozolomide SUN only once daily for the first 5 days. This daily dose depends on 
 whether or not you have received chemotherapy before. </p>
 <p>If you have not been previously treated with chemotherapy, your first dose of Temozolomide SUN 
 will be 200 mg/m2 once daily for the first 5 days. If you have been previously treated with 
@@ -379,8 +379,8 @@ Temozolomide SUN 250 mg hard capsules: shellac, propylene glycol, black iron oxi
 <p>What Temozolomide SUN looks like and contents of the pack </p>
 <p>5 mg hard capsules 
 Temozolomide SUN 5 mg hard capsules have a white opaque body and cap, imprinted in green ink. 
-The cap is imprinted with  890 . The body is imprinted with  5 mg  and two stripes. </p>
-<p>20 mg hard capsules 
+The cap is imprinted with  890 . The body is imprinted with  5 mg  and two stripes. 
+20 mg hard capsules 
 Temozolomide SUN 20 mg hard capsules have a white opaque body and cap, imprinted in yellow ink. 
 The cap is imprinted with  891 . The body is imprinted with  20 mg  and two stripes. </p>
 <p>100 mg hard capsules 
@@ -417,50 +417,40 @@ Nederlandene/Holland/ /Nizozemska/The Netherlands/Holland/
 L-Olanda/Nederland/Nederland/Niederlande/Pa ses Baixos/ 
 Nizozemska/Holandsko/Alankomaat/Nederl nderna/Nederl nderna 
 Tel./ ./tlf./ ./S mi/ ./Tlf./Puh./ 
- +31 (0)23 568 5 
-Deutschland 
+ +31 (0)23 568 5Deutschland 
 Sun Pharmaceuticals Germany GmbH 
-Hemmelrather Weg<br />
-51377 Leverkusen 
+Hemmelrather Weg 51377 Leverkusen 
 Deutschland 
-tel. +49 214 403<br />
-Espa a 
+tel. +49 214 403 Espa a 
 Sun Pharma Laboratorios, S.L.<br />
 Rambla de Catalunya 53-08007 Barcelona 
 Espa a 
-tel. +34 93 342 78<br />
-France 
+tel. +34 93 342 78 France 
 Sun Pharma France 
 11-15, Quai de Dion Bouton 
 92800 Puteaux 
 France 
-Tel. +33 1 41 44 44<br />
-Italia 
+Tel. +33 1 41 44 44 Italia 
 Sun Pharma Italia Srl 
 Viale Giulio Richard, 1 
 20143 Milano 
 Italia 
-tel. +39 02 33 49 07<br />
-Polska 
+tel. +39 02 33 49 07 Polska 
 Ranbaxy (Poland) Sp. Z o. o. 
-ul. Kubickiego 11<br />
-02-954 Warszawa<br />
+ul. Kubickiego 02-954 Warszawa<br />
 Polska 
-Tel. +48 22 642 07<br />
-Rom nia 
+Tel. +48 22 642 07 Rom nia 
 Terapia S.A. 
 Str. Fabricii nr Cluj-Napoca, Jude ul Cluj 
 Rom nia 
-Tel. +40 (264) 501<br />
-United Kingdom (Northern Ireland) 
+Tel. +40 (264) 501 United Kingdom (Northern Ireland) 
 Ranbaxy UK Ltd 
 a Sun Pharma Company 
 Millington Road Hyde Park, Hayes 3 
 5th Floor 
 UB3 4AZ HAYES 
 United Kingdom 
-Tel. +44 (0) 208 848 8 
-This leaflet was last revised in </p>
+Tel. +44 (0) 208 848 8This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu/. </p>         </div>"""      

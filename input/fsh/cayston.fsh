@@ -4,7 +4,7 @@ Instance: composition-en-d4f93e1067cc6b6405636501aeff5a7c
 InstanceOf: CompositionUvEpi
 Title: "Composition for cayston Package Leaflet"
 Description:  "Composition for cayston Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Cayston is and what it is used for 
 2. What you need to know before you take Cayston 
 3. How to take Cayston 
 4. Possible side effects 
 5. How to store Cayston 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -101,8 +101,8 @@ If any of these apply to you tell your doctor before using Cayston. </li>
 If you have ever coughed up blood you should only use Cayston if your doctor thinks the benefit of 
 taking this medicine outweighs the risk of coughing up blood. </p>
 <p>You may get a temporary lowering of lung function test result during treatment with Cayston, but this 
-is typically not a lasting effect. </p>
-<p>Children </p>
+is typically not a lasting effect. 
+Children </p>
 <p>Cayston is not for use in children under the age of 6 years. </p>
 <p>Other medicines and Cayston </p>
 <p>Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
@@ -195,8 +195,8 @@ Step B: Pull the blue cap down to a flat
 (horizontal) position (where the bottom of the 
 blue cap faces up), to prepare the metal seal for 
 removal. Do not completely tear through the 
-metal seal. </p>
-<p>Step C: While continuing to hold the vial 
+metal seal. 
+Step C: While continuing to hold the vial 
 steady with one hand, use the other hand to 
 slowly pull the blue cap  in a counterclockwise 
 direction. Do not twist the blue cap. 
@@ -388,92 +388,66 @@ Ireland </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 Gilead Sciences Belgium SRL-BV 
-T l/Tel: + 32 (0) 2 401 35<br />
-Lietuva 
+T l/Tel: + 32 (0) 2 401 35 Lietuva 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 </p>
-<p>Gilead Sciences Ireland UC 
-Te .:  + 353 (0) 1 686 1 
-Luxembourg/Luxemburg 
+Tel: + 353 (0) 1 686 1<br />
+Gilead Sciences Ireland UC 
+Te .:  + 353 (0) 1 686 1Luxembourg/Luxemburg 
 Gilead Sciences Belgium SRL-BV 
-T l/Tel: + 32 (0) 2 401 35<br />
- esk  republika 
+T l/Tel: + 32 (0) 2 401 35  esk  republika 
 Gilead Sciences s.r.o. 
-Tel: + 420 910 871 986  </p>
-<p>Magyarorsz g 
+Tel: + 420 910 871 Magyarorsz g 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Danmark 
+Tel: + 353 (0) 1 686 1Danmark 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 
-Malta 
+Tlf: + 46 (0) 8 5057 1Malta 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Deutschland 
+Tel: + 353 (0) 1 686 1Deutschland 
 Gilead Sciences GmbH 
 Tel: + 49 (0) 89 899890-0 </p>
 <p>Nederland 
 Gilead Sciences Netherlands B.V. 
-Tel: + 31 (0) 20 718 36<br />
-Eesti 
+Tel: + 31 (0) 20 718 36 Eesti 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Norge 
+Tel: + 353 (0) 1 686 1Norge 
 Gilead Sciences Sweden AB 
-Tlf: + 46 (0) 8 5057 1 </p>
-<p>Gilead Sciences    . . 
- : +30 210 8930<br />
- sterreich 
+Tlf: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : +30 210 8930  sterreich 
 Gilead Sciences GesmbH 
-Tel: + 43 1 260<br />
-Espa a 
+Tel: + 43 1 260 Espa a 
 Gilead Sciences, S.L. 
-Tel: + 34 91 378 98<br />
-Polska 
+Tel: + 34 91 378 98 Polska 
 Gilead Sciences Poland Sp. z o.o. 
-Tel: + 48 22 262 8 
-France 
+Tel: + 48 22 262 8France 
 Gilead Sciences 
-T l: + 33 (0) 1 46 09 41<br />
-Portugal 
+T l: + 33 (0) 1 46 09 41 Portugal 
 Gilead Sciences, Lda. 
-Tel: + 351 21 7928 
-Hrvatska 
+Tel: + 351 21 7928Hrvatska 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-Rom nia 
+Tel: + 353 (0) 1 686 1Rom nia 
 Gilead Sciences (GSR) S.R.L.<br />
-Tel: +40 31 631 18<br />
-Ireland 
+Tel: +40 31 631 18 Ireland 
 Gilead Sciences Ireland UC 
-Tel: +353 (0) 214 825<br />
-Slovenija 
+Tel: +353 (0) 214 825 Slovenija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
- sland 
+Tel: + 353 (0) 1 686 1 sland 
 Gilead Sciences Sweden AB 
-S mi: + 46 (0) 8 5057 1 
-Slovensk  republika 
+S mi: + 46 (0) 8 5057 1Slovensk  republika 
 Gilead Sciences Slovakia s.r.o 
-Tel: + 421 232 121<br />
-Italia 
+Tel: + 421 232 121 Italia 
 Gilead Sciences S.r.l. 
-Tel: + 39 02 439 
-Suomi/Finland 
+Tel: + 39 02 439Suomi/Finland 
 Gilead Sciences Sweden AB 
-Puh/Tel: + 46 (0) 8 5057 1 </p>
-<p>Gilead Sciences    . . 
- : + 30 210 8930<br />
-Sverige 
+Puh/Tel: + 46 (0) 8 5057 1<br />
+Gilead Sciences    . . 
+ : + 30 210 8930 Sverige 
 Gilead Sciences Sweden AB 
-Tel: + 46 (0) 8 5057 1 
-Latvija 
+Tel: + 46 (0) 8 5057 1Latvija 
 Gilead Sciences Ireland UC 
-Tel: + 353 (0) 1 686 1 
-United Kingdom (Northern Ireland) 
+Tel: + 353 (0) 1 686 1United Kingdom (Northern Ireland) 
 Gilead Sciences Ireland UC 
-Tel: + 44 (0) 8000 113 </p>
-<p>This leaflet was last revised in . </p>
+Tel: + 44 (0) 8000 113This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

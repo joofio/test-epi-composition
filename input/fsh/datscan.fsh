@@ -4,7 +4,7 @@ Instance: composition-en-d047904bec391590dca84caa3af7d489
 InstanceOf: CompositionUvEpi
 Title: "Composition for datscan Package Leaflet"
 Description:  "Composition for datscan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What DaTSCAN is and what it is used for 
-2. What you need to know before DaTSCAN is used 
-3. How DaTSCAN is used 
-4. Possible side effects 
-5. How DaTSCAN is stored 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What DaTSCAN is and what it is used for </li>
+<li>What you need to know before DaTSCAN is used </li>
+<li>How DaTSCAN is used </li>
+<li>Possible side effects </li>
+<li>How DaTSCAN is stored </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -243,36 +243,31 @@ The Netherlands </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien<br />
 GE Healthcare<br />
-T l/Tel: +32 (0) 2 719 7 
-Lietuva 
+T l/Tel: +32 (0) 2 719 7Lietuva 
 VitaFARMA UAB 
-Tel.: +370 37 225 </p>
-<p>GE Healthcare Bulgaria EOOD 
+Tel.: +370 37 225<br />
+GE Healthcare Bulgaria EOOD 
 Te : +359 2 9712Luxembourg/Luxemburg<br />
 GE Healthcare<br />
 Belgi /Belgique/Belgien 
-T l/Tel: +32 (0) 2 719 7 </p>
-<p>esk  republika 
+T l/Tel: +32 (0) 2 719 7 esk  republika 
 M.G.P. spol. s r.o. 
 Tel.: +420 577 212 Magyarorsz g 
 Radizone Diagnost-X Kft. 
-Tel: +36 1 787-5 
-Danmark 
+Tel: +36 1 787-5Danmark 
 GE Healthcare A/S 
 Tlf: +45 70 2222 Malta 
 Pharma-Cos Ltd. 
-Tel: + 356 22266 
-Deutschland 
+Tel: + 356 22266Deutschland 
 GE Healthcare Buchler GmbH &amp; Co. KG 
 Tel: +49 (0) 5 307 93 Nederland 
 GE Healthcare B.V. 
-Tel: +31 (0) 40 299 10 00  </p>
-<p>Eesti 
+Tel: +31 (0) 40 299 10 Eesti 
 GE Healthcare Estonia O<br />
 Tel: +372 6260 Norge 
 GE Healthcare AS 
-Tlf: +47 23 18 50  </p>
-<p>GE Healthcare A.E. 
+Tlf: +47 23 18 50 <br />
+GE Healthcare A.E. 
  : +30 210 8930 sterreich 
 GE Healthcare Handels GmbH 
 Tel: +43 (0) 1 97272-0 </p>
@@ -280,44 +275,36 @@ Tel: +43 (0) 1 97272-0 </p>
 GE Healthcare Bio-Sciences, S.A.U 
 Tel: +34 91 663 25 Polska 
 GE Medical Systems Polska Sp. z o.o. 
-Tel: +4822 330 83<br />
-France 
+Tel: +4822 330 83 France 
 GE Healthcare SAS 
 T l: +33 1 34 49 54 Portugal 
 Satis   GE Healthcare 
-Tel: +351 214251 
-Hrvatska 
+Tel: +351 214251Hrvatska 
 BIOVIT d.o.o. 
-Tel: + 385 42 260<br />
-Rom nia 
+Tel: + 385 42 260 Rom nia 
 MagnaPharm Marketing &amp; Sales Romania 
 S.R.L. 
-Tel: + 40 372 502<br />
-Ireland 
+Tel: + 40 372 502 Ireland 
 GE Healthcare Limited UK 
-Tel: +44 (0) 1494 54 5 
-Slovenija 
+Tel: +44 (0) 1494 54 5Slovenija 
 Biomedis M.B. trgovina d.o.o. 
 Tel: +386 2 4716 sland 
 Icepharma 
 S mi: + 354 540 8Slovensk  republika 
 MGP, spol. s r. o. 
-Tel: +421 2 5465 4 
-Italia 
+Tel: +421 2 5465 4Italia 
 GE Healthcare S.r.l. 
 Tel: +39 02 26001 Suomi/Finland 
 Oy GE Healthcare Bio-Sciences Ab 
-Puh/Tel: +358 10 39 </p>
-<p>Phadisco Ltd 
+Puh/Tel: +358 10 39<br />
+Phadisco Ltd 
  : +357 22 715Sverige 
 GE Healthcare AB 
-Tel: +46 (0) 8 559 504<br />
-Latvija 
+Tel: +46 (0) 8 559 504 Latvija 
 General Electric International Inc. 
 Tel: +371 6780 7United Kingdom (Northern Ireland) 
 GE Healthcare Limited 
-Tel: +44(0)1494 54 5 </p>
-<p>This leaflet was last revised in &lt;{MM/YYYY} </p>
+Tel: +44(0)1494 54 5This leaflet was last revised in &lt;{MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site; 
 http://www.ema.europa.eu. </p>
 <p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p>         </div>"""      

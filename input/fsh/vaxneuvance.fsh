@@ -4,7 +4,7 @@ Instance: composition-en-3f214a4f5ac8e3dc74014e21089eb5bc
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxneuvance Package Leaflet"
 Description:  "Composition for vaxneuvance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -44,7 +44,7 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "Package leaflet: Information for the user"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Contents of the pack and other information</p>         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>           </div>"""   
 
 
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet
 1. What Vaxneuvance is and what it is used for 
 2. What you need to know before you or your child receives Vaxneuvance
 3. How Vaxneuvance is given
 4. Possible side effects 
 5. How to store Vaxneuvance
-6.  
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -372,7 +371,7 @@ This leaflet was last revised in {MM/YYYY}.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu.
-<em>------------------------------------------------------------------------------------------------------------------------</em>
+&lt;------------------------------------------------------------------------------------------------------------------------&gt;
 The following information is intended for healthcare professionals only:
 Vaxneuvance must not be injected intravascularly.
 * Immediately prior to use, hold the pre-filled syringe horizontally and shake vigorously to obtain

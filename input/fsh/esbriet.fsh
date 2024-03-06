@@ -4,7 +4,7 @@ Instance: composition-en-6455d7711efcb7c39e76872d121d19e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for esbriet Package Leaflet"
 Description:  "Composition for esbriet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Esbriet is and what it is used for 
-2. What you need to know before you take Esbriet  
-3. How to take Esbriet  
-4. Possible side effects 
-5. How to store Esbriet 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Esbriet is and what it is used for </li>
+<li>What you need to know before you take Esbriet  </li>
+<li>How to take Esbriet  </li>
+<li>Possible side effects </li>
+<li>How to store Esbriet </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -110,27 +110,12 @@ Talk to your doctor or pharmacist before taking Esbriet </p>
 <p>medicine. </p>
 <p>Stevens-Johnson syndrome and toxic epidermal necrolysis have been reported in association </p>
 <p>with Esbriet treatment. Stop using Esbriet and seek medical attention immediately if you </p>
-<p>notice any of the symptoms related to these serious skin reactions described in section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take esbriet"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take esbriet"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Esbriet may cause serious liver problems and some cases have been fatal. You will need a blood test 
+<p>notice any of the symptoms related to these serious skin reactions described in section 4. Esbriet may cause serious liver problems and some cases have been fatal. You will need a blood test 
 before you start taking Esbriet and at monthly intervals for the first 6 months and then every 3 months 
 thereafter whilst you are taking this medicine to check whether your liver is working properly. It is 
 important that you have these regular blood tests for as long as you are taking Esbriet.  </p>
 <p>Children and adolescents 
-Do not give Esbriet to children and adolescents under the age of 1</p>         </div>"""         
-
-        
-* section[=].section[+]
-  * title = "4. Possible side effects"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Other medicines and Esbriet 
+Do not give Esbriet to children and adolescents under the age of 18. Other medicines and Esbriet 
 Tell your doctor or pharmacist if you are taking, have recently taken, or might take any other 
 medicines.      </p>
 <p>This is especially important if you are taking the following medicines, as they may change the effect 
@@ -158,12 +143,12 @@ and benefits of taking this medicine while breast-feeding if you decide to do so
 <p>Driving and using machines 
 Do not drive or use machines if you feel dizzy or tired after taking Esbriet.  </p>
 <p>Esbriet contains sodium 
-Esbriet contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially  sodium-free . </p>         </div>"""      
-        
+Esbriet contains less than 1 mmol sodium (23 mg) per capsule, that is to say essentially  sodium-free . </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "5. How to store esbriet"
+  * title =  "3. How to take esbriet"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store esbriet"
+  * code.text = "3. How to take esbriet"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Treatment with Esbriet should be started and overseen by a specialist doctor experienced in the 
 diagnosis and treatment of IPF. </p>
@@ -192,13 +177,13 @@ than your prescribed daily dose. </p>
 In some situations, your doctor may advise you to stop taking Esbriet. If for any reason you have to 
 stop taking Esbriet for more than 14 consecutive days, your doctor will restart your treatment with 
 1 capsule 3 times a day, gradually increasing this to 3 capsules 3 times a day.  </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
-        
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Stop taking Esbriet and tell your doctor immediately </p>
@@ -254,4 +239,123 @@ If you get any side effects, talk to your doctor or pharmacist. This includes an
 not listed in this leaflet. You can also report side effects directly via the national reporting system 
 listed in Appendix V. By reporting side effects you can help provide more information on the safety of 
 this medicine. </p>         </div>"""      
+        
+* section[=].section[+]
+  * title = "5. How to store esbriet"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "5. How to store esbriet"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
+<p>Do not use this medicine after the expiry date which is stated on the bottle label, blister and carton 
+after EXP. The expiry date refers to the last day of that month.  </p>
+<p>Do not store this medicine above 30 C. </p>
+<p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
+throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Esbriet contains<br />
+The active substance is pirfenidone. Each capsule contains 267 mg of pirfenidone.<br />
+The other ingredients are: </p>
+<p>Capsule filling: microcrystalline cellulose, croscarmellose sodium (see Section 2  Esbriet 
+contains sodium ), povidone, magnesium stearate </p>
+<p>Capsule shell: gelatin, titanium dioxide (E171) </p>
+<p>Capsule brown printing ink: shellac, iron oxide black (E172), iron oxide red (E172), iron </p>
+<p>oxide yellow (E172), propylene glycol, ammonium hydroxide </p>
+<p>What Esbriet looks like and contents of the pack 
+Esbriet hard capsules (capsules) have a white to off-white opaque body and a white to off-white 
+opaque cap with  PFD 267 mg  printed in brown ink. The capsules contain a white to pale yellow 
+powder.  </p>
+<p>Your medicine is provided in either a 2-week treatment initiation pack, a 4-week treatment pack or in 
+a bottle.  </p>
+<p>The 2-week treatment initiation pack contains a total of 63 capsules. There are 7 blister strips with 3 
+capsules per strip (1 capsule per pocket for Week 1) and 7 blister strips with 6 capsules per strip (2 
+capsules per pocket for Week 2). </p>
+<p>The 4-week treatment pack contains a total of 252 capsules. There are 14 x 2-day blister strips each 
+containing 18 capsules (3 capsules per pocket). </p>
+<p>The blisters strips in the 2-week treatment initiation pack and 4-week treatment maintenance pack are 
+each marked with the following symbols as a reminder to take a dose three times a day: 
+ (sunrise; morning dose) 
+ (sun; daytime dose) and 
+(moon; evening dose). </p>
+<p>The bottle pack contains 270 capsules.  </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder  </p>
+<p>Roche Registration GmbH<br />
+Emil-Barell-Strasse 1 
+79639 Grenzach-Wyhlen 
+Germany </p>
+<p>Manufacturer </p>
+<p>Roche Pharma AG 
+Emil-Barell-Str. 1 
+D-79639 Grenzach-Wyhlen 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+N.V. Roche S.A.<br />
+T l/Tel: +32 (0) 2 525 82 Lietuva<br />
+UAB  Roche Lietuva <br />
+Tel: +370 5 2546   </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg 
+(Voir/siehe Belgique/Belgien) </p>
+<p>esk  republika 
+Roche s. r. o.<br />
+Tel: +420 - 2 20382Magyarorsz g 
+Roche (Magyarorsz g) Kft.<br />
+Tel: +36 1 279 4Danmark 
+Roche Pharmaceuticals A/S <br />
+Tlf: +45 - 36 39 99 Malta 
+(See Ireland)  </p>
+<p>Deutschland 
+Roche Pharma AG<br />
+Tel: +49 (0) 7624 Nederland 
+Roche Nederland B.V.<br />
+Tel: +31 (0) 348 438Eesti 
+Roche Eesti O <br />
+Tel: + 372 - 6 177 Norge 
+Roche Norge AS<br />
+Tlf: +47 - 22 78 90  <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich 
+Roche Austria GmbH<br />
+Tel: +43 (0) 1 27Espa a 
+Roche Farma S.A.<br />
+Tel: +34 - 91 324 81 Polska 
+Roche Polska Sp.z o.o.<br />
+Tel: +48 - 22 345 18 France 
+Roche<br />
+T l: +33 (0) 1 47 61 40 Portugal 
+Roche Farmac utica Qu mica, Lda<br />
+Tel: +351 - 21 425 70 Hrvatska 
+Roche d.o.o.<br />
+Tel: +385 1 4722 Rom nia<br />
+Roche Rom nia S.R.L.<br />
+Tel: +40 21 206 47 Ireland 
+Roche Products (Ireland) Ltd.<br />
+Tel: +353 (0) 1 469 0Slovenija 
+Roche farmacevtska dru ba d.o.o.<br />
+Tel: +386 - 1 360 26  sland 
+Roche Pharmaceuticals A/S <br />
+c/o Icepharma hf<br />
+S mi: +354 540 8Slovensk  republika 
+Roche Slovensko, s.r.o.<br />
+Tel: +421 - 2 52638Italia 
+Roche S.p.A.<br />
+Tel: +39 - 039 2Suomi/Finland 
+Roche Oy<br />
+Puh/Tel: +358 (0) 10 554  <br />
+ . .  &amp;    .<br />
+ : +357 - 22 76 62 Sverige 
+Roche AB<br />
+Tel: +46 (0) 8 726 1Latvija 
+Roche Latvija SIA<br />
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
+Roche Products (Ireland) Ltd.<br />
+Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

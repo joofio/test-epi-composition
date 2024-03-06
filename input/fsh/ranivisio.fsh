@@ -4,7 +4,7 @@ Instance: composition-en-95a6c6d44fd775697ee8966bf749780c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ranivisio Package Leaflet"
 Description:  "Composition for ranivisio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ranivisio is and what it is used for  
-2. What you need to know before you are given Ranivisio 
-3. How Ranivisio is given  
-4. Possible side effects  
-5. How to store Ranivisio 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ranivisio is and what it is used for  </li>
+<li>What you need to know before you are given Ranivisio </li>
+<li>How Ranivisio is given  </li>
+<li>Possible side effects  </li>
+<li>How to store Ranivisio </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -250,91 +250,64 @@ Germany </p>
 Authorisation Holder: 
 Belgi /Belgique/Belgien<br />
 Teva Pharma Belgium N.V./S.A./A.G. 
-Tel/T l: +32 3 820 73 73<br />
-Lietuva 
+Tel/T l: +32 3 820 73 Lietuva 
 UAB Teva Baltics 
-Tel: +370 5 266 02  </p>
-<p>Tel: +359 2 489 95<br />
-Luxembourg/Luxemburg<br />
+Tel: +370 5 266 02    </p>
+<p>Tel: +359 2 489 95 Luxembourg/Luxemburg<br />
 Teva Pharma Belgium N.V./S.A./A.G.,<br />
-T l: +32 3 820 73<br />
- esk  republika<br />
+T l: +32 3 820 73  esk  republika<br />
 Teva Pharmaceuticals CR, s.r.o.<br />
-Tel: +420 251 007 111  </p>
-<p>Magyarorsz g<br />
+Tel: +420 251 007 Magyarorsz g<br />
 Teva Gy gyszergy r Zrt. 
-Tel.: +36 1 288 6 
-Danmark<br />
+Tel.: +36 1 288 6Danmark<br />
 Teva Denmark A/S<br />
-Tlf: +45 44 98 55 11  </p>
-<p>Malta<br />
+Tlf: +45 44 98 55 Malta<br />
 Teva Pharmaceuticals Ireland, L-Irlanda 
- el: +353 (0)1912 7 
-Deutschland 
+ el: +353 (0)1912 7Deutschland 
 ratiopharm GmbH 
-Tel: +49 731 402<br />
-Nederland<br />
+Tel: +49 731 402 Nederland<br />
 Teva Nederland B.V. 
-Tel: +31 (0) 800 0228 
-Eesti 
+Tel: +31 (0) 800 0228Eesti 
 UAB Teva Baltics Eesti filiaal 
-Tel: +372 661 0 
-Norge 
+Tel: +372 661 0Norge 
 Teva Norway AS 
-Tlf: +47 66 77 55  </p>
-<p>Specifar <br />
- : +30 211 880 5 
- sterreich 
+Tlf: +47 66 77 55 <br />
+Specifar <br />
+ : +30 211 880 5 sterreich 
 ratiopharm Arzneimittel Vertriebs-GmbH 
-Tel: +43 1 970 
-Espa a 
+Tel: +43 1 970Espa a 
 Teva Pharma, S.L.U. 
-Tel: +34 91 387 32 80   </p>
-<p>Polska 
+Tel: +34 91 387 32 Polska 
 Zak ady Farmaceutyczne Polpharma S.A. 
-Tel. + 48 22 364 61<br />
-France 
+Tel. + 48 22 364 61 France 
 Teva Sant<br />
-T l: +33 1 55 91 78<br />
-Portugal 
+T l: +33 1 55 91 78 Portugal 
 Teva Pharma - Produtos Farmac uticos Lda 
-Tel: +351 214 767<br />
-Hrvatska 
+Tel: +351 214 767 Hrvatska 
 Pliva Hrvatska d.o.o 
-Tel: + 385 1 37 20<br />
-Rom nia 
+Tel: + 385 1 37 20 Rom nia 
 Teva Pharmaceuticals S.R.L 
-Tel: +40 21 230 65<br />
-Ireland 
+Tel: +40 21 230 65 Ireland 
 Teva Pharmaceuticals Ireland 
-Tel: +353 (0)1912 7 
-Slovenija 
+Tel: +353 (0)1912 7Slovenija 
 Pliva Ljubljana d.o.o. 
-Tel: +386 1 58 90<br />
- sland 
+Tel: +386 1 58 90  sland 
 Teva Pharma Iceland ehf. 
-S mi: + 354 550 3 
-Slovensk  republika 
+S mi: + 354 550 3Slovensk  republika 
 Teva Pharmaceuticals Slovakia s.r.o. 
-Tel: +421 2 5726 7 
-Italia 
+Tel: +421 2 5726 7Italia 
 Teva Italia S.r.l. 
-Tel: +39 0289 17 
-Suomi/Finland 
+Tel: +39 0289 17Suomi/Finland 
 ratiopharm Oy 
-Puh/Tel: +358 20 180 5 </p>
-<p>Specifar  , <br />
- : +30 211 880 5 
-Sverige 
+Puh/Tel: +358 20 180 5<br />
+Specifar  , <br />
+ : +30 211 880 5Sverige 
 Teva Sweden AB 
-Tel: +46 42 12 11<br />
-Latvija 
+Tel: +46 42 12 11 Latvija 
 UAB Teva Baltics fili le Latvij <br />
-Tel: +371 67 323<br />
-United Kingdom (Northern Ireland) 
+Tel: +371 67 323 United Kingdom (Northern Ireland) 
 Teva Pharmaceuticals Ireland 
-Tel: +44 (0) 207 540 7 </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 (0) 207 540 7This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

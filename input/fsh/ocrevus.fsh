@@ -4,7 +4,7 @@ Instance: composition-en-802d03413c083ad0931330a56355a879
 InstanceOf: CompositionUvEpi
 Title: "Composition for ocrevus Package Leaflet"
 Description:  "Composition for ocrevus Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Ocrevus is and what it is used for  
-2. What you need to know before you are given Ocrevus 
-3. How Ocrevus is given  
-4. Possible side effects  
-5. How to store Ocrevus 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Ocrevus is and what it is used for  </li>
+<li>What you need to know before you are given Ocrevus </li>
+<li>How Ocrevus is given  </li>
+<li>Possible side effects  </li>
+<li>How to store Ocrevus </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -419,9 +419,9 @@ glacial acetic acid, trehalose dihydrate, polysorbate 20 and water for injection
 <li>Ocrevus is a clear to slightly opalescent, and colourless to pale brown solution.  </li>
 <li>It is supplied as a concentrate for solution for infusion. </li>
 <li>This medicine is available in packs containing 1 or 2 vials (vials of 10 mL concentrate). Not all 
-pack sizes may be marketed. </li>
+pack sizes may be marketed. 
+Marketing Authorisation Holder  </li>
 </ul>
-<p>Marketing Authorisation Holder  </p>
 <p>Roche Registration GmbH<br />
 Emil-Barell-Strasse 1 
 79639 Grenzach-Wyhlen 
@@ -435,91 +435,65 @@ Germany </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien<br />
 N.V. Roche S.A.<br />
-T l/Tel: +32 (0) 2 525 82 11<br />
-Lietuva<br />
+T l/Tel: +32 (0) 2 525 82 Lietuva<br />
 UAB  Roche Lietuva <br />
-Tel: +370 5 2546799  </p>
-<p>: +359 2 818 44 44  </p>
-<p>Luxembourg/Luxemburg<br />
+Tel: +370 5 2546   </p>
+<p>: +359 2 818 44 Luxembourg/Luxemburg<br />
 (Voir/siehe Belgique/Belgien)  </p>
 <p>esk  republika<br />
 Roche s. r. o.<br />
-Tel: +420 - 2 20382111  </p>
-<p>Magyarorsz g<br />
+Tel: +420 - 2 20382Magyarorsz g<br />
 Roche (Magyarorsz g) Kft.<br />
-Tel: +36 - 1 279 4 
-Danmark<br />
+Tel: +36 - 1 279 4Danmark<br />
 Roche Pharmaceuticals A/S<br />
-Tlf: +45 - 36 39 99 99  </p>
-<p>Malta<br />
+Tlf: +45 - 36 39 99 Malta<br />
 (see Ireland)  </p>
 <p>Deutschland<br />
 Roche Pharma AG<br />
-Tel: +49 (0) 7624 140  </p>
-<p>Nederland<br />
+Tel: +49 (0) 7624 Nederland<br />
 Roche Nederland B.V.<br />
-Tel: +31 (0) 348 438050  </p>
-<p>Eesti<br />
+Tel: +31 (0) 348 438Eesti<br />
 Roche Eesti O <br />
-Tel: + 372 - 6 177 380  </p>
-<p>Norge<br />
+Tel: + 372 - 6 177 Norge<br />
 Roche Norge AS<br />
-Tlf: +47 - 22 78 90 00  </p>
-<p>Roche (Hellas) A.E.<br />
- : +30 210 61 66 100  </p>
-<p>sterreich<br />
+Tlf: +47 - 22 78 90  <br />
+Roche (Hellas) A.E.<br />
+ : +30 210 61 66  sterreich<br />
 Roche Austria GmbH<br />
-Tel: +43 (0) 1 27739  </p>
-<p>Espa a<br />
+Tel: +43 (0) 1 27Espa a<br />
 Roche Farma S.A.<br />
-Tel: +34 - 91 324 81 00  </p>
-<p>Polska<br />
+Tel: +34 - 91 324 81 Polska<br />
 Roche Polska Sp.z o.o.<br />
-Tel: +48 - 22 345 18 88  </p>
-<p>France<br />
+Tel: +48 - 22 345 18 France<br />
 Roche<br />
-T l: +33 (0) 1 47 61 40 00  </p>
-<p>Portugal<br />
+T l: +33 (0) 1 47 61 40 Portugal<br />
 Roche Farmac utica Qu mica, Lda<br />
-Tel: +351 - 21 425 70 00  </p>
-<p>Hrvatska<br />
+Tel: +351 - 21 425 70 Hrvatska<br />
 Roche d.o.o.<br />
-Tel: +385 1 4722 333  </p>
-<p>Rom nia<br />
+Tel: +385 1 4722 Rom nia<br />
 Roche Rom nia S.R.L.<br />
-Tel: +40 21 206 47 01  </p>
-<p>Ireland<br />
+Tel: +40 21 206 47 Ireland<br />
 Roche Products (Ireland) Ltd.<br />
-Tel: +353 (0) 1 469 0700  </p>
-<p>Slovenija<br />
+Tel: +353 (0) 1 469 0Slovenija<br />
 Roche farmacevtska dru ba d.o.o.<br />
-Tel: +386 - 1 360 26 00  </p>
-<p>sland<br />
+Tel: +386 - 1 360 26  sland<br />
 Roche Pharmaceuticals A/S<br />
 c/o Icepharma hf<br />
-S mi: +354 540 8000  </p>
-<p>Slovensk  republika<br />
+S mi: +354 540 8Slovensk  republika<br />
 Roche Slovensko, s.r.o.<br />
-Tel: +421 - 2 52638201<br />
-Italia<br />
+Tel: +421 - 2 52638Italia<br />
 Roche S.p.A.<br />
-Tel: +39 - 039 2471<br />
-Suomi/Finland<br />
+Tel: +39 - 039 2Suomi/Finland<br />
 Roche Oy<br />
-Puh/Tel: +358 (0) 10 554 500  </p>
-<p>K <br />
+Puh/Tel: +358 (0) 10 554 K <br />
  . .  &amp;    .<br />
- : +357 - 22 76 62 76  </p>
-<p>Sverige<br />
+ : +357 - 22 76 62 Sverige<br />
 Roche AB<br />
-Tel: +46 (0) 8 726 1200  </p>
-<p>Latvija<br />
+Tel: +46 (0) 8 726 1Latvija<br />
 Roche Latvija SIA<br />
-Tel: +371 - 6 7039831  </p>
-<p>United Kingdom (Northern Ireland) 
+Tel: +371 - 6 7039United Kingdom (Northern Ireland) 
 Roche Products (Ireland) Ltd.<br />
-Tel: +44 (0) 1707 366000  </p>
-<p>This leaflet was last revised in  </p>
+Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

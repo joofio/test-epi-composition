@@ -4,7 +4,7 @@ Instance: composition-en-23c171402ffd8448c1d943b191514c66
 InstanceOf: CompositionUvEpi
 Title: "Composition for prialt Package Leaflet"
 Description:  "Composition for prialt Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Prialt is and what it is used for 
 2. What you need to know before you are given Prialt 
 3. How to use Prialt 
 4. Possible side effects 
 5. How to store Prialt 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -361,8 +360,7 @@ AGEA Pharma GmbH
 Tel: +43 (0)1 336 01 office@ageapharma.com </p>
 <p>Espa a 
 Esteve Pharmaceuticals, S.A. 
-Tel: +34 93 446 60<br />
-Polska 
+Tel: +34 93 446 60 Polska 
 IMED POLAND Sp. z o.o. 
 Tel.: +48 (0)22 663 43 imed@imed.com.pl </p>
 <p>France 

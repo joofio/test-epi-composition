@@ -4,7 +4,7 @@ Instance: composition-en-8a94445977c6995eab70c753c18b38b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for luminity Package Leaflet"
 Description:  "Composition for luminity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Luminity is and what it is used for  
-2. What you need to know before you use Luminity  
-3. How to use Luminity  
-4. Possible side effects  
-5. How to store Luminity  
-6. Further information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Luminity is and what it is used for  </li>
+<li>What you need to know before you use Luminity  </li>
+<li>How to use Luminity  </li>
+<li>Possible side effects  </li>
+<li>How to store Luminity  </li>
+<li>Further information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -238,8 +238,7 @@ Lantheus EU Limited
 Rocktwist House,<br />
 Block 1, Western Business Park 
 Shannon, Co. Clare V14 FWIreland </p>
-<p>Tel:+353 1 223 3 
-Manufacturer 
+<p>Tel:+353 1 223 3Manufacturer 
 Millmount Healthcare Limited 
 Block 7, City North Business Campus 
 Stamullen, Co. Meath K32 YDIreland </p>

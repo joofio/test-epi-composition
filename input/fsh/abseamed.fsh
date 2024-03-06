@@ -4,7 +4,7 @@ Instance: composition-en-a15e9940fa017377fbf82f0af3d7e7f4
 InstanceOf: CompositionUvEpi
 Title: "Composition for abseamed Package Leaflet"
 Description:  "Composition for abseamed Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Abseamed is and what it is used for
 2. What you need to know before you use Abseamed
 3. How to use Abseamed
 4. Possible side effects
 5. How to store Abseamed
-6. Contents of the pack and other information
-         </div>"""   
+6. Contents of the pack and other information</p>         </div>"""   
           
 
 * section[=].section[+]
@@ -102,14 +101,8 @@ need for a blood transfusion.</p>         </div>"""
 section 6).</p>
 <p>if you have been diagnosed with Pure Red Cell Aplasia (the bone marrow cannot produce 
 enough red blood cells) after previous treatment with any product that stimulates red blood cell 
-production (including Abseamed). See section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take abseamed"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take abseamed"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>if you have high blood pressure not properly controlled with medicines.</p>
+production (including Abseamed). See section 4.<br />
+if you have high blood pressure not properly controlled with medicines.</p>
 <p>to stimulate the production of your red blood cells (so that doctors can take more blood from 
 you) if you cannot have transfusions with your own blood during or after surgery.</p>
 <p>if you are due to have major elective orthopaedic surgery (such as hip or knee surgery), and 
@@ -182,13 +175,12 @@ Abseamed, but discuss it with your doctor first:</p>
 <p>if you are pregnant, or think you may be pregnant.</p>
 <p>if you are breast-feeding.
 Abseamed contains sodium
-Abseamed contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium free .</p>         </div>"""         
-
-        
+Abseamed contains less than 1 mmol sodium (23 mg) per dose that is to say essentially  sodium free .</p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take abseamed"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take abseamed"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor has told you. Check with your doctor if you are 
 not sure. 
@@ -297,12 +289,13 @@ If you forget to use Abseamed
 Make the next injection as soon as you remember. If you are within a day of your next injection, forget 
 the missed one and carry on with your normal schedule. Do not double up the injections to make up 
 for a forgotten dose.
-If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist.</p>         </div>"""      
+If you have any further questions on the use of this product, ask your doctor, nurse or pharmacist.</p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store abseamed"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store abseamed"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them.
 Tell your doctor or nurse immediately if you notice any of the effects in this list.
@@ -380,11 +373,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine.</p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store abseamed"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store abseamed"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children.</p>
 <p>Do not use this medicine after the expiry date which is stated on the label and carton after EXP.</p>
@@ -401,4 +393,65 @@ Do not use this medicine if you notice that</p>
 <p>the seal is broken.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how 
 to throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <h2>What Abseamed contains</h2>
+<h2>The active substance is: epoetin alfa (for quantity see the table below).</h2>
+<p>The other ingredients are: sodium dihydrogen phosphate dihydrate, disodium phosphate 
+dihydrate, sodium chloride, glycine, polysorbate 80, hydrochloric acid (for 
+pH-adjustment), sodium hydroxide (for pH-adjustment), and water for injections.
+What Abseamed looks like and contents of the pack
+Abseamed is presented as a clear, colourless solution for injection in a pre-filled syringe. The syringes 
+are sealed in a blister. 
+Presentation
+Corresponding Presentations in 
+Quantity/Volume for each Strength
+Amount of 
+epoetin alfa
+Pre-filled syringes<em> 2,000 IU/mL:
+1,000 IU/0.5 mL
+2,000 IU/1 mL
+10,000 IU/mL:
+3,000 IU/0.3 mL
+4,000 IU/0.4 mL
+5,000 IU/0.5 mL
+6,000 IU/0.6 mL
+7,000 IU/0.7 mL
+8,000 IU/0.8 mL
+9,000 IU/0.9 mL
+10,000 IU/1 mL
+40,000 IU/mL:
+20,000 IU/0.5 mL
+30,000 IU/0.75 mL
+40,000 IU/1 mL
+8.4 micrograms
+16.8 micrograms
+25.2 micrograms
+33.6 micrograms
+42.0 micrograms
+50.4 micrograms
+58.8 micrograms
+67.2 micrograms
+75.6 micrograms
+84.0 micrograms
+168.0 micrograms
+252.0 micrograms
+336.0 micrograms
+</em>Pack size of 1, 4 or 6 pre-filled syringe(s) with or without a needle safety guard.
+Not all pack sizes may be marketed. 
+Marketing Authorisation Holder
+Medice Arzneimittel P tter GmbH &amp; Co. KG
+Kuhloweg D-58638 Iserlohn
+Germany
+Manufacturer
+Sandoz GmbH
+Biochemiestr. A-6336 Langkampfen
+Austria
+This leaflet was last revised in {MM/YYYY}.
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

@@ -4,7 +4,7 @@ Instance: composition-en-5c60b262e52a5c74cf3187377ecaedde
 InstanceOf: CompositionUvEpi
 Title: "Composition for teriflunomide Package Leaflet"
 Description:  "Composition for teriflunomide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Teriflunomide Accord is and what it is used for  
-2. What you need to know before you take Teriflunomide Accord  
-3. How to take Teriflunomide Accord  
-4. Possible side effects  
-5. How to store Teriflunomide Accord  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Teriflunomide Accord is and what it is used for<br />
+2. What you need to know before you take Teriflunomide Accord<br />
+3. How to take Teriflunomide Accord<br />
+4. Possible side effects<br />
+5. How to store Teriflunomide Accord<br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -205,8 +204,8 @@ Teriflunomide Accord might make you feel dizzy which may impair your ability to 
 you are affected, do not drive or use machines. </p>
 <p>Teriflunomide Accord contains lactose 
 Teriflunomide Accord contains lactose (a type of sugar). If you have been told by your doctor that you have 
-an intolerance to some sugars, contact your doctor before taking this medicine.  </p>
-<p>Teriflunomide Accord contains sodium 
+an intolerance to some sugars, contact your doctor before taking this medicine.<br />
+Teriflunomide Accord contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per tablet, that is to say essentially  sodium-free . </p>         </div>"""   
                     
 * section[=].section[+]
@@ -359,8 +358,8 @@ Accord Healthcare S.L.U.
 World Trade Center,<br />
 Moll De Barcelona s/n,<br />
 Edifici Est, 6a Planta,<br />
-Barcelona, 08039, Spain </p>
-<p>Manufacturer 
+Barcelona, 08039, Spain 
+Manufacturer 
 Accord Healthcare Polska Sp. z.o.o. 
 ul.Lutomierska 50, 
 95-200, Pabianice, Poland </p>

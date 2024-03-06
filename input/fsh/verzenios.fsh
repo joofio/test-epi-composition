@@ -4,7 +4,7 @@ Instance: composition-en-34d2770dedeba7114006ff1f66a042d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for verzenios Package Leaflet"
 Description:  "Composition for verzenios Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Verzenios is and what it is used for  
-2. What you need to know before you take Verzenios  
-3. How to take Verzenios  
-4. Possible side effects  
-5. How to store Verzenios  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Verzenios is and what it is used for  </li>
+<li>What you need to know before you take Verzenios  </li>
+<li>How to take Verzenios  </li>
+<li>Possible side effects  </li>
+<li>How to store Verzenios  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]

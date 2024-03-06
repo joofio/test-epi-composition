@@ -4,7 +4,7 @@ Instance: composition-en-a170adf9726f4d3c42997e5fb725cb61
 InstanceOf: CompositionUvEpi
 Title: "Composition for sapropterin Package Leaflet"
 Description:  "Composition for sapropterin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Sapropterin Dipharma is and what it is used for  
-2. What you need to know before you take Sapropterin Dipharma 
-3. How to take Sapropterin Dipharma 
-4. Possible side effects 
-5. How to store Sapropterin Dipharma  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Sapropterin Dipharma is and what it is used for  </li>
+<li>What you need to know before you take Sapropterin Dipharma </li>
+<li>How to take Sapropterin Dipharma </li>
+<li>Possible side effects </li>
+<li>How to store Sapropterin Dipharma  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,11 +99,11 @@ Talk to your doctor or pharmacist before taking Sapropterin Dipharma, particular
 <li>if you have problems with your kidney or liver </li>
 <li>if you are ill. Consultation with a physician is recommended during illness as blood 
 phenylalanine levels may increase </li>
-<li>if you have predisposition to convulsions </li>
-</ul>
-<p>When you are treated with Sapropterin Dipharma, your doctor will test your blood to verify how much 
+<li>if you have predisposition to convulsions 
+When you are treated with Sapropterin Dipharma, your doctor will test your blood to verify how much 
 phenylalanine and tyrosine it contains and may decide to adjust the dose of Sapropterin Dipharma or 
-your diet if needed. </p>
+your diet if needed. </li>
+</ul>
 <p>You must continue your diet treatment as recommended by your doctor. Do not change your diet 
 without contacting your doctor. Even if you take Sapropterin Dipharma, if your phenylalanine blood 
 levels are not well controlled, you can develop severe neurologic problems. Your doctor should 
@@ -169,8 +169,8 @@ tablets (dose
 6 
 4 
 8 
-5 </p>
-<p>Method of administration 
+5 
+Method of administration 
 For PKU patients, the total daily dose is taken once a day at the same time each day, preferably in the 
 morning. </p>
 <p>For BH4 deficiency patients, the total daily dose is divided into 2 or 3 doses over the day. </p>
@@ -203,8 +203,8 @@ prepare a new solution as the unused solution should not be used beyond 20 minut
 * Oral syringe (graduated in 1 ml divisions) (10 ml syringe for administration of volumes of 
   10 ml or 20 ml syringe for administration of volumes of &gt; 10 ml) </p>
 <p>Ask your doctor for the medicine cup for dissolving the tablets and the 10 ml or 20 ml oral syringe if 
-you do not have these supplies. </p>
-<p>Steps for preparing and taking your dose: 
+you do not have these supplies. 
+Steps for preparing and taking your dose: 
 * Place the prescribed number of tablets in the medicine cup. Pour the amount of water into the 
 medicine cup, as instructed by your doctor (e.g. your doctor told you to use 20 ml for dissolving 
 one Sapropterin Dipharma tablet). Check to make sure that the amount of liquid lines up with 

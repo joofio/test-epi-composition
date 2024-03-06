@@ -4,7 +4,7 @@ Instance: composition-en-c90b79fb8cf9d2067c35819ca84918df
 InstanceOf: CompositionUvEpi
 Title: "Composition for lonquex Package Leaflet"
 Description:  "Composition for lonquex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Lonquex is and what it is used for 
-2. What you need to know before you use Lonquex 
-3. How to use Lonquex 
-4. Possible side effects 
-5. How to store Lonquex 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Lonquex is and what it is used for </li>
+<li>What you need to know before you use Lonquex </li>
+<li>How to use Lonquex </li>
+<li>Possible side effects </li>
+<li>How to store Lonquex </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -111,8 +111,7 @@ of reacting to Lonquex too. </p>
 <p>Your doctor will carry out regular blood tests in order to monitor various blood components and their 
 levels. Your doctor will also check your or your child`s urine regularly as other medicines similar to 
 this one (e.g. other granulocyte colony stimulating factors such as filgrastim, lenograstim or 
-pegfilgrastim) can possibly harm the tiny filters inside your kidneys (glomerulonephritis; see section 4 
- Possible side effects ). </p>
+pegfilgrastim) can possibly harm the tiny filters inside your kidneys (glomerulonephritis; see section 4. Possible side effects ). </p>
 <p>Tell your doctor if you or your child are being treated for breast or lung cancer in combination 
 with chemotherapy and/or radiation therapy and experience symptoms such as tiredness, fever, 
 and easy bruising or bleeding. These symptoms could be a consequence of a precancerous blood 
@@ -331,8 +330,8 @@ automatically and covered so that you cannot prick yourself (see picture 12).
 seconds. 
 6. Each pre-filled syringe is for single use only. </p>
 <p>8 
-9 </p>
-<p>Remember 
+9 
+Remember 
 If you have any problems, please ask your doctor or nurse for help and advice. </p>
 <p>If you use more Lonquex than you should 
 If you use more Lonquex than you should, talk to your doctor. </p>
@@ -388,14 +387,7 @@ rhythm.
 * Bleeding from the lung. </p>
 <p>Not known (frequency cannot be estimated from the available data): 
 * Inflammation of the aorta (the large blood vessel which transports blood from the heart to the 
-body), see section </p>         </div>"""      
-        
-* section[=].section[+]
-  * title = "5. How to store lonquex"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store lonquex"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Side effects that have been seen with similar medicines, but not yet with Lonquex 
+body), see section 2. Side effects that have been seen with similar medicines, but not yet with Lonquex 
 * Sickle cell crises in patients with sickle cell anaemia. 
 * Plum-coloured raised painful sores on the limbs and sometimes the face and neck with fever 
 (Sweet s syndrome). 
@@ -408,11 +400,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store lonquex"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store lonquex"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the outer carton and on the label of 
@@ -426,4 +417,104 @@ disposed of. </p>
 <p>Do not use this medicine if you notice that it is cloudy or there are particles in it. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Lonquex contains 
+* The active substance is lipegfilgrastim. Each pre-filled syringe contains 6 mg lipegfilgrastim. 
+Each ml solution contains 10 mg lipegfilgrastim. 
+* The other ingredients (excipients) are glacial acetic acid, sodium hydroxide (see section 2 
+ Lonquex contains sodium ), sorbitol (E420) (see section 2  Lonquex contains sorbitol ), 
+polysorbate 20 and water for injections. </p>
+<p>What Lonquex looks like and contents of the pack 
+Lonquex is a solution for injection (injection) in pre-filled syringe with a fixed injection needle in a 
+blister. Lonquex is a clear and colourless solution. If there are particles in it or if it is cloudy, you must 
+not use it. </p>
+<p>Each pre-filled syringe contains 0.6 ml solution. </p>
+<p>Lonquex is available in packs containing 1 and 4 pre-filled syringes with safety device or 1 pre-filled 
+syringe without safety device. </p>
+<p>Not all pack sizes may be marketed. </p>
+<p>Marketing Authorisation Holder 
+Teva B.V. 
+Swensweg 5 
+2031 GA Haarlem 
+Netherlands </p>
+<p>Manufacturer 
+Teva Biotech GmbH 
+Dornierstra e 89079 Ulm 
+Germany </p>
+<p>Merckle GmbH, 
+Graf-Arco-Stra e 3 
+89079 Ulm 
+Germany </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgi /Belgique/Belgien 
+Teva Pharma Belgium N.V./S.A./AG 
+T l/Tel: +32 38207Lietuva 
+UAB Teva Baltics 
+Tel: +370 52660  </p>
+<p>Te : +359 24899Luxembourg/Luxemburg 
+Teva Pharma Belgium N.V./S.A./AG 
+Belgique/Belgien 
+T l/Tel: +32 38207 esk  republika 
+Teva Pharmaceuticals CR, s.r.o. 
+Tel: +420 251007Magyarorsz g 
+Teva Gy gyszergy r Zrt. 
+Tel: +36 12886Danmark 
+Teva Denmark A/S 
+Tlf: +45 44985Malta 
+Teva Pharmaceuticals Ireland 
+L-Irlanda 
+Tel: +44 2075407Deutschland 
+TEVA GmbH 
+Tel: +49 73140Nederland 
+Teva Nederland B.V. 
+Tel: +31 8000228Eesti 
+UAB Teva Baltics Eesti filiaal 
+Tel: +372 6610Norge 
+Teva Norway AS 
+Tlf: +47 66775<br />
+TEVA HELLAS  . . 
+ : +30 2118805 sterreich 
+ratiopharm Arzneimittel Vertriebs-GmbH 
+Tel: +43 1970Espa a 
+Teva Pharma, S.L.U. 
+Tel: +34 913873Polska 
+Teva Pharmaceuticals Polska Sp. z o.o. 
+Tel: +48 223459France 
+Teva Sant<br />
+T l: +33 155917Portugal 
+Teva Pharma - Produtos Farmac uticos, Lda. 
+Tel: +351 214767Hrvatska 
+Pliva Hrvatska d.o.o. 
+Tel: +385 13720Rom nia 
+Teva Pharmaceuticals S.R.L. 
+Tel: +40 212306Ireland 
+Teva Pharmaceuticals Ireland 
+Tel: +44 2075407Slovenija 
+Pliva Ljubljana d.o.o. 
+Tel: +386 15890 sland 
+Alvogen ehf. 
+S mi: +354 5222Slovensk  republika 
+TEVA Pharmaceuticals Slovakia s.r.o. 
+Tel: +421 257267Italia 
+Suomi/Finland 
+Teva Italia S.r.l. 
+Tel: +39 028917Teva Finland Oy 
+Puh/Tel: +358 201805<br />
+TEVA HELLAS  . . </p>
+<p>: +30 2118805Sverige 
+Teva Sweden AB 
+Tel: +46 42121Latvija 
+UAB Teva Baltics fili le Latvij<br />
+Tel: +371 67323United Kingdom (Northern Ireland) 
+Teva Pharmaceuticals Ireland 
+Ireland 
+Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

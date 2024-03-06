@@ -4,7 +4,7 @@ Instance: composition-en-9b714872ced428c978b15edf78a3a6b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for circadin Package Leaflet"
 Description:  "Composition for circadin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,13 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet: 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet: 
 1. What Circadin is and what it is used for 
 2. What you need to know before you take Circadin 
 3. How to take Circadin 
 4. Possible side effects 
 5. How to store Circadin 
-6. Contents of the pack and other information          </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -98,13 +98,13 @@ Circadin as its use is not recommended. </li>
 <li>Circadin can make you feel drowsy, you should be careful if the drowsiness affects you as it 
 may impair your ability on tasks such as driving. </li>
 <li>Smoking may make Circadin less effective, because the components of tobacco smoke can 
-increase the breakdown of melatonin by the liver. </li>
-</ul>
-<p>Children and adolescents 
+increase the breakdown of melatonin by the liver. 
+Children and adolescents 
 Do not give this medicine to children between the ages of 0 to 18 years as it has not been tested and its 
 effects are unknown. Another medicine containing melatonin may be more appropriate for 
 administration to children between the ages of 2 to 18 - please ask your doctor or pharmacist for 
-advice. </p>
+advice. </li>
+</ul>
 <p>Other medicines and Circadin 
 Tell your doctor or pharmacist if you are taking, have recently taken or might take any other 
 medicines.  These medicines include: </p>
@@ -287,8 +287,7 @@ Tel: +33 185149776 (FR)
 e-mail: neurim@neurim.com </p>
 <p>Danmark 
 Takeda Pharma A/S 
-Tlf: +45 46 77 11<br />
-Malta 
+Tlf: +45 46 77 11 Malta 
 RAD Neurim Pharmaceuticals EEC SARL 
 Tel: +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
@@ -314,8 +313,7 @@ Tel.: +43 (01) 80104-0
 e-mail: sanova.pharma@sanova.at </p>
 <p>Espa a 
 EXELTIS HEALTHCARE, S.L. 
-Tfno: +34 91 7711 
-Polska 
+Tfno: +34 91 7711Polska 
 MEDICE Arzneimittel P tter GmbH &amp; Co. KG<br />
 Tel.: + 48-(0)22 642 2e-mail: office@medice.pl </p>
 <p>France 
@@ -351,8 +349,8 @@ Fidia Farmaceutici S.p.A.
 Tel: +39 049 8232e-mail: info@fidiapharma.it </p>
 <p>Suomi/Finland 
 Takeda Oy<br />
-Puh/Tel: +358 20 746 5000  </p>
-<p>RAD Neurim Pharmaceuticals EEC SARL 
+Puh/Tel: +358 20 746 5<br />
+RAD Neurim Pharmaceuticals EEC SARL 
   : +33 185149776 (FR) 
 e-mail: neurim@neurim.com </p>
 <p>Sverige 

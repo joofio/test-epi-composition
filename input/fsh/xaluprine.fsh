@@ -4,7 +4,7 @@ Instance: composition-en-f55146b06bad26b63272dae234a560c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for xaluprine Package Leaflet"
 Description:  "Composition for xaluprine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Xaluprine is and what it is used for 
-2. What you need to know before you take Xaluprine 
-3. How to take Xaluprine 
-4. Possible side effects 
-5. How to store Xaluprine 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Xaluprine is and what it is used for </li>
+<li>What you need to know before you take Xaluprine </li>
+<li>How to take Xaluprine </li>
+<li>Possible side effects </li>
+<li>How to store Xaluprine </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -122,14 +122,7 @@ a rare and aggressive type of cancer called Hepatosplenic T-cell Lymphoma (see s
 side effects).  </p>
 <p>Infections 
 When you are treated with Xaluprine the risk of viral, fungal and bacterial infections is increased and 
-the infections may be more serious. See also section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take xaluprine"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take xaluprine"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Tell your doctor before starting treatment whether or not you have had chickenpox, shingles or 
+the infections may be more serious. See also section 4. Tell your doctor before starting treatment whether or not you have had chickenpox, shingles or 
 hepatitis B (a liver disease caused by a virus). </p>
 <p>NUDT15-gene mutation 
 If you have an inherited mutation in the NUDT15-gene (a gene which is involved in the break-down 
@@ -184,13 +177,12 @@ builds up because the body cannot remove it properly.  </p>
 <p>Xaluprine also contains sodium methyl parahydroxybenzoate (E219) and sodium ethyl 
 parahydroxybenzoate (E215) which may cause allergic reactions (possibly delayed).  </p>
 <p>Xaluprine contains sucrose. If you have been told by your doctor that you have an intolerance to some 
-sugars, contact your doctor before taking this medicinal product. May be harmful to the teeth. </p>         </div>"""         
-
-        
+sugars, contact your doctor before taking this medicinal product. May be harmful to the teeth. </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take xaluprine"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take xaluprine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Xaluprine should only be given to you by a specialist doctor who is experienced in treating blood 
 problems.  </p>
@@ -264,12 +256,13 @@ Tell your doctor.  Do not take a double dose to make up for a forgotten dose. </
 <p>If you stop taking Xaluprine 
 Do not stop taking your medicine unless your doctor tells you to or you may get a relapse of your 
 condition. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor or pharmacist. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store xaluprine"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store xaluprine"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>If you get any of the following side effects, talk to your specialist doctor or go to hospital 
@@ -341,11 +334,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store xaluprine"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store xaluprine"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <ul>
 <li>Keep this medicine out of the sight and reach of children, preferably in a locked cupboard. 
@@ -359,4 +351,37 @@ accidental spillage. </li>
 </ul>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Xaluprine contains<br />
+The active substance is mercaptopurine (as monohydrate). One ml of suspension contains 20 mg of 
+mercaptopurine monohydrate. 
+The other ingredients are xanthan gum, aspartame (E951), concentrated raspberry juice, sucrose, 
+sodium methyl parahydroxybenzoate (E219), sodium ethyl parahydroxybenzoate (E215), potassium 
+sorbate (E202), sodium hydroxide and purified water (see section 2 Xaluprine contains aspartame, 
+sodium methyl parahydroxybenzoate (E219), sodium ethyl parahydroxybenzoate (E215) and sucrose). 
+What Xaluprine looks like and contents of the pack 
+Xaluprine is a pink to brown oral suspension. It comes in glass bottles of 100 ml capped with a 
+child-resistant closure. Each pack contains one bottle, a bottle adaptor and two dosing syringes (a 
+syringe graduated to 1 ml and a syringe graduated to 5 ml). Your doctor or pharmacist will advise 
+which syringe to use depending on the dose that has been prescribed. 
+Marketing Authorisation Holder 
+Nova Laboratories Ireland Limited 
+3rd Floor, Ulysses House 
+Foley Street, Dublin 1 
+D01 W2T2 
+Ireland 
+Manufacturer 
+Pronav Clinical Ltd. 
+Unit 5 
+Dublin Road Business Park 
+Carraroe, Sligo 
+F91 DIreland 
+This leaflet was last revised in 
+Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

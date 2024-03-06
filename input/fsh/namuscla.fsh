@@ -4,7 +4,7 @@ Instance: composition-en-396604b2a44a552f3c94ac2d7537f02d
 InstanceOf: CompositionUvEpi
 Title: "Composition for namuscla Package Leaflet"
 Description:  "Composition for namuscla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Namuscla is and what it is used for  
-2. What you need to know before you take Namuscla  
-3. How to take Namuscla  
-4. Possible side effects  
-5. How to store Namuscla  
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Namuscla is and what it is used for  </li>
+<li>What you need to know before you take Namuscla  </li>
+<li>How to take Namuscla  </li>
+<li>Possible side effects  </li>
+<li>How to store Namuscla  </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -195,8 +195,8 @@ If you have forgotten a dose, do not take a double dose and take the next dose a
   * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. 
-Internal Doc Ref: v6.6 </p>
-<p>The most serious side effects are:<br />
+Internal Doc Ref: v6.6 
+The most serious side effects are:<br />
 Contact your doctor or go to your nearest emergency center immediately if you experience any of the 
 following side effects:</p>
 <ul>
@@ -316,8 +316,8 @@ SL1 2BE Slough, Berkshire,<br />
 United Kingdom </p>
 <p>For any information about this medicine, please contact the local representative of the Marketing 
 Authorisation Holder: 
-Internal Doc Ref: v6.6 </p>
-<p>AT, BE, BG, CZ, CY, DK, EE, EL, ES, FR, 
+Internal Doc Ref: v6.6 
+AT, BE, BG, CZ, CY, DK, EE, EL, ES, FR, 
 FI, HR, IE, IS, IT, LV, LT, LU, HU, MT, NL, 
 NO, PL, PT, RO, SI, SK, SE 
 DE </p>

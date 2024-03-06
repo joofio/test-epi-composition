@@ -4,7 +4,7 @@ Instance: composition-en-095ad71337cf86d5fe21eb3ee2e24f22
 InstanceOf: CompositionUvEpi
 Title: "Composition for bylvay Package Leaflet"
 Description:  "Composition for bylvay Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Bylvay is and what it is used for  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Bylvay is and what it is used for<br />
 2. What you need to know before you take Bylvay 
 3. How to take Bylvay 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Bylvay 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -278,68 +277,49 @@ Authorisation Holder: </p>
 Luxemburg 
 Ipsen NV 
 Belgi /Belgique/Belgien 
-T l/Tel: +32 9 243 96<br />
-Italia 
+T l/Tel: +32 9 243 96 Italia 
 Ipsen SpA 
-Tel: + 39 02 39 22  </p>
-<p>Swixx Biopharma EOOD 
-Te .: +359 (0)2 4942<br />
-Latvija 
+Tel: + 39 02 39 22 <br />
+Swixx Biopharma EOOD 
+Te .: +359 (0)2 4942 Latvija 
 Ipsen Pharma representative office 
-Tel: + 371 67622 
- esk  republika 
+Tel: + 371 67622 esk  republika 
 Ipsen Pharma s.r.o<br />
-Tel: +420 242 481<br />
-Lietuva 
+Tel: +420 242 481 Lietuva 
 Ipsen Pharma SAS Lietuvos filialas 
-Tel: +370 700 33 
-Danmark, Norge, Suomi/Finland, Sverige, 
+Tel: +370 700 33Danmark, Norge, Suomi/Finland, Sverige, 
  sland 
 Institut Produits Synth se (IPSEN) AB 
 Sverige/Ruotsi/Sv j<br />
-Tlf/Puh/Tel/S mi: +46 8 451 60<br />
-Magyarorsz g 
+Tlf/Puh/Tel/S mi: +46 8 451 60 Magyarorsz g 
 IPSEN Pharma Hungary Kft. 
-Tel.: + 36 1 555 5 
-Deutschland,  sterreich 
+Tel.: + 36 1 555 5Deutschland,  sterreich 
 Ipsen Pharma GmbH 
 Deutschland 
-Tel: +49 89 2620 432<br />
-Nederland 
-Ipsen Farmaceutica B.V.Tel: +31 (0) 23 554 1 
-Eesti 
+Tel: +49 89 2620 432 Nederland 
+Ipsen Farmaceutica B.V.Tel: +31 (0) 23 554 1Eesti 
 Centralpharma Communications O<br />
-Tel: +372 60 15<br />
-Polska 
+Tel: +372 60 15 Polska 
 Ipsen Poland Sp. z o.o. 
-Tel.: + 48 22 653 68<br />
- ,  , Malta 
+Tel.: + 48 22 653 68  ,  , Malta 
 Ipsen   E  </p>
-<p>: +30 210 984 3 
-Portugal 
+<p>: +30 210 984 3Portugal 
 Ipsen Portugal - Produtos Farmac uticos S.A. 
-Tel: + 351 21 412 3 
-Espa a 
+Tel: + 351 21 412 3Espa a 
 Ipsen Pharma, S.A.U. 
-Tel: +34 936 858<br />
-Rom nia 
+Tel: +34 936 858 Rom nia 
 Ipsen Pharma Rom nia SRL 
-Tel: + 40 21 231 27<br />
-France 
+Tel: + 40 21 231 27 France 
 Ipsen Pharma 
 T l : +33 (0)1 58 33 50 Slovenija 
 Swixx Biopharma d.o.o. 
-Tel: + 386 1 2355  </p>
-<p>Hrvatska 
+Tel: + 386 1 2355 Hrvatska 
 Swixx Biopharma d.o.o. 
-Tel: +385 1 2078<br />
-Slovensk  republika 
+Tel: +385 1 2078 Slovensk  republika 
 Ipsen Pharma, organiza n  zlo ka 
-Tel: + 420 242 481<br />
-Ireland, United Kingdom (Northern Ireland) 
+Tel: + 420 242 481 Ireland, United Kingdom (Northern Ireland) 
 Ipsen Pharmaceuticals Limited 
-Tel: +44 (0)1753 62 77  </p>
-<p>This leaflet was last revised in </p>
+Tel: +44 (0)1753 62 77 This leaflet was last revised in </p>
 <p>This medicine has been authorised under  exceptional circumstances . This means that because of the 
 rarity of this disease it has been impossible to get complete information on this medicine. 
 The European Medicines Agency will review any new information on this medicine every year and 

@@ -4,7 +4,7 @@ Instance: composition-en-acef8cbcdfca211b39877dbdf094e7e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for coagadex Package Leaflet"
 Description:  "Composition for coagadex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Coagadex is and what it is used for  
-2. What you need to know before you use Coagadex   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Coagadex is and what it is used for<br />
+2. What you need to know before you use Coagadex <br />
 3. How to use Coagadex 
-4. Possible side effects  
-5. How to store Coagadex   
-6. Contents of the pack and other information 
-         </div>"""   
+4. Possible side effects<br />
+5. How to store Coagadex <br />
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,8 +98,8 @@ medicines may prevent Coagadex from working. </li>
 This could mean that the treatment will not work properly. Your doctor will check regularly for the 
 development of these antibodies, and especially before an operation. Both before and after treatment with this 
 medicine, particularly for your first course of treatment, your doctor will probably carry out tests to check the 
-level of factor X in your blood. </p>
-<p>Virus safety 
+level of factor X in your blood. 
+Virus safety 
 When medicines are made from human blood or plasma, certain measures are put in place to prevent 
 infections being passed on to recipients. These include: </p>
 <p>careful selection of blood and plasma donors to make sure those at risk of carrying infections are excluded, 

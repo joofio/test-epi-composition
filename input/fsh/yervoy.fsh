@@ -4,7 +4,7 @@ Instance: composition-en-a2652d1642d1c9344c422837d3b948bc
 InstanceOf: CompositionUvEpi
 Title: "Composition for yervoy Package Leaflet"
 Description:  "Composition for yervoy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What YERVOY is and what it is used for 
-2. What you need to know before you use YERVOY 
-3. How to use YERVOY 
-4. Possible side effects 
-5. How to store YERVOY 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What YERVOY is and what it is used for </li>
+<li>What you need to know before you use YERVOY </li>
+<li>How to use YERVOY </li>
+<li>Possible side effects </li>
+<li>How to store YERVOY </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -99,10 +99,8 @@ sure. </p>
 <p>Warnings and precautions 
 Talk to your doctor before using YERVOY as it may cause:</p>
 <ul>
-<li>
-<p>Problems with your heart such as a change in the rhythm or rate of the heartbeat or an 
-abnormal heart rythm. </p>
-</li>
+<li>Problems with your heart such as a change in the rhythm or rate of the heartbeat or an 
+abnormal heart rythm. </li>
 <li>
 <p>Inflammation of the intestines (colitis) which can worsen to bleedings or bowel perforation. 
 Signs and symptoms of colitis may include diarrhoea (watery, loose or soft stools), an increased 
@@ -171,8 +169,8 @@ order to prevent more severe complications and reduce your symptoms, withhold th
 YERVOY, or stop your treatment with YERVOY altogether. 
 Please note that these signs and symptoms are sometimes delayed, and may develop weeks or months 
 after your last dose. Before treatment, your doctor will check your general health. You will also have 
-blood tests during treatment. </p>
-<p>Check with your doctor or nurse before you are given YERVOY </p>
+blood tests during treatment. 
+Check with your doctor or nurse before you are given YERVOY </p>
 <p>if you have an autoimmune disease (a condition where the body attacks its own cells); </p>
 <p>if you have, or have ever had, chronic viral infection of the liver, including hepatitis B (HBV) 
 or hepatitis C (HCV); </p>
@@ -216,8 +214,8 @@ Do not drive, cycle or use machines after you have been given YERVOY unless you 
 feeling well. Feeling tired or weak is a very common side effect of YERVOY. This can affect your 
 ability to drive, cycle or to use machines. </p>
 <p>YERVOY contains sodium 
-Tell your doctor if you are on a low-sodium (low-salt) diet before you are given YERVOY. </p>
-<p>This medicine contains 23 mg sodium (main component of cooking/table salt) in each 10 ml vial. This 
+Tell your doctor if you are on a low-sodium (low-salt) diet before you are given YERVOY. 
+This medicine contains 23 mg sodium (main component of cooking/table salt) in each 10 ml vial. This 
 is equivalent to 1.15% of the recommended maximum daily dietary intake of sodium for an adult. </p>
 <p>This medicine contains 92 mg sodium (main component of cooking/table salt) in each 40 ml vial. This 
 is equivalent to 4.60% of the recommended maximum daily dietary intake of sodium for an adult </p>         </div>"""   

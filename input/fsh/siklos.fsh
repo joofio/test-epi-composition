@@ -4,7 +4,7 @@ Instance: composition-en-e7ba6957dcf929fb2c43dcd1b448488d
 InstanceOf: CompositionUvEpi
 Title: "Composition for siklos Package Leaflet"
 Description:  "Composition for siklos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet  
- 
-1. What Siklos is and what it is used for 
-2. What you need to know before you take Siklos 
-3. How to take Siklos 
-4. Possible side effects 
-5. How to store Siklos 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet  </p>
+<ol>
+<li>What Siklos is and what it is used for </li>
+<li>What you need to know before you take Siklos </li>
+<li>How to take Siklos </li>
+<li>Possible side effects </li>
+<li>How to store Siklos </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -240,8 +240,8 @@ safety of this medicine. </p>         </div>"""
   * code.text = "5. How to store siklos"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
-<p>Do not use Siklos after the expiry date which is stated on the carton and the bottle after EXP.  </p>
-<p>Store below 30 C. </p>
+<p>Do not use Siklos after the expiry date which is stated on the carton and the bottle after EXP.<br />
+Store below 30 C. </p>
 <p>Unused broken tablets must be replaced in the bottle and must be used within three months. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help to protect the environment. </p>         </div>"""      
@@ -289,25 +289,21 @@ France </p>
 Authorisation Holder: </p>
 <p>Belgi /Belgique/Belgien 
 THERAVIA 
-T l/Tel: +32(0) 40 11 <br />
-Lietuva 
+T l/Tel: +32(0) 40 11 Lietuva 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Pranc zija 
-Tel: +33 (0)1 72 69 01  </p>
-<p>THERAVIA 
+Tel: +33 (0)1 72 69 01 <br />
+THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - <br />
-Tel: +33 (0)1 72 69 01<br />
-Luxembourg/Luxemburg 
+Tel: +33 (0)1 72 69 01 Luxembourg/Luxemburg 
 THERAVIA 
-T l/Tel: +352 27 86 23<br />
- esk  republika 
+T l/Tel: +352 27 86 23  esk  republika 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Francie 
-Tel: +33 (0)1 72 69 01 86  </p>
-<p>Magyarorsz g 
+Tel: +33 (0)1 72 69 01 Magyarorsz g 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Franciaorsz g 
@@ -316,68 +312,56 @@ Tel.: +33 (0)1 72 69 01 Danmark
 Dronningens Tv rgade 9<br />
 1302 K benhavn K 
 Danmark 
-Tlf: +45 53 63 39<br />
-Malta 
+Tlf: +45 53 63 39 Malta 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Franza 
 Tel: +33 (0)1 72 69 01 Deutschland 
 THERAVIA 
-Tel: +49 (0)8 00 10 90<br />
-Nederland 
+Tel: +49 (0)8 00 10 90 Nederland 
 THERAVIA 
-Tel: +31 (0)2 07 03 81<br />
-Eesti 
+Tel: +31 (0)2 07 03 81 Eesti 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Prantsusmaa 
-Tel: +33 (0)1 72 69 01<br />
-Norge 
+Tel: +33 (0)1 72 69 01 Norge 
  resund Pharma ApS<br />
 Dronningens Tv rgade 9<br />
 1302 K benhavn K 
 Danmark 
-Tlf: +45 53 63 39  </p>
-<p>DEMO ABEE 
+Tlf: +45 53 63 39 <br />
+DEMO ABEE 
  : +30 210 81 61  sterreich 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Frankreich 
-Tel: +33 (0)1 72 69 01<br />
-Espa a 
+Tel: +33 (0)1 72 69 01 Espa a 
 Abacus Medicine A/S<br />
-Tel: +34 910605 </p>
-<p>Polska 
+Tel: +34 910605Polska 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Francja 
-Tel: +33 (0)1 72 69 01<br />
-France 
+Tel: +33 (0)1 72 69 01 France 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine 
-Tel: +33 (0)1 72 69 01<br />
-Portugal 
+Tel: +33 (0)1 72 69 01 Portugal 
 Abacus Medicine A/S<br />
 Tel: +34 910605Hrvatska 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine<br />
-Tel: +33 (0)1 72 69 01  </p>
-<p>Rom nia 
+Tel: +33 (0)1 72 69 01 Rom nia 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Fran a 
-Tel: +33 (0)1 72 69 01  </p>
-<p>Ireland 
+Tel: +33 (0)1 72 69 01 Ireland 
 THERAVIA 
-Tel: +353(0)1 69 50  </p>
-<p>Slovenija 
+Tel: +353(0)1 69 50 Slovenija 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Francija 
-Tel: +33 (0)1 72 69 01 86  </p>
-<p>sland 
+Tel: +33 (0)1 72 69 01  sland 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Frakkland 
@@ -385,30 +369,26 @@ S mi: +33 (0)1 72 69 01 Slovensk  republika
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Franc zsko 
-Tel: +33 (0)1 72 69 01<br />
-Italia 
+Tel: +33 (0)1 72 69 01 Italia 
 THERAVIA 
 Tel: +39 80 09 59 Suomi/Finland 
  resund Pharma ApS 
 Dronningens Tvaergade 9 
 1302 K penhamina K 
 Tanska 
-Puh/Tel: +45 53 63 39  </p>
-<p>The Star Medicines Importers Co Ltd 
+Puh/Tel: +45 53 63 39 <br />
+The Star Medicines Importers Co Ltd 
  : +357 25 37 1Sverige 
  resund Pharma ApS 
 Dronningens Tvaergade 9 
 1302 K penhamn K 
 Danmark 
-Tel: +45 53 63 39<br />
-Latvija 
+Tel: +45 53 63 39 Latvija 
 THERAVIA 
 16 Rue Montrosier<br />
 92200 Neuilly-sur-Seine - Francija 
-Tel: +33 (0)1 72 69 01<br />
-United Kingdom (Northern Ireland) 
+Tel: +33 (0)1 72 69 01 United Kingdom (Northern Ireland) 
 THERAVIA 
-Tel: +44-(0)203-695 9 </p>
-<p>This leaflet was last revised in MM/YYYY. </p>
+Tel: +44-(0)203-695 9This leaflet was last revised in MM/YYYY. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

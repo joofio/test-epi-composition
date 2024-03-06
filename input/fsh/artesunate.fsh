@@ -4,7 +4,7 @@ Instance: composition-en-e3808b9785653fa349cd23efa0847a72
 InstanceOf: CompositionUvEpi
 Title: "Composition for artesunate Package Leaflet"
 Description:  "Composition for artesunate Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
-1. What Artesunate Amivas is and what it is used for  
-2. What you need to know before you are given Artesunate Amivas  
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
+1. What Artesunate Amivas is and what it is used for<br />
+2. What you need to know before you are given Artesunate Amivas<br />
 3. How Artesunate Amivas is given 
-4. Possible side effects  
+4. Possible side effects<br />
 5. How to store Artesunate Amivas 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -249,8 +248,8 @@ Artesunate Amivas 110 mg powder and solvent for solution for injection.<br />
 The powder is white or almost white, fine crystalline powder in a glass vial. 
 The solvent is a clear, colourless liquid in a glass vial.  </p>
 <p>Each pack contains 2 or 4 vials of Artesunate Amivas powder and 2 or 4 vials of sodium phosphate 
-buffer solvent.  </p>
-<p>Not all pack sizes may be marketed. </p>
+buffer solvent.<br />
+Not all pack sizes may be marketed. </p>
 <p>Marketing Authorisation Holder<br />
 Amivas Ireland Ltd, Suite 5, Second Floor, Station House, Railway Square, Waterford, Ireland </p>
 <p>Manufacturer<br />

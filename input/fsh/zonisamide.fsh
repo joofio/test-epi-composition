@@ -4,7 +4,7 @@ Instance: composition-en-657f9ac699d7fca9363686ee66ecbcb8
 InstanceOf: CompositionUvEpi
 Title: "Composition for zonisamide Package Leaflet"
 Description:  "Composition for zonisamide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,14 +53,13 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet 
 1. What Zonisamide Mylan is and what it is used for 
 2. What you need to know before you take Zonisamide Mylan 
 3. How to take Zonisamide Mylan 
 4. Possible side effects 
 5. How to store Zonisamide Mylan 
-6. Contents of the pack and other information 
-         </div>"""   
+6. Contents of the pack and other information </p>         </div>"""   
           
 
 * section[=].section[+]
@@ -96,8 +95,8 @@ harming or killing themselves. If at any time you have these thoughts, immediate
 <p>Serious rashes occur in association with zonisamide therapy, including cases of Stevens-Johnson 
 syndrome. </p>
 <p>The use of Zonisamide Mylan may lead to high levels of ammonia in the blood which could lead to a 
-change in brain function, especially if you are also taking other medicines which can increase ammonia </p>
-<p>levels (for example valproate), have a genetic disorder causing build-up of too much ammonia in the 
+change in brain function, especially if you are also taking other medicines which can increase ammonia 
+levels (for example valproate), have a genetic disorder causing build-up of too much ammonia in the 
 body (urea cycle disorder), or if you have liver problems. Tell your doctor immediately if you become 
 unusually drowsy or confused. </p>
 <p>Talk to your doctor or pharmacist before taking Zonisamide Mylan if you:</p>
@@ -153,9 +152,9 @@ below 20 kg. </p>
 </li>
 <li>Increased acid level in the blood and kidney stones: Reduce these risks by ensuring that your child 
 drinks enough water and is not taking any other medicine which could cause kidney stones (see 
-Other medicines).  Your doctor will monitor your child s blood bicarbonate levels and kidneys </li>
+Other medicines).  Your doctor will monitor your child s blood bicarbonate levels and kidneys 
+(see also section 4). </li>
 </ul>
-<p>(see also section 4). </p>
 <p>Do not give this medicine to children below the age of 6 years because it is not known for this age 
 group whether the potential benefits are greater than the risks. </p>
 <p>Other medicines and Zonisamide Mylan 
@@ -203,8 +202,8 @@ free . </p>         </div>"""
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always take this medicine exactly as your doctor or pharmacist has told you.  Check with your 
 doctor or pharmacist if you are not sure. </p>
-<p>The recommended adult dose </p>
-<p>When you take Zonisamide Mylan on its own:</p>
+<p>The recommended adult dose 
+When you take Zonisamide Mylan on its own:</p>
 <ul>
 <li>The starting dose is 100 mg taken once a day. </li>
 <li>This may be increased by up to 100 mg at intervals of two weeks. </li>
@@ -318,12 +317,8 @@ needles), tremor, involuntary movement of the eyes </li>
 <li>anger, aggression, thoughts of suicide, suicide attempt </li>
 <li>gall bladder inflammation, gallstones </li>
 <li>urinary stones </li>
-<li>
-<p>lung infection / inflammation, urinary tract infections </p>
-</li>
-<li>
-<p>low blood potassium levels, convulsions/seizures </p>
-</li>
+<li>lung infection / inflammation, urinary tract infections </li>
+<li>low blood potassium levels, convulsions/seizures </li>
 <li>breathing disorders </li>
 <li>hallucinations </li>
 <li>abnormal urine tests. </li>
@@ -382,8 +377,8 @@ laurilsulfate </li>
 <li>printing ink: shellac, black iron oxide (E172) and potassium hydroxide. </li>
 </ul>
 <p>Zonisamide 50 mg hard capsules: 
-The active substance is zonisamide. Each capsule contains 50 mg of zonisamide. </p>
-<p>The other ingredients are:</p>
+The active substance is zonisamide. Each capsule contains 50 mg of zonisamide. 
+The other ingredients are:</p>
 <ul>
 <li>capsule contents: microcrystalline cellulose, hydrogenated vegetable oil and sodium 
 laurilsulfate </li>
@@ -427,80 +422,62 @@ Authorisation Holder: </p>
 Mylan bvba/sprl 
 T l/Tel: + 32 (0)2 658 61 Lietuva 
 Mylan Healthcare UAB<br />
-Tel: + 370 5 205 1 </p>
+Tel: + 370 5 205 1  </p>
 <p>: + 359 2 44 55 Luxembourg/Luxemburg 
 Mylan bvba/sprl 
-T l/Tel: + 32 (0)2 658 61<br />
-(Belgique/Belgien) </p>
+T l/Tel: + 32 (0)2 658 61 (Belgique/Belgien) </p>
 <p>esk  republika 
 Viatris CZ s.r.o. 
 Tel: + 420 222 004 Magyarorsz g 
 Mylan EPD Kft 
-Tel: + 36 1 465 2 
-Danmark 
+Tel: + 36 1 465 2Danmark 
 Viatris ApS 
-Tlf: + 45 28 11 69<br />
-Malta 
+Tlf: + 45 28 11 69 Malta 
 V.J. Salomone Pharma Ltd 
-Tel: + 356 21 22 01<br />
-Deutschland 
+Tel: + 356 21 22 01 Deutschland 
 Viatris Healthcare GmbH 
-Tel: + 49 800 0700<br />
-Nederland 
+Tel: + 49 800 0700 Nederland 
 Mylan BV 
-Tel: + 31 (0)20 426 3300<br />
-Eesti<br />
+Tel: + 31 (0)20 426 3Eesti<br />
 BGP Products Switzerland GmbH Eesti filiaal<br />
-Tel: + 372 6363<br />
-Norge 
+Tel: + 372 6363 Norge 
 Viatris AS 
-Tlf: + 47 66 75 33  </p>
-<p>Generics Pharma Hellas  <br />
+Tlf: + 47 66 75 33 <br />
+Generics Pharma Hellas  <br />
  :  + 30 210 993 6 sterreich 
 Arcana Arzneimittel GmbH 
-Tel: + 43 1 416 2 
-Espa a 
+Tel: + 43 1 416 2Espa a 
 Viatris Pharmaceuticals S.L.U. 
 Tel: + 34 900 102 Polska 
 Mylan Healthcare Sp. z o.o. 
-Tel: + 48 22 546 64<br />
-France 
+Tel: + 48 22 546 64 France 
 Viatris Sant<br />
 T l: + 33 4 37 25 75 Portugal 
 Mylan, Lda. 
-Tel: + 351 214 127<br />
-Hrvatska 
+Tel: + 351 214 127 Hrvatska 
 Viatris Hrvatska d.o.o.<br />
 Tel: + 385 1 23 50 Rom nia<br />
 BGP Products SRL 
-Tel: + 40 372 579<br />
-Ireland 
+Tel: + 40 372 579 Ireland 
 Mylan Ireland Limited 
-Tel: + 353 1 8711 
-Slovenija 
+Tel: + 353 1 8711Slovenija 
 Viatris d.o.o. 
 Tel: + 386 1 23 63  sland 
 Icepharma hf. 
-S mi: + 354 540 8 
-Slovensk  republika 
+S mi: + 354 540 8Slovensk  republika 
 Viatris Slovakia s.r.o. 
 Tel: + 421 2 32 199 Italia 
 Mylan Italia S.r.l. 
-Tel: + 39 02 612 46 
-Suomi/Finland 
+Tel: + 39 02 612 46Suomi/Finland 
 Viatris Oy 
-Puh/Tel: + 358 20 720 9555  </p>
-<p>Varnavas Hadjipanayis Ltd 
- : + 357 2220 7 
-Sverige 
+Puh/Tel: + 358 20 720 9<br />
+Varnavas Hadjipanayis Ltd 
+ : + 357 2220 7Sverige 
 Viatris AB 
-Tel: + 46 855 522<br />
-Latvija 
+Tel: + 46 855 522 Latvija 
 Mylan Healthcare SIA<br />
-Tel: + 371 676 055<br />
-United Kingdom (Northern Ireland) 
+Tel: + 371 676 055 United Kingdom (Northern Ireland) 
 Mylan IRE Healthcare Limited<br />
-Tel: + 353 18711 </p>
-<p>This leaflet was last revised in MM/YYYY </p>
+Tel: + 353 18711This leaflet was last revised in MM/YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

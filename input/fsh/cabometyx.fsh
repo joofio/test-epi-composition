@@ -4,7 +4,7 @@ Instance: composition-en-36b89eaa45afd7ab0e486d51fb7ebc12
 InstanceOf: CompositionUvEpi
 Title: "Composition for cabometyx Package Leaflet"
 Description:  "Composition for cabometyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What CABOMETYX is and what it is used for  
-2. What you need to know before you take CABOMETYX 
-3. How to take CABOMETYX 
-4. Possible side effects  
-5. How to store CABOMETYX 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What CABOMETYX is and what it is used for  </li>
+<li>What you need to know before you take CABOMETYX </li>
+<li>How to take CABOMETYX </li>
+<li>Possible side effects  </li>
+<li>How to store CABOMETYX </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -479,57 +479,47 @@ Italia
 Ipsen NV 
 Belgi  /Belgique/Belgien 
 T l/Tel: + 32 9 243 96 Ipsen SpA 
-Tel: + 39 02 39 22  </p>
-<p>Latvija<br />
+Tel: + 39 02 39 22 <br />
+Latvija<br />
 PharmaSwiss EOOD 
  .: +359 2 8952 Ipsen Pharma representative office 
-Tel: +371 67622 </p>
-<p>esk  republika 
+Tel: +371 67622 esk  republika 
 Lietuva 
 Ipsen Pharma, s.r.o.<br />
 Tel: + 420 242 481 Ipsen Pharma SAS Lietuvos filialas<br />
-Tel. +370 700 33 </p>
-<p>Danmark, Norge, Suomi/Finland, Sverige,  sland 
+Tel. +370 700 33Danmark, Norge, Suomi/Finland, Sverige,  sland 
 Magyarorsz g 
 Institut Produits Synth se (IPSEN) AB 
 Sverige/Ruotsi/Sv j <br />
 Tlf/Puh/Tel/S mi: +46 8 451 60 IPSEN Pharma Hungary Kft. 
-Tel.: +36 1 555 5 </p>
-<p>Deutschland,  sterreich 
+Tel.: +36 1 555 5Deutschland,  sterreich 
 Nederland 
 Ipsen Pharma GmbH<br />
 Deutschland 
 Tel.: +49 89 2620 432 Ipsen Farmaceutica B.V.<br />
-Tel: + 31 (0) 23 554 1 </p>
-<p>Eesti 
+Tel: + 31 (0) 23 554 1Eesti 
 Polska 
 Centralpharma Communications O<br />
 Tel: +372 60 15 Ipsen Poland Sp. z o.o.<br />
-Tel.: + 48 22 653 68  </p>
-<p>,  , Malta 
+Tel.: + 48 22 653 68  ,  , Malta 
 Portugal 
 Ipsen   E  </p>
 <p>: + 30 210 984 3Ipsen Portugal - Produtos Farmac uticos S.A.<br />
-Tel: + 351 21 412 3 </p>
-<p>Espa a 
+Tel: + 351 21 412 3Espa a 
 Rom nia 
 Ipsen Pharma, S.A.U. 
 Tel: + 34 936 858 Ipsen Pharma Rom nia SRL 
-Tel: + 40 21 231 27  </p>
-<p>France 
+Tel: + 40 21 231 27 France 
 Slovenija 
 Ipsen Pharma 
 T l: + 33 1 58 33 50 PharmaSwiss d.o.o.<br />
-Tel: + 386 1 236 47 00  </p>
-<p>Hrvatska 
+Tel: + 386 1 236 47 Hrvatska 
 Slovensk  republika 
 Bausch Health Poland sp. z.o.o. podru nica Zagreb 
 Tel: +385 1 6700 Ipsen Pharma, organiza n  zlo ka 
-Tel: + 420 242 481  </p>
-<p>Ireland, United Kingdom (Northern Ireland) </p>
+Tel: + 420 242 481 Ireland, United Kingdom (Northern Ireland) </p>
 <p>Ipsen Pharmaceuticals Limited<br />
-Tel: + 44 (0)1753 62 77  </p>
-<p>This leaflet was last revised in  </p>
+Tel: + 44 (0)1753 62 77 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 

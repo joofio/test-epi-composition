@@ -4,7 +4,7 @@ Instance: composition-en-0a52b09545f0b2e00d5c72212ca2a403
 InstanceOf: CompositionUvEpi
 Title: "Composition for taltz Package Leaflet"
 Description:  "Composition for taltz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = ""
 
@@ -53,15 +53,15 @@ Usage: #example
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
   * code.text = "What is in this leaflet"
   * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  What is in this leaflet 
- 
-1. What Taltz is and what it is used for 
-2. What you need to know before you use Taltz 
-3. How to use Taltz 
-4. Possible side effects 
-5. How to store Taltz 
-6. Contents of the pack and other information 
-         </div>"""   
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What is in this leaflet </p>
+<ol>
+<li>What Taltz is and what it is used for </li>
+<li>What you need to know before you use Taltz </li>
+<li>How to use Taltz </li>
+<li>Possible side effects </li>
+<li>How to store Taltz </li>
+<li>Contents of the pack and other information </li>
+</ol>         </div>"""   
           
 
 * section[=].section[+]
@@ -93,8 +93,8 @@ medicines. If you do not respond well enough to these medicines or in case of in
 given Taltz to reduce the signs and symptoms of the disease. Taltz can be used alone or with another 
 medicine named methotrexate. </p>
 <p>Using Taltz will benefit you by reducing the signs and symptoms of the disease, improving physical 
-function (ability to do normal daily activities), and slowing down the damage to the joints. </p>
-<p>Axial spondyloarthritis 
+function (ability to do normal daily activities), and slowing down the damage to the joints. 
+Axial spondyloarthritis 
 Taltz is used to treat adults with an inflammatory disease primarily affecting the spine which causes 
 inflammation of the spinal joints, called axial spondyloarthritis. If the condition is visible using 
 X-rays, it is referred to as  radiographic axial spondyloarthritis ; if it occurs in patients with no visible 
@@ -133,14 +133,7 @@ Taltz can potentially cause serious side effects, including infections and aller
 look out for signs of these conditions while you are using Taltz. </p>
 <p>Stop using Taltz and tell your doctor or seek medical help immediately if you notice any signs of a 
 serious infection or an allergic reaction. Such signs are listed under  Serious side effects  in 
-section </p>         </div>"""   
-                    
-* section[=].section[+]
-  * title =  "3. How to take taltz"
-  * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "3. How to take taltz"
-  * text.status = #additional
-  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Children and adolescents 
+section 4. Children and adolescents 
 Do not use this medicine for the treatment of plaque psoriasis in children under 6 years of age because 
 it has not been studied in this age group. </p>
 <p>Do not use this medicine for the treatment of psoriatic arthritis in children and adolescents under 
@@ -163,13 +156,12 @@ You and your doctor should decide if you can breast-feed or use Taltz. You shoul
 Taltz is unlikely to influence your ability to drive and use machines. </p>
 <p>Taltz contains sodium 
 This medicine contains less than 1 mmol sodium (23 mg) per 80 mg dose, that is to say essentially 
- sodium-free .  </p>         </div>"""         
-
-        
+ sodium-free .  </p>         </div>"""   
+                    
 * section[=].section[+]
-  * title = "4. Possible side effects"
+  * title =  "3. How to take taltz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "4. Possible side effects"
+  * code.text = "3. How to take taltz"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Always use this medicine exactly as your doctor or nurse has told you. Check with your doctor, 
 nurse or pharmacist if you are not sure. </p>
@@ -234,12 +226,13 @@ If you have forgotten to inject a dose of Taltz, talk to your doctor. </p>
 <p>If you stop using Taltz<br />
 You should not stop using Taltz without speaking to your doctor first. If you stop treatment, symptoms 
 of psoriasis or psoriatic arthritis may come back. </p>
-<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""      
+<p>If you have any further questions on the use of this medicine, ask your doctor, pharmacist or nurse. </p>         </div>"""         
+
         
 * section[=].section[+]
-  * title = "5. How to store taltz"
+  * title = "4. Possible side effects"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "5. How to store taltz"
+  * code.text = "4. Possible side effects"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Like all medicines, this medicine can cause side effects, although not everybody gets them. </p>
 <p>Serious side effects<br />
@@ -290,11 +283,10 @@ effects not listed in this leaflet. You can also report side effects directly vi
 system listed in Appendix V. By reporting side effects, you can help provide more information on the 
 safety of this medicine. </p>         </div>"""      
         
-        
 * section[=].section[+]
-  * title = "6. Contents of the pack and other information"
+  * title = "5. How to store taltz"
   * code = https://spor.ema.europa.eu/rmswi/#100000155538
-  * code.text = "6. Contents of the pack and other information"
+  * code.text = "5. How to store taltz"
   * text.status = #additional
   * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>Keep this medicine out of the sight and reach of children. </p>
 <p>Do not use this medicine after the expiry date which is stated on the syringe label and on the outer 
@@ -307,4 +299,301 @@ distinctly brown, or has particles in it.  </p>
 <p>This medicine is for single use only.  </p>
 <p>Do not throw away any medicines via wastewater. Ask your doctor, nurse or pharmacist how to throw 
 away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
+        
+        
+* section[=].section[+]
+  * title = "6. Contents of the pack and other information"
+  * code = https://spor.ema.europa.eu/rmswi/#100000155538
+  * code.text = "6. Contents of the pack and other information"
+  * text.status = #additional
+  * text.div = """<div xmlns='http://www.w3.org/1999/xhtml'>  <p>What Taltz contains 
+- The active substance is ixekizumab. </p>
+<p>Each pre-filled syringe contains 80 mg of ixekizumab in 1 ml solution. 
+- The other ingredients are sucrose; polysorbate 80; water for injections. In addition, sodium 
+hydroxide may have been added for pH adjustment. </p>
+<p>What Taltz looks like and contents of the pack 
+Taltz is a solution in a clear glass syringe. Its colour may vary from colourless to slightly yellow.  </p>
+<p>Pack sizes of 1, 2, 3 pre-filled syringes. Not all pack sizes may be available in your country. </p>
+<p>Marketing Authorisation Holder<br />
+Eli Lilly and Company (Ireland) Limited, Dunderrow, Kinsale, Co. Cork, Ireland. </p>
+<p>Manufacturer 
+Eli Lilly Italia S.p.A.,Via Gramsci 731/733, 50019, Sesto Fiorentino (FI), Italy. </p>
+<p>For any information about this medicine, please contact the local representative of the Marketing 
+Authorisation Holder: </p>
+<p>Belgique/Belgi /Belgien 
+Eli Lilly Benelux S.A./N.V. 
+T l/Tel: + 32-(0)2 548 84 Lietuva 
+Eli Lilly Lietuva 
+Tel. +370 (5) 2649<br />
+  "     "  . . - <br />
+ . + 359 2 491 41 Luxembourg/Luxemburg 
+Eli Lilly Benelux S.A./N.V. 
+T l/Tel: + 32-(0)2 548 84  esk  republika 
+ELI LILLY  R, s.r.o. 
+Tel: + 420 234 664 Magyarorsz g 
+Lilly Hung ria Kft. 
+Tel: + 36 1 328 5Danmark 
+Eli Lilly Danmark A/S<br />
+Tlf: +45 45 26 60 Malta 
+Charles de Giorgio Ltd. 
+Tel: + 356 25600 Deutschland 
+Lilly Deutschland GmbH 
+Tel. + 49-(0) 6172 273 2Nederland 
+Eli Lilly Nederland B.V.<br />
+Tel: + 31-(0) 30 60 25 Eesti 
+Eli Lilly Nederland B.V. 
+Tel: +372 6 817 Norge 
+Eli Lilly Norge A.S.<br />
+Tlf: + 47 22 88 18 <br />
+ -   . . . .<br />
+ : +30 210 629 4 sterreich 
+Eli Lilly Ges.m.b.H.<br />
+Tel: + 43-(0) 1 711 Espa a 
+Lilly S.A. 
+Tel: + 34-91 663 50 Polska 
+Eli Lilly Polska Sp. z o.o. 
+Tel: +48 22 440 33 France 
+Lilly France 
+T l: +33-(0) 1 55 49 34 Portugal 
+Lilly Portugal Produtos Farmac uticos, Lda 
+Tel: + 351-21-4126Hrvatska 
+Eli Lilly Hrvatska d.o.o. 
+Tel: +385 1 2350 Rom nia 
+Eli Lilly Rom nia S.R.L. 
+Tel: + 40 21 4023Ireland 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4Slovenija 
+Eli Lilly farmacevtska dru ba, d.o.o. 
+Tel: +386 (0)1 580 00  sland 
+Icepharma hf. 
+S mi + 354 540 8Slovensk  republika 
+Eli Lilly Slovakia s.r.o. 
+Tel: + 421 220 663 Italia 
+Eli Lilly Italia S.p.A. 
+Tel: + 39- 055 42Suomi/Finland 
+Oy Eli Lilly Finland Ab<br />
+Puh/Tel: + 358-(0) 9 85 45 <br />
+Phadisco Ltd<br />
+ : +357 22 715Sverige 
+Eli Lilly Sweden AB 
+Tel: + 46-(0) 8 7378Latvija 
+Eli Lilly (Suisse) S.A P rst vniec ba Latvij<br />
+Tel: +371 67364United Kingdom (Northern Ireland) 
+Eli Lilly and Company (Ireland) Limited 
+Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
+<p>Other sources of information </p>
+<p>Detailed information on this medicine is available on the European Medicines Agency website: 
+http://www.ema.europa.eu.  </p>
+<hr />
+<p>The following information is intended for medical or healthcare professionals only: </p>
+<p>40 mg preparation of ixekizumab for children 25-50 kg body weight </p>
+<p>Ixekizumab doses of 40 mg must be prepared and administered by a qualified healthcare professional. 
+Use only the Taltz 80 mg solution for injection in pre-filled syringe when preparing the prescribed 
+40 mg paediatric doses. </p>
+<ol>
+<li>Expel the entire contents of the pre-filled syringe into a sterile, clear glass vial. DO NOT shake 
+or swirl the vial. </li>
+<li>Use a 0.5 ml or 1 ml disposable syringe and sterile needle to withdraw the prescribed dose 
+(0.5 ml for 40 mg) from the vial. </li>
+<li>Change the needle and use a 27-gauge, sterile needle to inject the patient. Discard any unused 
+ixekizumab in the vial. </li>
+</ol>
+<p>The prepared ixekizumab must be administered within 4 hours of puncturing the sterile vial at room 
+temperature. </p>
+<p>Instructions for use </p>
+<p>Taltz 80 mg solution for injection in pre-filled syringe </p>
+<p>ixekizumab </p>
+<p>Before using your pre-filled syringe:  </p>
+<p>Important points to know </p>
+<ul>
+<li>Before you use the Taltz pre-filled syringe, read and carefully follow all the step-by-step 
+instructions. Keep the Instructions for use and refer to them as needed. </li>
+<li>The pre-filled syringe contains 1 dose of Taltz. The syringe is for ONE-TIME USE ONLY. </li>
+<li>The syringe must not be shaken. </li>
+<li>Your doctor, pharmacist or nurse may help you decide where on your body to inject your 
+dose.  </li>
+<li>Read the Taltz Package Leaflet inside this box to learn more about your medicine. </li>
+</ul>
+<p>INSTRUCTIONS FOR USE </p>
+<p>Before you use the Taltz pre-filled syringe, read and carefully follow all the step-by-step 
+instructions. </p>
+<p>Guide to the parts </p>
+<p>1 
+GET READY </p>
+<p>1a 
+Take the syringe from the refrigerator. Leave the needle cap on the 
+syringe until you are ready to inject. Wait 30 minutes to let the syringe 
+warm to room temperature before you use it.  </p>
+<p>DO NOT use any heat sources to warm the medicine, for example: a 
+microwave, hot water, or direct sunlight. </p>
+<p>1b 
+Gather the supplies for your injection: </p>
+<ul>
+<li>1 alcohol wipe </li>
+<li>1 cotton ball or piece of gauze </li>
+<li>1 sharps container for disposal of syringes </li>
+</ul>
+<p>Finger grips 
+minutes 
+Thumb pad 
+Green 
+plunger rod 
+Syringe body 
+with medicine 
+Needle 
+Needle cap 
+Grey syringe 
+plunger 
+1c </p>
+<p>Inspect the pre-filled syringe for damage to the 
+outside. Leave the needle cap on the syringe until you 
+are ready to inject. Check the label. Make sure the 
+name Taltz appears on the label.  </p>
+<p>The medicine inside should be clear. Its colour may 
+vary from colourless to slightly yellow. </p>
+<p>If you see any of the following, DO NOT USE the 
+syringe, and dispose of it as directed: </p>
+<ul>
+<li>It is past the expiry date. </li>
+<li>It looks damaged. </li>
+<li>The medicine is cloudy, is distinctly brown, or 
+has small particles. </li>
+</ul>
+<p>1d 
+Wash your hands before you inject your medicine. </p>
+<p>1e </p>
+<p>Choose your injection site. </p>
+<p>You may inject in your abdomen (stomach area), in 
+your thigh, or in the back of your arm. To inject in 
+your arm, you will need someone to help you. </p>
+<p>DO NOT inject into areas where the skin is tender, 
+bruised, red, or hard or where you have scars or stretch 
+marks. DO NOT inject within 2.5 centimetres of the 
+navel (belly button). </p>
+<p>Alternate your injection sites. DO NOT inject in the 
+exact same spot every time. For example, if your last 
+injection was in your left thigh, your next injection 
+should be in your right thigh, your abdomen, or the 
+back of either arm. </p>
+<p>1f 
+Prepare your skin. Clean your skin with an alcohol wipe. Let the injection site dry naturally 
+before you inject your medicine. </p>
+<p>Back of 
+arm 
+Abdomen 
+Thigh 
+Expiry date 
+2 
+INJECT </p>
+<p>2a </p>
+<p>Pull the needle cap off and throw it away. </p>
+<p>DO NOT put the needle cap back on you could 
+damage the needle or injure yourself by accident. </p>
+<p>DO NOT touch the needle. </p>
+<p>2b </p>
+<p>Gently pinch and hold a fold of skin where you 
+will inject. </p>
+<p>2c </p>
+<p>Insert the needle at a 45-degree angle. Then gently 
+let go of your skin. Make sure to keep the needle in 
+place. </p>
+<p>2d </p>
+<p>Push in the plunger. </p>
+<p>Slowly push the plunger all the way in until all the 
+medicine is injected. The grey syringe plunger 
+should be pushed all the way to the end of the 
+syringe. Gently remove the needle from your skin. </p>
+<p>Press a cotton ball or gauze over the injection site. 
+DO NOT rub the injection site, as this may cause 
+bruising. You may have slight bleeding. This is 
+normal. </p>
+<p>You should see the green plunger rod showing 
+through the syringe body when the injection is 
+complete. </p>
+<p>3 
+FINISH </p>
+<p>3a </p>
+<p>Dispose of the pre-filled syringe. </p>
+<p>DO NOT put the needle cap back on. Dispose of the 
+syringe in a sharps container or as directed by your 
+doctor, pharmacist or nurse. </p>
+<p>When you dispose of syringes and the sharps container: </p>
+<ul>
+<li>Dispose of the syringe in a sharps container or as directed by your doctor, pharmacist or 
+nurse.  </li>
+<li>Do not recycle the filled sharps container. </li>
+<li>Ask your doctor, pharmacist or nurse about how to dispose of medicines you no longer use. </li>
+</ul>
+<p>Green 
+plunger rod 
+Grey syringe 
+plunger 
+Grey syringe 
+plunger 
+Green 
+plunger rod 
+Safety tips </p>
+<ul>
+<li>If you have questions or need help with your pre-filled syringe, call your doctor, pharmacist 
+or nurse. </li>
+<li>If you have vision problems, DO NOT use the pre-filled syringe without help from a person 
+trained to use it. </li>
+<li>DO NOT share or reuse your Taltz pre-filled syringe. You may give or get an infection </li>
+<li>Keep the syringe out of the reach and sight of children. </li>
+<li>If you do not have a sharps container, ask your doctor, pharmacist or nurse about where you 
+can get one. </li>
+</ul>
+<p>Commonly asked questions </p>
+<p>Q. 
+What if I see air bubbles in my syringe? </p>
+<p>A. 
+It is normal to sometimes have air bubbles in the syringe. Taltz is injected under your skin 
+(subcutaneous injection). Air bubbles are not a problem in this type of injection. They will not 
+harm you or affect your dose. </p>
+<p>Q. 
+What if there is a drop of liquid on the tip of the needle when I remove the needle cap? </p>
+<p>A. 
+It is okay to see a drop of liquid on the tip of the needle. This will not harm you or affect your 
+dose. </p>
+<p>Q. 
+What if I cannot push in the plunger? </p>
+<p>A. 
+If the plunger is stuck or damaged: </p>
+<ul>
+<li>
+<p>DO NOT continue to use the syringe. </p>
+</li>
+<li>
+<p>Remove the needle from your skin. </p>
+</li>
+</ul>
+<p>Q. 
+How can I tell if my injection is complete? </p>
+<p>A. 
+When your injection is complete: </p>
+<ul>
+<li>
+<p>The green plunger rod should show through the body of the syringe. </p>
+</li>
+<li>
+<p>The grey syringe plunger should be pushed all the way to the end of the syringe. </p>
+</li>
+</ul>
+<p>Q.  What if the syringe is left at room temperature for longer than 30 minutes? </p>
+<p>A. If needed, the syringe may be left out of the fridge at temperature not above 30  C for up to 
+5 days if protected from direct sunlight. Taltz should be discarded if not used within the 5 day 
+period at room temperature.  </p>
+<p>Read the full Instructions for use and the package leaflet inside this box to learn more about 
+your medicine. </p>
+<p>Package leaflet: Information for the patient </p>
+<p>Taltz 80 mg solution for injection in pre-filled pen 
+ixekizumab </p>
+<p>Read all of this leaflet carefully before you start using this medicine because it contains 
+important information for you. 
+- Keep this leaflet. You may need to read it again. 
+- If you have any further questions, ask your doctor, pharmacist or nurse. 
+- This medicine has been prescribed for you only. Do not pass it on to others. It may harm them, 
+even if their signs of illness are the same as yours. 
+- If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
+side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
