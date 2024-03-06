@@ -3,7 +3,6 @@ Alias: $spor-rms = https://spor.ema.europa.eu/rmswi
 Alias: $spor-productNamePartType-cs = https://spor.ema.europa.eu/lists/220000000000 // Medicinal Product Name Part Type
 
 Instance: mah-ema
-Instance: mah-ema
 InstanceOf: OrganizationUvEpi
 Title: "ACME industry as Marketing authorisation holder"
 Description: "ACME industry as Marketing authorisation holder"
