@@ -4,7 +4,7 @@ Instance: composition-en-832482791de362ad81d3371194ed350b
 InstanceOf: CompositionUvEpi
 Title: "Composition for riltrava Package Leaflet"
 Description:  "Composition for riltrava Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

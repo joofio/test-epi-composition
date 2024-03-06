@@ -4,7 +4,7 @@ Instance: composition-en-81f5650754f57ccfab50a85a04738aec
 InstanceOf: CompositionUvEpi
 Title: "Composition for efficib Package Leaflet"
 Description:  "Composition for efficib Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

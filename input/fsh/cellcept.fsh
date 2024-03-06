@@ -4,7 +4,7 @@ Instance: composition-en-7864f63eceae865956b53410a93ee1e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for cellcept Package Leaflet"
 Description:  "Composition for cellcept Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

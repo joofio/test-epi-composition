@@ -4,7 +4,7 @@ Instance: composition-en-28d78e4ecee5ce96f67160a74729d480
 InstanceOf: CompositionUvEpi
 Title: "Composition for bimzelx Package Leaflet"
 Description:  "Composition for bimzelx Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

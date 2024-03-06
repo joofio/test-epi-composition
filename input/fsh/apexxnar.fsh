@@ -4,7 +4,7 @@ Instance: composition-en-d7b1f21254cfe6d481d9f6365694f530
 InstanceOf: CompositionUvEpi
 Title: "Composition for apexxnar Package Leaflet"
 Description:  "Composition for apexxnar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

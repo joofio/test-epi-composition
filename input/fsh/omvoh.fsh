@@ -4,7 +4,7 @@ Instance: composition-en-65348d0704af82b9a03c835ed62f4089
 InstanceOf: CompositionUvEpi
 Title: "Composition for omvoh Package Leaflet"
 Description:  "Composition for omvoh Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

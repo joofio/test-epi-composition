@@ -4,7 +4,7 @@ Instance: composition-en-34b5097700b5b214baa08b9eb1554dbe
 InstanceOf: CompositionUvEpi
 Title: "Composition for ertapenem Package Leaflet"
 Description:  "Composition for ertapenem Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

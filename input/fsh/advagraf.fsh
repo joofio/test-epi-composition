@@ -4,7 +4,7 @@ Instance: composition-en-2889785717c749fb4c4dfcfcfd9ca297
 InstanceOf: CompositionUvEpi
 Title: "Composition for advagraf Package Leaflet"
 Description:  "Composition for advagraf Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

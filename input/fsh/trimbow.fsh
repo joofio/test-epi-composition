@@ -4,7 +4,7 @@ Instance: composition-en-b1dc557df32bb39c63c00547638eca2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for trimbow Package Leaflet"
 Description:  "Composition for trimbow Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

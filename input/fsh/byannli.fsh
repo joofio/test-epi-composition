@@ -4,7 +4,7 @@ Instance: composition-en-da701b68ad298c1e026dc2b82539868e
 InstanceOf: CompositionUvEpi
 Title: "Composition for byannli Package Leaflet"
 Description:  "Composition for byannli Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

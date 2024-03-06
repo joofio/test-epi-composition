@@ -4,7 +4,7 @@ Instance: composition-en-b565284a99d14ce765da70a99bc090d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for votrient Package Leaflet"
 Description:  "Composition for votrient Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

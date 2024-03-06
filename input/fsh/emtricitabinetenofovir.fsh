@@ -4,7 +4,7 @@ Instance: composition-en-370a06b10b762d93e4a42cb2abad2584
 InstanceOf: CompositionUvEpi
 Title: "Composition for emtricitabinetenofovir Package Leaflet"
 Description:  "Composition for emtricitabinetenofovir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

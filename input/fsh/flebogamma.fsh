@@ -4,7 +4,7 @@ Instance: composition-en-d4555e443163704d4c697ea40b21716a
 InstanceOf: CompositionUvEpi
 Title: "Composition for flebogamma Package Leaflet"
 Description:  "Composition for flebogamma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

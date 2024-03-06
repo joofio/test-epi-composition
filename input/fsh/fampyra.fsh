@@ -4,7 +4,7 @@ Instance: composition-en-40c8dbb155810b203735f0693961138c
 InstanceOf: CompositionUvEpi
 Title: "Composition for fampyra Package Leaflet"
 Description:  "Composition for fampyra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

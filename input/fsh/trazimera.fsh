@@ -4,7 +4,7 @@ Instance: composition-en-c116ac444efe9566cd4664c5b73e7669
 InstanceOf: CompositionUvEpi
 Title: "Composition for trazimera Package Leaflet"
 Description:  "Composition for trazimera Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

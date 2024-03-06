@@ -4,7 +4,7 @@ Instance: composition-en-05f8c1dee8f03d43d5a47046b61f2f18
 InstanceOf: CompositionUvEpi
 Title: "Composition for norvir Package Leaflet"
 Description:  "Composition for norvir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

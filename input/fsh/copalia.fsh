@@ -4,7 +4,7 @@ Instance: composition-en-4cfe8c40a5179c3c87314b55050e4442
 InstanceOf: CompositionUvEpi
 Title: "Composition for copalia Package Leaflet"
 Description:  "Composition for copalia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

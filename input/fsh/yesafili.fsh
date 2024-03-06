@@ -4,7 +4,7 @@ Instance: composition-en-287bc5c0cd4c93468a645b4df30664e2
 InstanceOf: CompositionUvEpi
 Title: "Composition for yesafili Package Leaflet"
 Description:  "Composition for yesafili Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

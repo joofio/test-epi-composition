@@ -4,7 +4,7 @@ Instance: composition-en-de3f46573279b69427e72992f0f64b7e
 InstanceOf: CompositionUvEpi
 Title: "Composition for evkeeza Package Leaflet"
 Description:  "Composition for evkeeza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

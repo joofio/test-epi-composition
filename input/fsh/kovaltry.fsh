@@ -4,7 +4,7 @@ Instance: composition-en-8467bc8586a2da87e0b1d648339b10b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for kovaltry Package Leaflet"
 Description:  "Composition for kovaltry Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

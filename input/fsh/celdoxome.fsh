@@ -4,7 +4,7 @@ Instance: composition-en-0decee85458f6211fcf0121c6b6f6c83
 InstanceOf: CompositionUvEpi
 Title: "Composition for celdoxome Package Leaflet"
 Description:  "Composition for celdoxome Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

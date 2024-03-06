@@ -4,7 +4,7 @@ Instance: composition-en-dd757aba03311ccfbf31708d5bd7ddb1
 InstanceOf: CompositionUvEpi
 Title: "Composition for terrosa Package Leaflet"
 Description:  "Composition for terrosa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

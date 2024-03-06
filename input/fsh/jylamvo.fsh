@@ -4,7 +4,7 @@ Instance: composition-en-5a7d87ea4e5158537cd30e019fd73e95
 InstanceOf: CompositionUvEpi
 Title: "Composition for jylamvo Package Leaflet"
 Description:  "Composition for jylamvo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

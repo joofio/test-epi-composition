@@ -4,7 +4,7 @@ Instance: composition-en-66b9e568d1a8891a6ff6349ce2c6c5ff
 InstanceOf: CompositionUvEpi
 Title: "Composition for vedrop Package Leaflet"
 Description:  "Composition for vedrop Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

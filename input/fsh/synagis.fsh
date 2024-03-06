@@ -4,7 +4,7 @@ Instance: composition-en-089c16e9e25738dc47015eac48b11f49
 InstanceOf: CompositionUvEpi
 Title: "Composition for synagis Package Leaflet"
 Description:  "Composition for synagis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

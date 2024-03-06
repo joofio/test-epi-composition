@@ -4,7 +4,7 @@ Instance: composition-en-29aa13d063497263a16ff19921f8de13
 InstanceOf: CompositionUvEpi
 Title: "Composition for yselty Package Leaflet"
 Description:  "Composition for yselty Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

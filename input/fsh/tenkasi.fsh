@@ -4,7 +4,7 @@ Instance: composition-en-426fcc87e6dced0e7ea770b4b6114e7d
 InstanceOf: CompositionUvEpi
 Title: "Composition for tenkasi Package Leaflet"
 Description:  "Composition for tenkasi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

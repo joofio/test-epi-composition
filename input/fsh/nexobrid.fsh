@@ -4,7 +4,7 @@ Instance: composition-en-9af2a44fa579cd6ab6e3934e61bad8e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexobrid Package Leaflet"
 Description:  "Composition for nexobrid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

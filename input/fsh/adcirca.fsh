@@ -4,7 +4,7 @@ Instance: composition-en-74802c3f483c85b7b9c5aba153dab57d
 InstanceOf: CompositionUvEpi
 Title: "Composition for adcirca Package Leaflet"
 Description:  "Composition for adcirca Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

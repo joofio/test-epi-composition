@@ -4,7 +4,7 @@ Instance: composition-en-f797cc0b9b4e9335a18d81e479368f3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for uptravi Package Leaflet"
 Description:  "Composition for uptravi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-8efc3218e58b030bcc0685f059870454
 InstanceOf: CompositionUvEpi
 Title: "Composition for blitzima Package Leaflet"
 Description:  "Composition for blitzima Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

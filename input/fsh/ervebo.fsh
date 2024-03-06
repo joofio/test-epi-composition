@@ -4,7 +4,7 @@ Instance: composition-en-b1355bc14a128fa4430d01fced9887b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for ervebo Package Leaflet"
 Description:  "Composition for ervebo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

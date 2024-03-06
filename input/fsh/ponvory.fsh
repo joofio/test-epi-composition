@@ -4,7 +4,7 @@ Instance: composition-en-fc7c0b4a680b856c6d3878351fc9d22e
 InstanceOf: CompositionUvEpi
 Title: "Composition for ponvory Package Leaflet"
 Description:  "Composition for ponvory Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

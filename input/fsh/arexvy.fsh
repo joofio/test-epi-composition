@@ -4,7 +4,7 @@ Instance: composition-en-b7c55b769302b712ca67d42dcf561d3e
 InstanceOf: CompositionUvEpi
 Title: "Composition for arexvy Package Leaflet"
 Description:  "Composition for arexvy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

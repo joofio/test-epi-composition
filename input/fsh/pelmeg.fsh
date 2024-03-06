@@ -4,7 +4,7 @@ Instance: composition-en-874f4746d25a4c3b8fa97e889d85be10
 InstanceOf: CompositionUvEpi
 Title: "Composition for pelmeg Package Leaflet"
 Description:  "Composition for pelmeg Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

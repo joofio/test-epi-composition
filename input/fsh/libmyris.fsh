@@ -4,7 +4,7 @@ Instance: composition-en-97e912692940da0904efcb8614f8aff4
 InstanceOf: CompositionUvEpi
 Title: "Composition for libmyris Package Leaflet"
 Description:  "Composition for libmyris Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

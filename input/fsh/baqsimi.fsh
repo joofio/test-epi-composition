@@ -4,7 +4,7 @@ Instance: composition-en-022de2712c9cec11ed019ca691afcec1
 InstanceOf: CompositionUvEpi
 Title: "Composition for baqsimi Package Leaflet"
 Description:  "Composition for baqsimi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

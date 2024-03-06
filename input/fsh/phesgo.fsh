@@ -4,7 +4,7 @@ Instance: composition-en-f191079d24f65ed4b318bd51e41feaaf
 InstanceOf: CompositionUvEpi
 Title: "Composition for phesgo Package Leaflet"
 Description:  "Composition for phesgo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

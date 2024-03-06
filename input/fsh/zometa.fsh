@@ -4,7 +4,7 @@ Instance: composition-en-4e6edbbda0e498fd507a1a54a60c6d4b
 InstanceOf: CompositionUvEpi
 Title: "Composition for zometa Package Leaflet"
 Description:  "Composition for zometa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

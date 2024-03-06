@@ -4,7 +4,7 @@ Instance: composition-en-f8c80c0dde1cf12a2344c36d8be291f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for fycompa Package Leaflet"
 Description:  "Composition for fycompa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

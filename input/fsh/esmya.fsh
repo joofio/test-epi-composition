@@ -4,7 +4,7 @@ Instance: composition-en-a5f47c93f2a2eb5b88e9129e2aa9f3b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for esmya Package Leaflet"
 Description:  "Composition for esmya Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

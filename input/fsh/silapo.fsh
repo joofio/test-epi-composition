@@ -4,7 +4,7 @@ Instance: composition-en-542b66b905705c6df098d31fe81d888d
 InstanceOf: CompositionUvEpi
 Title: "Composition for silapo Package Leaflet"
 Description:  "Composition for silapo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

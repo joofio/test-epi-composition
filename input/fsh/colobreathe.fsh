@@ -4,7 +4,7 @@ Instance: composition-en-8fbc69d3de50a0eced9467159e7edfb2
 InstanceOf: CompositionUvEpi
 Title: "Composition for colobreathe Package Leaflet"
 Description:  "Composition for colobreathe Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

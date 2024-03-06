@@ -4,7 +4,7 @@ Instance: composition-en-395326013d549ebdb9d953865850ffcf
 InstanceOf: CompositionUvEpi
 Title: "Composition for foscan Package Leaflet"
 Description:  "Composition for foscan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

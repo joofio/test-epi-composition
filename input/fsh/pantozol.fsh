@@ -4,7 +4,7 @@ Instance: composition-en-74b5a727fa7666e2eecdbcd92db26812
 InstanceOf: CompositionUvEpi
 Title: "Composition for pantozol Package Leaflet"
 Description:  "Composition for pantozol Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

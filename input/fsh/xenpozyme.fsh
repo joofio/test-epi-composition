@@ -4,7 +4,7 @@ Instance: composition-en-1c8a533780954e330a4c10339c9c24f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for xenpozyme Package Leaflet"
 Description:  "Composition for xenpozyme Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

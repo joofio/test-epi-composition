@@ -4,7 +4,7 @@ Instance: composition-en-e3eab3746eb66351cd9da3360c55a431
 InstanceOf: CompositionUvEpi
 Title: "Composition for januvia Package Leaflet"
 Description:  "Composition for januvia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

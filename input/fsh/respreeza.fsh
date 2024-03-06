@@ -4,7 +4,7 @@ Instance: composition-en-a1d327760eabe9367684e5523c2c313b
 InstanceOf: CompositionUvEpi
 Title: "Composition for respreeza Package Leaflet"
 Description:  "Composition for respreeza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

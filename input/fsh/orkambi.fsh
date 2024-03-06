@@ -4,7 +4,7 @@ Instance: composition-en-8eabca438b9c6aec8be0a0c5c738dadd
 InstanceOf: CompositionUvEpi
 Title: "Composition for orkambi Package Leaflet"
 Description:  "Composition for orkambi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

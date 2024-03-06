@@ -4,7 +4,7 @@ Instance: composition-en-083329ed80f9e5f1c8e6dd49ed81d7aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for abilify Package Leaflet"
 Description:  "Composition for abilify Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-5e5d8991119f1b6cc9a73ed8524ab6d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for adtralza Package Leaflet"
 Description:  "Composition for adtralza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

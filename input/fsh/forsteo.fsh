@@ -4,7 +4,7 @@ Instance: composition-en-f37dc8b0ce387c50af638cbc7ed30e60
 InstanceOf: CompositionUvEpi
 Title: "Composition for forsteo Package Leaflet"
 Description:  "Composition for forsteo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

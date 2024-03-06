@@ -4,7 +4,7 @@ Instance: composition-en-9731e4b0c59c667008c1be9f642fafee
 InstanceOf: CompositionUvEpi
 Title: "Composition for kevzara Package Leaflet"
 Description:  "Composition for kevzara Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

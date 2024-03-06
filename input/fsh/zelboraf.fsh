@@ -4,7 +4,7 @@ Instance: composition-en-263a36592376e0a94e4d1b826acb9f8c
 InstanceOf: CompositionUvEpi
 Title: "Composition for zelboraf Package Leaflet"
 Description:  "Composition for zelboraf Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

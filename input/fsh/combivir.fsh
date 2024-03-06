@@ -4,7 +4,7 @@ Instance: composition-en-3df7bf1a2aef2fb435183285c8ded1c3
 InstanceOf: CompositionUvEpi
 Title: "Composition for combivir Package Leaflet"
 Description:  "Composition for combivir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

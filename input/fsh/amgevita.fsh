@@ -4,7 +4,7 @@ Instance: composition-en-05c018e3ef88203006356584dfd470dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for amgevita Package Leaflet"
 Description:  "Composition for amgevita Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

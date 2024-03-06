@@ -4,7 +4,7 @@ Instance: composition-en-90e75941fbec0604a5aef8f6392abdfd
 InstanceOf: CompositionUvEpi
 Title: "Composition for duaklir Package Leaflet"
 Description:  "Composition for duaklir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

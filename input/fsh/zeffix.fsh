@@ -4,7 +4,7 @@ Instance: composition-en-30a17ceddf8c54eac9abf3a410be28f9
 InstanceOf: CompositionUvEpi
 Title: "Composition for zeffix Package Leaflet"
 Description:  "Composition for zeffix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-2a82ca3c186080c5b1ee752847b09ce0
 InstanceOf: CompositionUvEpi
 Title: "Composition for jivi Package Leaflet"
 Description:  "Composition for jivi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

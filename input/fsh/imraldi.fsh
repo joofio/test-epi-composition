@@ -4,7 +4,7 @@ Instance: composition-en-ef587583f9868c465778255848bcb8dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for imraldi Package Leaflet"
 Description:  "Composition for imraldi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

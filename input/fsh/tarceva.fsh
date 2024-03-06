@@ -4,7 +4,7 @@ Instance: composition-en-749702afc7782cf3e72848a0a0ebc924
 InstanceOf: CompositionUvEpi
 Title: "Composition for tarceva Package Leaflet"
 Description:  "Composition for tarceva Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

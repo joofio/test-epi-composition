@@ -4,7 +4,7 @@ Instance: composition-en-9aa25859b3b911a1afa24fe9c429ab94
 InstanceOf: CompositionUvEpi
 Title: "Composition for revatio Package Leaflet"
 Description:  "Composition for revatio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

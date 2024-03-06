@@ -4,7 +4,7 @@ Instance: composition-en-0095f17772ab958f3f5be1c6c1d9bbac
 InstanceOf: CompositionUvEpi
 Title: "Composition for waylivra Package Leaflet"
 Description:  "Composition for waylivra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-524ff85a84e081511904d5b0500b5714
 InstanceOf: CompositionUvEpi
 Title: "Composition for tolucombi Package Leaflet"
 Description:  "Composition for tolucombi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

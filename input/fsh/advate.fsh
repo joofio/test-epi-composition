@@ -4,7 +4,7 @@ Instance: composition-en-3c5fecfadf023622829e4ed4e3f92507
 InstanceOf: CompositionUvEpi
 Title: "Composition for advate Package Leaflet"
 Description:  "Composition for advate Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

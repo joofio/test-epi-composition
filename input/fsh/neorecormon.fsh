@@ -4,7 +4,7 @@ Instance: composition-en-b49a3ab45641cdaf6bd8a0f7bc20385d
 InstanceOf: CompositionUvEpi
 Title: "Composition for neorecormon Package Leaflet"
 Description:  "Composition for neorecormon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

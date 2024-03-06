@@ -4,7 +4,7 @@ Instance: composition-en-f671edcc4f8d6bccb96aa87657eaa0a4
 InstanceOf: CompositionUvEpi
 Title: "Composition for lutathera Package Leaflet"
 Description:  "Composition for lutathera Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

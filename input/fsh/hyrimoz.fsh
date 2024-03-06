@@ -4,7 +4,7 @@ Instance: composition-en-d5e2325446e1313077f0f1d0c6c251e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyrimoz Package Leaflet"
 Description:  "Composition for hyrimoz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

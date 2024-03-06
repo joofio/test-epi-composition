@@ -4,7 +4,7 @@ Instance: composition-en-c6f251ac470345e2bc0f62b0b3ff2ff0
 InstanceOf: CompositionUvEpi
 Title: "Composition for mavenclad Package Leaflet"
 Description:  "Composition for mavenclad Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

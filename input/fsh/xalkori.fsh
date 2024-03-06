@@ -4,7 +4,7 @@ Instance: composition-en-1c9a12a6360cb16de82a801c02ba58e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for xalkori Package Leaflet"
 Description:  "Composition for xalkori Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

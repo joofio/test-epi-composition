@@ -4,7 +4,7 @@ Instance: composition-en-d321e28009e316a0922b3b06c7400fef
 InstanceOf: CompositionUvEpi
 Title: "Composition for ozempic Package Leaflet"
 Description:  "Composition for ozempic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

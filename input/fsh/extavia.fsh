@@ -4,7 +4,7 @@ Instance: composition-en-af957cdad64de8277859b4d268fc6099
 InstanceOf: CompositionUvEpi
 Title: "Composition for extavia Package Leaflet"
 Description:  "Composition for extavia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

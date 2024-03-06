@@ -4,7 +4,7 @@ Instance: composition-en-b33771d603196a4c6882e9a09cc14a10
 InstanceOf: CompositionUvEpi
 Title: "Composition for tamiflu Package Leaflet"
 Description:  "Composition for tamiflu Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

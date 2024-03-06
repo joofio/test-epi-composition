@@ -4,7 +4,7 @@ Instance: composition-en-72e43cd2bff034f1d9129ee8db99e248
 InstanceOf: CompositionUvEpi
 Title: "Composition for nutropinaq Package Leaflet"
 Description:  "Composition for nutropinaq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

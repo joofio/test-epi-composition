@@ -4,7 +4,7 @@ Instance: composition-en-27a52606a6d06c382d79e38520d58ce1
 InstanceOf: CompositionUvEpi
 Title: "Composition for ameluz Package Leaflet"
 Description:  "Composition for ameluz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

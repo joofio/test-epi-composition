@@ -4,7 +4,7 @@ Instance: composition-en-ec49b4d4d00d01c172d3e6e10425fa84
 InstanceOf: CompositionUvEpi
 Title: "Composition for nyxoid Package Leaflet"
 Description:  "Composition for nyxoid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

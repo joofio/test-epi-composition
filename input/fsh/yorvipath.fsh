@@ -4,7 +4,7 @@ Instance: composition-en-734207024d8a0ccf4fa37b0614084df6
 InstanceOf: CompositionUvEpi
 Title: "Composition for yorvipath Package Leaflet"
 Description:  "Composition for yorvipath Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

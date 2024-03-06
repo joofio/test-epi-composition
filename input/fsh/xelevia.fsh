@@ -4,7 +4,7 @@ Instance: composition-en-feeed9880dec4a6641451397ef875739
 InstanceOf: CompositionUvEpi
 Title: "Composition for xelevia Package Leaflet"
 Description:  "Composition for xelevia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

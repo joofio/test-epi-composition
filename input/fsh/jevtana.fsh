@@ -4,7 +4,7 @@ Instance: composition-en-9ca1435358d854c23437bf6b3ecabe6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for jevtana Package Leaflet"
 Description:  "Composition for jevtana Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

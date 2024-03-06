@@ -4,7 +4,7 @@ Instance: composition-en-2f63d459fa1a5400e15352b2552fb0ee
 InstanceOf: CompositionUvEpi
 Title: "Composition for lonsurf Package Leaflet"
 Description:  "Composition for lonsurf Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

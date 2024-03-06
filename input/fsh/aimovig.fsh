@@ -4,7 +4,7 @@ Instance: composition-en-27621dca9c70d4aa804aaf075667f6df
 InstanceOf: CompositionUvEpi
 Title: "Composition for aimovig Package Leaflet"
 Description:  "Composition for aimovig Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

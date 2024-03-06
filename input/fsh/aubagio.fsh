@@ -4,7 +4,7 @@ Instance: composition-en-69e7e3b7b762d214fbbb48c707c30105
 InstanceOf: CompositionUvEpi
 Title: "Composition for aubagio Package Leaflet"
 Description:  "Composition for aubagio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

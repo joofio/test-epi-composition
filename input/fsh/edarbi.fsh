@@ -4,7 +4,7 @@ Instance: composition-en-677da093025fb13fce454a07c6f80e9f
 InstanceOf: CompositionUvEpi
 Title: "Composition for edarbi Package Leaflet"
 Description:  "Composition for edarbi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

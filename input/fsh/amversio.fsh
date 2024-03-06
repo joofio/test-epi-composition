@@ -4,7 +4,7 @@ Instance: composition-en-273260896d94ba94b3498c0943f7a317
 InstanceOf: CompositionUvEpi
 Title: "Composition for amversio Package Leaflet"
 Description:  "Composition for amversio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

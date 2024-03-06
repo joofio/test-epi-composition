@@ -4,7 +4,7 @@ Instance: composition-en-cba1fe141abc835da1e9a47ec8c07d56
 InstanceOf: CompositionUvEpi
 Title: "Composition for delstrigo Package Leaflet"
 Description:  "Composition for delstrigo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

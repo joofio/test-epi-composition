@@ -4,7 +4,7 @@ Instance: composition-en-eea75696c0638bfef12b52e191d0d8ce
 InstanceOf: CompositionUvEpi
 Title: "Composition for amifampridine Package Leaflet"
 Description:  "Composition for amifampridine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

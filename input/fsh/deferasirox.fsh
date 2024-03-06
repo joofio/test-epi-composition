@@ -4,7 +4,7 @@ Instance: composition-en-a361de1944c94e68e8ec09dc10081b81
 InstanceOf: CompositionUvEpi
 Title: "Composition for deferasirox Package Leaflet"
 Description:  "Composition for deferasirox Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-02a1ba5129f4c436758a0bf386350823
 InstanceOf: CompositionUvEpi
 Title: "Composition for feraccru Package Leaflet"
 Description:  "Composition for feraccru Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

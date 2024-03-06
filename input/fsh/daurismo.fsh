@@ -4,7 +4,7 @@ Instance: composition-en-80c767f44d11e1fb968f6d85169c54f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for daurismo Package Leaflet"
 Description:  "Composition for daurismo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

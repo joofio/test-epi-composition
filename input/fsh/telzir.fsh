@@ -4,7 +4,7 @@ Instance: composition-en-ba3e374637fb155718fa93d3ee87150b
 InstanceOf: CompositionUvEpi
 Title: "Composition for telzir Package Leaflet"
 Description:  "Composition for telzir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

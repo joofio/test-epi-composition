@@ -4,7 +4,7 @@ Instance: composition-en-63388d6288bf341989180dcca08d726e
 InstanceOf: CompositionUvEpi
 Title: "Composition for bemfola Package Leaflet"
 Description:  "Composition for bemfola Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

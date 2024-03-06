@@ -4,7 +4,7 @@ Instance: composition-en-30e51ed12b82204a5177c9b68b9c4f09
 InstanceOf: CompositionUvEpi
 Title: "Composition for somac Package Leaflet"
 Description:  "Composition for somac Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

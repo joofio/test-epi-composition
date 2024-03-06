@@ -4,7 +4,7 @@ Instance: composition-en-19f088d0c7284b3f1b2eff5965fbb50a
 InstanceOf: CompositionUvEpi
 Title: "Composition for nemdatine Package Leaflet"
 Description:  "Composition for nemdatine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-f26848c5b2f5c977d1dab0f1db6d241e
 InstanceOf: CompositionUvEpi
 Title: "Composition for thiotepa Package Leaflet"
 Description:  "Composition for thiotepa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

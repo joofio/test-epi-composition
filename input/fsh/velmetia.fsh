@@ -4,7 +4,7 @@ Instance: composition-en-edc4bfe9d05712290f3c5ca9354f5cc8
 InstanceOf: CompositionUvEpi
 Title: "Composition for velmetia Package Leaflet"
 Description:  "Composition for velmetia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

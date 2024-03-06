@@ -4,7 +4,7 @@ Instance: composition-en-095ad71337cf86d5fe21eb3ee2e24f22
 InstanceOf: CompositionUvEpi
 Title: "Composition for bylvay Package Leaflet"
 Description:  "Composition for bylvay Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-2375351779f4cfe48aee447608551b6c
 InstanceOf: CompositionUvEpi
 Title: "Composition for dacogen Package Leaflet"
 Description:  "Composition for dacogen Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

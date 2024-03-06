@@ -4,7 +4,7 @@ Instance: composition-en-0d7ee15ee10dc2578a331f45f3babb36
 InstanceOf: CompositionUvEpi
 Title: "Composition for enspryng Package Leaflet"
 Description:  "Composition for enspryng Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

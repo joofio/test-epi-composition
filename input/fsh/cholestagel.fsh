@@ -4,7 +4,7 @@ Instance: composition-en-774fedb6c66b32bb4aacfa98a373a48f
 InstanceOf: CompositionUvEpi
 Title: "Composition for cholestagel Package Leaflet"
 Description:  "Composition for cholestagel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

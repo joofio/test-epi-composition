@@ -4,7 +4,7 @@ Instance: composition-en-adb285ae6cc2127432af23ed8e516722
 InstanceOf: CompositionUvEpi
 Title: "Composition for fulphila Package Leaflet"
 Description:  "Composition for fulphila Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-41d224cd3a7da19e9ef0d058f5098940
 InstanceOf: CompositionUvEpi
 Title: "Composition for fuzeon Package Leaflet"
 Description:  "Composition for fuzeon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

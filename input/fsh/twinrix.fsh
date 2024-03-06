@@ -4,7 +4,7 @@ Instance: composition-en-c3bcf9603926d754cd4924142c795340
 InstanceOf: CompositionUvEpi
 Title: "Composition for twinrix Package Leaflet"
 Description:  "Composition for twinrix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-fa53d03d2fac0e63ca1ebb6facc489ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for exparel Package Leaflet"
 Description:  "Composition for exparel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

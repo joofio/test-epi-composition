@@ -4,7 +4,7 @@ Instance: composition-en-6ad927719fc570edf8a72cacebe37a51
 InstanceOf: CompositionUvEpi
 Title: "Composition for prehevbri Package Leaflet"
 Description:  "Composition for prehevbri Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

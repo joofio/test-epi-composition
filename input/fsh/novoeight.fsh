@@ -4,7 +4,7 @@ Instance: composition-en-6a4906798bb720b77ad2e34e8f5369c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for novoeight Package Leaflet"
 Description:  "Composition for novoeight Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

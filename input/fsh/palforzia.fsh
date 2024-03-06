@@ -4,7 +4,7 @@ Instance: composition-en-2a5703f6da594e7a35f6df08af026e1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for palforzia Package Leaflet"
 Description:  "Composition for palforzia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-8ff5d67e0b7de732bda1082340f24212
 InstanceOf: CompositionUvEpi
 Title: "Composition for sotyktu Package Leaflet"
 Description:  "Composition for sotyktu Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

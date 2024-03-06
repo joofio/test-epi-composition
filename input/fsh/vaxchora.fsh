@@ -4,7 +4,7 @@ Instance: composition-en-6ae111423490277c4fbffcad4c0c9c2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxchora Package Leaflet"
 Description:  "Composition for vaxchora Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

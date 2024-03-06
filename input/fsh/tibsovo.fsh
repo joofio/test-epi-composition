@@ -4,7 +4,7 @@ Instance: composition-en-987aff669508e9ccbe676197e17e96d0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tibsovo Package Leaflet"
 Description:  "Composition for tibsovo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

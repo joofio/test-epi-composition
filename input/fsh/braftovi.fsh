@@ -4,7 +4,7 @@ Instance: composition-en-7345b00216838e90492587f6ecbdea1c
 InstanceOf: CompositionUvEpi
 Title: "Composition for braftovi Package Leaflet"
 Description:  "Composition for braftovi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

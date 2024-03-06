@@ -4,7 +4,7 @@ Instance: composition-en-11587ff1554abe28faf73fc5e54ae7a8
 InstanceOf: CompositionUvEpi
 Title: "Composition for ximluci Package Leaflet"
 Description:  "Composition for ximluci Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

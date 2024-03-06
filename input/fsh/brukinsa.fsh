@@ -4,7 +4,7 @@ Instance: composition-en-c2d0e28fbe1723337dab22fe407d0234
 InstanceOf: CompositionUvEpi
 Title: "Composition for brukinsa Package Leaflet"
 Description:  "Composition for brukinsa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

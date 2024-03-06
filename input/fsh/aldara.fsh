@@ -4,7 +4,7 @@ Instance: composition-en-fc79b24fd8d9aad3e2636eda8908eb2a
 InstanceOf: CompositionUvEpi
 Title: "Composition for aldara Package Leaflet"
 Description:  "Composition for aldara Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

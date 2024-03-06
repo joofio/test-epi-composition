@@ -4,7 +4,7 @@ Instance: composition-en-5df3251458790d2240f34b809fdcc93e
 InstanceOf: CompositionUvEpi
 Title: "Composition for aqumeldi Package Leaflet"
 Description:  "Composition for aqumeldi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

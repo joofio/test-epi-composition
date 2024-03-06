@@ -4,7 +4,7 @@ Instance: composition-en-5ece204fb467afd463b8fdf826e34a14
 InstanceOf: CompositionUvEpi
 Title: "Composition for xyrem Package Leaflet"
 Description:  "Composition for xyrem Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

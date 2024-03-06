@@ -4,7 +4,7 @@ Instance: composition-en-98293235ce75cd341e491c62f161e333
 InstanceOf: CompositionUvEpi
 Title: "Composition for tyverb Package Leaflet"
 Description:  "Composition for tyverb Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

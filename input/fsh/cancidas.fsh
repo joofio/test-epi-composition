@@ -4,7 +4,7 @@ Instance: composition-en-ad129f06143be4f32271a42d5b4c5f85
 InstanceOf: CompositionUvEpi
 Title: "Composition for cancidas Package Leaflet"
 Description:  "Composition for cancidas Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

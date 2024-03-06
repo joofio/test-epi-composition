@@ -4,7 +4,7 @@ Instance: composition-en-89cdfe19f5737b6901dd5d0e3ec0e165
 InstanceOf: CompositionUvEpi
 Title: "Composition for signifor Package Leaflet"
 Description:  "Composition for signifor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

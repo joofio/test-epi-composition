@@ -4,7 +4,7 @@ Instance: composition-en-632b0155f5b9a1f6be017b9ac8e3fbf1
 InstanceOf: CompositionUvEpi
 Title: "Composition for bosulif Package Leaflet"
 Description:  "Composition for bosulif Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

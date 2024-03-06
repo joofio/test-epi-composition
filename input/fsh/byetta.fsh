@@ -4,7 +4,7 @@ Instance: composition-en-9367ad7779ef7d59f46d4f6cb649b03e
 InstanceOf: CompositionUvEpi
 Title: "Composition for byetta Package Leaflet"
 Description:  "Composition for byetta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

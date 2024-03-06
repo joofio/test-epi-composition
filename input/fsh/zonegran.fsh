@@ -4,7 +4,7 @@ Instance: composition-en-5d598acaa06e1793f466dd362946add4
 InstanceOf: CompositionUvEpi
 Title: "Composition for zonegran Package Leaflet"
 Description:  "Composition for zonegran Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

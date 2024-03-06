@@ -4,7 +4,7 @@ Instance: composition-en-f39d85b5533e098d34a976dedd3b1e91
 InstanceOf: CompositionUvEpi
 Title: "Composition for ganirelix Package Leaflet"
 Description:  "Composition for ganirelix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

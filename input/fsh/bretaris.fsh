@@ -4,7 +4,7 @@ Instance: composition-en-54a021f4e4e92ada183e2df4eec44f64
 InstanceOf: CompositionUvEpi
 Title: "Composition for bretaris Package Leaflet"
 Description:  "Composition for bretaris Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

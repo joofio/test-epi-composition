@@ -4,7 +4,7 @@ Instance: composition-en-88027b29b9aee30b33b41e1a72006b30
 InstanceOf: CompositionUvEpi
 Title: "Composition for eviplera Package Leaflet"
 Description:  "Composition for eviplera Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

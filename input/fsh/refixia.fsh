@@ -4,7 +4,7 @@ Instance: composition-en-5777eb2944401c2b658d055d99fe5e6c
 InstanceOf: CompositionUvEpi
 Title: "Composition for refixia Package Leaflet"
 Description:  "Composition for refixia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

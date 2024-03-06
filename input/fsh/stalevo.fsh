@@ -4,7 +4,7 @@ Instance: composition-en-bdb3583748a144c4aaf24f2e42bc1ae4
 InstanceOf: CompositionUvEpi
 Title: "Composition for stalevo Package Leaflet"
 Description:  "Composition for stalevo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

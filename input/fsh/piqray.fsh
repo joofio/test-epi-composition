@@ -4,7 +4,7 @@ Instance: composition-en-6b73080af14d1aa8b030e2126902e0b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for piqray Package Leaflet"
 Description:  "Composition for piqray Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

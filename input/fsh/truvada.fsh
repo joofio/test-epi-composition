@@ -4,7 +4,7 @@ Instance: composition-en-6471e64aafea74720593633f2a0cd695
 InstanceOf: CompositionUvEpi
 Title: "Composition for truvada Package Leaflet"
 Description:  "Composition for truvada Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

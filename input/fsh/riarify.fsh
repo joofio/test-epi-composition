@@ -4,7 +4,7 @@ Instance: composition-en-0ab8cf0cd2257bee1916fb1bd19c98b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for riarify Package Leaflet"
 Description:  "Composition for riarify Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

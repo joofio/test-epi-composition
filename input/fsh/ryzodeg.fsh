@@ -4,7 +4,7 @@ Instance: composition-en-47f74762e12054bd07cc18f7f2dc9dfb
 InstanceOf: CompositionUvEpi
 Title: "Composition for ryzodeg Package Leaflet"
 Description:  "Composition for ryzodeg Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

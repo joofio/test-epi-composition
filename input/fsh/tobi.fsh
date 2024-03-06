@@ -4,7 +4,7 @@ Instance: composition-en-e0dd692dcb560bc04bfa1cbfaca9ecff
 InstanceOf: CompositionUvEpi
 Title: "Composition for tobi Package Leaflet"
 Description:  "Composition for tobi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-0d94803bc9c6a74df09f017a447745b8
 InstanceOf: CompositionUvEpi
 Title: "Composition for fintepla Package Leaflet"
 Description:  "Composition for fintepla Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

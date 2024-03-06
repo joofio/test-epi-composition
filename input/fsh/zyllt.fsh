@@ -4,7 +4,7 @@ Instance: composition-en-3309175bd74a8d4a368db89c295b9d95
 InstanceOf: CompositionUvEpi
 Title: "Composition for zyllt Package Leaflet"
 Description:  "Composition for zyllt Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

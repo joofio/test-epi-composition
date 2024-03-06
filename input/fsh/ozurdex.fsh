@@ -4,7 +4,7 @@ Instance: composition-en-5535a1058c02154998e04426c8620587
 InstanceOf: CompositionUvEpi
 Title: "Composition for ozurdex Package Leaflet"
 Description:  "Composition for ozurdex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

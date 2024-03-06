@@ -4,7 +4,7 @@ Instance: composition-en-d5d0f8dae3251797998b53d83d0b35fa
 InstanceOf: CompositionUvEpi
 Title: "Composition for lyfnua Package Leaflet"
 Description:  "Composition for lyfnua Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

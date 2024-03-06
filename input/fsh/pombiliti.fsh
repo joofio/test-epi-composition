@@ -4,7 +4,7 @@ Instance: composition-en-639cce8c495cbcbb29789688f0c06663
 InstanceOf: CompositionUvEpi
 Title: "Composition for pombiliti Package Leaflet"
 Description:  "Composition for pombiliti Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-27ec6b1f73b141fda5344cc71ceec655
 InstanceOf: CompositionUvEpi
 Title: "Composition for trodelvy Package Leaflet"
 Description:  "Composition for trodelvy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-beff2655528d75e602c405816fbf6082
 InstanceOf: CompositionUvEpi
 Title: "Composition for novoseven Package Leaflet"
 Description:  "Composition for novoseven Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

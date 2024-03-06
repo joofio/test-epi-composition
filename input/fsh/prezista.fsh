@@ -4,7 +4,7 @@ Instance: composition-en-c73255ba16f112f8e9f93b50083ae06f
 InstanceOf: CompositionUvEpi
 Title: "Composition for prezista Package Leaflet"
 Description:  "Composition for prezista Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

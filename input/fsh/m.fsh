@@ -4,7 +4,7 @@ Instance: composition-en-6f8f57715090da2632453988d9a1501b
 InstanceOf: CompositionUvEpi
 Title: "Composition for m Package Leaflet"
 Description:  "Composition for m Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

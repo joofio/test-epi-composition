@@ -4,7 +4,7 @@ Instance: composition-en-d14c5d7dea1d2e7785c6d37dbbff6788
 InstanceOf: CompositionUvEpi
 Title: "Composition for orphacol Package Leaflet"
 Description:  "Composition for orphacol Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

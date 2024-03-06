@@ -4,7 +4,7 @@ Instance: composition-en-fd0c928ba69b44963057ba928ecaf5ac
 InstanceOf: CompositionUvEpi
 Title: "Composition for onpattro Package Leaflet"
 Description:  "Composition for onpattro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

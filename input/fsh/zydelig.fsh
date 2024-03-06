@@ -4,7 +4,7 @@ Instance: composition-en-702c9d84bc860bda988d99979df3de81
 InstanceOf: CompositionUvEpi
 Title: "Composition for zydelig Package Leaflet"
 Description:  "Composition for zydelig Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

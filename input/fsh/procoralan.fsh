@@ -4,7 +4,7 @@ Instance: composition-en-79284ae9650b8005359d0f56c68b8ad4
 InstanceOf: CompositionUvEpi
 Title: "Composition for procoralan Package Leaflet"
 Description:  "Composition for procoralan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

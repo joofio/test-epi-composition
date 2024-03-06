@@ -4,7 +4,7 @@ Instance: composition-en-488e3aaf4c4053ed6d0b296da5f0f508
 InstanceOf: CompositionUvEpi
 Title: "Composition for erivedge Package Leaflet"
 Description:  "Composition for erivedge Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

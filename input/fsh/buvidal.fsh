@@ -4,7 +4,7 @@ Instance: composition-en-65c3d51a8623ae84242075e46df738cd
 InstanceOf: CompositionUvEpi
 Title: "Composition for buvidal Package Leaflet"
 Description:  "Composition for buvidal Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

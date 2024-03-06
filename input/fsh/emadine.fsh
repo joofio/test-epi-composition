@@ -4,7 +4,7 @@ Instance: composition-en-bf83463883d97743be055a0192c94a53
 InstanceOf: CompositionUvEpi
 Title: "Composition for emadine Package Leaflet"
 Description:  "Composition for emadine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

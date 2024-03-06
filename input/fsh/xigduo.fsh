@@ -4,7 +4,7 @@ Instance: composition-en-ffe3f48f1c6e032b0eea8f43920778fb
 InstanceOf: CompositionUvEpi
 Title: "Composition for xigduo Package Leaflet"
 Description:  "Composition for xigduo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

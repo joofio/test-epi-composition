@@ -4,7 +4,7 @@ Instance: composition-en-7d70fe375a5923a60727e1f723f93cda
 InstanceOf: CompositionUvEpi
 Title: "Composition for talmanco Package Leaflet"
 Description:  "Composition for talmanco Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

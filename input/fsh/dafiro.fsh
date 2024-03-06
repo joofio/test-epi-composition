@@ -4,7 +4,7 @@ Instance: composition-en-3b3e934500294234d1df16dd589129e1
 InstanceOf: CompositionUvEpi
 Title: "Composition for dafiro Package Leaflet"
 Description:  "Composition for dafiro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-5f5520731112fb64f951c68ff27de8db
 InstanceOf: CompositionUvEpi
 Title: "Composition for pecfent Package Leaflet"
 Description:  "Composition for pecfent Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

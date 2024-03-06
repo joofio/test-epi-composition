@@ -4,7 +4,7 @@ Instance: composition-en-695d88815041ea7bd60c45e1ac4b79d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for keytruda Package Leaflet"
 Description:  "Composition for keytruda Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

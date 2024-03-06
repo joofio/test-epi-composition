@@ -4,7 +4,7 @@ Instance: composition-en-9c57e69f60995207b09a78762e7a972a
 InstanceOf: CompositionUvEpi
 Title: "Composition for vimpat Package Leaflet"
 Description:  "Composition for vimpat Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

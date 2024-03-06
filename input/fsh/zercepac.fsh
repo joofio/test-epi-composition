@@ -4,7 +4,7 @@ Instance: composition-en-d81ab7604a6a988f432c98de75044e82
 InstanceOf: CompositionUvEpi
 Title: "Composition for zercepac Package Leaflet"
 Description:  "Composition for zercepac Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-8e3bfdaa73d1dfe2a558d763f021c01e
 InstanceOf: CompositionUvEpi
 Title: "Composition for tepkinly Package Leaflet"
 Description:  "Composition for tepkinly Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

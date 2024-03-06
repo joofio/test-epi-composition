@@ -4,7 +4,7 @@ Instance: composition-en-bbb526e801230c1471e1f7a100d25aa3
 InstanceOf: CompositionUvEpi
 Title: "Composition for thyrogen Package Leaflet"
 Description:  "Composition for thyrogen Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

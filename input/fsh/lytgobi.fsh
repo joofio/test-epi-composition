@@ -4,7 +4,7 @@ Instance: composition-en-dbc2060ee6f62aba124d52b5666f8915
 InstanceOf: CompositionUvEpi
 Title: "Composition for lytgobi Package Leaflet"
 Description:  "Composition for lytgobi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

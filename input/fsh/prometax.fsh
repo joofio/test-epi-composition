@@ -4,7 +4,7 @@ Instance: composition-en-78ea274f37edfa196d1a7ba45e31f4e3
 InstanceOf: CompositionUvEpi
 Title: "Composition for prometax Package Leaflet"
 Description:  "Composition for prometax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

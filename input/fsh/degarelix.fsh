@@ -4,7 +4,7 @@ Instance: composition-en-f812f9eb1d2ca77fff87e615574ce4dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for degarelix Package Leaflet"
 Description:  "Composition for degarelix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

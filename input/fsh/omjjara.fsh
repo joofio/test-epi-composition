@@ -4,7 +4,7 @@ Instance: composition-en-951d8a8dc27e4bf24952f3a016066e45
 InstanceOf: CompositionUvEpi
 Title: "Composition for omjjara Package Leaflet"
 Description:  "Composition for omjjara Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

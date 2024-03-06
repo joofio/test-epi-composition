@@ -4,7 +4,7 @@ Instance: composition-en-0033e02023c8b1bd6906c2cf5f7b744d
 InstanceOf: CompositionUvEpi
 Title: "Composition for breyanzi Package Leaflet"
 Description:  "Composition for breyanzi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

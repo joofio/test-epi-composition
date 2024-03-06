@@ -4,7 +4,7 @@ Instance: composition-en-9d6bde1dfdbe6ae73a503b7573b2e412
 InstanceOf: CompositionUvEpi
 Title: "Composition for entacapone Package Leaflet"
 Description:  "Composition for entacapone Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

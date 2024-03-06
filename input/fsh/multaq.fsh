@@ -4,7 +4,7 @@ Instance: composition-en-e920daef4740e3503bcd6e771765f8e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for multaq Package Leaflet"
 Description:  "Composition for multaq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

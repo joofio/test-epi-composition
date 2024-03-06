@@ -4,7 +4,7 @@ Instance: composition-en-28bc9e8680cc0c55edc2ed45f832ee0d
 InstanceOf: CompositionUvEpi
 Title: "Composition for tasmar Package Leaflet"
 Description:  "Composition for tasmar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

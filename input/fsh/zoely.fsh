@@ -4,7 +4,7 @@ Instance: composition-en-03f98a1996ed57d7e15b1f1c7ae087d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for zoely Package Leaflet"
 Description:  "Composition for zoely Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

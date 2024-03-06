@@ -4,7 +4,7 @@ Instance: composition-en-28443e1a5133f6583423ca208758fe45
 InstanceOf: CompositionUvEpi
 Title: "Composition for gliolan Package Leaflet"
 Description:  "Composition for gliolan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

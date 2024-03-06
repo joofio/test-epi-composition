@@ -4,7 +4,7 @@ Instance: composition-en-1ab1f974f728f0d2d09ca9306f1ffe2d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rimmyrah Package Leaflet"
 Description:  "Composition for rimmyrah Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

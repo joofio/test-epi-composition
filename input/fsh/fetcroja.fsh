@@ -4,7 +4,7 @@ Instance: composition-en-9ee730c459b673b45a06e6d549d78513
 InstanceOf: CompositionUvEpi
 Title: "Composition for fetcroja Package Leaflet"
 Description:  "Composition for fetcroja Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

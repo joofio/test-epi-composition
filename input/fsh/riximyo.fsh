@@ -4,7 +4,7 @@ Instance: composition-en-496dabc84021ffaf219deb764d02458d
 InstanceOf: CompositionUvEpi
 Title: "Composition for riximyo Package Leaflet"
 Description:  "Composition for riximyo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

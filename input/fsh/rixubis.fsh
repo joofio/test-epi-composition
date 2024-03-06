@@ -4,7 +4,7 @@ Instance: composition-en-efe0db2f668263967f135ff38dffab9d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rixubis Package Leaflet"
 Description:  "Composition for rixubis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-2e049de7151091e592b9a474ff9a66cf
 InstanceOf: CompositionUvEpi
 Title: "Composition for komboglyze Package Leaflet"
 Description:  "Composition for komboglyze Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

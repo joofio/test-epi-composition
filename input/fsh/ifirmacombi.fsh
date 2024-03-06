@@ -4,7 +4,7 @@ Instance: composition-en-12999fc304ebe011ca5072982dc85b85
 InstanceOf: CompositionUvEpi
 Title: "Composition for ifirmacombi Package Leaflet"
 Description:  "Composition for ifirmacombi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

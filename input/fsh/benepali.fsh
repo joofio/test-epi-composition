@@ -4,7 +4,7 @@ Instance: composition-en-c5a54b11d8107e662bc760b43da975c8
 InstanceOf: CompositionUvEpi
 Title: "Composition for benepali Package Leaflet"
 Description:  "Composition for benepali Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-b0ec338c010ecf0f95bd7dc099830384
 InstanceOf: CompositionUvEpi
 Title: "Composition for invokana Package Leaflet"
 Description:  "Composition for invokana Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-029daacbd89e23b3c2659a90ebac249a
 InstanceOf: CompositionUvEpi
 Title: "Composition for revlimid Package Leaflet"
 Description:  "Composition for revlimid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

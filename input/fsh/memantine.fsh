@@ -4,7 +4,7 @@ Instance: composition-en-78817b35263746b79687cd6c5a122f9f
 InstanceOf: CompositionUvEpi
 Title: "Composition for memantine Package Leaflet"
 Description:  "Composition for memantine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

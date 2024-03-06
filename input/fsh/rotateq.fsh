@@ -4,7 +4,7 @@ Instance: composition-en-ef95b389907181c6a50441289b7e7a0a
 InstanceOf: CompositionUvEpi
 Title: "Composition for rotateq Package Leaflet"
 Description:  "Composition for rotateq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

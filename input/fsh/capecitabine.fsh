@@ -4,7 +4,7 @@ Instance: composition-en-98dff93ef4eecdfe1514d96f0f89664a
 InstanceOf: CompositionUvEpi
 Title: "Composition for capecitabine Package Leaflet"
 Description:  "Composition for capecitabine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

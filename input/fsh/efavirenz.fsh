@@ -4,7 +4,7 @@ Instance: composition-en-f9db4716a8c7e3db3f37b741c69dca3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for efavirenz Package Leaflet"
 Description:  "Composition for efavirenz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-f54f2e739aebe7aea194141a7163df7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for kinzalkomb Package Leaflet"
 Description:  "Composition for kinzalkomb Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

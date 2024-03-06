@@ -4,7 +4,7 @@ Instance: composition-en-e32af5235bc449e932db46935c53460a
 InstanceOf: CompositionUvEpi
 Title: "Composition for kineret Package Leaflet"
 Description:  "Composition for kineret Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

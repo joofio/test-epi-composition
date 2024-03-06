@@ -4,7 +4,7 @@ Instance: composition-en-9648a8c3d3b260e0c01496efb4b0ef56
 InstanceOf: CompositionUvEpi
 Title: "Composition for vosevi Package Leaflet"
 Description:  "Composition for vosevi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

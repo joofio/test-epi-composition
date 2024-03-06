@@ -4,7 +4,7 @@ Instance: composition-en-9ef90a3b084c8b791046c3e0616188b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for sprycel Package Leaflet"
 Description:  "Composition for sprycel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

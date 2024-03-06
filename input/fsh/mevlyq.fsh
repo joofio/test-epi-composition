@@ -4,7 +4,7 @@ Instance: composition-en-72698f459e623b86f3f80561e5b525b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for mevlyq Package Leaflet"
 Description:  "Composition for mevlyq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

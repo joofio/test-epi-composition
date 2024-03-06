@@ -4,7 +4,7 @@ Instance: composition-en-1cf3225341c0e6fa2558014a933b7feb
 InstanceOf: CompositionUvEpi
 Title: "Composition for hefiya Package Leaflet"
 Description:  "Composition for hefiya Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-8d69d820c695d3ae73c4c08229874072
 InstanceOf: CompositionUvEpi
 Title: "Composition for accofil Package Leaflet"
 Description:  "Composition for accofil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

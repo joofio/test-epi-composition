@@ -4,7 +4,7 @@ Instance: composition-en-f364d278d54ddbe0f130b25e10418f63
 InstanceOf: CompositionUvEpi
 Title: "Composition for celsunax Package Leaflet"
 Description:  "Composition for celsunax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

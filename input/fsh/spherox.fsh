@@ -4,7 +4,7 @@ Instance: composition-en-c8b09940edf0aa917a934cf86ca85bbd
 InstanceOf: CompositionUvEpi
 Title: "Composition for spherox Package Leaflet"
 Description:  "Composition for spherox Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-0e210569ec71496664e40726e162d3a0
 InstanceOf: CompositionUvEpi
 Title: "Composition for fabrazyme Package Leaflet"
 Description:  "Composition for fabrazyme Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

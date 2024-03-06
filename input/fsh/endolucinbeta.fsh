@@ -4,7 +4,7 @@ Instance: composition-en-69ec9f0e9f354651ce97ae4316b8e482
 InstanceOf: CompositionUvEpi
 Title: "Composition for endolucinbeta Package Leaflet"
 Description:  "Composition for endolucinbeta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

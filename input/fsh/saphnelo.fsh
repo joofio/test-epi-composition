@@ -4,7 +4,7 @@ Instance: composition-en-44b9456eb2913b31231c4ec15c3a0e75
 InstanceOf: CompositionUvEpi
 Title: "Composition for saphnelo Package Leaflet"
 Description:  "Composition for saphnelo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-72e5f5398f762b4570a837b92d9db036
 InstanceOf: CompositionUvEpi
 Title: "Composition for viramune Package Leaflet"
 Description:  "Composition for viramune Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

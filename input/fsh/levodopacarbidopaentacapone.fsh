@@ -4,7 +4,7 @@ Instance: composition-en-d95102bde9e6478e73d009f96eccf149
 InstanceOf: CompositionUvEpi
 Title: "Composition for levodopacarbidopaentacapone Package Leaflet"
 Description:  "Composition for levodopacarbidopaentacapone Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

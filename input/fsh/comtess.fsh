@@ -4,7 +4,7 @@ Instance: composition-en-faa7baf422434e913a351146a7b6b220
 InstanceOf: CompositionUvEpi
 Title: "Composition for comtess Package Leaflet"
 Description:  "Composition for comtess Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

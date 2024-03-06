@@ -4,7 +4,7 @@ Instance: composition-en-be5ceff4154e41596bab87f1698ba47a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tabrecta Package Leaflet"
 Description:  "Composition for tabrecta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

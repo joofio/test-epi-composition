@@ -4,7 +4,7 @@ Instance: composition-en-b3a7e562e5ab08730073fe4737f50e1b
 InstanceOf: CompositionUvEpi
 Title: "Composition for inomax Package Leaflet"
 Description:  "Composition for inomax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

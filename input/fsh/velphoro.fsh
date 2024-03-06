@@ -4,7 +4,7 @@ Instance: composition-en-655cd017d0250a5b169d71fd018fd71c
 InstanceOf: CompositionUvEpi
 Title: "Composition for velphoro Package Leaflet"
 Description:  "Composition for velphoro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

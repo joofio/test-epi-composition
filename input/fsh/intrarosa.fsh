@@ -4,7 +4,7 @@ Instance: composition-en-d6b5caeb3aecc6a916b0a10e40227ee2
 InstanceOf: CompositionUvEpi
 Title: "Composition for intrarosa Package Leaflet"
 Description:  "Composition for intrarosa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

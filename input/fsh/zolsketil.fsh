@@ -4,7 +4,7 @@ Instance: composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1
 InstanceOf: CompositionUvEpi
 Title: "Composition for zolsketil Package Leaflet"
 Description:  "Composition for zolsketil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-1f037c7eeed99a83d34b7e97df29f3bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for faslodex Package Leaflet"
 Description:  "Composition for faslodex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

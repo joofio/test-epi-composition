@@ -4,7 +4,7 @@ Instance: composition-en-2b99aad8ae1cf49fbba781db638512ee
 InstanceOf: CompositionUvEpi
 Title: "Composition for dabigatran Package Leaflet"
 Description:  "Composition for dabigatran Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

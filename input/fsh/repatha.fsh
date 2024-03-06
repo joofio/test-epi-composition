@@ -4,7 +4,7 @@ Instance: composition-en-d26b9a973cbe92133eca8ac4cab69c79
 InstanceOf: CompositionUvEpi
 Title: "Composition for repatha Package Leaflet"
 Description:  "Composition for repatha Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

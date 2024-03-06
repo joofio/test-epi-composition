@@ -4,7 +4,7 @@ Instance: composition-en-9783bb619d590edd01b19075a96dfce9
 InstanceOf: CompositionUvEpi
 Title: "Composition for rivaroxaban Package Leaflet"
 Description:  "Composition for rivaroxaban Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

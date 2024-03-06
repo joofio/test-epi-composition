@@ -4,7 +4,7 @@ Instance: composition-en-214e72709936235d4c7554be3fb82817
 InstanceOf: CompositionUvEpi
 Title: "Composition for oncaspar Package Leaflet"
 Description:  "Composition for oncaspar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

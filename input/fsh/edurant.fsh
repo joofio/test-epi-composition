@@ -4,7 +4,7 @@ Instance: composition-en-9601a69cc77fa33a3d0e2e4ba9d747e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for edurant Package Leaflet"
 Description:  "Composition for edurant Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-929afcdc432ad136a892cea5e12c839f
 InstanceOf: CompositionUvEpi
 Title: "Composition for kivexa Package Leaflet"
 Description:  "Composition for kivexa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

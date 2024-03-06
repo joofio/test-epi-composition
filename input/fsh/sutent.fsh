@@ -4,7 +4,7 @@ Instance: composition-en-a3cd214d19f3341c3aa081ac17f909d1
 InstanceOf: CompositionUvEpi
 Title: "Composition for sutent Package Leaflet"
 Description:  "Composition for sutent Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

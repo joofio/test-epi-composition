@@ -4,7 +4,7 @@ Instance: composition-en-315c315768d5cbbf6fd09d8201064f37
 InstanceOf: CompositionUvEpi
 Title: "Composition for kaletra Package Leaflet"
 Description:  "Composition for kaletra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

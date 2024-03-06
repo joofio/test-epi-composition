@@ -4,7 +4,7 @@ Instance: composition-en-1fbb86a1ee3583c2169c9930c1d58b96
 InstanceOf: CompositionUvEpi
 Title: "Composition for nuceiva Package Leaflet"
 Description:  "Composition for nuceiva Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

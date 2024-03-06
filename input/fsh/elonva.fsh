@@ -4,7 +4,7 @@ Instance: composition-en-893c628829d99b9262496b31c3e0ec71
 InstanceOf: CompositionUvEpi
 Title: "Composition for elonva Package Leaflet"
 Description:  "Composition for elonva Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

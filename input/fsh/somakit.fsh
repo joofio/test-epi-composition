@@ -4,7 +4,7 @@ Instance: composition-en-188afbad7741da761c6e6e81c9577944
 InstanceOf: CompositionUvEpi
 Title: "Composition for somakit Package Leaflet"
 Description:  "Composition for somakit Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-83c6c3334f07b6c02aea88893af34509
 InstanceOf: CompositionUvEpi
 Title: "Composition for vargatef Package Leaflet"
 Description:  "Composition for vargatef Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

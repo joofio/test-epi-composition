@@ -4,7 +4,7 @@ Instance: composition-en-c69b74a6bb42f26caea2acbf89949208
 InstanceOf: CompositionUvEpi
 Title: "Composition for trajenta Package Leaflet"
 Description:  "Composition for trajenta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

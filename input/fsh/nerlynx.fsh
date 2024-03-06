@@ -4,7 +4,7 @@ Instance: composition-en-4106f4a5a4b46a8c1fb9847b0f08bced
 InstanceOf: CompositionUvEpi
 Title: "Composition for nerlynx Package Leaflet"
 Description:  "Composition for nerlynx Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

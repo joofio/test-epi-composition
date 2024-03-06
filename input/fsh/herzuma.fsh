@@ -4,7 +4,7 @@ Instance: composition-en-27988b0cf49e927966de441ec0585e46
 InstanceOf: CompositionUvEpi
 Title: "Composition for herzuma Package Leaflet"
 Description:  "Composition for herzuma Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

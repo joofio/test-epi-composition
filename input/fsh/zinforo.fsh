@@ -4,7 +4,7 @@ Instance: composition-en-c4b0ba45aee41dd9d8f44191fabb5777
 InstanceOf: CompositionUvEpi
 Title: "Composition for zinforo Package Leaflet"
 Description:  "Composition for zinforo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

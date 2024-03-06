@@ -4,7 +4,7 @@ Instance: composition-en-3a9654600038065be97872118fe138c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for lucentis Package Leaflet"
 Description:  "Composition for lucentis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

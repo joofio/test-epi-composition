@@ -4,7 +4,7 @@ Instance: composition-en-8f194b3a85e80bebf07798b496672e52
 InstanceOf: CompositionUvEpi
 Title: "Composition for hbvaxpro Package Leaflet"
 Description:  "Composition for hbvaxpro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

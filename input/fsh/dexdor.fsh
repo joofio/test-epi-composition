@@ -4,7 +4,7 @@ Instance: composition-en-9875a9482c2e354f3a12ea545ebc4f3b
 InstanceOf: CompositionUvEpi
 Title: "Composition for dexdor Package Leaflet"
 Description:  "Composition for dexdor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-2a76f37ef539585b5462eb33582e394e
 InstanceOf: CompositionUvEpi
 Title: "Composition for fluenz Package Leaflet"
 Description:  "Composition for fluenz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

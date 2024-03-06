@@ -4,7 +4,7 @@ Instance: composition-en-9a5ac6d518a24ab2e0257a8b57ce793b
 InstanceOf: CompositionUvEpi
 Title: "Composition for raxone Package Leaflet"
 Description:  "Composition for raxone Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-6ca82242cc83367d005ce7bfab740b2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for duoplavin Package Leaflet"
 Description:  "Composition for duoplavin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

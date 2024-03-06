@@ -4,7 +4,7 @@ Instance: composition-en-978d72e82d57ccff87c0092a9ef8cb69
 InstanceOf: CompositionUvEpi
 Title: "Composition for symtuza Package Leaflet"
 Description:  "Composition for symtuza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

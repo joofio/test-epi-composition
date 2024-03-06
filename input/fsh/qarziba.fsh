@@ -4,7 +4,7 @@ Instance: composition-en-e8b67f07b418969c3e83d3aef06331ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for qarziba Package Leaflet"
 Description:  "Composition for qarziba Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

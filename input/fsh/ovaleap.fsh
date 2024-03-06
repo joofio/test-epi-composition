@@ -4,7 +4,7 @@ Instance: composition-en-c2b885df39c538ef6cd9dc7a6e1945aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for ovaleap Package Leaflet"
 Description:  "Composition for ovaleap Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

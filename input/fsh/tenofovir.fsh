@@ -4,7 +4,7 @@ Instance: composition-en-ce72f1be560e316230a31ee766305b8e
 InstanceOf: CompositionUvEpi
 Title: "Composition for tenofovir Package Leaflet"
 Description:  "Composition for tenofovir Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

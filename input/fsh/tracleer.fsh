@@ -4,7 +4,7 @@ Instance: composition-en-26b16d8f26d3d427e9f7f7a1372c2641
 InstanceOf: CompositionUvEpi
 Title: "Composition for tracleer Package Leaflet"
 Description:  "Composition for tracleer Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-3897ae464fed2d09fdccd118642cb036
 InstanceOf: CompositionUvEpi
 Title: "Composition for jardiance Package Leaflet"
 Description:  "Composition for jardiance Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

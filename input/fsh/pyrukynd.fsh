@@ -4,7 +4,7 @@ Instance: composition-en-c4042d3fb4af6b1a99be10ddedae7598
 InstanceOf: CompositionUvEpi
 Title: "Composition for pyrukynd Package Leaflet"
 Description:  "Composition for pyrukynd Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

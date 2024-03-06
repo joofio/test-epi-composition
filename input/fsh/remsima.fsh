@@ -4,7 +4,7 @@ Instance: composition-en-c29ba23bb04c16ab758f150fe41d6513
 InstanceOf: CompositionUvEpi
 Title: "Composition for remsima Package Leaflet"
 Description:  "Composition for remsima Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

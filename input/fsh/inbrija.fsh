@@ -4,7 +4,7 @@ Instance: composition-en-09457b67378eccc379f945623f721bcb
 InstanceOf: CompositionUvEpi
 Title: "Composition for inbrija Package Leaflet"
 Description:  "Composition for inbrija Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

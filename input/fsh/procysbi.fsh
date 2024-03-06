@@ -4,7 +4,7 @@ Instance: composition-en-8fe556bb25526e379f33fd00eb2af422
 InstanceOf: CompositionUvEpi
 Title: "Composition for procysbi Package Leaflet"
 Description:  "Composition for procysbi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

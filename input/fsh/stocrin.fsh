@@ -4,7 +4,7 @@ Instance: composition-en-a192389a9068e61de77d4f090e108cd6
 InstanceOf: CompositionUvEpi
 Title: "Composition for stocrin Package Leaflet"
 Description:  "Composition for stocrin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

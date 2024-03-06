@@ -4,7 +4,7 @@ Instance: composition-en-dc231a8d527554079b48b6c9ff637f0d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebvallo Package Leaflet"
 Description:  "Composition for ebvallo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

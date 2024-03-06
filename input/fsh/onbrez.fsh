@@ -4,7 +4,7 @@ Instance: composition-en-5a85179f4445f6400b4f1fbf3a650302
 InstanceOf: CompositionUvEpi
 Title: "Composition for onbrez Package Leaflet"
 Description:  "Composition for onbrez Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

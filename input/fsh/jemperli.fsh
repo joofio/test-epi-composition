@@ -4,7 +4,7 @@ Instance: composition-en-d03e5fa52b6e02a038d1625a63e785b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for jemperli Package Leaflet"
 Description:  "Composition for jemperli Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-d585d8fe14b9492a241ac7bacfd89f6d
 InstanceOf: CompositionUvEpi
 Title: "Composition for opdivo Package Leaflet"
 Description:  "Composition for opdivo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

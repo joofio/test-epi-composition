@@ -4,7 +4,7 @@ Instance: composition-en-eb1bff8909fbce324e442418d542373f
 InstanceOf: CompositionUvEpi
 Title: "Composition for epysqli Package Leaflet"
 Description:  "Composition for epysqli Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

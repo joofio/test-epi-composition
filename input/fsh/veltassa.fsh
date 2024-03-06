@@ -4,7 +4,7 @@ Instance: composition-en-da0c248904d382a9eb3bce64c5a02953
 InstanceOf: CompositionUvEpi
 Title: "Composition for veltassa Package Leaflet"
 Description:  "Composition for veltassa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

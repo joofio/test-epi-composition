@@ -4,7 +4,7 @@ Instance: composition-en-f69e07644f479bf7649f8c501a410e55
 InstanceOf: CompositionUvEpi
 Title: "Composition for talvey Package Leaflet"
 Description:  "Composition for talvey Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

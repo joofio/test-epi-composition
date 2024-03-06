@@ -4,7 +4,7 @@ Instance: composition-en-3063ae54c8b95c21a8b236c970f9eb21
 InstanceOf: CompositionUvEpi
 Title: "Composition for ogivri Package Leaflet"
 Description:  "Composition for ogivri Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

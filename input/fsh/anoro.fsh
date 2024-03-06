@@ -4,7 +4,7 @@ Instance: composition-en-7eebcc5370e576e4703db784c7ade61f
 InstanceOf: CompositionUvEpi
 Title: "Composition for anoro Package Leaflet"
 Description:  "Composition for anoro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

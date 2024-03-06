@@ -4,7 +4,7 @@ Instance: composition-en-d0b40c63b26d00d8cd281b17148dcf97
 InstanceOf: CompositionUvEpi
 Title: "Composition for vipidia Package Leaflet"
 Description:  "Composition for vipidia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

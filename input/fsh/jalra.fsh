@@ -4,7 +4,7 @@ Instance: composition-en-354a12a26a634d20a9056857238f1e23
 InstanceOf: CompositionUvEpi
 Title: "Composition for jalra Package Leaflet"
 Description:  "Composition for jalra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

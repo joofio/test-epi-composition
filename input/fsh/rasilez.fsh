@@ -4,7 +4,7 @@ Instance: composition-en-5723af3498c13864107ed05f36f04f5d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rasilez Package Leaflet"
 Description:  "Composition for rasilez Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

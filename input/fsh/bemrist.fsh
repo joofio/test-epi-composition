@@ -4,7 +4,7 @@ Instance: composition-en-9db019f3edad8960f5fba7c073300e2b
 InstanceOf: CompositionUvEpi
 Title: "Composition for bemrist Package Leaflet"
 Description:  "Composition for bemrist Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

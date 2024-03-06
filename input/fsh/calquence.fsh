@@ -4,7 +4,7 @@ Instance: composition-en-515ad355eee6410eab8e10f3744bb3f9
 InstanceOf: CompositionUvEpi
 Title: "Composition for calquence Package Leaflet"
 Description:  "Composition for calquence Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

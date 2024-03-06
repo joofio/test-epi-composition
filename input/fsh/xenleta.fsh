@@ -4,7 +4,7 @@ Instance: composition-en-962167f0883d517c612253bd6d108856
 InstanceOf: CompositionUvEpi
 Title: "Composition for xenleta Package Leaflet"
 Description:  "Composition for xenleta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

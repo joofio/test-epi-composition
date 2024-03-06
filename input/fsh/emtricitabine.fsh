@@ -4,7 +4,7 @@ Instance: composition-en-7eea12adb97ff7cb073c678b4544c722
 InstanceOf: CompositionUvEpi
 Title: "Composition for emtricitabine Package Leaflet"
 Description:  "Composition for emtricitabine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

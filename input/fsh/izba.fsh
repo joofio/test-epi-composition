@@ -4,7 +4,7 @@ Instance: composition-en-ded378039327f28c36307d251503f7d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for izba Package Leaflet"
 Description:  "Composition for izba Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

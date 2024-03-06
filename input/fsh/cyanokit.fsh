@@ -4,7 +4,7 @@ Instance: composition-en-58c65c2882289cd285f1ea0608d4e9f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for cyanokit Package Leaflet"
 Description:  "Composition for cyanokit Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

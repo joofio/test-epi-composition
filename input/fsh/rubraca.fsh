@@ -4,7 +4,7 @@ Instance: composition-en-9d9c8b92be64dfdc684568f33262fbab
 InstanceOf: CompositionUvEpi
 Title: "Composition for rubraca Package Leaflet"
 Description:  "Composition for rubraca Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

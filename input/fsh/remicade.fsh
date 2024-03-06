@@ -4,7 +4,7 @@ Instance: composition-en-0c99db4eccd07c1cf26c691487dc71e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for remicade Package Leaflet"
 Description:  "Composition for remicade Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

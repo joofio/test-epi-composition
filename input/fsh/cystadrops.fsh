@@ -4,7 +4,7 @@ Instance: composition-en-a88819de549a51e3dd5eb81cc2cbcd10
 InstanceOf: CompositionUvEpi
 Title: "Composition for cystadrops Package Leaflet"
 Description:  "Composition for cystadrops Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

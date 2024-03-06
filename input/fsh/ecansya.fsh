@@ -4,7 +4,7 @@ Instance: composition-en-efa7f0457f33e21d0516b1da0af6e176
 InstanceOf: CompositionUvEpi
 Title: "Composition for ecansya Package Leaflet"
 Description:  "Composition for ecansya Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

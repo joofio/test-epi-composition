@@ -4,7 +4,7 @@ Instance: composition-en-909f6f2d2e9597ae246c0a311cd0f289
 InstanceOf: CompositionUvEpi
 Title: "Composition for zessly Package Leaflet"
 Description:  "Composition for zessly Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

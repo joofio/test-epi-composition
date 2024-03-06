@@ -4,7 +4,7 @@ Instance: composition-en-d4e8178d3a905eabdd581f1645891fb4
 InstanceOf: CompositionUvEpi
 Title: "Composition for prevymis Package Leaflet"
 Description:  "Composition for prevymis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

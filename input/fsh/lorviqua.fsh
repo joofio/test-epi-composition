@@ -4,7 +4,7 @@ Instance: composition-en-421c345b23392c1be16e7fe1f7c5111b
 InstanceOf: CompositionUvEpi
 Title: "Composition for lorviqua Package Leaflet"
 Description:  "Composition for lorviqua Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-1c1262aecbe28e7e1156f50a5c6d2fe6
 InstanceOf: CompositionUvEpi
 Title: "Composition for bekemv Package Leaflet"
 Description:  "Composition for bekemv Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

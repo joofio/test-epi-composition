@@ -4,7 +4,7 @@ Instance: composition-en-117ee803a8e1cf06b103ca0933d5bdf2
 InstanceOf: CompositionUvEpi
 Title: "Composition for cinryze Package Leaflet"
 Description:  "Composition for cinryze Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

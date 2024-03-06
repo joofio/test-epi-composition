@@ -4,7 +4,7 @@ Instance: composition-en-247338c6ac4af4d25ce31dba51e05ac4
 InstanceOf: CompositionUvEpi
 Title: "Composition for deltyba Package Leaflet"
 Description:  "Composition for deltyba Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

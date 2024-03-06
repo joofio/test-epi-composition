@@ -4,7 +4,7 @@ Instance: composition-en-52a624241d4cc518b719672757fc515f
 InstanceOf: CompositionUvEpi
 Title: "Composition for cinacalcet Package Leaflet"
 Description:  "Composition for cinacalcet Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

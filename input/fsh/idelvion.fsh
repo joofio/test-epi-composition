@@ -4,7 +4,7 @@ Instance: composition-en-5499c94597b7b7823625dbbed61c998f
 InstanceOf: CompositionUvEpi
 Title: "Composition for idelvion Package Leaflet"
 Description:  "Composition for idelvion Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

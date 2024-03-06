@@ -4,7 +4,7 @@ Instance: composition-en-94c552a1c89feea3465242a8fa5ba0ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for neoclarityn Package Leaflet"
 Description:  "Composition for neoclarityn Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

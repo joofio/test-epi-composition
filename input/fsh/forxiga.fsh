@@ -4,7 +4,7 @@ Instance: composition-en-5acfed2f2c9cf41e7e877414a9fe07a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for forxiga Package Leaflet"
 Description:  "Composition for forxiga Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

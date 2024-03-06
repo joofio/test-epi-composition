@@ -4,7 +4,7 @@ Instance: composition-en-6404d750b55233d0f151554095da73f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for kinzalmono Package Leaflet"
 Description:  "Composition for kinzalmono Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

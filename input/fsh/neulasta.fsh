@@ -4,7 +4,7 @@ Instance: composition-en-a292590defa3c39010b96fff24e30c08
 InstanceOf: CompositionUvEpi
 Title: "Composition for neulasta Package Leaflet"
 Description:  "Composition for neulasta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-9e6efceebc84a86b70285b4c52bf6209
 InstanceOf: CompositionUvEpi
 Title: "Composition for retacrit Package Leaflet"
 Description:  "Composition for retacrit Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

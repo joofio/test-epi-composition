@@ -4,7 +4,7 @@ Instance: composition-en-53638a22b9c3baf68ce45da859e1bb4b
 InstanceOf: CompositionUvEpi
 Title: "Composition for ratiograstim Package Leaflet"
 Description:  "Composition for ratiograstim Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

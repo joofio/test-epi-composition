@@ -4,7 +4,7 @@ Instance: composition-en-a2d91e093ece9c0d3351fd31285a05ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for voriconazole Package Leaflet"
 Description:  "Composition for voriconazole Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

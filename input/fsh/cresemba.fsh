@@ -4,7 +4,7 @@ Instance: composition-en-061484b9147260e88c643074459451f5
 InstanceOf: CompositionUvEpi
 Title: "Composition for cresemba Package Leaflet"
 Description:  "Composition for cresemba Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

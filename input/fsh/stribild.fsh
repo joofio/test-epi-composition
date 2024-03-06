@@ -4,7 +4,7 @@ Instance: composition-en-4c7f4cd465ecc4c332f786a217090e6e
 InstanceOf: CompositionUvEpi
 Title: "Composition for stribild Package Leaflet"
 Description:  "Composition for stribild Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

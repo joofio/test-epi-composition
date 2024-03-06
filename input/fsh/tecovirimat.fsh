@@ -4,7 +4,7 @@ Instance: composition-en-13b9c5485a5dae25afc0e0c660688026
 InstanceOf: CompositionUvEpi
 Title: "Composition for tecovirimat Package Leaflet"
 Description:  "Composition for tecovirimat Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

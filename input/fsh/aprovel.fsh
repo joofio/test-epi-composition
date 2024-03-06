@@ -4,7 +4,7 @@ Instance: composition-en-3a9236fa8ea679c18e98f7fdb3c04fb7
 InstanceOf: CompositionUvEpi
 Title: "Composition for aprovel Package Leaflet"
 Description:  "Composition for aprovel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

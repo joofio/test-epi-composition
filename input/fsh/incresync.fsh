@@ -4,7 +4,7 @@ Instance: composition-en-9cd7665100fd3b81b318cbcb65d45fef
 InstanceOf: CompositionUvEpi
 Title: "Composition for incresync Package Leaflet"
 Description:  "Composition for incresync Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

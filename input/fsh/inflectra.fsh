@@ -4,7 +4,7 @@ Instance: composition-en-572f3f97f7a7c455dcce693d90f95d77
 InstanceOf: CompositionUvEpi
 Title: "Composition for inflectra Package Leaflet"
 Description:  "Composition for inflectra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

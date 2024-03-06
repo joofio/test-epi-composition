@@ -4,7 +4,7 @@ Instance: composition-en-91b82fa9e403058f0812186a7025d512
 InstanceOf: CompositionUvEpi
 Title: "Composition for inovelon Package Leaflet"
 Description:  "Composition for inovelon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

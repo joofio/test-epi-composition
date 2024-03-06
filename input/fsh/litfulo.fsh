@@ -4,7 +4,7 @@ Instance: composition-en-601fc65b81b2fd37245e8ad7fc0f0dd7
 InstanceOf: CompositionUvEpi
 Title: "Composition for litfulo Package Leaflet"
 Description:  "Composition for litfulo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

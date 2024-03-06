@@ -4,7 +4,7 @@ Instance: composition-en-5aaf1ff9ad4c7cb420e93974915ff219
 InstanceOf: CompositionUvEpi
 Title: "Composition for seebri Package Leaflet"
 Description:  "Composition for seebri Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

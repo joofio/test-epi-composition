@@ -4,7 +4,7 @@ Instance: composition-en-fa8a8470c3a3a250549a317d0f9b36a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for arava Package Leaflet"
 Description:  "Composition for arava Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

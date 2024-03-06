@@ -4,7 +4,7 @@ Instance: composition-en-46af9fe042942e0b323406b7f9580690
 InstanceOf: CompositionUvEpi
 Title: "Composition for zilbrysq Package Leaflet"
 Description:  "Composition for zilbrysq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-007d6f1b6943d8c2483d508167f6813d
 InstanceOf: CompositionUvEpi
 Title: "Composition for onglyza Package Leaflet"
 Description:  "Composition for onglyza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

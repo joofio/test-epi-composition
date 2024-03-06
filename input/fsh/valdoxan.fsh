@@ -4,7 +4,7 @@ Instance: composition-en-79d322f9708e44619600f26fcf371238
 InstanceOf: CompositionUvEpi
 Title: "Composition for valdoxan Package Leaflet"
 Description:  "Composition for valdoxan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

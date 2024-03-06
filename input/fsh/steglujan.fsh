@@ -4,7 +4,7 @@ Instance: composition-en-001a1e1abfef180b40eba1bcc5ecf9fa
 InstanceOf: CompositionUvEpi
 Title: "Composition for steglujan Package Leaflet"
 Description:  "Composition for steglujan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

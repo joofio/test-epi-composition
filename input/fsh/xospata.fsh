@@ -4,7 +4,7 @@ Instance: composition-en-eed4802d86314fbe213d3f12beb50fbb
 InstanceOf: CompositionUvEpi
 Title: "Composition for xospata Package Leaflet"
 Description:  "Composition for xospata Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

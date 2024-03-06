@@ -4,7 +4,7 @@ Instance: composition-en-7735eb5a61959c532a72049da08ec908
 InstanceOf: CompositionUvEpi
 Title: "Composition for qtern Package Leaflet"
 Description:  "Composition for qtern Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

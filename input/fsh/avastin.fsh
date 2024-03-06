@@ -4,7 +4,7 @@ Instance: composition-en-62875f10b66b28e25e20627846370170
 InstanceOf: CompositionUvEpi
 Title: "Composition for avastin Package Leaflet"
 Description:  "Composition for avastin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-9a27641c92c3b8f37c07af63ced02da9
 InstanceOf: CompositionUvEpi
 Title: "Composition for riluzole Package Leaflet"
 Description:  "Composition for riluzole Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

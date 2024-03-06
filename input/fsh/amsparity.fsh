@@ -4,7 +4,7 @@ Instance: composition-en-cb456248863851baf93dc89f0a0fc5bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for amsparity Package Leaflet"
 Description:  "Composition for amsparity Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

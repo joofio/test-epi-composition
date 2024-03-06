@@ -4,7 +4,7 @@ Instance: composition-en-02998b2db7fd4b184d980a78d8dee404
 InstanceOf: CompositionUvEpi
 Title: "Composition for adynovi Package Leaflet"
 Description:  "Composition for adynovi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

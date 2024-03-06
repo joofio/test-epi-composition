@@ -4,7 +4,7 @@ Instance: composition-en-64b30ed73e72ca1303293950b9a53566
 InstanceOf: CompositionUvEpi
 Title: "Composition for praluent Package Leaflet"
 Description:  "Composition for praluent Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

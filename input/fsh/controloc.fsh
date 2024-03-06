@@ -4,7 +4,7 @@ Instance: composition-en-88a139efdb931409e42b2a2c15745022
 InstanceOf: CompositionUvEpi
 Title: "Composition for controloc Package Leaflet"
 Description:  "Composition for controloc Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-77a855e484d10473c2746e9b03c57dde
 InstanceOf: CompositionUvEpi
 Title: "Composition for leflunomide Package Leaflet"
 Description:  "Composition for leflunomide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

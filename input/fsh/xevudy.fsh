@@ -4,7 +4,7 @@ Instance: composition-en-22dcb829aed4334e1e70ad5ac466fd85
 InstanceOf: CompositionUvEpi
 Title: "Composition for xevudy Package Leaflet"
 Description:  "Composition for xevudy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

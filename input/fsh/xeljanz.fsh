@@ -4,7 +4,7 @@ Instance: composition-en-008c725c88c429f9cddb37027a290218
 InstanceOf: CompositionUvEpi
 Title: "Composition for xeljanz Package Leaflet"
 Description:  "Composition for xeljanz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

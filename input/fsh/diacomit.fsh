@@ -4,7 +4,7 @@ Instance: composition-en-e5f39a68825945382bdf12897b2693b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for diacomit Package Leaflet"
 Description:  "Composition for diacomit Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

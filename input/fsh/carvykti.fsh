@@ -4,7 +4,7 @@ Instance: composition-en-155f96d6fa2a1acb6bbe985e5b890f92
 InstanceOf: CompositionUvEpi
 Title: "Composition for carvykti Package Leaflet"
 Description:  "Composition for carvykti Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

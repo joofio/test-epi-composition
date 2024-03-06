@@ -4,7 +4,7 @@ Instance: composition-en-92909816e3fb20d8a0e9b31b0e2db7d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for kuvan Package Leaflet"
 Description:  "Composition for kuvan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

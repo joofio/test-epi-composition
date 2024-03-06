@@ -4,7 +4,7 @@ Instance: composition-en-f1e5c0f8dd3e6746610cc97b2dc1a234
 InstanceOf: CompositionUvEpi
 Title: "Composition for litak Package Leaflet"
 Description:  "Composition for litak Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

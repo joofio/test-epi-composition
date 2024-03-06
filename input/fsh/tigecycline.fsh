@@ -4,7 +4,7 @@ Instance: composition-en-f40a84cb5d324bdca9e9009c23b60458
 InstanceOf: CompositionUvEpi
 Title: "Composition for tigecycline Package Leaflet"
 Description:  "Composition for tigecycline Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

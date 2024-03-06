@@ -4,7 +4,7 @@ Instance: composition-en-d3d5b5fa628989f11aa0aee0a47e189c
 InstanceOf: CompositionUvEpi
 Title: "Composition for flixabi Package Leaflet"
 Description:  "Composition for flixabi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

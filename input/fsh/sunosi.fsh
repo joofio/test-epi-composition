@@ -4,7 +4,7 @@ Instance: composition-en-4c464411361072df4cc109cbbcdd523e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sunosi Package Leaflet"
 Description:  "Composition for sunosi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-62a8f25678d9e8ed32026d400d8228e9
 InstanceOf: CompositionUvEpi
 Title: "Composition for gilenya Package Leaflet"
 Description:  "Composition for gilenya Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

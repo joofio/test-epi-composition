@@ -4,7 +4,7 @@ Instance: composition-en-4ee334e9551b40764860d0c83a3de6c2
 InstanceOf: CompositionUvEpi
 Title: "Composition for febuxostat Package Leaflet"
 Description:  "Composition for febuxostat Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

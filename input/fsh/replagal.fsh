@@ -4,7 +4,7 @@ Instance: composition-en-82ed3b7e13571c65c8c961f4a21dd3e2
 InstanceOf: CompositionUvEpi
 Title: "Composition for replagal Package Leaflet"
 Description:  "Composition for replagal Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

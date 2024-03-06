@@ -4,7 +4,7 @@ Instance: composition-en-5bd963731bd646c1cc4163d603257072
 InstanceOf: CompositionUvEpi
 Title: "Composition for evicel Package Leaflet"
 Description:  "Composition for evicel Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

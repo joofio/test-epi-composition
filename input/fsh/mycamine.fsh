@@ -4,7 +4,7 @@ Instance: composition-en-a8bf6c781d45d4ee28ddbc241a4ae52b
 InstanceOf: CompositionUvEpi
 Title: "Composition for mycamine Package Leaflet"
 Description:  "Composition for mycamine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

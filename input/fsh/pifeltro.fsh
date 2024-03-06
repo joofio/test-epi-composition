@@ -4,7 +4,7 @@ Instance: composition-en-d9e1f5caf32113b1e6722af1d88782c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for pifeltro Package Leaflet"
 Description:  "Composition for pifeltro Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

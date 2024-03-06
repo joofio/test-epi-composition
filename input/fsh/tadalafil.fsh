@@ -4,7 +4,7 @@ Instance: composition-en-d115286718a651dcd06cf9dfb35e2ceb
 InstanceOf: CompositionUvEpi
 Title: "Composition for tadalafil Package Leaflet"
 Description:  "Composition for tadalafil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

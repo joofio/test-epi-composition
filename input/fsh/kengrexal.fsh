@@ -4,7 +4,7 @@ Instance: composition-en-eefded9fc6fc231de4e5964766009df5
 InstanceOf: CompositionUvEpi
 Title: "Composition for kengrexal Package Leaflet"
 Description:  "Composition for kengrexal Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

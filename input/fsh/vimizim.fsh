@@ -4,7 +4,7 @@ Instance: composition-en-5b2806d6987bdec4479a8e779b3ce797
 InstanceOf: CompositionUvEpi
 Title: "Composition for vimizim Package Leaflet"
 Description:  "Composition for vimizim Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

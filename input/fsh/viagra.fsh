@@ -4,7 +4,7 @@ Instance: composition-en-8faa7fbd6f78086e379dcef9dff9ad32
 InstanceOf: CompositionUvEpi
 Title: "Composition for viagra Package Leaflet"
 Description:  "Composition for viagra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

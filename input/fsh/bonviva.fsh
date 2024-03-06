@@ -4,7 +4,7 @@ Instance: composition-en-9b4ee0069b7a546f9c15b1aee0013646
 InstanceOf: CompositionUvEpi
 Title: "Composition for bonviva Package Leaflet"
 Description:  "Composition for bonviva Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

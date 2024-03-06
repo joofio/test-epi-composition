@@ -4,7 +4,7 @@ Instance: composition-en-5b44b92baabcf0684d3d21b26b5583ec
 InstanceOf: CompositionUvEpi
 Title: "Composition for yescarta Package Leaflet"
 Description:  "Composition for yescarta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

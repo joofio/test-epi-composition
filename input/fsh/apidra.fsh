@@ -4,7 +4,7 @@ Instance: composition-en-4dc5c04be0c555d6e01b7c14e83eaf76
 InstanceOf: CompositionUvEpi
 Title: "Composition for apidra Package Leaflet"
 Description:  "Composition for apidra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

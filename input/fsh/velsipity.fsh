@@ -4,7 +4,7 @@ Instance: composition-en-25e890f25f8f1bec07dd339802b5338b
 InstanceOf: CompositionUvEpi
 Title: "Composition for velsipity Package Leaflet"
 Description:  "Composition for velsipity Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

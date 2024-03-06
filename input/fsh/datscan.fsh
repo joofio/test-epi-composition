@@ -4,7 +4,7 @@ Instance: composition-en-d047904bec391590dca84caa3af7d489
 InstanceOf: CompositionUvEpi
 Title: "Composition for datscan Package Leaflet"
 Description:  "Composition for datscan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

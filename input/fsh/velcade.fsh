@@ -4,7 +4,7 @@ Instance: composition-en-227bd9b21ea0c447e44bb88e14511a9d
 InstanceOf: CompositionUvEpi
 Title: "Composition for velcade Package Leaflet"
 Description:  "Composition for velcade Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

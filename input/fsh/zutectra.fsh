@@ -4,7 +4,7 @@ Instance: composition-en-73960cef65d43cea9c4f68f4818ce9c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for zutectra Package Leaflet"
 Description:  "Composition for zutectra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-e635923c4f0c1291555b7edc27db8608
 InstanceOf: CompositionUvEpi
 Title: "Composition for zostavax Package Leaflet"
 Description:  "Composition for zostavax Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-c0c73074469385390d12a06f439c2f95
 InstanceOf: CompositionUvEpi
 Title: "Composition for palynziq Package Leaflet"
 Description:  "Composition for palynziq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

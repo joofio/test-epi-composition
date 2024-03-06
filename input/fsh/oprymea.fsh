@@ -4,7 +4,7 @@ Instance: composition-en-b44aec4025bf7e6a7ad2808694b3bfd0
 InstanceOf: CompositionUvEpi
 Title: "Composition for oprymea Package Leaflet"
 Description:  "Composition for oprymea Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

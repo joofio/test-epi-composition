@@ -4,7 +4,7 @@ Instance: composition-en-91e2d101c3ad773f6da87d4465331140
 InstanceOf: CompositionUvEpi
 Title: "Composition for enurev Package Leaflet"
 Description:  "Composition for enurev Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

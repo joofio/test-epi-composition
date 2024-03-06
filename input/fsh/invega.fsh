@@ -4,7 +4,7 @@ Instance: composition-en-09106d45449680d6410b39822e859120
 InstanceOf: CompositionUvEpi
 Title: "Composition for invega Package Leaflet"
 Description:  "Composition for invega Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

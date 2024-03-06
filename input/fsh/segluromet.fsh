@@ -4,7 +4,7 @@ Instance: composition-en-fde715eb4d71a80815177e9bcc18c25e
 InstanceOf: CompositionUvEpi
 Title: "Composition for segluromet Package Leaflet"
 Description:  "Composition for segluromet Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

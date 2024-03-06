@@ -4,7 +4,7 @@ Instance: composition-en-9585e706c3b3ccee22d99123d376fe07
 InstanceOf: CompositionUvEpi
 Title: "Composition for mysildecard Package Leaflet"
 Description:  "Composition for mysildecard Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

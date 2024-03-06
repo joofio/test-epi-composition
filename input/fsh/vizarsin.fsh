@@ -4,7 +4,7 @@ Instance: composition-en-4f21ade1d3a44922f890a931e55ca9a9
 InstanceOf: CompositionUvEpi
 Title: "Composition for vizarsin Package Leaflet"
 Description:  "Composition for vizarsin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

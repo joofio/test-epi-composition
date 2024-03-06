@@ -4,7 +4,7 @@ Instance: composition-en-a7a8f3aaed2850db2f524101df25e7ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for iressa Package Leaflet"
 Description:  "Composition for iressa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-a66c014f097e72b89c0a0ea0e94b80cb
 InstanceOf: CompositionUvEpi
 Title: "Composition for beyfortus Package Leaflet"
 Description:  "Composition for beyfortus Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

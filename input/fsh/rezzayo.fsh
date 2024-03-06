@@ -4,7 +4,7 @@ Instance: composition-en-92e6fb3296c549e1fee744233084617c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rezzayo Package Leaflet"
 Description:  "Composition for rezzayo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

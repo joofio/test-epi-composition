@@ -4,7 +4,7 @@ Instance: composition-en-065940950f1dbb7c281e0e49d5dfc752
 InstanceOf: CompositionUvEpi
 Title: "Composition for plegridy Package Leaflet"
 Description:  "Composition for plegridy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

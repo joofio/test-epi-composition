@@ -4,7 +4,7 @@ Instance: composition-en-e0ec42c68686885cc176ad73b71e1d80
 InstanceOf: CompositionUvEpi
 Title: "Composition for rivastigmine Package Leaflet"
 Description:  "Composition for rivastigmine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

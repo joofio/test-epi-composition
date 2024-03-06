@@ -4,7 +4,7 @@ Instance: composition-en-0160c517e5757b2fb34b6990780c0bb4
 InstanceOf: CompositionUvEpi
 Title: "Composition for zabdeno Package Leaflet"
 Description:  "Composition for zabdeno Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

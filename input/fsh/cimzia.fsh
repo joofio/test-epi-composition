@@ -4,7 +4,7 @@ Instance: composition-en-057978e6508bd77bd6c65ec1f7b062f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for cimzia Package Leaflet"
 Description:  "Composition for cimzia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

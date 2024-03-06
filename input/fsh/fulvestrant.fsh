@@ -4,7 +4,7 @@ Instance: composition-en-d843c48300874227785506f7092e03c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for fulvestrant Package Leaflet"
 Description:  "Composition for fulvestrant Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

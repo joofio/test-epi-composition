@@ -4,7 +4,7 @@ Instance: composition-en-f005fd757731f79c852474cccf35506b
 InstanceOf: CompositionUvEpi
 Title: "Composition for opdualag Package Leaflet"
 Description:  "Composition for opdualag Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

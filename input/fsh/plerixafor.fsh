@@ -4,7 +4,7 @@ Instance: composition-en-aefacad9a6795a89d3df82b1bc20e9aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for plerixafor Package Leaflet"
 Description:  "Composition for plerixafor Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

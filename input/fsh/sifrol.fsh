@@ -4,7 +4,7 @@ Instance: composition-en-00c9db2c528dacf2cdd39b041aea9315
 InstanceOf: CompositionUvEpi
 Title: "Composition for sifrol Package Leaflet"
 Description:  "Composition for sifrol Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-288b5bf92457cec46266040e05fc3d90
 InstanceOf: CompositionUvEpi
 Title: "Composition for byfavo Package Leaflet"
 Description:  "Composition for byfavo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

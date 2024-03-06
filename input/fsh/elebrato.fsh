@@ -4,7 +4,7 @@ Instance: composition-en-07dfba600182595cfe2f36d89c5d2642
 InstanceOf: CompositionUvEpi
 Title: "Composition for elebrato Package Leaflet"
 Description:  "Composition for elebrato Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

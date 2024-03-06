@@ -4,7 +4,7 @@ Instance: composition-en-f451f2b898e52e0d41c95e83d0aff4db
 InstanceOf: CompositionUvEpi
 Title: "Composition for qinlock Package Leaflet"
 Description:  "Composition for qinlock Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

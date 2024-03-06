@@ -4,7 +4,7 @@ Instance: composition-en-5caa393121d9756e15d948c90dc0e334
 InstanceOf: CompositionUvEpi
 Title: "Composition for akeega Package Leaflet"
 Description:  "Composition for akeega Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

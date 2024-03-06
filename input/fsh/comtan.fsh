@@ -4,7 +4,7 @@ Instance: composition-en-2c4585a24a9c8e31d0f67fd3f46f50de
 InstanceOf: CompositionUvEpi
 Title: "Composition for comtan Package Leaflet"
 Description:  "Composition for comtan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

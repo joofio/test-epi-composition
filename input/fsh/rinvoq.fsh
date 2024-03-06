@@ -4,7 +4,7 @@ Instance: composition-en-603d42b6b07783003b47c538f27a463d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rinvoq Package Leaflet"
 Description:  "Composition for rinvoq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

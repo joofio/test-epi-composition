@@ -4,7 +4,7 @@ Instance: composition-en-a8470e7b18972c2dec141fc0fb92e8c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for duotrav Package Leaflet"
 Description:  "Composition for duotrav Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

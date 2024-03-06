@@ -4,7 +4,7 @@ Instance: composition-en-f45f6799ffdf756697ce11d9c2b8c128
 InstanceOf: CompositionUvEpi
 Title: "Composition for emgality Package Leaflet"
 Description:  "Composition for emgality Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

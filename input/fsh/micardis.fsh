@@ -4,7 +4,7 @@ Instance: composition-en-60d48d8f2f4b967869796928520b2e49
 InstanceOf: CompositionUvEpi
 Title: "Composition for micardis Package Leaflet"
 Description:  "Composition for micardis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

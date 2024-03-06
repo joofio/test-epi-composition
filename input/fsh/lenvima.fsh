@@ -4,7 +4,7 @@ Instance: composition-en-2a6f62e1d5ad7fde088bdbbe5ee1875e
 InstanceOf: CompositionUvEpi
 Title: "Composition for lenvima Package Leaflet"
 Description:  "Composition for lenvima Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

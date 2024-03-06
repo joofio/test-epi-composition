@@ -4,7 +4,7 @@ Instance: composition-en-c4dcd27eb46fddef4eed0adfcbbf3b5e
 InstanceOf: CompositionUvEpi
 Title: "Composition for cevenfacta Package Leaflet"
 Description:  "Composition for cevenfacta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

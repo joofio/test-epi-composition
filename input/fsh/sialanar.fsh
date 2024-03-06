@@ -4,7 +4,7 @@ Instance: composition-en-08f8f83bc6310f91660a8946f32126f9
 InstanceOf: CompositionUvEpi
 Title: "Composition for sialanar Package Leaflet"
 Description:  "Composition for sialanar Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-dd18b3b8f2dba9230f63c60b0e5cbf28
 InstanceOf: CompositionUvEpi
 Title: "Composition for gonal Package Leaflet"
 Description:  "Composition for gonal Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

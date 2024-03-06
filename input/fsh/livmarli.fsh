@@ -4,7 +4,7 @@ Instance: composition-en-0a545e5c9515b05d7e6ea3998a427c70
 InstanceOf: CompositionUvEpi
 Title: "Composition for livmarli Package Leaflet"
 Description:  "Composition for livmarli Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

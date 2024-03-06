@@ -4,7 +4,7 @@ Instance: composition-en-741439ba6d0ec3fbe3a33d580ea9911d
 InstanceOf: CompositionUvEpi
 Title: "Composition for dynastat Package Leaflet"
 Description:  "Composition for dynastat Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

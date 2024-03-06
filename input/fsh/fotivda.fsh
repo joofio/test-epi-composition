@@ -4,7 +4,7 @@ Instance: composition-en-fba0a8367a83300af2a00b0c6fd0b172
 InstanceOf: CompositionUvEpi
 Title: "Composition for fotivda Package Leaflet"
 Description:  "Composition for fotivda Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

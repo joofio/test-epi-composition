@@ -4,7 +4,7 @@ Instance: composition-en-86f804709e3279dcca0da696e8a674dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for opsumit Package Leaflet"
 Description:  "Composition for opsumit Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

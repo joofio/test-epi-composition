@@ -4,7 +4,7 @@ Instance: composition-en-028530430ed7d9b47cd8ba73da175d72
 InstanceOf: CompositionUvEpi
 Title: "Composition for strensiq Package Leaflet"
 Description:  "Composition for strensiq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

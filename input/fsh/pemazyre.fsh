@@ -4,7 +4,7 @@ Instance: composition-en-565029a2726c6824ab356ecb59362043
 InstanceOf: CompositionUvEpi
 Title: "Composition for pemazyre Package Leaflet"
 Description:  "Composition for pemazyre Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

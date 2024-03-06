@@ -4,7 +4,7 @@ Instance: composition-en-6314391ffa616dcd24b26dde0bda19df
 InstanceOf: CompositionUvEpi
 Title: "Composition for bydureon Package Leaflet"
 Description:  "Composition for bydureon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

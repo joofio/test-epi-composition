@@ -4,7 +4,7 @@ Instance: composition-en-c90b79fb8cf9d2067c35819ca84918df
 InstanceOf: CompositionUvEpi
 Title: "Composition for lonquex Package Leaflet"
 Description:  "Composition for lonquex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

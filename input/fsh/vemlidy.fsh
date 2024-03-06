@@ -4,7 +4,7 @@ Instance: composition-en-626b5ebcb82fc86d7ecd89669e8b58e3
 InstanceOf: CompositionUvEpi
 Title: "Composition for vemlidy Package Leaflet"
 Description:  "Composition for vemlidy Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

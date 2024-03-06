@@ -4,7 +4,7 @@ Instance: composition-en-9db488ea4436e9188ae22052d9c51b50
 InstanceOf: CompositionUvEpi
 Title: "Composition for insulin Package Leaflet"
 Description:  "Composition for insulin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

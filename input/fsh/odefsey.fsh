@@ -4,7 +4,7 @@ Instance: composition-en-91f303ca4d5b29f50d2776105159918a
 InstanceOf: CompositionUvEpi
 Title: "Composition for odefsey Package Leaflet"
 Description:  "Composition for odefsey Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

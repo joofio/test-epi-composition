@@ -4,7 +4,7 @@ Instance: composition-en-17d853b2dfc7ae029cc7841c683817ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for brimica Package Leaflet"
 Description:  "Composition for brimica Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

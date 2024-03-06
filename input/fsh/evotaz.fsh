@@ -4,7 +4,7 @@ Instance: composition-en-35f018d5cf43d63ae34ce4515a0b50b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for evotaz Package Leaflet"
 Description:  "Composition for evotaz Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-2384da974bf6e0cf52f25e84d6631d57
 InstanceOf: CompositionUvEpi
 Title: "Composition for cialis Package Leaflet"
 Description:  "Composition for cialis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-4e78538b495fe763304c16d92584575d
 InstanceOf: CompositionUvEpi
 Title: "Composition for eptifibatide Package Leaflet"
 Description:  "Composition for eptifibatide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

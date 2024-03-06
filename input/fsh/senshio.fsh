@@ -4,7 +4,7 @@ Instance: composition-en-446d079a08d59e4d16270357097325eb
 InstanceOf: CompositionUvEpi
 Title: "Composition for senshio Package Leaflet"
 Description:  "Composition for senshio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

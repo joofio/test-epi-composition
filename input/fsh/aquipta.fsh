@@ -4,7 +4,7 @@ Instance: composition-en-aac724bbfae048108e8444486a06d7e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for aquipta Package Leaflet"
 Description:  "Composition for aquipta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

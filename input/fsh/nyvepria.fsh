@@ -4,7 +4,7 @@ Instance: composition-en-51634c89fd4b34ec036bc5c7b8243dfa
 InstanceOf: CompositionUvEpi
 Title: "Composition for nyvepria Package Leaflet"
 Description:  "Composition for nyvepria Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

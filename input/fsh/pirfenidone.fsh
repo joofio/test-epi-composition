@@ -4,7 +4,7 @@ Instance: composition-en-36a6a5465117f75ed9e0484773e74fde
 InstanceOf: CompositionUvEpi
 Title: "Composition for pirfenidone Package Leaflet"
 Description:  "Composition for pirfenidone Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

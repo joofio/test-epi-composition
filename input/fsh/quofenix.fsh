@@ -4,7 +4,7 @@ Instance: composition-en-27f53ce7e817ea56aac44769c7b5a3bb
 InstanceOf: CompositionUvEpi
 Title: "Composition for quofenix Package Leaflet"
 Description:  "Composition for quofenix Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

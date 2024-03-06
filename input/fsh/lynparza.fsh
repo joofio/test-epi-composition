@@ -4,7 +4,7 @@ Instance: composition-en-4dbf28ef3bd2d6f9dcbec498df8a6133
 InstanceOf: CompositionUvEpi
 Title: "Composition for lynparza Package Leaflet"
 Description:  "Composition for lynparza Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-703c0707f76711c32684f846cc20b14e
 InstanceOf: CompositionUvEpi
 Title: "Composition for potactasol Package Leaflet"
 Description:  "Composition for potactasol Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

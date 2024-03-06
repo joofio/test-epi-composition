@@ -4,7 +4,7 @@ Instance: composition-en-74cee07ffddb72142d80fc4c20efe6f2
 InstanceOf: CompositionUvEpi
 Title: "Composition for tavneos Package Leaflet"
 Description:  "Composition for tavneos Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

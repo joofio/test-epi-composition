@@ -4,7 +4,7 @@ Instance: composition-en-4be09f952ab4cdf2803ef423dc889e5c
 InstanceOf: CompositionUvEpi
 Title: "Composition for plenadren Package Leaflet"
 Description:  "Composition for plenadren Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-6c2eb54267bb33e875227a41c1c320f3
 InstanceOf: CompositionUvEpi
 Title: "Composition for alecensa Package Leaflet"
 Description:  "Composition for alecensa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

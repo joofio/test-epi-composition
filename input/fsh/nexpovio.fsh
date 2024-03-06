@@ -4,7 +4,7 @@ Instance: composition-en-7213aca022d38d404e1e1e0d23413856
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexpovio Package Leaflet"
 Description:  "Composition for nexpovio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

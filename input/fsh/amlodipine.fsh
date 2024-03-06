@@ -4,7 +4,7 @@ Instance: composition-en-613075564472c8742b180667f231d172
 InstanceOf: CompositionUvEpi
 Title: "Composition for amlodipine Package Leaflet"
 Description:  "Composition for amlodipine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

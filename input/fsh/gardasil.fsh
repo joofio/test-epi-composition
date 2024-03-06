@@ -4,7 +4,7 @@ Instance: composition-en-5409615bb3a1f7e2d64838d0abac2414
 InstanceOf: CompositionUvEpi
 Title: "Composition for gardasil Package Leaflet"
 Description:  "Composition for gardasil Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

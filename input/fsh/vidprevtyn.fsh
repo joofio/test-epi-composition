@@ -4,7 +4,7 @@ Instance: composition-en-70fa014e07592e69938a0c03f0ec3015
 InstanceOf: CompositionUvEpi
 Title: "Composition for vidprevtyn Package Leaflet"
 Description:  "Composition for vidprevtyn Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

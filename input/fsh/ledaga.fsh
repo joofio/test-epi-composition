@@ -4,7 +4,7 @@ Instance: composition-en-341d92e7ebcda3c3a941ccdae62ee683
 InstanceOf: CompositionUvEpi
 Title: "Composition for ledaga Package Leaflet"
 Description:  "Composition for ledaga Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-b681cc309a06b1eb9ced4a87b0d16f81
 InstanceOf: CompositionUvEpi
 Title: "Composition for xiliarx Package Leaflet"
 Description:  "Composition for xiliarx Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

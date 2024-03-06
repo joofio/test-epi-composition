@@ -4,7 +4,7 @@ Instance: composition-en-beef21509ddc33cff9d4dfa3953f39ff
 InstanceOf: CompositionUvEpi
 Title: "Composition for thalidomide Package Leaflet"
 Description:  "Composition for thalidomide Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

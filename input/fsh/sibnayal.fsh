@@ -4,7 +4,7 @@ Instance: composition-en-1d09f2cdb23b1c4baeb1be5a4de77a38
 InstanceOf: CompositionUvEpi
 Title: "Composition for sibnayal Package Leaflet"
 Description:  "Composition for sibnayal Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

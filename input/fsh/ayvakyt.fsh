@@ -4,7 +4,7 @@ Instance: composition-en-f40cac7981e52d03bbfe471a7f88b25f
 InstanceOf: CompositionUvEpi
 Title: "Composition for ayvakyt Package Leaflet"
 Description:  "Composition for ayvakyt Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

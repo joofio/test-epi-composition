@@ -4,7 +4,7 @@ Instance: composition-en-efed70c799d3cf5deb34f761d19e059b
 InstanceOf: CompositionUvEpi
 Title: "Composition for imvanex Package Leaflet"
 Description:  "Composition for imvanex Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

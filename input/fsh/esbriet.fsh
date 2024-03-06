@@ -4,7 +4,7 @@ Instance: composition-en-6455d7711efcb7c39e76872d121d19e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for esbriet Package Leaflet"
 Description:  "Composition for esbriet Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

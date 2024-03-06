@@ -4,7 +4,7 @@ Instance: composition-en-74778e8109bf478af8bf20ce15b25c4c
 InstanceOf: CompositionUvEpi
 Title: "Composition for copiktra Package Leaflet"
 Description:  "Composition for copiktra Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

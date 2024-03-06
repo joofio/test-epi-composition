@@ -4,7 +4,7 @@ Instance: composition-en-261a55b4cd341177b15693bfb98631a1
 InstanceOf: CompositionUvEpi
 Title: "Composition for pramipexole Package Leaflet"
 Description:  "Composition for pramipexole Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

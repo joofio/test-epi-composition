@@ -4,7 +4,7 @@ Instance: composition-en-00913882b59a9d04c9763a602ce7c1ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for rydapt Package Leaflet"
 Description:  "Composition for rydapt Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

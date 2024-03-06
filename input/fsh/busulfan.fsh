@@ -4,7 +4,7 @@ Instance: composition-en-2a5eb21f13292133a1b42432d323ff12
 InstanceOf: CompositionUvEpi
 Title: "Composition for busulfan Package Leaflet"
 Description:  "Composition for busulfan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

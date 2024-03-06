@@ -4,7 +4,7 @@ Instance: composition-en-e1c7e2c0315603f70cbb39f05dcc6082
 InstanceOf: CompositionUvEpi
 Title: "Composition for dexmedetomidine Package Leaflet"
 Description:  "Composition for dexmedetomidine Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

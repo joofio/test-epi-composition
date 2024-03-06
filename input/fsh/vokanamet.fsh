@@ -4,7 +4,7 @@ Instance: composition-en-5c0f905ecf8d9d64edae4669c049439b
 InstanceOf: CompositionUvEpi
 Title: "Composition for vokanamet Package Leaflet"
 Description:  "Composition for vokanamet Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

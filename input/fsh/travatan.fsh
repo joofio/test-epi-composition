@@ -4,7 +4,7 @@ Instance: composition-en-a38db6f0b3670face0412d6c2e00cd92
 InstanceOf: CompositionUvEpi
 Title: "Composition for travatan Package Leaflet"
 Description:  "Composition for travatan Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

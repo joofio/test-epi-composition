@@ -4,7 +4,7 @@ Instance: composition-en-0870b0eb502814c6dc60255f3d34d5b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontilyv Package Leaflet"
 Description:  "Composition for ontilyv Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

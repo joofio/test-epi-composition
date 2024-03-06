@@ -4,7 +4,7 @@ Instance: composition-en-8a64404ab8208188b8002b2af6aa836e
 InstanceOf: CompositionUvEpi
 Title: "Composition for enyglid Package Leaflet"
 Description:  "Composition for enyglid Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-28badbaa1dfc6b119cb5212548687175
 InstanceOf: CompositionUvEpi
 Title: "Composition for mepact Package Leaflet"
 Description:  "Composition for mepact Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

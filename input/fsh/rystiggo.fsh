@@ -4,7 +4,7 @@ Instance: composition-en-b4a7586c3f2386c190c1701cbb794f3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rystiggo Package Leaflet"
 Description:  "Composition for rystiggo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

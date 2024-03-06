@@ -4,7 +4,7 @@ Instance: composition-en-6054fe37439ac8bd57061a7fc8bca219
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaniqa Package Leaflet"
 Description:  "Composition for vaniqa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

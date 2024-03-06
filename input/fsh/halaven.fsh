@@ -4,7 +4,7 @@ Instance: composition-en-83d27b2c0c103aeb8cf9aa2b77c5f35f
 InstanceOf: CompositionUvEpi
 Title: "Composition for halaven Package Leaflet"
 Description:  "Composition for halaven Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

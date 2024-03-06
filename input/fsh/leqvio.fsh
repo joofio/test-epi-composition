@@ -4,7 +4,7 @@ Instance: composition-en-7a35b3e3ae23ba7c3c63288dcbee5ac6
 InstanceOf: CompositionUvEpi
 Title: "Composition for leqvio Package Leaflet"
 Description:  "Composition for leqvio Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

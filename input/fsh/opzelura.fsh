@@ -4,7 +4,7 @@ Instance: composition-en-5f2f3f0c1c43271a861dd5210ff699a4
 InstanceOf: CompositionUvEpi
 Title: "Composition for opzelura Package Leaflet"
 Description:  "Composition for opzelura Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

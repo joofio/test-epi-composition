@@ -4,7 +4,7 @@ Instance: composition-en-2dc44ebb45d2b0f7332cf61717b9e639
 InstanceOf: CompositionUvEpi
 Title: "Composition for ceprotin Package Leaflet"
 Description:  "Composition for ceprotin Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

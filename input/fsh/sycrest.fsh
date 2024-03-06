@@ -4,7 +4,7 @@ Instance: composition-en-f2aa2b90d380444519f71c2efd9d6e1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sycrest Package Leaflet"
 Description:  "Composition for sycrest Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

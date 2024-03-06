@@ -4,7 +4,7 @@ Instance: composition-en-8f36194c6cc063f159cffcece33902d5
 InstanceOf: CompositionUvEpi
 Title: "Composition for somavert Package Leaflet"
 Description:  "Composition for somavert Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

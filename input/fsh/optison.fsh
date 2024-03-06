@@ -4,7 +4,7 @@ Instance: composition-en-667ae27b448d5f86024bc171810fbd9f
 InstanceOf: CompositionUvEpi
 Title: "Composition for optison Package Leaflet"
 Description:  "Composition for optison Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

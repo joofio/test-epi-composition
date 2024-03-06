@@ -4,7 +4,7 @@ Instance: composition-en-cb749713573713170146b8dc947ab1a6
 InstanceOf: CompositionUvEpi
 Title: "Composition for orgalutran Package Leaflet"
 Description:  "Composition for orgalutran Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

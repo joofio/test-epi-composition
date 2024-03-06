@@ -4,7 +4,7 @@ Instance: composition-en-130bba2ea8da812c1b9f9db0b62fdb3a
 InstanceOf: CompositionUvEpi
 Title: "Composition for triumeq Package Leaflet"
 Description:  "Composition for triumeq Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

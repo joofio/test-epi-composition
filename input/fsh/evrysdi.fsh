@@ -4,7 +4,7 @@ Instance: composition-en-d74c016d307ba635374b9ac3d63d2f85
 InstanceOf: CompositionUvEpi
 Title: "Composition for evrysdi Package Leaflet"
 Description:  "Composition for evrysdi Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

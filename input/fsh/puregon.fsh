@@ -4,7 +4,7 @@ Instance: composition-en-cfa624691d24d77fe98aa5c98b02fbeb
 InstanceOf: CompositionUvEpi
 Title: "Composition for puregon Package Leaflet"
 Description:  "Composition for puregon Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

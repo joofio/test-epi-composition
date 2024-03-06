@@ -4,7 +4,7 @@ Instance: composition-en-049b5b7dcb707b91228a592e54e9e9d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for privigen Package Leaflet"
 Description:  "Composition for privigen Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

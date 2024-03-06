@@ -4,7 +4,7 @@ Instance: composition-en-bcc6b3ab765fdb815a4c2dde333f5a68
 InstanceOf: CompositionUvEpi
 Title: "Composition for truxima Package Leaflet"
 Description:  "Composition for truxima Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

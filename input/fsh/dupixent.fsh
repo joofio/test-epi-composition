@@ -4,7 +4,7 @@ Instance: composition-en-c73c6f869bb1947667a63b227920af77
 InstanceOf: CompositionUvEpi
 Title: "Composition for dupixent Package Leaflet"
 Description:  "Composition for dupixent Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

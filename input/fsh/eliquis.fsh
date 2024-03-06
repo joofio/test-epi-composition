@@ -4,7 +4,7 @@ Instance: composition-en-34ad0d9c563d0ccd4014e8e8bf3c5d98
 InstanceOf: CompositionUvEpi
 Title: "Composition for eliquis Package Leaflet"
 Description:  "Composition for eliquis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

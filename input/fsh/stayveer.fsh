@@ -4,7 +4,7 @@ Instance: composition-en-166a454c6539dfdbdc3afea683fe6474
 InstanceOf: CompositionUvEpi
 Title: "Composition for stayveer Package Leaflet"
 Description:  "Composition for stayveer Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

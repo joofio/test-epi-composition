@@ -4,7 +4,7 @@ Instance: composition-en-8c380d27bbc2d53daf7f5dedc85cca7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for trydonis Package Leaflet"
 Description:  "Composition for trydonis Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

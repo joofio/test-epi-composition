@@ -4,7 +4,7 @@ Instance: composition-en-edd8370352554e19efb5ccd7f477212d
 InstanceOf: CompositionUvEpi
 Title: "Composition for imbruvica Package Leaflet"
 Description:  "Composition for imbruvica Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

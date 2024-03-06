@@ -4,7 +4,7 @@ Instance: composition-en-74d9353bd9b4c9e405e398e02bc5f8ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for besponsa Package Leaflet"
 Description:  "Composition for besponsa Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

@@ -4,7 +4,7 @@ Instance: composition-en-805dc9ddc6fcbad674af5feb9b21aed5
 InstanceOf: CompositionUvEpi
 Title: "Composition for maviret Package Leaflet"
 Description:  "Composition for maviret Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

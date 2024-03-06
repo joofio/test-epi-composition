@@ -4,7 +4,7 @@ Instance: composition-en-3b1ab70efa7458a20495ebc38b1c3fc7
 InstanceOf: CompositionUvEpi
 Title: "Composition for ibandronic Package Leaflet"
 Description:  "Composition for ibandronic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

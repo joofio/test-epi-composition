@@ -4,7 +4,7 @@ Instance: composition-en-18a94f164fb1fa919f787ce6c80174e7
 InstanceOf: CompositionUvEpi
 Title: "Composition for zytiga Package Leaflet"
 Description:  "Composition for zytiga Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

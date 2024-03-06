@@ -4,7 +4,7 @@ Instance: composition-en-693ec639d0b8a54f262a97c90b198443
 InstanceOf: CompositionUvEpi
 Title: "Composition for alimta Package Leaflet"
 Description:  "Composition for alimta Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

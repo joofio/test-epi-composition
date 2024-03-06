@@ -4,7 +4,7 @@ Instance: composition-en-2ec5cb8052ccbdb184e32cd4cc8c7dd4
 InstanceOf: CompositionUvEpi
 Title: "Composition for bronchitol Package Leaflet"
 Description:  "Composition for bronchitol Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

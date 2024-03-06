@@ -4,7 +4,7 @@ Instance: composition-en-1a455c95e5d54239c06a46b5802914f3
 InstanceOf: CompositionUvEpi
 Title: "Composition for exviera Package Leaflet"
 Description:  "Composition for exviera Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

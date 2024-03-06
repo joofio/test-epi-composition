@@ -4,7 +4,7 @@ Instance: composition-en-d32ad2b352bb6245babc6f24db3ed9fa
 InstanceOf: CompositionUvEpi
 Title: "Composition for ziextenzo Package Leaflet"
 Description:  "Composition for ziextenzo Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

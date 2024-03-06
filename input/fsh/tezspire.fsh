@@ -4,7 +4,7 @@ Instance: composition-en-f6cd137002e2af601eb2a1335966e882
 InstanceOf: CompositionUvEpi
 Title: "Composition for tezspire Package Leaflet"
 Description:  "Composition for tezspire Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

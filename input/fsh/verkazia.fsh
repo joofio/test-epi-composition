@@ -4,7 +4,7 @@ Instance: composition-en-37f7b68ab6ebbc66da81602164ae592c
 InstanceOf: CompositionUvEpi
 Title: "Composition for verkazia Package Leaflet"
 Description:  "Composition for verkazia Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 

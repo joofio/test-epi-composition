@@ -4,7 +4,7 @@ Instance: composition-en-aba8c5f77c63653318ac43fe1a1d54ff
 InstanceOf: CompositionUvEpi
 Title: "Composition for pandemic Package Leaflet"
 Description:  "Composition for pandemic Package Leaflet"
-Usage: #inline
+Usage: #example
 
 * identifier.system = ""
 
