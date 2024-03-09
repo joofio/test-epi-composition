@@ -4,7 +4,7 @@ Instance: composition-en-43a04579e02ef19c7380d883dba8b26f
 InstanceOf: CompositionUvEpi
 Title: "Composition for scemblix Package Leaflet"
 Description:  "Composition for scemblix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -425,3 +425,28 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-43a04579e02ef19c7380d883dba8b26f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for scemblix Package Leaflet for language en"
+Description: "ePI document Bundle for scemblix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-43a04579e02ef19c7380d883dba8b26f"
+* entry[0].resource = composition-en-43a04579e02ef19c7380d883dba8b26f
+                      
+                      

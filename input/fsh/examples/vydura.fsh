@@ -4,7 +4,7 @@ Instance: composition-en-443c755443342bac5ae9c42b145300e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for vydura Package Leaflet"
 Description:  "Composition for vydura Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -297,3 +297,28 @@ Tel: + 371 670 35 This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-443c755443342bac5ae9c42b145300e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vydura Package Leaflet for language en"
+Description: "ePI document Bundle for vydura Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-443c755443342bac5ae9c42b145300e0"
+* entry[0].resource = composition-en-443c755443342bac5ae9c42b145300e0
+                      
+                      

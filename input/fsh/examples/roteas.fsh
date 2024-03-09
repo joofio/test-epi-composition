@@ -4,7 +4,7 @@ Instance: composition-en-d3bf47e7430f03a3543b0c027649dc7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for roteas Package Leaflet"
 Description:  "Composition for roteas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -296,3 +296,28 @@ bottle after EXP. The expiry date refers to the last day of that month. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d3bf47e7430f03a3543b0c027649dc7a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for roteas Package Leaflet for language en"
+Description: "ePI document Bundle for roteas Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d3bf47e7430f03a3543b0c027649dc7a"
+* entry[0].resource = composition-en-d3bf47e7430f03a3543b0c027649dc7a
+                      
+                      

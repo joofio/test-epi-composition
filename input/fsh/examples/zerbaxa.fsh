@@ -4,7 +4,7 @@ Instance: composition-en-1482492b92c1ab38c7c6cfa8e927eb20
 InstanceOf: CompositionUvEpi
 Title: "Composition for zerbaxa Package Leaflet"
 Description:  "Composition for zerbaxa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -457,3 +457,28 @@ material via wastewater. Any unused medicinal product or waste material should b
 disposed of in accordance with local requirements. These measures will help protect the
 environment.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1482492b92c1ab38c7c6cfa8e927eb20
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zerbaxa Package Leaflet for language en"
+Description: "ePI document Bundle for zerbaxa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1482492b92c1ab38c7c6cfa8e927eb20"
+* entry[0].resource = composition-en-1482492b92c1ab38c7c6cfa8e927eb20
+                      
+                      

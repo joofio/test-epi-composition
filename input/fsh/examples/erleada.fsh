@@ -4,7 +4,7 @@ Instance: composition-en-d9dc9ab79b2a856f92a3151fb8d4fca9
 InstanceOf: CompositionUvEpi
 Title: "Composition for erleada Package Leaflet"
 Description:  "Composition for erleada Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -432,3 +432,28 @@ This leaflet was last revised in.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d9dc9ab79b2a856f92a3151fb8d4fca9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for erleada Package Leaflet for language en"
+Description: "ePI document Bundle for erleada Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d9dc9ab79b2a856f92a3151fb8d4fca9"
+* entry[0].resource = composition-en-d9dc9ab79b2a856f92a3151fb8d4fca9
+                      
+                      

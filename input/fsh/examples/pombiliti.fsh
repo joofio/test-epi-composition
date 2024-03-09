@@ -4,7 +4,7 @@ Instance: composition-en-639cce8c495cbcbb29789688f0c06663
 InstanceOf: CompositionUvEpi
 Title: "Composition for pombiliti Package Leaflet"
 Description:  "Composition for pombiliti Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -416,3 +416,28 @@ Tel: (+44) 08 0823 46e-mail: MedInfo@amicusrx.com </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-639cce8c495cbcbb29789688f0c06663
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pombiliti Package Leaflet for language en"
+Description: "ePI document Bundle for pombiliti Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-639cce8c495cbcbb29789688f0c06663"
+* entry[0].resource = composition-en-639cce8c495cbcbb29789688f0c06663
+                      
+                      

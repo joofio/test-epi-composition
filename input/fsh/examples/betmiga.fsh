@@ -4,7 +4,7 @@ Instance: composition-en-f5fcc043447c207ce2e1eb4575399a55
 InstanceOf: CompositionUvEpi
 Title: "Composition for betmiga Package Leaflet"
 Description:  "Composition for betmiga Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -327,3 +327,28 @@ Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671T
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f5fcc043447c207ce2e1eb4575399a55
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for betmiga Package Leaflet for language en"
+Description: "ePI document Bundle for betmiga Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f5fcc043447c207ce2e1eb4575399a55"
+* entry[0].resource = composition-en-f5fcc043447c207ce2e1eb4575399a55
+                      
+                      

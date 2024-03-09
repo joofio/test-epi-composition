@@ -4,7 +4,7 @@ Instance: composition-en-db55bd922aa6d7007a8fefbeb8bc2264
 InstanceOf: CompositionUvEpi
 Title: "Composition for gavreto Package Leaflet"
 Description:  "Composition for gavreto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -395,3 +395,28 @@ leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-db55bd922aa6d7007a8fefbeb8bc2264
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for gavreto Package Leaflet for language en"
+Description: "ePI document Bundle for gavreto Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-db55bd922aa6d7007a8fefbeb8bc2264"
+* entry[0].resource = composition-en-db55bd922aa6d7007a8fefbeb8bc2264
+                      
+                      

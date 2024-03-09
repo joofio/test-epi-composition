@@ -4,7 +4,7 @@ Instance: composition-en-2a989ee2499ed7653de4b30c1670b7a3
 InstanceOf: CompositionUvEpi
 Title: "Composition for cetrotide Package Leaflet"
 Description:  "Composition for cetrotide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -386,3 +386,28 @@ skin  </li>
 <li>Ask your pharmacist how to safely dispose of used needles, vial and syringe. </li>
 </ol>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-2a989ee2499ed7653de4b30c1670b7a3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cetrotide Package Leaflet for language en"
+Description: "ePI document Bundle for cetrotide Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2a989ee2499ed7653de4b30c1670b7a3"
+* entry[0].resource = composition-en-2a989ee2499ed7653de4b30c1670b7a3
+                      
+                      

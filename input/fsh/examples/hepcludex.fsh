@@ -4,7 +4,7 @@ Instance: composition-en-b09f5aad6df76e91a7314393eef4e2a9
 InstanceOf: CompositionUvEpi
 Title: "Composition for hepcludex Package Leaflet"
 Description:  "Composition for hepcludex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -572,3 +572,28 @@ dispose of both properly
 so that nobody can be 
 injured (see 3D). </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b09f5aad6df76e91a7314393eef4e2a9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hepcludex Package Leaflet for language en"
+Description: "ePI document Bundle for hepcludex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b09f5aad6df76e91a7314393eef4e2a9"
+* entry[0].resource = composition-en-b09f5aad6df76e91a7314393eef4e2a9
+                      
+                      

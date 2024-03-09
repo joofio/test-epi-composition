@@ -4,7 +4,7 @@ Instance: composition-en-f7594bb39e512c1a930c8153ce8d7d94
 InstanceOf: CompositionUvEpi
 Title: "Composition for kalydeco Package Leaflet"
 Description:  "Composition for kalydeco Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -444,3 +444,28 @@ them, even if their signs of illness are the same as your child s.
 * If your child gets any side effects, talk to your child s doctor or pharmacist. This includes any 
 possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f7594bb39e512c1a930c8153ce8d7d94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kalydeco Package Leaflet for language en"
+Description: "ePI document Bundle for kalydeco Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f7594bb39e512c1a930c8153ce8d7d94"
+* entry[0].resource = composition-en-f7594bb39e512c1a930c8153ce8d7d94
+                      
+                      

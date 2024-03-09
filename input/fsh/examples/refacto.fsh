@@ -4,7 +4,7 @@ Instance: composition-en-b5a939e3a65a4475fa9fc43aea178c36
 InstanceOf: CompositionUvEpi
 Title: "Composition for refacto Package Leaflet"
 Description:  "Composition for refacto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -419,3 +419,28 @@ even if their signs of illness are the same as yours.
 If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b5a939e3a65a4475fa9fc43aea178c36
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for refacto Package Leaflet for language en"
+Description: "ePI document Bundle for refacto Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b5a939e3a65a4475fa9fc43aea178c36"
+* entry[0].resource = composition-en-b5a939e3a65a4475fa9fc43aea178c36
+                      
+                      

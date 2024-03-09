@@ -4,7 +4,7 @@ Instance: composition-en-975c71538de6c7ace8f1a35ed29b064a
 InstanceOf: CompositionUvEpi
 Title: "Composition for atazanavir Package Leaflet"
 Description:  "Composition for atazanavir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -513,3 +513,28 @@ Tel: + 353 01 413 3This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-975c71538de6c7ace8f1a35ed29b064a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for atazanavir Package Leaflet for language en"
+Description: "ePI document Bundle for atazanavir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-975c71538de6c7ace8f1a35ed29b064a"
+* entry[0].resource = composition-en-975c71538de6c7ace8f1a35ed29b064a
+                      
+                      

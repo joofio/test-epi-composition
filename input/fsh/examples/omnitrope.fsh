@@ -4,7 +4,7 @@ Instance: composition-en-552224bdd5379f4c4cfefcd5a85f0788
 InstanceOf: CompositionUvEpi
 Title: "Composition for omnitrope Package Leaflet"
 Description:  "Composition for omnitrope Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -466,3 +466,28 @@ Austria
 This leaflet was last revised in {MM/YYYY}
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-552224bdd5379f4c4cfefcd5a85f0788
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for omnitrope Package Leaflet for language en"
+Description: "ePI document Bundle for omnitrope Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-552224bdd5379f4c4cfefcd5a85f0788"
+* entry[0].resource = composition-en-552224bdd5379f4c4cfefcd5a85f0788
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-057978e6508bd77bd6c65ec1f7b062f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for cimzia Package Leaflet"
 Description:  "Composition for cimzia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -551,3 +551,28 @@ Tel: + 353 / (0)1-46 37 This leaflet was last revised in {MM/YYYY}  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-057978e6508bd77bd6c65ec1f7b062f7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cimzia Package Leaflet for language en"
+Description: "ePI document Bundle for cimzia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-057978e6508bd77bd6c65ec1f7b062f7"
+* entry[0].resource = composition-en-057978e6508bd77bd6c65ec1f7b062f7
+                      
+                      

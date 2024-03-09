@@ -4,7 +4,7 @@ Instance: composition-en-4ef629a7127d0f0a54242fe28701c54c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ilumetri Package Leaflet"
 Description:  "Composition for ilumetri Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -271,3 +271,28 @@ S mi: +354 535 70 This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-4ef629a7127d0f0a54242fe28701c54c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ilumetri Package Leaflet for language en"
+Description: "ePI document Bundle for ilumetri Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4ef629a7127d0f0a54242fe28701c54c"
+* entry[0].resource = composition-en-4ef629a7127d0f0a54242fe28701c54c
+                      
+                      

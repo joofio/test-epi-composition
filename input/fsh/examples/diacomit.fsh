@@ -4,7 +4,7 @@ Instance: composition-en-e5f39a68825945382bdf12897b2693b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for diacomit Package Leaflet"
 Description:  "Composition for diacomit Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -360,3 +360,28 @@ them, even if their symptoms are the same as your child s.
 - If your child gets any side effects, talk to your child s doctor or pharmacist. This includes any 
 possible side effects not listed in this leaflet. See Section 4. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e5f39a68825945382bdf12897b2693b4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for diacomit Package Leaflet for language en"
+Description: "ePI document Bundle for diacomit Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e5f39a68825945382bdf12897b2693b4"
+* entry[0].resource = composition-en-e5f39a68825945382bdf12897b2693b4
+                      
+                      

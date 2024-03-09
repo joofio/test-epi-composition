@@ -4,7 +4,7 @@ Instance: composition-en-86f804709e3279dcca0da696e8a674dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for opsumit Package Leaflet"
 Description:  "Composition for opsumit Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -354,3 +354,28 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-86f804709e3279dcca0da696e8a674dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for opsumit Package Leaflet for language en"
+Description: "ePI document Bundle for opsumit Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-86f804709e3279dcca0da696e8a674dd"
+* entry[0].resource = composition-en-86f804709e3279dcca0da696e8a674dd
+                      
+                      

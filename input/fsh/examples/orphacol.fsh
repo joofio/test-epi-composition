@@ -4,7 +4,7 @@ Instance: composition-en-d14c5d7dea1d2e7785c6d37dbbff6788
 InstanceOf: CompositionUvEpi
 Title: "Composition for orphacol Package Leaflet"
 Description:  "Composition for orphacol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -314,3 +314,28 @@ leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d14c5d7dea1d2e7785c6d37dbbff6788
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orphacol Package Leaflet for language en"
+Description: "ePI document Bundle for orphacol Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d14c5d7dea1d2e7785c6d37dbbff6788"
+* entry[0].resource = composition-en-d14c5d7dea1d2e7785c6d37dbbff6788
+                      
+                      

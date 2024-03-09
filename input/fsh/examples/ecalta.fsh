@@ -4,7 +4,7 @@ Instance: composition-en-d1ac9f4f2138f35170941f82d23b13ed
 InstanceOf: CompositionUvEpi
 Title: "Composition for ecalta Package Leaflet"
 Description:  "Composition for ecalta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -323,3 +323,28 @@ Fili le Latvij<br />
 Tel: +371 670 35 This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d1ac9f4f2138f35170941f82d23b13ed
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ecalta Package Leaflet for language en"
+Description: "ePI document Bundle for ecalta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d1ac9f4f2138f35170941f82d23b13ed"
+* entry[0].resource = composition-en-d1ac9f4f2138f35170941f82d23b13ed
+                      
+                      

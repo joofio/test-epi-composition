@@ -4,7 +4,7 @@ Instance: composition-en-86797ea5a5b2ca41d08f535ddec98397
 InstanceOf: CompositionUvEpi
 Title: "Composition for jyseleca Package Leaflet"
 Description:  "Composition for jyseleca Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -342,3 +342,28 @@ Galapagos Biotech Limited
 Tel: 0800 072 7This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-86797ea5a5b2ca41d08f535ddec98397
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jyseleca Package Leaflet for language en"
+Description: "ePI document Bundle for jyseleca Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-86797ea5a5b2ca41d08f535ddec98397"
+* entry[0].resource = composition-en-86797ea5a5b2ca41d08f535ddec98397
+                      
+                      

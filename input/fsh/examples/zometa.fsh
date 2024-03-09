@@ -4,7 +4,7 @@ Instance: composition-en-4e6edbbda0e498fd507a1a54a60c6d4b
 InstanceOf: CompositionUvEpi
 Title: "Composition for zometa Package Leaflet"
 Description:  "Composition for zometa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -329,3 +329,28 @@ exploitant@eurodep.fr </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-4e6edbbda0e498fd507a1a54a60c6d4b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zometa Package Leaflet for language en"
+Description: "ePI document Bundle for zometa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4e6edbbda0e498fd507a1a54a60c6d4b"
+* entry[0].resource = composition-en-4e6edbbda0e498fd507a1a54a60c6d4b
+                      
+                      

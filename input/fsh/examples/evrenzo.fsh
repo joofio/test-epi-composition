@@ -4,7 +4,7 @@ Instance: composition-en-83e919009d254ffa32b4c1748bcfba15
 InstanceOf: CompositionUvEpi
 Title: "Composition for evrenzo Package Leaflet"
 Description:  "Composition for evrenzo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -373,3 +373,28 @@ Tel: +353 (0)1 4671Free call from Northern Ireland: 0800783 5This leaflet was la
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-83e919009d254ffa32b4c1748bcfba15
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evrenzo Package Leaflet for language en"
+Description: "ePI document Bundle for evrenzo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-83e919009d254ffa32b4c1748bcfba15"
+* entry[0].resource = composition-en-83e919009d254ffa32b4c1748bcfba15
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-c8b09940edf0aa917a934cf86ca85bbd
 InstanceOf: CompositionUvEpi
 Title: "Composition for spherox Package Leaflet"
 Description:  "Composition for spherox Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -276,3 +276,28 @@ Deutscher Platz 5d
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c8b09940edf0aa917a934cf86ca85bbd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spherox Package Leaflet for language en"
+Description: "ePI document Bundle for spherox Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c8b09940edf0aa917a934cf86ca85bbd"
+* entry[0].resource = composition-en-c8b09940edf0aa917a934cf86ca85bbd
+                      
+                      

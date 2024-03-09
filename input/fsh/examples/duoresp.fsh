@@ -4,7 +4,7 @@ Instance: composition-en-448b9ada9b9514edd6724425bc5c528e
 InstanceOf: CompositionUvEpi
 Title: "Composition for duoresp Package Leaflet"
 Description:  "Composition for duoresp Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -517,3 +517,28 @@ Tel: +44 207 540 7This leaflet was last revised in month YYYY. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-448b9ada9b9514edd6724425bc5c528e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for duoresp Package Leaflet for language en"
+Description: "ePI document Bundle for duoresp Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-448b9ada9b9514edd6724425bc5c528e"
+* entry[0].resource = composition-en-448b9ada9b9514edd6724425bc5c528e
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-30e51ed12b82204a5177c9b68b9c4f09
 InstanceOf: CompositionUvEpi
 Title: "Composition for somac Package Leaflet"
 Description:  "Composition for somac Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -444,3 +444,28 @@ Tel: +44 (0) 3333 000 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-30e51ed12b82204a5177c9b68b9c4f09
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for somac Package Leaflet for language en"
+Description: "ePI document Bundle for somac Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-30e51ed12b82204a5177c9b68b9c4f09"
+* entry[0].resource = composition-en-30e51ed12b82204a5177c9b68b9c4f09
+                      
+                      

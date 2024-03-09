@@ -4,7 +4,7 @@ Instance: composition-en-049b5b7dcb707b91228a592e54e9e9d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for privigen Package Leaflet"
 Description:  "Composition for privigen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -512,3 +512,28 @@ the solution contains no preservative, Privigen should be infused as soon as pos
 Any unused medicinal product or waste material should be disposed of in accordance with local 
 requirements.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-049b5b7dcb707b91228a592e54e9e9d9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for privigen Package Leaflet for language en"
+Description: "ePI document Bundle for privigen Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-049b5b7dcb707b91228a592e54e9e9d9"
+* entry[0].resource = composition-en-049b5b7dcb707b91228a592e54e9e9d9
+                      
+                      

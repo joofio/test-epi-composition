@@ -4,7 +4,7 @@ Instance: composition-en-24658ce59b10f683d894acb365dd27b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for granpidam Package Leaflet"
 Description:  "Composition for granpidam Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -307,3 +307,28 @@ ul. Lutomierska 50,95-200 Pabianice, Poland </p>
 <p>This leaflet was last revised in 07/2Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-24658ce59b10f683d894acb365dd27b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for granpidam Package Leaflet for language en"
+Description: "ePI document Bundle for granpidam Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-24658ce59b10f683d894acb365dd27b9"
+* entry[0].resource = composition-en-24658ce59b10f683d894acb365dd27b9
+                      
+                      

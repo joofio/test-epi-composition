@@ -4,7 +4,7 @@ Instance: composition-en-9290357e39a2371931091ec451b2e152
 InstanceOf: CompositionUvEpi
 Title: "Composition for soliris Package Leaflet"
 Description:  "Composition for soliris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -490,3 +490,28 @@ Tel: +44 (0) 800 028 4This leaflet was last revised in. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9290357e39a2371931091ec451b2e152
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for soliris Package Leaflet for language en"
+Description: "ePI document Bundle for soliris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9290357e39a2371931091ec451b2e152"
+* entry[0].resource = composition-en-9290357e39a2371931091ec451b2e152
+                      
+                      

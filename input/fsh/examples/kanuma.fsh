@@ -4,7 +4,7 @@ Instance: composition-en-ed2ea7f84dcb14b5fa486093df321548
 InstanceOf: CompositionUvEpi
 Title: "Composition for kanuma Package Leaflet"
 Description:  "Composition for kanuma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -311,3 +311,28 @@ Tel: +44 (0) 800 028 4This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ed2ea7f84dcb14b5fa486093df321548
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kanuma Package Leaflet for language en"
+Description: "ePI document Bundle for kanuma Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ed2ea7f84dcb14b5fa486093df321548"
+* entry[0].resource = composition-en-ed2ea7f84dcb14b5fa486093df321548
+                      
+                      

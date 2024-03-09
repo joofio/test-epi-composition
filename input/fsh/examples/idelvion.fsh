@@ -4,7 +4,7 @@ Instance: composition-en-5499c94597b7b7823625dbbed61c998f
 InstanceOf: CompositionUvEpi
 Title: "Composition for idelvion Package Leaflet"
 Description:  "Composition for idelvion Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -389,3 +389,28 @@ CSL Behring GmbH
 Tel: +49 69 305 17This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5499c94597b7b7823625dbbed61c998f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for idelvion Package Leaflet for language en"
+Description: "ePI document Bundle for idelvion Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5499c94597b7b7823625dbbed61c998f"
+* entry[0].resource = composition-en-5499c94597b7b7823625dbbed61c998f
+                      
+                      

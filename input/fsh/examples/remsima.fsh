@@ -4,7 +4,7 @@ Instance: composition-en-c29ba23bb04c16ab758f150fe41d6513
 InstanceOf: CompositionUvEpi
 Title: "Composition for remsima Package Leaflet"
 Description:  "Composition for remsima Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -680,3 +680,28 @@ Tel: +353 1 223 4This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c29ba23bb04c16ab758f150fe41d6513
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for remsima Package Leaflet for language en"
+Description: "ePI document Bundle for remsima Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c29ba23bb04c16ab758f150fe41d6513"
+* entry[0].resource = composition-en-c29ba23bb04c16ab758f150fe41d6513
+                      
+                      

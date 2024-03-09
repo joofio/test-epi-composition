@@ -4,7 +4,7 @@ Instance: composition-en-d7b1f21254cfe6d481d9f6365694f530
 InstanceOf: CompositionUvEpi
 Title: "Composition for apexxnar Package Leaflet"
 Description:  "Composition for apexxnar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -311,3 +311,28 @@ Apexxnar can be given to adults at the same time as the COVID-19 mRNA vaccine (n
 modified).
 Any unused product or waste material should be disposed of in accordance with local requirements.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d7b1f21254cfe6d481d9f6365694f530
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for apexxnar Package Leaflet for language en"
+Description: "ePI document Bundle for apexxnar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d7b1f21254cfe6d481d9f6365694f530"
+* entry[0].resource = composition-en-d7b1f21254cfe6d481d9f6365694f530
+                      
+                      

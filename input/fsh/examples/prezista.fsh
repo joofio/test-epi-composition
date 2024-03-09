@@ -4,7 +4,7 @@ Instance: composition-en-c73255ba16f112f8e9f93b50083ae06f
 InstanceOf: CompositionUvEpi
 Title: "Composition for prezista Package Leaflet"
 Description:  "Composition for prezista Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -732,3 +732,28 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c73255ba16f112f8e9f93b50083ae06f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prezista Package Leaflet for language en"
+Description: "ePI document Bundle for prezista Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c73255ba16f112f8e9f93b50083ae06f"
+* entry[0].resource = composition-en-c73255ba16f112f8e9f93b50083ae06f
+                      
+                      

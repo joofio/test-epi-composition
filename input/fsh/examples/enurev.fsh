@@ -4,7 +4,7 @@ Instance: composition-en-91e2d101c3ad773f6da87d4465331140
 InstanceOf: CompositionUvEpi
 Title: "Composition for enurev Package Leaflet"
 Description:  "Composition for enurev Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -538,3 +538,28 @@ chamber
 Mouthpiece 
 Screen </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-91e2d101c3ad773f6da87d4465331140
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for enurev Package Leaflet for language en"
+Description: "ePI document Bundle for enurev Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-91e2d101c3ad773f6da87d4465331140"
+* entry[0].resource = composition-en-91e2d101c3ad773f6da87d4465331140
+                      
+                      

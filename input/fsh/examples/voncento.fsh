@@ -4,7 +4,7 @@ Instance: composition-en-6921fe94b12d3679a96f1d5a8683a92f
 InstanceOf: CompositionUvEpi
 Title: "Composition for voncento Package Leaflet"
 Description:  "Composition for voncento Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -452,3 +452,28 @@ Tel: +49 69 30517254 (DE)
 This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6921fe94b12d3679a96f1d5a8683a92f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for voncento Package Leaflet for language en"
+Description: "ePI document Bundle for voncento Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6921fe94b12d3679a96f1d5a8683a92f"
+* entry[0].resource = composition-en-6921fe94b12d3679a96f1d5a8683a92f
+                      
+                      

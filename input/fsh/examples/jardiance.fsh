@@ -4,7 +4,7 @@ Instance: composition-en-3897ae464fed2d09fdccd118642cb036
 InstanceOf: CompositionUvEpi
 Title: "Composition for jardiance Package Leaflet"
 Description:  "Composition for jardiance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -443,3 +443,28 @@ Tel: +353 1 295 9Eli Lilly and Company (Ireland) Limited
 Tel: +353 1 661 4This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3897ae464fed2d09fdccd118642cb036
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jardiance Package Leaflet for language en"
+Description: "ePI document Bundle for jardiance Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3897ae464fed2d09fdccd118642cb036"
+* entry[0].resource = composition-en-3897ae464fed2d09fdccd118642cb036
+                      
+                      

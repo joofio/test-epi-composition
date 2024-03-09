@@ -4,7 +4,7 @@ Instance: composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyepti Package Leaflet"
 Description:  "Composition for vyepti Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -288,3 +288,28 @@ Tel: +353 1 468 9This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyepti Package Leaflet for language en"
+Description: "ePI document Bundle for vyepti Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f"
+* entry[0].resource = composition-en-fbb3ae3b0ec47d0ddb6ffbdc6984439f
+                      
+                      

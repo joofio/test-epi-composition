@@ -4,7 +4,7 @@ Instance: composition-en-51634c89fd4b34ec036bc5c7b8243dfa
 InstanceOf: CompositionUvEpi
 Title: "Composition for nyvepria Package Leaflet"
 Description:  "Composition for nyvepria Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -444,3 +444,28 @@ Check the injection site.
 If there is blood, press a cotton ball or gauze pad on your injection site. Do not rub the injection site. 
 Apply a plaster if needed.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-51634c89fd4b34ec036bc5c7b8243dfa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nyvepria Package Leaflet for language en"
+Description: "ePI document Bundle for nyvepria Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-51634c89fd4b34ec036bc5c7b8243dfa"
+* entry[0].resource = composition-en-51634c89fd4b34ec036bc5c7b8243dfa
+                      
+                      

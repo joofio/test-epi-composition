@@ -4,7 +4,7 @@ Instance: composition-en-b61e3b7d3b2a48a0ce57af4f9ff7b307
 InstanceOf: CompositionUvEpi
 Title: "Composition for pedmarqsi Package Leaflet"
 Description:  "Composition for pedmarqsi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -213,3 +213,28 @@ Ireland  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b61e3b7d3b2a48a0ce57af4f9ff7b307
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pedmarqsi Package Leaflet for language en"
+Description: "ePI document Bundle for pedmarqsi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b61e3b7d3b2a48a0ce57af4f9ff7b307"
+* entry[0].resource = composition-en-b61e3b7d3b2a48a0ce57af4f9ff7b307
+                      
+                      

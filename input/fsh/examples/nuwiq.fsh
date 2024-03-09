@@ -4,7 +4,7 @@ Instance: composition-en-79541d402cce9addf4bbd477616da529
 InstanceOf: CompositionUvEpi
 Title: "Composition for nuwiq Package Leaflet"
 Description:  "Composition for nuwiq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -425,3 +425,28 @@ No blood must flow into the syringe due to the risk of formation of fibrin clots
 <p>If you use more than one vial of powder for one treatment, you may use the same injection needle 
 again. The vial adapter and the syringe are for single use only. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-79541d402cce9addf4bbd477616da529
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nuwiq Package Leaflet for language en"
+Description: "ePI document Bundle for nuwiq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-79541d402cce9addf4bbd477616da529"
+* entry[0].resource = composition-en-79541d402cce9addf4bbd477616da529
+                      
+                      

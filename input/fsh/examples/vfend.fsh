@@ -4,7 +4,7 @@ Instance: composition-en-74e50e4505c090a88581d2832252680c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vfend Package Leaflet"
 Description:  "Composition for vfend Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -537,3 +537,28 @@ Fili le Latvij <br />
 Tel: +371 670 35 This leaflet was last approved in {MM/YYYY}. 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-74e50e4505c090a88581d2832252680c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vfend Package Leaflet for language en"
+Description: "ePI document Bundle for vfend Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-74e50e4505c090a88581d2832252680c"
+* entry[0].resource = composition-en-74e50e4505c090a88581d2832252680c
+                      
+                      

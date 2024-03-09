@@ -4,7 +4,7 @@ Instance: composition-en-040bd687344f34655b854f4b67248074
 InstanceOf: CompositionUvEpi
 Title: "Composition for skilarence Package Leaflet"
 Description:  "Composition for skilarence Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -394,3 +394,28 @@ Orion Pharma, Puh/Tel: +358 10 4This leaflet was last revised in . </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-040bd687344f34655b854f4b67248074
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for skilarence Package Leaflet for language en"
+Description: "ePI document Bundle for skilarence Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-040bd687344f34655b854f4b67248074"
+* entry[0].resource = composition-en-040bd687344f34655b854f4b67248074
+                      
+                      

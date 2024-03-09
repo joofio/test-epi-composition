@@ -4,7 +4,7 @@ Instance: composition-en-eed4802d86314fbe213d3f12beb50fbb
 InstanceOf: CompositionUvEpi
 Title: "Composition for xospata Package Leaflet"
 Description:  "Composition for xospata Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -343,3 +343,28 @@ Astellas Pharma Co., Limited
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5This leaflet was last revised in MM/YYYY  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-eed4802d86314fbe213d3f12beb50fbb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xospata Package Leaflet for language en"
+Description: "ePI document Bundle for xospata Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-eed4802d86314fbe213d3f12beb50fbb"
+* entry[0].resource = composition-en-eed4802d86314fbe213d3f12beb50fbb
+                      
+                      

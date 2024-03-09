@@ -4,7 +4,7 @@ Instance: composition-en-d81ab7604a6a988f432c98de75044e82
 InstanceOf: CompositionUvEpi
 Title: "Composition for zercepac Package Leaflet"
 Description:  "Composition for zercepac Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -395,3 +395,28 @@ The Netherlands </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d81ab7604a6a988f432c98de75044e82
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zercepac Package Leaflet for language en"
+Description: "ePI document Bundle for zercepac Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d81ab7604a6a988f432c98de75044e82"
+* entry[0].resource = composition-en-d81ab7604a6a988f432c98de75044e82
+                      
+                      

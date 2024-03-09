@@ -4,7 +4,7 @@ Instance: composition-en-524ff85a84e081511904d5b0500b5714
 InstanceOf: CompositionUvEpi
 Title: "Composition for tolucombi Package Leaflet"
 Description:  "Composition for tolucombi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -492,3 +492,28 @@ KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-524ff85a84e081511904d5b0500b5714
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tolucombi Package Leaflet for language en"
+Description: "ePI document Bundle for tolucombi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-524ff85a84e081511904d5b0500b5714"
+* entry[0].resource = composition-en-524ff85a84e081511904d5b0500b5714
+                      
+                      

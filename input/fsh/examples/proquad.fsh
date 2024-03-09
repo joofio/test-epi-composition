@@ -4,7 +4,7 @@ Instance: composition-en-188ccb87c0d4f4c736200f4cfc1c3e01
 InstanceOf: CompositionUvEpi
 Title: "Composition for proquad Package Leaflet"
 Description:  "Composition for proquad Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -414,3 +414,28 @@ important information for you.
 - If you get any of the side effects talk to your doctor of pharmacist. This includes any possible
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-188ccb87c0d4f4c736200f4cfc1c3e01
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for proquad Package Leaflet for language en"
+Description: "ePI document Bundle for proquad Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-188ccb87c0d4f4c736200f4cfc1c3e01"
+* entry[0].resource = composition-en-188ccb87c0d4f4c736200f4cfc1c3e01
+                      
+                      

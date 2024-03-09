@@ -4,7 +4,7 @@ Instance: composition-en-b1355bc14a128fa4430d01fced9887b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for ervebo Package Leaflet"
 Description:  "Composition for ervebo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -486,3 +486,28 @@ breakage/spillage were to occur, disinfectants such as aldehydes, alcohols and d
 proven to reduce viral infection potential after only a few minutes. If feasible, the waste liquid
 from eye washes should be collected and decontaminated before discarding into the drain.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b1355bc14a128fa4430d01fced9887b5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ervebo Package Leaflet for language en"
+Description: "ePI document Bundle for ervebo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b1355bc14a128fa4430d01fced9887b5"
+* entry[0].resource = composition-en-b1355bc14a128fa4430d01fced9887b5
+                      
+                      

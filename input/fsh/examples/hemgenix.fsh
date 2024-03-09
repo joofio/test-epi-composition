@@ -4,7 +4,7 @@ Instance: composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6
 InstanceOf: CompositionUvEpi
 Title: "Composition for hemgenix Package Leaflet"
 Description:  "Composition for hemgenix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -507,3 +507,28 @@ must be decontaminated with appropriate disinfectant with viricidal activity (e.
 disinfectant like hypochlorite containing 0.1% available chlorine (1000 ppm)) after usage and then 
 autoclaved, if possible.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-368e8679c0472a0d2aa9d82ac9fd7ab6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hemgenix Package Leaflet for language en"
+Description: "ePI document Bundle for hemgenix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6"
+* entry[0].resource = composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6
+                      
+                      

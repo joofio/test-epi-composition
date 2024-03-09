@@ -4,7 +4,7 @@ Instance: composition-en-eea75696c0638bfef12b52e191d0d8ce
 InstanceOf: CompositionUvEpi
 Title: "Composition for amifampridine Package Leaflet"
 Description:  "Composition for amifampridine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -277,3 +277,28 @@ reference medicine will also be included as appropriate in the information for A
 such as this leaflet </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-eea75696c0638bfef12b52e191d0d8ce
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for amifampridine Package Leaflet for language en"
+Description: "ePI document Bundle for amifampridine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-eea75696c0638bfef12b52e191d0d8ce"
+* entry[0].resource = composition-en-eea75696c0638bfef12b52e191d0d8ce
+                      
+                      

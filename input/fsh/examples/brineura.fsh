@@ -4,7 +4,7 @@ Instance: composition-en-3552692c711f8f7419edb391c717f809
 InstanceOf: CompositionUvEpi
 Title: "Composition for brineura Package Leaflet"
 Description:  "Composition for brineura Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -284,3 +284,28 @@ this leaflet will be updated as necessary. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3552692c711f8f7419edb391c717f809
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for brineura Package Leaflet for language en"
+Description: "ePI document Bundle for brineura Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3552692c711f8f7419edb391c717f809"
+* entry[0].resource = composition-en-3552692c711f8f7419edb391c717f809
+                      
+                      

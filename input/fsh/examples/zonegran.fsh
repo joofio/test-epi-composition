@@ -4,7 +4,7 @@ Instance: composition-en-5d598acaa06e1793f466dd362946add4
 InstanceOf: CompositionUvEpi
 Title: "Composition for zonegran Package Leaflet"
 Description:  "Composition for zonegran Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -481,3 +481,28 @@ benefit-risk balance of the medicinal product(s) containing zonisamide is unchan
 proposed changes to the product information 
 The CHMP recommends that the terms of the marketing authorisation(s) should be varied. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5d598acaa06e1793f466dd362946add4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zonegran Package Leaflet for language en"
+Description: "ePI document Bundle for zonegran Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5d598acaa06e1793f466dd362946add4"
+* entry[0].resource = composition-en-5d598acaa06e1793f466dd362946add4
+                      
+                      

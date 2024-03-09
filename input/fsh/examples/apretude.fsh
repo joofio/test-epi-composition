@@ -4,7 +4,7 @@ Instance: composition-en-4a43236fb582d17d10a1516a86f60348
 InstanceOf: CompositionUvEpi
 Title: "Composition for apretude Package Leaflet"
 Description:  "Composition for apretude Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -398,3 +398,28 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-4a43236fb582d17d10a1516a86f60348
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for apretude Package Leaflet for language en"
+Description: "ePI document Bundle for apretude Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4a43236fb582d17d10a1516a86f60348"
+* entry[0].resource = composition-en-4a43236fb582d17d10a1516a86f60348
+                      
+                      

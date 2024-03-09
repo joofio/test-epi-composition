@@ -4,7 +4,7 @@ Instance: composition-en-a651c9ffaada5f4880461c8764acc607
 InstanceOf: CompositionUvEpi
 Title: "Composition for dukoral Package Leaflet"
 Description:  "Composition for dukoral Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -260,3 +260,28 @@ Valneva Sweden AB, Gunnar Asplunds all  16, SE-171 69 Solna, Sweden. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a651c9ffaada5f4880461c8764acc607
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dukoral Package Leaflet for language en"
+Description: "ePI document Bundle for dukoral Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a651c9ffaada5f4880461c8764acc607"
+* entry[0].resource = composition-en-a651c9ffaada5f4880461c8764acc607
+                      
+                      

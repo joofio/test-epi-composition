@@ -4,7 +4,7 @@ Instance: composition-en-b0ec338c010ecf0f95bd7dc099830384
 InstanceOf: CompositionUvEpi
 Title: "Composition for invokana Package Leaflet"
 Description:  "Composition for invokana Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -466,3 +466,28 @@ This leaflet was approved in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b0ec338c010ecf0f95bd7dc099830384
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for invokana Package Leaflet for language en"
+Description: "ePI document Bundle for invokana Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b0ec338c010ecf0f95bd7dc099830384"
+* entry[0].resource = composition-en-b0ec338c010ecf0f95bd7dc099830384
+                      
+                      

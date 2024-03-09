@@ -4,7 +4,7 @@ Instance: composition-en-951d8a8dc27e4bf24952f3a016066e45
 InstanceOf: CompositionUvEpi
 Title: "Composition for omjjara Package Leaflet"
 Description:  "Composition for omjjara Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -410,3 +410,28 @@ GlaxoSmithKline Trading Services Limited<br />
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-951d8a8dc27e4bf24952f3a016066e45
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for omjjara Package Leaflet for language en"
+Description: "ePI document Bundle for omjjara Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-951d8a8dc27e4bf24952f3a016066e45"
+* entry[0].resource = composition-en-951d8a8dc27e4bf24952f3a016066e45
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-f97dbfd4ac971d9fb81fe7dca78ad6d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for xofigo Package Leaflet"
 Description:  "Composition for xofigo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -367,3 +367,28 @@ Bayer AG
 Tel: +44-(0) 118 206 3This booklet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f97dbfd4ac971d9fb81fe7dca78ad6d4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xofigo Package Leaflet for language en"
+Description: "ePI document Bundle for xofigo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f97dbfd4ac971d9fb81fe7dca78ad6d4"
+* entry[0].resource = composition-en-f97dbfd4ac971d9fb81fe7dca78ad6d4
+                      
+                      

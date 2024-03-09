@@ -4,7 +4,7 @@ Instance: composition-en-4c889264e6df1e0383b0ef68358c4009
 InstanceOf: CompositionUvEpi
 Title: "Composition for sivextro Package Leaflet"
 Description:  "Composition for sivextro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -359,3 +359,28 @@ important information for you.
 - If you get any side effects, talk to your doctor or nurse. This includes any possible side effects
 not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-4c889264e6df1e0383b0ef68358c4009
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sivextro Package Leaflet for language en"
+Description: "ePI document Bundle for sivextro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4c889264e6df1e0383b0ef68358c4009"
+* entry[0].resource = composition-en-4c889264e6df1e0383b0ef68358c4009
+                      
+                      

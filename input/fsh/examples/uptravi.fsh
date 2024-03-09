@@ -4,7 +4,7 @@ Instance: composition-en-f797cc0b9b4e9335a18d81e479368f3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for uptravi Package Leaflet"
 Description:  "Composition for uptravi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -638,3 +638,28 @@ Notes:
 Page Page Page Page Page Page Page Page Page Page Notes
 Page 40</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f797cc0b9b4e9335a18d81e479368f3c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for uptravi Package Leaflet for language en"
+Description: "ePI document Bundle for uptravi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f797cc0b9b4e9335a18d81e479368f3c"
+* entry[0].resource = composition-en-f797cc0b9b4e9335a18d81e479368f3c
+                      
+                      

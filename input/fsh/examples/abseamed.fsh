@@ -4,7 +4,7 @@ Instance: composition-en-a15e9940fa017377fbf82f0af3d7e7f4
 InstanceOf: CompositionUvEpi
 Title: "Composition for abseamed Package Leaflet"
 Description:  "Composition for abseamed Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -457,3 +457,28 @@ Austria
 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a15e9940fa017377fbf82f0af3d7e7f4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for abseamed Package Leaflet for language en"
+Description: "ePI document Bundle for abseamed Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a15e9940fa017377fbf82f0af3d7e7f4"
+* entry[0].resource = composition-en-a15e9940fa017377fbf82f0af3d7e7f4
+                      
+                      

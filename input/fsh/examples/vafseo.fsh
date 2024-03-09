@@ -4,7 +4,7 @@ Instance: composition-en-5be5abfec999fc8a1ea184754c57f783
 InstanceOf: CompositionUvEpi
 Title: "Composition for vafseo Package Leaflet"
 Description:  "Composition for vafseo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -323,3 +323,28 @@ Stamullen, Co. Meath, K32 YDIreland </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5be5abfec999fc8a1ea184754c57f783
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vafseo Package Leaflet for language en"
+Description: "ePI document Bundle for vafseo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5be5abfec999fc8a1ea184754c57f783"
+* entry[0].resource = composition-en-5be5abfec999fc8a1ea184754c57f783
+                      
+                      

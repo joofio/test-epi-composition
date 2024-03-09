@@ -4,7 +4,7 @@ Instance: composition-en-0d50af8d664b571d625f5732b765b8b5
 InstanceOf: CompositionUvEpi
 Title: "Composition for ronapreve Package Leaflet"
 Description:  "Composition for ronapreve Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -305,3 +305,28 @@ Tel: +44 (0) 1707 366This leaflet was last revised in. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0d50af8d664b571d625f5732b765b8b5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ronapreve Package Leaflet for language en"
+Description: "ePI document Bundle for ronapreve Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0d50af8d664b571d625f5732b765b8b5"
+* entry[0].resource = composition-en-0d50af8d664b571d625f5732b765b8b5
+                      
+                      

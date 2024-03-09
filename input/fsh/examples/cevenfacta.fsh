@@ -4,7 +4,7 @@ Instance: composition-en-c4dcd27eb46fddef4eed0adfcbbf3b5e
 InstanceOf: CompositionUvEpi
 Title: "Composition for cevenfacta Package Leaflet"
 Description:  "Composition for cevenfacta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -288,3 +288,28 @@ Authorisation Holder. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c4dcd27eb46fddef4eed0adfcbbf3b5e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cevenfacta Package Leaflet for language en"
+Description: "ePI document Bundle for cevenfacta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c4dcd27eb46fddef4eed0adfcbbf3b5e"
+* entry[0].resource = composition-en-c4dcd27eb46fddef4eed0adfcbbf3b5e
+                      
+                      

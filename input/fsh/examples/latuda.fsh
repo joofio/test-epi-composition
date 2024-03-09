@@ -4,7 +4,7 @@ Instance: composition-en-9ffd57dba3e5b324f9d193e04a56b735
 InstanceOf: CompositionUvEpi
 Title: "Composition for latuda Package Leaflet"
 Description:  "Composition for latuda Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -581,3 +581,28 @@ mailto:medinfo@cnx-therapeutics.com
 This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9ffd57dba3e5b324f9d193e04a56b735
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for latuda Package Leaflet for language en"
+Description: "ePI document Bundle for latuda Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9ffd57dba3e5b324f9d193e04a56b735"
+* entry[0].resource = composition-en-9ffd57dba3e5b324f9d193e04a56b735
+                      
+                      

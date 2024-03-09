@@ -4,7 +4,7 @@ Instance: composition-en-ad129f06143be4f32271a42d5b4c5f85
 InstanceOf: CompositionUvEpi
 Title: "Composition for cancidas Package Leaflet"
 Description:  "Composition for cancidas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -616,3 +616,28 @@ reconstitution and prior to infusion. Do not use if the solution is cloudy or ha
 c. CANCIDAS is formulated to provide the full labelled vial dose (70 mg) when 10 ml is withdrawn
 from the vial.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ad129f06143be4f32271a42d5b4c5f85
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cancidas Package Leaflet for language en"
+Description: "ePI document Bundle for cancidas Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ad129f06143be4f32271a42d5b4c5f85"
+* entry[0].resource = composition-en-ad129f06143be4f32271a42d5b4c5f85
+                      
+                      

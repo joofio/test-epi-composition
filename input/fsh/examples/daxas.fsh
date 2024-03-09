@@ -4,7 +4,7 @@ Instance: composition-en-1f1abc0830f94db591b845bd71b79232
 InstanceOf: CompositionUvEpi
 Title: "Composition for daxas Package Leaflet"
 Description:  "Composition for daxas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -358,3 +358,28 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last approved in
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1f1abc0830f94db591b845bd71b79232
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for daxas Package Leaflet for language en"
+Description: "ePI document Bundle for daxas Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1f1abc0830f94db591b845bd71b79232"
+* entry[0].resource = composition-en-1f1abc0830f94db591b845bd71b79232
+                      
+                      

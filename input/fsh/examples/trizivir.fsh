@@ -4,7 +4,7 @@ Instance: composition-en-2dca39e00c4bb300a2d0bc7e52b63f20
 InstanceOf: CompositionUvEpi
 Title: "Composition for trizivir Package Leaflet"
 Description:  "Composition for trizivir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -561,3 +561,28 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com   </p>
 <p>This leaflet was last revised in {MM/YYYY}  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-2dca39e00c4bb300a2d0bc7e52b63f20
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trizivir Package Leaflet for language en"
+Description: "ePI document Bundle for trizivir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2dca39e00c4bb300a2d0bc7e52b63f20"
+* entry[0].resource = composition-en-2dca39e00c4bb300a2d0bc7e52b63f20
+                      
+                      

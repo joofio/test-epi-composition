@@ -4,7 +4,7 @@ Instance: composition-en-34d2770dedeba7114006ff1f66a042d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for verzenios Package Leaflet"
 Description:  "Composition for verzenios Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -346,3 +346,28 @@ Tel: + 353-(0) 1 661 4This leaflet was last revised in<br />
 Other sources of information  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-34d2770dedeba7114006ff1f66a042d4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for verzenios Package Leaflet for language en"
+Description: "ePI document Bundle for verzenios Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-34d2770dedeba7114006ff1f66a042d4"
+* entry[0].resource = composition-en-34d2770dedeba7114006ff1f66a042d4
+                      
+                      

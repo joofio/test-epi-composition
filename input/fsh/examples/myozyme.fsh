@@ -4,7 +4,7 @@ Instance: composition-en-dbdbf98ea44926c7f122d6f81a850a2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for myozyme Package Leaflet"
 Description:  "Composition for myozyme Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -360,3 +360,28 @@ Swixx Biopharma SIA
 Tel: +371 6 616 47 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-dbdbf98ea44926c7f122d6f81a850a2f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for myozyme Package Leaflet for language en"
+Description: "ePI document Bundle for myozyme Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-dbdbf98ea44926c7f122d6f81a850a2f"
+* entry[0].resource = composition-en-dbdbf98ea44926c7f122d6f81a850a2f
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-7a98a4feed53c51bdbb3ffa9d578b887
 InstanceOf: CompositionUvEpi
 Title: "Composition for akynzeo Package Leaflet"
 Description:  "Composition for akynzeo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -373,3 +373,28 @@ information for you. </p>
 side effects not listed in this leaflet. See section 4.</li>
 </ul>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7a98a4feed53c51bdbb3ffa9d578b887
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for akynzeo Package Leaflet for language en"
+Description: "ePI document Bundle for akynzeo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7a98a4feed53c51bdbb3ffa9d578b887"
+* entry[0].resource = composition-en-7a98a4feed53c51bdbb3ffa9d578b887
+                      
+                      

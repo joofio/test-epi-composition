@@ -4,7 +4,7 @@ Instance: composition-en-a0f24920a40b1c73ed1d880ba04e208e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sirturo Package Leaflet"
 Description:  "Composition for sirturo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -373,3 +373,28 @@ about this medicine. The European Medicines Agency will review new information o
 at least every year and this leaflet will be updated as necessary.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a0f24920a40b1c73ed1d880ba04e208e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sirturo Package Leaflet for language en"
+Description: "ePI document Bundle for sirturo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a0f24920a40b1c73ed1d880ba04e208e"
+* entry[0].resource = composition-en-a0f24920a40b1c73ed1d880ba04e208e
+                      
+                      

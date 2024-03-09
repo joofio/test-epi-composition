@@ -4,7 +4,7 @@ Instance: composition-en-117ee803a8e1cf06b103ca0933d5bdf2
 InstanceOf: CompositionUvEpi
 Title: "Composition for cinryze Package Leaflet"
 Description:  "Composition for cinryze Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -481,3 +481,28 @@ injections) of Cinryze by intravenous injection (into the vein) at a rate of 1 m
 Any unused medicinal product or waste material should be disposed of in accordance with local 
 requirements.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-117ee803a8e1cf06b103ca0933d5bdf2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cinryze Package Leaflet for language en"
+Description: "ePI document Bundle for cinryze Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-117ee803a8e1cf06b103ca0933d5bdf2"
+* entry[0].resource = composition-en-117ee803a8e1cf06b103ca0933d5bdf2
+                      
+                      

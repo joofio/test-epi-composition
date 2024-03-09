@@ -4,7 +4,7 @@ Instance: composition-en-31b0725ade6496816df8ac216511de2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for tukysa Package Leaflet"
 Description:  "Composition for tukysa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -332,3 +332,28 @@ Seagen B.V. (Netherlands)
 Tel: +44 330 818 0This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-31b0725ade6496816df8ac216511de2c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tukysa Package Leaflet for language en"
+Description: "ePI document Bundle for tukysa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-31b0725ade6496816df8ac216511de2c"
+* entry[0].resource = composition-en-31b0725ade6496816df8ac216511de2c
+                      
+                      

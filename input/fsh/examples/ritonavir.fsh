@@ -4,7 +4,7 @@ Instance: composition-en-de065403a5793478002be710eeac097c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ritonavir Package Leaflet"
 Description:  "Composition for ritonavir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -567,3 +567,28 @@ Mylan IRE Healthcare Limited
 Tel: + 353 18711This leaflet was last revised in { </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-de065403a5793478002be710eeac097c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ritonavir Package Leaflet for language en"
+Description: "ePI document Bundle for ritonavir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-de065403a5793478002be710eeac097c"
+* entry[0].resource = composition-en-de065403a5793478002be710eeac097c
+                      
+                      

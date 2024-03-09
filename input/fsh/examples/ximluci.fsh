@@ -4,7 +4,7 @@ Instance: composition-en-11587ff1554abe28faf73fc5e54ae7a8
 InstanceOf: CompositionUvEpi
 Title: "Composition for ximluci Package Leaflet"
 Description:  "Composition for ximluci Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -450,3 +450,28 @@ avoiding the horizontal meridian and aiming towards the centre of the globe. The
 After injection, do not recap the needle or detach it from the syringe. Dispose of the used syringe 
 together with the needle in a sharps disposal container or in accordance with local requirements.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-11587ff1554abe28faf73fc5e54ae7a8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ximluci Package Leaflet for language en"
+Description: "ePI document Bundle for ximluci Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-11587ff1554abe28faf73fc5e54ae7a8"
+* entry[0].resource = composition-en-11587ff1554abe28faf73fc5e54ae7a8
+                      
+                      

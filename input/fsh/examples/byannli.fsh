@@ -4,7 +4,7 @@ Instance: composition-en-da701b68ad298c1e026dc2b82539868e
 InstanceOf: CompositionUvEpi
 Title: "Composition for byannli Package Leaflet"
 Description:  "Composition for byannli Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -535,3 +535,28 @@ Tel: +44 1 494 567 medinfo@its.jnj.com
 This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-da701b68ad298c1e026dc2b82539868e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for byannli Package Leaflet for language en"
+Description: "ePI document Bundle for byannli Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-da701b68ad298c1e026dc2b82539868e"
+* entry[0].resource = composition-en-da701b68ad298c1e026dc2b82539868e
+                      
+                      

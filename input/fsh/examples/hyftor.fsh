@@ -4,7 +4,7 @@ Instance: composition-en-a0d64103b1c8a608be4329399bf17c80
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyftor Package Leaflet"
 Description:  "Composition for hyftor Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -252,3 +252,28 @@ Germany </p>
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a0d64103b1c8a608be4329399bf17c80
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hyftor Package Leaflet for language en"
+Description: "ePI document Bundle for hyftor Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a0d64103b1c8a608be4329399bf17c80"
+* entry[0].resource = composition-en-a0d64103b1c8a608be4329399bf17c80
+                      
+                      

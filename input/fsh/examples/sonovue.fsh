@@ -4,7 +4,7 @@ Instance: composition-en-bc6bd17eea2126db1c55fc41b685a9e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for sonovue Package Leaflet"
 Description:  "Composition for sonovue Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -260,3 +260,28 @@ Italy </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-bc6bd17eea2126db1c55fc41b685a9e6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sonovue Package Leaflet for language en"
+Description: "ePI document Bundle for sonovue Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bc6bd17eea2126db1c55fc41b685a9e6"
+* entry[0].resource = composition-en-bc6bd17eea2126db1c55fc41b685a9e6
+                      
+                      

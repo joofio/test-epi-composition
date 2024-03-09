@@ -4,7 +4,7 @@ Instance: composition-en-679477c5514d7363b207fd8b469b6b94
 InstanceOf: CompositionUvEpi
 Title: "Composition for imcivree Package Leaflet"
 Description:  "Composition for imcivree Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -621,3 +621,28 @@ Monts
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-679477c5514d7363b207fd8b469b6b94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imcivree Package Leaflet for language en"
+Description: "ePI document Bundle for imcivree Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-679477c5514d7363b207fd8b469b6b94"
+* entry[0].resource = composition-en-679477c5514d7363b207fd8b469b6b94
+                      
+                      

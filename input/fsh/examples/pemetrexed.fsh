@@ -4,7 +4,7 @@ Instance: composition-en-e0aa2bfe700a8fcff3620d6e0a596f13
 InstanceOf: CompositionUvEpi
 Title: "Composition for pemetrexed Package Leaflet"
 Description:  "Composition for pemetrexed Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -435,3 +435,28 @@ Pfizer Limited
 Tel: + 44 (0) 1304 616This leaflet was last revised in month YYYY. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e0aa2bfe700a8fcff3620d6e0a596f13
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pemetrexed Package Leaflet for language en"
+Description: "ePI document Bundle for pemetrexed Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e0aa2bfe700a8fcff3620d6e0a596f13"
+* entry[0].resource = composition-en-e0aa2bfe700a8fcff3620d6e0a596f13
+                      
+                      

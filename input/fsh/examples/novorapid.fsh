@@ -4,7 +4,7 @@ Instance: composition-en-1c483862a2de53c1f77db26617c2401e
 InstanceOf: CompositionUvEpi
 Title: "Composition for novorapid Package Leaflet"
 Description:  "Composition for novorapid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -410,3 +410,28 @@ even if their signs of illness are the same as yours. </li>
 possible side effects not listed in this leaflet. See section 4.</li>
 </ul>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1c483862a2de53c1f77db26617c2401e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novorapid Package Leaflet for language en"
+Description: "ePI document Bundle for novorapid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1c483862a2de53c1f77db26617c2401e"
+* entry[0].resource = composition-en-1c483862a2de53c1f77db26617c2401e
+                      
+                      

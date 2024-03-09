@@ -4,7 +4,7 @@ Instance: composition-en-b75c9cca851bae600c4e2cbce08a2816
 InstanceOf: CompositionUvEpi
 Title: "Composition for adcetris Package Leaflet"
 Description:  "Composition for adcetris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -541,3 +541,28 @@ set. The infusion line should be flushed following administration with sodium ch
 <p>Following dilution, infuse the Adcetris solution immediately at the recommended infusion rate.  </p>
 <p>Total storage time of the solution from reconstitution to infusion should not exceed 24 hours. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b75c9cca851bae600c4e2cbce08a2816
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adcetris Package Leaflet for language en"
+Description: "ePI document Bundle for adcetris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b75c9cca851bae600c4e2cbce08a2816"
+* entry[0].resource = composition-en-b75c9cca851bae600c4e2cbce08a2816
+                      
+                      

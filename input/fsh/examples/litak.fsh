@@ -4,7 +4,7 @@ Instance: composition-en-f1e5c0f8dd3e6746610cc97b2dc1a234
 InstanceOf: CompositionUvEpi
 Title: "Composition for litak Package Leaflet"
 Description:  "Composition for litak Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -389,3 +389,28 @@ of about 45 , as shown in the picture. </p>
 </li>
 </ol>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f1e5c0f8dd3e6746610cc97b2dc1a234
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for litak Package Leaflet for language en"
+Description: "ePI document Bundle for litak Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f1e5c0f8dd3e6746610cc97b2dc1a234"
+* entry[0].resource = composition-en-f1e5c0f8dd3e6746610cc97b2dc1a234
+                      
+                      

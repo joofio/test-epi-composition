@@ -4,7 +4,7 @@ Instance: composition-en-36b89eaa45afd7ab0e486d51fb7ebc12
 InstanceOf: CompositionUvEpi
 Title: "Composition for cabometyx Package Leaflet"
 Description:  "Composition for cabometyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -523,3 +523,28 @@ Tel: + 44 (0)1753 62 77 This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-36b89eaa45afd7ab0e486d51fb7ebc12
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cabometyx Package Leaflet for language en"
+Description: "ePI document Bundle for cabometyx Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-36b89eaa45afd7ab0e486d51fb7ebc12"
+* entry[0].resource = composition-en-36b89eaa45afd7ab0e486d51fb7ebc12
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-5e5d8991119f1b6cc9a73ed8524ab6d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for adtralza Package Leaflet"
 Description:  "Composition for adtralza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -295,3 +295,28 @@ LEO Laboratories Ltd
 Tel: +44 (0) 1844 347This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5e5d8991119f1b6cc9a73ed8524ab6d3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adtralza Package Leaflet for language en"
+Description: "ePI document Bundle for adtralza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5e5d8991119f1b6cc9a73ed8524ab6d3"
+* entry[0].resource = composition-en-5e5d8991119f1b6cc9a73ed8524ab6d3
+                      
+                      

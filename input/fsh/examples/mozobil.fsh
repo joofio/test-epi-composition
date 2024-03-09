@@ -4,7 +4,7 @@ Instance: composition-en-b1fb2a2948a2c3c9fab67f4b0e8ec1e3
 InstanceOf: CompositionUvEpi
 Title: "Composition for mozobil Package Leaflet"
 Description:  "Composition for mozobil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -281,3 +281,28 @@ Tel: +44 (0) 800 035 2This leaflet was last approved in.  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b1fb2a2948a2c3c9fab67f4b0e8ec1e3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mozobil Package Leaflet for language en"
+Description: "ePI document Bundle for mozobil Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b1fb2a2948a2c3c9fab67f4b0e8ec1e3"
+* entry[0].resource = composition-en-b1fb2a2948a2c3c9fab67f4b0e8ec1e3
+                      
+                      

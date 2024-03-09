@@ -4,7 +4,7 @@ Instance: composition-en-7f09c8319207b8e58a7db33f5a93be62
 InstanceOf: CompositionUvEpi
 Title: "Composition for mirvaso Package Leaflet"
 Description:  "Composition for mirvaso Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -413,3 +413,28 @@ This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency 
 web site: http://www.ema.europa.eu.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7f09c8319207b8e58a7db33f5a93be62
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mirvaso Package Leaflet for language en"
+Description: "ePI document Bundle for mirvaso Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7f09c8319207b8e58a7db33f5a93be62"
+* entry[0].resource = composition-en-7f09c8319207b8e58a7db33f5a93be62
+                      
+                      

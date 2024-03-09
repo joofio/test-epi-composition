@@ -4,7 +4,7 @@ Instance: composition-en-542b66b905705c6df098d31fe81d888d
 InstanceOf: CompositionUvEpi
 Title: "Composition for silapo Package Leaflet"
 Description:  "Composition for silapo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -523,3 +523,28 @@ Tel: +49 (0) 6101 603-0
 Fax: +49 (0) 6101 603-3This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-542b66b905705c6df098d31fe81d888d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for silapo Package Leaflet for language en"
+Description: "ePI document Bundle for silapo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-542b66b905705c6df098d31fe81d888d"
+* entry[0].resource = composition-en-542b66b905705c6df098d31fe81d888d
+                      
+                      

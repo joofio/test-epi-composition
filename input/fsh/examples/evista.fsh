@@ -4,7 +4,7 @@ Instance: composition-en-e3c8c4151821eafa3b8558a4b1967125
 InstanceOf: CompositionUvEpi
 Title: "Composition for evista Package Leaflet"
 Description:  "Composition for evista Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -300,3 +300,28 @@ Tel: +33 1 43 18 13 This leaflet was last revised in month YYYY. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency (EMA) web 
 site: http://www.ema.europa.eu </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e3c8c4151821eafa3b8558a4b1967125
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evista Package Leaflet for language en"
+Description: "ePI document Bundle for evista Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e3c8c4151821eafa3b8558a4b1967125"
+* entry[0].resource = composition-en-e3c8c4151821eafa3b8558a4b1967125
+                      
+                      

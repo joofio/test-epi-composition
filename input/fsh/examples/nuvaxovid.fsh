@@ -4,7 +4,7 @@ Instance: composition-en-0b2c64f281f8a04082b537d7d8030a6f
 InstanceOf: CompositionUvEpi
 Title: "Composition for nuvaxovid Package Leaflet"
 Description:  "Composition for nuvaxovid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -259,3 +259,28 @@ Bohumil Jevany, 28Czechia </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0b2c64f281f8a04082b537d7d8030a6f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nuvaxovid Package Leaflet for language en"
+Description: "ePI document Bundle for nuvaxovid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0b2c64f281f8a04082b537d7d8030a6f"
+* entry[0].resource = composition-en-0b2c64f281f8a04082b537d7d8030a6f
+                      
+                      

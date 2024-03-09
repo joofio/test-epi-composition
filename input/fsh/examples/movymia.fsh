@@ -4,7 +4,7 @@ Instance: composition-en-973d3c4aecb4116e1e0ff7c6e68b3bb5
 InstanceOf: CompositionUvEpi
 Title: "Composition for movymia Package Leaflet"
 Description:  "Composition for movymia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -560,3 +560,28 @@ simply turning back the dose knob anti-
 clockwise to the start position.
 This instructions for use was last revised</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-973d3c4aecb4116e1e0ff7c6e68b3bb5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for movymia Package Leaflet for language en"
+Description: "ePI document Bundle for movymia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-973d3c4aecb4116e1e0ff7c6e68b3bb5"
+* entry[0].resource = composition-en-973d3c4aecb4116e1e0ff7c6e68b3bb5
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-421c345b23392c1be16e7fe1f7c5111b
 InstanceOf: CompositionUvEpi
 Title: "Composition for lorviqua Package Leaflet"
 Description:  "Composition for lorviqua Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -487,3 +487,28 @@ this leaflet will be updated as necessary.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-421c345b23392c1be16e7fe1f7c5111b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lorviqua Package Leaflet for language en"
+Description: "ePI document Bundle for lorviqua Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-421c345b23392c1be16e7fe1f7c5111b"
+* entry[0].resource = composition-en-421c345b23392c1be16e7fe1f7c5111b
+                      
+                      

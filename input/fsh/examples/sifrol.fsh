@@ -4,7 +4,7 @@ Instance: composition-en-00c9db2c528dacf2cdd39b041aea9315
 InstanceOf: CompositionUvEpi
 Title: "Composition for sifrol Package Leaflet"
 Description:  "Composition for sifrol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -627,3 +627,28 @@ Boehringer Ingelheim Ireland Ltd.
 Tel: +353 1 295 9This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-00c9db2c528dacf2cdd39b041aea9315
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sifrol Package Leaflet for language en"
+Description: "ePI document Bundle for sifrol Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-00c9db2c528dacf2cdd39b041aea9315"
+* entry[0].resource = composition-en-00c9db2c528dacf2cdd39b041aea9315
+                      
+                      

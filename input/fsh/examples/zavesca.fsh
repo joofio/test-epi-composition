@@ -4,7 +4,7 @@ Instance: composition-en-94a02a9d12dc7fffcfe59cdd0b624e87
 InstanceOf: CompositionUvEpi
 Title: "Composition for zavesca Package Leaflet"
 Description:  "Composition for zavesca Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -339,3 +339,28 @@ Tel: +44 1 494 567 This leaflet was last revised in:
 Detailed information on this medicine is available on the European Medicines Agency website:
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-94a02a9d12dc7fffcfe59cdd0b624e87
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zavesca Package Leaflet for language en"
+Description: "ePI document Bundle for zavesca Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-94a02a9d12dc7fffcfe59cdd0b624e87"
+* entry[0].resource = composition-en-94a02a9d12dc7fffcfe59cdd0b624e87
+                      
+                      

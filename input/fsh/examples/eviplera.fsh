@@ -4,7 +4,7 @@ Instance: composition-en-88027b29b9aee30b33b41e1a72006b30
 InstanceOf: CompositionUvEpi
 Title: "Composition for eviplera Package Leaflet"
 Description:  "Composition for eviplera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -576,3 +576,28 @@ Gilead Sciences Ireland UC<br />
 Tel: + 44 (0) 8000 113 This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-88027b29b9aee30b33b41e1a72006b30
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for eviplera Package Leaflet for language en"
+Description: "ePI document Bundle for eviplera Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-88027b29b9aee30b33b41e1a72006b30"
+* entry[0].resource = composition-en-88027b29b9aee30b33b41e1a72006b30
+                      
+                      

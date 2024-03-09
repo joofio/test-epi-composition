@@ -4,7 +4,7 @@ Instance: composition-en-b8f579293abab7be62522da4567f714e
 InstanceOf: CompositionUvEpi
 Title: "Composition for kadcyla Package Leaflet"
 Description:  "Composition for kadcyla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -435,3 +435,28 @@ Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b8f579293abab7be62522da4567f714e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kadcyla Package Leaflet for language en"
+Description: "ePI document Bundle for kadcyla Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b8f579293abab7be62522da4567f714e"
+* entry[0].resource = composition-en-b8f579293abab7be62522da4567f714e
+                      
+                      

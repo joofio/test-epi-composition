@@ -4,7 +4,7 @@ Instance: composition-en-b3a7e562e5ab08730073fe4737f50e1b
 InstanceOf: CompositionUvEpi
 Title: "Composition for inomax Package Leaflet"
 Description:  "Composition for inomax Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -413,3 +413,28 @@ Tel: 0800 917 4ukcsc@inotherapy.co.uk  </p>
 <p>Other sources of information<br />
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b3a7e562e5ab08730073fe4737f50e1b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inomax Package Leaflet for language en"
+Description: "ePI document Bundle for inomax Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b3a7e562e5ab08730073fe4737f50e1b"
+* entry[0].resource = composition-en-b3a7e562e5ab08730073fe4737f50e1b
+                      
+                      

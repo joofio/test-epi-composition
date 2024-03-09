@@ -4,7 +4,7 @@ Instance: composition-en-d047904bec391590dca84caa3af7d489
 InstanceOf: CompositionUvEpi
 Title: "Composition for datscan Package Leaflet"
 Description:  "Composition for datscan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -309,3 +309,28 @@ Tel: +44(0)1494 54 5This leaflet was last revised in &lt;{MM/YYYY} </p>
 http://www.ema.europa.eu. </p>
 <p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d047904bec391590dca84caa3af7d489
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for datscan Package Leaflet for language en"
+Description: "ePI document Bundle for datscan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d047904bec391590dca84caa3af7d489"
+* entry[0].resource = composition-en-d047904bec391590dca84caa3af7d489
+                      
+                      

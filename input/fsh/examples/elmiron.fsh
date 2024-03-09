@@ -4,7 +4,7 @@ Instance: composition-en-5245a6b0f8b8592e9406a25ffe7ba2b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for elmiron Package Leaflet"
 Description:  "Composition for elmiron Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -292,3 +292,28 @@ Tel: +353 (0)1 205 7This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website 
 http://www.ema.europa.eu.  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5245a6b0f8b8592e9406a25ffe7ba2b2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for elmiron Package Leaflet for language en"
+Description: "ePI document Bundle for elmiron Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5245a6b0f8b8592e9406a25ffe7ba2b2"
+* entry[0].resource = composition-en-5245a6b0f8b8592e9406a25ffe7ba2b2
+                      
+                      

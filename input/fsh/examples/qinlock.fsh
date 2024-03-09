@@ -4,7 +4,7 @@ Instance: composition-en-f451f2b898e52e0d41c95e83d0aff4db
 InstanceOf: CompositionUvEpi
 Title: "Composition for qinlock Package Leaflet"
 Description:  "Composition for qinlock Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -383,3 +383,28 @@ Tel/ T l/ Te / Tlf/  / S mi/ Puh: +318006333e-mail: medicalinformation@deciphera
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f451f2b898e52e0d41c95e83d0aff4db
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qinlock Package Leaflet for language en"
+Description: "ePI document Bundle for qinlock Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f451f2b898e52e0d41c95e83d0aff4db"
+* entry[0].resource = composition-en-f451f2b898e52e0d41c95e83d0aff4db
+                      
+                      

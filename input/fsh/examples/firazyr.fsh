@@ -4,7 +4,7 @@ Instance: composition-en-28ca2cc7e6d8de308e6b9675ddc2a14c
 InstanceOf: CompositionUvEpi
 Title: "Composition for firazyr Package Leaflet"
 Description:  "Composition for firazyr Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -464,3 +464,28 @@ Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-28ca2cc7e6d8de308e6b9675ddc2a14c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for firazyr Package Leaflet for language en"
+Description: "ePI document Bundle for firazyr Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-28ca2cc7e6d8de308e6b9675ddc2a14c"
+* entry[0].resource = composition-en-28ca2cc7e6d8de308e6b9675ddc2a14c
+                      
+                      

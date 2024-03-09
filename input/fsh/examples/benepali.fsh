@@ -4,7 +4,7 @@ Instance: composition-en-c5a54b11d8107e662bc760b43da975c8
 InstanceOf: CompositionUvEpi
 Title: "Composition for benepali Package Leaflet"
 Description:  "Composition for benepali Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -510,3 +510,28 @@ Biogen Idec (Ireland) Ltd.
 Tel: +44 (0)20 360 886 This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c5a54b11d8107e662bc760b43da975c8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for benepali Package Leaflet for language en"
+Description: "ePI document Bundle for benepali Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c5a54b11d8107e662bc760b43da975c8"
+* entry[0].resource = composition-en-c5a54b11d8107e662bc760b43da975c8
+                      
+                      

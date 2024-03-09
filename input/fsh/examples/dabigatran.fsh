@@ -4,7 +4,7 @@ Instance: composition-en-2b99aad8ae1cf49fbba781db638512ee
 InstanceOf: CompositionUvEpi
 Title: "Composition for dabigatran Package Leaflet"
 Description:  "Composition for dabigatran Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -515,3 +515,28 @@ Win Medica Pharmaceutical S.A.<br />
 Tel: +30 210 7488 This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-2b99aad8ae1cf49fbba781db638512ee
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dabigatran Package Leaflet for language en"
+Description: "ePI document Bundle for dabigatran Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2b99aad8ae1cf49fbba781db638512ee"
+* entry[0].resource = composition-en-2b99aad8ae1cf49fbba781db638512ee
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-3259b4ec962bd839a6862c2a3f8b465b
 InstanceOf: CompositionUvEpi
 Title: "Composition for lacosamide Package Leaflet"
 Description:  "Composition for lacosamide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -355,3 +355,28 @@ ul. Lutomierska 50,95-200 Pabianice, Poland </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3259b4ec962bd839a6862c2a3f8b465b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lacosamide Package Leaflet for language en"
+Description: "ePI document Bundle for lacosamide Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3259b4ec962bd839a6862c2a3f8b465b"
+* entry[0].resource = composition-en-3259b4ec962bd839a6862c2a3f8b465b
+                      
+                      

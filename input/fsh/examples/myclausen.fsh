@@ -4,7 +4,7 @@ Instance: composition-en-6326621176bd18eaa128ab504c98c814
 InstanceOf: CompositionUvEpi
 Title: "Composition for myclausen Package Leaflet"
 Description:  "Composition for myclausen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -458,3 +458,28 @@ Germany
 Tel: +49(0)3074460-This leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6326621176bd18eaa128ab504c98c814
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for myclausen Package Leaflet for language en"
+Description: "ePI document Bundle for myclausen Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6326621176bd18eaa128ab504c98c814"
+* entry[0].resource = composition-en-6326621176bd18eaa128ab504c98c814
+                      
+                      

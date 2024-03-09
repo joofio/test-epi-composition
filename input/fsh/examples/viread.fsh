@@ -4,7 +4,7 @@ Instance: composition-en-6dd54a91ba651345f1ff3d87a8449c07
 InstanceOf: CompositionUvEpi
 Title: "Composition for viread Package Leaflet"
 Description:  "Composition for viread Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -544,3 +544,28 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113 This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6dd54a91ba651345f1ff3d87a8449c07
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for viread Package Leaflet for language en"
+Description: "ePI document Bundle for viread Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6dd54a91ba651345f1ff3d87a8449c07"
+* entry[0].resource = composition-en-6dd54a91ba651345f1ff3d87a8449c07
+                      
+                      

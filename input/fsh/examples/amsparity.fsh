@@ -4,7 +4,7 @@ Instance: composition-en-cb456248863851baf93dc89f0a0fc5bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for amsparity Package Leaflet"
 Description:  "Composition for amsparity Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -783,3 +783,28 @@ Pfizer Luxembourg SARL filialas Lietuvoje
 Tel. +3705 2514This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-cb456248863851baf93dc89f0a0fc5bf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for amsparity Package Leaflet for language en"
+Description: "ePI document Bundle for amsparity Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-cb456248863851baf93dc89f0a0fc5bf"
+* entry[0].resource = composition-en-cb456248863851baf93dc89f0a0fc5bf
+                      
+                      

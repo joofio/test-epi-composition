@@ -4,7 +4,7 @@ Instance: composition-en-f9f99ae69c31ce78eb86e2425f62e81a
 InstanceOf: CompositionUvEpi
 Title: "Composition for tybost Package Leaflet"
 Description:  "Composition for tybost Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -424,3 +424,28 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113 This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f9f99ae69c31ce78eb86e2425f62e81a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tybost Package Leaflet for language en"
+Description: "ePI document Bundle for tybost Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f9f99ae69c31ce78eb86e2425f62e81a"
+* entry[0].resource = composition-en-f9f99ae69c31ce78eb86e2425f62e81a
+                      
+                      

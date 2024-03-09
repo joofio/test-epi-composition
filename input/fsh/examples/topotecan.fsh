@@ -4,7 +4,7 @@ Instance: composition-en-c70f3196826e850a6889cb4c778ecf4a
 InstanceOf: CompositionUvEpi
 Title: "Composition for topotecan Package Leaflet"
 Description:  "Composition for topotecan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -320,3 +320,28 @@ Tel.: +371 670 35 This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c70f3196826e850a6889cb4c778ecf4a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for topotecan Package Leaflet for language en"
+Description: "ePI document Bundle for topotecan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c70f3196826e850a6889cb4c778ecf4a"
+* entry[0].resource = composition-en-c70f3196826e850a6889cb4c778ecf4a
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-f2aa2b90d380444519f71c2efd9d6e1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sycrest Package Leaflet"
 Description:  "Composition for sycrest Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -409,3 +409,28 @@ Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>This leaflet was last revised in {month/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f2aa2b90d380444519f71c2efd9d6e1e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sycrest Package Leaflet for language en"
+Description: "ePI document Bundle for sycrest Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f2aa2b90d380444519f71c2efd9d6e1e"
+* entry[0].resource = composition-en-f2aa2b90d380444519f71c2efd9d6e1e
+                      
+                      

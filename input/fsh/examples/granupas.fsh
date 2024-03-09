@@ -4,7 +4,7 @@ Instance: composition-en-eb144117bf1832a81a0b81022c43f19d
 InstanceOf: CompositionUvEpi
 Title: "Composition for granupas Package Leaflet"
 Description:  "Composition for granupas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -344,3 +344,28 @@ Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-eb144117bf1832a81a0b81022c43f19d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for granupas Package Leaflet for language en"
+Description: "ePI document Bundle for granupas Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-eb144117bf1832a81a0b81022c43f19d"
+* entry[0].resource = composition-en-eb144117bf1832a81a0b81022c43f19d
+                      
+                      

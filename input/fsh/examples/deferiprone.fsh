@@ -4,7 +4,7 @@ Instance: composition-en-4a09b3a8552105810368cbf52100627e
 InstanceOf: CompositionUvEpi
 Title: "Composition for deferiprone Package Leaflet"
 Description:  "Composition for deferiprone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -235,3 +235,28 @@ Phone number: +49 7621 1693 Fax number: +49 7621 1693 Electronic mail: lipomed@l
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-4a09b3a8552105810368cbf52100627e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for deferiprone Package Leaflet for language en"
+Description: "ePI document Bundle for deferiprone Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4a09b3a8552105810368cbf52100627e"
+* entry[0].resource = composition-en-4a09b3a8552105810368cbf52100627e
+                      
+                      

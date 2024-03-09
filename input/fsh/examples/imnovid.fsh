@@ -4,7 +4,7 @@ Instance: composition-en-9690a7f47a287edf985eddd979c0833b
 InstanceOf: CompositionUvEpi
 Title: "Composition for imnovid Package Leaflet"
 Description:  "Composition for imnovid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -535,3 +535,28 @@ Netherlands </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9690a7f47a287edf985eddd979c0833b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imnovid Package Leaflet for language en"
+Description: "ePI document Bundle for imnovid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9690a7f47a287edf985eddd979c0833b"
+* entry[0].resource = composition-en-9690a7f47a287edf985eddd979c0833b
+                      
+                      

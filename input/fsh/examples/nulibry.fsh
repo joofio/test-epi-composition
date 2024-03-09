@@ -4,7 +4,7 @@ Instance: composition-en-eaeff7283270f9b7e51abc26d498e673
 InstanceOf: CompositionUvEpi
 Title: "Composition for nulibry Package Leaflet"
 Description:  "Composition for nulibry Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -218,3 +218,28 @@ this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-eaeff7283270f9b7e51abc26d498e673
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nulibry Package Leaflet for language en"
+Description: "ePI document Bundle for nulibry Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-eaeff7283270f9b7e51abc26d498e673"
+* entry[0].resource = composition-en-eaeff7283270f9b7e51abc26d498e673
+                      
+                      

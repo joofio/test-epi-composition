@@ -4,7 +4,7 @@ Instance: composition-en-5ac4a49a9ba51d620f11b22f100bae66
 InstanceOf: CompositionUvEpi
 Title: "Composition for elzonris Package Leaflet"
 Description:  "Composition for elzonris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -402,3 +402,28 @@ this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5ac4a49a9ba51d620f11b22f100bae66
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for elzonris Package Leaflet for language en"
+Description: "ePI document Bundle for elzonris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5ac4a49a9ba51d620f11b22f100bae66"
+* entry[0].resource = composition-en-5ac4a49a9ba51d620f11b22f100bae66
+                      
+                      

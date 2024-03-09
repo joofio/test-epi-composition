@@ -4,7 +4,7 @@ Instance: composition-en-5908d361fd5ea6267d242f3bbae1b944
 InstanceOf: CompositionUvEpi
 Title: "Composition for eurartesim Package Leaflet"
 Description:  "Composition for eurartesim Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -387,3 +387,28 @@ Suomi/Finland, Sverige, United Kingdom (Northern Ireland). </p>
 <p>This leaflet was last revised in month YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5908d361fd5ea6267d242f3bbae1b944
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for eurartesim Package Leaflet for language en"
+Description: "ePI document Bundle for eurartesim Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5908d361fd5ea6267d242f3bbae1b944"
+* entry[0].resource = composition-en-5908d361fd5ea6267d242f3bbae1b944
+                      
+                      

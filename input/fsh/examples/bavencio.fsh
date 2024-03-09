@@ -4,7 +4,7 @@ Instance: composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
 InstanceOf: CompositionUvEpi
 Title: "Composition for bavencio Package Leaflet"
 Description:  "Composition for bavencio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -372,3 +372,28 @@ Italy </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bavencio Package Leaflet for language en"
+Description: "ePI document Bundle for bavencio Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b"
+* entry[0].resource = composition-en-9bd3cc7b420f9f1fa6edcaaaf015de7b
+                      
+                      

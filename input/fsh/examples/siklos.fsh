@@ -4,7 +4,7 @@ Instance: composition-en-e7ba6957dcf929fb2c43dcd1b448488d
 InstanceOf: CompositionUvEpi
 Title: "Composition for siklos Package Leaflet"
 Description:  "Composition for siklos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -392,3 +392,28 @@ THERAVIA
 Tel: +44-(0)203-695 9This leaflet was last revised in MM/YYYY. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e7ba6957dcf929fb2c43dcd1b448488d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for siklos Package Leaflet for language en"
+Description: "ePI document Bundle for siklos Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e7ba6957dcf929fb2c43dcd1b448488d"
+* entry[0].resource = composition-en-e7ba6957dcf929fb2c43dcd1b448488d
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-faa7baf422434e913a351146a7b6b220
 InstanceOf: CompositionUvEpi
 Title: "Composition for comtess Package Leaflet"
 Description:  "Composition for comtess Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -365,3 +365,28 @@ Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-faa7baf422434e913a351146a7b6b220
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for comtess Package Leaflet for language en"
+Description: "ePI document Bundle for comtess Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-faa7baf422434e913a351146a7b6b220"
+* entry[0].resource = composition-en-faa7baf422434e913a351146a7b6b220
+                      
+                      

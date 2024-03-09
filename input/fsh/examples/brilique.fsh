@@ -4,7 +4,7 @@ Instance: composition-en-d18c775a37197bebb71a8fd2758408f4
 InstanceOf: CompositionUvEpi
 Title: "Composition for brilique Package Leaflet"
 Description:  "Composition for brilique Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -416,3 +416,28 @@ Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d18c775a37197bebb71a8fd2758408f4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for brilique Package Leaflet for language en"
+Description: "ePI document Bundle for brilique Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d18c775a37197bebb71a8fd2758408f4"
+* entry[0].resource = composition-en-d18c775a37197bebb71a8fd2758408f4
+                      
+                      

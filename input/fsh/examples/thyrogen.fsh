@@ -4,7 +4,7 @@ Instance: composition-en-bbb526e801230c1471e1f7a100d25aa3
 InstanceOf: CompositionUvEpi
 Title: "Composition for thyrogen Package Leaflet"
 Description:  "Composition for thyrogen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -331,3 +331,28 @@ Swixx Biopharma UAB
 Tel. +370 5 236 91 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-bbb526e801230c1471e1f7a100d25aa3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for thyrogen Package Leaflet for language en"
+Description: "ePI document Bundle for thyrogen Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bbb526e801230c1471e1f7a100d25aa3"
+* entry[0].resource = composition-en-bbb526e801230c1471e1f7a100d25aa3
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-28b6beabb1138dcf80cd8cb464115640
 InstanceOf: CompositionUvEpi
 Title: "Composition for veoza Package Leaflet"
 Description:  "Composition for veoza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -273,3 +273,28 @@ Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671T
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-28b6beabb1138dcf80cd8cb464115640
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for veoza Package Leaflet for language en"
+Description: "ePI document Bundle for veoza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-28b6beabb1138dcf80cd8cb464115640"
+* entry[0].resource = composition-en-28b6beabb1138dcf80cd8cb464115640
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-d184441eaf6370e77e170ec9c0dc05db
 InstanceOf: CompositionUvEpi
 Title: "Composition for zimbus Package Leaflet"
 Description:  "Composition for zimbus Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -387,3 +387,28 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d184441eaf6370e77e170ec9c0dc05db
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zimbus Package Leaflet for language en"
+Description: "ePI document Bundle for zimbus Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d184441eaf6370e77e170ec9c0dc05db"
+* entry[0].resource = composition-en-d184441eaf6370e77e170ec9c0dc05db
+                      
+                      

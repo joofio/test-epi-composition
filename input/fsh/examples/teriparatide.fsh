@@ -4,7 +4,7 @@ Instance: composition-en-8e72e27852c8a54465539921267947b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for teriparatide Package Leaflet"
 Description:  "Composition for teriparatide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -514,3 +514,28 @@ operation. </p>
 <p>The Teriparatide SUN is not recommended for use by the blind or visually impaired 
 persons without the assistance of a person trained in the proper use of the pre-filled pen. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8e72e27852c8a54465539921267947b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for teriparatide Package Leaflet for language en"
+Description: "ePI document Bundle for teriparatide Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8e72e27852c8a54465539921267947b7"
+* entry[0].resource = composition-en-8e72e27852c8a54465539921267947b7
+                      
+                      

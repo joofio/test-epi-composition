@@ -4,7 +4,7 @@ Instance: composition-en-65348d0704af82b9a03c835ed62f4089
 InstanceOf: CompositionUvEpi
 Title: "Composition for omvoh Package Leaflet"
 Description:  "Composition for omvoh Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -371,3 +371,28 @@ even if their signs of illness are the same as yours.
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-65348d0704af82b9a03c835ed62f4089
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for omvoh Package Leaflet for language en"
+Description: "ePI document Bundle for omvoh Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-65348d0704af82b9a03c835ed62f4089"
+* entry[0].resource = composition-en-65348d0704af82b9a03c835ed62f4089
+                      
+                      

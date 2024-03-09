@@ -4,7 +4,7 @@ Instance: composition-en-7d1bb12ba6240a71a9360f68b8249137
 InstanceOf: CompositionUvEpi
 Title: "Composition for grasustek Package Leaflet"
 Description:  "Composition for grasustek Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -361,3 +361,28 @@ T l: +33 (0) 800 089 This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7d1bb12ba6240a71a9360f68b8249137
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for grasustek Package Leaflet for language en"
+Description: "ePI document Bundle for grasustek Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7d1bb12ba6240a71a9360f68b8249137"
+* entry[0].resource = composition-en-7d1bb12ba6240a71a9360f68b8249137
+                      
+                      

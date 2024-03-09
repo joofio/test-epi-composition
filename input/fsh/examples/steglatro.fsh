@@ -4,7 +4,7 @@ Instance: composition-en-3e75a55b0a0d0f0feaac242115a6585e
 InstanceOf: CompositionUvEpi
 Title: "Composition for steglatro Package Leaflet"
 Description:  "Composition for steglatro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -425,3 +425,28 @@ This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3e75a55b0a0d0f0feaac242115a6585e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for steglatro Package Leaflet for language en"
+Description: "ePI document Bundle for steglatro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3e75a55b0a0d0f0feaac242115a6585e"
+* entry[0].resource = composition-en-3e75a55b0a0d0f0feaac242115a6585e
+                      
+                      

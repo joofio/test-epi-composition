@@ -4,7 +4,7 @@ Instance: composition-en-341d92e7ebcda3c3a941ccdae62ee683
 InstanceOf: CompositionUvEpi
 Title: "Composition for ledaga Package Leaflet"
 Description:  "Composition for ledaga Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -355,3 +355,28 @@ T l: +33 (0)1 47 73 64 France </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-341d92e7ebcda3c3a941ccdae62ee683
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ledaga Package Leaflet for language en"
+Description: "ePI document Bundle for ledaga Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-341d92e7ebcda3c3a941ccdae62ee683"
+* entry[0].resource = composition-en-341d92e7ebcda3c3a941ccdae62ee683
+                      
+                      

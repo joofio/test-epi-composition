@@ -4,7 +4,7 @@ Instance: composition-en-141d929731a8da3daac9f9a16668bc62
 InstanceOf: CompositionUvEpi
 Title: "Composition for victoza Package Leaflet"
 Description:  "Composition for victoza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -404,3 +404,28 @@ inaccurate dosing. </p>
 <p>Caregivers must be very careful when handling used needles   to prevent needle injury and 
 cross-infection. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-141d929731a8da3daac9f9a16668bc62
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for victoza Package Leaflet for language en"
+Description: "ePI document Bundle for victoza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-141d929731a8da3daac9f9a16668bc62"
+* entry[0].resource = composition-en-141d929731a8da3daac9f9a16668bc62
+                      
+                      

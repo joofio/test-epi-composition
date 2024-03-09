@@ -4,7 +4,7 @@ Instance: composition-en-05f8c1dee8f03d43d5a47046b61f2f18
 InstanceOf: CompositionUvEpi
 Title: "Composition for norvir Package Leaflet"
 Description:  "Composition for norvir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -658,3 +658,28 @@ Do not use this medicine if you notice the powder is not beige/pale yellow to ye
 Do not throw away any medicines via wastewater. Ask your pharmacist how to throw away medicines 
 you no longer use. These measures will help protect the environment.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-05f8c1dee8f03d43d5a47046b61f2f18
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for norvir Package Leaflet for language en"
+Description: "ePI document Bundle for norvir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-05f8c1dee8f03d43d5a47046b61f2f18"
+* entry[0].resource = composition-en-05f8c1dee8f03d43d5a47046b61f2f18
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-802da6d86549eecc6e51c1bae9cf0471
 InstanceOf: CompositionUvEpi
 Title: "Composition for yellox Package Leaflet"
 Description:  "Composition for yellox Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -235,3 +235,28 @@ Germany </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-802da6d86549eecc6e51c1bae9cf0471
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for yellox Package Leaflet for language en"
+Description: "ePI document Bundle for yellox Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-802da6d86549eecc6e51c1bae9cf0471"
+* entry[0].resource = composition-en-802da6d86549eecc6e51c1bae9cf0471
+                      
+                      

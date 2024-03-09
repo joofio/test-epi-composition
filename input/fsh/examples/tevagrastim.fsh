@@ -4,7 +4,7 @@ Instance: composition-en-37659c041a93299fdf753eeff4621a42
 InstanceOf: CompositionUvEpi
 Title: "Composition for tevagrastim Package Leaflet"
 Description:  "Composition for tevagrastim Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -442,3 +442,28 @@ Ireland
 Tel: +44 2075407This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-37659c041a93299fdf753eeff4621a42
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tevagrastim Package Leaflet for language en"
+Description: "ePI document Bundle for tevagrastim Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-37659c041a93299fdf753eeff4621a42"
+* entry[0].resource = composition-en-37659c041a93299fdf753eeff4621a42
+                      
+                      

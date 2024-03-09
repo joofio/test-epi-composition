@@ -4,7 +4,7 @@ Instance: composition-en-08cf6fb4c3e579390e3141196404b03b
 InstanceOf: CompositionUvEpi
 Title: "Composition for quadramet Package Leaflet"
 Description:  "Composition for quadramet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -202,3 +202,28 @@ France </p>
 <p>The leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-08cf6fb4c3e579390e3141196404b03b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for quadramet Package Leaflet for language en"
+Description: "ePI document Bundle for quadramet Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-08cf6fb4c3e579390e3141196404b03b"
+* entry[0].resource = composition-en-08cf6fb4c3e579390e3141196404b03b
+                      
+                      

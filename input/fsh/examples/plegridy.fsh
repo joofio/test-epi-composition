@@ -4,7 +4,7 @@ Instance: composition-en-065940950f1dbb7c281e0e49d5dfc752
 InstanceOf: CompositionUvEpi
 Title: "Composition for plegridy Package Leaflet"
 Description:  "Composition for plegridy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -509,3 +509,28 @@ Biogen Idec (Ireland) Limited
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-065940950f1dbb7c281e0e49d5dfc752
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for plegridy Package Leaflet for language en"
+Description: "ePI document Bundle for plegridy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-065940950f1dbb7c281e0e49d5dfc752"
+* entry[0].resource = composition-en-065940950f1dbb7c281e0e49d5dfc752
+                      
+                      

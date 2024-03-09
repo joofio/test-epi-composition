@@ -4,7 +4,7 @@ Instance: composition-en-92e6fb3296c549e1fee744233084617c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rezzayo Package Leaflet"
 Description:  "Composition for rezzayo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -252,3 +252,28 @@ Netherlands </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-92e6fb3296c549e1fee744233084617c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rezzayo Package Leaflet for language en"
+Description: "ePI document Bundle for rezzayo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-92e6fb3296c549e1fee744233084617c"
+* entry[0].resource = composition-en-92e6fb3296c549e1fee744233084617c
+                      
+                      

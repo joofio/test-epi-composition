@@ -4,7 +4,7 @@ Instance: composition-en-72698f459e623b86f3f80561e5b525b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for mevlyq Package Leaflet"
 Description:  "Composition for mevlyq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -273,3 +273,28 @@ Germany </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-72698f459e623b86f3f80561e5b525b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mevlyq Package Leaflet for language en"
+Description: "ePI document Bundle for mevlyq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-72698f459e623b86f3f80561e5b525b7"
+* entry[0].resource = composition-en-72698f459e623b86f3f80561e5b525b7
+                      
+                      

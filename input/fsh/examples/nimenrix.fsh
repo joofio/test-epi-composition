@@ -4,7 +4,7 @@ Instance: composition-en-61ed8c3f1f4d3021b93672950d48db1a
 InstanceOf: CompositionUvEpi
 Title: "Composition for nimenrix Package Leaflet"
 Description:  "Composition for nimenrix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -338,3 +338,28 @@ Tel.: + 371 670 35 This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-61ed8c3f1f4d3021b93672950d48db1a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nimenrix Package Leaflet for language en"
+Description: "ePI document Bundle for nimenrix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-61ed8c3f1f4d3021b93672950d48db1a"
+* entry[0].resource = composition-en-61ed8c3f1f4d3021b93672950d48db1a
+                      
+                      

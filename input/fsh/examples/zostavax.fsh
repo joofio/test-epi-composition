@@ -4,7 +4,7 @@ Instance: composition-en-e635923c4f0c1291555b7edc27db8608
 InstanceOf: CompositionUvEpi
 Title: "Composition for zostavax Package Leaflet"
 Description:  "Composition for zostavax Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -340,3 +340,28 @@ needle and inject the entire volume by subcutaneous or intramuscular route.
 Any unused product or waste material should be disposed of in accordance with local requirements.
 See also section </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e635923c4f0c1291555b7edc27db8608
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zostavax Package Leaflet for language en"
+Description: "ePI document Bundle for zostavax Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e635923c4f0c1291555b7edc27db8608"
+* entry[0].resource = composition-en-e635923c4f0c1291555b7edc27db8608
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-edc4bfe9d05712290f3c5ca9354f5cc8
 InstanceOf: CompositionUvEpi
 Title: "Composition for velmetia Package Leaflet"
 Description:  "Composition for velmetia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -434,3 +434,28 @@ Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the website of the European Medicines Agency</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-edc4bfe9d05712290f3c5ca9354f5cc8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for velmetia Package Leaflet for language en"
+Description: "ePI document Bundle for velmetia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-edc4bfe9d05712290f3c5ca9354f5cc8"
+* entry[0].resource = composition-en-edc4bfe9d05712290f3c5ca9354f5cc8
+                      
+                      

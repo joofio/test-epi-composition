@@ -4,7 +4,7 @@ Instance: composition-en-5e5a65e1c335023d46902a7373e1d95f
 InstanceOf: CompositionUvEpi
 Title: "Composition for iclusig Package Leaflet"
 Description:  "Composition for iclusig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -395,3 +395,28 @@ http://www.ema.europa.eu. </p>
 <p>There are also links to other websites about rare diseases and treatments. </p>
 <p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website.  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5e5a65e1c335023d46902a7373e1d95f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for iclusig Package Leaflet for language en"
+Description: "ePI document Bundle for iclusig Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5e5a65e1c335023d46902a7373e1d95f"
+* entry[0].resource = composition-en-5e5a65e1c335023d46902a7373e1d95f
+                      
+                      

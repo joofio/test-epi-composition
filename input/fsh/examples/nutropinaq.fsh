@@ -4,7 +4,7 @@ Instance: composition-en-72e43cd2bff034f1d9129ee8db99e248
 InstanceOf: CompositionUvEpi
 Title: "Composition for nutropinaq Package Leaflet"
 Description:  "Composition for nutropinaq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -403,3 +403,28 @@ Biomapas Zagreb d.o.o.
 Tel: + 385 17 757 This leaflet was last revised in &lt;{Month/YYYY}&gt; </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-72e43cd2bff034f1d9129ee8db99e248
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nutropinaq Package Leaflet for language en"
+Description: "ePI document Bundle for nutropinaq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-72e43cd2bff034f1d9129ee8db99e248"
+* entry[0].resource = composition-en-72e43cd2bff034f1d9129ee8db99e248
+                      
+                      

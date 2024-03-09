@@ -4,7 +4,7 @@ Instance: composition-en-e4c758c9b76c24f48a2ecc149820b3c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for levetiracetam Package Leaflet"
 Description:  "Composition for levetiracetam Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -431,3 +431,28 @@ Ireland
 Tel: +44 2075407This leaflet was last revised in {month/YYYY}. 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e4c758c9b76c24f48a2ecc149820b3c6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for levetiracetam Package Leaflet for language en"
+Description: "ePI document Bundle for levetiracetam Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e4c758c9b76c24f48a2ecc149820b3c6"
+* entry[0].resource = composition-en-e4c758c9b76c24f48a2ecc149820b3c6
+                      
+                      

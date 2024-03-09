@@ -4,7 +4,7 @@ Instance: composition-en-022de2712c9cec11ed019ca691afcec1
 InstanceOf: CompositionUvEpi
 Title: "Composition for baqsimi Package Leaflet"
 Description:  "Composition for baqsimi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -308,3 +308,28 @@ Tel: + 353-(0) 1 661 4This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-022de2712c9cec11ed019ca691afcec1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for baqsimi Package Leaflet for language en"
+Description: "ePI document Bundle for baqsimi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-022de2712c9cec11ed019ca691afcec1"
+* entry[0].resource = composition-en-022de2712c9cec11ed019ca691afcec1
+                      
+                      

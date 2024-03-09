@@ -4,7 +4,7 @@ Instance: composition-en-69a419ce456cf797ccfe1cc7135a3fc4
 InstanceOf: CompositionUvEpi
 Title: "Composition for betaferon Package Leaflet"
 Description:  "Composition for betaferon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -470,3 +470,28 @@ Do not use Betaferon if you notice it contains particles or is discoloured. </p>
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-69a419ce456cf797ccfe1cc7135a3fc4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for betaferon Package Leaflet for language en"
+Description: "ePI document Bundle for betaferon Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-69a419ce456cf797ccfe1cc7135a3fc4"
+* entry[0].resource = composition-en-69a419ce456cf797ccfe1cc7135a3fc4
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-36510bf45b0e72d68ab742851da42239
 InstanceOf: CompositionUvEpi
 Title: "Composition for bridion Package Leaflet"
 Description:  "Composition for bridion Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -337,3 +337,28 @@ http://www.ema.europa.eu.</p>
 <p>The following information is intended for healthcare professionals only:
 For detailed information refer to the Summary of Product Characteristics of BRIDION.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-36510bf45b0e72d68ab742851da42239
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bridion Package Leaflet for language en"
+Description: "ePI document Bundle for bridion Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-36510bf45b0e72d68ab742851da42239"
+* entry[0].resource = composition-en-36510bf45b0e72d68ab742851da42239
+                      
+                      

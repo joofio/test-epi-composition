@@ -4,7 +4,7 @@ Instance: composition-en-2c8c6ac450595b1fe82bdcbd366c3744
 InstanceOf: CompositionUvEpi
 Title: "Composition for votubia Package Leaflet"
 Description:  "Composition for votubia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -514,3 +514,28 @@ even if their signs of illness are the same as yours.
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-2c8c6ac450595b1fe82bdcbd366c3744
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for votubia Package Leaflet for language en"
+Description: "ePI document Bundle for votubia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2c8c6ac450595b1fe82bdcbd366c3744"
+* entry[0].resource = composition-en-2c8c6ac450595b1fe82bdcbd366c3744
+                      
+                      

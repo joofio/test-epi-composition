@@ -4,7 +4,7 @@ Instance: composition-en-36f1b29a7444210831ac7deab30ae673
 InstanceOf: CompositionUvEpi
 Title: "Composition for avonex Package Leaflet"
 Description:  "Composition for avonex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -525,3 +525,28 @@ Biogen Idec (Ireland) Limited
   +44 (0) 1628 50 1This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-36f1b29a7444210831ac7deab30ae673
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for avonex Package Leaflet for language en"
+Description: "ePI document Bundle for avonex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-36f1b29a7444210831ac7deab30ae673"
+* entry[0].resource = composition-en-36f1b29a7444210831ac7deab30ae673
+                      
+                      

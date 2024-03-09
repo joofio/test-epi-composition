@@ -4,7 +4,7 @@ Instance: composition-en-21182c5873285a39663676519ff4bbab
 InstanceOf: CompositionUvEpi
 Title: "Composition for adjupanrix Package Leaflet"
 Description:  "Composition for adjupanrix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -433,3 +433,28 @@ leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-21182c5873285a39663676519ff4bbab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adjupanrix Package Leaflet for language en"
+Description: "ePI document Bundle for adjupanrix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-21182c5873285a39663676519ff4bbab"
+* entry[0].resource = composition-en-21182c5873285a39663676519ff4bbab
+                      
+                      

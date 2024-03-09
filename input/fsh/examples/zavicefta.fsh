@@ -4,7 +4,7 @@ Instance: composition-en-ff92cd53cb489e28c08e8b0937092be9
 InstanceOf: CompositionUvEpi
 Title: "Composition for zavicefta Package Leaflet"
 Description:  "Composition for zavicefta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -335,3 +335,28 @@ Tel: + 371 670 35 This leaflet was last revised in MM/YYYY
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ff92cd53cb489e28c08e8b0937092be9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zavicefta Package Leaflet for language en"
+Description: "ePI document Bundle for zavicefta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ff92cd53cb489e28c08e8b0937092be9"
+* entry[0].resource = composition-en-ff92cd53cb489e28c08e8b0937092be9
+                      
+                      

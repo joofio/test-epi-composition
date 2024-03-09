@@ -4,7 +4,7 @@ Instance: composition-en-7b06c05fd92836401373297097be0166
 InstanceOf: CompositionUvEpi
 Title: "Composition for idacio Package Leaflet"
 Description:  "Composition for idacio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -869,3 +869,28 @@ Austria </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7b06c05fd92836401373297097be0166
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for idacio Package Leaflet for language en"
+Description: "ePI document Bundle for idacio Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7b06c05fd92836401373297097be0166"
+* entry[0].resource = composition-en-7b06c05fd92836401373297097be0166
+                      
+                      

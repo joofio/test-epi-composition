@@ -4,7 +4,7 @@ Instance: composition-en-7504582d8c4f390424d8e4bfcd82fbae
 InstanceOf: CompositionUvEpi
 Title: "Composition for constella Package Leaflet"
 Description:  "Composition for constella Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -321,3 +321,28 @@ Tel: +44 (0)1628 561This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7504582d8c4f390424d8e4bfcd82fbae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for constella Package Leaflet for language en"
+Description: "ePI document Bundle for constella Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7504582d8c4f390424d8e4bfcd82fbae"
+* entry[0].resource = composition-en-7504582d8c4f390424d8e4bfcd82fbae
+                      
+                      

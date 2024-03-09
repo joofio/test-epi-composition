@@ -4,7 +4,7 @@ Instance: composition-en-10411891efb91b807d8d0643ea830640
 InstanceOf: CompositionUvEpi
 Title: "Composition for instanyl Package Leaflet"
 Description:  "Composition for instanyl Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -465,3 +465,28 @@ Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-10411891efb91b807d8d0643ea830640
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for instanyl Package Leaflet for language en"
+Description: "ePI document Bundle for instanyl Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-10411891efb91b807d8d0643ea830640"
+* entry[0].resource = composition-en-10411891efb91b807d8d0643ea830640
+                      
+                      

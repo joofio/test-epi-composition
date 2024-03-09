@@ -4,7 +4,7 @@ Instance: composition-en-703c0707f76711c32684f846cc20b14e
 InstanceOf: CompositionUvEpi
 Title: "Composition for potactasol Package Leaflet"
 Description:  "Composition for potactasol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -362,3 +362,28 @@ Ireland
 Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-703c0707f76711c32684f846cc20b14e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for potactasol Package Leaflet for language en"
+Description: "ePI document Bundle for potactasol Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-703c0707f76711c32684f846cc20b14e"
+* entry[0].resource = composition-en-703c0707f76711c32684f846cc20b14e
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-238717ba3673c75eaeb58348d507d1fc
 InstanceOf: CompositionUvEpi
 Title: "Composition for orencia Package Leaflet"
 Description:  "Composition for orencia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -371,3 +371,28 @@ Dublin Ireland </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-238717ba3673c75eaeb58348d507d1fc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orencia Package Leaflet for language en"
+Description: "ePI document Bundle for orencia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-238717ba3673c75eaeb58348d507d1fc"
+* entry[0].resource = composition-en-238717ba3673c75eaeb58348d507d1fc
+                      
+                      

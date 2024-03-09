@@ -4,7 +4,7 @@ Instance: composition-en-492a437b12024dde8d19defc1975028b
 InstanceOf: CompositionUvEpi
 Title: "Composition for xeplion Package Leaflet"
 Description:  "Composition for xeplion Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -586,3 +586,28 @@ heard. Discard the syringe with needle appropriately.
 8c
 Any unused product or waste material should be disposed of in accordance with local requirements.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-492a437b12024dde8d19defc1975028b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xeplion Package Leaflet for language en"
+Description: "ePI document Bundle for xeplion Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-492a437b12024dde8d19defc1975028b"
+* entry[0].resource = composition-en-492a437b12024dde8d19defc1975028b
+                      
+                      

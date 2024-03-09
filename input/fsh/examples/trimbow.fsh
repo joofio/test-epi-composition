@@ -4,7 +4,7 @@ Instance: composition-en-b1dc557df32bb39c63c00547638eca2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for trimbow Package Leaflet"
 Description:  "Composition for trimbow Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -632,3 +632,28 @@ even if their signs of illness are the same as yours.
 - If you get any side effects talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b1dc557df32bb39c63c00547638eca2f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trimbow Package Leaflet for language en"
+Description: "ePI document Bundle for trimbow Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b1dc557df32bb39c63c00547638eca2f"
+* entry[0].resource = composition-en-b1dc557df32bb39c63c00547638eca2f
+                      
+                      

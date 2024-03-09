@@ -4,7 +4,7 @@ Instance: composition-en-48d92e6f37b4f6c7f2463bf11b72f4f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for giapreza Package Leaflet"
 Description:  "Composition for giapreza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -304,3 +304,28 @@ PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4This leaflet was last revised in MM/YYYY. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-48d92e6f37b4f6c7f2463bf11b72f4f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for giapreza Package Leaflet for language en"
+Description: "ePI document Bundle for giapreza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-48d92e6f37b4f6c7f2463bf11b72f4f0"
+* entry[0].resource = composition-en-48d92e6f37b4f6c7f2463bf11b72f4f0
+                      
+                      

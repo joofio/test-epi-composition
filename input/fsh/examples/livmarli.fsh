@@ -4,7 +4,7 @@ Instance: composition-en-0a545e5c9515b05d7e6ea3998a427c70
 InstanceOf: CompositionUvEpi
 Title: "Composition for livmarli Package Leaflet"
 Description:  "Composition for livmarli Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -337,3 +337,28 @@ rarity of this disease it has been impossible to get complete information on thi
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0a545e5c9515b05d7e6ea3998a427c70
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for livmarli Package Leaflet for language en"
+Description: "ePI document Bundle for livmarli Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0a545e5c9515b05d7e6ea3998a427c70"
+* entry[0].resource = composition-en-0a545e5c9515b05d7e6ea3998a427c70
+                      
+                      

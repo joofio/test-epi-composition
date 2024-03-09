@@ -4,7 +4,7 @@ Instance: composition-en-0f22d445f37b02d3c837ebc1451981fc
 InstanceOf: CompositionUvEpi
 Title: "Composition for xtandi Package Leaflet"
 Description:  "Composition for xtandi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -354,3 +354,28 @@ Astellas Pharma Co., Limited
 Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5This leaflet was last revised in MM/YYYY.  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0f22d445f37b02d3c837ebc1451981fc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xtandi Package Leaflet for language en"
+Description: "ePI document Bundle for xtandi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0f22d445f37b02d3c837ebc1451981fc"
+* entry[0].resource = composition-en-0f22d445f37b02d3c837ebc1451981fc
+                      
+                      

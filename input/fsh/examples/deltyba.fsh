@@ -4,7 +4,7 @@ Instance: composition-en-247338c6ac4af4d25ce31dba51e05ac4
 InstanceOf: CompositionUvEpi
 Title: "Composition for deltyba Package Leaflet"
 Description:  "Composition for deltyba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -332,3 +332,28 @@ The European Medicines Agency will review new information on this medicine at le
 this leaflet will be updated as necessary. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-247338c6ac4af4d25ce31dba51e05ac4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for deltyba Package Leaflet for language en"
+Description: "ePI document Bundle for deltyba Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-247338c6ac4af4d25ce31dba51e05ac4"
+* entry[0].resource = composition-en-247338c6ac4af4d25ce31dba51e05ac4
+                      
+                      

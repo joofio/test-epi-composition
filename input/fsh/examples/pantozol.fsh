@@ -4,7 +4,7 @@ Instance: composition-en-74b5a727fa7666e2eecdbcd92db26812
 InstanceOf: CompositionUvEpi
 Title: "Composition for pantozol Package Leaflet"
 Description:  "Composition for pantozol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -468,3 +468,28 @@ acid related symptoms.
 - Reduce intake of food that can cause heartburn. These might include: Chocolate, peppermint, 
 spearmint, fatty and fried food, acidic food, spicy food, citrus fruits and fruit juices, tomatoes. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-74b5a727fa7666e2eecdbcd92db26812
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pantozol Package Leaflet for language en"
+Description: "ePI document Bundle for pantozol Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-74b5a727fa7666e2eecdbcd92db26812"
+* entry[0].resource = composition-en-74b5a727fa7666e2eecdbcd92db26812
+                      
+                      

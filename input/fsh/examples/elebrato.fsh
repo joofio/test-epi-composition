@@ -4,7 +4,7 @@ Instance: composition-en-07dfba600182595cfe2f36d89c5d2642
 InstanceOf: CompositionUvEpi
 Title: "Composition for elebrato Package Leaflet"
 Description:  "Composition for elebrato Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -402,3 +402,28 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-07dfba600182595cfe2f36d89c5d2642
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for elebrato Package Leaflet for language en"
+Description: "ePI document Bundle for elebrato Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-07dfba600182595cfe2f36d89c5d2642"
+* entry[0].resource = composition-en-07dfba600182595cfe2f36d89c5d2642
+                      
+                      

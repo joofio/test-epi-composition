@@ -4,7 +4,7 @@ Instance: composition-en-77a855e484d10473c2746e9b03c57dde
 InstanceOf: CompositionUvEpi
 Title: "Composition for leflunomide Package Leaflet"
 Description:  "Composition for leflunomide Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -446,3 +446,28 @@ Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-77a855e484d10473c2746e9b03c57dde
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for leflunomide Package Leaflet for language en"
+Description: "ePI document Bundle for leflunomide Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-77a855e484d10473c2746e9b03c57dde"
+* entry[0].resource = composition-en-77a855e484d10473c2746e9b03c57dde
+                      
+                      

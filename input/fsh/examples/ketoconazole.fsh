@@ -4,7 +4,7 @@ Instance: composition-en-a28a8b9246548829f22c8b8c14ca6138
 InstanceOf: CompositionUvEpi
 Title: "Composition for ketoconazole Package Leaflet"
 Description:  "Composition for ketoconazole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -359,3 +359,28 @@ Poland </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a28a8b9246548829f22c8b8c14ca6138
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ketoconazole Package Leaflet for language en"
+Description: "ePI document Bundle for ketoconazole Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a28a8b9246548829f22c8b8c14ca6138"
+* entry[0].resource = composition-en-a28a8b9246548829f22c8b8c14ca6138
+                      
+                      

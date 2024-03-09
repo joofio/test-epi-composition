@@ -4,7 +4,7 @@ Instance: composition-en-e27db7be57c176c4d945aa1d06a95aa5
 InstanceOf: CompositionUvEpi
 Title: "Composition for raloxifene Package Leaflet"
 Description:  "Composition for raloxifene Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -316,3 +316,28 @@ Ireland
 Tel: +44 2075407This leaflet was last revised in MM/YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e27db7be57c176c4d945aa1d06a95aa5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for raloxifene Package Leaflet for language en"
+Description: "ePI document Bundle for raloxifene Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e27db7be57c176c4d945aa1d06a95aa5"
+* entry[0].resource = composition-en-e27db7be57c176c4d945aa1d06a95aa5
+                      
+                      

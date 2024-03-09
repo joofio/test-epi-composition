@@ -4,7 +4,7 @@ Instance: composition-en-354a12a26a634d20a9056857238f1e23
 InstanceOf: CompositionUvEpi
 Title: "Composition for jalra Package Leaflet"
 Description:  "Composition for jalra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -345,3 +345,28 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-354a12a26a634d20a9056857238f1e23
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jalra Package Leaflet for language en"
+Description: "ePI document Bundle for jalra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-354a12a26a634d20a9056857238f1e23"
+* entry[0].resource = composition-en-354a12a26a634d20a9056857238f1e23
+                      
+                      

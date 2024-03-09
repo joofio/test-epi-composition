@@ -4,7 +4,7 @@ Instance: composition-en-dbc2060ee6f62aba124d52b5666f8915
 InstanceOf: CompositionUvEpi
 Title: "Composition for lytgobi Package Leaflet"
 Description:  "Composition for lytgobi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -286,3 +286,28 @@ Detailed information on this medicine is available on the European Medicines Age
 http://www.ema.europa.eu. </p>
 <p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-dbc2060ee6f62aba124d52b5666f8915
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lytgobi Package Leaflet for language en"
+Description: "ePI document Bundle for lytgobi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-dbc2060ee6f62aba124d52b5666f8915"
+* entry[0].resource = composition-en-dbc2060ee6f62aba124d52b5666f8915
+                      
+                      

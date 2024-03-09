@@ -4,7 +4,7 @@ Instance: composition-en-3aa969282c152694c6f4b966217ad337
 InstanceOf: CompositionUvEpi
 Title: "Composition for eladynos Package Leaflet"
 Description:  "Composition for eladynos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -264,3 +264,28 @@ Dublin, D02 EK84, Ireland </p>
 Other source of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3aa969282c152694c6f4b966217ad337
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for eladynos Package Leaflet for language en"
+Description: "ePI document Bundle for eladynos Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3aa969282c152694c6f4b966217ad337"
+* entry[0].resource = composition-en-3aa969282c152694c6f4b966217ad337
+                      
+                      

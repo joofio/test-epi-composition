@@ -4,7 +4,7 @@ Instance: composition-en-3fd0e71025c97e85a4b382e052756f99
 InstanceOf: CompositionUvEpi
 Title: "Composition for vabysmo Package Leaflet"
 Description:  "Composition for vabysmo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -365,3 +365,28 @@ Roche Products (Ireland) Ltd.
 Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3fd0e71025c97e85a4b382e052756f99
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vabysmo Package Leaflet for language en"
+Description: "ePI document Bundle for vabysmo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3fd0e71025c97e85a4b382e052756f99"
+* entry[0].resource = composition-en-3fd0e71025c97e85a4b382e052756f99
+                      
+                      

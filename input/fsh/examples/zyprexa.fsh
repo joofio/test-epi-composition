@@ -4,7 +4,7 @@ Instance: composition-en-9cfa53e5a31a6544aeb83b303f96813f
 InstanceOf: CompositionUvEpi
 Title: "Composition for zyprexa Package Leaflet"
 Description:  "Composition for zyprexa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -296,3 +296,28 @@ Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain. </p>
 <p>This leaflet was last revised in {month XXXX} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9cfa53e5a31a6544aeb83b303f96813f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zyprexa Package Leaflet for language en"
+Description: "ePI document Bundle for zyprexa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9cfa53e5a31a6544aeb83b303f96813f"
+* entry[0].resource = composition-en-9cfa53e5a31a6544aeb83b303f96813f
+                      
+                      

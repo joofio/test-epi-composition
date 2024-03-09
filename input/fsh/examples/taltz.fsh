@@ -4,7 +4,7 @@ Instance: composition-en-0a52b09545f0b2e00d5c72212ca2a403
 InstanceOf: CompositionUvEpi
 Title: "Composition for taltz Package Leaflet"
 Description:  "Composition for taltz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -597,3 +597,28 @@ even if their signs of illness are the same as yours.
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0a52b09545f0b2e00d5c72212ca2a403
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for taltz Package Leaflet for language en"
+Description: "ePI document Bundle for taltz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0a52b09545f0b2e00d5c72212ca2a403"
+* entry[0].resource = composition-en-0a52b09545f0b2e00d5c72212ca2a403
+                      
+                      

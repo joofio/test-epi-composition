@@ -4,7 +4,7 @@ Instance: composition-en-abfb98258fb6ebad664e6e102308dcc0
 InstanceOf: CompositionUvEpi
 Title: "Composition for mycophenolate Package Leaflet"
 Description:  "Composition for mycophenolate Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -485,3 +485,28 @@ Ireland
 Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-abfb98258fb6ebad664e6e102308dcc0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mycophenolate Package Leaflet for language en"
+Description: "ePI document Bundle for mycophenolate Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-abfb98258fb6ebad664e6e102308dcc0"
+* entry[0].resource = composition-en-abfb98258fb6ebad664e6e102308dcc0
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-156b61ce1985095bf62d895909c686c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for azilect Package Leaflet"
 Description:  "Composition for azilect Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -350,3 +350,28 @@ Teva Pharmaceuticals Ireland
 Ireland 
 Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-156b61ce1985095bf62d895909c686c6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azilect Package Leaflet for language en"
+Description: "ePI document Bundle for azilect Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-156b61ce1985095bf62d895909c686c6"
+* entry[0].resource = composition-en-156b61ce1985095bf62d895909c686c6
+                      
+                      

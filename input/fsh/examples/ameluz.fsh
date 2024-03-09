@@ -4,7 +4,7 @@ Instance: composition-en-27a52606a6d06c382d79e38520d58ce1
 InstanceOf: CompositionUvEpi
 Title: "Composition for ameluz Package Leaflet"
 Description:  "Composition for ameluz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -423,3 +423,28 @@ Tel: +49 214 87632 ameluz@biofrontera.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-27a52606a6d06c382d79e38520d58ce1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ameluz Package Leaflet for language en"
+Description: "ePI document Bundle for ameluz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-27a52606a6d06c382d79e38520d58ce1"
+* entry[0].resource = composition-en-27a52606a6d06c382d79e38520d58ce1
+                      
+                      

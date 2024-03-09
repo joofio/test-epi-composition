@@ -4,7 +4,7 @@ Instance: composition-en-a321c1bbb3d0ca5c622bbbc9c0607a43
 InstanceOf: CompositionUvEpi
 Title: "Composition for beromun Package Leaflet"
 Description:  "Composition for beromun Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -263,3 +263,28 @@ Tel : +352 27403This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a321c1bbb3d0ca5c622bbbc9c0607a43
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for beromun Package Leaflet for language en"
+Description: "ePI document Bundle for beromun Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a321c1bbb3d0ca5c622bbbc9c0607a43"
+* entry[0].resource = composition-en-a321c1bbb3d0ca5c622bbbc9c0607a43
+                      
+                      

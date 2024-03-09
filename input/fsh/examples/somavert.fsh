@@ -4,7 +4,7 @@ Instance: composition-en-8f36194c6cc063f159cffcece33902d5
 InstanceOf: CompositionUvEpi
 Title: "Composition for somavert Package Leaflet"
 Description:  "Composition for somavert Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -492,3 +492,28 @@ What should I do if I have any doubts about my medicine?</p>
 <p>All questions should be handled by a doctor, nurse or pharmacist familiar with 
 SOMAVERT.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8f36194c6cc063f159cffcece33902d5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for somavert Package Leaflet for language en"
+Description: "ePI document Bundle for somavert Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8f36194c6cc063f159cffcece33902d5"
+* entry[0].resource = composition-en-8f36194c6cc063f159cffcece33902d5
+                      
+                      

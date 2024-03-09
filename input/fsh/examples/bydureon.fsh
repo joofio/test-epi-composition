@@ -4,7 +4,7 @@ Instance: composition-en-6314391ffa616dcd24b26dde0bda19df
 InstanceOf: CompositionUvEpi
 Title: "Composition for bydureon Package Leaflet"
 Description:  "Composition for bydureon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -396,3 +396,28 @@ Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6314391ffa616dcd24b26dde0bda19df
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bydureon Package Leaflet for language en"
+Description: "ePI document Bundle for bydureon Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6314391ffa616dcd24b26dde0bda19df"
+* entry[0].resource = composition-en-6314391ffa616dcd24b26dde0bda19df
+                      
+                      

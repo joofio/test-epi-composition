@@ -4,7 +4,7 @@ Instance: composition-en-5f5520731112fb64f951c68ff27de8db
 InstanceOf: CompositionUvEpi
 Title: "Composition for pecfent Package Leaflet"
 Description:  "Composition for pecfent Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -484,3 +484,28 @@ Italy </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5f5520731112fb64f951c68ff27de8db
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pecfent Package Leaflet for language en"
+Description: "ePI document Bundle for pecfent Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5f5520731112fb64f951c68ff27de8db"
+* entry[0].resource = composition-en-5f5520731112fb64f951c68ff27de8db
+                      
+                      

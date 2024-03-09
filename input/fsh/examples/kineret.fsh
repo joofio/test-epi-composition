@@ -4,7 +4,7 @@ Instance: composition-en-e32af5235bc449e932db46935c53460a
 InstanceOf: CompositionUvEpi
 Title: "Composition for kineret Package Leaflet"
 Description:  "Composition for kineret Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -296,3 +296,28 @@ Sweden </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e32af5235bc449e932db46935c53460a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kineret Package Leaflet for language en"
+Description: "ePI document Bundle for kineret Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e32af5235bc449e932db46935c53460a"
+* entry[0].resource = composition-en-e32af5235bc449e932db46935c53460a
+                      
+                      

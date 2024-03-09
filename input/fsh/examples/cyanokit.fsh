@@ -4,7 +4,7 @@ Instance: composition-en-58c65c2882289cd285f1ea0608d4e9f7
 InstanceOf: CompositionUvEpi
 Title: "Composition for cyanokit Package Leaflet"
 Description:  "Composition for cyanokit Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -244,3 +244,28 @@ France </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-58c65c2882289cd285f1ea0608d4e9f7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cyanokit Package Leaflet for language en"
+Description: "ePI document Bundle for cyanokit Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-58c65c2882289cd285f1ea0608d4e9f7"
+* entry[0].resource = composition-en-58c65c2882289cd285f1ea0608d4e9f7
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-eb8ec19effa25a547e158c24705b1a5c
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebilfumin Package Leaflet"
 Description:  "Composition for ebilfumin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -457,3 +457,28 @@ Ireland
 Tel: +44 2075407This leaflet was last revised in {MM/YYYY} {month YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-eb8ec19effa25a547e158c24705b1a5c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ebilfumin Package Leaflet for language en"
+Description: "ePI document Bundle for ebilfumin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-eb8ec19effa25a547e158c24705b1a5c"
+* entry[0].resource = composition-en-eb8ec19effa25a547e158c24705b1a5c
+                      
+                      

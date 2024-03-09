@@ -4,7 +4,7 @@ Instance: composition-en-c6f251ac470345e2bc0f62b0b3ff2ff0
 InstanceOf: CompositionUvEpi
 Title: "Composition for mavenclad Package Leaflet"
 Description:  "Composition for mavenclad Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -500,3 +500,28 @@ Spain </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c6f251ac470345e2bc0f62b0b3ff2ff0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mavenclad Package Leaflet for language en"
+Description: "ePI document Bundle for mavenclad Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c6f251ac470345e2bc0f62b0b3ff2ff0"
+* entry[0].resource = composition-en-c6f251ac470345e2bc0f62b0b3ff2ff0
+                      
+                      

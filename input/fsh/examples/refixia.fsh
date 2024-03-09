@@ -4,7 +4,7 @@ Instance: composition-en-5777eb2944401c2b658d055d99fe5e6c
 InstanceOf: CompositionUvEpi
 Title: "Composition for refixia Package Leaflet"
 Description:  "Composition for refixia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -269,3 +269,28 @@ DK-2880 Bagsv rd, Denmark  </p>
 <p>Other sources of information  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5777eb2944401c2b658d055d99fe5e6c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for refixia Package Leaflet for language en"
+Description: "ePI document Bundle for refixia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5777eb2944401c2b658d055d99fe5e6c"
+* entry[0].resource = composition-en-5777eb2944401c2b658d055d99fe5e6c
+                      
+                      

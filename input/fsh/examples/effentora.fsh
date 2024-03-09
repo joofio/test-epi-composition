@@ -4,7 +4,7 @@ Instance: composition-en-e3e38f96bdd05d0b2e420ed431026ab9
 InstanceOf: CompositionUvEpi
 Title: "Composition for effentora Package Leaflet"
 Description:  "Composition for effentora Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -509,3 +509,28 @@ Ireland
 Tel: +44 (0) 207 540 7This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e3e38f96bdd05d0b2e420ed431026ab9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for effentora Package Leaflet for language en"
+Description: "ePI document Bundle for effentora Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e3e38f96bdd05d0b2e420ed431026ab9"
+* entry[0].resource = composition-en-e3e38f96bdd05d0b2e420ed431026ab9
+                      
+                      

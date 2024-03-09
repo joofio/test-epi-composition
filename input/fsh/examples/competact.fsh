@@ -4,7 +4,7 @@ Instance: composition-en-6717e3b12c817674be9c520895f4090e
 InstanceOf: CompositionUvEpi
 Title: "Composition for competact Package Leaflet"
 Description:  "Composition for competact Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -338,3 +338,28 @@ Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website 
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6717e3b12c817674be9c520895f4090e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for competact Package Leaflet for language en"
+Description: "ePI document Bundle for competact Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6717e3b12c817674be9c520895f4090e"
+* entry[0].resource = composition-en-6717e3b12c817674be9c520895f4090e
+                      
+                      

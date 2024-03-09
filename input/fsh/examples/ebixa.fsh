@@ -4,7 +4,7 @@ Instance: composition-en-a0179b039da107bd55842f5819aa0ee7
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebixa Package Leaflet"
 Description:  "Composition for ebixa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -330,3 +330,28 @@ Tel:  +353 1 468 9This leaflet was last approved in MM/YYYY </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a0179b039da107bd55842f5819aa0ee7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ebixa Package Leaflet for language en"
+Description: "ePI document Bundle for ebixa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a0179b039da107bd55842f5819aa0ee7"
+* entry[0].resource = composition-en-a0179b039da107bd55842f5819aa0ee7
+                      
+                      

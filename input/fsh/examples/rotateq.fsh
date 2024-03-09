@@ -4,7 +4,7 @@ Instance: composition-en-ef95b389907181c6a50441289b7e7a0a
 InstanceOf: CompositionUvEpi
 Title: "Composition for rotateq Package Leaflet"
 Description:  "Composition for rotateq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -356,3 +356,28 @@ according to local regulations.
 Any unused product or waste material should be disposed of in accordance with local requirements.
 See also section 3. How to use RotaTeq.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ef95b389907181c6a50441289b7e7a0a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rotateq Package Leaflet for language en"
+Description: "ePI document Bundle for rotateq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ef95b389907181c6a50441289b7e7a0a"
+* entry[0].resource = composition-en-ef95b389907181c6a50441289b7e7a0a
+                      
+                      

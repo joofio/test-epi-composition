@@ -4,7 +4,7 @@ Instance: composition-en-bbd22ba876ae7309a2b1061a1e9bb063
 InstanceOf: CompositionUvEpi
 Title: "Composition for vantavo Package Leaflet"
 Description:  "Composition for vantavo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -440,3 +440,28 @@ Tel: +44 (0) 208 159 3medicalinformationuk@organon.com  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 https://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-bbd22ba876ae7309a2b1061a1e9bb063
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vantavo Package Leaflet for language en"
+Description: "ePI document Bundle for vantavo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bbd22ba876ae7309a2b1061a1e9bb063"
+* entry[0].resource = composition-en-bbd22ba876ae7309a2b1061a1e9bb063
+                      
+                      

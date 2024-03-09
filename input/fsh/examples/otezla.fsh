@@ -4,7 +4,7 @@ Instance: composition-en-8e4b99b58ac1302c60e1a3d75920f33f
 InstanceOf: CompositionUvEpi
 Title: "Composition for otezla Package Leaflet"
 Description:  "Composition for otezla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -428,3 +428,28 @@ packaging with a smartphone. The same information is also available on the follo
 www.otezla-eu-pil.com. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8e4b99b58ac1302c60e1a3d75920f33f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for otezla Package Leaflet for language en"
+Description: "ePI document Bundle for otezla Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8e4b99b58ac1302c60e1a3d75920f33f"
+* entry[0].resource = composition-en-8e4b99b58ac1302c60e1a3d75920f33f
+                      
+                      

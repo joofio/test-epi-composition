@@ -4,7 +4,7 @@ Instance: composition-en-47051919a8e9d48444ba2eb642a73065
 InstanceOf: CompositionUvEpi
 Title: "Composition for tyruko Package Leaflet"
 Description:  "Composition for tyruko Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -418,3 +418,28 @@ Austria </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-47051919a8e9d48444ba2eb642a73065
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tyruko Package Leaflet for language en"
+Description: "ePI document Bundle for tyruko Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-47051919a8e9d48444ba2eb642a73065"
+* entry[0].resource = composition-en-47051919a8e9d48444ba2eb642a73065
+                      
+                      

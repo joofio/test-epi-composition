@@ -4,7 +4,7 @@ Instance: composition-en-f55146b06bad26b63272dae234a560c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for xaluprine Package Leaflet"
 Description:  "Composition for xaluprine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -385,3 +385,28 @@ F91 DIreland
 This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f55146b06bad26b63272dae234a560c6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xaluprine Package Leaflet for language en"
+Description: "ePI document Bundle for xaluprine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f55146b06bad26b63272dae234a560c6"
+* entry[0].resource = composition-en-f55146b06bad26b63272dae234a560c6
+                      
+                      

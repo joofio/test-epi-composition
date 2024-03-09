@@ -4,7 +4,7 @@ Instance: composition-en-aefacad9a6795a89d3df82b1bc20e9aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for plerixafor Package Leaflet"
 Description:  "Composition for plerixafor Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -239,3 +239,28 @@ KW20A Kordin Industrial Park, Paola
 PLA 3000, Malta </p>
 <p>This leaflet was last revised in  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-aefacad9a6795a89d3df82b1bc20e9aa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for plerixafor Package Leaflet for language en"
+Description: "ePI document Bundle for plerixafor Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-aefacad9a6795a89d3df82b1bc20e9aa"
+* entry[0].resource = composition-en-aefacad9a6795a89d3df82b1bc20e9aa
+                      
+                      

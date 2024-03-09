@@ -4,7 +4,7 @@ Instance: composition-en-0c5e12e3bf77e98e54b67519ddda8471
 InstanceOf: CompositionUvEpi
 Title: "Composition for myocet Package Leaflet"
 Description:  "Composition for myocet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -368,3 +368,28 @@ as a bolus injection. </p>
 </ol>
 <p>Any unused product or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0c5e12e3bf77e98e54b67519ddda8471
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for myocet Package Leaflet for language en"
+Description: "ePI document Bundle for myocet Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0c5e12e3bf77e98e54b67519ddda8471"
+* entry[0].resource = composition-en-0c5e12e3bf77e98e54b67519ddda8471
+                      
+                      

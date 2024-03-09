@@ -4,7 +4,7 @@ Instance: composition-en-e4e2fe5de212dd30e27726e0694aae72
 InstanceOf: CompositionUvEpi
 Title: "Composition for emend Package Leaflet"
 Description:  "Composition for emend Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -411,3 +411,28 @@ them, even if their signs of illness are the same.
 - If the child gets any side effects, talk to the doctor, pharmacist, or nurse. This includes any
 possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e4e2fe5de212dd30e27726e0694aae72
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emend Package Leaflet for language en"
+Description: "ePI document Bundle for emend Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e4e2fe5de212dd30e27726e0694aae72"
+* entry[0].resource = composition-en-e4e2fe5de212dd30e27726e0694aae72
+                      
+                      

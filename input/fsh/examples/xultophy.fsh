@@ -4,7 +4,7 @@ Instance: composition-en-616a2493f2581291ddc019d50fec7c8b
 InstanceOf: CompositionUvEpi
 Title: "Composition for xultophy Package Leaflet"
 Description:  "Composition for xultophy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -427,3 +427,28 @@ DK-2880 Bagsv rd, Denmark </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-616a2493f2581291ddc019d50fec7c8b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xultophy Package Leaflet for language en"
+Description: "ePI document Bundle for xultophy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-616a2493f2581291ddc019d50fec7c8b"
+* entry[0].resource = composition-en-616a2493f2581291ddc019d50fec7c8b
+                      
+                      

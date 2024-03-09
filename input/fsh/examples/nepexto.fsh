@@ -4,7 +4,7 @@ Instance: composition-en-5f1d2d45d01481d24ca0912f037c6116
 InstanceOf: CompositionUvEpi
 Title: "Composition for nepexto Package Leaflet"
 Description:  "Composition for nepexto Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -496,3 +496,28 @@ Biosimilar Collaborations Ireland Limited<br />
 Tel: 0080008250This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5f1d2d45d01481d24ca0912f037c6116
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nepexto Package Leaflet for language en"
+Description: "ePI document Bundle for nepexto Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5f1d2d45d01481d24ca0912f037c6116"
+* entry[0].resource = composition-en-5f1d2d45d01481d24ca0912f037c6116
+                      
+                      

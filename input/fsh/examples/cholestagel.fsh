@@ -4,7 +4,7 @@ Instance: composition-en-774fedb6c66b32bb4aacfa98a373a48f
 InstanceOf: CompositionUvEpi
 Title: "Composition for cholestagel Package Leaflet"
 Description:  "Composition for cholestagel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -271,3 +271,28 @@ Genzyme Ireland Ltd., IDA Industrial Park, Old Kilmeaden Road, Waterford, Irelan
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-774fedb6c66b32bb4aacfa98a373a48f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cholestagel Package Leaflet for language en"
+Description: "ePI document Bundle for cholestagel Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-774fedb6c66b32bb4aacfa98a373a48f"
+* entry[0].resource = composition-en-774fedb6c66b32bb4aacfa98a373a48f
+                      
+                      

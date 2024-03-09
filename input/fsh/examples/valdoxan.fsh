@@ -4,7 +4,7 @@ Instance: composition-en-79d322f9708e44619600f26fcf371238
 InstanceOf: CompositionUvEpi
 Title: "Composition for valdoxan Package Leaflet"
 Description:  "Composition for valdoxan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -383,3 +383,28 @@ Servier Laboratories (Ireland) Ltd </p>
 <p>Tel: +371 67502Tel: +44 (0)1753 666This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-79d322f9708e44619600f26fcf371238
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for valdoxan Package Leaflet for language en"
+Description: "ePI document Bundle for valdoxan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-79d322f9708e44619600f26fcf371238"
+* entry[0].resource = composition-en-79d322f9708e44619600f26fcf371238
+                      
+                      

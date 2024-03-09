@@ -4,7 +4,7 @@ Instance: composition-en-001a1e1abfef180b40eba1bcc5ecf9fa
 InstanceOf: CompositionUvEpi
 Title: "Composition for steglujan Package Leaflet"
 Description:  "Composition for steglujan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -485,3 +485,28 @@ This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-001a1e1abfef180b40eba1bcc5ecf9fa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for steglujan Package Leaflet for language en"
+Description: "ePI document Bundle for steglujan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-001a1e1abfef180b40eba1bcc5ecf9fa"
+* entry[0].resource = composition-en-001a1e1abfef180b40eba1bcc5ecf9fa
+                      
+                      

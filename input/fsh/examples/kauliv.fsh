@@ -4,7 +4,7 @@ Instance: composition-en-b811ffa8d83d17ddd48f696870f998c3
 InstanceOf: CompositionUvEpi
 Title: "Composition for kauliv Package Leaflet"
 Description:  "Composition for kauliv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -328,3 +328,28 @@ This leaflet was last revised in
 Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: http://</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b811ffa8d83d17ddd48f696870f998c3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kauliv Package Leaflet for language en"
+Description: "ePI document Bundle for kauliv Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b811ffa8d83d17ddd48f696870f998c3"
+* entry[0].resource = composition-en-b811ffa8d83d17ddd48f696870f998c3
+                      
+                      

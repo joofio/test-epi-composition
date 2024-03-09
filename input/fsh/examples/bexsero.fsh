@@ -4,7 +4,7 @@ Instance: composition-en-69c2bef02c7fe63e8cfc997db1e3d8f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for bexsero Package Leaflet"
 Description:  "Composition for bexsero Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -370,3 +370,28 @@ Tel: +44(0)800 221customercontactuk@gsk.com </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-69c2bef02c7fe63e8cfc997db1e3d8f8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bexsero Package Leaflet for language en"
+Description: "ePI document Bundle for bexsero Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-69c2bef02c7fe63e8cfc997db1e3d8f8"
+* entry[0].resource = composition-en-69c2bef02c7fe63e8cfc997db1e3d8f8
+                      
+                      

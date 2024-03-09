@@ -4,7 +4,7 @@ Instance: composition-en-1a4d7d0936b560f6ab01480d49118287
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaborem Package Leaflet"
 Description:  "Composition for vaborem Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -415,3 +415,28 @@ reconstitution and dilution. </p>
 <p>Vaborem is not chemically compatible with glucose-containing solutions. This medicinal product must not 
 be mixed with other medicinal products except those mentioned in section 6.6 of the SmPC. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1a4d7d0936b560f6ab01480d49118287
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaborem Package Leaflet for language en"
+Description: "ePI document Bundle for vaborem Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1a4d7d0936b560f6ab01480d49118287"
+* entry[0].resource = composition-en-1a4d7d0936b560f6ab01480d49118287
+                      
+                      

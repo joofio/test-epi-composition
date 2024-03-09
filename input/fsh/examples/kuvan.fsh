@@ -4,7 +4,7 @@ Instance: composition-en-92909816e3fb20d8a0e9b31b0e2db7d9
 InstanceOf: CompositionUvEpi
 Title: "Composition for kuvan Package Leaflet"
 Description:  "Composition for kuvan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -293,3 +293,28 @@ Ireland </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-92909816e3fb20d8a0e9b31b0e2db7d9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kuvan Package Leaflet for language en"
+Description: "ePI document Bundle for kuvan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-92909816e3fb20d8a0e9b31b0e2db7d9"
+* entry[0].resource = composition-en-92909816e3fb20d8a0e9b31b0e2db7d9
+                      
+                      

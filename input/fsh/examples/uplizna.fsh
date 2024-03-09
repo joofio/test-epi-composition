@@ -4,7 +4,7 @@ Instance: composition-en-664d393693f4983d6c9e5af3f5904561
 InstanceOf: CompositionUvEpi
 Title: "Composition for uplizna Package Leaflet"
 Description:  "Composition for uplizna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -239,3 +239,28 @@ Ireland </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-664d393693f4983d6c9e5af3f5904561
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for uplizna Package Leaflet for language en"
+Description: "ePI document Bundle for uplizna Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-664d393693f4983d6c9e5af3f5904561"
+* entry[0].resource = composition-en-664d393693f4983d6c9e5af3f5904561
+                      
+                      

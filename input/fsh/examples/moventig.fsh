@@ -4,7 +4,7 @@ Instance: composition-en-62c46661f10ee1d05a1ac34b44b4b3a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for moventig Package Leaflet"
 Description:  "Composition for moventig Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -288,3 +288,28 @@ Netherlands </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu.  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-62c46661f10ee1d05a1ac34b44b4b3a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for moventig Package Leaflet for language en"
+Description: "ePI document Bundle for moventig Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-62c46661f10ee1d05a1ac34b44b4b3a2"
+* entry[0].resource = composition-en-62c46661f10ee1d05a1ac34b44b4b3a2
+                      
+                      

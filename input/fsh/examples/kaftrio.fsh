@@ -4,7 +4,7 @@ Instance: composition-en-9907a30e9752c1b71142c1d64ee9aa50
 InstanceOf: CompositionUvEpi
 Title: "Composition for kaftrio Package Leaflet"
 Description:  "Composition for kaftrio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -388,3 +388,28 @@ them, even if their signs of illness are the same as your child.
 * If you get any side effects, talk to your child s doctor or pharmacist. This includes any possible 
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9907a30e9752c1b71142c1d64ee9aa50
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kaftrio Package Leaflet for language en"
+Description: "ePI document Bundle for kaftrio Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9907a30e9752c1b71142c1d64ee9aa50"
+* entry[0].resource = composition-en-9907a30e9752c1b71142c1d64ee9aa50
+                      
+                      

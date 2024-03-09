@@ -4,7 +4,7 @@ Instance: composition-en-18491093bf4c2b130ac9eb83b74183eb
 InstanceOf: CompositionUvEpi
 Title: "Composition for farydak Package Leaflet"
 Description:  "Composition for farydak Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -467,3 +467,28 @@ Barcelona, Spain </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-18491093bf4c2b130ac9eb83b74183eb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for farydak Package Leaflet for language en"
+Description: "ePI document Bundle for farydak Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-18491093bf4c2b130ac9eb83b74183eb"
+* entry[0].resource = composition-en-18491093bf4c2b130ac9eb83b74183eb
+                      
+                      

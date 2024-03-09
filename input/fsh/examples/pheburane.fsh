@@ -4,7 +4,7 @@ Instance: composition-en-1d04d08431237504735e48c47e138afc
 InstanceOf: CompositionUvEpi
 Title: "Composition for pheburane Package Leaflet"
 Description:  "Composition for pheburane Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -349,3 +349,28 @@ Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>This leaflet was last revised in:  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1d04d08431237504735e48c47e138afc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pheburane Package Leaflet for language en"
+Description: "ePI document Bundle for pheburane Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1d04d08431237504735e48c47e138afc"
+* entry[0].resource = composition-en-1d04d08431237504735e48c47e138afc
+                      
+                      

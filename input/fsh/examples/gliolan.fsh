@@ -4,7 +4,7 @@ Instance: composition-en-28443e1a5133f6583423ca208758fe45
 InstanceOf: CompositionUvEpi
 Title: "Composition for gliolan Package Leaflet"
 Description:  "Composition for gliolan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -311,3 +311,28 @@ IRL - Dublin Tel: + 353 (0)1 290 7medical@dccvital.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-28443e1a5133f6583423ca208758fe45
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for gliolan Package Leaflet for language en"
+Description: "ePI document Bundle for gliolan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-28443e1a5133f6583423ca208758fe45"
+* entry[0].resource = composition-en-28443e1a5133f6583423ca208758fe45
+                      
+                      

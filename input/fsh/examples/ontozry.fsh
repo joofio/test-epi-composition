@@ -4,7 +4,7 @@ Instance: composition-en-fca2b0949c2af4853c1cd5b425813585
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontozry Package Leaflet"
 Description:  "Composition for ontozry Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -313,3 +313,28 @@ benefit-risk balance of the medicinal product(s) containing cenobamate is unchan
 proposed changes to the product information 
 The CHMP recommends that the terms of the marketing authorisation(s) should be varied. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fca2b0949c2af4853c1cd5b425813585
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ontozry Package Leaflet for language en"
+Description: "ePI document Bundle for ontozry Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fca2b0949c2af4853c1cd5b425813585"
+* entry[0].resource = composition-en-fca2b0949c2af4853c1cd5b425813585
+                      
+                      

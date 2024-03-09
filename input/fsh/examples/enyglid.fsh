@@ -4,7 +4,7 @@ Instance: composition-en-8a64404ab8208188b8002b2af6aa836e
 InstanceOf: CompositionUvEpi
 Title: "Composition for enyglid Package Leaflet"
 Description:  "Composition for enyglid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -257,3 +257,28 @@ Store in the original package in order to protect from light.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8a64404ab8208188b8002b2af6aa836e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for enyglid Package Leaflet for language en"
+Description: "ePI document Bundle for enyglid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8a64404ab8208188b8002b2af6aa836e"
+* entry[0].resource = composition-en-8a64404ab8208188b8002b2af6aa836e
+                      
+                      

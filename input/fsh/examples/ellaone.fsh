@@ -4,7 +4,7 @@ Instance: composition-en-a8d190f59e73033fd1157419aef18ccc
 InstanceOf: CompositionUvEpi
 Title: "Composition for ellaone Package Leaflet"
 Description:  "Composition for ellaone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -387,3 +387,28 @@ Laboratoire HRA Pharma
 Tel: + 33-(0)1 40 33 11 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a8d190f59e73033fd1157419aef18ccc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ellaone Package Leaflet for language en"
+Description: "ePI document Bundle for ellaone Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a8d190f59e73033fd1157419aef18ccc"
+* entry[0].resource = composition-en-a8d190f59e73033fd1157419aef18ccc
+                      
+                      

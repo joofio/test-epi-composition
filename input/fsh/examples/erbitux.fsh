@@ -4,7 +4,7 @@ Instance: composition-en-d84b65577b31a872cd6279c4e28cb6f8
 InstanceOf: CompositionUvEpi
 Title: "Composition for erbitux Package Leaflet"
 Description:  "Composition for erbitux Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -324,3 +324,28 @@ Germany </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d84b65577b31a872cd6279c4e28cb6f8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for erbitux Package Leaflet for language en"
+Description: "ePI document Bundle for erbitux Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d84b65577b31a872cd6279c4e28cb6f8"
+* entry[0].resource = composition-en-d84b65577b31a872cd6279c4e28cb6f8
+                      
+                      

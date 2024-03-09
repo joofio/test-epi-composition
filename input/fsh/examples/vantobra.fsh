@@ -4,7 +4,7 @@ Instance: composition-en-a2aa072350b7f0283a86de62e6b164d2
 InstanceOf: CompositionUvEpi
 Title: "Composition for vantobra Package Leaflet"
 Description:  "Composition for vantobra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -322,3 +322,28 @@ Germany </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a2aa072350b7f0283a86de62e6b164d2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vantobra Package Leaflet for language en"
+Description: "ePI document Bundle for vantobra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a2aa072350b7f0283a86de62e6b164d2"
+* entry[0].resource = composition-en-a2aa072350b7f0283a86de62e6b164d2
+                      
+                      

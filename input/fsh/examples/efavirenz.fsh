@@ -4,7 +4,7 @@ Instance: composition-en-f9db4716a8c7e3db3f37b741c69dca3c
 InstanceOf: CompositionUvEpi
 Title: "Composition for efavirenz Package Leaflet"
 Description:  "Composition for efavirenz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -556,3 +556,28 @@ Tel: +44 2075407This leaflet was last revised in </p>
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f9db4716a8c7e3db3f37b741c69dca3c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for efavirenz Package Leaflet for language en"
+Description: "ePI document Bundle for efavirenz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f9db4716a8c7e3db3f37b741c69dca3c"
+* entry[0].resource = composition-en-f9db4716a8c7e3db3f37b741c69dca3c
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-7345b00216838e90492587f6ecbdea1c
 InstanceOf: CompositionUvEpi
 Title: "Composition for braftovi Package Leaflet"
 Description:  "Composition for braftovi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -511,3 +511,28 @@ France </p>
 <p>This leaflet was last revised in.  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7345b00216838e90492587f6ecbdea1c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for braftovi Package Leaflet for language en"
+Description: "ePI document Bundle for braftovi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7345b00216838e90492587f6ecbdea1c"
+* entry[0].resource = composition-en-7345b00216838e90492587f6ecbdea1c
+                      
+                      

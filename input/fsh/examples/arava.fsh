@@ -4,7 +4,7 @@ Instance: composition-en-fa8a8470c3a3a250549a317d0f9b36a2
 InstanceOf: CompositionUvEpi
 Title: "Composition for arava Package Leaflet"
 Description:  "Composition for arava Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -408,3 +408,28 @@ Tel: +44 (0) 800 035 2This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fa8a8470c3a3a250549a317d0f9b36a2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for arava Package Leaflet for language en"
+Description: "ePI document Bundle for arava Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fa8a8470c3a3a250549a317d0f9b36a2"
+* entry[0].resource = composition-en-fa8a8470c3a3a250549a317d0f9b36a2
+                      
+                      

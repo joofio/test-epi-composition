@@ -4,7 +4,7 @@ Instance: composition-en-3f214a4f5ac8e3dc74014e21089eb5bc
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxneuvance Package Leaflet"
 Description:  "Composition for vaxneuvance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -399,3 +399,28 @@ temperatures up to 25    for 48 hours.
 Any unused medicinal product or waste material should be disposed of in accordance with local
 requirements.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3f214a4f5ac8e3dc74014e21089eb5bc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaxneuvance Package Leaflet for language en"
+Description: "ePI document Bundle for vaxneuvance Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3f214a4f5ac8e3dc74014e21089eb5bc"
+* entry[0].resource = composition-en-3f214a4f5ac8e3dc74014e21089eb5bc
+                      
+                      

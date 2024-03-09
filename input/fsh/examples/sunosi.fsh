@@ -4,7 +4,7 @@ Instance: composition-en-4c464411361072df4cc109cbbcdd523e
 InstanceOf: CompositionUvEpi
 Title: "Composition for sunosi Package Leaflet"
 Description:  "Composition for sunosi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -280,3 +280,28 @@ Co. Dublin
 Detailed information on this medicine is available on the European Medicines Agency website:<br />
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-4c464411361072df4cc109cbbcdd523e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sunosi Package Leaflet for language en"
+Description: "ePI document Bundle for sunosi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4c464411361072df4cc109cbbcdd523e"
+* entry[0].resource = composition-en-4c464411361072df4cc109cbbcdd523e
+                      
+                      

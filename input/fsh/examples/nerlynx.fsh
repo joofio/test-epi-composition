@@ -4,7 +4,7 @@ Instance: composition-en-4106f4a5a4b46a8c1fb9847b0f08bced
 InstanceOf: CompositionUvEpi
 Title: "Composition for nerlynx Package Leaflet"
 Description:  "Composition for nerlynx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -328,3 +328,28 @@ France </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-4106f4a5a4b46a8c1fb9847b0f08bced
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nerlynx Package Leaflet for language en"
+Description: "ePI document Bundle for nerlynx Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4106f4a5a4b46a8c1fb9847b0f08bced"
+* entry[0].resource = composition-en-4106f4a5a4b46a8c1fb9847b0f08bced
+                      
+                      

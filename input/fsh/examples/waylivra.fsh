@@ -4,7 +4,7 @@ Instance: composition-en-0095f17772ab958f3f5be1c6c1d9bbac
 InstanceOf: CompositionUvEpi
 Title: "Composition for waylivra Package Leaflet"
 Description:  "Composition for waylivra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -305,3 +305,28 @@ this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0095f17772ab958f3f5be1c6c1d9bbac
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for waylivra Package Leaflet for language en"
+Description: "ePI document Bundle for waylivra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0095f17772ab958f3f5be1c6c1d9bbac"
+* entry[0].resource = composition-en-0095f17772ab958f3f5be1c6c1d9bbac
+                      
+                      

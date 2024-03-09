@@ -4,7 +4,7 @@ Instance: composition-en-97e912692940da0904efcb8614f8aff4
 InstanceOf: CompositionUvEpi
 Title: "Composition for libmyris Package Leaflet"
 Description:  "Composition for libmyris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -839,3 +839,28 @@ Tel: +49 61016This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-97e912692940da0904efcb8614f8aff4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for libmyris Package Leaflet for language en"
+Description: "ePI document Bundle for libmyris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-97e912692940da0904efcb8614f8aff4"
+* entry[0].resource = composition-en-97e912692940da0904efcb8614f8aff4
+                      
+                      

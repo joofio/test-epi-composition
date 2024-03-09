@@ -4,7 +4,7 @@ Instance: composition-en-bef5164082ea0e74f1594414cc1788ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for tandemact Package Leaflet"
 Description:  "Composition for tandemact Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -368,3 +368,28 @@ Takeda GmbH, Production Site Oranienburg, Lehnitzstrasse 70   98, 16515 Oranienb
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-bef5164082ea0e74f1594414cc1788ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tandemact Package Leaflet for language en"
+Description: "ePI document Bundle for tandemact Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bef5164082ea0e74f1594414cc1788ab"
+* entry[0].resource = composition-en-bef5164082ea0e74f1594414cc1788ab
+                      
+                      

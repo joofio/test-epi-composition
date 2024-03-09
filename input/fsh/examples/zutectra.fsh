@@ -4,7 +4,7 @@ Instance: composition-en-73960cef65d43cea9c4f68f4818ce9c6
 InstanceOf: CompositionUvEpi
 Title: "Composition for zutectra Package Leaflet"
 Description:  "Composition for zutectra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -353,3 +353,28 @@ SI-1231 Ljubljana- rnu e,<br />
 Tel: +386 1 589 69 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-73960cef65d43cea9c4f68f4818ce9c6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zutectra Package Leaflet for language en"
+Description: "ePI document Bundle for zutectra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-73960cef65d43cea9c4f68f4818ce9c6"
+* entry[0].resource = composition-en-73960cef65d43cea9c4f68f4818ce9c6
+                      
+                      

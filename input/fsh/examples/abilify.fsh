@@ -4,7 +4,7 @@ Instance: composition-en-083329ed80f9e5f1c8e6dd49ed81d7aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for abilify Package Leaflet"
 Description:  "Composition for abilify Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -478,3 +478,28 @@ Tel: +31 (0) 20 85 46 This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-083329ed80f9e5f1c8e6dd49ed81d7aa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for abilify Package Leaflet for language en"
+Description: "ePI document Bundle for abilify Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-083329ed80f9e5f1c8e6dd49ed81d7aa"
+* entry[0].resource = composition-en-083329ed80f9e5f1c8e6dd49ed81d7aa
+                      
+                      

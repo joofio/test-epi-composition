@@ -4,7 +4,7 @@ Instance: composition-en-37d610f9c96d541562699215b0864126
 InstanceOf: CompositionUvEpi
 Title: "Composition for xenical Package Leaflet"
 Description:  "Composition for xenical Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -275,3 +275,28 @@ Germany  </p>
 <p>This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt;. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-37d610f9c96d541562699215b0864126
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xenical Package Leaflet for language en"
+Description: "ePI document Bundle for xenical Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-37d610f9c96d541562699215b0864126"
+* entry[0].resource = composition-en-37d610f9c96d541562699215b0864126
+                      
+                      

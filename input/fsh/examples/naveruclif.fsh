@@ -4,7 +4,7 @@ Instance: composition-en-15a641fc1891be6ddabc72928a523139
 InstanceOf: CompositionUvEpi
 Title: "Composition for naveruclif Package Leaflet"
 Description:  "Composition for naveruclif Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -348,3 +348,28 @@ Win Medica  . .
  : +30 210 74 88 This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-15a641fc1891be6ddabc72928a523139
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for naveruclif Package Leaflet for language en"
+Description: "ePI document Bundle for naveruclif Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-15a641fc1891be6ddabc72928a523139"
+* entry[0].resource = composition-en-15a641fc1891be6ddabc72928a523139
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-dda2c427548650874074bbc49aa90b54
 InstanceOf: CompositionUvEpi
 Title: "Composition for trumenba Package Leaflet"
 Description:  "Composition for trumenba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -296,3 +296,28 @@ observed, do not administer the vaccine. </p>
 <p>When given at the same time with other vaccines Trumenba must be given at separate injection sites. </p>
 <p>Any unused vaccine or waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-dda2c427548650874074bbc49aa90b54
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trumenba Package Leaflet for language en"
+Description: "ePI document Bundle for trumenba Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-dda2c427548650874074bbc49aa90b54"
+* entry[0].resource = composition-en-dda2c427548650874074bbc49aa90b54
+                      
+                      

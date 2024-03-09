@@ -4,7 +4,7 @@ Instance: composition-en-f556f9575aa3afd9667732b8d9b41fc4
 InstanceOf: CompositionUvEpi
 Title: "Composition for striascan Package Leaflet"
 Description:  "Composition for striascan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -260,3 +260,28 @@ FRANCE </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f556f9575aa3afd9667732b8d9b41fc4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for striascan Package Leaflet for language en"
+Description: "ePI document Bundle for striascan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f556f9575aa3afd9667732b8d9b41fc4"
+* entry[0].resource = composition-en-f556f9575aa3afd9667732b8d9b41fc4
+                      
+                      

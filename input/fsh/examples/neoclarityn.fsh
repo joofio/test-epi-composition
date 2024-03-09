@@ -4,7 +4,7 @@ Instance: composition-en-94c552a1c89feea3465242a8fa5ba0ae
 InstanceOf: CompositionUvEpi
 Title: "Composition for neoclarityn Package Leaflet"
 Description:  "Composition for neoclarityn Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -362,3 +362,28 @@ even if their signs of illness are the same as yours.
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-94c552a1c89feea3465242a8fa5ba0ae
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for neoclarityn Package Leaflet for language en"
+Description: "ePI document Bundle for neoclarityn Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-94c552a1c89feea3465242a8fa5ba0ae"
+* entry[0].resource = composition-en-94c552a1c89feea3465242a8fa5ba0ae
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-6b7b5522c872887b5587c6d7e9f380f6
 InstanceOf: CompositionUvEpi
 Title: "Composition for onureg Package Leaflet"
 Description:  "Composition for onureg Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -264,3 +264,28 @@ Netherlands </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6b7b5522c872887b5587c6d7e9f380f6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onureg Package Leaflet for language en"
+Description: "ePI document Bundle for onureg Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6b7b5522c872887b5587c6d7e9f380f6"
+* entry[0].resource = composition-en-6b7b5522c872887b5587c6d7e9f380f6
+                      
+                      

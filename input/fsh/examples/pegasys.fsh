@@ -4,7 +4,7 @@ Instance: composition-en-0b227cd2a54454e66a70766913e35ba2
 InstanceOf: CompositionUvEpi
 Title: "Composition for pegasys Package Leaflet"
 Description:  "Composition for pegasys Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -515,3 +515,28 @@ even if their signs of illness are the same as yours. </p>
 <p>If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0b227cd2a54454e66a70766913e35ba2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pegasys Package Leaflet for language en"
+Description: "ePI document Bundle for pegasys Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0b227cd2a54454e66a70766913e35ba2"
+* entry[0].resource = composition-en-0b227cd2a54454e66a70766913e35ba2
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-e6ed326fcb8117af473e84eeac339bdf
 InstanceOf: CompositionUvEpi
 Title: "Composition for onbevzi Package Leaflet"
 Description:  "Composition for onbevzi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -589,3 +589,28 @@ bioepis.mi@medinformation.co.uk </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e6ed326fcb8117af473e84eeac339bdf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onbevzi Package Leaflet for language en"
+Description: "ePI document Bundle for onbevzi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e6ed326fcb8117af473e84eeac339bdf"
+* entry[0].resource = composition-en-e6ed326fcb8117af473e84eeac339bdf
+                      
+                      

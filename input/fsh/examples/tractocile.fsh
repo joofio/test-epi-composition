@@ -4,7 +4,7 @@ Instance: composition-en-dc08afd9c59a04fa9fdda149a83f92c4
 InstanceOf: CompositionUvEpi
 Title: "Composition for tractocile Package Leaflet"
 Description:  "Composition for tractocile Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -310,3 +310,28 @@ Tel: +353 1 4637EnquiriesIrelandMailbox@ferring.com </p>
 <p>This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-dc08afd9c59a04fa9fdda149a83f92c4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tractocile Package Leaflet for language en"
+Description: "ePI document Bundle for tractocile Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-dc08afd9c59a04fa9fdda149a83f92c4"
+* entry[0].resource = composition-en-dc08afd9c59a04fa9fdda149a83f92c4
+                      
+                      

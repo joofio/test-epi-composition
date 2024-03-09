@@ -4,7 +4,7 @@ Instance: composition-en-db0f7cad6eb30c65834f70206c7c6222
 InstanceOf: CompositionUvEpi
 Title: "Composition for zomarist Package Leaflet"
 Description:  "Composition for zomarist Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -404,3 +404,28 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-db0f7cad6eb30c65834f70206c7c6222
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zomarist Package Leaflet for language en"
+Description: "ePI document Bundle for zomarist Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-db0f7cad6eb30c65834f70206c7c6222"
+* entry[0].resource = composition-en-db0f7cad6eb30c65834f70206c7c6222
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-695d88815041ea7bd60c45e1ac4b79d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for keytruda Package Leaflet"
 Description:  "Composition for keytruda Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -636,3 +636,28 @@ to 5  m in-line or add-on filter.
 Any unused medicinal product or waste material should be disposed of in accordance with local
 requirements.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-695d88815041ea7bd60c45e1ac4b79d4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for keytruda Package Leaflet for language en"
+Description: "ePI document Bundle for keytruda Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-695d88815041ea7bd60c45e1ac4b79d4"
+* entry[0].resource = composition-en-695d88815041ea7bd60c45e1ac4b79d4
+                      
+                      

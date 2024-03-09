@@ -4,7 +4,7 @@ Instance: composition-en-4bec0630ba2fe20207306bdc003daeb2
 InstanceOf: CompositionUvEpi
 Title: "Composition for fosavance Package Leaflet"
 Description:  "Composition for fosavance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -442,3 +442,28 @@ Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 https://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-4bec0630ba2fe20207306bdc003daeb2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fosavance Package Leaflet for language en"
+Description: "ePI document Bundle for fosavance Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4bec0630ba2fe20207306bdc003daeb2"
+* entry[0].resource = composition-en-4bec0630ba2fe20207306bdc003daeb2
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-da0c248904d382a9eb3bce64c5a02953
 InstanceOf: CompositionUvEpi
 Title: "Composition for veltassa Package Leaflet"
 Description:  "Composition for veltassa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -268,3 +268,28 @@ France </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-da0c248904d382a9eb3bce64c5a02953
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for veltassa Package Leaflet for language en"
+Description: "ePI document Bundle for veltassa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-da0c248904d382a9eb3bce64c5a02953"
+* entry[0].resource = composition-en-da0c248904d382a9eb3bce64c5a02953
+                      
+                      

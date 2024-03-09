@@ -4,7 +4,7 @@ Instance: composition-en-b9e406d2f0e8fcd3c2ddc68fcfd21aa0
 InstanceOf: CompositionUvEpi
 Title: "Composition for champix Package Leaflet"
 Description:  "Composition for champix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -475,3 +475,28 @@ Tel: + 44 (0) 1304 616This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b9e406d2f0e8fcd3c2ddc68fcfd21aa0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for champix Package Leaflet for language en"
+Description: "ePI document Bundle for champix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b9e406d2f0e8fcd3c2ddc68fcfd21aa0"
+* entry[0].resource = composition-en-b9e406d2f0e8fcd3c2ddc68fcfd21aa0
+                      
+                      

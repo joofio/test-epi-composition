@@ -4,7 +4,7 @@ Instance: composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for selincro Package Leaflet"
 Description:  "Composition for selincro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -356,3 +356,28 @@ Lundbeck (Ireland) Limited
 Tel: +353 1 468 9Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for selincro Package Leaflet for language en"
+Description: "ePI document Bundle for selincro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3"
+* entry[0].resource = composition-en-ae73c4d5c65d453ea1d22b1e78ebf3b3
+                      
+                      

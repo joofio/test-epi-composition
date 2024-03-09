@@ -4,7 +4,7 @@ Instance: composition-en-5b6e393c6403bed8aaf028ca7b1d8cd4
 InstanceOf: CompositionUvEpi
 Title: "Composition for marixino Package Leaflet"
 Description:  "Composition for marixino Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -336,3 +336,28 @@ Tel: + 371 6 733 86 Consilient Health Limited
 Tel: + 353 (0)1 2057This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5b6e393c6403bed8aaf028ca7b1d8cd4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for marixino Package Leaflet for language en"
+Description: "ePI document Bundle for marixino Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5b6e393c6403bed8aaf028ca7b1d8cd4"
+* entry[0].resource = composition-en-5b6e393c6403bed8aaf028ca7b1d8cd4
+                      
+                      

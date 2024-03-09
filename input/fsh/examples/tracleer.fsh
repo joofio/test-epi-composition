@@ -4,7 +4,7 @@ Instance: composition-en-26b16d8f26d3d427e9f7f7a1372c2641
 InstanceOf: CompositionUvEpi
 Title: "Composition for tracleer Package Leaflet"
 Description:  "Composition for tracleer Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -308,3 +308,28 @@ This medicinal product does not require any special storage conditions.
 Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away any medicines you no longer use. These measures will help to protect the environment.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-26b16d8f26d3d427e9f7f7a1372c2641
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tracleer Package Leaflet for language en"
+Description: "ePI document Bundle for tracleer Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-26b16d8f26d3d427e9f7f7a1372c2641"
+* entry[0].resource = composition-en-26b16d8f26d3d427e9f7f7a1372c2641
+                      
+                      

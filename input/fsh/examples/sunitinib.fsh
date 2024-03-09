@@ -4,7 +4,7 @@ Instance: composition-en-68233cef8a2150549da332e078e2cbf5
 InstanceOf: CompositionUvEpi
 Title: "Composition for sunitinib Package Leaflet"
 Description:  "Composition for sunitinib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -442,3 +442,28 @@ Birzebbugia, BBG3Malta </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-68233cef8a2150549da332e078e2cbf5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sunitinib Package Leaflet for language en"
+Description: "ePI document Bundle for sunitinib Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-68233cef8a2150549da332e078e2cbf5"
+* entry[0].resource = composition-en-68233cef8a2150549da332e078e2cbf5
+                      
+                      

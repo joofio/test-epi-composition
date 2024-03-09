@@ -4,7 +4,7 @@ Instance: composition-en-5e54bc899d36944f074c62413ee87b7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for pravafenix Package Leaflet"
 Description:  "Composition for pravafenix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -405,3 +405,28 @@ Laboratoires SMB S.A.
 Tel: + 32.2.411.48.28. This leaflet was last revised in 1104/2Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu/. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5e54bc899d36944f074c62413ee87b7a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pravafenix Package Leaflet for language en"
+Description: "ePI document Bundle for pravafenix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5e54bc899d36944f074c62413ee87b7a"
+* entry[0].resource = composition-en-5e54bc899d36944f074c62413ee87b7a
+                      
+                      

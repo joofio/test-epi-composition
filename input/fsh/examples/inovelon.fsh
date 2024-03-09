@@ -4,7 +4,7 @@ Instance: composition-en-91b82fa9e403058f0812186a7025d512
 InstanceOf: CompositionUvEpi
 Title: "Composition for inovelon Package Leaflet"
 Description:  "Composition for inovelon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -384,3 +384,28 @@ even if their signs of illness are the same as yours.
 If you get any side effects, talk to the doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-91b82fa9e403058f0812186a7025d512
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inovelon Package Leaflet for language en"
+Description: "ePI document Bundle for inovelon Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-91b82fa9e403058f0812186a7025d512"
+* entry[0].resource = composition-en-91b82fa9e403058f0812186a7025d512
+                      
+                      

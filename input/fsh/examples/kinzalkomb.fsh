@@ -4,7 +4,7 @@ Instance: composition-en-f54f2e739aebe7aea194141a7163df7a
 InstanceOf: CompositionUvEpi
 Title: "Composition for kinzalkomb Package Leaflet"
 Description:  "Composition for kinzalkomb Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -471,3 +471,28 @@ Tel: +44 (0) 118 206 30 This leaflet was last revised in {MM/YYYY}
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f54f2e739aebe7aea194141a7163df7a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kinzalkomb Package Leaflet for language en"
+Description: "ePI document Bundle for kinzalkomb Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f54f2e739aebe7aea194141a7163df7a"
+* entry[0].resource = composition-en-f54f2e739aebe7aea194141a7163df7a
+                      
+                      

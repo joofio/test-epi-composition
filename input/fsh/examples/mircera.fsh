@@ -4,7 +4,7 @@ Instance: composition-en-f8e8c83bf775a0a91c665d5fc646c400
 InstanceOf: CompositionUvEpi
 Title: "Composition for mircera Package Leaflet"
 Description:  "Composition for mircera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -392,3 +392,28 @@ Roche Products (Ireland) Ltd.
 Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f8e8c83bf775a0a91c665d5fc646c400
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mircera Package Leaflet for language en"
+Description: "ePI document Bundle for mircera Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f8e8c83bf775a0a91c665d5fc646c400"
+* entry[0].resource = composition-en-f8e8c83bf775a0a91c665d5fc646c400
+                      
+                      

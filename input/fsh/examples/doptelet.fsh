@@ -4,7 +4,7 @@ Instance: composition-en-fe68e84ae2a5a5a43e0a98992e2c4775
 InstanceOf: CompositionUvEpi
 Title: "Composition for doptelet Package Leaflet"
 Description:  "Composition for doptelet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -337,3 +337,28 @@ SE-112 Sweden </p>
 <p>This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fe68e84ae2a5a5a43e0a98992e2c4775
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for doptelet Package Leaflet for language en"
+Description: "ePI document Bundle for doptelet Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fe68e84ae2a5a5a43e0a98992e2c4775"
+* entry[0].resource = composition-en-fe68e84ae2a5a5a43e0a98992e2c4775
+                      
+                      

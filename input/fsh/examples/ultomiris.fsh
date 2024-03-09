@@ -4,7 +4,7 @@ Instance: composition-en-1d2f698bc3b19bc75adea93b8b5c0811
 InstanceOf: CompositionUvEpi
 Title: "Composition for ultomiris Package Leaflet"
 Description:  "Composition for ultomiris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -434,3 +434,28 @@ Tel: +44 (0) 800 028 4This leaflet was last revised in  </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1d2f698bc3b19bc75adea93b8b5c0811
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ultomiris Package Leaflet for language en"
+Description: "ePI document Bundle for ultomiris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1d2f698bc3b19bc75adea93b8b5c0811"
+* entry[0].resource = composition-en-1d2f698bc3b19bc75adea93b8b5c0811
+                      
+                      

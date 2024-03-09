@@ -4,7 +4,7 @@ Instance: composition-en-895d12c7e06fa00ecf48ed16e513c5f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyndaqel Package Leaflet"
 Description:  "Composition for vyndaqel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -291,3 +291,28 @@ this leaflet will be updated as necessary.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-895d12c7e06fa00ecf48ed16e513c5f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyndaqel Package Leaflet for language en"
+Description: "ePI document Bundle for vyndaqel Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-895d12c7e06fa00ecf48ed16e513c5f0"
+* entry[0].resource = composition-en-895d12c7e06fa00ecf48ed16e513c5f0
+                      
+                      

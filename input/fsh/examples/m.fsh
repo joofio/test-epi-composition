@@ -4,7 +4,7 @@ Instance: composition-en-6f8f57715090da2632453988d9a1501b
 InstanceOf: CompositionUvEpi
 Title: "Composition for m Package Leaflet"
 Description:  "Composition for m Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -432,3 +432,28 @@ important information for you.
 - If you get any of the side effects, talk to your doctor or pharmacist. This includes any possible
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6f8f57715090da2632453988d9a1501b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for m Package Leaflet for language en"
+Description: "ePI document Bundle for m Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6f8f57715090da2632453988d9a1501b"
+* entry[0].resource = composition-en-6f8f57715090da2632453988d9a1501b
+                      
+                      

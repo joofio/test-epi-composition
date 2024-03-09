@@ -4,7 +4,7 @@ Instance: composition-en-d21a665ebc1011132a02f9a335304090
 InstanceOf: CompositionUvEpi
 Title: "Composition for keppra Package Leaflet"
 Description:  "Composition for keppra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -450,3 +450,28 @@ even if their signs of illness are the same as yours. </p>
 effects not listed in this leaflet. See section 4.</p>
 <p>What is in this leaflet:  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d21a665ebc1011132a02f9a335304090
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for keppra Package Leaflet for language en"
+Description: "ePI document Bundle for keppra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d21a665ebc1011132a02f9a335304090"
+* entry[0].resource = composition-en-d21a665ebc1011132a02f9a335304090
+                      
+                      

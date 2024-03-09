@@ -4,7 +4,7 @@ Instance: composition-en-e3808b9785653fa349cd23efa0847a72
 InstanceOf: CompositionUvEpi
 Title: "Composition for artesunate Package Leaflet"
 Description:  "Composition for artesunate Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -260,3 +260,28 @@ MIAS Pharma Limited, Suite 1, Stafford House, Strand Road, Portmarnock, Co. Dubl
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e3808b9785653fa349cd23efa0847a72
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for artesunate Package Leaflet for language en"
+Description: "ePI document Bundle for artesunate Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e3808b9785653fa349cd23efa0847a72"
+* entry[0].resource = composition-en-e3808b9785653fa349cd23efa0847a72
+                      
+                      

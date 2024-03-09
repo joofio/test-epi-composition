@@ -4,7 +4,7 @@ Instance: composition-en-533640e2b33051c3986eeb9c67d13b2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for aflunov Package Leaflet"
 Description:  "Composition for aflunov Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -341,3 +341,28 @@ Netherlands </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-533640e2b33051c3986eeb9c67d13b2c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aflunov Package Leaflet for language en"
+Description: "ePI document Bundle for aflunov Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-533640e2b33051c3986eeb9c67d13b2c"
+* entry[0].resource = composition-en-533640e2b33051c3986eeb9c67d13b2c
+                      
+                      

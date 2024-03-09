@@ -4,7 +4,7 @@ Instance: composition-en-c9badf491db3dae4a0c364bdfb2e49d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for mvabea Package Leaflet"
 Description:  "Composition for mvabea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -452,3 +452,28 @@ Once thawed, the vaccine cannot be refrozen.
 The vial must be kept in the original package in order to protect from light and to track the expiry or 
 discard date for the different storage conditions.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c9badf491db3dae4a0c364bdfb2e49d3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mvabea Package Leaflet for language en"
+Description: "ePI document Bundle for mvabea Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c9badf491db3dae4a0c364bdfb2e49d3"
+* entry[0].resource = composition-en-c9badf491db3dae4a0c364bdfb2e49d3
+                      
+                      

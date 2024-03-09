@@ -4,7 +4,7 @@ Instance: composition-en-d9e1f5caf32113b1e6722af1d88782c1
 InstanceOf: CompositionUvEpi
 Title: "Composition for pifeltro Package Leaflet"
 Description:  "Composition for pifeltro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -376,3 +376,28 @@ Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site:
 http://www.ema.europa.eu .</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d9e1f5caf32113b1e6722af1d88782c1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pifeltro Package Leaflet for language en"
+Description: "ePI document Bundle for pifeltro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d9e1f5caf32113b1e6722af1d88782c1"
+* entry[0].resource = composition-en-d9e1f5caf32113b1e6722af1d88782c1
+                      
+                      

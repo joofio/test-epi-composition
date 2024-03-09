@@ -4,7 +4,7 @@ Instance: composition-en-078ce846d23a61e02d1edb518ce5e784
 InstanceOf: CompositionUvEpi
 Title: "Composition for bortezomib Package Leaflet"
 Description:  "Composition for bortezomib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -549,3 +549,28 @@ Netherlands </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site:  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-078ce846d23a61e02d1edb518ce5e784
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bortezomib Package Leaflet for language en"
+Description: "ePI document Bundle for bortezomib Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-078ce846d23a61e02d1edb518ce5e784"
+* entry[0].resource = composition-en-078ce846d23a61e02d1edb518ce5e784
+                      
+                      

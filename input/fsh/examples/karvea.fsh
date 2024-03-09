@@ -4,7 +4,7 @@ Instance: composition-en-d99852efa4d4976d99a584078a2ca48c
 InstanceOf: CompositionUvEpi
 Title: "Composition for karvea Package Leaflet"
 Description:  "Composition for karvea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -342,3 +342,28 @@ sanofi-aventis Ireland Ltd. T/A SANOFI
 Tel: +44 (0) 800 035 2This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d99852efa4d4976d99a584078a2ca48c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for karvea Package Leaflet for language en"
+Description: "ePI document Bundle for karvea Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d99852efa4d4976d99a584078a2ca48c"
+* entry[0].resource = composition-en-d99852efa4d4976d99a584078a2ca48c
+                      
+                      

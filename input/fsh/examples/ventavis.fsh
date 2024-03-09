@@ -4,7 +4,7 @@ Instance: composition-en-98160787700fadf62b9414cbc5c47ad3
 InstanceOf: CompositionUvEpi
 Title: "Composition for ventavis Package Leaflet"
 Description:  "Composition for ventavis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -699,3 +699,28 @@ even if their signs of illness are the same as yours.
 effects not listed in this leaflet. See section 4.</p>
 <p>What is in this leaflet  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-98160787700fadf62b9414cbc5c47ad3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ventavis Package Leaflet for language en"
+Description: "ePI document Bundle for ventavis Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-98160787700fadf62b9414cbc5c47ad3"
+* entry[0].resource = composition-en-98160787700fadf62b9414cbc5c47ad3
+                      
+                      

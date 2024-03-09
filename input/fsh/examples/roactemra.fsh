@@ -4,7 +4,7 @@ Instance: composition-en-06f9b891f2158becb7dcf14e44abf883
 InstanceOf: CompositionUvEpi
 Title: "Composition for roactemra Package Leaflet"
 Description:  "Composition for roactemra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -492,3 +492,28 @@ side effects not listed in this leaflet. See section 4. In addition to this leaf
 information that you need to be aware of before and during treatment with RoActemra. </li>
 </ul>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-06f9b891f2158becb7dcf14e44abf883
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for roactemra Package Leaflet for language en"
+Description: "ePI document Bundle for roactemra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-06f9b891f2158becb7dcf14e44abf883"
+* entry[0].resource = composition-en-06f9b891f2158becb7dcf14e44abf883
+                      
+                      

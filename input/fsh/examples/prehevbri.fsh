@@ -4,7 +4,7 @@ Instance: composition-en-6ad927719fc570edf8a72cacebe37a51
 InstanceOf: CompositionUvEpi
 Title: "Composition for prehevbri Package Leaflet"
 Description:  "Composition for prehevbri Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -417,3 +417,28 @@ particulate matter and/or variation of physical aspect being observed, discard t
 Any unused medicinal product or waste material should be disposed of in accordance with local 
 requirements. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6ad927719fc570edf8a72cacebe37a51
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prehevbri Package Leaflet for language en"
+Description: "ePI document Bundle for prehevbri Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6ad927719fc570edf8a72cacebe37a51"
+* entry[0].resource = composition-en-6ad927719fc570edf8a72cacebe37a51
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-ded378039327f28c36307d251503f7d3
 InstanceOf: CompositionUvEpi
 Title: "Composition for izba Package Leaflet"
 Description:  "Composition for izba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -334,3 +334,28 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ded378039327f28c36307d251503f7d3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for izba Package Leaflet for language en"
+Description: "ePI document Bundle for izba Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ded378039327f28c36307d251503f7d3"
+* entry[0].resource = composition-en-ded378039327f28c36307d251503f7d3
+                      
+                      

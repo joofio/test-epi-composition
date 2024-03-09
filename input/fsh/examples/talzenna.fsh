@@ -4,7 +4,7 @@ Instance: composition-en-fcac0917e849c1f92a8946a3de74e720
 InstanceOf: CompositionUvEpi
 Title: "Composition for talzenna Package Leaflet"
 Description:  "Composition for talzenna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -383,3 +383,28 @@ Tel: + 371 670 35 This leaflet was last revised in MM/YYYY. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fcac0917e849c1f92a8946a3de74e720
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for talzenna Package Leaflet for language en"
+Description: "ePI document Bundle for talzenna Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fcac0917e849c1f92a8946a3de74e720"
+* entry[0].resource = composition-en-fcac0917e849c1f92a8946a3de74e720
+                      
+                      

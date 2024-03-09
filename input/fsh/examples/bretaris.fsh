@@ -4,7 +4,7 @@ Instance: composition-en-54a021f4e4e92ada183e2df4eec44f64
 InstanceOf: CompositionUvEpi
 Title: "Composition for bretaris Package Leaflet"
 Description:  "Composition for bretaris Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -313,3 +313,28 @@ Covis Pharma Europe B.V.
 Tel: 08004334This leaflet was last revised in &lt;{month YYYY}&gt;. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-54a021f4e4e92ada183e2df4eec44f64
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bretaris Package Leaflet for language en"
+Description: "ePI document Bundle for bretaris Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-54a021f4e4e92ada183e2df4eec44f64"
+* entry[0].resource = composition-en-54a021f4e4e92ada183e2df4eec44f64
+                      
+                      

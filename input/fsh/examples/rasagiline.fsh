@@ -4,7 +4,7 @@ Instance: composition-en-b0e9ca3c0296dbd9d61e291d9ccda718
 InstanceOf: CompositionUvEpi
 Title: "Composition for rasagiline Package Leaflet"
 Description:  "Composition for rasagiline Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -354,3 +354,28 @@ Tel: +371 676 055 United Kingdom (Northern Ireland)
 Mylan IRE Healthcare Limited 
 Tel:  +353 18711This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}&gt;. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b0e9ca3c0296dbd9d61e291d9ccda718
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rasagiline Package Leaflet for language en"
+Description: "ePI document Bundle for rasagiline Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b0e9ca3c0296dbd9d61e291d9ccda718"
+* entry[0].resource = composition-en-b0e9ca3c0296dbd9d61e291d9ccda718
+                      
+                      

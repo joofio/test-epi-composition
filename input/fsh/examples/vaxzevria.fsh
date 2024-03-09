@@ -4,7 +4,7 @@ Instance: composition-en-cde7ce8acabc194cf70fa2b3b251f6cb
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxzevria Package Leaflet"
 Description:  "Composition for vaxzevria Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -436,3 +436,28 @@ Scan the QR code with a mobile device to get this information in different langu
 www.azcovid-19.com
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-cde7ce8acabc194cf70fa2b3b251f6cb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaxzevria Package Leaflet for language en"
+Description: "ePI document Bundle for vaxzevria Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-cde7ce8acabc194cf70fa2b3b251f6cb"
+* entry[0].resource = composition-en-cde7ce8acabc194cf70fa2b3b251f6cb
+                      
+                      

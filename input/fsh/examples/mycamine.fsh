@@ -4,7 +4,7 @@ Instance: composition-en-a8bf6c781d45d4ee28ddbc241a4ae52b
 InstanceOf: CompositionUvEpi
 Title: "Composition for mycamine Package Leaflet"
 Description:  "Composition for mycamine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -350,3 +350,28 @@ Astellas Pharma Co., Limited
 Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671This leaflet was last approved in {MM/YYYY}.   </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a8bf6c781d45d4ee28ddbc241a4ae52b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mycamine Package Leaflet for language en"
+Description: "ePI document Bundle for mycamine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a8bf6c781d45d4ee28ddbc241a4ae52b"
+* entry[0].resource = composition-en-a8bf6c781d45d4ee28ddbc241a4ae52b
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-111cffde6ab225ef6f9090cd3d257fe8
 InstanceOf: CompositionUvEpi
 Title: "Composition for fasturtec Package Leaflet"
 Description:  "Composition for fasturtec Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -305,3 +305,28 @@ Tel: +44 (0) 800 035 2This leaflet was last revised in {MM/YYYY} </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-111cffde6ab225ef6f9090cd3d257fe8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fasturtec Package Leaflet for language en"
+Description: "ePI document Bundle for fasturtec Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-111cffde6ab225ef6f9090cd3d257fe8"
+* entry[0].resource = composition-en-111cffde6ab225ef6f9090cd3d257fe8
+                      
+                      

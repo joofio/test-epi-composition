@@ -4,7 +4,7 @@ Instance: composition-en-82ed3b7e13571c65c8c961f4a21dd3e2
 InstanceOf: CompositionUvEpi
 Title: "Composition for replagal Package Leaflet"
 Description:  "Composition for replagal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -400,3 +400,28 @@ This leaflet was last revised in .
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-82ed3b7e13571c65c8c961f4a21dd3e2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for replagal Package Leaflet for language en"
+Description: "ePI document Bundle for replagal Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-82ed3b7e13571c65c8c961f4a21dd3e2"
+* entry[0].resource = composition-en-82ed3b7e13571c65c8c961f4a21dd3e2
+                      
+                      

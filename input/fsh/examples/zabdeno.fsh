@@ -4,7 +4,7 @@ Instance: composition-en-0160c517e5757b2fb34b6990780c0bb4
 InstanceOf: CompositionUvEpi
 Title: "Composition for zabdeno Package Leaflet"
 Description:  "Composition for zabdeno Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -460,3 +460,28 @@ Once thawed, the vaccine cannot be refrozen.
 The vial must be kept in the original package in order to protect from light and to track the expiry or 
 discard date for the different storage conditions.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0160c517e5757b2fb34b6990780c0bb4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zabdeno Package Leaflet for language en"
+Description: "ePI document Bundle for zabdeno Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0160c517e5757b2fb34b6990780c0bb4"
+* entry[0].resource = composition-en-0160c517e5757b2fb34b6990780c0bb4
+                      
+                      

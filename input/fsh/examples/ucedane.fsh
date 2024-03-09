@@ -4,7 +4,7 @@ Instance: composition-en-18d76b54ce97b530a72d79629f6d8b0a
 InstanceOf: CompositionUvEpi
 Title: "Composition for ucedane Package Leaflet"
 Description:  "Composition for ucedane Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -304,3 +304,28 @@ Tel: + 33 153 868 info@lucanepharma.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-18d76b54ce97b530a72d79629f6d8b0a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ucedane Package Leaflet for language en"
+Description: "ePI document Bundle for ucedane Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-18d76b54ce97b530a72d79629f6d8b0a"
+* entry[0].resource = composition-en-18d76b54ce97b530a72d79629f6d8b0a
+                      
+                      

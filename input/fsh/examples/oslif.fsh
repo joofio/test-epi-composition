@@ -4,7 +4,7 @@ Instance: composition-en-69ba7123d300a992a466115b331a7218
 InstanceOf: CompositionUvEpi
 Title: "Composition for oslif Package Leaflet"
 Description:  "Composition for oslif Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -518,3 +518,28 @@ chamber
 Screen 
 Base </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-69ba7123d300a992a466115b331a7218
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oslif Package Leaflet for language en"
+Description: "ePI document Bundle for oslif Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-69ba7123d300a992a466115b331a7218"
+* entry[0].resource = composition-en-69ba7123d300a992a466115b331a7218
+                      
+                      

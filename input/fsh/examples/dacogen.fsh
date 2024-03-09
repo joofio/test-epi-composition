@@ -4,7 +4,7 @@ Instance: composition-en-2375351779f4cfe48aee447608551b6c
 InstanceOf: CompositionUvEpi
 Title: "Composition for dacogen Package Leaflet"
 Description:  "Composition for dacogen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -335,3 +335,28 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in MM/YYYY
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-2375351779f4cfe48aee447608551b6c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dacogen Package Leaflet for language en"
+Description: "ePI document Bundle for dacogen Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2375351779f4cfe48aee447608551b6c"
+* entry[0].resource = composition-en-2375351779f4cfe48aee447608551b6c
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-33fea74e578b9f917fc6255f1897937f
 InstanceOf: CompositionUvEpi
 Title: "Composition for briumvi Package Leaflet"
 Description:  "Composition for briumvi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -457,3 +457,28 @@ Tel: +353 (0)1 428 7This leaflet was last revised </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-33fea74e578b9f917fc6255f1897937f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for briumvi Package Leaflet for language en"
+Description: "ePI document Bundle for briumvi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-33fea74e578b9f917fc6255f1897937f"
+* entry[0].resource = composition-en-33fea74e578b9f917fc6255f1897937f
+                      
+                      

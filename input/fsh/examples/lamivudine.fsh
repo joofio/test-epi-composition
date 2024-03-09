@@ -4,7 +4,7 @@ Instance: composition-en-4a35c8257aae40d46915f31518c0ea2f
 InstanceOf: CompositionUvEpi
 Title: "Composition for lamivudine Package Leaflet"
 Description:  "Composition for lamivudine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -390,3 +390,28 @@ Ireland
 Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-4a35c8257aae40d46915f31518c0ea2f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lamivudine Package Leaflet for language en"
+Description: "ePI document Bundle for lamivudine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-4a35c8257aae40d46915f31518c0ea2f"
+* entry[0].resource = composition-en-4a35c8257aae40d46915f31518c0ea2f
+                      
+                      

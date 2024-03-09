@@ -4,7 +4,7 @@ Instance: composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1
 InstanceOf: CompositionUvEpi
 Title: "Composition for zolsketil Package Leaflet"
 Description:  "Composition for zolsketil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -387,3 +387,28 @@ Netherlands </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-55a0c3e4e0760943cb20f19d7e8a0dd1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zolsketil Package Leaflet for language en"
+Description: "ePI document Bundle for zolsketil Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1"
+* entry[0].resource = composition-en-55a0c3e4e0760943cb20f19d7e8a0dd1
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-e71576be929eba887e5dad10b630fab2
 InstanceOf: CompositionUvEpi
 Title: "Composition for olazax Package Leaflet"
 Description:  "Composition for olazax Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -287,3 +287,28 @@ Czech Republic  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency (EMA) 
 website: http://www.emae.europa.eu </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e71576be929eba887e5dad10b630fab2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for olazax Package Leaflet for language en"
+Description: "ePI document Bundle for olazax Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e71576be929eba887e5dad10b630fab2"
+* entry[0].resource = composition-en-e71576be929eba887e5dad10b630fab2
+                      
+                      

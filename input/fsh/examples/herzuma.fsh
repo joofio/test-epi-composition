@@ -4,7 +4,7 @@ Instance: composition-en-27988b0cf49e927966de441ec0585e46
 InstanceOf: CompositionUvEpi
 Title: "Composition for herzuma Package Leaflet"
 Description:  "Composition for herzuma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -480,3 +480,28 @@ T lr.: +36 1 231 0Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-27988b0cf49e927966de441ec0585e46
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for herzuma Package Leaflet for language en"
+Description: "ePI document Bundle for herzuma Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-27988b0cf49e927966de441ec0585e46"
+* entry[0].resource = composition-en-27988b0cf49e927966de441ec0585e46
+                      
+                      

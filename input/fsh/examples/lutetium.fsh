@@ -4,7 +4,7 @@ Instance: composition-en-3527ac50ad46eb1b8a7bfbd957d1971a
 InstanceOf: CompositionUvEpi
 Title: "Composition for lutetium Package Leaflet"
 Description:  "Composition for lutetium Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -302,3 +302,28 @@ D02 EKIreland </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3527ac50ad46eb1b8a7bfbd957d1971a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lutetium Package Leaflet for language en"
+Description: "ePI document Bundle for lutetium Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3527ac50ad46eb1b8a7bfbd957d1971a"
+* entry[0].resource = composition-en-3527ac50ad46eb1b8a7bfbd957d1971a
+                      
+                      

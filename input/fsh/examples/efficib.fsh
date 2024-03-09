@@ -4,7 +4,7 @@ Instance: composition-en-81f5650754f57ccfab50a85a04738aec
 InstanceOf: CompositionUvEpi
 Title: "Composition for efficib Package Leaflet"
 Description:  "Composition for efficib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -435,3 +435,28 @@ Tel: +353 (0)1 2998medinfoNI@msd.com
 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the website of the European Medicines Agency</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-81f5650754f57ccfab50a85a04738aec
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for efficib Package Leaflet for language en"
+Description: "ePI document Bundle for efficib Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-81f5650754f57ccfab50a85a04738aec"
+* entry[0].resource = composition-en-81f5650754f57ccfab50a85a04738aec
+                      
+                      

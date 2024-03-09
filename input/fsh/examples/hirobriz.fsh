@@ -4,7 +4,7 @@ Instance: composition-en-622a07d3e5a04e7612a8bd99c6c58083
 InstanceOf: CompositionUvEpi
 Title: "Composition for hirobriz Package Leaflet"
 Description:  "Composition for hirobriz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -517,3 +517,28 @@ Inhaler base
 Blister Card 
 Screen </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-622a07d3e5a04e7612a8bd99c6c58083
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hirobriz Package Leaflet for language en"
+Description: "ePI document Bundle for hirobriz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-622a07d3e5a04e7612a8bd99c6c58083"
+* entry[0].resource = composition-en-622a07d3e5a04e7612a8bd99c6c58083
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690
 InstanceOf: CompositionUvEpi
 Title: "Composition for vildagliptin Package Leaflet"
 Description:  "Composition for vildagliptin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -361,3 +361,28 @@ Netherlands </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0cf0f03b0e4fcf8a0933d166c0dbe690
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vildagliptin Package Leaflet for language en"
+Description: "ePI document Bundle for vildagliptin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690"
+* entry[0].resource = composition-en-0cf0f03b0e4fcf8a0933d166c0dbe690
+                      
+                      

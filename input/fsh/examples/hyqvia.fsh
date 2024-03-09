@@ -4,7 +4,7 @@ Instance: composition-en-9c8cbb392febab27edfe92cab530d10b
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyqvia Package Leaflet"
 Description:  "Composition for hyqvia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -715,3 +715,28 @@ Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9c8cbb392febab27edfe92cab530d10b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hyqvia Package Leaflet for language en"
+Description: "ePI document Bundle for hyqvia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9c8cbb392febab27edfe92cab530d10b"
+* entry[0].resource = composition-en-9c8cbb392febab27edfe92cab530d10b
+                      
+                      

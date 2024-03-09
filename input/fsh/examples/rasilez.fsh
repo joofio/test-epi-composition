@@ -4,7 +4,7 @@ Instance: composition-en-5723af3498c13864107ed05f36f04f5d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rasilez Package Leaflet"
 Description:  "Composition for rasilez Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -320,3 +320,28 @@ Italy. </p>
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5723af3498c13864107ed05f36f04f5d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rasilez Package Leaflet for language en"
+Description: "ePI document Bundle for rasilez Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5723af3498c13864107ed05f36f04f5d"
+* entry[0].resource = composition-en-5723af3498c13864107ed05f36f04f5d
+                      
+                      

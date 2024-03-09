@@ -4,7 +4,7 @@ Instance: composition-en-655cd017d0250a5b169d71fd018fd71c
 InstanceOf: CompositionUvEpi
 Title: "Composition for velphoro Package Leaflet"
 Description:  "Composition for velphoro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -256,3 +256,28 @@ France </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-655cd017d0250a5b169d71fd018fd71c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for velphoro Package Leaflet for language en"
+Description: "ePI document Bundle for velphoro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-655cd017d0250a5b169d71fd018fd71c"
+* entry[0].resource = composition-en-655cd017d0250a5b169d71fd018fd71c
+                      
+                      

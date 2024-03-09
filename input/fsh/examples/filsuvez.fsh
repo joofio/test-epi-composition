@@ -4,7 +4,7 @@ Instance: composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627
 InstanceOf: CompositionUvEpi
 Title: "Composition for filsuvez Package Leaflet"
 Description:  "Composition for filsuvez Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -336,3 +336,28 @@ Chiesi Farmaceutici S.p.A.<br />
 Tel: + 39 0521 2This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5c0fb39b14c2c2f1d40da5ef86f1b627
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for filsuvez Package Leaflet for language en"
+Description: "ePI document Bundle for filsuvez Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627"
+* entry[0].resource = composition-en-5c0fb39b14c2c2f1d40da5ef86f1b627
+                      
+                      

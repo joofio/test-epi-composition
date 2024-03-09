@@ -4,7 +4,7 @@ Instance: composition-en-aba8c5f77c63653318ac43fe1a1d54ff
 InstanceOf: CompositionUvEpi
 Title: "Composition for pandemic Package Leaflet"
 Description:  "Composition for pandemic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -321,3 +321,28 @@ at least every year and this leaflet will be updated as necessary.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-aba8c5f77c63653318ac43fe1a1d54ff
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pandemic Package Leaflet for language en"
+Description: "ePI document Bundle for pandemic Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-aba8c5f77c63653318ac43fe1a1d54ff"
+* entry[0].resource = composition-en-aba8c5f77c63653318ac43fe1a1d54ff
+                      
+                      

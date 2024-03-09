@@ -4,7 +4,7 @@ Instance: composition-en-56dfb582fe4596bebf9f4c8e3931299d
 InstanceOf: CompositionUvEpi
 Title: "Composition for increlex Package Leaflet"
 Description:  "Composition for increlex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -398,3 +398,28 @@ this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-56dfb582fe4596bebf9f4c8e3931299d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for increlex Package Leaflet for language en"
+Description: "ePI document Bundle for increlex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-56dfb582fe4596bebf9f4c8e3931299d"
+* entry[0].resource = composition-en-56dfb582fe4596bebf9f4c8e3931299d
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-0e387e560fa6e1178c04c02876196a66
 InstanceOf: CompositionUvEpi
 Title: "Composition for trepulmix Package Leaflet"
 Description:  "Composition for trepulmix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -402,3 +402,28 @@ AOP Orphan Pharmaceuticals GmbH (Austria)
 Tel: + 43 1 5037This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0e387e560fa6e1178c04c02876196a66
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trepulmix Package Leaflet for language en"
+Description: "ePI document Bundle for trepulmix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0e387e560fa6e1178c04c02876196a66"
+* entry[0].resource = composition-en-0e387e560fa6e1178c04c02876196a66
+                      
+                      

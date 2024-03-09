@@ -4,7 +4,7 @@ Instance: composition-en-beff2655528d75e602c405816fbf6082
 InstanceOf: CompositionUvEpi
 Title: "Composition for novoseven Package Leaflet"
 Description:  "Composition for novoseven Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -555,3 +555,28 @@ waste. </p>
 <p>Do not disassemble the equipment before disposal.  </p>
 <p>Do not reuse the equipment. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-beff2655528d75e602c405816fbf6082
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novoseven Package Leaflet for language en"
+Description: "ePI document Bundle for novoseven Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-beff2655528d75e602c405816fbf6082"
+* entry[0].resource = composition-en-beff2655528d75e602c405816fbf6082
+                      
+                      

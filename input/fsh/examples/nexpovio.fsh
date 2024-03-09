@@ -4,7 +4,7 @@ Instance: composition-en-7213aca022d38d404e1e1e0d23413856
 InstanceOf: CompositionUvEpi
 Title: "Composition for nexpovio Package Leaflet"
 Description:  "Composition for nexpovio Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -387,3 +387,28 @@ Tel: +44 (0)800 047 8EUmedinfo@menarinistemline.com </p>
 <p>This leaflet was last revised in mm/yyyy. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7213aca022d38d404e1e1e0d23413856
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nexpovio Package Leaflet for language en"
+Description: "ePI document Bundle for nexpovio Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7213aca022d38d404e1e1e0d23413856"
+* entry[0].resource = composition-en-7213aca022d38d404e1e1e0d23413856
+                      
+                      

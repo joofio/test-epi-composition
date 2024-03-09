@@ -4,7 +4,7 @@ Instance: composition-en-fba0a8367a83300af2a00b0c6fd0b172
 InstanceOf: CompositionUvEpi
 Title: "Composition for fotivda Package Leaflet"
 Description:  "Composition for fotivda Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -438,3 +438,28 @@ Ireland </p>
 <p>This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fba0a8367a83300af2a00b0c6fd0b172
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fotivda Package Leaflet for language en"
+Description: "ePI document Bundle for fotivda Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fba0a8367a83300af2a00b0c6fd0b172"
+* entry[0].resource = composition-en-fba0a8367a83300af2a00b0c6fd0b172
+                      
+                      

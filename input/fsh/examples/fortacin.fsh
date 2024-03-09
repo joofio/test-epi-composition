@@ -4,7 +4,7 @@ Instance: composition-en-7595bd80b37f1612e8b528f48e44afff
 InstanceOf: CompositionUvEpi
 Title: "Composition for fortacin Package Leaflet"
 Description:  "Composition for fortacin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -374,3 +374,28 @@ The same information is also available on the following URL: www.fortacin.eu
 QR code www.fortacin.eu </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7595bd80b37f1612e8b528f48e44afff
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fortacin Package Leaflet for language en"
+Description: "ePI document Bundle for fortacin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7595bd80b37f1612e8b528f48e44afff"
+* entry[0].resource = composition-en-7595bd80b37f1612e8b528f48e44afff
+                      
+                      

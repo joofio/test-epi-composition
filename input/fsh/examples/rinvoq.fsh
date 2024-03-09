@@ -4,7 +4,7 @@ Instance: composition-en-603d42b6b07783003b47c538f27a463d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rinvoq Package Leaflet"
 Description:  "Composition for rinvoq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -509,3 +509,28 @@ Tel: +44 (0)1628 561This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-603d42b6b07783003b47c538f27a463d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rinvoq Package Leaflet for language en"
+Description: "ePI document Bundle for rinvoq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-603d42b6b07783003b47c538f27a463d"
+* entry[0].resource = composition-en-603d42b6b07783003b47c538f27a463d
+                      
+                      

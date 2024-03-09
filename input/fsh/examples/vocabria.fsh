@@ -4,7 +4,7 @@ Instance: composition-en-1e7f57f62efba41459076aa92d00da1a
 InstanceOf: CompositionUvEpi
 Title: "Composition for vocabria Package Leaflet"
 Description:  "Composition for vocabria Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -430,3 +430,28 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1e7f57f62efba41459076aa92d00da1a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vocabria Package Leaflet for language en"
+Description: "ePI document Bundle for vocabria Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1e7f57f62efba41459076aa92d00da1a"
+* entry[0].resource = composition-en-1e7f57f62efba41459076aa92d00da1a
+                      
+                      

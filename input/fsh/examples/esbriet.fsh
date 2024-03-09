@@ -4,7 +4,7 @@ Instance: composition-en-6455d7711efcb7c39e76872d121d19e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for esbriet Package Leaflet"
 Description:  "Composition for esbriet Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -359,3 +359,28 @@ Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6455d7711efcb7c39e76872d121d19e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for esbriet Package Leaflet for language en"
+Description: "ePI document Bundle for esbriet Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6455d7711efcb7c39e76872d121d19e0"
+* entry[0].resource = composition-en-6455d7711efcb7c39e76872d121d19e0
+                      
+                      

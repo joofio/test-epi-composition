@@ -4,7 +4,7 @@ Instance: composition-en-eb08c3555eb0d4fb795135600da399fc
 InstanceOf: CompositionUvEpi
 Title: "Composition for targretin Package Leaflet"
 Description:  "Composition for targretin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -350,3 +350,28 @@ This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-eb08c3555eb0d4fb795135600da399fc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for targretin Package Leaflet for language en"
+Description: "ePI document Bundle for targretin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-eb08c3555eb0d4fb795135600da399fc"
+* entry[0].resource = composition-en-eb08c3555eb0d4fb795135600da399fc
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-632b0155f5b9a1f6be017b9ac8e3fbf1
 InstanceOf: CompositionUvEpi
 Title: "Composition for bosulif Package Leaflet"
 Description:  "Composition for bosulif Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -524,3 +524,28 @@ Pfizer Limited
 Tel: +44 (0) 1304 616This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-632b0155f5b9a1f6be017b9ac8e3fbf1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bosulif Package Leaflet for language en"
+Description: "ePI document Bundle for bosulif Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-632b0155f5b9a1f6be017b9ac8e3fbf1"
+* entry[0].resource = composition-en-632b0155f5b9a1f6be017b9ac8e3fbf1
+                      
+                      

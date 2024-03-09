@@ -4,7 +4,7 @@ Instance: composition-en-28bc9e8680cc0c55edc2ed45f832ee0d
 InstanceOf: CompositionUvEpi
 Title: "Composition for tasmar Package Leaflet"
 Description:  "Composition for tasmar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -464,3 +464,28 @@ Meda Pharma SIA
  algirio str. 90-Vilnius LT-09Tel. + 370 52051This leaflet was last revised in:  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-28bc9e8680cc0c55edc2ed45f832ee0d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tasmar Package Leaflet for language en"
+Description: "ePI document Bundle for tasmar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-28bc9e8680cc0c55edc2ed45f832ee0d"
+* entry[0].resource = composition-en-28bc9e8680cc0c55edc2ed45f832ee0d
+                      
+                      

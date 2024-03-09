@@ -4,7 +4,7 @@ Instance: composition-en-47f74762e12054bd07cc18f7f2dc9dfb
 InstanceOf: CompositionUvEpi
 Title: "Composition for ryzodeg Package Leaflet"
 Description:  "Composition for ryzodeg Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -367,3 +367,28 @@ Novo All , DK-2880 Bagsv rd, Denmark. </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-47f74762e12054bd07cc18f7f2dc9dfb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ryzodeg Package Leaflet for language en"
+Description: "ePI document Bundle for ryzodeg Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-47f74762e12054bd07cc18f7f2dc9dfb"
+* entry[0].resource = composition-en-47f74762e12054bd07cc18f7f2dc9dfb
+                      
+                      

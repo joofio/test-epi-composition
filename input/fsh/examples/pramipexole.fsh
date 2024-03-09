@@ -4,7 +4,7 @@ Instance: composition-en-261a55b4cd341177b15693bfb98631a1
 InstanceOf: CompositionUvEpi
 Title: "Composition for pramipexole Package Leaflet"
 Description:  "Composition for pramipexole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -447,3 +447,28 @@ The Netherlands </p>
 <p>The leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-261a55b4cd341177b15693bfb98631a1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pramipexole Package Leaflet for language en"
+Description: "ePI document Bundle for pramipexole Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-261a55b4cd341177b15693bfb98631a1"
+* entry[0].resource = composition-en-261a55b4cd341177b15693bfb98631a1
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-9f5779161e02fec0335dcad538341589
 InstanceOf: CompositionUvEpi
 Title: "Composition for adenuric Package Leaflet"
 Description:  "Composition for adenuric Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -443,3 +443,28 @@ Tel: +44 (0)1628 856This leaflet was last revised in </p>
 Detailed information on this medicine is available on the European Medicines Agency website 
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9f5779161e02fec0335dcad538341589
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adenuric Package Leaflet for language en"
+Description: "ePI document Bundle for adenuric Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9f5779161e02fec0335dcad538341589"
+* entry[0].resource = composition-en-9f5779161e02fec0335dcad538341589
+                      
+                      

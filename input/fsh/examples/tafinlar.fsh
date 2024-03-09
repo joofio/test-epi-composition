@@ -4,7 +4,7 @@ Instance: composition-en-16019d0f068b393be3091cc008ef79bf
 InstanceOf: CompositionUvEpi
 Title: "Composition for tafinlar Package Leaflet"
 Description:  "Composition for tafinlar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -676,3 +676,28 @@ Tel: +44 1276 698This leaflet was last revised in  </p>
 http://www.ema.europa.eu. </p>
 <p>This leaflet is available in all EU/EEA languages on the European Medicines Agency website. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-16019d0f068b393be3091cc008ef79bf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tafinlar Package Leaflet for language en"
+Description: "ePI document Bundle for tafinlar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-16019d0f068b393be3091cc008ef79bf"
+* entry[0].resource = composition-en-16019d0f068b393be3091cc008ef79bf
+                      
+                      

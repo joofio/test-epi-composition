@@ -4,7 +4,7 @@ Instance: composition-en-f7bd65adcf41880a5b8668a52603da99
 InstanceOf: CompositionUvEpi
 Title: "Composition for methylthioninium Package Leaflet"
 Description:  "Composition for methylthioninium Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -403,3 +403,28 @@ Laboratoires ETHYPHARM
 Tel: + 33 1 41 12 65 This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f7bd65adcf41880a5b8668a52603da99
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for methylthioninium Package Leaflet for language en"
+Description: "ePI document Bundle for methylthioninium Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f7bd65adcf41880a5b8668a52603da99"
+* entry[0].resource = composition-en-f7bd65adcf41880a5b8668a52603da99
+                      
+                      

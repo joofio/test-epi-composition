@@ -4,7 +4,7 @@ Instance: composition-en-96958c1c1275e460bebf23cdf143ad79
 InstanceOf: CompositionUvEpi
 Title: "Composition for lysodren Package Leaflet"
 Description:  "Composition for lysodren Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -312,3 +312,28 @@ Phone:  . </p>
  HRA Pharma Rare Diseases 
 Tel: + 33 1 40 33 93 medinfo-rd@hra-pharma.com </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-96958c1c1275e460bebf23cdf143ad79
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lysodren Package Leaflet for language en"
+Description: "ePI document Bundle for lysodren Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-96958c1c1275e460bebf23cdf143ad79"
+* entry[0].resource = composition-en-96958c1c1275e460bebf23cdf143ad79
+                      
+                      

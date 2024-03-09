@@ -4,7 +4,7 @@ Instance: composition-en-fc79b24fd8d9aad3e2636eda8908eb2a
 InstanceOf: CompositionUvEpi
 Title: "Composition for aldara Package Leaflet"
 Description:  "Composition for aldara Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -466,3 +466,28 @@ Viatris UAB
  algirio str. 90-Vilnius LT-09Tel. + 370 52051This leaflet was last revised in (MM/YYYY). </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fc79b24fd8d9aad3e2636eda8908eb2a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aldara Package Leaflet for language en"
+Description: "ePI document Bundle for aldara Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fc79b24fd8d9aad3e2636eda8908eb2a"
+* entry[0].resource = composition-en-fc79b24fd8d9aad3e2636eda8908eb2a
+                      
+                      

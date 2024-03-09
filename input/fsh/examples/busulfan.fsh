@@ -4,7 +4,7 @@ Instance: composition-en-2a5eb21f13292133a1b42432d323ff12
 InstanceOf: CompositionUvEpi
 Title: "Composition for busulfan Package Leaflet"
 Description:  "Composition for busulfan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -351,3 +351,28 @@ Do not freeze the diluted solution. </p>
 <p>Any unused medicinal product or waste should be disposed of in accordance with local requirements for 
 cytotoxic medicinal products. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-2a5eb21f13292133a1b42432d323ff12
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for busulfan Package Leaflet for language en"
+Description: "ePI document Bundle for busulfan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2a5eb21f13292133a1b42432d323ff12"
+* entry[0].resource = composition-en-2a5eb21f13292133a1b42432d323ff12
+                      
+                      

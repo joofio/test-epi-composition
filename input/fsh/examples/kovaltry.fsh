@@ -4,7 +4,7 @@ Instance: composition-en-8467bc8586a2da87e0b1d648339b10b3
 InstanceOf: CompositionUvEpi
 Title: "Composition for kovaltry Package Leaflet"
 Description:  "Composition for kovaltry Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -343,3 +343,28 @@ Bayer AG
 Tel: +44-(0)118 206 3This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8467bc8586a2da87e0b1d648339b10b3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kovaltry Package Leaflet for language en"
+Description: "ePI document Bundle for kovaltry Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8467bc8586a2da87e0b1d648339b10b3"
+* entry[0].resource = composition-en-8467bc8586a2da87e0b1d648339b10b3
+                      
+                      

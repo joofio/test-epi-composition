@@ -4,7 +4,7 @@ Instance: composition-en-684d3ac7eb172f49f26955be7ae4a00d
 InstanceOf: CompositionUvEpi
 Title: "Composition for ajovy Package Leaflet"
 Description:  "Composition for ajovy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -288,3 +288,28 @@ Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-684d3ac7eb172f49f26955be7ae4a00d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ajovy Package Leaflet for language en"
+Description: "ePI document Bundle for ajovy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-684d3ac7eb172f49f26955be7ae4a00d"
+* entry[0].resource = composition-en-684d3ac7eb172f49f26955be7ae4a00d
+                      
+                      

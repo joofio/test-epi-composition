@@ -4,7 +4,7 @@ Instance: composition-en-8efc3218e58b030bcc0685f059870454
 InstanceOf: CompositionUvEpi
 Title: "Composition for blitzima Package Leaflet"
 Description:  "Composition for blitzima Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -558,3 +558,28 @@ Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8efc3218e58b030bcc0685f059870454
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for blitzima Package Leaflet for language en"
+Description: "ePI document Bundle for blitzima Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8efc3218e58b030bcc0685f059870454"
+* entry[0].resource = composition-en-8efc3218e58b030bcc0685f059870454
+                      
+                      

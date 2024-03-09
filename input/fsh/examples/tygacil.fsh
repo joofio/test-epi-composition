@@ -4,7 +4,7 @@ Instance: composition-en-e58616440ae4dbe3d75414bff85541e0
 InstanceOf: CompositionUvEpi
 Title: "Composition for tygacil Package Leaflet"
 Description:  "Composition for tygacil Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -355,3 +355,28 @@ Once reconstituted and diluted in the bag or other suitable infusion container (
 tigecycline should be used immediately.
 For single use only, any unused solution should be discarded.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e58616440ae4dbe3d75414bff85541e0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tygacil Package Leaflet for language en"
+Description: "ePI document Bundle for tygacil Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e58616440ae4dbe3d75414bff85541e0"
+* entry[0].resource = composition-en-e58616440ae4dbe3d75414bff85541e0
+                      
+                      

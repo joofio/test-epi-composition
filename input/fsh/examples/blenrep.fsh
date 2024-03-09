@@ -4,7 +4,7 @@ Instance: composition-en-c2c1b230e761a81bed14b4231d2e7837
 InstanceOf: CompositionUvEpi
 Title: "Composition for blenrep Package Leaflet"
 Description:  "Composition for blenrep Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -348,3 +348,28 @@ this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c2c1b230e761a81bed14b4231d2e7837
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for blenrep Package Leaflet for language en"
+Description: "ePI document Bundle for blenrep Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c2c1b230e761a81bed14b4231d2e7837"
+* entry[0].resource = composition-en-c2c1b230e761a81bed14b4231d2e7837
+                      
+                      

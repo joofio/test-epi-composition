@@ -4,7 +4,7 @@ Instance: composition-en-7957aafe253d586bcd1a37e5702661ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for hetlioz Package Leaflet"
 Description:  "Composition for hetlioz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -303,3 +303,28 @@ Tel: +49 (0)30 800 98This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7957aafe253d586bcd1a37e5702661ef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hetlioz Package Leaflet for language en"
+Description: "ePI document Bundle for hetlioz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7957aafe253d586bcd1a37e5702661ef"
+* entry[0].resource = composition-en-7957aafe253d586bcd1a37e5702661ef
+                      
+                      

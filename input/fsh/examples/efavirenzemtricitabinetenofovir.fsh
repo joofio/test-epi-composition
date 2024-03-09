@@ -4,7 +4,7 @@ Instance: composition-en-65f18cefcd0fd99147e2e0a1f92724f0
 InstanceOf: CompositionUvEpi
 Title: "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
 Description:  "Composition for efavirenzemtricitabinetenofovir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -653,3 +653,28 @@ Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-65f18cefcd0fd99147e2e0a1f92724f0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language en"
+Description: "ePI document Bundle for efavirenzemtricitabinetenofovir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-65f18cefcd0fd99147e2e0a1f92724f0"
+* entry[0].resource = composition-en-65f18cefcd0fd99147e2e0a1f92724f0
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-de5eecf9e44a37927bab25be6edb8bcb
 InstanceOf: CompositionUvEpi
 Title: "Composition for fareston Package Leaflet"
 Description:  "Composition for fareston Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -425,3 +425,28 @@ Orion Corporation
 Tel: +358 10 4This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-de5eecf9e44a37927bab25be6edb8bcb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fareston Package Leaflet for language en"
+Description: "ePI document Bundle for fareston Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-de5eecf9e44a37927bab25be6edb8bcb"
+* entry[0].resource = composition-en-de5eecf9e44a37927bab25be6edb8bcb
+                      
+                      

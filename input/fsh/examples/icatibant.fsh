@@ -4,7 +4,7 @@ Instance: composition-en-08061c368f26d0bb40f900f8c777c70e
 InstanceOf: CompositionUvEpi
 Title: "Composition for icatibant Package Leaflet"
 Description:  "Composition for icatibant Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -445,3 +445,28 @@ Tel: +30 210 7488 This leaflet was last revised in  {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website:<br />
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-08061c368f26d0bb40f900f8c777c70e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for icatibant Package Leaflet for language en"
+Description: "ePI document Bundle for icatibant Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-08061c368f26d0bb40f900f8c777c70e"
+* entry[0].resource = composition-en-08061c368f26d0bb40f900f8c777c70e
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-af7ada14ad8929ea357c14ec95ee08dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for nityr Package Leaflet"
 Description:  "Composition for nityr Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -234,3 +234,28 @@ Netherlands </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website:<br />
 http://www.ema.europa.eu. There are also links to other websites about rare diseases and treatments. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-af7ada14ad8929ea357c14ec95ee08dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nityr Package Leaflet for language en"
+Description: "ePI document Bundle for nityr Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-af7ada14ad8929ea357c14ec95ee08dd"
+* entry[0].resource = composition-en-af7ada14ad8929ea357c14ec95ee08dd
+                      
+                      

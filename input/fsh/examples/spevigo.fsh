@@ -4,7 +4,7 @@ Instance: composition-en-6b301f6c675105f98d980bf8971e8028
 InstanceOf: CompositionUvEpi
 Title: "Composition for spevigo Package Leaflet"
 Description:  "Composition for spevigo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -370,3 +370,28 @@ The CHMP having considered the application is of the opinion that the risk-benef
 favourable to recommend the granting of the conditional marketing authorisation as further explained 
 in the European Public Assessment Report.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6b301f6c675105f98d980bf8971e8028
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spevigo Package Leaflet for language en"
+Description: "ePI document Bundle for spevigo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6b301f6c675105f98d980bf8971e8028"
+* entry[0].resource = composition-en-6b301f6c675105f98d980bf8971e8028
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-74cee07ffddb72142d80fc4c20efe6f2
 InstanceOf: CompositionUvEpi
 Title: "Composition for tavneos Package Leaflet"
 Description:  "Composition for tavneos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -313,3 +313,28 @@ http://www.ema.europa.eu. There are also links to other websites about rare dise
 <p>Detailed information on this medicine is also available on the following URL: http://www.tavneos-
 patient.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-74cee07ffddb72142d80fc4c20efe6f2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tavneos Package Leaflet for language en"
+Description: "ePI document Bundle for tavneos Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-74cee07ffddb72142d80fc4c20efe6f2"
+* entry[0].resource = composition-en-74cee07ffddb72142d80fc4c20efe6f2
+                      
+                      

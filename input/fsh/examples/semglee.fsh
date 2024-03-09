@@ -4,7 +4,7 @@ Instance: composition-en-8d0c124d18ae7d118dd0c09ef060535b
 InstanceOf: CompositionUvEpi
 Title: "Composition for semglee Package Leaflet"
 Description:  "Composition for semglee Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -443,3 +443,28 @@ Tel: 0080008250This leaflet was last revised in {month YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8d0c124d18ae7d118dd0c09ef060535b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for semglee Package Leaflet for language en"
+Description: "ePI document Bundle for semglee Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8d0c124d18ae7d118dd0c09ef060535b"
+* entry[0].resource = composition-en-8d0c124d18ae7d118dd0c09ef060535b
+                      
+                      

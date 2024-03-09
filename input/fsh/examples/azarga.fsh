@@ -4,7 +4,7 @@ Instance: composition-en-244f0d5975a83ec03b917d6f24b1b649
 InstanceOf: CompositionUvEpi
 Title: "Composition for azarga Package Leaflet"
 Description:  "Composition for azarga Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -416,3 +416,28 @@ Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-244f0d5975a83ec03b917d6f24b1b649
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for azarga Package Leaflet for language en"
+Description: "ePI document Bundle for azarga Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-244f0d5975a83ec03b917d6f24b1b649"
+* entry[0].resource = composition-en-244f0d5975a83ec03b917d6f24b1b649
+                      
+                      

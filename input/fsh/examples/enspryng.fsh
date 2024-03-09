@@ -4,7 +4,7 @@ Instance: composition-en-0d7ee15ee10dc2578a331f45f3babb36
 InstanceOf: CompositionUvEpi
 Title: "Composition for enspryng Package Leaflet"
 Description:  "Composition for enspryng Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -383,3 +383,28 @@ Roche Products (Ireland) Ltd.<br />
 Tel: +44 (0) 1707 366This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0d7ee15ee10dc2578a331f45f3babb36
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for enspryng Package Leaflet for language en"
+Description: "ePI document Bundle for enspryng Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0d7ee15ee10dc2578a331f45f3babb36"
+* entry[0].resource = composition-en-0d7ee15ee10dc2578a331f45f3babb36
+                      
+                      

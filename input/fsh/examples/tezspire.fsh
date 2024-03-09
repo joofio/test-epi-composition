@@ -4,7 +4,7 @@ Instance: composition-en-f6cd137002e2af601eb2a1335966e882
 InstanceOf: CompositionUvEpi
 Title: "Composition for tezspire Package Leaflet"
 Description:  "Composition for tezspire Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -305,3 +305,28 @@ Tel: +44 1582 836 This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f6cd137002e2af601eb2a1335966e882
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tezspire Package Leaflet for language en"
+Description: "ePI document Bundle for tezspire Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f6cd137002e2af601eb2a1335966e882"
+* entry[0].resource = composition-en-f6cd137002e2af601eb2a1335966e882
+                      
+                      

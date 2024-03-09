@@ -4,7 +4,7 @@ Instance: composition-en-211825d32829aaffbdc41442ec401539
 InstanceOf: CompositionUvEpi
 Title: "Composition for docetaxel Package Leaflet"
 Description:  "Composition for docetaxel Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -414,3 +414,28 @@ important information for you.
 - If you get any side effects, talk to your doctor, hospital pharmacist or nurse. This includes any </p>
 <p>possible side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-211825d32829aaffbdc41442ec401539
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for docetaxel Package Leaflet for language en"
+Description: "ePI document Bundle for docetaxel Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-211825d32829aaffbdc41442ec401539"
+* entry[0].resource = composition-en-211825d32829aaffbdc41442ec401539
+                      
+                      

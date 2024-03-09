@@ -4,7 +4,7 @@ Instance: composition-en-f812f9eb1d2ca77fff87e615574ce4dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for degarelix Package Leaflet"
 Description:  "Composition for degarelix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -249,3 +249,28 @@ PLA 3000, Malta </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f812f9eb1d2ca77fff87e615574ce4dc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for degarelix Package Leaflet for language en"
+Description: "ePI document Bundle for degarelix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f812f9eb1d2ca77fff87e615574ce4dc"
+* entry[0].resource = composition-en-f812f9eb1d2ca77fff87e615574ce4dc
+                      
+                      

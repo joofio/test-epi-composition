@@ -4,7 +4,7 @@ Instance: composition-en-7eea12adb97ff7cb073c678b4544c722
 InstanceOf: CompositionUvEpi
 Title: "Composition for emtricitabine Package Leaflet"
 Description:  "Composition for emtricitabine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -506,3 +506,28 @@ Mylan IRE Healthcare Limited
 Tel: +353 18711This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7eea12adb97ff7cb073c678b4544c722
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emtricitabine Package Leaflet for language en"
+Description: "ePI document Bundle for emtricitabine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7eea12adb97ff7cb073c678b4544c722"
+* entry[0].resource = composition-en-7eea12adb97ff7cb073c678b4544c722
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-efed70c799d3cf5deb34f761d19e059b
 InstanceOf: CompositionUvEpi
 Title: "Composition for imvanex Package Leaflet"
 Description:  "Composition for imvanex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -278,3 +278,28 @@ The European Medicines Agency will review any new information on this medicine e
 this leaflet will be updated as necessary. 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-efed70c799d3cf5deb34f761d19e059b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imvanex Package Leaflet for language en"
+Description: "ePI document Bundle for imvanex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-efed70c799d3cf5deb34f761d19e059b"
+* entry[0].resource = composition-en-efed70c799d3cf5deb34f761d19e059b
+                      
+                      

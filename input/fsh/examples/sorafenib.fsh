@@ -4,7 +4,7 @@ Instance: composition-en-a43f6802b7bc837851c3ee6d33acffd1
 InstanceOf: CompositionUvEpi
 Title: "Composition for sorafenib Package Leaflet"
 Description:  "Composition for sorafenib Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -344,3 +344,28 @@ The Netherlands </p>
 Detailed information on this medicine is available on the European Medicines Agency website: 
 http://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a43f6802b7bc837851c3ee6d33acffd1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sorafenib Package Leaflet for language en"
+Description: "ePI document Bundle for sorafenib Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a43f6802b7bc837851c3ee6d33acffd1"
+* entry[0].resource = composition-en-a43f6802b7bc837851c3ee6d33acffd1
+                      
+                      

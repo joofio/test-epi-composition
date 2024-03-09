@@ -4,7 +4,7 @@ Instance: composition-en-249170621fe2e34bc97c331b03b5b5b0
 InstanceOf: CompositionUvEpi
 Title: "Composition for poteligeo Package Leaflet"
 Description:  "Composition for poteligeo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -256,3 +256,28 @@ Germany </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-249170621fe2e34bc97c331b03b5b5b0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for poteligeo Package Leaflet for language en"
+Description: "ePI document Bundle for poteligeo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-249170621fe2e34bc97c331b03b5b5b0"
+* entry[0].resource = composition-en-249170621fe2e34bc97c331b03b5b5b0
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-8a06156d853d45b0ba99d89b9f448d89
 InstanceOf: CompositionUvEpi
 Title: "Composition for visudyne Package Leaflet"
 Description:  "Composition for visudyne Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -299,3 +299,28 @@ as polyethersulfone) of a pore size of not less than 1.2  m is recommended. </p>
 should be avoided. Use of rubber gloves and eye protection is recommended. Any unused medicine or 
 waste material should be disposed of in accordance with local requirements. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8a06156d853d45b0ba99d89b9f448d89
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for visudyne Package Leaflet for language en"
+Description: "ePI document Bundle for visudyne Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8a06156d853d45b0ba99d89b9f448d89"
+* entry[0].resource = composition-en-8a06156d853d45b0ba99d89b9f448d89
+                      
+                      

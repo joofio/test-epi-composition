@@ -4,7 +4,7 @@ Instance: composition-en-3c57f0122132d30c2d609098965d1921
 InstanceOf: CompositionUvEpi
 Title: "Composition for ebglyss Package Leaflet"
 Description:  "Composition for ebglyss Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -268,3 +268,28 @@ Almirall, S.A.
 Tel: +353 (0) 1431 9This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3c57f0122132d30c2d609098965d1921
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ebglyss Package Leaflet for language en"
+Description: "ePI document Bundle for ebglyss Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3c57f0122132d30c2d609098965d1921"
+* entry[0].resource = composition-en-3c57f0122132d30c2d609098965d1921
+                      
+                      

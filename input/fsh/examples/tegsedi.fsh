@@ -4,7 +4,7 @@ Instance: composition-en-bb91b33a725934383f978ba47cb95161
 InstanceOf: CompositionUvEpi
 Title: "Composition for tegsedi Package Leaflet"
 Description:  "Composition for tegsedi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -513,3 +513,28 @@ Austria </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-bb91b33a725934383f978ba47cb95161
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tegsedi Package Leaflet for language en"
+Description: "ePI document Bundle for tegsedi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bb91b33a725934383f978ba47cb95161"
+* entry[0].resource = composition-en-bb91b33a725934383f978ba47cb95161
+                      
+                      

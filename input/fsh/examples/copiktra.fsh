@@ -4,7 +4,7 @@ Instance: composition-en-74778e8109bf478af8bf20ce15b25c4c
 InstanceOf: CompositionUvEpi
 Title: "Composition for copiktra Package Leaflet"
 Description:  "Composition for copiktra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -329,3 +329,28 @@ Stamullen, Co. Meath, K32 YDIreland </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-74778e8109bf478af8bf20ce15b25c4c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for copiktra Package Leaflet for language en"
+Description: "ePI document Bundle for copiktra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-74778e8109bf478af8bf20ce15b25c4c"
+* entry[0].resource = composition-en-74778e8109bf478af8bf20ce15b25c4c
+                      
+                      

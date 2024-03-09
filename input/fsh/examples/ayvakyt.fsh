@@ -4,7 +4,7 @@ Instance: composition-en-f40cac7981e52d03bbfe471a7f88b25f
 InstanceOf: CompositionUvEpi
 Title: "Composition for ayvakyt Package Leaflet"
 Description:  "Composition for ayvakyt Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -384,3 +384,28 @@ this leaflet will be updated as necessary. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f40cac7981e52d03bbfe471a7f88b25f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ayvakyt Package Leaflet for language en"
+Description: "ePI document Bundle for ayvakyt Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f40cac7981e52d03bbfe471a7f88b25f"
+* entry[0].resource = composition-en-f40cac7981e52d03bbfe471a7f88b25f
+                      
+                      

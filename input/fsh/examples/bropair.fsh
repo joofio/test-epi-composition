@@ -4,7 +4,7 @@ Instance: composition-en-c86344d735226a69a1900045e5d0cddb
 InstanceOf: CompositionUvEpi
 Title: "Composition for bropair Package Leaflet"
 Description:  "Composition for bropair Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -446,3 +446,28 @@ Tel: +44 207 540 7This leaflet was last revised in. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c86344d735226a69a1900045e5d0cddb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bropair Package Leaflet for language en"
+Description: "ePI document Bundle for bropair Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c86344d735226a69a1900045e5d0cddb"
+* entry[0].resource = composition-en-c86344d735226a69a1900045e5d0cddb
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-fbf95ea541cd91a60587ad0005d0c1b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for cometriq Package Leaflet"
 Description:  "Composition for cometriq Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -453,3 +453,28 @@ Tel: + 34 936 858 Tel: + 420 242 481 Ireland, United Kingdom (Northern Ireland) 
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fbf95ea541cd91a60587ad0005d0c1b4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cometriq Package Leaflet for language en"
+Description: "ePI document Bundle for cometriq Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fbf95ea541cd91a60587ad0005d0c1b4"
+* entry[0].resource = composition-en-fbf95ea541cd91a60587ad0005d0c1b4
+                      
+                      

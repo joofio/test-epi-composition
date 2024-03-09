@@ -4,7 +4,7 @@ Instance: composition-en-b6aaef38fe85ec54174ec8e0149fcca6
 InstanceOf: CompositionUvEpi
 Title: "Composition for xerava Package Leaflet"
 Description:  "Composition for xerava Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -315,3 +315,28 @@ PAION Deutschland GmbH<br />
 Tel: + 49 800 4453 4This leaflet was last revised in. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b6aaef38fe85ec54174ec8e0149fcca6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xerava Package Leaflet for language en"
+Description: "ePI document Bundle for xerava Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b6aaef38fe85ec54174ec8e0149fcca6"
+* entry[0].resource = composition-en-b6aaef38fe85ec54174ec8e0149fcca6
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-63b15a3bb9d18a00ecd0962bc011c765
 InstanceOf: CompositionUvEpi
 Title: "Composition for biktarvy Package Leaflet"
 Description:  "Composition for biktarvy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -481,3 +481,28 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113 This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-63b15a3bb9d18a00ecd0962bc011c765
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for biktarvy Package Leaflet for language en"
+Description: "ePI document Bundle for biktarvy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-63b15a3bb9d18a00ecd0962bc011c765"
+* entry[0].resource = composition-en-63b15a3bb9d18a00ecd0962bc011c765
+                      
+                      

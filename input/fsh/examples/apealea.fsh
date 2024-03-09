@@ -4,7 +4,7 @@ Instance: composition-en-16b17145743fb4005511a462dcbf7da1
 InstanceOf: CompositionUvEpi
 Title: "Composition for apealea Package Leaflet"
 Description:  "Composition for apealea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -389,3 +389,28 @@ complete dose. </p>
 Any unused medicinal product or waste material should be disposed of in accordance with local 
 requirements. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-16b17145743fb4005511a462dcbf7da1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for apealea Package Leaflet for language en"
+Description: "ePI document Bundle for apealea Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-16b17145743fb4005511a462dcbf7da1"
+* entry[0].resource = composition-en-16b17145743fb4005511a462dcbf7da1
+                      
+                      

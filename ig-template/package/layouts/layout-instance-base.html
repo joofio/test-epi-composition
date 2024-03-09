@@ -15,12 +15,12 @@
 
 {% include fragment-simpletable.html %}
 
-{% if '{{[type]}}' == 'Composition' %}
+{% if '{{[type]}}' == 'Bundle' %}
 
   {% assign filename = page.path | split: ".html" | first %} 
   {% assign composition = site.data[filename] %} 
 
-  {% include epi.liquid composition=composition %}
+  {% include epi.liquid bundle=bundle %}
 
 {% endif %}
 

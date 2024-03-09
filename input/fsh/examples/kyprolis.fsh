@@ -4,7 +4,7 @@ Instance: composition-en-fcd6f0f28646833495976357e48ff691
 InstanceOf: CompositionUvEpi
 Title: "Composition for kyprolis Package Leaflet"
 Description:  "Composition for kyprolis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -483,3 +483,28 @@ Tel: +44 (0)1223 420This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fcd6f0f28646833495976357e48ff691
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kyprolis Package Leaflet for language en"
+Description: "ePI document Bundle for kyprolis Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fcd6f0f28646833495976357e48ff691"
+* entry[0].resource = composition-en-fcd6f0f28646833495976357e48ff691
+                      
+                      

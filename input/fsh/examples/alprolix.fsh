@@ -4,7 +4,7 @@ Instance: composition-en-96e3a078093b1cdfc599d6c2d6322437
 InstanceOf: CompositionUvEpi
 Title: "Composition for alprolix Package Leaflet"
 Description:  "Composition for alprolix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -255,3 +255,28 @@ Sweden
 Phone: +46 8 697 20 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-96e3a078093b1cdfc599d6c2d6322437
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for alprolix Package Leaflet for language en"
+Description: "ePI document Bundle for alprolix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-96e3a078093b1cdfc599d6c2d6322437"
+* entry[0].resource = composition-en-96e3a078093b1cdfc599d6c2d6322437
+                      
+                      

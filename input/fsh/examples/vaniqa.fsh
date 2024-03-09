@@ -4,7 +4,7 @@ Instance: composition-en-6054fe37439ac8bd57061a7fc8bca219
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaniqa Package Leaflet"
 Description:  "Composition for vaniqa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -256,3 +256,28 @@ Orion Pharma
 Puh/Tel: +358 10 4This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6054fe37439ac8bd57061a7fc8bca219
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaniqa Package Leaflet for language en"
+Description: "ePI document Bundle for vaniqa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6054fe37439ac8bd57061a7fc8bca219"
+* entry[0].resource = composition-en-6054fe37439ac8bd57061a7fc8bca219
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-9a837e87c0c475b218e0535edae8bbad
 InstanceOf: CompositionUvEpi
 Title: "Composition for klisyri Package Leaflet"
 Description:  "Composition for klisyri Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -255,3 +255,28 @@ Almirall - Produtos Farmac uticos, Lda.<br />
 Tel.: +351 21 415 57 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9a837e87c0c475b218e0535edae8bbad
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for klisyri Package Leaflet for language en"
+Description: "ePI document Bundle for klisyri Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9a837e87c0c475b218e0535edae8bbad"
+* entry[0].resource = composition-en-9a837e87c0c475b218e0535edae8bbad
+                      
+                      

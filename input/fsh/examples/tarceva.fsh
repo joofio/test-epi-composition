@@ -4,7 +4,7 @@ Instance: composition-en-749702afc7782cf3e72848a0a0ebc924
 InstanceOf: CompositionUvEpi
 Title: "Composition for tarceva Package Leaflet"
 Description:  "Composition for tarceva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -402,3 +402,28 @@ Roche Products (Ireland) Ltd.
 Tel: +44 (0) 1707 366This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-749702afc7782cf3e72848a0a0ebc924
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tarceva Package Leaflet for language en"
+Description: "ePI document Bundle for tarceva Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-749702afc7782cf3e72848a0a0ebc924"
+* entry[0].resource = composition-en-749702afc7782cf3e72848a0a0ebc924
+                      
+                      

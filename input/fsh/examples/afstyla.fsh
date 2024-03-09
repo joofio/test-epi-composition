@@ -4,7 +4,7 @@ Instance: composition-en-c832a88299d92f8a87ef0072aef518b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for afstyla Package Leaflet"
 Description:  "Composition for afstyla Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -423,3 +423,28 @@ CentralPharma Communications UAB
 Tel: +370 5 243 0This leaflet was last revised in {MM/YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c832a88299d92f8a87ef0072aef518b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for afstyla Package Leaflet for language en"
+Description: "ePI document Bundle for afstyla Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c832a88299d92f8a87ef0072aef518b9"
+* entry[0].resource = composition-en-c832a88299d92f8a87ef0072aef518b9
+                      
+                      

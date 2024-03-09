@@ -4,7 +4,7 @@ Instance: composition-en-15885cc7c5a4f088fdfc128fa6bb5034
 InstanceOf: CompositionUvEpi
 Title: "Composition for spravato Package Leaflet"
 Description:  "Composition for spravato Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -423,3 +423,28 @@ Tel: +44 1 494 567 medinfo@its.jnj.com
 This leaflet was last revised in {MM/YYYY} OR {month YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-15885cc7c5a4f088fdfc128fa6bb5034
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for spravato Package Leaflet for language en"
+Description: "ePI document Bundle for spravato Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-15885cc7c5a4f088fdfc128fa6bb5034"
+* entry[0].resource = composition-en-15885cc7c5a4f088fdfc128fa6bb5034
+                      
+                      

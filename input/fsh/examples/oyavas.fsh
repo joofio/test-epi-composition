@@ -4,7 +4,7 @@ Instance: composition-en-d022f4fb840a33cb86a67bb1564d1bed
 InstanceOf: CompositionUvEpi
 Title: "Composition for oyavas Package Leaflet"
 Description:  "Composition for oyavas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -504,3 +504,28 @@ Tel: +49 61016This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYYY}
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d022f4fb840a33cb86a67bb1564d1bed
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for oyavas Package Leaflet for language en"
+Description: "ePI document Bundle for oyavas Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d022f4fb840a33cb86a67bb1564d1bed"
+* entry[0].resource = composition-en-d022f4fb840a33cb86a67bb1564d1bed
+                      
+                      

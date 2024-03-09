@@ -4,7 +4,7 @@ Instance: composition-en-12c8a969675c3f7a6a3764899fb6a5f5
 InstanceOf: CompositionUvEpi
 Title: "Composition for rotarix Package Leaflet"
 Description:  "Composition for rotarix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -322,3 +322,28 @@ Tel: + 44 (0)800 221 customercontactuk@gsk.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-12c8a969675c3f7a6a3764899fb6a5f5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rotarix Package Leaflet for language en"
+Description: "ePI document Bundle for rotarix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-12c8a969675c3f7a6a3764899fb6a5f5"
+* entry[0].resource = composition-en-12c8a969675c3f7a6a3764899fb6a5f5
+                      
+                      

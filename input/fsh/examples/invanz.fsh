@@ -4,7 +4,7 @@ Instance: composition-en-bc2ae75a6ecb98e9392c79b792d9e432
 InstanceOf: CompositionUvEpi
 Title: "Composition for invanz Package Leaflet"
 Description:  "Composition for invanz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -419,3 +419,28 @@ to administration, whenever the container permits. Solutions of INVANZ range fro
 pale yellow. Variations of colour within this range do not affect potency.
 Any unused product or waste material should be disposed of in accordance with local requirements.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-bc2ae75a6ecb98e9392c79b792d9e432
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for invanz Package Leaflet for language en"
+Description: "ePI document Bundle for invanz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bc2ae75a6ecb98e9392c79b792d9e432"
+* entry[0].resource = composition-en-bc2ae75a6ecb98e9392c79b792d9e432
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-dd757aba03311ccfbf31708d5bd7ddb1
 InstanceOf: CompositionUvEpi
 Title: "Composition for terrosa Package Leaflet"
 Description:  "Composition for terrosa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -314,3 +314,28 @@ www.terrosapatient.com </p>
 <p>QR code to be included </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-dd757aba03311ccfbf31708d5bd7ddb1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for terrosa Package Leaflet for language en"
+Description: "ePI document Bundle for terrosa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-dd757aba03311ccfbf31708d5bd7ddb1"
+* entry[0].resource = composition-en-dd757aba03311ccfbf31708d5bd7ddb1
+                      
+                      

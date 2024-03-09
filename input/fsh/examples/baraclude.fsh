@@ -4,7 +4,7 @@ Instance: composition-en-1f96cd88f64662096f991c68963865d4
 InstanceOf: CompositionUvEpi
 Title: "Composition for baraclude Package Leaflet"
 Description:  "Composition for baraclude Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -270,3 +270,28 @@ Dublin 15, D15 TIreland </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1f96cd88f64662096f991c68963865d4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for baraclude Package Leaflet for language en"
+Description: "ePI document Bundle for baraclude Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1f96cd88f64662096f991c68963865d4"
+* entry[0].resource = composition-en-1f96cd88f64662096f991c68963865d4
+                      
+                      

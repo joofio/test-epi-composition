@@ -4,7 +4,7 @@ Instance: composition-en-241d4bc94412cf7041721319e0eaea4c
 InstanceOf: CompositionUvEpi
 Title: "Composition for rezolsta Package Leaflet"
 Description:  "Composition for rezolsta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -566,3 +566,28 @@ Tel: +44 1 494 567 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicinal product is available on the European Medicines Agency web 
 site: http://www.ema.europa.eu.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-241d4bc94412cf7041721319e0eaea4c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rezolsta Package Leaflet for language en"
+Description: "ePI document Bundle for rezolsta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-241d4bc94412cf7041721319e0eaea4c"
+* entry[0].resource = composition-en-241d4bc94412cf7041721319e0eaea4c
+                      
+                      

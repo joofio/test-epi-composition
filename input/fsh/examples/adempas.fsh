@@ -4,7 +4,7 @@ Instance: composition-en-a0ac9d79e71815d66e8cc1b00ebabcb0
 InstanceOf: CompositionUvEpi
 Title: "Composition for adempas Package Leaflet"
 Description:  "Composition for adempas Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -491,3 +491,28 @@ Tel: +353 (0)1 2998medinfoNI@msd.com </p>
 <p>This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a0ac9d79e71815d66e8cc1b00ebabcb0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adempas Package Leaflet for language en"
+Description: "ePI document Bundle for adempas Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a0ac9d79e71815d66e8cc1b00ebabcb0"
+* entry[0].resource = composition-en-a0ac9d79e71815d66e8cc1b00ebabcb0
+                      
+                      

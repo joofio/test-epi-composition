@@ -4,7 +4,7 @@ Instance: composition-en-0033e02023c8b1bd6906c2cf5f7b744d
 InstanceOf: CompositionUvEpi
 Title: "Composition for breyanzi Package Leaflet"
 Description:  "Composition for breyanzi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -330,3 +330,28 @@ Netherlands </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0033e02023c8b1bd6906c2cf5f7b744d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for breyanzi Package Leaflet for language en"
+Description: "ePI document Bundle for breyanzi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0033e02023c8b1bd6906c2cf5f7b744d"
+* entry[0].resource = composition-en-0033e02023c8b1bd6906c2cf5f7b744d
+                      
+                      

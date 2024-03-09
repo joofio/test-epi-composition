@@ -4,7 +4,7 @@ Instance: composition-en-a2d91e093ece9c0d3351fd31285a05ea
 InstanceOf: CompositionUvEpi
 Title: "Composition for voriconazole Package Leaflet"
 Description:  "Composition for voriconazole Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -446,3 +446,28 @@ Tel.: +44(0)203 751 1FR
 Hikma France 
 +33(0) 1 87 69 98 This leaflet was last revised in 05/2Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a2d91e093ece9c0d3351fd31285a05ea
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for voriconazole Package Leaflet for language en"
+Description: "ePI document Bundle for voriconazole Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a2d91e093ece9c0d3351fd31285a05ea"
+* entry[0].resource = composition-en-a2d91e093ece9c0d3351fd31285a05ea
+                      
+                      

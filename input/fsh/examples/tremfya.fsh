@@ -4,7 +4,7 @@ Instance: composition-en-0efb4276dbc7ad1d850b741a6d2cdac5
 InstanceOf: CompositionUvEpi
 Title: "Composition for tremfya Package Leaflet"
 Description:  "Composition for tremfya Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -358,3 +358,28 @@ Janssen Sciences Ireland UC
 Tel: +44 1 494 567 This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0efb4276dbc7ad1d850b741a6d2cdac5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tremfya Package Leaflet for language en"
+Description: "ePI document Bundle for tremfya Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0efb4276dbc7ad1d850b741a6d2cdac5"
+* entry[0].resource = composition-en-0efb4276dbc7ad1d850b741a6d2cdac5
+                      
+                      

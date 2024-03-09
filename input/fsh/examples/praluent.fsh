@@ -4,7 +4,7 @@ Instance: composition-en-64b30ed73e72ca1303293950b9a53566
 InstanceOf: CompositionUvEpi
 Title: "Composition for praluent Package Leaflet"
 Description:  "Composition for praluent Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -343,3 +343,28 @@ sanofi-aventis Ireland Ltd. T/A SANOFI
 Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-64b30ed73e72ca1303293950b9a53566
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for praluent Package Leaflet for language en"
+Description: "ePI document Bundle for praluent Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-64b30ed73e72ca1303293950b9a53566"
+* entry[0].resource = composition-en-64b30ed73e72ca1303293950b9a53566
+                      
+                      

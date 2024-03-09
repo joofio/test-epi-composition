@@ -4,7 +4,7 @@ Instance: composition-en-e96a2b015f0fafafc915826cda7b875c
 InstanceOf: CompositionUvEpi
 Title: "Composition for dificlir Package Leaflet"
 Description:  "Composition for dificlir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -302,3 +302,28 @@ Germany </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e96a2b015f0fafafc915826cda7b875c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dificlir Package Leaflet for language en"
+Description: "ePI document Bundle for dificlir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e96a2b015f0fafafc915826cda7b875c"
+* entry[0].resource = composition-en-e96a2b015f0fafafc915826cda7b875c
+                      
+                      

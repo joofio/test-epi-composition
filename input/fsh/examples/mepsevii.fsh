@@ -4,7 +4,7 @@ Instance: composition-en-b7b07dd0d126d4ea375a8a380bc3e7b9
 InstanceOf: CompositionUvEpi
 Title: "Composition for mepsevii Package Leaflet"
 Description:  "Composition for mepsevii Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -257,3 +257,28 @@ this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b7b07dd0d126d4ea375a8a380bc3e7b9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mepsevii Package Leaflet for language en"
+Description: "ePI document Bundle for mepsevii Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b7b07dd0d126d4ea375a8a380bc3e7b9"
+* entry[0].resource = composition-en-b7b07dd0d126d4ea375a8a380bc3e7b9
+                      
+                      

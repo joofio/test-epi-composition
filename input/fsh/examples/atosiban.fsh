@@ -4,7 +4,7 @@ Instance: composition-en-b7ea2b843cac38255840aa11da0bbc43
 InstanceOf: CompositionUvEpi
 Title: "Composition for atosiban Package Leaflet"
 Description:  "Composition for atosiban Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -303,3 +303,28 @@ information for you.
 - If you get any side effects, talk to your doctor or pharmacist. This includes any possible side 
 effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b7ea2b843cac38255840aa11da0bbc43
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for atosiban Package Leaflet for language en"
+Description: "ePI document Bundle for atosiban Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b7ea2b843cac38255840aa11da0bbc43"
+* entry[0].resource = composition-en-b7ea2b843cac38255840aa11da0bbc43
+                      
+                      

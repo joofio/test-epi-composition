@@ -4,7 +4,7 @@ Instance: composition-en-2551c286e23d3921dbfab879452cee74
 InstanceOf: CompositionUvEpi
 Title: "Composition for fluad Package Leaflet"
 Description:  "Composition for fluad Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -318,3 +318,28 @@ Tel: +31 (0) 20 204 6This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-2551c286e23d3921dbfab879452cee74
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fluad Package Leaflet for language en"
+Description: "ePI document Bundle for fluad Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2551c286e23d3921dbfab879452cee74"
+* entry[0].resource = composition-en-2551c286e23d3921dbfab879452cee74
+                      
+                      

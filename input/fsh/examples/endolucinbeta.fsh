@@ -4,7 +4,7 @@ Instance: composition-en-69ec9f0e9f354651ce97ae4316b8e482
 InstanceOf: CompositionUvEpi
 Title: "Composition for endolucinbeta Package Leaflet"
 Description:  "Composition for endolucinbeta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -286,3 +286,28 @@ Tel: + 49-89-289 139-info@itm.ag </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-69ec9f0e9f354651ce97ae4316b8e482
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for endolucinbeta Package Leaflet for language en"
+Description: "ePI document Bundle for endolucinbeta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-69ec9f0e9f354651ce97ae4316b8e482"
+* entry[0].resource = composition-en-69ec9f0e9f354651ce97ae4316b8e482
+                      
+                      

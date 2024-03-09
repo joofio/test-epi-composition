@@ -4,7 +4,7 @@ Instance: composition-en-370a06b10b762d93e4a42cb2abad2584
 InstanceOf: CompositionUvEpi
 Title: "Composition for emtricitabinetenofovir Package Leaflet"
 Description:  "Composition for emtricitabinetenofovir Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -540,3 +540,28 @@ KRKA Pharma Dublin, Ltd.
 Tel: + 353 1 413 3This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-370a06b10b762d93e4a42cb2abad2584
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emtricitabinetenofovir Package Leaflet for language en"
+Description: "ePI document Bundle for emtricitabinetenofovir Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-370a06b10b762d93e4a42cb2abad2584"
+* entry[0].resource = composition-en-370a06b10b762d93e4a42cb2abad2584
+                      
+                      

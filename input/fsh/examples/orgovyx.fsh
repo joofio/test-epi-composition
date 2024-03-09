@@ -4,7 +4,7 @@ Instance: composition-en-987766e2219c5177d278b3430b3652be
 InstanceOf: CompositionUvEpi
 Title: "Composition for orgovyx Package Leaflet"
 Description:  "Composition for orgovyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -298,3 +298,28 @@ Tel: +30 210 7488 This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-987766e2219c5177d278b3430b3652be
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for orgovyx Package Leaflet for language en"
+Description: "ePI document Bundle for orgovyx Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-987766e2219c5177d278b3430b3652be"
+* entry[0].resource = composition-en-987766e2219c5177d278b3430b3652be
+                      
+                      

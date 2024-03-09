@@ -4,7 +4,7 @@ Instance: composition-en-ef587583f9868c465778255848bcb8dd
 InstanceOf: CompositionUvEpi
 Title: "Composition for imraldi Package Leaflet"
 Description:  "Composition for imraldi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -771,3 +771,28 @@ Biogen Idec (Ireland) Ltd.
 Tel: +44 (0)20 360 886 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ef587583f9868c465778255848bcb8dd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for imraldi Package Leaflet for language en"
+Description: "ePI document Bundle for imraldi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ef587583f9868c465778255848bcb8dd"
+* entry[0].resource = composition-en-ef587583f9868c465778255848bcb8dd
+                      
+                      

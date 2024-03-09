@@ -4,7 +4,7 @@ Instance: composition-en-63de51a4556de5e7a2f7d84ffc03fbf9
 InstanceOf: CompositionUvEpi
 Title: "Composition for fampridine Package Leaflet"
 Description:  "Composition for fampridine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -255,3 +255,28 @@ C/ C, 12-14 Pol. Ind. Zona Franca, 08040 Barcelona, Spain </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-63de51a4556de5e7a2f7d84ffc03fbf9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for fampridine Package Leaflet for language en"
+Description: "ePI document Bundle for fampridine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-63de51a4556de5e7a2f7d84ffc03fbf9"
+* entry[0].resource = composition-en-63de51a4556de5e7a2f7d84ffc03fbf9
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-832482791de362ad81d3371194ed350b
 InstanceOf: CompositionUvEpi
 Title: "Composition for riltrava Package Leaflet"
 Description:  "Composition for riltrava Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -371,3 +371,28 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-832482791de362ad81d3371194ed350b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for riltrava Package Leaflet for language en"
+Description: "ePI document Bundle for riltrava Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-832482791de362ad81d3371194ed350b"
+* entry[0].resource = composition-en-832482791de362ad81d3371194ed350b
+                      
+                      

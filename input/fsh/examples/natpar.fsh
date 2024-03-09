@@ -4,7 +4,7 @@ Instance: composition-en-f6b0c91cf3d8d1303191f090e406eedd
 InstanceOf: CompositionUvEpi
 Title: "Composition for natpar Package Leaflet"
 Description:  "Composition for natpar Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -427,3 +427,28 @@ The European Medicines Agency will review new information on this medicine at le
 this leaflet will be updated as necessary.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f6b0c91cf3d8d1303191f090e406eedd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for natpar Package Leaflet for language en"
+Description: "ePI document Bundle for natpar Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f6b0c91cf3d8d1303191f090e406eedd"
+* entry[0].resource = composition-en-f6b0c91cf3d8d1303191f090e406eedd
+                      
+                      

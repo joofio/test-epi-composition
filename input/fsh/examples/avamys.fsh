@@ -4,7 +4,7 @@ Instance: composition-en-2ca22762bd601998a0d2f8f18a04be53
 InstanceOf: CompositionUvEpi
 Title: "Composition for avamys Package Leaflet"
 Description:  "Composition for avamys Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -406,3 +406,28 @@ there may not be enough left to work the nasal spray.
 </em> If it is still not working, or if it produces a jet of liquid, take the nasal spray back to the pharmacy to 
 get advice.  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-2ca22762bd601998a0d2f8f18a04be53
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for avamys Package Leaflet for language en"
+Description: "ePI document Bundle for avamys Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-2ca22762bd601998a0d2f8f18a04be53"
+* entry[0].resource = composition-en-2ca22762bd601998a0d2f8f18a04be53
+                      
+                      

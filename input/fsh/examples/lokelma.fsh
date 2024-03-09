@@ -4,7 +4,7 @@ Instance: composition-en-37704f8130504ea382184950ae8a2cfe
 InstanceOf: CompositionUvEpi
 Title: "Composition for lokelma Package Leaflet"
 Description:  "Composition for lokelma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -308,3 +308,28 @@ Other sources of information
 Detailed information on this medicine is also available on the European Medicines Agency web site: 
 http://www.ema.europa.eu</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-37704f8130504ea382184950ae8a2cfe
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lokelma Package Leaflet for language en"
+Description: "ePI document Bundle for lokelma Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-37704f8130504ea382184950ae8a2cfe"
+* entry[0].resource = composition-en-37704f8130504ea382184950ae8a2cfe
+                      
+                      

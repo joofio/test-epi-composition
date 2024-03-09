@@ -4,7 +4,7 @@ Instance: composition-en-1cf3225341c0e6fa2558014a933b7feb
 InstanceOf: CompositionUvEpi
 Title: "Composition for hefiya Package Leaflet"
 Description:  "Composition for hefiya Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -842,3 +842,28 @@ them, even if their signs of illness are the same as your child s.
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible 
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1cf3225341c0e6fa2558014a933b7feb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hefiya Package Leaflet for language en"
+Description: "ePI document Bundle for hefiya Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1cf3225341c0e6fa2558014a933b7feb"
+* entry[0].resource = composition-en-1cf3225341c0e6fa2558014a933b7feb
+                      
+                      

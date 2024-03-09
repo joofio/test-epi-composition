@@ -4,7 +4,7 @@ Instance: composition-en-fc7c0b4a680b856c6d3878351fc9d22e
 InstanceOf: CompositionUvEpi
 Title: "Composition for ponvory Package Leaflet"
 Description:  "Composition for ponvory Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -562,3 +562,28 @@ Tel: +44 1 494 567 This leaflet was last revised in {month YYYY}.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fc7c0b4a680b856c6d3878351fc9d22e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ponvory Package Leaflet for language en"
+Description: "ePI document Bundle for ponvory Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fc7c0b4a680b856c6d3878351fc9d22e"
+* entry[0].resource = composition-en-fc7c0b4a680b856c6d3878351fc9d22e
+                      
+                      

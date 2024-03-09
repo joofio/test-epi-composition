@@ -4,7 +4,7 @@ Instance: composition-en-d5d8894da2fa70f6a957a74ada445d1e
 InstanceOf: CompositionUvEpi
 Title: "Composition for xadago Package Leaflet"
 Description:  "Composition for xadago Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -315,3 +315,28 @@ Tel: + 370 5 2306This leaflet was last revised in . </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d5d8894da2fa70f6a957a74ada445d1e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xadago Package Leaflet for language en"
+Description: "ePI document Bundle for xadago Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d5d8894da2fa70f6a957a74ada445d1e"
+* entry[0].resource = composition-en-d5d8894da2fa70f6a957a74ada445d1e
+                      
+                      

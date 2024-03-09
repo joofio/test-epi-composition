@@ -4,7 +4,7 @@ Instance: composition-en-d4e8178d3a905eabdd581f1645891fb4
 InstanceOf: CompositionUvEpi
 Title: "Composition for prevymis Package Leaflet"
 Description:  "Composition for prevymis Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -372,3 +372,28 @@ information for you.
 * If you get any side effects, talk to your doctor, pharmacist, or nurse. This includes any possible
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d4e8178d3a905eabdd581f1645891fb4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for prevymis Package Leaflet for language en"
+Description: "ePI document Bundle for prevymis Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d4e8178d3a905eabdd581f1645891fb4"
+* entry[0].resource = composition-en-d4e8178d3a905eabdd581f1645891fb4
+                      
+                      

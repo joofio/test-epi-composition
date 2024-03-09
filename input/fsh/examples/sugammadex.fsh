@@ -4,7 +4,7 @@ Instance: composition-en-16018c8f310d03d6a566ded2f2a2880a
 InstanceOf: CompositionUvEpi
 Title: "Composition for sugammadex Package Leaflet"
 Description:  "Composition for sugammadex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -301,3 +301,28 @@ site: http://www.ema.europa.eu.  </p>
 <p>--------------------------------------------------------------------------------------------------------------------------- The following information is intended for healthcare professionals only: 
 For detailed information refer to the Summary of Product Characteristics of Sugammadex Amomed. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-16018c8f310d03d6a566ded2f2a2880a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for sugammadex Package Leaflet for language en"
+Description: "ePI document Bundle for sugammadex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-16018c8f310d03d6a566ded2f2a2880a"
+* entry[0].resource = composition-en-16018c8f310d03d6a566ded2f2a2880a
+                      
+                      

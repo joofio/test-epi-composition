@@ -4,7 +4,7 @@ Instance: composition-en-eefded9fc6fc231de4e5964766009df5
 InstanceOf: CompositionUvEpi
 Title: "Composition for kengrexal Package Leaflet"
 Description:  "Composition for kengrexal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -306,3 +306,28 @@ Tel: + 39 0521 2This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-eefded9fc6fc231de4e5964766009df5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kengrexal Package Leaflet for language en"
+Description: "ePI document Bundle for kengrexal Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-eefded9fc6fc231de4e5964766009df5"
+* entry[0].resource = composition-en-eefded9fc6fc231de4e5964766009df5
+                      
+                      

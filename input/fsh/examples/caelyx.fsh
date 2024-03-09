@@ -4,7 +4,7 @@ Instance: composition-en-ba96fb9c0ed4979439bd80d6bde4ba94
 InstanceOf: CompositionUvEpi
 Title: "Composition for caelyx Package Leaflet"
 Description:  "Composition for caelyx Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -456,3 +456,28 @@ Baxter Holding B.V.
 Tel: +44 (0)1635 206This leaflet was last approved on </p>
 <p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ba96fb9c0ed4979439bd80d6bde4ba94
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for caelyx Package Leaflet for language en"
+Description: "ePI document Bundle for caelyx Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ba96fb9c0ed4979439bd80d6bde4ba94"
+* entry[0].resource = composition-en-ba96fb9c0ed4979439bd80d6bde4ba94
+                      
+                      

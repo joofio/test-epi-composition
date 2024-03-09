@@ -4,7 +4,7 @@ Instance: composition-en-85f7c08e568d2cd0fc2ac32155c57714
 InstanceOf: CompositionUvEpi
 Title: "Composition for novothirteen Package Leaflet"
 Description:  "Composition for novothirteen Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -223,3 +223,28 @@ Denmark </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-85f7c08e568d2cd0fc2ac32155c57714
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for novothirteen Package Leaflet for language en"
+Description: "ePI document Bundle for novothirteen Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-85f7c08e568d2cd0fc2ac32155c57714"
+* entry[0].resource = composition-en-85f7c08e568d2cd0fc2ac32155c57714
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-448b528bf3d067b64074ee9859a8f881
 InstanceOf: CompositionUvEpi
 Title: "Composition for eylea Package Leaflet"
 Description:  "Composition for eylea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -350,3 +350,28 @@ Bayer AG
 Tel: +44-(0)118 206 3This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-448b528bf3d067b64074ee9859a8f881
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for eylea Package Leaflet for language en"
+Description: "ePI document Bundle for eylea Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-448b528bf3d067b64074ee9859a8f881"
+* entry[0].resource = composition-en-448b528bf3d067b64074ee9859a8f881
+                      
+                      

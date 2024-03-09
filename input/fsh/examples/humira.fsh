@@ -4,7 +4,7 @@ Instance: composition-en-3a3583227b4c5b0887f1e0d38269b469
 InstanceOf: CompositionUvEpi
 Title: "Composition for humira Package Leaflet"
 Description:  "Composition for humira Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -682,3 +682,28 @@ AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-3a3583227b4c5b0887f1e0d38269b469
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for humira Package Leaflet for language en"
+Description: "ePI document Bundle for humira Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-3a3583227b4c5b0887f1e0d38269b469"
+* entry[0].resource = composition-en-3a3583227b4c5b0887f1e0d38269b469
+                      
+                      

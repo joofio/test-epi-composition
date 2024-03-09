@@ -4,7 +4,7 @@ Instance: composition-en-6ae111423490277c4fbffcad4c0c9c2c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vaxchora Package Leaflet"
 Description:  "Composition for vaxchora Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -332,3 +332,28 @@ This leaflet was last revised in MM/YYYY.
 Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6ae111423490277c4fbffcad4c0c9c2c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vaxchora Package Leaflet for language en"
+Description: "ePI document Bundle for vaxchora Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6ae111423490277c4fbffcad4c0c9c2c"
+* entry[0].resource = composition-en-6ae111423490277c4fbffcad4c0c9c2c
+                      
+                      

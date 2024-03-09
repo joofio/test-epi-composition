@@ -4,7 +4,7 @@ Instance: composition-en-68588d80929659cac3a8c39a378eb3f1
 InstanceOf: CompositionUvEpi
 Title: "Composition for inductos Package Leaflet"
 Description:  "Composition for inductos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -221,3 +221,28 @@ The Netherlands </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site 
 http://www.ema.europa.eu </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-68588d80929659cac3a8c39a378eb3f1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inductos Package Leaflet for language en"
+Description: "ePI document Bundle for inductos Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-68588d80929659cac3a8c39a378eb3f1"
+* entry[0].resource = composition-en-68588d80929659cac3a8c39a378eb3f1
+                      
+                      

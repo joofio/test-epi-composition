@@ -4,7 +4,7 @@ Instance: composition-en-0349e0c03941d2ede34c30a30310b99b
 InstanceOf: CompositionUvEpi
 Title: "Composition for odomzo Package Leaflet"
 Description:  "Composition for odomzo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -403,3 +403,28 @@ Tel: +44 (0) 208 848 8This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0349e0c03941d2ede34c30a30310b99b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for odomzo Package Leaflet for language en"
+Description: "ePI document Bundle for odomzo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0349e0c03941d2ede34c30a30310b99b"
+* entry[0].resource = composition-en-0349e0c03941d2ede34c30a30310b99b
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-6f8fb6a1c6179a9554b85e75fc6f0388
 InstanceOf: CompositionUvEpi
 Title: "Composition for binocrit Package Leaflet"
 Description:  "Composition for binocrit Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -512,3 +512,28 @@ Sandoz d.d. Latvia fili le
 Tel: +371 67 892 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-6f8fb6a1c6179a9554b85e75fc6f0388
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for binocrit Package Leaflet for language en"
+Description: "ePI document Bundle for binocrit Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-6f8fb6a1c6179a9554b85e75fc6f0388"
+* entry[0].resource = composition-en-6f8fb6a1c6179a9554b85e75fc6f0388
+                      
+                      

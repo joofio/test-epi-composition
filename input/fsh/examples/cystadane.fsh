@@ -4,7 +4,7 @@ Instance: composition-en-11f43ece9ca4cf7aa03a029895a8e969
 InstanceOf: CompositionUvEpi
 Title: "Composition for cystadane Package Leaflet"
 Description:  "Composition for cystadane Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -301,3 +301,28 @@ Tel: +44 (0)1491 414Zviedrija </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-11f43ece9ca4cf7aa03a029895a8e969
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cystadane Package Leaflet for language en"
+Description: "ePI document Bundle for cystadane Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-11f43ece9ca4cf7aa03a029895a8e969"
+* entry[0].resource = composition-en-11f43ece9ca4cf7aa03a029895a8e969
+                      
+                      

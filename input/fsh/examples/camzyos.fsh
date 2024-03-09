@@ -4,7 +4,7 @@ Instance: composition-en-39ac69c93b0288d89a0cb9d145b02fcc
 InstanceOf: CompositionUvEpi
 Title: "Composition for camzyos Package Leaflet"
 Description:  "Composition for camzyos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -337,3 +337,28 @@ Dublin 15, D15 TIreland </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-39ac69c93b0288d89a0cb9d145b02fcc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for camzyos Package Leaflet for language en"
+Description: "ePI document Bundle for camzyos Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-39ac69c93b0288d89a0cb9d145b02fcc"
+* entry[0].resource = composition-en-39ac69c93b0288d89a0cb9d145b02fcc
+                      
+                      

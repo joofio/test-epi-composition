@@ -4,7 +4,7 @@ Instance: composition-en-b49a3ab45641cdaf6bd8a0f7bc20385d
 InstanceOf: CompositionUvEpi
 Title: "Composition for neorecormon Package Leaflet"
 Description:  "Composition for neorecormon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -454,3 +454,28 @@ Roche Products (Ireland) Ltd.
 Tel: +44 (0) 1707 366This leaflet was last revised in &lt;{MM/YYYY}&gt; &lt;{month YYYY}&gt; </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b49a3ab45641cdaf6bd8a0f7bc20385d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for neorecormon Package Leaflet for language en"
+Description: "ePI document Bundle for neorecormon Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b49a3ab45641cdaf6bd8a0f7bc20385d"
+* entry[0].resource = composition-en-b49a3ab45641cdaf6bd8a0f7bc20385d
+                      
+                      

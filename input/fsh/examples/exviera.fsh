@@ -4,7 +4,7 @@ Instance: composition-en-1a455c95e5d54239c06a46b5802914f3
 InstanceOf: CompositionUvEpi
 Title: "Composition for exviera Package Leaflet"
 Description:  "Composition for exviera Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -422,3 +422,28 @@ Tel: +44 (0)1628 561This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1a455c95e5d54239c06a46b5802914f3
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for exviera Package Leaflet for language en"
+Description: "ePI document Bundle for exviera Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1a455c95e5d54239c06a46b5802914f3"
+* entry[0].resource = composition-en-1a455c95e5d54239c06a46b5802914f3
+                      
+                      

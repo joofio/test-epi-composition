@@ -4,7 +4,7 @@ Instance: composition-en-0765874a313ce115023e01847b82b59e
 InstanceOf: CompositionUvEpi
 Title: "Composition for arsenic Package Leaflet"
 Description:  "Composition for arsenic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -284,3 +284,28 @@ Germany </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0765874a313ce115023e01847b82b59e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for arsenic Package Leaflet for language en"
+Description: "ePI document Bundle for arsenic Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0765874a313ce115023e01847b82b59e"
+* entry[0].resource = composition-en-0765874a313ce115023e01847b82b59e
+                      
+                      

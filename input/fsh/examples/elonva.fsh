@@ -4,7 +4,7 @@ Instance: composition-en-893c628829d99b9262496b31c3e0ec71
 InstanceOf: CompositionUvEpi
 Title: "Composition for elonva Package Leaflet"
 Description:  "Composition for elonva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -501,3 +501,28 @@ Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-893c628829d99b9262496b31c3e0ec71
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for elonva Package Leaflet for language en"
+Description: "ePI document Bundle for elonva Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-893c628829d99b9262496b31c3e0ec71"
+* entry[0].resource = composition-en-893c628829d99b9262496b31c3e0ec71
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-09457b67378eccc379f945623f721bcb
 InstanceOf: CompositionUvEpi
 Title: "Composition for inbrija Package Leaflet"
 Description:  "Composition for inbrija Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -365,3 +365,28 @@ ESTEVE PHARMACEUTICALS, S.A.
 Tel: +34 93 446 60 This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-09457b67378eccc379f945623f721bcb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inbrija Package Leaflet for language en"
+Description: "ePI document Bundle for inbrija Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-09457b67378eccc379f945623f721bcb"
+* entry[0].resource = composition-en-09457b67378eccc379f945623f721bcb
+                      
+                      

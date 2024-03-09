@@ -4,7 +4,7 @@ Instance: composition-en-b87e63b723344c11032a4961d71446b7
 InstanceOf: CompositionUvEpi
 Title: "Composition for zebinix Package Leaflet"
 Description:  "Composition for zebinix Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -463,3 +463,28 @@ Tel: + 351 22 986 61 (Portugalija) </p>
 <p>This leaflet was last revised in MM/YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b87e63b723344c11032a4961d71446b7
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zebinix Package Leaflet for language en"
+Description: "ePI document Bundle for zebinix Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b87e63b723344c11032a4961d71446b7"
+* entry[0].resource = composition-en-b87e63b723344c11032a4961d71446b7
+                      
+                      

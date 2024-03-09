@@ -4,7 +4,7 @@ Instance: composition-en-c90b79fb8cf9d2067c35819ca84918df
 InstanceOf: CompositionUvEpi
 Title: "Composition for lonquex Package Leaflet"
 Description:  "Composition for lonquex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -518,3 +518,28 @@ Ireland
 Tel: +44 2075407This leaflet was last revised in {month YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c90b79fb8cf9d2067c35819ca84918df
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lonquex Package Leaflet for language en"
+Description: "ePI document Bundle for lonquex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c90b79fb8cf9d2067c35819ca84918df"
+* entry[0].resource = composition-en-c90b79fb8cf9d2067c35819ca84918df
+                      
+                      

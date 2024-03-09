@@ -4,7 +4,7 @@ Instance: composition-en-c035528dfd6d4e6a78efce6dbdfc502c
 InstanceOf: CompositionUvEpi
 Title: "Composition for neupro Package Leaflet"
 Description:  "Composition for neupro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -480,3 +480,28 @@ throw it away safely, out of the reach of children.
 how to throw away medicines you no longer use. These measures will help protect the 
 environment. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c035528dfd6d4e6a78efce6dbdfc502c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for neupro Package Leaflet for language en"
+Description: "ePI document Bundle for neupro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c035528dfd6d4e6a78efce6dbdfc502c"
+* entry[0].resource = composition-en-c035528dfd6d4e6a78efce6dbdfc502c
+                      
+                      

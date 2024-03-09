@@ -4,7 +4,7 @@ Instance: composition-en-5535a1058c02154998e04426c8620587
 InstanceOf: CompositionUvEpi
 Title: "Composition for ozurdex Package Leaflet"
 Description:  "Composition for ozurdex Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -323,3 +323,28 @@ AbbVie Deutschland GmbH &amp; Co. KG
 Tel: +44 (0)1628 561This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5535a1058c02154998e04426c8620587
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ozurdex Package Leaflet for language en"
+Description: "ePI document Bundle for ozurdex Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5535a1058c02154998e04426c8620587"
+* entry[0].resource = composition-en-5535a1058c02154998e04426c8620587
+                      
+                      

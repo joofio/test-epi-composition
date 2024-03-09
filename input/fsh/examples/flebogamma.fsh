@@ -4,7 +4,7 @@ Instance: composition-en-d4555e443163704d4c697ea40b21716a
 InstanceOf: CompositionUvEpi
 Title: "Composition for flebogamma Package Leaflet"
 Description:  "Composition for flebogamma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -560,3 +560,28 @@ even if their signs of illness are the same as yours.
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible 
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d4555e443163704d4c697ea40b21716a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for flebogamma Package Leaflet for language en"
+Description: "ePI document Bundle for flebogamma Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d4555e443163704d4c697ea40b21716a"
+* entry[0].resource = composition-en-d4555e443163704d4c697ea40b21716a
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-a9cc1591b2509e823baad904a2322951
 InstanceOf: CompositionUvEpi
 Title: "Composition for rapiscan Package Leaflet"
 Description:  "Composition for rapiscan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -327,3 +327,28 @@ administration. </p>
 <p>Any unused product or waste material should be disposed of in accordance with local requirements. </p>
 <p>For further information, please refer to the complete Summary of Product Characteristics.  </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a9cc1591b2509e823baad904a2322951
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rapiscan Package Leaflet for language en"
+Description: "ePI document Bundle for rapiscan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a9cc1591b2509e823baad904a2322951"
+* entry[0].resource = composition-en-a9cc1591b2509e823baad904a2322951
+                      
+                      

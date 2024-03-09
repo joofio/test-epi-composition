@@ -4,7 +4,7 @@ Instance: composition-en-395326013d549ebdb9d953865850ffcf
 InstanceOf: CompositionUvEpi
 Title: "Composition for foscan Package Leaflet"
 Description:  "Composition for foscan Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -294,3 +294,28 @@ Germany
 Tel.: +49 3641 5195Fax: +49 3641 5195This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-395326013d549ebdb9d953865850ffcf
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for foscan Package Leaflet for language en"
+Description: "ePI document Bundle for foscan Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-395326013d549ebdb9d953865850ffcf"
+* entry[0].resource = composition-en-395326013d549ebdb9d953865850ffcf
+                      
+                      

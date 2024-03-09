@@ -4,7 +4,7 @@ Instance: composition-en-7068e2b853db37b4eafef95f69aa4580
 InstanceOf: CompositionUvEpi
 Title: "Composition for firmagon Package Leaflet"
 Description:  "Composition for firmagon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -309,3 +309,28 @@ Tel: +353 1 4637EnquiriesIrelandMailbox@ferring.com </p>
 <p>This leaflet was last revised in . </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7068e2b853db37b4eafef95f69aa4580
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for firmagon Package Leaflet for language en"
+Description: "ePI document Bundle for firmagon Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7068e2b853db37b4eafef95f69aa4580"
+* entry[0].resource = composition-en-7068e2b853db37b4eafef95f69aa4580
+                      
+                      

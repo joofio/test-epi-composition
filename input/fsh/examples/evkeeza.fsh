@@ -4,7 +4,7 @@ Instance: composition-en-de3f46573279b69427e72992f0f64b7e
 InstanceOf: CompositionUvEpi
 Title: "Composition for evkeeza Package Leaflet"
 Description:  "Composition for evkeeza Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -283,3 +283,28 @@ infusion line. </p>
 <p>The rate of infusion may be slowed, interrupted or discontinued if the patient develops any signs of 
 adverse reactions, including infusion-associated symptoms. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-de3f46573279b69427e72992f0f64b7e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evkeeza Package Leaflet for language en"
+Description: "ePI document Bundle for evkeeza Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-de3f46573279b69427e72992f0f64b7e"
+* entry[0].resource = composition-en-de3f46573279b69427e72992f0f64b7e
+                      
+                      

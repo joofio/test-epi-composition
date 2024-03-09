@@ -4,7 +4,7 @@ Instance: composition-en-dce45db374fd85c6f1ce99ef66d24944
 InstanceOf: CompositionUvEpi
 Title: "Composition for ivemend Package Leaflet"
 Description:  "Composition for ivemend Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -417,3 +417,28 @@ The medicinal product must not be reconstituted or mixed with solutions for whic
 chemical compatibility has not been established (see Summary of Product Characteristic (SmPC),
 section 6.2).</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-dce45db374fd85c6f1ce99ef66d24944
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ivemend Package Leaflet for language en"
+Description: "ePI document Bundle for ivemend Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-dce45db374fd85c6f1ce99ef66d24944"
+* entry[0].resource = composition-en-dce45db374fd85c6f1ce99ef66d24944
+                      
+                      

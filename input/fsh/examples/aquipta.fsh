@@ -4,7 +4,7 @@ Instance: composition-en-aac724bbfae048108e8444486a06d7e6
 InstanceOf: CompositionUvEpi
 Title: "Composition for aquipta Package Leaflet"
 Description:  "Composition for aquipta Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -285,3 +285,28 @@ http://www.ema.europa.eu/.
 To listen to or request a copy of this leaflet in <em>Braille</em>, <em>large print</em> or <em>audio</em>, please contact 
 the local representative of the Marketing Authorisation Holder.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-aac724bbfae048108e8444486a06d7e6
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for aquipta Package Leaflet for language en"
+Description: "ePI document Bundle for aquipta Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-aac724bbfae048108e8444486a06d7e6"
+* entry[0].resource = composition-en-aac724bbfae048108e8444486a06d7e6
+                      
+                      

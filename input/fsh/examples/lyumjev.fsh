@@ -4,7 +4,7 @@ Instance: composition-en-932e6264a3aeb74aa58d141481e4d197
 InstanceOf: CompositionUvEpi
 Title: "Composition for lyumjev Package Leaflet"
 Description:  "Composition for lyumjev Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -490,3 +490,28 @@ Eli Lilly and Company (Ireland) Limited
 Tel: + 353-(0) 1 661 4This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-932e6264a3aeb74aa58d141481e4d197
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for lyumjev Package Leaflet for language en"
+Description: "ePI document Bundle for lyumjev Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-932e6264a3aeb74aa58d141481e4d197"
+* entry[0].resource = composition-en-932e6264a3aeb74aa58d141481e4d197
+                      
+                      

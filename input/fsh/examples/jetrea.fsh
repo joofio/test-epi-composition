@@ -4,7 +4,7 @@ Instance: composition-en-c655ba158247aca6fe88c56a30a2ce75
 InstanceOf: CompositionUvEpi
 Title: "Composition for jetrea Package Leaflet"
 Description:  "Composition for jetrea Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -245,3 +245,28 @@ Belgium </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c655ba158247aca6fe88c56a30a2ce75
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for jetrea Package Leaflet for language en"
+Description: "ePI document Bundle for jetrea Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c655ba158247aca6fe88c56a30a2ce75"
+* entry[0].resource = composition-en-c655ba158247aca6fe88c56a30a2ce75
+                      
+                      

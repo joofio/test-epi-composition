@@ -4,7 +4,7 @@ Instance: composition-en-691dd468387a7314644483dde7be004c
 InstanceOf: CompositionUvEpi
 Title: "Composition for vyxeos Package Leaflet"
 Description:  "Composition for vyxeos Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -273,3 +273,28 @@ Tel: +353 1 968 1Email: medinfo-int@jazzpharma.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-691dd468387a7314644483dde7be004c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vyxeos Package Leaflet for language en"
+Description: "ePI document Bundle for vyxeos Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-691dd468387a7314644483dde7be004c"
+* entry[0].resource = composition-en-691dd468387a7314644483dde7be004c
+                      
+                      

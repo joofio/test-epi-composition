@@ -4,7 +4,7 @@ Instance: composition-en-7c3f725d5ce5b04f0bcec4815df3bcb5
 InstanceOf: CompositionUvEpi
 Title: "Composition for regkirona Package Leaflet"
 Description:  "Composition for regkirona Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -360,3 +360,28 @@ Tel: +36 1 231 0healthcare.hu@celltrionhc.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7c3f725d5ce5b04f0bcec4815df3bcb5
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for regkirona Package Leaflet for language en"
+Description: "ePI document Bundle for regkirona Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7c3f725d5ce5b04f0bcec4815df3bcb5"
+* entry[0].resource = composition-en-7c3f725d5ce5b04f0bcec4815df3bcb5
+                      
+                      

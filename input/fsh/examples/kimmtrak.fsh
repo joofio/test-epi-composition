@@ -4,7 +4,7 @@ Instance: composition-en-1e954682407ee7d7521ef7ec82e30f79
 InstanceOf: CompositionUvEpi
 Title: "Composition for kimmtrak Package Leaflet"
 Description:  "Composition for kimmtrak Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -303,3 +303,28 @@ Irlanda/Ierland/Irlandia/ rsko/Irska
 T l/Tel/Tel./Te ./Tlf/ /S mi/Puh: +3531 5This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1e954682407ee7d7521ef7ec82e30f79
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kimmtrak Package Leaflet for language en"
+Description: "ePI document Bundle for kimmtrak Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1e954682407ee7d7521ef7ec82e30f79"
+* entry[0].resource = composition-en-1e954682407ee7d7521ef7ec82e30f79
+                      
+                      

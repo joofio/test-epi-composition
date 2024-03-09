@@ -4,7 +4,7 @@ Instance: composition-en-f8c48790000bbf9d78cfcb64c3c5a1ee
 InstanceOf: CompositionUvEpi
 Title: "Composition for xydalba Package Leaflet"
 Description:  "Composition for xydalba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -342,3 +342,28 @@ Tel: +44 (0)208 588 9medicalinformation@advanzpharma.com
 This leaflet was last revised in {MM/YYYY}.
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f8c48790000bbf9d78cfcb64c3c5a1ee
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xydalba Package Leaflet for language en"
+Description: "ePI document Bundle for xydalba Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f8c48790000bbf9d78cfcb64c3c5a1ee"
+* entry[0].resource = composition-en-f8c48790000bbf9d78cfcb64c3c5a1ee
+                      
+                      

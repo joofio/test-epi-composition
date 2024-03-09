@@ -4,7 +4,7 @@ Instance: composition-en-ee1b9e575d1fb256c3611a3cc10df97d
 InstanceOf: CompositionUvEpi
 Title: "Composition for pregabalin Package Leaflet"
 Description:  "Composition for pregabalin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -507,3 +507,28 @@ Tel: +44 (0) 800 090 2PV-United-Kingdom@zentiva.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ee1b9e575d1fb256c3611a3cc10df97d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for pregabalin Package Leaflet for language en"
+Description: "ePI document Bundle for pregabalin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ee1b9e575d1fb256c3611a3cc10df97d"
+* entry[0].resource = composition-en-ee1b9e575d1fb256c3611a3cc10df97d
+                      
+                      

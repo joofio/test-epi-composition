@@ -4,7 +4,7 @@ Instance: composition-en-c320b0f7ef6b0e703d9abd8eff34bf82
 InstanceOf: CompositionUvEpi
 Title: "Composition for trixeo Package Leaflet"
 Description:  "Composition for trixeo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -370,3 +370,28 @@ AstraZeneca UK Ltd
 Tel: +44 1582 836 This leaflet was last revised in 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c320b0f7ef6b0e703d9abd8eff34bf82
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for trixeo Package Leaflet for language en"
+Description: "ePI document Bundle for trixeo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c320b0f7ef6b0e703d9abd8eff34bf82"
+* entry[0].resource = composition-en-c320b0f7ef6b0e703d9abd8eff34bf82
+                      
+                      

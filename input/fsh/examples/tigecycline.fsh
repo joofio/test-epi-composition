@@ -4,7 +4,7 @@ Instance: composition-en-f40a84cb5d324bdca9e9009c23b60458
 InstanceOf: CompositionUvEpi
 Title: "Composition for tigecycline Package Leaflet"
 Description:  "Composition for tigecycline Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -312,3 +312,28 @@ responsibility of the user and would not be longer than the times stated above f
 physical in-use stability.  </p>
 <p>For single use only, any unused solution should be discarded. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-f40a84cb5d324bdca9e9009c23b60458
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for tigecycline Package Leaflet for language en"
+Description: "ePI document Bundle for tigecycline Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-f40a84cb5d324bdca9e9009c23b60458"
+* entry[0].resource = composition-en-f40a84cb5d324bdca9e9009c23b60458
+                      
+                      

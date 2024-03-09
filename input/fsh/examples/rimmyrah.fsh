@@ -4,7 +4,7 @@ Instance: composition-en-1ab1f974f728f0d2d09ca9306f1ffe2d
 InstanceOf: CompositionUvEpi
 Title: "Composition for rimmyrah Package Leaflet"
 Description:  "Composition for rimmyrah Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -509,3 +509,28 @@ of 0.05 ml is then delivered; a different scleral site should be used for subseq
 together with the needle in a sharps disposal container or in accordance with local requirements. </p>
 <p>0.05 ml </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1ab1f974f728f0d2d09ca9306f1ffe2d
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rimmyrah Package Leaflet for language en"
+Description: "ePI document Bundle for rimmyrah Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1ab1f974f728f0d2d09ca9306f1ffe2d"
+* entry[0].resource = composition-en-1ab1f974f728f0d2d09ca9306f1ffe2d
+                      
+                      

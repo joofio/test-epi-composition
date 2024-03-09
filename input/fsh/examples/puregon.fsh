@@ -4,7 +4,7 @@ Instance: composition-en-cfa624691d24d77fe98aa5c98b02fbeb
 InstanceOf: CompositionUvEpi
 Title: "Composition for puregon Package Leaflet"
 Description:  "Composition for puregon Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -459,3 +459,28 @@ Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-cfa624691d24d77fe98aa5c98b02fbeb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for puregon Package Leaflet for language en"
+Description: "ePI document Bundle for puregon Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-cfa624691d24d77fe98aa5c98b02fbeb"
+* entry[0].resource = composition-en-cfa624691d24d77fe98aa5c98b02fbeb
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-0870b0eb502814c6dc60255f3d34d5b4
 InstanceOf: CompositionUvEpi
 Title: "Composition for ontilyv Package Leaflet"
 Description:  "Composition for ontilyv Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -283,3 +283,28 @@ tel: +351 22 986 61 fax: +351 22 986 61 e-mail: info@bial.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0870b0eb502814c6dc60255f3d34d5b4
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ontilyv Package Leaflet for language en"
+Description: "ePI document Bundle for ontilyv Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0870b0eb502814c6dc60255f3d34d5b4"
+* entry[0].resource = composition-en-0870b0eb502814c6dc60255f3d34d5b4
+                      
+                      

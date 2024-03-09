@@ -4,7 +4,7 @@ Instance: composition-en-152ace144461681a6f02306435b8f1dc
 InstanceOf: CompositionUvEpi
 Title: "Composition for urorec Package Leaflet"
 Description:  "Composition for urorec Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -353,3 +353,28 @@ Tel: + 353 21 4379This leaflet was last revised in {MM/YYYY}. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-152ace144461681a6f02306435b8f1dc
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for urorec Package Leaflet for language en"
+Description: "ePI document Bundle for urorec Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-152ace144461681a6f02306435b8f1dc"
+* entry[0].resource = composition-en-152ace144461681a6f02306435b8f1dc
+                      
+                      

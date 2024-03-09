@@ -4,7 +4,7 @@ Instance: composition-en-ae95ec75d9c7638e000a13f3c8891532
 InstanceOf: CompositionUvEpi
 Title: "Composition for mulpleo Package Leaflet"
 Description:  "Composition for mulpleo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -247,3 +247,28 @@ Tel: +44 (0) 28 9124 8contact@shionogi.eu </p>
 Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ae95ec75d9c7638e000a13f3c8891532
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mulpleo Package Leaflet for language en"
+Description: "ePI document Bundle for mulpleo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ae95ec75d9c7638e000a13f3c8891532"
+* entry[0].resource = composition-en-ae95ec75d9c7638e000a13f3c8891532
+                      
+                      

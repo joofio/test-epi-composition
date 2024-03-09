@@ -4,7 +4,7 @@ Instance: composition-en-095ad71337cf86d5fe21eb3ee2e24f22
 InstanceOf: CompositionUvEpi
 Title: "Composition for bylvay Package Leaflet"
 Description:  "Composition for bylvay Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -329,3 +329,28 @@ this leaflet will be updated as necessary. </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-095ad71337cf86d5fe21eb3ee2e24f22
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for bylvay Package Leaflet for language en"
+Description: "ePI document Bundle for bylvay Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-095ad71337cf86d5fe21eb3ee2e24f22"
+* entry[0].resource = composition-en-095ad71337cf86d5fe21eb3ee2e24f22
+                      
+                      

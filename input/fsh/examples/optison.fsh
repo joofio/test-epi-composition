@@ -4,7 +4,7 @@ Instance: composition-en-667ae27b448d5f86024bc171810fbd9f
 InstanceOf: CompositionUvEpi
 Title: "Composition for optison Package Leaflet"
 Description:  "Composition for optison Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -219,3 +219,28 @@ Norway </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-667ae27b448d5f86024bc171810fbd9f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for optison Package Leaflet for language en"
+Description: "ePI document Bundle for optison Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-667ae27b448d5f86024bc171810fbd9f"
+* entry[0].resource = composition-en-667ae27b448d5f86024bc171810fbd9f
+                      
+                      

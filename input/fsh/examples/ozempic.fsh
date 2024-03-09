@@ -4,7 +4,7 @@ Instance: composition-en-d321e28009e316a0922b3b06c7400fef
 InstanceOf: CompositionUvEpi
 Title: "Composition for ozempic Package Leaflet"
 Description:  "Composition for ozempic Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -309,3 +309,28 @@ Denmark </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d321e28009e316a0922b3b06c7400fef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ozempic Package Leaflet for language en"
+Description: "ePI document Bundle for ozempic Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d321e28009e316a0922b3b06c7400fef"
+* entry[0].resource = composition-en-d321e28009e316a0922b3b06c7400fef
+                      
+                      

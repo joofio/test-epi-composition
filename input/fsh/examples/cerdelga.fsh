@@ -4,7 +4,7 @@ Instance: composition-en-ed982183c35912e878ca478e2f38304e
 InstanceOf: CompositionUvEpi
 Title: "Composition for cerdelga Package Leaflet"
 Description:  "Composition for cerdelga Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -375,3 +375,28 @@ Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ed982183c35912e878ca478e2f38304e
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cerdelga Package Leaflet for language en"
+Description: "ePI document Bundle for cerdelga Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ed982183c35912e878ca478e2f38304e"
+* entry[0].resource = composition-en-ed982183c35912e878ca478e2f38304e
+                      
+                      

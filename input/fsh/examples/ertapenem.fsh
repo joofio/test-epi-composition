@@ -4,7 +4,7 @@ Instance: composition-en-34b5097700b5b214baa08b9eb1554dbe
 InstanceOf: CompositionUvEpi
 Title: "Composition for ertapenem Package Leaflet"
 Description:  "Composition for ertapenem Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -329,3 +329,28 @@ Rom nia
 Tel. +40 (264) 501 This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-34b5097700b5b214baa08b9eb1554dbe
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ertapenem Package Leaflet for language en"
+Description: "ePI document Bundle for ertapenem Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-34b5097700b5b214baa08b9eb1554dbe"
+* entry[0].resource = composition-en-34b5097700b5b214baa08b9eb1554dbe
+                      
+                      

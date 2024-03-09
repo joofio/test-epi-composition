@@ -4,7 +4,7 @@ Instance: composition-en-8922f58fa03c5bb0f5736b85deead4c0
 InstanceOf: CompositionUvEpi
 Title: "Composition for simulect Package Leaflet"
 Description:  "Composition for simulect Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -287,3 +287,28 @@ Novartis Ireland Limited
 Tel: +44 1276 698This leaflet was last revised in </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8922f58fa03c5bb0f5736b85deead4c0
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for simulect Package Leaflet for language en"
+Description: "ePI document Bundle for simulect Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8922f58fa03c5bb0f5736b85deead4c0"
+* entry[0].resource = composition-en-8922f58fa03c5bb0f5736b85deead4c0
+                      
+                      

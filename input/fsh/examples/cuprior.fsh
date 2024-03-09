@@ -4,7 +4,7 @@ Instance: composition-en-7257da0dd1f9dbf780b362b25cce238a
 InstanceOf: CompositionUvEpi
 Title: "Composition for cuprior Package Leaflet"
 Description:  "Composition for cuprior Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -248,3 +248,28 @@ website QR code to be included http://www.cuprior.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7257da0dd1f9dbf780b362b25cce238a
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for cuprior Package Leaflet for language en"
+Description: "ePI document Bundle for cuprior Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7257da0dd1f9dbf780b362b25cce238a"
+* entry[0].resource = composition-en-7257da0dd1f9dbf780b362b25cce238a
+                      
+                      

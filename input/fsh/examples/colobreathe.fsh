@@ -4,7 +4,7 @@ Instance: composition-en-8fbc69d3de50a0eced9467159e7edfb2
 InstanceOf: CompositionUvEpi
 Title: "Composition for colobreathe Package Leaflet"
 Description:  "Composition for colobreathe Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -435,3 +435,28 @@ Ireland
 Tel: +44 2075407This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-8fbc69d3de50a0eced9467159e7edfb2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for colobreathe Package Leaflet for language en"
+Description: "ePI document Bundle for colobreathe Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-8fbc69d3de50a0eced9467159e7edfb2"
+* entry[0].resource = composition-en-8fbc69d3de50a0eced9467159e7edfb2
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-fd0c928ba69b44963057ba928ecaf5ac
 InstanceOf: CompositionUvEpi
 Title: "Composition for onpattro Package Leaflet"
 Description:  "Composition for onpattro Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -382,3 +382,28 @@ Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-fd0c928ba69b44963057ba928ecaf5ac
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for onpattro Package Leaflet for language en"
+Description: "ePI document Bundle for onpattro Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-fd0c928ba69b44963057ba928ecaf5ac"
+* entry[0].resource = composition-en-fd0c928ba69b44963057ba928ecaf5ac
+                      
+                      

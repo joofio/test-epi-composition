@@ -4,7 +4,7 @@ Instance: composition-en-d6b5caeb3aecc6a916b0a10e40227ee2
 InstanceOf: CompositionUvEpi
 Title: "Composition for intrarosa Package Leaflet"
 Description:  "Composition for intrarosa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -501,3 +501,28 @@ unchanged, subject to the proposed changes to the product information.
 The CHMP is of the opinion that the terms of the marketing authorisation of the medicinal product 
 mentioned above should be varied. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d6b5caeb3aecc6a916b0a10e40227ee2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for intrarosa Package Leaflet for language en"
+Description: "ePI document Bundle for intrarosa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d6b5caeb3aecc6a916b0a10e40227ee2"
+* entry[0].resource = composition-en-d6b5caeb3aecc6a916b0a10e40227ee2
+                      
+                      

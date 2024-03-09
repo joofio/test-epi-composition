@@ -4,7 +4,7 @@ Instance: composition-en-ec49b4d4d00d01c172d3e6e10425fa84
 InstanceOf: CompositionUvEpi
 Title: "Composition for nyxoid Package Leaflet"
 Description:  "Composition for nyxoid Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -375,3 +375,28 @@ Mundipharma Pharmaceuticals Limited
 Tel: +353 1 206 3This leaflet was last revised in. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ec49b4d4d00d01c172d3e6e10425fa84
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for nyxoid Package Leaflet for language en"
+Description: "ePI document Bundle for nyxoid Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ec49b4d4d00d01c172d3e6e10425fa84"
+* entry[0].resource = composition-en-ec49b4d4d00d01c172d3e6e10425fa84
+                      
+                      

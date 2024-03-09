@@ -4,7 +4,7 @@ Instance: composition-en-21bdef881af840c0b4e754d37782a5bd
 InstanceOf: CompositionUvEpi
 Title: "Composition for adrovance Package Leaflet"
 Description:  "Composition for adrovance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -440,3 +440,28 @@ Tel: +44 (0) 208 159 3medicalinformationuk@organon.com </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency website: 
 https://www.ema.europa.eu. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-21bdef881af840c0b4e754d37782a5bd
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for adrovance Package Leaflet for language en"
+Description: "ePI document Bundle for adrovance Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-21bdef881af840c0b4e754d37782a5bd"
+* entry[0].resource = composition-en-21bdef881af840c0b4e754d37782a5bd
+                      
+                      

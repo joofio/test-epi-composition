@@ -4,7 +4,7 @@ Instance: composition-en-5e3f046139a16b84f12a9b50f2d2b2ef
 InstanceOf: CompositionUvEpi
 Title: "Composition for givlaari Package Leaflet"
 Description:  "Composition for givlaari Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -333,3 +333,28 @@ Tel/S mi: +31 20 369 7medinfo@alnylam.com </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5e3f046139a16b84f12a9b50f2d2b2ef
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for givlaari Package Leaflet for language en"
+Description: "ePI document Bundle for givlaari Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5e3f046139a16b84f12a9b50f2d2b2ef"
+* entry[0].resource = composition-en-5e3f046139a16b84f12a9b50f2d2b2ef
+                      
+                      

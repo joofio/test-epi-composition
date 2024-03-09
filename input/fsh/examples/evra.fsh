@@ -4,7 +4,7 @@ Instance: composition-en-9d34314ad8d36a42a39a37ea1d4e2b34
 InstanceOf: CompositionUvEpi
 Title: "Composition for evra Package Leaflet"
 Description:  "Composition for evra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -773,3 +773,28 @@ This leaflet was last revised in </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9d34314ad8d36a42a39a37ea1d4e2b34
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for evra Package Leaflet for language en"
+Description: "ePI document Bundle for evra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9d34314ad8d36a42a39a37ea1d4e2b34"
+* entry[0].resource = composition-en-9d34314ad8d36a42a39a37ea1d4e2b34
+                      
+                      

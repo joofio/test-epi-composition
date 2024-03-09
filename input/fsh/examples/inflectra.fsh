@@ -4,7 +4,7 @@ Instance: composition-en-572f3f97f7a7c455dcce693d90f95d77
 InstanceOf: CompositionUvEpi
 Title: "Composition for inflectra Package Leaflet"
 Description:  "Composition for inflectra Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -624,3 +624,28 @@ Tel: + 371 670 35 This leaflet was last revised in {MM/YYYY}.
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-572f3f97f7a7c455dcce693d90f95d77
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for inflectra Package Leaflet for language en"
+Description: "ePI document Bundle for inflectra Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-572f3f97f7a7c455dcce693d90f95d77"
+* entry[0].resource = composition-en-572f3f97f7a7c455dcce693d90f95d77
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-d3d5b5fa628989f11aa0aee0a47e189c
 InstanceOf: CompositionUvEpi
 Title: "Composition for flixabi Package Leaflet"
 Description:  "Composition for flixabi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -662,3 +662,28 @@ visibly opaque particles, discolouration or foreign particles are observed. </p>
 </li>
 </ol>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d3d5b5fa628989f11aa0aee0a47e189c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for flixabi Package Leaflet for language en"
+Description: "ePI document Bundle for flixabi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d3d5b5fa628989f11aa0aee0a47e189c"
+* entry[0].resource = composition-en-d3d5b5fa628989f11aa0aee0a47e189c
+                      
+                      

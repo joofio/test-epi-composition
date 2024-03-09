@@ -4,7 +4,7 @@ Instance: composition-en-5b2806d6987bdec4479a8e779b3ce797
 InstanceOf: CompositionUvEpi
 Title: "Composition for vimizim Package Leaflet"
 Description:  "Composition for vimizim Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -219,3 +219,28 @@ Ireland </p>
 <p>This leaflet was last revised in MM/YYYY </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-5b2806d6987bdec4479a8e779b3ce797
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vimizim Package Leaflet for language en"
+Description: "ePI document Bundle for vimizim Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-5b2806d6987bdec4479a8e779b3ce797"
+* entry[0].resource = composition-en-5b2806d6987bdec4479a8e779b3ce797
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-c94b2bb5a2491f8b60f6777b6703f8a1
 InstanceOf: CompositionUvEpi
 Title: "Composition for livogiva Package Leaflet"
 Description:  "Composition for livogiva Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -263,3 +263,28 @@ Netherlands </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c94b2bb5a2491f8b60f6777b6703f8a1
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for livogiva Package Leaflet for language en"
+Description: "ePI document Bundle for livogiva Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c94b2bb5a2491f8b60f6777b6703f8a1"
+* entry[0].resource = composition-en-c94b2bb5a2491f8b60f6777b6703f8a1
+                      
+                      

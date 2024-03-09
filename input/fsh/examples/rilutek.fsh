@@ -4,7 +4,7 @@ Instance: composition-en-68bcf84e560e25281fc234537e658487
 InstanceOf: CompositionUvEpi
 Title: "Composition for rilutek Package Leaflet"
 Description:  "Composition for rilutek Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -302,3 +302,28 @@ Tel: +371 6 616 47 United Kingdom (Northern Ireland)
 sanofi-aventis Ireland Ltd. T/A SANOFI 
 Tel: +44 (0) 800 035 2This leaflet was last approved in {MM/YYYY}. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-68bcf84e560e25281fc234537e658487
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rilutek Package Leaflet for language en"
+Description: "ePI document Bundle for rilutek Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-68bcf84e560e25281fc234537e658487"
+* entry[0].resource = composition-en-68bcf84e560e25281fc234537e658487
+                      
+                      

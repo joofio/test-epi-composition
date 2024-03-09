@@ -4,7 +4,7 @@ Instance: composition-en-81e7ff6268dfde3de233f5f0af119c35
 InstanceOf: CompositionUvEpi
 Title: "Composition for foclivia Package Leaflet"
 Description:  "Composition for foclivia Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -323,3 +323,28 @@ medicinal product. The European Medicines Agency (EMA) will review any new infor
 medicine every year and this leaflet will be updated as necessary. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-81e7ff6268dfde3de233f5f0af119c35
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for foclivia Package Leaflet for language en"
+Description: "ePI document Bundle for foclivia Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-81e7ff6268dfde3de233f5f0af119c35"
+* entry[0].resource = composition-en-81e7ff6268dfde3de233f5f0af119c35
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-c419fe066011304c4fef1d514818ee22
 InstanceOf: CompositionUvEpi
 Title: "Composition for enjaymo Package Leaflet"
 Description:  "Composition for enjaymo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -325,3 +325,28 @@ Tel: +44 (0) 800 035 2This leaflet was last revised in  </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c419fe066011304c4fef1d514818ee22
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for enjaymo Package Leaflet for language en"
+Description: "ePI document Bundle for enjaymo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c419fe066011304c4fef1d514818ee22"
+* entry[0].resource = composition-en-c419fe066011304c4fef1d514818ee22
+                      
+                      

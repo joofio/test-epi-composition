@@ -4,7 +4,7 @@ Instance: composition-en-22dcb829aed4334e1e70ad5ac466fd85
 InstanceOf: CompositionUvEpi
 Title: "Composition for xevudy Package Leaflet"
 Description:  "Composition for xevudy Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -314,3 +314,28 @@ solution is recommended to be administered with a 0.2- m in-line filter.<br />
 <p>Any unused medicinal product or waste material should be disposed of in accordance with local 
 requirements. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-22dcb829aed4334e1e70ad5ac466fd85
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for xevudy Package Leaflet for language en"
+Description: "ePI document Bundle for xevudy Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-22dcb829aed4334e1e70ad5ac466fd85"
+* entry[0].resource = composition-en-22dcb829aed4334e1e70ad5ac466fd85
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-c2b885df39c538ef6cd9dc7a6e1945aa
 InstanceOf: CompositionUvEpi
 Title: "Composition for ovaleap Package Leaflet"
 Description:  "Composition for ovaleap Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -412,3 +412,28 @@ Germany </p>
 <p>This leaflet was last revised in {month YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c2b885df39c538ef6cd9dc7a6e1945aa
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for ovaleap Package Leaflet for language en"
+Description: "ePI document Bundle for ovaleap Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c2b885df39c538ef6cd9dc7a6e1945aa"
+* entry[0].resource = composition-en-c2b885df39c538ef6cd9dc7a6e1945aa
+                      
+                      

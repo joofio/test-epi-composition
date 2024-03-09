@@ -4,7 +4,7 @@ Instance: composition-en-e8b67f07b418969c3e83d3aef06331ab
 InstanceOf: CompositionUvEpi
 Title: "Composition for qarziba Package Leaflet"
 Description:  "Composition for qarziba Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -349,3 +349,28 @@ and validated aseptic conditions. </p>
 Any unused medicinal product or waste material should be disposed of in accordance with local 
 requirements. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e8b67f07b418969c3e83d3aef06331ab
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for qarziba Package Leaflet for language en"
+Description: "ePI document Bundle for qarziba Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e8b67f07b418969c3e83d3aef06331ab"
+* entry[0].resource = composition-en-e8b67f07b418969c3e83d3aef06331ab
+                      
+                      

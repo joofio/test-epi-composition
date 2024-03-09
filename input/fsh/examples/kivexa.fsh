@@ -4,7 +4,7 @@ Instance: composition-en-929afcdc432ad136a892cea5e12c839f
 InstanceOf: CompositionUvEpi
 Title: "Composition for kivexa Package Leaflet"
 Description:  "Composition for kivexa Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -495,3 +495,28 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com   </p>
 <p>This leaflet was last revised in {MM/YYYY} </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-929afcdc432ad136a892cea5e12c839f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for kivexa Package Leaflet for language en"
+Description: "ePI document Bundle for kivexa Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-929afcdc432ad136a892cea5e12c839f"
+* entry[0].resource = composition-en-929afcdc432ad136a892cea5e12c839f
+                      
+                      

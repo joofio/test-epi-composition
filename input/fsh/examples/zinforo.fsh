@@ -4,7 +4,7 @@ Instance: composition-en-c4b0ba45aee41dd9d8f44191fabb5777
 InstanceOf: CompositionUvEpi
 Title: "Composition for zinforo Package Leaflet"
 Description:  "Composition for zinforo Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -310,3 +310,28 @@ Tel: +371 670 35 This leaflet was last revised in
 Other sources of information
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-c4b0ba45aee41dd9d8f44191fabb5777
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for zinforo Package Leaflet for language en"
+Description: "ePI document Bundle for zinforo Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-c4b0ba45aee41dd9d8f44191fabb5777"
+* entry[0].resource = composition-en-c4b0ba45aee41dd9d8f44191fabb5777
+                      
+                      

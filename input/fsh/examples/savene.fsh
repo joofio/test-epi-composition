@@ -4,7 +4,7 @@ Instance: composition-en-1b7a99349ea87fd65f6e8948ab41fbdb
 InstanceOf: CompositionUvEpi
 Title: "Composition for savene Package Leaflet"
 Description:  "Composition for savene Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -344,3 +344,28 @@ refrigerator) and no longer than 4 hours. </p>
 <p>All items for preparation, administration or cleaning, including gloves, as well as liquid waste should 
 be disposed of in accordance with local requirements. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-1b7a99349ea87fd65f6e8948ab41fbdb
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for savene Package Leaflet for language en"
+Description: "ePI document Bundle for savene Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-1b7a99349ea87fd65f6e8948ab41fbdb"
+* entry[0].resource = composition-en-1b7a99349ea87fd65f6e8948ab41fbdb
+                      
+                      

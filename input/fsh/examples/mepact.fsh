@@ -4,7 +4,7 @@ Instance: composition-en-28badbaa1dfc6b119cb5212548687175
 InstanceOf: CompositionUvEpi
 Title: "Composition for mepact Package Leaflet"
 Description:  "Composition for mepact Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -475,3 +475,28 @@ user and would normally not be longer than 6 hours at room temperature. </li>
 </ol>
 <p>No special requirements for disposal. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-28badbaa1dfc6b119cb5212548687175
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for mepact Package Leaflet for language en"
+Description: "ePI document Bundle for mepact Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-28badbaa1dfc6b119cb5212548687175"
+* entry[0].resource = composition-en-28badbaa1dfc6b119cb5212548687175
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-9783bb619d590edd01b19075a96dfce9
 InstanceOf: CompositionUvEpi
 Title: "Composition for rivaroxaban Package Leaflet"
 Description:  "Composition for rivaroxaban Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -415,3 +415,28 @@ Winthontlaan 200, 3526KV Utrecht,
 Netherland </p>
 <p>This leaflet was last revised in September 2Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9783bb619d590edd01b19075a96dfce9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for rivaroxaban Package Leaflet for language en"
+Description: "ePI document Bundle for rivaroxaban Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9783bb619d590edd01b19075a96dfce9"
+* entry[0].resource = composition-en-9783bb619d590edd01b19075a96dfce9
+                      
+                      

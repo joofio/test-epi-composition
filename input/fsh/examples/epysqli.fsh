@@ -4,7 +4,7 @@ Instance: composition-en-eb1bff8909fbce324e442418d542373f
 InstanceOf: CompositionUvEpi
 Title: "Composition for epysqli Package Leaflet"
 Description:  "Composition for epysqli Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -364,3 +364,28 @@ The Netherlands </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-eb1bff8909fbce324e442418d542373f
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for epysqli Package Leaflet for language en"
+Description: "ePI document Bundle for epysqli Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-eb1bff8909fbce324e442418d542373f"
+* entry[0].resource = composition-en-eb1bff8909fbce324e442418d542373f
+                      
+                      

@@ -4,7 +4,7 @@ Instance: composition-en-ff59b7a06a4fc6ca91db06fdf5a7d8c9
 InstanceOf: CompositionUvEpi
 Title: "Composition for vihuma Package Leaflet"
 Description:  "Composition for vihuma Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -451,3 +451,28 @@ preventing you from injecting the right dose. </li>
 <p>If you use more than one vial of powder for one treatment, you may use again the same injection 
 needle of the infusion set. The vial adapter and the syringe are for single use only. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-ff59b7a06a4fc6ca91db06fdf5a7d8c9
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vihuma Package Leaflet for language en"
+Description: "ePI document Bundle for vihuma Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-ff59b7a06a4fc6ca91db06fdf5a7d8c9"
+* entry[0].resource = composition-en-ff59b7a06a4fc6ca91db06fdf5a7d8c9
+                      
+                      

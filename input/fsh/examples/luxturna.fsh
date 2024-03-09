@@ -4,7 +4,7 @@ Instance: composition-en-7fd8db306f75e7eea8a1de8f7d7fbab2
 InstanceOf: CompositionUvEpi
 Title: "Composition for luxturna Package Leaflet"
 Description:  "Composition for luxturna Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -328,3 +328,28 @@ This leaflet is available as an audio file and in a large print from the web sit
 http://www.voretigeneneparvovec.support </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-7fd8db306f75e7eea8a1de8f7d7fbab2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for luxturna Package Leaflet for language en"
+Description: "ePI document Bundle for luxturna Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-7fd8db306f75e7eea8a1de8f7d7fbab2"
+* entry[0].resource = composition-en-7fd8db306f75e7eea8a1de8f7d7fbab2
+                      
+                      

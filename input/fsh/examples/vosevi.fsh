@@ -4,7 +4,7 @@ Instance: composition-en-9648a8c3d3b260e0c01496efb4b0ef56
 InstanceOf: CompositionUvEpi
 Title: "Composition for vosevi Package Leaflet"
 Description:  "Composition for vosevi Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -417,3 +417,28 @@ Gilead Sciences Ireland UC
 Tel: + 44 (0) 8000 113 This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-9648a8c3d3b260e0c01496efb4b0ef56
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for vosevi Package Leaflet for language en"
+Description: "ePI document Bundle for vosevi Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-9648a8c3d3b260e0c01496efb4b0ef56"
+* entry[0].resource = composition-en-9648a8c3d3b260e0c01496efb4b0ef56
+                      
+                      

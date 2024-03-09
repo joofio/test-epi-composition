@@ -4,7 +4,7 @@ Instance: composition-en-b5b875180b10dd24ad24a5a713e37047
 InstanceOf: CompositionUvEpi
 Title: "Composition for budesonideformoterol Package Leaflet"
 Description:  "Composition for budesonideformoterol Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -546,3 +546,28 @@ Tel: +44 207 540 7This leaflet was last revised in month YYYY. </p>
 <p>Other sources of information 
 Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-b5b875180b10dd24ad24a5a713e37047
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for budesonideformoterol Package Leaflet for language en"
+Description: "ePI document Bundle for budesonideformoterol Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-b5b875180b10dd24ad24a5a713e37047"
+* entry[0].resource = composition-en-b5b875180b10dd24ad24a5a713e37047
+                      
+                      

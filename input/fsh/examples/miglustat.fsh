@@ -4,7 +4,7 @@ Instance: composition-en-e8ab7070a1e099803634040c1dcebc5b
 InstanceOf: CompositionUvEpi
 Title: "Composition for miglustat Package Leaflet"
 Description:  "Composition for miglustat Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -356,3 +356,28 @@ Tel: +33 (0)1 47 71 04 email: contact@gen-orph.com </p>
 <p>This leaflet was last revised in {month YYYY}. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-e8ab7070a1e099803634040c1dcebc5b
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for miglustat Package Leaflet for language en"
+Description: "ePI document Bundle for miglustat Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-e8ab7070a1e099803634040c1dcebc5b"
+* entry[0].resource = composition-en-e8ab7070a1e099803634040c1dcebc5b
+                      
+                      

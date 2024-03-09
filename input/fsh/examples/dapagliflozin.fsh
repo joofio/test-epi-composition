@@ -4,7 +4,7 @@ Instance: composition-en-47e609a7556335e73540caeda7f501b2
 InstanceOf: CompositionUvEpi
 Title: "Composition for dapagliflozin Package Leaflet"
 Description:  "Composition for dapagliflozin Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -492,3 +492,28 @@ Tel: +353 18711This leaflet was last revised in </p>
 <p>Other sources of information </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-47e609a7556335e73540caeda7f501b2
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for dapagliflozin Package Leaflet for language en"
+Description: "ePI document Bundle for dapagliflozin Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-47e609a7556335e73540caeda7f501b2"
+* entry[0].resource = composition-en-47e609a7556335e73540caeda7f501b2
+                      
+                      

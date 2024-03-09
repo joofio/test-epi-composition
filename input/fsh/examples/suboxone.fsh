@@ -4,7 +4,7 @@ Instance: composition-en-0e3efb626fca0ac3e088a86a6d17c310
 InstanceOf: CompositionUvEpi
 Title: "Composition for suboxone Package Leaflet"
 Description:  "Composition for suboxone Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -534,3 +534,28 @@ Tel: 0808 234 9e-mail: PatientSafetyRoW@indivior.com </p>
 <p>This leaflet was last revised in  </p>
 <p>Detailed information on this medicine is available on the website of the European Medicines Agency </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-0e3efb626fca0ac3e088a86a6d17c310
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for suboxone Package Leaflet for language en"
+Description: "ePI document Bundle for suboxone Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-0e3efb626fca0ac3e088a86a6d17c310"
+* entry[0].resource = composition-en-0e3efb626fca0ac3e088a86a6d17c310
+                      
+                      

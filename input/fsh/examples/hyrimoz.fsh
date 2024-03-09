@@ -4,7 +4,7 @@ Instance: composition-en-d5e2325446e1313077f0f1d0c6c251e8
 InstanceOf: CompositionUvEpi
 Title: "Composition for hyrimoz Package Leaflet"
 Description:  "Composition for hyrimoz Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -845,3 +845,28 @@ them, even if their signs of illness are the same as your child s.
 If your child gets any side effects, talk to your doctor or pharmacist. This includes any possible 
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-d5e2325446e1313077f0f1d0c6c251e8
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for hyrimoz Package Leaflet for language en"
+Description: "ePI document Bundle for hyrimoz Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-d5e2325446e1313077f0f1d0c6c251e8"
+* entry[0].resource = composition-en-d5e2325446e1313077f0f1d0c6c251e8
+                      
+                      

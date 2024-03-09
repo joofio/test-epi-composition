@@ -4,7 +4,7 @@ Instance: composition-en-a02a33fb6a7ba9862e8f1f45d0ac3e13
 InstanceOf: CompositionUvEpi
 Title: "Composition for atriance Package Leaflet"
 Description:  "Composition for atriance Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -426,3 +426,28 @@ The European Medicines Agency will review any new information on the medicine ev
 this leaflet will be updated as necessary. </p>
 <p>Detailed information on this medicine is available on the European Medicines Agency web site: </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-a02a33fb6a7ba9862e8f1f45d0ac3e13
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for atriance Package Leaflet for language en"
+Description: "ePI document Bundle for atriance Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-a02a33fb6a7ba9862e8f1f45d0ac3e13"
+* entry[0].resource = composition-en-a02a33fb6a7ba9862e8f1f45d0ac3e13
+                      
+                      

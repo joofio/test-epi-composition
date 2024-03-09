@@ -4,7 +4,7 @@ Instance: composition-en-bf83463883d97743be055a0192c94a53
 InstanceOf: CompositionUvEpi
 Title: "Composition for emadine Package Leaflet"
 Description:  "Composition for emadine Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -203,3 +203,28 @@ down the date you opened each bottle in the space below and in the space on the 
 <p>Do not throw away any medicines via wastewater or household waste. Ask your pharmacist how to 
 throw away medicines you no longer use. These measures will help protect the environment. </p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-bf83463883d97743be055a0192c94a53
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for emadine Package Leaflet for language en"
+Description: "ePI document Bundle for emadine Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-bf83463883d97743be055a0192c94a53"
+* entry[0].resource = composition-en-bf83463883d97743be055a0192c94a53
+                      
+                      

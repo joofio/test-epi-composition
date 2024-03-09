@@ -4,7 +4,7 @@ Instance: composition-en-33bcbacd960ab61b8ab697e9c9093f8c
 InstanceOf: CompositionUvEpi
 Title: "Composition for temodal Package Leaflet"
 Description:  "Composition for temodal Package Leaflet"
-Usage: #example
+Usage: #inline
 
 * identifier.system = "http://ema.europa.eu/identifier"
 
@@ -520,3 +520,28 @@ important information for you.
 - If you get any side effects, talk to your doctor, pharmacist or nurse. This includes any possible
 side effects not listed in this leaflet. See section 4.</p>         </div>"""      
 
+
+
+
+
+                      
+Instance: bundlepackageleaflet-en-33bcbacd960ab61b8ab697e9c9093f8c
+InstanceOf: BundleUvEpi
+Title: "ePI document Bundle for temodal Package Leaflet for language en"
+Description: "ePI document Bundle for temodal Package Leaflet for language en"
+Usage: #example
+
+
+
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "None"
+* type = #document
+* timestamp = "2023-06-27T10:09:22Z"
+* language = #en
+
+// Composition
+* entry[0].fullUrl = "Composition/composition-en-33bcbacd960ab61b8ab697e9c9093f8c"
+* entry[0].resource = composition-en-33bcbacd960ab61b8ab697e9c9093f8c
+                      
+                      
