@@ -410,3 +410,49 @@ Usage: #example
 * entry[=].resource = mp7efcd065667970bf223419a97f24d5ff
                             
                       
+
+
+
+                      RuleSet: a0179b039da107bd55842f5819aa0ee7ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "EU/1/02/219/001-003"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "ebixa"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with ebixa"
+
+* subject = Reference(mp7efcd065667970bf223419a97f24d5ff)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#ebixa "ebixa"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-a0179b039da107bd55842f5819aa0ee7) // ebixa en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-a0179b039da107bd55842f5819aa0ee7
+InstanceOf: List
+
+* insert a0179b039da107bd55842f5819aa0ee7ListRuleset
+

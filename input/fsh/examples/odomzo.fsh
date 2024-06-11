@@ -483,3 +483,49 @@ Usage: #example
 * entry[=].resource = mp408f68e740071af45867cfded0090f5a
                             
                       
+
+
+
+                      RuleSet: 0349e0c03941d2ede34c30a30310b99bListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "EU/1/15/1030/001"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "odomzo"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with odomzo"
+
+* subject = Reference(mp408f68e740071af45867cfded0090f5a)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#odomzo "odomzo"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-0349e0c03941d2ede34c30a30310b99b) // odomzo en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-0349e0c03941d2ede34c30a30310b99b
+InstanceOf: List
+
+* insert 0349e0c03941d2ede34c30a30310b99bListRuleset
+

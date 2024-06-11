@@ -505,3 +505,49 @@ Usage: #example
 * entry[=].resource = mped6ca8275a7dc51c3a318c37fd69c487
                             
                       
+
+
+
+                      RuleSet: 63e581259f99b3ad3581a50239777ba2ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "EU/1/13/866/001-002"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "cholib"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with cholib"
+
+* subject = Reference(mped6ca8275a7dc51c3a318c37fd69c487)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#cholib "cholib"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-63e581259f99b3ad3581a50239777ba2) // cholib en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-63e581259f99b3ad3581a50239777ba2
+InstanceOf: List
+
+* insert 63e581259f99b3ad3581a50239777ba2ListRuleset
+

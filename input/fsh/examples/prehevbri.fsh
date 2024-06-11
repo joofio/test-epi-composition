@@ -497,3 +497,49 @@ Usage: #example
 * entry[=].resource = mpb983a6a45456001c1a1f2f58e957f396
                             
                       
+
+
+
+                      RuleSet: 6ad927719fc570edf8a72cacebe37a51ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "EU/1/22/1641/001"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "prehevbri"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with prehevbri"
+
+* subject = Reference(mpb983a6a45456001c1a1f2f58e957f396)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#prehevbri "prehevbri"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-6ad927719fc570edf8a72cacebe37a51) // prehevbri en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-6ad927719fc570edf8a72cacebe37a51
+InstanceOf: List
+
+* insert 6ad927719fc570edf8a72cacebe37a51ListRuleset
+

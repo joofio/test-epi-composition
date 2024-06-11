@@ -299,3 +299,49 @@ Usage: #example
 * entry[=].resource = mpfbe19e17b05b3b954edf06da7b184c88
                             
                       
+
+
+
+                      RuleSet: 273260896d94ba94b3498c0943f7a317ListRuleset
+
+* identifier.system = "http://ema.europa.eu/identifier" 
+* identifier.value = "EU/1/22/1640/001"
+* identifier[+].system = "http://spor.ema.europa.eu/v2/medicine-name"
+* identifier[=].value = "amversio"
+
+* status = #current
+* mode = #working
+
+* title = "List of all ePIs associated with amversio"
+
+* subject = Reference(mpfbe19e17b05b3b954edf06da7b184c88)
+* subject.extension[0].url = "http://ema.europa.eu/fhir/extension/medicine-name"
+* subject.extension[=].valueCoding = $100000000005#amversio "amversio"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/marketing-authorization-holder"
+* subject.extension[=].valueCoding = $100000000005#mah-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/active-substance"
+* subject.extension[=].valueCoding = $100000000005#acive-substance-code "None"
+* subject.extension[+].url = "http://ema.europa.eu/fhir/extension/domain"
+* subject.extension[=].valueCoding = $100000000004#100000000012 "H"
+
+* date = "2015-02-07T13:28:17Z"
+
+
+* entry
+  * flag = urn:oid:1.2.36.1.2001.1001.101.104.16592#01
+  * flag.text = "Unchanged"
+  * date = "2015-02-07T13:28:17Z"
+  * item = Reference(bundlepackageleaflet-en-273260896d94ba94b3498c0943f7a317) // amversio en
+  * item.extension[0].url = "http://ema.europa.eu/fhir/extension/documentType"
+  * item.extension[=].valueCoding = $100000155531#100000155538 "B. PACKAGE LEAFLET"
+  * item.extension[+].url = "http://ema.europa.eu/fhir/extension/language"
+  * item.extension[=].valueCoding = $100000072057#100000072147 "en"
+
+
+
+
+Instance: List-273260896d94ba94b3498c0943f7a317
+InstanceOf: List
+
+* insert 273260896d94ba94b3498c0943f7a317ListRuleset
+

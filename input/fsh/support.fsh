@@ -1,6 +1,27 @@
 Alias: $spor-org = https://spor.ema.europa.eu/omswi
 Alias: $spor-rms = https://spor.ema.europa.eu/rmswi
 Alias: $spor-productNamePartType-cs = https://spor.ema.europa.eu/lists/220000000000 // Medicinal Product Name Part Type
+// Nordic compendium
+Alias: $100000155531 = https://spor.ema.europa.eu/v1/lists/100000155531/terms/
+Alias: $200000029659 = https://spor.ema.europa.eu/v1/lists/200000029659/terms/
+Alias: $minzdrav = https://www.minzdrav.gov.ru/
+Alias: $ncit = http://ncit.nci.nih.gov
+Alias: $smpc = http://medicines.org.uk/smpc
+Alias: $substance-name-type = http://hl7.org/fhir/substance-name-type
+Alias: $medrt = http://hl7.org/fhir/medrt
+Alias: $organization-type = http://terminology.hl7.org/CodeSystem/organization-type
+Alias: $section = https://gravitatehealth.eu/section
+Alias: $v3-ActReason = http://terminology.hl7.org/CodeSystem/v3-ActReason
+Alias: $ingredient-role = http://hl7.org/fhir/ingredient-role
+Alias: $v3-RoleClass = http://terminology.hl7.org/CodeSystem/v3-RoleClass
+Alias: $ncimeta = http://ncimeta.nci.nih.gov
+
+Alias: $100000000005 = http://spor.ema.europa.eu/v1/100000000005
+Alias: $100000000004 = http://spor.ema.europa.eu/v1/100000000004
+Alias: $example-pi-list-types = http://spor.ema.europa.eu/v1/example-pi-list-types
+Alias: $100000072057 = http://spor.ema.europa.eu/v1/100000072057
+
+
 
 Instance: mah-ema
 InstanceOf: OrganizationUvEpi
@@ -26,52 +47,4 @@ Usage: #example
     * city = "Paris"
     * country = "FR"
     
-
-
-Instance: mock
-InstanceOf: MedicinalProductDefinitionUvEpi
-Title: "Medicinal Product acmedrug-man"
-Description: "acmedrug-man"
-Usage: #example
-
- 
-* identifier[+].system = "http://fakesys.com/ids"
-* identifier[=].value = "ididid"
-* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
-
-* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
-
-* status = http://hl7.org/fhir/publication-status#active "active"
-
-
-
-
-
-* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
-
-
-* name
-  * productName = "acmedrug-man"
-  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
-  
-  * part[0]
-    * part = "acme"
-    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
-  
-  * part[+]
-    * part = "acmedrug"
-    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
-  
-  * part[+]
-    * part = "75 mg"
-    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
-  
-  * part[+]
-    * part = "tablet"
-    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
-  
-  * usage
-    * country = urn:iso:std:iso:3166#DK "Denmark"
-    * jurisdiction = urn:iso:std:iso:3166#DK "Denmark"
-    * language = urn:ietf:bcp:47#en  "English"
 
