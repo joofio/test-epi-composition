@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpcc8069b4052d28a3f7f1540ca3717c59)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -621,6 +621,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpcc8069b4052d28a3f7f1540ca3717c59
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Kaletra (80 mg + 20 mg) / ml oral solution"
+Description: "Kaletra (80 mg + 20 mg) / ml oral solution"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/01/172/003"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Kaletra is indicated in combination with other antiretroviral medicinal products for the treatment of"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Kaletra (80 mg + 20 mg) / ml oral solution"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-315c315768d5cbbf6fd09d8201064f37
 InstanceOf: BundleUvEpi
@@ -632,7 +683,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/01/172/003"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -640,5 +691,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-315c315768d5cbbf6fd09d8201064f37"
 * entry[0].resource = composition-en-315c315768d5cbbf6fd09d8201064f37
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcc8069b4052d28a3f7f1540ca3717c59"
+* entry[=].resource = mpcc8069b4052d28a3f7f1540ca3717c59
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp457f92f7f0c8aff6c3f69fdd66d9d869)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -330,6 +330,57 @@ Tel: +44 (0)1628 856This leaflet was last revised in:  </p>
 
 
 
+Instance: mp457f92f7f0c8aff6c3f69fdd66d9d869
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Tenkasi 400 mg powder for concentrate for solution for infusion"
+Description: "Tenkasi 400 mg powder for concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/15/989/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Tenkasi is indicated for the treatment of acute bacterial skin and skin structure infections (ABSSSI) in"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Tenkasi 400 mg powder for concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-426fcc87e6dced0e7ea770b4b6114e7d
 InstanceOf: BundleUvEpi
@@ -341,7 +392,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/15/989/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -349,5 +400,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-426fcc87e6dced0e7ea770b4b6114e7d"
 * entry[0].resource = composition-en-426fcc87e6dced0e7ea770b4b6114e7d
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp457f92f7f0c8aff6c3f69fdd66d9d869"
+* entry[=].resource = mp457f92f7f0c8aff6c3f69fdd66d9d869
+                            
                       

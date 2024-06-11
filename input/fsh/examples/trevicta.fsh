@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpf1acbcc190cbc23296035e766c5bb7b2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -535,6 +535,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpf1acbcc190cbc23296035e766c5bb7b2
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product TREVICTA 175 mg prolonged release suspension for injection"
+Description: "TREVICTA 175 mg prolonged release suspension for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/14/971/007"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "TREVICTA, a 3-monthly injection, is indicated for the maintenance treatment of schizophrenia in"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "TREVICTA 175 mg prolonged release suspension for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-3b1bfab780521579dbd0b44f84c44d4c
 InstanceOf: BundleUvEpi
@@ -546,7 +597,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/14/971/007"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -554,5 +605,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-3b1bfab780521579dbd0b44f84c44d4c"
 * entry[0].resource = composition-en-3b1bfab780521579dbd0b44f84c44d4c
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf1acbcc190cbc23296035e766c5bb7b2"
+* entry[=].resource = mpf1acbcc190cbc23296035e766c5bb7b2
+                            
                       

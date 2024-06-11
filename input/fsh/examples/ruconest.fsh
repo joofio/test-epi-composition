@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp574adc18d7e2594fbc60579833b58054)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -201,6 +201,57 @@ The Netherlands </p>
 
 
 
+Instance: mp574adc18d7e2594fbc60579833b58054
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Ruconest 2100 Units powder for solution for injection."
+Description: "Ruconest 2100 Units powder for solution for injection."
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/10/641/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Ruconest is indicated for treatment of acute angioedema attacks in adults, adolescents, and children (aged"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Ruconest 2100 Units powder for solution for injection."
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-57a928d33300a0b3188f379ca97280de
 InstanceOf: BundleUvEpi
@@ -212,7 +263,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/10/641/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -220,5 +271,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-57a928d33300a0b3188f379ca97280de"
 * entry[0].resource = composition-en-57a928d33300a0b3188f379ca97280de
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp574adc18d7e2594fbc60579833b58054"
+* entry[=].resource = mp574adc18d7e2594fbc60579833b58054
+                            
                       

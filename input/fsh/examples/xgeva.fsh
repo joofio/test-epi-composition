@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp7c9b3e4dcb68c72b142769a3d64f5565)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -360,6 +360,57 @@ Tel: +44 (0)1223 420This leaflet was last revised in </p>
 
 
 
+Instance: mp7c9b3e4dcb68c72b142769a3d64f5565
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product XGEVA 120 mg solution for injection"
+Description: "XGEVA 120 mg solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/11/703/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Prevention of skeletal related events (pathological fracture, radiation to bone, spinal cord compression"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "XGEVA 120 mg solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-a3592e2026cf41a77adf37691a552586
 InstanceOf: BundleUvEpi
@@ -371,7 +422,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/11/703/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -379,5 +430,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-a3592e2026cf41a77adf37691a552586"
 * entry[0].resource = composition-en-a3592e2026cf41a77adf37691a552586
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7c9b3e4dcb68c72b142769a3d64f5565"
+* entry[=].resource = mp7c9b3e4dcb68c72b142769a3d64f5565
+                            
                       

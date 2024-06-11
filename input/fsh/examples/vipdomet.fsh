@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpc78593d9066d75b8d054a2b6ec43df97)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -442,6 +442,57 @@ Tel: +44 (0) 2830 640 medinfoEMEA@takeda.com </p>
 
 
 
+Instance: mpc78593d9066d75b8d054a2b6ec43df97
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Vipdomet 12.5 mg/850 mg film-coated tablets"
+Description: "Vipdomet 12.5 mg/850 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/843/001-026"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Vipdomet is indicated in the treatment of adult patients aged 18 years and older with type 2 diabetes"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Vipdomet 12.5 mg/850 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-91532a0bac4066c0d200269dda7e0b3f
 InstanceOf: BundleUvEpi
@@ -453,7 +504,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/843/001-026"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -461,5 +512,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-91532a0bac4066c0d200269dda7e0b3f"
 * entry[0].resource = composition-en-91532a0bac4066c0d200269dda7e0b3f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc78593d9066d75b8d054a2b6ec43df97"
+* entry[=].resource = mpc78593d9066d75b8d054a2b6ec43df97
+                            
                       

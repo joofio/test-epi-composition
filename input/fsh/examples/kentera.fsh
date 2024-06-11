@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpb9d5e42163934a28483a9ffc8d570d66)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -398,6 +398,57 @@ Tel: +353 214619This leaflet was last revised in </p>
 
 
 
+Instance: mpb9d5e42163934a28483a9ffc8d570d66
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Kentera 3.9 mg / 24 hours transdermal patch"
+Description: "Kentera 3.9 mg / 24 hours transdermal patch"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/03/270/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Symptomatic treatment of urge incontinence and/or increased urinary frequency and urgency as may"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Kentera 3.9 mg / 24 hours transdermal patch"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-a346fcd48e1745156d4e5145052e15e4
 InstanceOf: BundleUvEpi
@@ -409,7 +460,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/03/270/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -417,5 +468,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-a346fcd48e1745156d4e5145052e15e4"
 * entry[0].resource = composition-en-a346fcd48e1745156d4e5145052e15e4
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb9d5e42163934a28483a9ffc8d570d66"
+* entry[=].resource = mpb9d5e42163934a28483a9ffc8d570d66
+                            
                       

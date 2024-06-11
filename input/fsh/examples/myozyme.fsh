@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp1eedeaeb81f8e35bc3ed97da085754f3)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -364,6 +364,57 @@ Tel: +371 6 616 47 This leaflet was last revised in  </p>
 
 
 
+Instance: mp1eedeaeb81f8e35bc3ed97da085754f3
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Myozyme 50 mg powder for concentrate for solution for infusion"
+Description: "Myozyme 50 mg powder for concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/06/333/001-003"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Myozyme is indicated for long-term enzyme replacement therapy (ERT) in patients with a confirmed"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Myozyme 50 mg powder for concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-dbdbf98ea44926c7f122d6f81a850a2f
 InstanceOf: BundleUvEpi
@@ -375,7 +426,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/06/333/001-003"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -383,5 +434,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-dbdbf98ea44926c7f122d6f81a850a2f"
 * entry[0].resource = composition-en-dbdbf98ea44926c7f122d6f81a850a2f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1eedeaeb81f8e35bc3ed97da085754f3"
+* entry[=].resource = mp1eedeaeb81f8e35bc3ed97da085754f3
+                            
                       

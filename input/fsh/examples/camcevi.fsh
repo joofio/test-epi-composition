@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp445bf2f7a3f971487b24a82a481be407)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -381,6 +381,57 @@ Poland </p>
 
 
 
+Instance: mp445bf2f7a3f971487b24a82a481be407
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product CAMCEVI 42 mg prolonged-release suspension for injection"
+Description: "CAMCEVI 42 mg prolonged-release suspension for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/22/1647/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "CAMCEVI is indicated for the treatment of hormone dependent advanced prostate cancer and"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "CAMCEVI 42 mg prolonged-release suspension for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-d96fa44827f5ab161c32cbffe0ee34b9
 InstanceOf: BundleUvEpi
@@ -392,7 +443,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/22/1647/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -400,5 +451,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-d96fa44827f5ab161c32cbffe0ee34b9"
 * entry[0].resource = composition-en-d96fa44827f5ab161c32cbffe0ee34b9
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp445bf2f7a3f971487b24a82a481be407"
+* entry[=].resource = mp445bf2f7a3f971487b24a82a481be407
+                            
                       

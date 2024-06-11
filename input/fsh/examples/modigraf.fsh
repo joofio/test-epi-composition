@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpb97163b7c8fd64018c654f5a9c148dbd)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -559,6 +559,57 @@ http://www.ema.europa.eu/. </p>         </div>"""
 
 
 
+Instance: mpb97163b7c8fd64018c654f5a9c148dbd
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Modigraf 0.2 mg granules for oral suspension"
+Description: "Modigraf 0.2 mg granules for oral suspension"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Modigraf 0.2 mg granules for oral suspension"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Prophylaxis of transplant rejection in adult and paediatric, kidney, liver or heart allograft recipients."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Modigraf 0.2 mg granules for oral suspension"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-f4157e79e09e92e0d9cf70a720caf0e5
 InstanceOf: BundleUvEpi
@@ -570,7 +621,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Modigraf 0.2 mg granules for oral suspension"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -578,5 +629,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-f4157e79e09e92e0d9cf70a720caf0e5"
 * entry[0].resource = composition-en-f4157e79e09e92e0d9cf70a720caf0e5
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb97163b7c8fd64018c654f5a9c148dbd"
+* entry[=].resource = mpb97163b7c8fd64018c654f5a9c148dbd
+                            
                       

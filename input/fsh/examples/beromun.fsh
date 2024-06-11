@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp12471564e958d3c2f27ca41a37d1e10b)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -267,6 +267,57 @@ Tel : +352 27403This leaflet was last revised in  </p>
 
 
 
+Instance: mp12471564e958d3c2f27ca41a37d1e10b
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Beromun 1 mg powder for solution for infusion"
+Description: "Beromun 1 mg powder for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/99/097/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Beromun is indicated in adults. as an adjunct to surgery for subsequent removal of the tumour so as to"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Beromun 1 mg powder for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-a321c1bbb3d0ca5c622bbbc9c0607a43
 InstanceOf: BundleUvEpi
@@ -278,7 +329,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/99/097/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -286,5 +337,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-a321c1bbb3d0ca5c622bbbc9c0607a43"
 * entry[0].resource = composition-en-a321c1bbb3d0ca5c622bbbc9c0607a43
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp12471564e958d3c2f27ca41a37d1e10b"
+* entry[=].resource = mp12471564e958d3c2f27ca41a37d1e10b
+                            
                       

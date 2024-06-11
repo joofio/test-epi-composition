@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp4cc26e99ab35a3ab5bd3af0ed5ca8ce6)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -347,6 +347,57 @@ Tel: +44-(0)118 206 3This leaflet was last revised in </p>
 
 
 
+Instance: mp4cc26e99ab35a3ab5bd3af0ed5ca8ce6
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Kovaltry 250 IU powder and solvent for solution for injection"
+Description: "Kovaltry 250 IU powder and solvent for solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/15/1076/002  1 x (Kovaltry 250 IU - solvent (2.5 mL); pre-filled syringe (3 mL))"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Treatment and prophylaxis of bleeding in patients with haemophilia A (congenital factor VIII"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Kovaltry 250 IU powder and solvent for solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-8467bc8586a2da87e0b1d648339b10b3
 InstanceOf: BundleUvEpi
@@ -358,7 +409,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/15/1076/002  1 x (Kovaltry 250 IU - solvent (2.5 mL); pre-filled syringe (3 mL))"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -366,5 +417,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-8467bc8586a2da87e0b1d648339b10b3"
 * entry[0].resource = composition-en-8467bc8586a2da87e0b1d648339b10b3
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4cc26e99ab35a3ab5bd3af0ed5ca8ce6"
+* entry[=].resource = mp4cc26e99ab35a3ab5bd3af0ed5ca8ce6
+                            
                       

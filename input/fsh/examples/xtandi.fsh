@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpc4d1942f5e7b5770c7fa2e8980e4216b)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -358,6 +358,57 @@ Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5This leaflet was l
 
 
 
+Instance: mpc4d1942f5e7b5770c7fa2e8980e4216b
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Xtandi - 40 mg soft capsules"
+Description: "Xtandi - 40 mg soft capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/846/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Xtandi is indicated for:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Xtandi - 40 mg soft capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-0f22d445f37b02d3c837ebc1451981fc
 InstanceOf: BundleUvEpi
@@ -369,7 +420,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/846/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -377,5 +428,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-0f22d445f37b02d3c837ebc1451981fc"
 * entry[0].resource = composition-en-0f22d445f37b02d3c837ebc1451981fc
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc4d1942f5e7b5770c7fa2e8980e4216b"
+* entry[=].resource = mpc4d1942f5e7b5770c7fa2e8980e4216b
+                            
                       

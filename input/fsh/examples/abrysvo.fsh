@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpb283060c0f0f3438121d0c2e2515ea4e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -311,6 +311,57 @@ Tel: + 44 (0) 1304 616This leaflet was last revised in </p>
 
 
 
+Instance: mpb283060c0f0f3438121d0c2e2515ea4e
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Abrysvo powder and solvent for solution for injection"
+Description: "Abrysvo powder and solvent for solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/23/1752/001 – 1 vial, 1 vial adaptor, 1 pre-filled syringe, 1 needle"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Abrysvo is indicated for:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Abrysvo powder and solvent for solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-0e4b0f32f27cd3409c6b65f9b73ff49f
 InstanceOf: BundleUvEpi
@@ -322,7 +373,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/23/1752/001 – 1 vial, 1 vial adaptor, 1 pre-filled syringe, 1 needle"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -330,5 +381,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-0e4b0f32f27cd3409c6b65f9b73ff49f"
 * entry[0].resource = composition-en-0e4b0f32f27cd3409c6b65f9b73ff49f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb283060c0f0f3438121d0c2e2515ea4e"
+* entry[=].resource = mpb283060c0f0f3438121d0c2e2515ea4e
+                            
                       

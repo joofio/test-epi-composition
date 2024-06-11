@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp6783256321add377baac1d0bfdeb4a38)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -390,6 +390,57 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mp6783256321add377baac1d0bfdeb4a38
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Insulatard 40 international units/ml suspension for injection in vial."
+Description: "Insulatard 40 international units/ml suspension for injection in vial."
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Insulatard vial (40 international units/ml)"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Insulatard is indicated for treatment of diabetes mellitus."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Insulatard 40 international units/ml suspension for injection in vial."
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-6acef7c89d536bf2632b2cc29b5349e2
 InstanceOf: BundleUvEpi
@@ -401,7 +452,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Insulatard vial (40 international units/ml)"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -409,5 +460,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-6acef7c89d536bf2632b2cc29b5349e2"
 * entry[0].resource = composition-en-6acef7c89d536bf2632b2cc29b5349e2
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6783256321add377baac1d0bfdeb4a38"
+* entry[=].resource = mp6783256321add377baac1d0bfdeb4a38
+                            
                       

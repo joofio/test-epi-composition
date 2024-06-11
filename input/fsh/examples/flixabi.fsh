@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpd033d0a315e208bfb48e93050c71d61d)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -666,6 +666,57 @@ visibly opaque particles, discolouration or foreign particles are observed. </p>
 
 
 
+Instance: mpd033d0a315e208bfb48e93050c71d61d
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Flixabi 100 mg powder for concentrate for solution for infusion"
+Description: "Flixabi 100 mg powder for concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/16/1106/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Rheumatoid arthritis"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Flixabi 100 mg powder for concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-d3d5b5fa628989f11aa0aee0a47e189c
 InstanceOf: BundleUvEpi
@@ -677,7 +728,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/16/1106/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -685,5 +736,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-d3d5b5fa628989f11aa0aee0a47e189c"
 * entry[0].resource = composition-en-d3d5b5fa628989f11aa0aee0a47e189c
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd033d0a315e208bfb48e93050c71d61d"
+* entry[=].resource = mpd033d0a315e208bfb48e93050c71d61d
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp776281a9095e237192a34145e3957e2f)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -375,6 +375,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp776281a9095e237192a34145e3957e2f
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Riltrava Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation,"
+Description: "Riltrava Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation,"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/21/1604/001 120 actuations"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Riltrava Aerosphere is indicated as a maintenance treatment in adult patients with moderate to severe"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Riltrava Aerosphere 5 micrograms/7.2 micrograms/160 micrograms pressurised inhalation,"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-832482791de362ad81d3371194ed350b
 InstanceOf: BundleUvEpi
@@ -386,7 +437,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/21/1604/001 120 actuations"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -394,5 +445,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-832482791de362ad81d3371194ed350b"
 * entry[0].resource = composition-en-832482791de362ad81d3371194ed350b
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp776281a9095e237192a34145e3957e2f"
+* entry[=].resource = mp776281a9095e237192a34145e3957e2f
+                            
                       

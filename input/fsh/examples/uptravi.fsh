@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpbbbe97d93b22cf42432e46bc482f7c12)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -642,6 +642,57 @@ Page 40</p>         </div>"""
 
 
 
+Instance: mpbbbe97d93b22cf42432e46bc482f7c12
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Uptravi 200 microgram film-coated tablets"
+Description: "Uptravi 200 microgram film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/15/1083/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Uptravi is indicated for the long-term treatment of pulmonary arterial hypertension (PAH) in adult"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Uptravi 200 microgram film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-f797cc0b9b4e9335a18d81e479368f3c
 InstanceOf: BundleUvEpi
@@ -653,7 +704,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/15/1083/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -661,5 +712,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-f797cc0b9b4e9335a18d81e479368f3c"
 * entry[0].resource = composition-en-f797cc0b9b4e9335a18d81e479368f3c
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbbbe97d93b22cf42432e46bc482f7c12"
+* entry[=].resource = mpbbbe97d93b22cf42432e46bc482f7c12
+                            
                       

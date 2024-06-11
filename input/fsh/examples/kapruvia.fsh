@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp12daf8f8b645c2d494f4f8a7df1cb6e4)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -217,6 +217,57 @@ France </p>
 
 
 
+Instance: mp12daf8f8b645c2d494f4f8a7df1cb6e4
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Kapruvia 50 micrograms/mL solution for injection"
+Description: "Kapruvia 50 micrograms/mL solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/22/1643/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Kapruvia is indicated for the treatment of moderate-to-severe pruritus associated with chronic kidney"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Kapruvia 50 micrograms/mL solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-7f1553dfd98eb10665faba03861da449
 InstanceOf: BundleUvEpi
@@ -228,7 +279,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/22/1643/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -236,5 +287,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-7f1553dfd98eb10665faba03861da449"
 * entry[0].resource = composition-en-7f1553dfd98eb10665faba03861da449
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp12daf8f8b645c2d494f4f8a7df1cb6e4"
+* entry[=].resource = mp12daf8f8b645c2d494f4f8a7df1cb6e4
+                            
                       

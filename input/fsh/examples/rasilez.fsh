@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpf62e4d37245483fe5372a8eb4977108e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -324,6 +324,57 @@ http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: mpf62e4d37245483fe5372a8eb4977108e
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Rasilez 150 mg film-coated tablets"
+Description: "Rasilez 150 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Rasilez 150 mg film-coated tablets"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Treatment of essential hypertension in adults."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Rasilez 150 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-5723af3498c13864107ed05f36f04f5d
 InstanceOf: BundleUvEpi
@@ -335,7 +386,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Rasilez 150 mg film-coated tablets"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -343,5 +394,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-5723af3498c13864107ed05f36f04f5d"
 * entry[0].resource = composition-en-5723af3498c13864107ed05f36f04f5d
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf62e4d37245483fe5372a8eb4977108e"
+* entry[=].resource = mpf62e4d37245483fe5372a8eb4977108e
+                            
                       

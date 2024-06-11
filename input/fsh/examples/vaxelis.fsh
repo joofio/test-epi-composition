@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpae243adfb4453d88c2dcbabd2caf875d)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -451,6 +451,57 @@ possible side effects not listed in this leaflet. See section 4.</p>         </d
 
 
 
+Instance: mpae243adfb4453d88c2dcbabd2caf875d
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Vaxelis suspension for injection in pre-filled syringe"
+Description: "Vaxelis suspension for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/15/1079/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Vaxelis (DTaP-HB-IPV-Hib) is indicated for primary and booster vaccination in infants and toddlers"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Vaxelis suspension for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-63b3f084a70182e692d011ffeb8c1337
 InstanceOf: BundleUvEpi
@@ -462,7 +513,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/15/1079/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -470,5 +521,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-63b3f084a70182e692d011ffeb8c1337"
 * entry[0].resource = composition-en-63b3f084a70182e692d011ffeb8c1337
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpae243adfb4453d88c2dcbabd2caf875d"
+* entry[=].resource = mpae243adfb4453d88c2dcbabd2caf875d
+                            
                       

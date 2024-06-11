@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp24a22715866b4df0864b1386dd838038)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -367,6 +367,57 @@ Tel: +44(0)800 221 customercontactuk@gsk.com </p>
 
 
 
+Instance: mp24a22715866b4df0864b1386dd838038
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Synflorix suspension for injection in pre-filled syringe"
+Description: "Synflorix suspension for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Pre-filled syringe"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Active immunisation against invasive disease, pneumonia and acute otitis media caused by"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Synflorix suspension for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-37418440f4ca23d5d0b03ff171fcb145
 InstanceOf: BundleUvEpi
@@ -378,7 +429,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Pre-filled syringe"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -386,5 +437,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-37418440f4ca23d5d0b03ff171fcb145"
 * entry[0].resource = composition-en-37418440f4ca23d5d0b03ff171fcb145
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp24a22715866b4df0864b1386dd838038"
+* entry[=].resource = mp24a22715866b4df0864b1386dd838038
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpf013f15effbfd2ee191c2708cdade335)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -639,6 +639,57 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mpf013f15effbfd2ee191c2708cdade335
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
+Description: "OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "OKEDI is indicated for the treatment of schizophrenia in adults for whom tolerability and"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-3a36f8c3c4c534a765e5e9ed08db5433
 InstanceOf: BundleUvEpi
@@ -650,7 +701,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "OKEDI 75 mg powder and solvent for prolonged-release suspension for injection"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -658,5 +709,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-3a36f8c3c4c534a765e5e9ed08db5433"
 * entry[0].resource = composition-en-3a36f8c3c4c534a765e5e9ed08db5433
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf013f15effbfd2ee191c2708cdade335"
+* entry[=].resource = mpf013f15effbfd2ee191c2708cdade335
+                            
                       

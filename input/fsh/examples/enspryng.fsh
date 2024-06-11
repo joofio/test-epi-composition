@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp43f9b40c2dee63b025c28eb8f583c587)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -387,6 +387,57 @@ Tel: +44 (0) 1707 366This leaflet was last revised in </p>
 
 
 
+Instance: mp43f9b40c2dee63b025c28eb8f583c587
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Enspryng 120 mg solution for injection in pre-filled syringe"
+Description: "Enspryng 120 mg solution for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/21/1559/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Enspryng is indicated as a monotherapy or in combination with immunosuppressive therapy (IST) for"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Enspryng 120 mg solution for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-0d7ee15ee10dc2578a331f45f3babb36
 InstanceOf: BundleUvEpi
@@ -398,7 +449,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/21/1559/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -406,5 +457,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-0d7ee15ee10dc2578a331f45f3babb36"
 * entry[0].resource = composition-en-0d7ee15ee10dc2578a331f45f3babb36
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp43f9b40c2dee63b025c28eb8f583c587"
+* entry[=].resource = mp43f9b40c2dee63b025c28eb8f583c587
+                            
                       

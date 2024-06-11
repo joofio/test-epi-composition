@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp9c771324c0fb55bcbb7f5d1f3caf1940)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -294,6 +294,57 @@ Italy </p>
 
 
 
+Instance: mp9c771324c0fb55bcbb7f5d1f3caf1940
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Lumeblue 25 mg prolonged-release tablets"
+Description: "Lumeblue 25 mg prolonged-release tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/20/1470/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Lumeblue is indicated as a diagnostic agent enhancing visualisation of colorectal lesions in adult"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Lumeblue 25 mg prolonged-release tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-5a0e77a26a98f2eac352c48d66309743
 InstanceOf: BundleUvEpi
@@ -305,7 +356,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/20/1470/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -313,5 +364,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-5a0e77a26a98f2eac352c48d66309743"
 * entry[0].resource = composition-en-5a0e77a26a98f2eac352c48d66309743
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9c771324c0fb55bcbb7f5d1f3caf1940"
+* entry[=].resource = mp9c771324c0fb55bcbb7f5d1f3caf1940
+                            
                       

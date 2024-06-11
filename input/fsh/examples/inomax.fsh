@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp4424fa2036cbc0c307ee77268cc6a3c0)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -417,6 +417,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp4424fa2036cbc0c307ee77268cc6a3c0
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product INOmax 400 ppm mol/mol medicinal gas, compressed"
+Description: "INOmax 400 ppm mol/mol medicinal gas, compressed"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/01/194/001, EU/1/01/194/002"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "INOmax, in conjunction with ventilatory support and other appropriate active substances, is indicated:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "INOmax 400 ppm mol/mol medicinal gas, compressed"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-b3a7e562e5ab08730073fe4737f50e1b
 InstanceOf: BundleUvEpi
@@ -428,7 +479,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/01/194/001, EU/1/01/194/002"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -436,5 +487,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-b3a7e562e5ab08730073fe4737f50e1b"
 * entry[0].resource = composition-en-b3a7e562e5ab08730073fe4737f50e1b
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4424fa2036cbc0c307ee77268cc6a3c0"
+* entry[=].resource = mp4424fa2036cbc0c307ee77268cc6a3c0
+                            
                       

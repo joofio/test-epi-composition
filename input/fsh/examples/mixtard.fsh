@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp9bbae896fe9a70f3e37fcea0f7d39c04)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -391,6 +391,57 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mp9bbae896fe9a70f3e37fcea0f7d39c04
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Mixtard 30 40 international units/ml suspension for injection in vial."
+Description: "Mixtard 30 40 international units/ml suspension for injection in vial."
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Mixtard 30 vial (40 international units/ml)"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Mixtard is indicated for treatment of diabetes mellitus."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Mixtard 30 40 international units/ml suspension for injection in vial."
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-d8ca97550681f70b3fac03b02f9cb9be
 InstanceOf: BundleUvEpi
@@ -402,7 +453,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Mixtard 30 vial (40 international units/ml)"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -410,5 +461,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-d8ca97550681f70b3fac03b02f9cb9be"
 * entry[0].resource = composition-en-d8ca97550681f70b3fac03b02f9cb9be
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp9bbae896fe9a70f3e37fcea0f7d39c04"
+* entry[=].resource = mp9bbae896fe9a70f3e37fcea0f7d39c04
+                            
                       

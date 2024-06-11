@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp6cb860633d13eabc3475e2932877ab89)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -430,6 +430,57 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: mp6cb860633d13eabc3475e2932877ab89
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Atriance 5 mg/ml solution for infusion"
+Description: "Atriance 5 mg/ml solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/07/403/001-002"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Nelarabine is indicated for the treatment of patients with T-cell acute lymphoblastic leukaemia"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Atriance 5 mg/ml solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-a02a33fb6a7ba9862e8f1f45d0ac3e13
 InstanceOf: BundleUvEpi
@@ -441,7 +492,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/07/403/001-002"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -449,5 +500,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-a02a33fb6a7ba9862e8f1f45d0ac3e13"
 * entry[0].resource = composition-en-a02a33fb6a7ba9862e8f1f45d0ac3e13
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6cb860633d13eabc3475e2932877ab89"
+* entry[=].resource = mp6cb860633d13eabc3475e2932877ab89
+                            
                       

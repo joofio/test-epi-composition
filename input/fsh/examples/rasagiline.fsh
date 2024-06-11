@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpeb5e2d8af7229c3974038a15690af072)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -358,6 +358,57 @@ Tel:  +353 18711This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month YYY
 
 
 
+Instance: mpeb5e2d8af7229c3974038a15690af072
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Rasagiline Mylan 1 mg tablets"
+Description: "Rasagiline Mylan 1 mg tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/16/1090/001 (7 tablets - oPA/alu/PVC/alu)"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Rasagiline Mylan is indicated in adults for the treatment of idiopathic Parkinson’s disease (PD) as"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Rasagiline Mylan 1 mg tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-b0e9ca3c0296dbd9d61e291d9ccda718
 InstanceOf: BundleUvEpi
@@ -369,7 +420,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/16/1090/001 (7 tablets - oPA/alu/PVC/alu)"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -377,5 +428,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-b0e9ca3c0296dbd9d61e291d9ccda718"
 * entry[0].resource = composition-en-b0e9ca3c0296dbd9d61e291d9ccda718
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpeb5e2d8af7229c3974038a15690af072"
+* entry[=].resource = mpeb5e2d8af7229c3974038a15690af072
+                            
                       

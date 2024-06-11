@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp67fbc8bafb10ece0b89924489b84bde8)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -312,6 +312,57 @@ http://www.ema.europa.eu</p>         </div>"""
 
 
 
+Instance: mp67fbc8bafb10ece0b89924489b84bde8
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Lokelma 5 g powder for oral suspension"
+Description: "Lokelma 5 g powder for oral suspension"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/17/1173/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Lokelma is indicated for the treatment of hyperkalaemia in adult patients (see section 4.4 and 5.1)."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Lokelma 5 g powder for oral suspension"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-37704f8130504ea382184950ae8a2cfe
 InstanceOf: BundleUvEpi
@@ -323,7 +374,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/17/1173/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -331,5 +382,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-37704f8130504ea382184950ae8a2cfe"
 * entry[0].resource = composition-en-37704f8130504ea382184950ae8a2cfe
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp67fbc8bafb10ece0b89924489b84bde8"
+* entry[=].resource = mp67fbc8bafb10ece0b89924489b84bde8
+                            
                       

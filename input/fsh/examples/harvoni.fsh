@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpffda46e96c999b7d45270b3bdbd49c41)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -415,6 +415,57 @@ Tel: + 44 (0) 8000 113This leaflet was last revised in  </p>
 
 
 
+Instance: mpffda46e96c999b7d45270b3bdbd49c41
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Harvoni 90 mg/400 mg film-coated tablets"
+Description: "Harvoni 90 mg/400 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/14/958/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Harvoni is indicated for the treatment of chronic hepatitis C (CHC) in adult and paediatric patients"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Harvoni 90 mg/400 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-52f798a2a01bd37d07b0ffeba290b5e0
 InstanceOf: BundleUvEpi
@@ -426,7 +477,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/14/958/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -434,5 +485,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-52f798a2a01bd37d07b0ffeba290b5e0"
 * entry[0].resource = composition-en-52f798a2a01bd37d07b0ffeba290b5e0
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpffda46e96c999b7d45270b3bdbd49c41"
+* entry[=].resource = mpffda46e96c999b7d45270b3bdbd49c41
+                            
                       

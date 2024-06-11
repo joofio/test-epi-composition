@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpfd86896765ff68dc6c8d5bef13ac2dc2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -399,6 +399,57 @@ The Netherlands </p>
 
 
 
+Instance: mpfd86896765ff68dc6c8d5bef13ac2dc2
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Zercepac 60 mg powder for concentrate for solution for infusion"
+Description: "Zercepac 60 mg powder for concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Zercepac 60 mg powder for concentrate for solution for infusion"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Breast cancer"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Zercepac 60 mg powder for concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-d81ab7604a6a988f432c98de75044e82
 InstanceOf: BundleUvEpi
@@ -410,7 +461,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Zercepac 60 mg powder for concentrate for solution for infusion"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -418,5 +469,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-d81ab7604a6a988f432c98de75044e82"
 * entry[0].resource = composition-en-d81ab7604a6a988f432c98de75044e82
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfd86896765ff68dc6c8d5bef13ac2dc2"
+* entry[=].resource = mpfd86896765ff68dc6c8d5bef13ac2dc2
+                            
                       

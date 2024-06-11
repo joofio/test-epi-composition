@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp21fa354a3912746d4cc8bd26bb40baf8)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -378,6 +378,57 @@ QR code www.fortacin.eu </p>
 
 
 
+Instance: mp21fa354a3912746d4cc8bd26bb40baf8
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Fortacin 150 mg/ml + 50 mg/ml cutaneous spray, solution"
+Description: "Fortacin 150 mg/ml + 50 mg/ml cutaneous spray, solution"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/881/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Fortacin is indicated for the treatment of primary premature ejaculation in adult men."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Fortacin 150 mg/ml + 50 mg/ml cutaneous spray, solution"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-7595bd80b37f1612e8b528f48e44afff
 InstanceOf: BundleUvEpi
@@ -389,7 +440,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/881/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -397,5 +448,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-7595bd80b37f1612e8b528f48e44afff"
 * entry[0].resource = composition-en-7595bd80b37f1612e8b528f48e44afff
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp21fa354a3912746d4cc8bd26bb40baf8"
+* entry[=].resource = mp21fa354a3912746d4cc8bd26bb40baf8
+                            
                       

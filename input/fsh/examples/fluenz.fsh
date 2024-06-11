@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp822aeee7cf35efce0583ec39919328fb)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -313,6 +313,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp822aeee7cf35efce0583ec39919328fb
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Fluenz Tetra nasal spray suspension"
+Description: "Fluenz Tetra nasal spray suspension"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/887/003 Top load carton assembly. 1 sprayer."
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Prophylaxis of influenza in children and adolescents from 24 months to less than 18 years of age."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Fluenz Tetra nasal spray suspension"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-2a76f37ef539585b5462eb33582e394e
 InstanceOf: BundleUvEpi
@@ -324,7 +375,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/887/003 Top load carton assembly. 1 sprayer."
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -332,5 +383,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-2a76f37ef539585b5462eb33582e394e"
 * entry[0].resource = composition-en-2a76f37ef539585b5462eb33582e394e
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp822aeee7cf35efce0583ec39919328fb"
+* entry[=].resource = mp822aeee7cf35efce0583ec39919328fb
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpfbeab74851f743a4ceb7642449535969)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -489,6 +489,57 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: mpfbeab74851f743a4ceb7642449535969
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Steglujan 5 mg/100 mg film-coated tablets"
+Description: "Steglujan 5 mg/100 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Steglujan 5 mg/100 mg film-coated tablets"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Steglujan is indicated in adults aged 18 years and older with type 2 diabetes mellitus as an adjunct to"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Steglujan 5 mg/100 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-001a1e1abfef180b40eba1bcc5ecf9fa
 InstanceOf: BundleUvEpi
@@ -500,7 +551,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Steglujan 5 mg/100 mg film-coated tablets"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -508,5 +559,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-001a1e1abfef180b40eba1bcc5ecf9fa"
 * entry[0].resource = composition-en-001a1e1abfef180b40eba1bcc5ecf9fa
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfbeab74851f743a4ceb7642449535969"
+* entry[=].resource = mpfbeab74851f743a4ceb7642449535969
+                            
                       

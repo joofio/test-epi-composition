@@ -6,7 +6,7 @@ Instance: mah-ema
 InstanceOf: OrganizationUvEpi
 Title: "ACME industry as Marketing authorisation holder"
 Description: "ACME industry as Marketing authorisation holder"
-Usage: #inline
+Usage: #example
 
 * identifier.system = $spor-org
 * identifier.value = "ORG-100000789"
@@ -32,7 +32,7 @@ Instance: mock
 InstanceOf: MedicinalProductDefinitionUvEpi
 Title: "Medicinal Product acmedrug-man"
 Description: "acmedrug-man"
-Usage: #inline
+Usage: #example
 
  
 * identifier[+].system = "http://fakesys.com/ids"

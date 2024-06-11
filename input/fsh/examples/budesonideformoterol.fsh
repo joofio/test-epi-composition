@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpa4d99deff1636304f5476e0b4b40347d)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -550,6 +550,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpa4d99deff1636304f5476e0b4b40347d
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Budesonide/Formoterol Teva Pharma B.V. 160 micrograms / 4.5 micrograms inhalation powder"
+Description: "Budesonide/Formoterol Teva Pharma B.V. 160 micrograms / 4.5 micrograms inhalation powder"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/19/1403/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Budesonide/Formoterol Teva Pharma B.V. is indicated in adults 18 years of age and older only."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Budesonide/Formoterol Teva Pharma B.V. 160 micrograms / 4.5 micrograms inhalation powder"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-b5b875180b10dd24ad24a5a713e37047
 InstanceOf: BundleUvEpi
@@ -561,7 +612,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/19/1403/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -569,5 +620,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-b5b875180b10dd24ad24a5a713e37047"
 * entry[0].resource = composition-en-b5b875180b10dd24ad24a5a713e37047
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa4d99deff1636304f5476e0b4b40347d"
+* entry[=].resource = mpa4d99deff1636304f5476e0b4b40347d
+                            
                       

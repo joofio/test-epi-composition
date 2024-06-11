@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpab94b7fc919f76dad43934f9b2b7edad)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -320,6 +320,57 @@ Tel: +351 219 255 This leaflet was last revised in &lt;{MM/YYYY}&gt;&lt;{month Y
 
 
 
+Instance: mpab94b7fc919f76dad43934f9b2b7edad
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product TAVLESSE 100 mg film-coated tablets"
+Description: "TAVLESSE 100 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "TAVLESSE 100 mg film-coated tablets"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "TAVLESSE is indicated for the treatment of chronic immune thrombocytopenia (ITP) in adult patients"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "TAVLESSE 100 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-4143a283449d30b8e5a863d688670e88
 InstanceOf: BundleUvEpi
@@ -331,7 +382,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "TAVLESSE 100 mg film-coated tablets"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -339,5 +390,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-4143a283449d30b8e5a863d688670e88"
 * entry[0].resource = composition-en-4143a283449d30b8e5a863d688670e88
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpab94b7fc919f76dad43934f9b2b7edad"
+* entry[=].resource = mpab94b7fc919f76dad43934f9b2b7edad
+                            
                       

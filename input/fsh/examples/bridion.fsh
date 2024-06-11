@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpe460d6b69a4e15601ecd6ebf418c6aab)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -341,6 +341,57 @@ For detailed information refer to the Summary of Product Characteristics of BRID
 
 
 
+Instance: mpe460d6b69a4e15601ecd6ebf418c6aab
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Bridion 100 mg/mL solution for injection"
+Description: "Bridion 100 mg/mL solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/08/466/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Reversal of neuromuscular blockade induced by rocuronium or vecuronium in adults."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Bridion 100 mg/mL solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-36510bf45b0e72d68ab742851da42239
 InstanceOf: BundleUvEpi
@@ -352,7 +403,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/08/466/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -360,5 +411,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-36510bf45b0e72d68ab742851da42239"
 * entry[0].resource = composition-en-36510bf45b0e72d68ab742851da42239
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe460d6b69a4e15601ecd6ebf418c6aab"
+* entry[=].resource = mpe460d6b69a4e15601ecd6ebf418c6aab
+                            
                       

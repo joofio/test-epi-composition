@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp3305dbb7bca7942b9881dd7fdf0052ae)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -401,6 +401,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp3305dbb7bca7942b9881dd7fdf0052ae
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Tepkinly 4 mg/0.8 ml concentrate for solution for injection"
+Description: "Tepkinly 4 mg/0.8 ml concentrate for solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/23/1759/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Tepkinly as monotherapy is indicated for the treatment of adult patients with relapsed or refractory"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Tepkinly 4 mg/0.8 ml concentrate for solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-8e3bfdaa73d1dfe2a558d763f021c01e
 InstanceOf: BundleUvEpi
@@ -412,7 +463,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/23/1759/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -420,5 +471,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-8e3bfdaa73d1dfe2a558d763f021c01e"
 * entry[0].resource = composition-en-8e3bfdaa73d1dfe2a558d763f021c01e
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3305dbb7bca7942b9881dd7fdf0052ae"
+* entry[=].resource = mp3305dbb7bca7942b9881dd7fdf0052ae
+                            
                       

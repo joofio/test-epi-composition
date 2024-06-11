@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp96b55bdfb63f2582a82c5a79aaa034d2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -393,6 +393,57 @@ of about 45 , as shown in the picture. </p>
 
 
 
+Instance: mp96b55bdfb63f2582a82c5a79aaa034d2
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product LITAK 2 mg/ml solution for injection"
+Description: "LITAK 2 mg/ml solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/04/275/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "LITAK is indicated for the treatment of hairy cell leukaemia."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "LITAK 2 mg/ml solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-f1e5c0f8dd3e6746610cc97b2dc1a234
 InstanceOf: BundleUvEpi
@@ -404,7 +455,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/04/275/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -412,5 +463,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-f1e5c0f8dd3e6746610cc97b2dc1a234"
 * entry[0].resource = composition-en-f1e5c0f8dd3e6746610cc97b2dc1a234
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp96b55bdfb63f2582a82c5a79aaa034d2"
+* entry[=].resource = mp96b55bdfb63f2582a82c5a79aaa034d2
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp3f5e8ff012a6ba5c27c38e184c61466b)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -354,6 +354,57 @@ Free call from Northern Ireland: 0800 783 5International number: +353 (0)1 4671T
 
 
 
+Instance: mp3f5e8ff012a6ba5c27c38e184c61466b
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Mycamine 50 mg powder for concentrate for solution for infusion"
+Description: "Mycamine 50 mg powder for concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/08/448/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Mycamine is indicated for:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Mycamine 50 mg powder for concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-a8bf6c781d45d4ee28ddbc241a4ae52b
 InstanceOf: BundleUvEpi
@@ -365,7 +416,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/08/448/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -373,5 +424,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-a8bf6c781d45d4ee28ddbc241a4ae52b"
 * entry[0].resource = composition-en-a8bf6c781d45d4ee28ddbc241a4ae52b
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3f5e8ff012a6ba5c27c38e184c61466b"
+* entry[=].resource = mp3f5e8ff012a6ba5c27c38e184c61466b
+                            
                       

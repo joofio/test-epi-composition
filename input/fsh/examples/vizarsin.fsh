@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpf54e5a59304410ba0c194f4865102e44)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -372,6 +372,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpf54e5a59304410ba0c194f4865102e44
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Vizarsin 25 mg film-coated tablets"
+Description: "Vizarsin 25 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Vizarsin 25 mg film-coated tablets"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Vizarsin is indicated in adult men with erectile dysfunction, which is the inability to achieve or"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Vizarsin 25 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-4f21ade1d3a44922f890a931e55ca9a9
 InstanceOf: BundleUvEpi
@@ -383,7 +434,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Vizarsin 25 mg film-coated tablets"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -391,5 +442,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-4f21ade1d3a44922f890a931e55ca9a9"
 * entry[0].resource = composition-en-4f21ade1d3a44922f890a931e55ca9a9
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf54e5a59304410ba0c194f4865102e44"
+* entry[=].resource = mpf54e5a59304410ba0c194f4865102e44
+                            
                       

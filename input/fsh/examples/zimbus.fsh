@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp62e857ec746ec74a685ae4277e78728e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -391,6 +391,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp62e857ec746ec74a685ae4277e78728e
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Zimbus Breezhaler 114 micrograms/46 micrograms/136 micrograms inhalation powder, hard capsules"
+Description: "Zimbus Breezhaler 114 micrograms/46 micrograms/136 micrograms inhalation powder, hard capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/20/1440/001-005"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Zimbus Breezhaler is indicated as a maintenance treatment of asthma in adult patients not adequately"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Zimbus Breezhaler 114 micrograms/46 micrograms/136 micrograms inhalation powder, hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-d184441eaf6370e77e170ec9c0dc05db
 InstanceOf: BundleUvEpi
@@ -402,7 +453,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/20/1440/001-005"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -410,5 +461,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-d184441eaf6370e77e170ec9c0dc05db"
 * entry[0].resource = composition-en-d184441eaf6370e77e170ec9c0dc05db
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp62e857ec746ec74a685ae4277e78728e"
+* entry[=].resource = mp62e857ec746ec74a685ae4277e78728e
+                            
                       

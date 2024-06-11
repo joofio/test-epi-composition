@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp0136d07ff1c8b838da13e64ce15d99f1)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -502,6 +502,57 @@ The Netherlands </p>
 
 
 
+Instance: mp0136d07ff1c8b838da13e64ce15d99f1
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Accofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+Description: "Accofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/14/946/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Accofil is indicated for the reduction in the duration of neutropenia and the incidence of febrile"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Accofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-8d69d820c695d3ae73c4c08229874072
 InstanceOf: BundleUvEpi
@@ -513,7 +564,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/14/946/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -521,5 +572,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-8d69d820c695d3ae73c4c08229874072"
 * entry[0].resource = composition-en-8d69d820c695d3ae73c4c08229874072
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0136d07ff1c8b838da13e64ce15d99f1"
+* entry[=].resource = mp0136d07ff1c8b838da13e64ce15d99f1
+                            
                       

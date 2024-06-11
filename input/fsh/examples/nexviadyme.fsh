@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp54fb47deee5b8af4e01ed2e57468fc3a)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -351,6 +351,57 @@ Tel +44 (0) 800 035 2This leaflet was last revised in  </p>
 
 
 
+Instance: mp54fb47deee5b8af4e01ed2e57468fc3a
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Nexviadyme 100 mg powder for concentrate for solution for infusion"
+Description: "Nexviadyme 100 mg powder for concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/21/1579/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Nexviadyme (avalglucosidase alfa) is indicated for long-term enzyme replacement therapy for the"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Nexviadyme 100 mg powder for concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-af5a6458bf787a6cbcce31dd9f99f24f
 InstanceOf: BundleUvEpi
@@ -362,7 +413,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/21/1579/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -370,5 +421,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-af5a6458bf787a6cbcce31dd9f99f24f"
 * entry[0].resource = composition-en-af5a6458bf787a6cbcce31dd9f99f24f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp54fb47deee5b8af4e01ed2e57468fc3a"
+* entry[=].resource = mp54fb47deee5b8af4e01ed2e57468fc3a
+                            
                       

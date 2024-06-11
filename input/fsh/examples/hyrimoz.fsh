@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpcc7f511d230379f1d5ed4a9e04687489)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -849,6 +849,57 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mpcc7f511d230379f1d5ed4a9e04687489
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Hyrimoz 20 mg solution for injection in pre-filled syringe"
+Description: "Hyrimoz 20 mg solution for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Hyrimoz 20 mg solution for injection in pre-filled syringe"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Rheumatoid arthritis"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Hyrimoz 20 mg solution for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-d5e2325446e1313077f0f1d0c6c251e8
 InstanceOf: BundleUvEpi
@@ -860,7 +911,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Hyrimoz 20 mg solution for injection in pre-filled syringe"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -868,5 +919,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-d5e2325446e1313077f0f1d0c6c251e8"
 * entry[0].resource = composition-en-d5e2325446e1313077f0f1d0c6c251e8
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpcc7f511d230379f1d5ed4a9e04687489"
+* entry[=].resource = mpcc7f511d230379f1d5ed4a9e04687489
+                            
                       

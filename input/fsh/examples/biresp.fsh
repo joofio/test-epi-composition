@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp31e4603f416f953b68e582fcd0f883f5)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -512,6 +512,57 @@ Tel: + 385 1 37 20 This leaflet was last revised in month YYYY. </p>
 
 
 
+Instance: mp31e4603f416f953b68e582fcd0f883f5
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product BiResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
+Description: "BiResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/14/921/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Asthma"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "BiResp Spiromax 160 micrograms / 4.5 micrograms inhalation powder"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-581794a330b2afc7f7af3badc000c4a2
 InstanceOf: BundleUvEpi
@@ -523,7 +574,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/14/921/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -531,5 +582,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-581794a330b2afc7f7af3badc000c4a2"
 * entry[0].resource = composition-en-581794a330b2afc7f7af3badc000c4a2
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp31e4603f416f953b68e582fcd0f883f5"
+* entry[=].resource = mp31e4603f416f953b68e582fcd0f883f5
+                            
                       

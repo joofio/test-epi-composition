@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpe848a120ce5255d5804228fdd46adc66)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -233,6 +233,57 @@ Madrid 28Spain </p>
 
 
 
+Instance: mpe848a120ce5255d5804228fdd46adc66
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Chenodeoxycholic acid Leadiant 250 mg hard capsules"
+Description: "Chenodeoxycholic acid Leadiant 250 mg hard capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/16/1110/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Chenodeoxycholic acid is indicated for the treatment of inborn errors of primary bile acid synthesis"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Chenodeoxycholic acid Leadiant 250 mg hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-9a0b3c0fd7de6773b4bcb12cc91e76d7
 InstanceOf: BundleUvEpi
@@ -244,7 +295,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/16/1110/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -252,5 +303,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-9a0b3c0fd7de6773b4bcb12cc91e76d7"
 * entry[0].resource = composition-en-9a0b3c0fd7de6773b4bcb12cc91e76d7
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe848a120ce5255d5804228fdd46adc66"
+* entry[=].resource = mpe848a120ce5255d5804228fdd46adc66
+                            
                       

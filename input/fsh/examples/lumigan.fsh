@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp84c2b61b98b29ffabeedeb2d71e2c028)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -392,6 +392,57 @@ effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mp84c2b61b98b29ffabeedeb2d71e2c028
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product LUMIGAN 0.1 mg/ml eye drops, solution"
+Description: "LUMIGAN 0.1 mg/ml eye drops, solution"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/02/205/003-004"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Reduction of elevated intraocular pressure in chronic open-angle glaucoma and ocular hypertension in"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "LUMIGAN 0.1 mg/ml eye drops, solution"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-6ff79951b10cf21bd6fd953fc17e7cc0
 InstanceOf: BundleUvEpi
@@ -403,7 +454,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/02/205/003-004"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -411,5 +462,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-6ff79951b10cf21bd6fd953fc17e7cc0"
 * entry[0].resource = composition-en-6ff79951b10cf21bd6fd953fc17e7cc0
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp84c2b61b98b29ffabeedeb2d71e2c028"
+* entry[=].resource = mp84c2b61b98b29ffabeedeb2d71e2c028
+                            
                       

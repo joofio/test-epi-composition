@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpdde7cef72b843fb58c5e64e5f5f55461)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -499,6 +499,57 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com   </p>
 
 
 
+Instance: mpdde7cef72b843fb58c5e64e5f5f55461
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Kivexa 600 mg/300 mg film-coated tablets"
+Description: "Kivexa 600 mg/300 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/04/298/002"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Kivexa is indicated in antiretroviral combination therapy for the treatment of Human"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Kivexa 600 mg/300 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-929afcdc432ad136a892cea5e12c839f
 InstanceOf: BundleUvEpi
@@ -510,7 +561,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/04/298/002"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -518,5 +569,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-929afcdc432ad136a892cea5e12c839f"
 * entry[0].resource = composition-en-929afcdc432ad136a892cea5e12c839f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdde7cef72b843fb58c5e64e5f5f55461"
+* entry[=].resource = mpdde7cef72b843fb58c5e64e5f5f55461
+                            
                       

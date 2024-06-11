@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp633b9286ece93cacd92ec88d30e58c1b)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -390,6 +390,57 @@ Tel: + 44 (0)800 221customercontactuk@gsk.com  </p>
 
 
 
+Instance: mp633b9286ece93cacd92ec88d30e58c1b
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product LAVENTAIR ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
+Description: "LAVENTAIR ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/14/899/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "LAVENTAIR ELLIPTA is indicated as a maintenance bronchodilator treatment to relieve symptoms in adult"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "LAVENTAIR ELLIPTA 55 micrograms/22 micrograms inhalation powder, pre-dispensed"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-7d204d7b4b6b9533290dd865f462d707
 InstanceOf: BundleUvEpi
@@ -401,7 +452,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/14/899/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -409,5 +460,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-7d204d7b4b6b9533290dd865f462d707"
 * entry[0].resource = composition-en-7d204d7b4b6b9533290dd865f462d707
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp633b9286ece93cacd92ec88d30e58c1b"
+* entry[=].resource = mp633b9286ece93cacd92ec88d30e58c1b
+                            
                       

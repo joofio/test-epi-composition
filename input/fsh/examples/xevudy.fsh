@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp573f3525de0952f21cf7758065d4a654)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -318,6 +318,57 @@ requirements. </p>         </div>"""
 
 
 
+Instance: mp573f3525de0952f21cf7758065d4a654
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Xevudy 500 mg concentrate for solution for infusion"
+Description: "Xevudy 500 mg concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/21/1562/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Xevudy is indicated for the treatment of adults and adolescents (aged 12 years and over and weighing"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Xevudy 500 mg concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-22dcb829aed4334e1e70ad5ac466fd85
 InstanceOf: BundleUvEpi
@@ -329,7 +380,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/21/1562/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -337,5 +388,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-22dcb829aed4334e1e70ad5ac466fd85"
 * entry[0].resource = composition-en-22dcb829aed4334e1e70ad5ac466fd85
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp573f3525de0952f21cf7758065d4a654"
+* entry[=].resource = mp573f3525de0952f21cf7758065d4a654
+                            
                       

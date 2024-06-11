@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp83d73f7125f64336a7fd2856fae4fc38)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -344,6 +344,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp83d73f7125f64336a7fd2856fae4fc38
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Dexdor 100 micrograms/ml concentrate for solution for infusion"
+Description: "Dexdor 100 micrograms/ml concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/11/718/001-002, EU/1/11/718/004, EU/1/11/718/006-007"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "For sedation of adult ICU (Intensive Care Unit) patients requiring a sedation level not deeper than"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Dexdor 100 micrograms/ml concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-9875a9482c2e354f3a12ea545ebc4f3b
 InstanceOf: BundleUvEpi
@@ -355,7 +406,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/11/718/001-002, EU/1/11/718/004, EU/1/11/718/006-007"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -363,5 +414,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-9875a9482c2e354f3a12ea545ebc4f3b"
 * entry[0].resource = composition-en-9875a9482c2e354f3a12ea545ebc4f3b
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp83d73f7125f64336a7fd2856fae4fc38"
+* entry[=].resource = mp83d73f7125f64336a7fd2856fae4fc38
+                            
                       

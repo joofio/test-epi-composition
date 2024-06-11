@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp370d0a69f767b95c1edc5793e51518b1)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -439,6 +439,57 @@ Tel: + 44 (0) 1304 616This leaflet was last revised in month YYYY. </p>
 
 
 
+Instance: mp370d0a69f767b95c1edc5793e51518b1
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Pemetrexed Pfizer 100 mg powder for concentrate for solution for infusion"
+Description: "Pemetrexed Pfizer 100 mg powder for concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/15/1057/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Malignant pleural mesothelioma"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Pemetrexed Pfizer 100 mg powder for concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-e0aa2bfe700a8fcff3620d6e0a596f13
 InstanceOf: BundleUvEpi
@@ -450,7 +501,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/15/1057/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -458,5 +509,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-e0aa2bfe700a8fcff3620d6e0a596f13"
 * entry[0].resource = composition-en-e0aa2bfe700a8fcff3620d6e0a596f13
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp370d0a69f767b95c1edc5793e51518b1"
+* entry[=].resource = mp370d0a69f767b95c1edc5793e51518b1
+                            
                       

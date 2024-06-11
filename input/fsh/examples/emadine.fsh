@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp12e38358039d8c14665e85381166c6df)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -207,6 +207,57 @@ throw away medicines you no longer use. These measures will help protect the env
 
 
 
+Instance: mp12e38358039d8c14665e85381166c6df
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product EMADINE 0.5 mg/ml, eye drops, solution"
+Description: "EMADINE 0.5 mg/ml, eye drops, solution"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/98/095/001-2"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Symptomatic treatment of seasonal allergic conjunctivitis."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "EMADINE 0.5 mg/ml, eye drops, solution"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-bf83463883d97743be055a0192c94a53
 InstanceOf: BundleUvEpi
@@ -218,7 +269,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/98/095/001-2"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -226,5 +277,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-bf83463883d97743be055a0192c94a53"
 * entry[0].resource = composition-en-bf83463883d97743be055a0192c94a53
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp12e38358039d8c14665e85381166c6df"
+* entry[=].resource = mp12e38358039d8c14665e85381166c6df
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpfdc029b9a3a5d1c8b9b17d46f4e9d982)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -443,6 +443,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpfdc029b9a3a5d1c8b9b17d46f4e9d982
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product STELARA 130 mg concentrate for solution for infusion"
+Description: "STELARA 130 mg concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/08/494/005"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Crohn’s Disease"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "STELARA 130 mg concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-58c54bdf6fab9e6178694c2f025cc813
 InstanceOf: BundleUvEpi
@@ -454,7 +505,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/08/494/005"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -462,5 +513,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-58c54bdf6fab9e6178694c2f025cc813"
 * entry[0].resource = composition-en-58c54bdf6fab9e6178694c2f025cc813
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfdc029b9a3a5d1c8b9b17d46f4e9d982"
+* entry[=].resource = mpfdc029b9a3a5d1c8b9b17d46f4e9d982
+                            
                       

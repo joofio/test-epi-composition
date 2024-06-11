@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpdfba69a556d6d4742ca25579f821a4b6)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -431,6 +431,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpdfba69a556d6d4742ca25579f821a4b6
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Natpar 25 micrograms/dose powder and solvent for solution for injection"
+Description: "Natpar 25 micrograms/dose powder and solvent for solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/15/1078/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Natpar is indicated as adjunctive treatment of adult patients with chronic hypoparathyroidism who"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Natpar 25 micrograms/dose powder and solvent for solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-f6b0c91cf3d8d1303191f090e406eedd
 InstanceOf: BundleUvEpi
@@ -442,7 +493,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/15/1078/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -450,5 +501,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-f6b0c91cf3d8d1303191f090e406eedd"
 * entry[0].resource = composition-en-f6b0c91cf3d8d1303191f090e406eedd
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdfba69a556d6d4742ca25579f821a4b6"
+* entry[=].resource = mpdfba69a556d6d4742ca25579f821a4b6
+                            
                       

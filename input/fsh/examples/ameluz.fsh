@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp01a236ed7bdbb05b50743d181c9d5319)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -427,6 +427,57 @@ Tel: +49 214 87632 ameluz@biofrontera.com </p>
 
 
 
+Instance: mp01a236ed7bdbb05b50743d181c9d5319
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Ameluz 78 mg/g gel"
+Description: "Ameluz 78 mg/g gel"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/11/740/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Treatment of actinic keratosis of mild to moderate severity (Olsen grade 1 to 2; see section 5.1) and of"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Ameluz 78 mg/g gel"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-27a52606a6d06c382d79e38520d58ce1
 InstanceOf: BundleUvEpi
@@ -438,7 +489,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/11/740/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -446,5 +497,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-27a52606a6d06c382d79e38520d58ce1"
 * entry[0].resource = composition-en-27a52606a6d06c382d79e38520d58ce1
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp01a236ed7bdbb05b50743d181c9d5319"
+* entry[=].resource = mp01a236ed7bdbb05b50743d181c9d5319
+                            
                       

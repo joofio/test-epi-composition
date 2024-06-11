@@ -1,0 +1,196 @@
+### test
+GET http://sandbox.hl7europe.eu/gravitate/fhir/Bundle/bundlepackageleaflet-en-80012b09e7b7a78ced217a2ccd81660e
+
+
+### composition
+GET http://sandbox.hl7europe.eu/gravitate/fhir/Bundle?composition=composition-en-80012b09e7b7a78ced217a2ccd81660e
+
+
+### POST
+PUT http://sandbox.hl7europe.eu/gravitate-health/fhir/Organization/mah-ema
+Content-Type: application/json
+
+{
+  "resourceType": "Organization",
+  "id": "mah-ema",
+  "identifier": [
+    {
+      "system": "https://spor.ema.europa.eu/omswi",
+      "value": "ORG-100000789",
+      "use": "official"
+    }
+  ],
+  "active": true,
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "220000000034",
+          "system": "https://spor.ema.europa.eu/rmswi",
+          "display": "Marketing authorisation holder"
+        }
+      ]
+    }
+  ],
+  "name": "ACME industry",
+  "contact": [
+    {
+      "address": {
+        "text": "street x and y Paris FR",
+        "use": "work",
+        "type": "physical",
+        "line": [
+          "street x and y"
+        ],
+        "city": "Paris",
+        "country": "FR"
+      }
+    }
+  ]
+}
+
+### POST
+PUT http://sandbox.hl7europe.eu/gravitate-health/fhir/MedicinalProductDefinition/mock
+Content-Type: application/json
+
+{
+  "resourceType": "MedicinalProductDefinition",
+  "id": "mock",
+  "identifier": [
+    {
+      "system": "http://fakesys.com/ids",
+      "value": "ididid"
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "code": "MedicinalProduct",
+        "system": "http://hl7.org/fhir/medicinal-product-type",
+        "display": "Medicinal Product"
+      }
+    ]
+  },
+  "domain": {
+    "coding": [
+      {
+        "code": "Human",
+        "system": "http://hl7.org/fhir/medicinal-product-domain",
+        "display": "Human use"
+      }
+    ]
+  },
+  "status": {
+    "coding": [
+      {
+        "code": "active",
+        "system": "http://hl7.org/fhir/publication-status",
+        "display": "active"
+      }
+    ]
+  },
+  "legalStatusOfSupply": {
+    "coding": [
+      {
+        "code": "100000072084",
+        "system": "https://spor.ema.europa.eu/rmswi",
+        "display": "Medicinal product subject to medical prescription"
+      }
+    ]
+  },
+  "name": [
+    {
+      "productName": "acmedrug-man",
+      "type": {
+        "coding": [
+          {
+            "code": "220000000001",
+            "system": "https://spor.ema.europa.eu/lists/220000000000",
+            "display": "Full name"
+          }
+        ]
+      },
+      "part": [
+        {
+          "part": "acme",
+          "type": {
+            "coding": [
+              {
+                "code": "220000000002",
+                "system": "https://spor.ema.europa.eu/lists/220000000000",
+                "display": "Invented name part"
+              }
+            ]
+          }
+        },
+        {
+          "part": "acmedrug",
+          "type": {
+            "coding": [
+              {
+                "code": "220000000003",
+                "system": "https://spor.ema.europa.eu/lists/220000000000",
+                "display": "Scientific name part"
+              }
+            ]
+          }
+        },
+        {
+          "part": "75 mg",
+          "type": {
+            "coding": [
+              {
+                "code": "220000000004",
+                "system": "https://spor.ema.europa.eu/lists/220000000000",
+                "display": "Strength part"
+              }
+            ]
+          }
+        },
+        {
+          "part": "tablet",
+          "type": {
+            "coding": [
+              {
+                "code": "220000000005",
+                "system": "https://spor.ema.europa.eu/lists/220000000000",
+                "display": "Pharmaceutical dose form part"
+              }
+            ]
+          }
+        }
+      ],
+      "usage": [
+        {
+          "country": {
+            "coding": [
+              {
+                "code": "DK",
+                "system": "urn:iso:std:iso:3166",
+                "display": "Denmark"
+              }
+            ]
+          },
+          "jurisdiction": {
+            "coding": [
+              {
+                "code": "DK",
+                "system": "urn:iso:std:iso:3166",
+                "display": "Denmark"
+              }
+            ]
+          },
+          "language": {
+            "coding": [
+              {
+                "code": "en",
+                "system": "urn:ietf:bcp:47",
+                "display": "English"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

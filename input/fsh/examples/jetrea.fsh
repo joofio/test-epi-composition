@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpba6cff84856b43f2678ae84076bfd925)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -249,6 +249,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpba6cff84856b43f2678ae84076bfd925
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product JETREA 0.375 mg/0.3 mL solution for injection"
+Description: "JETREA 0.375 mg/0.3 mL solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/819/002"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "JETREA is indicated in adults for the treatment of vitreomacular traction (VMT), including when"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "JETREA 0.375 mg/0.3 mL solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-c655ba158247aca6fe88c56a30a2ce75
 InstanceOf: BundleUvEpi
@@ -260,7 +311,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/819/002"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -268,5 +319,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-c655ba158247aca6fe88c56a30a2ce75"
 * entry[0].resource = composition-en-c655ba158247aca6fe88c56a30a2ce75
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpba6cff84856b43f2678ae84076bfd925"
+* entry[=].resource = mpba6cff84856b43f2678ae84076bfd925
+                            
                       

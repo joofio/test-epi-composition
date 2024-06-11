@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp464bb2e6440aaba560e3d9a8a3df867d)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -251,6 +251,57 @@ Poland </p>
 
 
 
+Instance: mp464bb2e6440aaba560e3d9a8a3df867d
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Palonosetron Accord 250 micrograms solution for injection"
+Description: "Palonosetron Accord 250 micrograms solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/16/1104/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Palonosetron Accord is indicated in adults for:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Palonosetron Accord 250 micrograms solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-1dcc174da076b834cc635ff47b615cf2
 InstanceOf: BundleUvEpi
@@ -262,7 +313,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/16/1104/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -270,5 +321,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-1dcc174da076b834cc635ff47b615cf2"
 * entry[0].resource = composition-en-1dcc174da076b834cc635ff47b615cf2
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp464bb2e6440aaba560e3d9a8a3df867d"
+* entry[=].resource = mp464bb2e6440aaba560e3d9a8a3df867d
+                            
                       

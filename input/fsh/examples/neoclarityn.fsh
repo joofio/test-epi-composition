@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp7dc5d4af3ca8f602f6d39f5dadfe2637)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -366,6 +366,57 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mp7dc5d4af3ca8f602f6d39f5dadfe2637
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Neoclarityn 5 mg film-coated tablets"
+Description: "Neoclarityn 5 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/00/161/001-013"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Neoclarityn is indicated in adults and adolescents aged 12 years and older for the relief of symptoms"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Neoclarityn 5 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-94c552a1c89feea3465242a8fa5ba0ae
 InstanceOf: BundleUvEpi
@@ -377,7 +428,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/00/161/001-013"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -385,5 +436,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-94c552a1c89feea3465242a8fa5ba0ae"
 * entry[0].resource = composition-en-94c552a1c89feea3465242a8fa5ba0ae
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7dc5d4af3ca8f602f6d39f5dadfe2637"
+* entry[=].resource = mp7dc5d4af3ca8f602f6d39f5dadfe2637
+                            
                       

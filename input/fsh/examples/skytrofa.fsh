@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpae31772fe52c358bfcb3ba4af68ad0a2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -399,6 +399,57 @@ Denmark </p>
 
 
 
+Instance: mpae31772fe52c358bfcb3ba4af68ad0a2
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Skytrofa 3 mg powder and solvent for solution for injection in cartridge"
+Description: "Skytrofa 3 mg powder and solvent for solution for injection in cartridge"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/21/1607/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Growth failure in children and adolescents aged from 3 years up to 18 years due to insufficient"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Skytrofa 3 mg powder and solvent for solution for injection in cartridge"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-274e38fd037e90bae4b20ed78bb2e359
 InstanceOf: BundleUvEpi
@@ -410,7 +461,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/21/1607/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -418,5 +469,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-274e38fd037e90bae4b20ed78bb2e359"
 * entry[0].resource = composition-en-274e38fd037e90bae4b20ed78bb2e359
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpae31772fe52c358bfcb3ba4af68ad0a2"
+* entry[=].resource = mpae31772fe52c358bfcb3ba4af68ad0a2
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpf32a3cdfa6008d4db2303f94e93a0439)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -393,6 +393,57 @@ any possible side effects not listed in this leaflet. See section 4.</p>        
 
 
 
+Instance: mpf32a3cdfa6008d4db2303f94e93a0439
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Gardasil 9 suspension for injection."
+Description: "Gardasil 9 suspension for injection."
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/15/1007/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Gardasil 9 is indicated for active immunisation of individuals from the age of 9 years against the"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Gardasil 9 suspension for injection."
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-5409615bb3a1f7e2d64838d0abac2414
 InstanceOf: BundleUvEpi
@@ -404,7 +455,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/15/1007/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -412,5 +463,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-5409615bb3a1f7e2d64838d0abac2414"
 * entry[0].resource = composition-en-5409615bb3a1f7e2d64838d0abac2414
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf32a3cdfa6008d4db2303f94e93a0439"
+* entry[=].resource = mpf32a3cdfa6008d4db2303f94e93a0439
+                            
                       

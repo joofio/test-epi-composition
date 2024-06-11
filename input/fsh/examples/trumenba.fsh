@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpe6f542de7fb6ea0b03595be188727b56)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -300,6 +300,57 @@ observed, do not administer the vaccine. </p>
 
 
 
+Instance: mpe6f542de7fb6ea0b03595be188727b56
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Trumenba suspension for injection in pre-filled syringe"
+Description: "Trumenba suspension for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/17/1187/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Trumenba is indicated for active immunisation of individuals 10 years and older to prevent invasive"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Trumenba suspension for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-dda2c427548650874074bbc49aa90b54
 InstanceOf: BundleUvEpi
@@ -311,7 +362,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/17/1187/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -319,5 +370,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-dda2c427548650874074bbc49aa90b54"
 * entry[0].resource = composition-en-dda2c427548650874074bbc49aa90b54
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe6f542de7fb6ea0b03595be188727b56"
+* entry[=].resource = mpe6f542de7fb6ea0b03595be188727b56
+                            
                       

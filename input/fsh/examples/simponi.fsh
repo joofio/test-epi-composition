@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpfb6bc722f4daf60ede94786c76b1fe71)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -561,6 +561,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpfb6bc722f4daf60ede94786c76b1fe71
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Simponi 45 mg/0.45 mL solution for injection in pre-filled pen."
+Description: "Simponi 45 mg/0.45 mL solution for injection in pre-filled pen."
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/09/546/009 1 pre-filled pen"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Juvenile idiopathic arthritis"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Simponi 45 mg/0.45 mL solution for injection in pre-filled pen."
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-d2d145b277f24456eda5f7dbaa40b7cf
 InstanceOf: BundleUvEpi
@@ -572,7 +623,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/09/546/009 1 pre-filled pen"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -580,5 +631,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-d2d145b277f24456eda5f7dbaa40b7cf"
 * entry[0].resource = composition-en-d2d145b277f24456eda5f7dbaa40b7cf
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfb6bc722f4daf60ede94786c76b1fe71"
+* entry[=].resource = mpfb6bc722f4daf60ede94786c76b1fe71
+                            
                       

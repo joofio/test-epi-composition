@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp1c8c6dc7a854b7e7eb3a1871202c5743)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -328,6 +328,57 @@ Tel: 020-12 74 medinfose@argenx.com </p>
 
 
 
+Instance: mp1c8c6dc7a854b7e7eb3a1871202c5743
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Vyvgart 20 mg/mL concentrate for solution for infusion"
+Description: "Vyvgart 20 mg/mL concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/22/1674/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Vyvgart is indicated as an add-on to standard therapy for the treatment of adult patients with"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Vyvgart 20 mg/mL concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-f819453f37e8574dc396f13201d03208
 InstanceOf: BundleUvEpi
@@ -339,7 +390,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/22/1674/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -347,5 +398,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-f819453f37e8574dc396f13201d03208"
 * entry[0].resource = composition-en-f819453f37e8574dc396f13201d03208
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1c8c6dc7a854b7e7eb3a1871202c5743"
+* entry[=].resource = mp1c8c6dc7a854b7e7eb3a1871202c5743
+                            
                       

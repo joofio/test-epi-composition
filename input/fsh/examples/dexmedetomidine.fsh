@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpbd43922bda13f858db3aaf997e0d7fba)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -283,6 +283,57 @@ Netherlands </p>
 
 
 
+Instance: mpbd43922bda13f858db3aaf997e0d7fba
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Dexmedetomidine Accord 100 micrograms/ml concentrate for solution for infusion"
+Description: "Dexmedetomidine Accord 100 micrograms/ml concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "200 micrograms/2 ml"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "For sedation of adult ICU (Intensive Care Unit) patients requiring a sedation level not deeper than"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Dexmedetomidine Accord 100 micrograms/ml concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-e1c7e2c0315603f70cbb39f05dcc6082
 InstanceOf: BundleUvEpi
@@ -294,7 +345,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "200 micrograms/2 ml"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -302,5 +353,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-e1c7e2c0315603f70cbb39f05dcc6082"
 * entry[0].resource = composition-en-e1c7e2c0315603f70cbb39f05dcc6082
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbd43922bda13f858db3aaf997e0d7fba"
+* entry[=].resource = mpbd43922bda13f858db3aaf997e0d7fba
+                            
                       

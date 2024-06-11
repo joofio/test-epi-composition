@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpa25e41a093fd419dab3c62fe1e6fe422)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -392,6 +392,57 @@ P43 RThis leaflet was last revised in MM/YYYY. </p>
 
 
 
+Instance: mpa25e41a093fd419dab3c62fe1e6fe422
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Palynziq 2.5 mg solution for injection in pre-filled syringe"
+Description: "Palynziq 2.5 mg solution for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/19/1362/001 1 x 2.5 mg pre-filled syringe"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Palynziq is indicated for the treatment of patients with phenylketonuria (PKU) aged 16 years and older"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Palynziq 2.5 mg solution for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-c0c73074469385390d12a06f439c2f95
 InstanceOf: BundleUvEpi
@@ -403,7 +454,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/19/1362/001 1 x 2.5 mg pre-filled syringe"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -411,5 +462,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-c0c73074469385390d12a06f439c2f95"
 * entry[0].resource = composition-en-c0c73074469385390d12a06f439c2f95
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa25e41a093fd419dab3c62fe1e6fe422"
+* entry[=].resource = mpa25e41a093fd419dab3c62fe1e6fe422
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp59841d0dba47a23c9bc5eb3d0da6e5b0)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -350,6 +350,57 @@ Tel: + 353 18711This leaflet was last revised in  </p>
 
 
 
+Instance: mp59841d0dba47a23c9bc5eb3d0da6e5b0
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Entecavir Viatris 0.5 mg film-coated tablets"
+Description: "Entecavir Viatris 0.5 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/17/1227/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Entecavir Viatris is indicated for the treatment of chronic hepatitis B virus (HBV) infection (see"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Entecavir Viatris 0.5 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-8d5db30b44b1b19f76cd82de873a34e8
 InstanceOf: BundleUvEpi
@@ -361,7 +412,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/17/1227/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -369,5 +420,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-8d5db30b44b1b19f76cd82de873a34e8"
 * entry[0].resource = composition-en-8d5db30b44b1b19f76cd82de873a34e8
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp59841d0dba47a23c9bc5eb3d0da6e5b0"
+* entry[=].resource = mp59841d0dba47a23c9bc5eb3d0da6e5b0
+                            
                       

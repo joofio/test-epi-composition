@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpa5f618829a330b47e9453f8cf38fe5ef)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -341,6 +341,57 @@ Tel: +44(0)800 221customercontactuk@gsk.com </p>
 
 
 
+Instance: mpa5f618829a330b47e9453f8cf38fe5ef
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Cervarix suspension for injection in pre-filled syringe"
+Description: "Cervarix suspension for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Pre-filled syringe"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Cervarix is a vaccine for use from the age of 9 years for the prevention of premalignant ano-genital"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Cervarix suspension for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-115d908e795ff40926f89a9e90717eae
 InstanceOf: BundleUvEpi
@@ -352,7 +403,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Pre-filled syringe"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -360,5 +411,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-115d908e795ff40926f89a9e90717eae"
 * entry[0].resource = composition-en-115d908e795ff40926f89a9e90717eae
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpa5f618829a330b47e9453f8cf38fe5ef"
+* entry[=].resource = mpa5f618829a330b47e9453f8cf38fe5ef
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpd79cddc23dd886707d09ee6753f95b7e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -283,6 +283,57 @@ Ireland </p>
 
 
 
+Instance: mpd79cddc23dd886707d09ee6753f95b7e
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Empliciti 300 mg powder for concentrate for solution for infusion."
+Description: "Empliciti 300 mg powder for concentrate for solution for infusion."
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/16/1088/001-002"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Empliciti is indicated in combination with lenalidomide and dexamethasone for the treatment of"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Empliciti 300 mg powder for concentrate for solution for infusion."
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-8d5b3af2f06c1106a48ff1e829dc96e8
 InstanceOf: BundleUvEpi
@@ -294,7 +345,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/16/1088/001-002"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -302,5 +353,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-8d5b3af2f06c1106a48ff1e829dc96e8"
 * entry[0].resource = composition-en-8d5b3af2f06c1106a48ff1e829dc96e8
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd79cddc23dd886707d09ee6753f95b7e"
+* entry[=].resource = mpd79cddc23dd886707d09ee6753f95b7e
+                            
                       

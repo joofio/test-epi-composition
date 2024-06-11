@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpf6636faee1365dc311cdde08fdc6247d)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -483,6 +483,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpf6636faee1365dc311cdde08fdc6247d
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Corbilta 50 mg/12.5 mg/200 mg film-coated tablets"
+Description: "Corbilta 50 mg/12.5 mg/200 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "50 mg/12.5 mg/200 mg"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Corbilta is indicated for the treatment of adult patients with Parkinson’s disease and end-of-dose"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Corbilta 50 mg/12.5 mg/200 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-16d693c68a441b92f0316a8bd5fd9c6e
 InstanceOf: BundleUvEpi
@@ -494,7 +545,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "50 mg/12.5 mg/200 mg"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -502,5 +553,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-16d693c68a441b92f0316a8bd5fd9c6e"
 * entry[0].resource = composition-en-16d693c68a441b92f0316a8bd5fd9c6e
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpf6636faee1365dc311cdde08fdc6247d"
+* entry[=].resource = mpf6636faee1365dc311cdde08fdc6247d
+                            
                       

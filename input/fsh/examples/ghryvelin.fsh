@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp933b74ec04cf208e6fa86ebb0b27b399)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -240,6 +240,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp933b74ec04cf208e6fa86ebb0b27b399
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product GHRYVELIN 60 mg granules for oral suspension in sachet"
+Description: "GHRYVELIN 60 mg granules for oral suspension in sachet"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/18/1337/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "This medicinal product is for diagnostic use only."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "GHRYVELIN 60 mg granules for oral suspension in sachet"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-c94566dbffd326c95bc4d8ce17a5489a
 InstanceOf: BundleUvEpi
@@ -251,7 +302,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/18/1337/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -259,5 +310,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-c94566dbffd326c95bc4d8ce17a5489a"
 * entry[0].resource = composition-en-c94566dbffd326c95bc4d8ce17a5489a
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp933b74ec04cf208e6fa86ebb0b27b399"
+* entry[=].resource = mp933b74ec04cf208e6fa86ebb0b27b399
+                            
                       

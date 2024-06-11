@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp6a7b6457cee87bbdba6f1ad81f0dadbd)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -429,6 +429,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp6a7b6457cee87bbdba6f1ad81f0dadbd
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Scemblix 20 mg film-coated tablets"
+Description: "Scemblix 20 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/22/1670/001-005"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Scemblix is indicated for the treatment of adult patients with Philadelphia chromosome-positive"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Scemblix 20 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-43a04579e02ef19c7380d883dba8b26f
 InstanceOf: BundleUvEpi
@@ -440,7 +491,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/22/1670/001-005"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -448,5 +499,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-43a04579e02ef19c7380d883dba8b26f"
 * entry[0].resource = composition-en-43a04579e02ef19c7380d883dba8b26f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6a7b6457cee87bbdba6f1ad81f0dadbd"
+* entry[=].resource = mp6a7b6457cee87bbdba6f1ad81f0dadbd
+                            
                       

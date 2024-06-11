@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp49d3194d1c5f2cc59486d3614e7366db)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -407,6 +407,57 @@ Tel: + 33 1 41 12 65 This leaflet was last revised in </p>
 
 
 
+Instance: mp49d3194d1c5f2cc59486d3614e7366db
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Methylthioninium chloride Proveblue 5 mg/ml solution for injection"
+Description: "Methylthioninium chloride Proveblue 5 mg/ml solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/11/682/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Acute symptomatic treatment of medicinal and chemical products-induced methaemoglobinaemia."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Methylthioninium chloride Proveblue 5 mg/ml solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-f7bd65adcf41880a5b8668a52603da99
 InstanceOf: BundleUvEpi
@@ -418,7 +469,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/11/682/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -426,5 +477,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-f7bd65adcf41880a5b8668a52603da99"
 * entry[0].resource = composition-en-f7bd65adcf41880a5b8668a52603da99
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp49d3194d1c5f2cc59486d3614e7366db"
+* entry[=].resource = mp49d3194d1c5f2cc59486d3614e7366db
+                            
                       

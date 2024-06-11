@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp49e08bd56cbbc631ea7505e4116cf8fa)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -444,6 +444,57 @@ http://www.ema.europa.eu. </p>         </div>"""
 
 
 
+Instance: mp49e08bd56cbbc631ea7505e4116cf8fa
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Deferasirox Mylan 90 mg film-coated tablets"
+Description: "Deferasirox Mylan 90 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Deferasirox Mylan 90 mg film-coated tablets"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Deferasirox Mylan is indicated for the treatment of chronic iron overload due to frequent blood"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Deferasirox Mylan 90 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-a361de1944c94e68e8ec09dc10081b81
 InstanceOf: BundleUvEpi
@@ -455,7 +506,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Deferasirox Mylan 90 mg film-coated tablets"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -463,5 +514,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-a361de1944c94e68e8ec09dc10081b81"
 * entry[0].resource = composition-en-a361de1944c94e68e8ec09dc10081b81
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp49e08bd56cbbc631ea7505e4116cf8fa"
+* entry[=].resource = mp49e08bd56cbbc631ea7505e4116cf8fa
+                            
                       

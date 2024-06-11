@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp490f08e16bcbd01fee73abe8db7a8a5a)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -378,6 +378,57 @@ Tel: +44 2075407This leaflet was last revised in </p>
 
 
 
+Instance: mp490f08e16bcbd01fee73abe8db7a8a5a
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Sildenafil Teva 25 mg film-coated tablets"
+Description: "Sildenafil Teva 25 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Sildenafil Teva 25 mg film-coated tablets"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Sildenafil Teva is indicated in adult men with erectile dysfunction, which is the inability to achieve or"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Sildenafil Teva 25 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-d674db7613c7ef04137ad9c28d3399bb
 InstanceOf: BundleUvEpi
@@ -389,7 +440,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Sildenafil Teva 25 mg film-coated tablets"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -397,5 +448,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-d674db7613c7ef04137ad9c28d3399bb"
 * entry[0].resource = composition-en-d674db7613c7ef04137ad9c28d3399bb
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp490f08e16bcbd01fee73abe8db7a8a5a"
+* entry[=].resource = mp490f08e16bcbd01fee73abe8db7a8a5a
+                            
                       

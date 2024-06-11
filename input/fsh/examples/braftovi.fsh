@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpb9cc2363bf93f93668bfdc54068a1f69)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -515,6 +515,57 @@ France </p>
 
 
 
+Instance: mpb9cc2363bf93f93668bfdc54068a1f69
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Braftovi 50 mg hard capsules"
+Description: "Braftovi 50 mg hard capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Braftovi 50 mg hard capsules"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Encorafenib is indicated:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Braftovi 50 mg hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-7345b00216838e90492587f6ecbdea1c
 InstanceOf: BundleUvEpi
@@ -526,7 +577,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Braftovi 50 mg hard capsules"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -534,5 +585,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-7345b00216838e90492587f6ecbdea1c"
 * entry[0].resource = composition-en-7345b00216838e90492587f6ecbdea1c
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb9cc2363bf93f93668bfdc54068a1f69"
+* entry[=].resource = mpb9cc2363bf93f93668bfdc54068a1f69
+                            
                       

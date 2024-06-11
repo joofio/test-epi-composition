@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp46ac42c3177ca9212e9ddaebe7281b79)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -360,6 +360,57 @@ See also section 3. How to use RotaTeq.</p>         </div>"""
 
 
 
+Instance: mp46ac42c3177ca9212e9ddaebe7281b79
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product RotaTeq oral solution"
+Description: "RotaTeq oral solution"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/06/348/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "RotaTeq is indicated for the active immunisation of infants from the age of 6 weeks to 32 weeks for"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "RotaTeq oral solution"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-ef95b389907181c6a50441289b7e7a0a
 InstanceOf: BundleUvEpi
@@ -371,7 +422,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/06/348/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -379,5 +430,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-ef95b389907181c6a50441289b7e7a0a"
 * entry[0].resource = composition-en-ef95b389907181c6a50441289b7e7a0a
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp46ac42c3177ca9212e9ddaebe7281b79"
+* entry[=].resource = mp46ac42c3177ca9212e9ddaebe7281b79
+                            
                       

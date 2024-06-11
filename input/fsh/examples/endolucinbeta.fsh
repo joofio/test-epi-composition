@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpe5a3c140ced0a0e66defe8aecbeeb295)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -290,6 +290,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpe5a3c140ced0a0e66defe8aecbeeb295
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product EndolucinBeta 40 GBq/mL radiopharmaceutical precursor, solution"
+Description: "EndolucinBeta 40 GBq/mL radiopharmaceutical precursor, solution"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "2 mL vial: EU/1/16/1105/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "EndolucinBeta is a radiopharmaceutical precursor, and it is not intended for direct use in patients. It is"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "EndolucinBeta 40 GBq/mL radiopharmaceutical precursor, solution"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-69ec9f0e9f354651ce97ae4316b8e482
 InstanceOf: BundleUvEpi
@@ -301,7 +352,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "2 mL vial: EU/1/16/1105/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -309,5 +360,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-69ec9f0e9f354651ce97ae4316b8e482"
 * entry[0].resource = composition-en-69ec9f0e9f354651ce97ae4316b8e482
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe5a3c140ced0a0e66defe8aecbeeb295"
+* entry[=].resource = mpe5a3c140ced0a0e66defe8aecbeeb295
+                            
                       

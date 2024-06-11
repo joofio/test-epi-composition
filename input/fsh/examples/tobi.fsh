@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp5db236079a9a3da765a95e8af1e75204)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -380,6 +380,57 @@ Tel: +353 18711This leaflet was last revised in </p>
 
 
 
+Instance: mp5db236079a9a3da765a95e8af1e75204
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product TOBI Podhaler 28 mg inhalation powder, hard capsules"
+Description: "TOBI Podhaler 28 mg inhalation powder, hard capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/10/652/001-003"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "TOBI Podhaler is indicated for the suppressive therapy of chronic pulmonary infection due to"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "TOBI Podhaler 28 mg inhalation powder, hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-e0dd692dcb560bc04bfa1cbfaca9ecff
 InstanceOf: BundleUvEpi
@@ -391,7 +442,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/10/652/001-003"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -399,5 +450,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-e0dd692dcb560bc04bfa1cbfaca9ecff"
 * entry[0].resource = composition-en-e0dd692dcb560bc04bfa1cbfaca9ecff
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5db236079a9a3da765a95e8af1e75204"
+* entry[=].resource = mp5db236079a9a3da765a95e8af1e75204
+                            
                       

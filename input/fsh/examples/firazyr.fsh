@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp58406ee6d9deeb530274c862d5b00171)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -468,6 +468,57 @@ http://www.ema.europa.eu. There are also links to other websites about rare dise
 
 
 
+Instance: mp58406ee6d9deeb530274c862d5b00171
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Firazyr 30 mg solution for injection in pre-filled syringe"
+Description: "Firazyr 30 mg solution for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/08/461/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Firazyr is indicated for symptomatic treatment of acute attacks of hereditary angioedema (HAE) in"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Firazyr 30 mg solution for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-28ca2cc7e6d8de308e6b9675ddc2a14c
 InstanceOf: BundleUvEpi
@@ -479,7 +530,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/08/461/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -487,5 +538,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-28ca2cc7e6d8de308e6b9675ddc2a14c"
 * entry[0].resource = composition-en-28ca2cc7e6d8de308e6b9675ddc2a14c
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp58406ee6d9deeb530274c862d5b00171"
+* entry[=].resource = mp58406ee6d9deeb530274c862d5b00171
+                            
                       

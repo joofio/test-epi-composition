@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpfe7b12ef735604f6c512cfd30455a3b8)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -360,6 +360,57 @@ at least every year and this leaflet will be updated as necessary. </p>
 
 
 
+Instance: mpfe7b12ef735604f6c512cfd30455a3b8
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product ROCTAVIAN 2 × 1013 vector genomes/mL solution for infusion"
+Description: "ROCTAVIAN 2 × 1013 vector genomes/mL solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/22/1668/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "ROCTAVIAN is indicated for the treatment of severe haemophilia A (congenital factor VIII"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "ROCTAVIAN 2 × 1013 vector genomes/mL solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-6154ec9930909dd76813cd26c37e2a8e
 InstanceOf: BundleUvEpi
@@ -371,7 +422,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/22/1668/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -379,5 +430,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-6154ec9930909dd76813cd26c37e2a8e"
 * entry[0].resource = composition-en-6154ec9930909dd76813cd26c37e2a8e
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfe7b12ef735604f6c512cfd30455a3b8"
+* entry[=].resource = mpfe7b12ef735604f6c512cfd30455a3b8
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpc4b4635e1d8de3d2ea6a6bbe66d40d6d)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -450,6 +450,57 @@ Tel: +44 207 540 7This leaflet was last revised in. </p>
 
 
 
+Instance: mpc4b4635e1d8de3d2ea6a6bbe66d40d6d
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product BroPair Spiromax 12.75 micrograms/100 micrograms inhalation powder"
+Description: "BroPair Spiromax 12.75 micrograms/100 micrograms inhalation powder"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/21/1534/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "BroPair Spiromax is indicated in the regular treatment of asthma in adults and adolescents aged 12 years and"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "BroPair Spiromax 12.75 micrograms/100 micrograms inhalation powder"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-c86344d735226a69a1900045e5d0cddb
 InstanceOf: BundleUvEpi
@@ -461,7 +512,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/21/1534/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -469,5 +520,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-c86344d735226a69a1900045e5d0cddb"
 * entry[0].resource = composition-en-c86344d735226a69a1900045e5d0cddb
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc4b4635e1d8de3d2ea6a6bbe66d40d6d"
+* entry[=].resource = mpc4b4635e1d8de3d2ea6a6bbe66d40d6d
+                            
                       

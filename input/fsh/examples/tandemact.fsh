@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp1f9da6d952147df3e2a17629da9b0dc6)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -372,6 +372,57 @@ http://www.ema.europa.eu </p>         </div>"""
 
 
 
+Instance: mp1f9da6d952147df3e2a17629da9b0dc6
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Tandemact 30 mg/2 mg tablets"
+Description: "Tandemact 30 mg/2 mg tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/06/366/006"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Tandemact is indicated as second line treatment of adult patients with type 2 diabetes mellitus who"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Tandemact 30 mg/2 mg tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-bef5164082ea0e74f1594414cc1788ab
 InstanceOf: BundleUvEpi
@@ -383,7 +434,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/06/366/006"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -391,5 +442,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-bef5164082ea0e74f1594414cc1788ab"
 * entry[0].resource = composition-en-bef5164082ea0e74f1594414cc1788ab
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp1f9da6d952147df3e2a17629da9b0dc6"
+* entry[=].resource = mp1f9da6d952147df3e2a17629da9b0dc6
+                            
                       

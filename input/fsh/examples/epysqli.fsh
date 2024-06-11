@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpe1b65094958d27eb297c9b4828a5d956)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -368,6 +368,57 @@ The Netherlands </p>
 
 
 
+Instance: mpe1b65094958d27eb297c9b4828a5d956
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Epysqli 300 mg concentrate for solution for infusion"
+Description: "Epysqli 300 mg concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/23/1735/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Epysqli is indicated in adults and children for the treatment of Paroxysmal nocturnal haemoglobinuria"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Epysqli 300 mg concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-eb1bff8909fbce324e442418d542373f
 InstanceOf: BundleUvEpi
@@ -379,7 +430,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/23/1735/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -387,5 +438,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-eb1bff8909fbce324e442418d542373f"
 * entry[0].resource = composition-en-eb1bff8909fbce324e442418d542373f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe1b65094958d27eb297c9b4828a5d956"
+* entry[=].resource = mpe1b65094958d27eb297c9b4828a5d956
+                            
                       

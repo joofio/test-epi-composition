@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpd872b55774869057be49aec2659bf1a0)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -479,6 +479,57 @@ user and would normally not be longer than 6 hours at room temperature. </li>
 
 
 
+Instance: mpd872b55774869057be49aec2659bf1a0
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product MEPACT 4 mg powder for concentrate for dispersion for infusion"
+Description: "MEPACT 4 mg powder for concentrate for dispersion for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/08/502/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "MEPACT is indicated in children, adolescents and young adults for the treatment of high-grade"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "MEPACT 4 mg powder for concentrate for dispersion for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-28badbaa1dfc6b119cb5212548687175
 InstanceOf: BundleUvEpi
@@ -490,7 +541,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/08/502/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -498,5 +549,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-28badbaa1dfc6b119cb5212548687175"
 * entry[0].resource = composition-en-28badbaa1dfc6b119cb5212548687175
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd872b55774869057be49aec2659bf1a0"
+* entry[=].resource = mpd872b55774869057be49aec2659bf1a0
+                            
                       

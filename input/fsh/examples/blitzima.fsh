@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp7fc8cfe8242eb0119d3b2e1dc1d125b7)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -562,6 +562,57 @@ Tel: +353 1 223 4enquiry_ie@celltrionhc.com </p>
 
 
 
+Instance: mp7fc8cfe8242eb0119d3b2e1dc1d125b7
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Blitzima 100 mg concentrate for solution for infusion"
+Description: "Blitzima 100 mg concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Blitzima 100 mg concentrate for solution for infusion"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Blitzima is indicated in adults for the following indications:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Blitzima 100 mg concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-8efc3218e58b030bcc0685f059870454
 InstanceOf: BundleUvEpi
@@ -573,7 +624,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Blitzima 100 mg concentrate for solution for infusion"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -581,5 +632,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-8efc3218e58b030bcc0685f059870454"
 * entry[0].resource = composition-en-8efc3218e58b030bcc0685f059870454
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7fc8cfe8242eb0119d3b2e1dc1d125b7"
+* entry[=].resource = mp7fc8cfe8242eb0119d3b2e1dc1d125b7
+                            
                       

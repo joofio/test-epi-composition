@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp557fe9fc5abd94cbebf55d3db9db5ff0)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -309,6 +309,57 @@ this leaflet will be updated as necessary. </p>
 
 
 
+Instance: mp557fe9fc5abd94cbebf55d3db9db5ff0
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Waylivra 285 mg solution for injection in pre-filled syringe"
+Description: "Waylivra 285 mg solution for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/19/1360/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Waylivra is indicated as an adjunct to diet in adult patients with genetically confirmed familial"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Waylivra 285 mg solution for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-0095f17772ab958f3f5be1c6c1d9bbac
 InstanceOf: BundleUvEpi
@@ -320,7 +371,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/19/1360/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -328,5 +379,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-0095f17772ab958f3f5be1c6c1d9bbac"
 * entry[0].resource = composition-en-0095f17772ab958f3f5be1c6c1d9bbac
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp557fe9fc5abd94cbebf55d3db9db5ff0"
+* entry[=].resource = mp557fe9fc5abd94cbebf55d3db9db5ff0
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpdf1c190a78ec4f5a8db8ac7426085e9a)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -310,6 +310,57 @@ Tel: + 39 0521 2This leaflet was last revised in {MM/YYYY}. </p>
 
 
 
+Instance: mpdf1c190a78ec4f5a8db8ac7426085e9a
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Kengrexal 50 mg powder for concentrate for solution for injection/infusion"
+Description: "Kengrexal 50 mg powder for concentrate for solution for injection/infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/15/994/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Kengrexal, co-administered with acetylsalicylic acid (ASA), is indicated for the reduction of"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Kengrexal 50 mg powder for concentrate for solution for injection/infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-eefded9fc6fc231de4e5964766009df5
 InstanceOf: BundleUvEpi
@@ -321,7 +372,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/15/994/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -329,5 +380,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-eefded9fc6fc231de4e5964766009df5"
 * entry[0].resource = composition-en-eefded9fc6fc231de4e5964766009df5
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdf1c190a78ec4f5a8db8ac7426085e9a"
+* entry[=].resource = mpdf1c190a78ec4f5a8db8ac7426085e9a
+                            
                       

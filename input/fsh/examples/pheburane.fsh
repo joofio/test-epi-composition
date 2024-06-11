@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpaf5858f8121f06e76bcfc09fd1d2bf22)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -353,6 +353,57 @@ Tel: + 33 153 868 info@lucanepharma.com </p>
 
 
 
+Instance: mpaf5858f8121f06e76bcfc09fd1d2bf22
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product PHEBURANE 483 mg/g granules"
+Description: "PHEBURANE 483 mg/g granules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/822/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "PHEBURANE is indicated as adjunctive therapy in the chronic management of urea cycle disorders,"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "PHEBURANE 483 mg/g granules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-1d04d08431237504735e48c47e138afc
 InstanceOf: BundleUvEpi
@@ -364,7 +415,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/822/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -372,5 +423,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-1d04d08431237504735e48c47e138afc"
 * entry[0].resource = composition-en-1d04d08431237504735e48c47e138afc
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpaf5858f8121f06e76bcfc09fd1d2bf22"
+* entry[=].resource = mpaf5858f8121f06e76bcfc09fd1d2bf22
+                            
                       

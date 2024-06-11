@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp45352754496b1fbff724034ba82c9f47)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -265,6 +265,57 @@ throw away medicines you no longer use. These measures will help protect the env
 
 
 
+Instance: mp45352754496b1fbff724034ba82c9f47
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product NovoNorm 0.5 mg tablets"
+Description: "NovoNorm 0.5 mg tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/98/076/004-006, EU/1/98/076/023"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Repaglinide is indicated in adults with type 2 diabetes mellitus whose hyperglycaemia can no longer"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "NovoNorm 0.5 mg tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-3d8be59753418e73dbd90a9360e898ae
 InstanceOf: BundleUvEpi
@@ -276,7 +327,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/98/076/004-006, EU/1/98/076/023"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -284,5 +335,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-3d8be59753418e73dbd90a9360e898ae"
 * entry[0].resource = composition-en-3d8be59753418e73dbd90a9360e898ae
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp45352754496b1fbff724034ba82c9f47"
+* entry[=].resource = mp45352754496b1fbff724034ba82c9f47
+                            
                       

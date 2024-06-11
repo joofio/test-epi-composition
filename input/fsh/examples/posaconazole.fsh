@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp19f075f1689c412b3e33950483104a03)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -467,6 +467,57 @@ Poland </p>
 
 
 
+Instance: mp19f075f1689c412b3e33950483104a03
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Posaconazole AHCL 40 mg/mL oral suspension"
+Description: "Posaconazole AHCL 40 mg/mL oral suspension"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/19/1380/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Posaconazole AHCL oral suspension is indicated for use in the treatment of the following fungal"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Posaconazole AHCL 40 mg/mL oral suspension"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-2e5fc8a9ad9427a49a8dfdfc9d19d676
 InstanceOf: BundleUvEpi
@@ -478,7 +529,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/19/1380/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -486,5 +537,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-2e5fc8a9ad9427a49a8dfdfc9d19d676"
 * entry[0].resource = composition-en-2e5fc8a9ad9427a49a8dfdfc9d19d676
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp19f075f1689c412b3e33950483104a03"
+* entry[=].resource = mp19f075f1689c412b3e33950483104a03
+                            
                       

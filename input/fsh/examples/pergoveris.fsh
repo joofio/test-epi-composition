@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpbdb0602a1986eef40e22413015c640b2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -412,6 +412,57 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mpbdb0602a1986eef40e22413015c640b2
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Pergoveris 150 IU/75 IU powder and solvent for solution for injection"
+Description: "Pergoveris 150 IU/75 IU powder and solvent for solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/07/396/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Pergoveris is indicated for the stimulation of follicular development in adult women with severe LH"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Pergoveris 150 IU/75 IU powder and solvent for solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-eb7d3517ce728a017d7b2f838a6f78c4
 InstanceOf: BundleUvEpi
@@ -423,7 +474,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/07/396/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -431,5 +482,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-eb7d3517ce728a017d7b2f838a6f78c4"
 * entry[0].resource = composition-en-eb7d3517ce728a017d7b2f838a6f78c4
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpbdb0602a1986eef40e22413015c640b2"
+* entry[=].resource = mpbdb0602a1986eef40e22413015c640b2
+                            
                       

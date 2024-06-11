@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp5d88828fe954118e0cda9c63be482628)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -315,6 +315,57 @@ Tel +370 672 12This leaflet was last revised in  </p>
 
 
 
+Instance: mp5d88828fe954118e0cda9c63be482628
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product ADASUVE 4.5 mg inhalation powder, pre-dispensed"
+Description: "ADASUVE 4.5 mg inhalation powder, pre-dispensed"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/823/001 (5 single-dose inhalers)"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "ADASUVE is indicated for the rapid control of mild-to-moderate agitation in adult patients with"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "ADASUVE 4.5 mg inhalation powder, pre-dispensed"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-a65021751afedc04d4560394d8a23778
 InstanceOf: BundleUvEpi
@@ -326,7 +377,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/823/001 (5 single-dose inhalers)"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -334,5 +385,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-a65021751afedc04d4560394d8a23778"
 * entry[0].resource = composition-en-a65021751afedc04d4560394d8a23778
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5d88828fe954118e0cda9c63be482628"
+* entry[=].resource = mp5d88828fe954118e0cda9c63be482628
+                            
                       

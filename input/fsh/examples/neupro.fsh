@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpaf1dfa104fb66178ff81d986232d0542)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -484,6 +484,57 @@ environment. </p>         </div>"""
 
 
 
+Instance: mpaf1dfa104fb66178ff81d986232d0542
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Neupro 1 mg/24 h transdermal patch"
+Description: "Neupro 1 mg/24 h transdermal patch"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "14"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Neupro is indicated for the symptomatic treatment of moderate to severe idiopathic Restless Legs"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Neupro 1 mg/24 h transdermal patch"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-c035528dfd6d4e6a78efce6dbdfc502c
 InstanceOf: BundleUvEpi
@@ -495,7 +546,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "14"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -503,5 +554,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-c035528dfd6d4e6a78efce6dbdfc502c"
 * entry[0].resource = composition-en-c035528dfd6d4e6a78efce6dbdfc502c
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpaf1dfa104fb66178ff81d986232d0542"
+* entry[=].resource = mpaf1dfa104fb66178ff81d986232d0542
+                            
                       

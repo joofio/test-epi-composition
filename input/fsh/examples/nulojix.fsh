@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp22d787beab538a5e3318fb559a3952d7)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -423,6 +423,57 @@ Ireland </p>
 
 
 
+Instance: mp22d787beab538a5e3318fb559a3952d7
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product NULOJIX 250 mg powder for concentrate for solution for infusion"
+Description: "NULOJIX 250 mg powder for concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/11/694/001-002"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "NULOJIX, in combination with corticosteroids and a mycophenolic acid (MPA), is indicated for"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "NULOJIX 250 mg powder for concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-b4bc6381ffe8a433a405b4f88b0c023b
 InstanceOf: BundleUvEpi
@@ -434,7 +485,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/11/694/001-002"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -442,5 +493,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-b4bc6381ffe8a433a405b4f88b0c023b"
 * entry[0].resource = composition-en-b4bc6381ffe8a433a405b4f88b0c023b
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp22d787beab538a5e3318fb559a3952d7"
+* entry[=].resource = mp22d787beab538a5e3318fb559a3952d7
+                            
                       

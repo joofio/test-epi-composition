@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp152c0cc2989f876cba1938e6eaddcd55)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -306,6 +306,57 @@ Germany </p>
 
 
 
+Instance: mp152c0cc2989f876cba1938e6eaddcd55
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product DIFICLIR 200 mg film-coated tablets"
+Description: "DIFICLIR 200 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/11/733/003-004"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "DIFICLIR film-coated tablets is indicated for the treatment of Clostridioides difficile infections (CDI)"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "DIFICLIR 200 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-e96a2b015f0fafafc915826cda7b875c
 InstanceOf: BundleUvEpi
@@ -317,7 +368,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/11/733/003-004"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -325,5 +376,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-e96a2b015f0fafafc915826cda7b875c"
 * entry[0].resource = composition-en-e96a2b015f0fafafc915826cda7b875c
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp152c0cc2989f876cba1938e6eaddcd55"
+* entry[=].resource = mp152c0cc2989f876cba1938e6eaddcd55
+                            
                       

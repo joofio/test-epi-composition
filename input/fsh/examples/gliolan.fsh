@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpfae6a04761fe4504faaf2d44cb5ce1db)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -315,6 +315,57 @@ IRL - Dublin Tel: + 353 (0)1 290 7medical@dccvital.com </p>
 
 
 
+Instance: mpfae6a04761fe4504faaf2d44cb5ce1db
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Gliolan 30 mg/ml powder for oral solution."
+Description: "Gliolan 30 mg/ml powder for oral solution."
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/07/413/001-003"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Gliolan is indicated in adults for visualisation of malignant tissue during surgery for malignant glioma"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Gliolan 30 mg/ml powder for oral solution."
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-28443e1a5133f6583423ca208758fe45
 InstanceOf: BundleUvEpi
@@ -326,7 +377,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/07/413/001-003"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -334,5 +385,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-28443e1a5133f6583423ca208758fe45"
 * entry[0].resource = composition-en-28443e1a5133f6583423ca208758fe45
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpfae6a04761fe4504faaf2d44cb5ce1db"
+* entry[=].resource = mpfae6a04761fe4504faaf2d44cb5ce1db
+                            
                       

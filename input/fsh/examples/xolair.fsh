@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp7d285a8828a166ee69a18d71c432c8d6)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -389,6 +389,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp7d285a8828a166ee69a18d71c432c8d6
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Xolair 75 mg solution for injection in pre-filled syringe"
+Description: "Xolair 75 mg solution for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Xolair 75 mg solution for injection in pre-filled syringe"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Allergic asthma"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Xolair 75 mg solution for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-bc32605beac01612a375921fa870418a
 InstanceOf: BundleUvEpi
@@ -400,7 +451,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Xolair 75 mg solution for injection in pre-filled syringe"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -408,5 +459,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-bc32605beac01612a375921fa870418a"
 * entry[0].resource = composition-en-bc32605beac01612a375921fa870418a
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7d285a8828a166ee69a18d71c432c8d6"
+* entry[=].resource = mp7d285a8828a166ee69a18d71c432c8d6
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpd0e82b9616fea9d70e6bc85ad4d3b181)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -300,6 +300,57 @@ Lilly S.A., Avda. de la Industria 30, 28108 Alcobendas, Madrid, Spain. </p>
 
 
 
+Instance: mpd0e82b9616fea9d70e6bc85ad4d3b181
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product ZYPREXA 2.5 mg coated tablets"
+Description: "ZYPREXA 2.5 mg coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/96/022/002 - ZYPREXA - 2.5 mg - coated tablets - 28 tablets, per box."
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Adults"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "ZYPREXA 2.5 mg coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-9cfa53e5a31a6544aeb83b303f96813f
 InstanceOf: BundleUvEpi
@@ -311,7 +362,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/96/022/002 - ZYPREXA - 2.5 mg - coated tablets - 28 tablets, per box."
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -319,5 +370,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-9cfa53e5a31a6544aeb83b303f96813f"
 * entry[0].resource = composition-en-9cfa53e5a31a6544aeb83b303f96813f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd0e82b9616fea9d70e6bc85ad4d3b181"
+* entry[=].resource = mpd0e82b9616fea9d70e6bc85ad4d3b181
+                            
                       

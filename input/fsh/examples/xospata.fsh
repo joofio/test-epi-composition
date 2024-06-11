@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp2cb8a04749486646c0f65f6915a3ab59)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -347,6 +347,57 @@ Tel: +353 (0)1 4671Free call from Northern Ireland: 0800 783 5This leaflet was l
 
 
 
+Instance: mp2cb8a04749486646c0f65f6915a3ab59
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Xospata 40 mg film-coated tablets"
+Description: "Xospata 40 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/19/1399/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Xospata is indicated as monotherapy for the treatment of adult patients who have relapsed or refractory"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Xospata 40 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-eed4802d86314fbe213d3f12beb50fbb
 InstanceOf: BundleUvEpi
@@ -358,7 +409,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/19/1399/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -366,5 +417,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-eed4802d86314fbe213d3f12beb50fbb"
 * entry[0].resource = composition-en-eed4802d86314fbe213d3f12beb50fbb
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp2cb8a04749486646c0f65f6915a3ab59"
+* entry[=].resource = mp2cb8a04749486646c0f65f6915a3ab59
+                            
                       

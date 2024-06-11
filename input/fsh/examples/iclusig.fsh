@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp63f70def5efa86c6d437e0c4def72ca6)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -399,6 +399,57 @@ http://www.ema.europa.eu. </p>
 
 
 
+Instance: mp63f70def5efa86c6d437e0c4def72ca6
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Iclusig 15 mg film-coated tablets"
+Description: "Iclusig 15 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Iclusig 15 mg film-coated tablets"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Iclusig is indicated in adult patients with"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Iclusig 15 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-5e5a65e1c335023d46902a7373e1d95f
 InstanceOf: BundleUvEpi
@@ -410,7 +461,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Iclusig 15 mg film-coated tablets"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -418,5 +469,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-5e5a65e1c335023d46902a7373e1d95f"
 * entry[0].resource = composition-en-5e5a65e1c335023d46902a7373e1d95f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp63f70def5efa86c6d437e0c4def72ca6"
+* entry[=].resource = mp63f70def5efa86c6d437e0c4def72ca6
+                            
                       

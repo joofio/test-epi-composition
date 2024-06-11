@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp4e3a077c64b920a813d28e14888461e1)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -445,6 +445,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp4e3a077c64b920a813d28e14888461e1
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Nivestim 12 MU/0.2 ml solution for injection/infusion"
+Description: "Nivestim 12 MU/0.2 ml solution for injection/infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/10/631/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Filgrastim is indicated for the reduction in the duration of neutropenia and the incidence of febrile"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Nivestim 12 MU/0.2 ml solution for injection/infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-c0fc8346370db86fff94bbff1fb34a68
 InstanceOf: BundleUvEpi
@@ -456,7 +507,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/10/631/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -464,5 +515,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-c0fc8346370db86fff94bbff1fb34a68"
 * entry[0].resource = composition-en-c0fc8346370db86fff94bbff1fb34a68
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp4e3a077c64b920a813d28e14888461e1"
+* entry[=].resource = mp4e3a077c64b920a813d28e14888461e1
+                            
                       

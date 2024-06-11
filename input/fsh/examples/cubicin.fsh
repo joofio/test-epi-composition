@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp0503c4f7ea65f5b94c9ca3a324090040)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -536,6 +536,57 @@ not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mp0503c4f7ea65f5b94c9ca3a324090040
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Cubicin 350 mg powder for solution for injection or infusion"
+Description: "Cubicin 350 mg powder for solution for injection or infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Cubicin 350 mg powder for solution for injection or infusion"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Cubicin is indicated for the treatment of the following infections (see sections 4.4 and 5.1)."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Cubicin 350 mg powder for solution for injection or infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-e2a8db799211e459b47eab2397a33e4f
 InstanceOf: BundleUvEpi
@@ -547,7 +598,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Cubicin 350 mg powder for solution for injection or infusion"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -555,5 +606,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-e2a8db799211e459b47eab2397a33e4f"
 * entry[0].resource = composition-en-e2a8db799211e459b47eab2397a33e4f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp0503c4f7ea65f5b94c9ca3a324090040"
+* entry[=].resource = mp0503c4f7ea65f5b94c9ca3a324090040
+                            
                       

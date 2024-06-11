@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpba62682d7a134bf3f9e55395558b6846)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -302,6 +302,57 @@ Tel: +30 210 7488 This leaflet was last revised in </p>
 
 
 
+Instance: mpba62682d7a134bf3f9e55395558b6846
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Orgovyx 120 mg film-coated tablets"
+Description: "Orgovyx 120 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/22/1642/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Orgovyx is indicated for the treatment of adult patients with advanced hormone-sensitive prostate"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Orgovyx 120 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-987766e2219c5177d278b3430b3652be
 InstanceOf: BundleUvEpi
@@ -313,7 +364,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/22/1642/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -321,5 +372,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-987766e2219c5177d278b3430b3652be"
 * entry[0].resource = composition-en-987766e2219c5177d278b3430b3652be
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpba62682d7a134bf3f9e55395558b6846"
+* entry[=].resource = mpba62682d7a134bf3f9e55395558b6846
+                            
                       

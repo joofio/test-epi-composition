@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp935f7cfc4773fccbac9e953af0a525ca)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -601,6 +601,57 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mp935f7cfc4773fccbac9e953af0a525ca
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Taltz 80 mg solution for injection in pre-filled syringe"
+Description: "Taltz 80 mg solution for injection in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/15/1085/004"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Plaque psoriasis"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Taltz 80 mg solution for injection in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-0a52b09545f0b2e00d5c72212ca2a403
 InstanceOf: BundleUvEpi
@@ -612,7 +663,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/15/1085/004"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -620,5 +671,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-0a52b09545f0b2e00d5c72212ca2a403"
 * entry[0].resource = composition-en-0a52b09545f0b2e00d5c72212ca2a403
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp935f7cfc4773fccbac9e953af0a525ca"
+* entry[=].resource = mp935f7cfc4773fccbac9e953af0a525ca
+                            
                       

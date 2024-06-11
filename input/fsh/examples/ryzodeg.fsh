@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp196863785486382c703d082211941f84)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -371,6 +371,57 @@ Novo All , DK-2880 Bagsv rd, Denmark. </p>
 
 
 
+Instance: mp196863785486382c703d082211941f84
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Ryzodeg 100 units/mL solution for injection in pre-filled pen"
+Description: "Ryzodeg 100 units/mL solution for injection in pre-filled pen"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Ryzodeg 100 units/mL solution for injection in pre-filled pen"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Treatment of diabetes mellitus in adults, adolescents and children from the age of 2 years."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Ryzodeg 100 units/mL solution for injection in pre-filled pen"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-47f74762e12054bd07cc18f7f2dc9dfb
 InstanceOf: BundleUvEpi
@@ -382,7 +433,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Ryzodeg 100 units/mL solution for injection in pre-filled pen"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -390,5 +441,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-47f74762e12054bd07cc18f7f2dc9dfb"
 * entry[0].resource = composition-en-47f74762e12054bd07cc18f7f2dc9dfb
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp196863785486382c703d082211941f84"
+* entry[=].resource = mp196863785486382c703d082211941f84
+                            
                       

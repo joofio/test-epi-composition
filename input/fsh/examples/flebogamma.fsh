@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp5dab382e9c20e8a7dbdbd1c2941d7078)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -564,6 +564,57 @@ side effects not listed in this leaflet. See section 4.</p>         </div>"""
 
 
 
+Instance: mp5dab382e9c20e8a7dbdbd1c2941d7078
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Flebogamma DIF 50 mg/ml solution for infusion"
+Description: "Flebogamma DIF 50 mg/ml solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/07/404/001-005"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Replacement therapy in adults, children and adolescents (2 - 18 years) in:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Flebogamma DIF 50 mg/ml solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-d4555e443163704d4c697ea40b21716a
 InstanceOf: BundleUvEpi
@@ -575,7 +626,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/07/404/001-005"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -583,5 +634,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-d4555e443163704d4c697ea40b21716a"
 * entry[0].resource = composition-en-d4555e443163704d4c697ea40b21716a
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5dab382e9c20e8a7dbdbd1c2941d7078"
+* entry[=].resource = mp5dab382e9c20e8a7dbdbd1c2941d7078
+                            
                       

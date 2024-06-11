@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpb6c1b8992204a50a0aef8350eb65a57a)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -628,6 +628,57 @@ Ireland </p>
 
 
 
+Instance: mpb6c1b8992204a50a0aef8350eb65a57a
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product YERVOY 5 mg/ml concentrate for solution for infusion"
+Description: "YERVOY 5 mg/ml concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/11/698/001-002"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Melanoma"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "YERVOY 5 mg/ml concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-a2652d1642d1c9344c422837d3b948bc
 InstanceOf: BundleUvEpi
@@ -639,7 +690,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/11/698/001-002"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -647,5 +698,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-a2652d1642d1c9344c422837d3b948bc"
 * entry[0].resource = composition-en-a2652d1642d1c9344c422837d3b948bc
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpb6c1b8992204a50a0aef8350eb65a57a"
+* entry[=].resource = mpb6c1b8992204a50a0aef8350eb65a57a
+                            
                       

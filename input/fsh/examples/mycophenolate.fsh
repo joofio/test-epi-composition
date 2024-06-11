@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpceb2088f93c39390e38730bdd961de99)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -489,6 +489,57 @@ Tel: +44 2075407This leaflet was last revised in {MM/YYYY}. </p>
 
 
 
+Instance: mpceb2088f93c39390e38730bdd961de99
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Mycophenolate mofetil Teva 250 mg hard capsules"
+Description: "Mycophenolate mofetil Teva 250 mg hard capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/07/439/001 (100 capsules)"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Mycophenolate mofetil Teva is indicated in combination with ciclosporin and corticosteroids for the"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Mycophenolate mofetil Teva 250 mg hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-abfb98258fb6ebad664e6e102308dcc0
 InstanceOf: BundleUvEpi
@@ -500,7 +551,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/07/439/001 (100 capsules)"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -508,5 +559,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-abfb98258fb6ebad664e6e102308dcc0"
 * entry[0].resource = composition-en-abfb98258fb6ebad664e6e102308dcc0
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpceb2088f93c39390e38730bdd961de99"
+* entry[=].resource = mpceb2088f93c39390e38730bdd961de99
+                            
                       

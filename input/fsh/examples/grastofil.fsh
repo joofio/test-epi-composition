@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpe2f566e1879c46ed14b11c602b4b0c4e)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -432,6 +432,57 @@ Rafarm AEBE
 
 
 
+Instance: mpe2f566e1879c46ed14b11c602b4b0c4e
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Grastofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+Description: "Grastofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/877/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Grastofil is indicated for the reduction in the duration of neutropenia and the incidence of febrile"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Grastofil 30 MU/0.5 ml solution for injection/infusion in pre-filled syringe"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-8e61b46541cd782d75f47b06ddfea02f
 InstanceOf: BundleUvEpi
@@ -443,7 +494,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/877/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -451,5 +502,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-8e61b46541cd782d75f47b06ddfea02f"
 * entry[0].resource = composition-en-8e61b46541cd782d75f47b06ddfea02f
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe2f566e1879c46ed14b11c602b4b0c4e"
+* entry[=].resource = mpe2f566e1879c46ed14b11c602b4b0c4e
+                            
                       

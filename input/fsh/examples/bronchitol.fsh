@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpc50ae8c10c612a36f210bad217ea4f73)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -362,6 +362,57 @@ Tel: + 39 0521 2This leaflet was last revised in MM/YYYY. </p>
 
 
 
+Instance: mpc50ae8c10c612a36f210bad217ea4f73
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Bronchitol 40 mg inhalation powder, hard capsules"
+Description: "Bronchitol 40 mg inhalation powder, hard capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/12/760/001-002"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Bronchitol is indicated for the treatment of cystic fibrosis (CF) in adults aged 18 years and above as an"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Bronchitol 40 mg inhalation powder, hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-2ec5cb8052ccbdb184e32cd4cc8c7dd4
 InstanceOf: BundleUvEpi
@@ -373,7 +424,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/12/760/001-002"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -381,5 +432,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-2ec5cb8052ccbdb184e32cd4cc8c7dd4"
 * entry[0].resource = composition-en-2ec5cb8052ccbdb184e32cd4cc8c7dd4
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpc50ae8c10c612a36f210bad217ea4f73"
+* entry[=].resource = mpc50ae8c10c612a36f210bad217ea4f73
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp017e271abdff0c63b509977b9e8acf77)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -329,6 +329,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp017e271abdff0c63b509977b9e8acf77
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product IRESSA 250 mg film-coated tablets"
+Description: "IRESSA 250 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/09/526/001 perforated blister"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "IRESSA is indicated as monotherapy for the treatment of adult patients with locally advanced or"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "IRESSA 250 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-a7a8f3aaed2850db2f524101df25e7ab
 InstanceOf: BundleUvEpi
@@ -340,7 +391,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/09/526/001 perforated blister"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -348,5 +399,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-a7a8f3aaed2850db2f524101df25e7ab"
 * entry[0].resource = composition-en-a7a8f3aaed2850db2f524101df25e7ab
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp017e271abdff0c63b509977b9e8acf77"
+* entry[=].resource = mp017e271abdff0c63b509977b9e8acf77
+                            
                       

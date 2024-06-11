@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp16781de3a89ef6bc95c658fc619a0fb5)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -349,6 +349,57 @@ Tel: +353 214619This leaflet was last revised in &lt;{MM/YYYY}&gt; </p>
 
 
 
+Instance: mp16781de3a89ef6bc95c658fc619a0fb5
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Rapilysin 10 U powder and solvent for solution for injection."
+Description: "Rapilysin 10 U powder and solvent for solution for injection."
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/96/018/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Rapilysin is indicated for the thrombolytic treatment of suspected myocardial infarction with persistent"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Rapilysin 10 U powder and solvent for solution for injection."
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-4ddd1ab0c737d818a0282b987d49df2b
 InstanceOf: BundleUvEpi
@@ -360,7 +411,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/96/018/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -368,5 +419,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-4ddd1ab0c737d818a0282b987d49df2b"
 * entry[0].resource = composition-en-4ddd1ab0c737d818a0282b987d49df2b
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp16781de3a89ef6bc95c658fc619a0fb5"
+* entry[=].resource = mp16781de3a89ef6bc95c658fc619a0fb5
+                            
                       

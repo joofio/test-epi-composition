@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpebab6083d6cd13ba62849b692483c795)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -402,6 +402,57 @@ Tel.: + 44 (0)800 783 8This leaflet was last revised in  </p>
 
 
 
+Instance: mpebab6083d6cd13ba62849b692483c795
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Nexium Control 20 mg gastro-resistant tablets"
+Description: "Nexium Control 20 mg gastro-resistant tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/860/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Nexium Control is indicated for the short-term treatment of reflux symptoms (e.g. heartburn and acid"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Nexium Control 20 mg gastro-resistant tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-f820aac92043b070aeae10deaf85e116
 InstanceOf: BundleUvEpi
@@ -413,7 +464,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/860/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -421,5 +472,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-f820aac92043b070aeae10deaf85e116"
 * entry[0].resource = composition-en-f820aac92043b070aeae10deaf85e116
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpebab6083d6cd13ba62849b692483c795"
+* entry[=].resource = mpebab6083d6cd13ba62849b692483c795
+                            
                       

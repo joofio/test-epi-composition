@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp3e84d8dfcf9451f4aecd07236bdddc86)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -511,6 +511,57 @@ autoclaved, if possible.</p>         </div>"""
 
 
 
+Instance: mp3e84d8dfcf9451f4aecd07236bdddc86
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Hemgenix 1 x 1013 genome copies/mL concentrate for solution for infusion"
+Description: "Hemgenix 1 x 1013 genome copies/mL concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/22/1715/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Hemgenix is indicated for the treatment of severe and moderately severe Haemophilia B (congenital"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Hemgenix 1 x 1013 genome copies/mL concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-368e8679c0472a0d2aa9d82ac9fd7ab6
 InstanceOf: BundleUvEpi
@@ -522,7 +573,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/22/1715/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -530,5 +581,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6"
 * entry[0].resource = composition-en-368e8679c0472a0d2aa9d82ac9fd7ab6
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp3e84d8dfcf9451f4aecd07236bdddc86"
+* entry[=].resource = mp3e84d8dfcf9451f4aecd07236bdddc86
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp5f1b6a08602b0e042c9881eca3fea4f5)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -361,6 +361,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mp5f1b6a08602b0e042c9881eca3fea4f5
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Skyclarys 50 mg hard capsules"
+Description: "Skyclarys 50 mg hard capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/23/1786/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Skyclarys is indicated for the treatment of Friedreich’s ataxia in adults and adolescents aged 16 years"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Skyclarys 50 mg hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-3c1db916d2062445ec61cc58880ca8a2
 InstanceOf: BundleUvEpi
@@ -372,7 +423,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/23/1786/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -380,5 +431,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-3c1db916d2062445ec61cc58880ca8a2"
 * entry[0].resource = composition-en-3c1db916d2062445ec61cc58880ca8a2
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp5f1b6a08602b0e042c9881eca3fea4f5"
+* entry[=].resource = mp5f1b6a08602b0e042c9881eca3fea4f5
+                            
                       

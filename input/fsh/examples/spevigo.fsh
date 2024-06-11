@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp7d3620fa0055481aa97d68dfe7677063)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -374,6 +374,57 @@ in the European Public Assessment Report.</p>         </div>"""
 
 
 
+Instance: mp7d3620fa0055481aa97d68dfe7677063
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Spevigo 450 mg concentrate for solution for infusion"
+Description: "Spevigo 450 mg concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/22/1688/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Spevigo is indicated for the treatment of flares in adult patients with generalised pustular psoriasis"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Spevigo 450 mg concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-6b301f6c675105f98d980bf8971e8028
 InstanceOf: BundleUvEpi
@@ -385,7 +436,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/22/1688/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -393,5 +444,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-6b301f6c675105f98d980bf8971e8028"
 * entry[0].resource = composition-en-6b301f6c675105f98d980bf8971e8028
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp7d3620fa0055481aa97d68dfe7677063"
+* entry[=].resource = mp7d3620fa0055481aa97d68dfe7677063
+                            
                       

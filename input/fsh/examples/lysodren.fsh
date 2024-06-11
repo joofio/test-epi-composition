@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp6fb43842b99315263e0f9002caa88cc3)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -316,6 +316,57 @@ Tel: + 33 1 40 33 93 medinfo-rd@hra-pharma.com </p>         </div>"""
 
 
 
+Instance: mp6fb43842b99315263e0f9002caa88cc3
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Lysodren 500 mg tablets"
+Description: "Lysodren 500 mg tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/04/273/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Symptomatic treatment of advanced (unresectable, metastatic or relapsed) adrenal cortical carcinoma"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Lysodren 500 mg tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-96958c1c1275e460bebf23cdf143ad79
 InstanceOf: BundleUvEpi
@@ -327,7 +378,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/04/273/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -335,5 +386,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-96958c1c1275e460bebf23cdf143ad79"
 * entry[0].resource = composition-en-96958c1c1275e460bebf23cdf143ad79
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp6fb43842b99315263e0f9002caa88cc3"
+* entry[=].resource = mp6fb43842b99315263e0f9002caa88cc3
+                            
                       

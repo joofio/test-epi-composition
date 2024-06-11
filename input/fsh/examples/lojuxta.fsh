@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpe90d4d9295c7cb16ac4740d1f4f0d822)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -476,6 +476,57 @@ leaflet will be updated as necessary. </p>
 
 
 
+Instance: mpe90d4d9295c7cb16ac4740d1f4f0d822
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Lojuxta 5 mg hard capsules"
+Description: "Lojuxta 5 mg hard capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/13/851/001 – Lojuxta 5 mg hard capsules"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Lojuxta is indicated as an adjunct to a low-fat diet and other lipid-lowering medicinal products with or"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Lojuxta 5 mg hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-02b234fa664dab0f39045c8374bebc79
 InstanceOf: BundleUvEpi
@@ -487,7 +538,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/13/851/001 – Lojuxta 5 mg hard capsules"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -495,5 +546,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-02b234fa664dab0f39045c8374bebc79"
 * entry[0].resource = composition-en-02b234fa664dab0f39045c8374bebc79
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpe90d4d9295c7cb16ac4740d1f4f0d822"
+* entry[=].resource = mpe90d4d9295c7cb16ac4740d1f4f0d822
+                            
                       

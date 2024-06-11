@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpd9fab05fb5db0d0ccf9594d2f5406e34)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -585,6 +585,57 @@ Detailed information on this medicine is available on the European Medicines Age
 
 
 
+Instance: mpd9fab05fb5db0d0ccf9594d2f5406e34
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Latuda 18.5 mg film-coated tablets"
+Description: "Latuda 18.5 mg film-coated tablets"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "Latuda 18.5 mg film-coated tablet"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Latuda is indicated for the treatment of schizophrenia in adults and adolescent aged 13 years and over."
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Latuda 18.5 mg film-coated tablets"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-9ffd57dba3e5b324f9d193e04a56b735
 InstanceOf: BundleUvEpi
@@ -596,7 +647,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "Latuda 18.5 mg film-coated tablet"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -604,5 +655,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-9ffd57dba3e5b324f9d193e04a56b735"
 * entry[0].resource = composition-en-9ffd57dba3e5b324f9d193e04a56b735
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd9fab05fb5db0d0ccf9594d2f5406e34"
+* entry[=].resource = mpd9fab05fb5db0d0ccf9594d2f5406e34
+                            
                       

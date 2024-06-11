@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpdcf711b4ec1ee1082f9f89b0578451a8)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -292,6 +292,57 @@ A91 P9KD, Ireland </p>
 
 
 
+Instance: mpdcf711b4ec1ee1082f9f89b0578451a8
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product TRISENOX 1 mg/ml concentrate for solution for infusion"
+Description: "TRISENOX 1 mg/ml concentrate for solution for infusion"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "TRISENOX 1 mg/ml concentrate for solution for infusion"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "TRISENOX is indicated for induction of remission, and consolidation in adult patients with:"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "TRISENOX 1 mg/ml concentrate for solution for infusion"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-8e9729f37593f28a655449a0b1bb5596
 InstanceOf: BundleUvEpi
@@ -303,7 +354,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "TRISENOX 1 mg/ml concentrate for solution for infusion"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -311,5 +362,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-8e9729f37593f28a655449a0b1bb5596"
 * entry[0].resource = composition-en-8e9729f37593f28a655449a0b1bb5596
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpdcf711b4ec1ee1082f9f89b0578451a8"
+* entry[=].resource = mpdcf711b4ec1ee1082f9f89b0578451a8
+                            
                       

@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mpd5096407469b0b2db1d3b7b769dbbcd2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -519,6 +519,57 @@ Tel: +30 210 7488 This leaflet was last revised in </p>
 
 
 
+Instance: mpd5096407469b0b2db1d3b7b769dbbcd2
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Dabigatran etexilate Accord 75 mg hard capsules"
+Description: "Dabigatran etexilate Accord 75 mg hard capsules"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/22/1665/001"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Primary prevention of venous thromboembolic events (VTE) in adult patients who have undergone"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Dabigatran etexilate Accord 75 mg hard capsules"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-2b99aad8ae1cf49fbba781db638512ee
 InstanceOf: BundleUvEpi
@@ -530,7 +581,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/22/1665/001"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -538,5 +589,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-2b99aad8ae1cf49fbba781db638512ee"
 * entry[0].resource = composition-en-2b99aad8ae1cf49fbba781db638512ee
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mpd5096407469b0b2db1d3b7b769dbbcd2"
+* entry[=].resource = mpd5096407469b0b2db1d3b7b769dbbcd2
+                            
                       

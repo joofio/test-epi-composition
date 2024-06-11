@@ -14,7 +14,7 @@ Usage: #inline
 * type = https://spor.ema.europa.eu/rmswi/#100000155538
 * type.text = "Package Leaflet"
 
-* subject = Reference(mock)
+* subject = Reference(mp129ff0f28e7eb84f205f45e442ae10c2)
 * date = "2022-02-16T13:28:17Z"
 
  
@@ -310,6 +310,57 @@ P43 RThis leaflet was last revised in MM/YYYY. </p>
 
 
 
+Instance: mp129ff0f28e7eb84f205f45e442ae10c2
+InstanceOf: MedicinalProductDefinitionUvEpi
+Title: "Medicinal Product Voxzogo 0.4 mg powder and solvent for solution for injection"
+Description: "Voxzogo 0.4 mg powder and solvent for solution for injection"
+Usage: #inline
+
+ 
+* identifier[+].system = "http://ema.europa.eu/identifier"
+* identifier[=].value = "EU/1/21/1577/001 10 x 0.4 mg Powder and solvent for solution for injection"
+* type = http://hl7.org/fhir/medicinal-product-type#MedicinalProduct "Medicinal Product"
+
+* domain = http://hl7.org/fhir/medicinal-product-domain#Human "Human use"
+
+* status = http://hl7.org/fhir/publication-status#active "active"
+
+
+* indication = "Voxzogo is indicated for the treatment of achondroplasia in patients 4 months of age and older whose"
+
+
+* legalStatusOfSupply = $spor-rms#100000072084 "Medicinal product subject to medical prescription"
+
+
+* name
+  * productName = "Voxzogo 0.4 mg powder and solvent for solution for injection"
+  * type = $spor-productNamePartType-cs#220000000001 "Full name" 
+  
+  * part[0]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000002 "Invented name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000003 "Scientific name part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000004 "Strength part"
+  
+  * part[+]
+    * part = "nan"
+    * type = $spor-productNamePartType-cs#220000000005 "Pharmaceutical dose form part"
+  
+  * usage
+    * country = urn:iso:std:iso:3166#DK "DK"
+    * jurisdiction = urn:iso:std:iso:3166#DK "DK"
+    * language = urn:ietf:bcp:47#en  "en"
+
+
+
+
+
                       
 Instance: bundlepackageleaflet-en-e6fbce999498edd4c95f0774e58fd4a0
 InstanceOf: BundleUvEpi
@@ -321,7 +372,7 @@ Usage: #example
 
 
 * identifier.system = "http://ema.europa.eu/identifier" 
-* identifier.value = "None"
+* identifier.value = "EU/1/21/1577/001 10 x 0.4 mg Powder and solvent for solution for injection"
 * type = #document
 * timestamp = "2023-06-27T10:09:22Z"
 * language = #en
@@ -329,5 +380,9 @@ Usage: #example
 // Composition
 * entry[0].fullUrl = "Composition/composition-en-e6fbce999498edd4c95f0774e58fd4a0"
 * entry[0].resource = composition-en-e6fbce999498edd4c95f0774e58fd4a0
-                      
+
+// MPD
+* entry[+].fullUrl = "MedicinalProductDefinition/mp129ff0f28e7eb84f205f45e442ae10c2"
+* entry[=].resource = mp129ff0f28e7eb84f205f45e442ae10c2
+                            
                       
